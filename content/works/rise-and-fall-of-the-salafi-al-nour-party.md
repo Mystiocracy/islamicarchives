@@ -6,7 +6,7 @@ language: English
 type: "Essay"
 venue: "Jadaliyya"
 subjects:
-  - "Political thought"
+  - political-thought
 rights: link-only
 sourceUrl: "https://www.jadaliyya.com/Details/29813"
 added: 2026-10-14

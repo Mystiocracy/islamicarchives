@@ -5,7 +5,7 @@ year: 1925
 language: Arabic
 type: "Book"
 subjects:
-  - "Political thought"
+  - political-thought
 summary: "The controversial argument that the caliphate is not a religious obligation."
 rights: public-domain
 rightsNote: "check jurisdiction: author d. 1966"

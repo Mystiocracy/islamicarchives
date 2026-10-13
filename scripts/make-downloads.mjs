@@ -32,8 +32,10 @@ const EPUB_CSS = join(ROOT, 'scripts', 'epub.css');
 const PDF_CSS = join(ROOT, 'scripts', 'pdf.css');
 const run = (args) => execFileSync('pandoc', args, { stdio: ['ignore', 'ignore', 'inherit'] });
 
+const idOf = (v) => String(v || '').replace(/^.*\//, '').replace(/\.md$/, '');
+
 function meta(w) {
-  const a = authors[w.data.author];
+  const a = authors[idOf(w.data.author)];
   const name = a ? a.data.name : w.data.author;
   const rights = w.data.rights === 'public-domain' ? 'Public domain' : 'Published with permission of the rights holder';
   const url = `https://islamicarchives.org/works/${w.id}/`;
@@ -60,7 +62,7 @@ for (const w of works) {
 
 // one EPUB per author with every hosted work as a chapter
 const byAuthor = {};
-for (const w of works) (byAuthor[w.data.author] ||= []).push(w);
+for (const w of works) (byAuthor[idOf(w.data.author)] ||= []).push(w);
 for (const [id, ws] of Object.entries(byAuthor)) {
   const a = authors[id];
   const name = a ? a.data.name : id;

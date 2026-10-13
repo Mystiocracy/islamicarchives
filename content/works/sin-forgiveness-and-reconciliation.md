@@ -6,7 +6,7 @@ language: English
 type: "Chapter"
 venue: "Georgetown University Press (Building Bridges)"
 subjects:
-  - "Philosophy and theology"
+  - philosophy-and-theology
 summary: "His opening lecture at the 2014 Building Bridges seminar."
 rights: link-only
 sourceUrl: "https://buildingbridges.georgetown.edu/publications/sin-forgiveness-and-reconciliation-christian-and-muslim-perspectives"

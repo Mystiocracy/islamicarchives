@@ -2,21 +2,33 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Work = CollectionEntry<'works'>;
 export type Author = CollectionEntry<'authors'>;
+export type Subject = CollectionEntry<'subjects'>;
+export type Era = CollectionEntry<'eras'>;
 
-export const SUBJECTS = [
-  'Hadith studies', 'Islamic law', 'Islam and modernity', 'Colonialism and decolonisation', 'Women and gender',
-  'Philosophy and theology', 'Political thought', 'Sufism', 'Economics', 'Slavery and race', 'Education', 'Qurʾānic studies',
-];
+export async function allSubjects() {
+  const s = await getCollection('subjects');
+  return s.sort((a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name));
+}
 
-export const ERAS = [
-  { id: '1850-1914', span: '1850–1914', name: 'Reform and the Nahda', from: 0, to: 1913 },
-  { id: '1914-1947', span: '1914–1947', name: 'End of empire', from: 1914, to: 1946 },
-  { id: '1947-1979', span: '1947–1979', name: 'New states, revival', from: 1947, to: 1978 },
-  { id: '1979-2000', span: '1979–2000', name: 'Revolution and renewal', from: 1979, to: 1999 },
-  { id: '2000-today', span: '2000–today', name: 'Contemporary voices', from: 2000, to: 9999 },
-];
+export async function allEras() {
+  const e = await getCollection('eras');
+  return e.sort((a, b) => a.data.from - b.data.from);
+}
 
-export const eraOf = (year: number) => ERAS.find((e) => year >= e.from && year <= e.to)!;
+/** "1850–1914" style label; a 'to' of 9999 shows as "today". */
+export const eraSpan = (e: Era['data']) => `${e.from}–${e.to >= 9999 ? 'today' : e.to + 1}`;
+
+/** The era a year falls in; years before the first era count as the first, later ones as the last. */
+export function eraOf(year: number, eras: Era[]) {
+  if (!eras.length) return undefined;
+  return eras.find((e) => year >= e.data.from && year <= e.data.to) || (year < eras[0].data.from ? eras[0] : eras[eras.length - 1]);
+}
+
+export async function subjectNames() {
+  const m = new Map<string, string>();
+  for (const s of await allSubjects()) m.set(s.id, s.data.name);
+  return m;
+}
 
 export async function allWorks() {
   const ws = await getCollection('works', ({ data }) => !data.draft);

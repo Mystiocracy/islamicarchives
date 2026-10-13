@@ -6,8 +6,8 @@ language: English
 type: "Article"
 venue: "Annals of Japan Association for Middle East Studies 36/2"
 subjects:
-  - "Slavery and race"
-  - "Sufism"
+  - slavery-and-race
+  - sufism
 rights: link-only
 sourceUrl: "https://www.jstage.jst.go.jp/article/ajames/36/2/36_29/_article/-char/en"
 added: 2026-10-14

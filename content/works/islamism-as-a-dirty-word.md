@@ -6,7 +6,7 @@ language: English
 type: "Essay"
 venue: "Brookings Institution"
 subjects:
-  - "Political thought"
+  - political-thought
 rights: link-only
 sourceUrl: "https://www.brookings.edu/articles/rethinking-language-islamism-as-a-dirty-word/"
 added: 2026-10-14

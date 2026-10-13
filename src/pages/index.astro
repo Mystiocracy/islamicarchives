@@ -1,10 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 import WorkRow from '../components/WorkRow.astro';
-import { allWorks, allAuthors, SUBJECTS, ERAS, years, initials } from '../lib/site';
+import { allWorks, allAuthors, allSubjects, allEras, eraSpan, years, initials } from '../lib/site';
 
 const works = await allWorks();
 const authors = await allAuthors();
+const subjects = (await allSubjects()).filter((s) => s.data.featured);
+const eras = await allEras();
 const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
 let featured = authors.filter((a) => a.data.featured);
 if (featured.length < 6) featured = featured.concat(authors.filter((a) => !a.data.featured && count(a.id) > 0)).slice(0, 6);
@@ -65,9 +67,9 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
     </section>
 
     <section class="section">
-      <div class="section-head"><h2>Browse by subject</h2></div>
+      <div class="section-head"><h2>Browse by subject</h2><a href="/subjects/" style="font-weight:500">All subjects →</a></div>
       <div style="display:flex; flex-wrap:wrap; gap:10px">
-        {SUBJECTS.map((s) => <a class="chip" href={`/library/?subject=${encodeURIComponent(s)}`}>{s}</a>)}
+        {subjects.map((s) => <a class="chip" href={`/subjects/${s.id}/`}>{s.data.name}</a>)}
       </div>
     </section>
 
@@ -79,12 +81,12 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
     <section class="section" id="eras">
       <div class="section-head"><h2>Browse by era</h2></div>
       <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); border-top:3px solid var(--green)">
-        {ERAS.map((e) => (
+        {eras.map((e) => (
           <a href={`/library/?era=${e.id}`} style="text-decoration:none; color:var(--ink); padding:18px 18px 18px 0; display:flex; flex-direction:column; gap:6px">
             <span style="width:14px; height:14px; border-radius:50%; background:var(--saffron); margin-top:-27px; border:3px solid var(--ground)"></span>
-            <span style="font-size:14px; font-weight:600; color:var(--saffron-text)">{e.span}</span>
-            <span style="font-family:var(--serif); font-weight:600; font-size:18px">{e.name}</span>
-            <span class="muted" style="font-size:14px; line-height:1.45">{eraWho(e.from, e.to)}</span>
+            <span style="font-size:14px; font-weight:600; color:var(--saffron-text)">{eraSpan(e.data)}</span>
+            <span style="font-family:var(--serif); font-weight:600; font-size:18px">{e.data.name}</span>
+            <span class="muted" style="font-size:14px; line-height:1.45">{eraWho(e.data.from, e.data.to)}</span>
           </a>
         ))}
       </div>

@@ -5,7 +5,7 @@ year: 1897
 language: Arabic
 type: "Book"
 subjects:
-  - "Philosophy and theology"
+  - philosophy-and-theology
 summary: "ʿAbduh’s treatise on the unity of God, developed from his lectures in Beirut."
 rights: public-domain
 rightsNote: "author d. 1905"

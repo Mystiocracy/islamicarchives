@@ -1,0 +1,23 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { allSubjects, allWorks } from '../../lib/site';
+const subjects = await allSubjects();
+const works = await allWorks();
+const count = (id: string) => works.filter((w) => w.data.subjects.some((s) => s.id === id)).length;
+const rows = await Promise.all(subjects.map(async (s) => ({ s, Content: (await render(s)).Content })));
+---
+<Base title="Subjects" current="subjects">
+  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:24px">
+    <h1 style="font-size:40px">Subjects</h1>
+    <div class="grid-auto" style="--min:280px">
+      {rows.map(({ s, Content }) => (
+        <a href={`/subjects/${s.id}/`} class="card" style="text-decoration:none; color:var(--ink); padding:20px; display:flex; flex-direction:column; gap:8px">
+          <span style="font-family:var(--serif); font-weight:600; font-size:20px">{s.data.name}</span>
+          <span class="muted" style="font-size:14px; line-height:1.5"><Content /></span>
+          <span style="font-size:13px; color:var(--saffron-text); font-weight:500">{count(s.id)} {count(s.id) === 1 ? 'work' : 'works'}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

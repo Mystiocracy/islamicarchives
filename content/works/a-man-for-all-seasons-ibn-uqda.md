@@ -6,7 +6,7 @@ language: English
 type: "Article"
 venue: "al-ʿUṣūr al-Wusṭā 24"
 subjects:
-  - "Hadith studies"
+  - hadith-studies
 summary: "The Kufan hadith scholar Ibn ʿUqda and how Sunni and Shiʿi scholars drew on him. Revised version of a 2008 article."
 rights: link-only
 sourceUrl: "https://www.middleeastmedievalists.com/wp-content/uploads/2016/11/UW-24-Brown.pdf"

@@ -5,8 +5,8 @@ year: 1934
 language: English
 type: "Book"
 subjects:
-  - "Philosophy and theology"
-  - "Islam and modernity"
+  - philosophy-and-theology
+  - islam-and-modernity
 summary: "Seven lectures on religious experience as a source of knowledge, the nature of the self, and ijtihād as the principle of movement in Islam. First published in 1930; expanded edition 1934."
 rights: public-domain
 rightsNote: "author d. 1938"

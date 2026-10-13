@@ -43,11 +43,18 @@ content:
         options: { values: [Book, Article, Chapter, Essay, Policy paper, Speech, Review, Collection, Translation] }
       - name: subjects
         label: Subjects
-        type: select
+        type: reference
         options:
+          collection: subjects
           multiple: true
-          creatable: true
-          values: [Hadith studies, Islamic law, Islam and modernity, Colonialism and decolonisation, Women and gender, Philosophy and theology, Political thought, Sufism, Economics, Slavery and race, Education, Qurʾānic studies]
+          search: name
+          label: "{name}"
+        description: "Pick one or more. To add a new subject, create it under Subjects first."
+      - name: keywords
+        label: Keywords
+        type: string
+        list: true
+        description: "Any extra words people might search for: names, places, concepts (e.g. ijtihād, Aligarh, caliphate)."
       - { name: venue, label: Where it was published, type: string, description: "Journal, publisher or website" }
       - { name: summary, label: One- or two-sentence summary, type: text }
       - name: rights
@@ -88,3 +95,33 @@ content:
       - { name: roles, label: Roles, type: string, description: "e.g. Poet, philosopher, lawyer" }
       - { name: featured, label: Feature on the home page, type: boolean, default: false }
       - { name: body, label: Short biography, type: rich-text }
+
+  - name: subjects
+    label: Subjects
+    type: collection
+    path: content/subjects
+    filename: "{fields.name}.md"
+    view:
+      fields: [name, order, featured]
+      primary: name
+      sort: [order, name]
+    fields:
+      - { name: name, label: Subject name, type: string, required: true }
+      - { name: order, label: Position in lists (1 = first), type: number, default: 100 }
+      - { name: featured, label: Show on the home page, type: boolean, default: true }
+      - { name: body, label: Short description, type: rich-text }
+
+  - name: eras
+    label: Eras
+    type: collection
+    path: content/eras
+    filename: "{fields.from}-{fields.name}.md"
+    view:
+      fields: [name, from, to]
+      primary: name
+      sort: [from]
+    fields:
+      - { name: name, label: Era name, type: string, required: true }
+      - { name: from, label: First year, type: number, required: true }
+      - { name: to, label: Last year (use 9999 for “today”), type: number, required: true }
+      - { name: body, label: Short description, type: rich-text }

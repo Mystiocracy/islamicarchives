@@ -6,7 +6,7 @@ language: English
 type: "Essay"
 venue: "Contending Modernities"
 subjects:
-  - "Islam and modernity"
+  - islam-and-modernity
 rights: link-only
 sourceUrl: "https://contendingmodernities.nd.edu/theorizing-modernities/rejoining-the-ottoman-and-south-asian-worlds/"
 added: 2026-10-14

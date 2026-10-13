@@ -6,7 +6,7 @@ language: English
 type: "Essay"
 venue: "Al-Madina Institute"
 subjects:
-  - "Islam and modernity"
+  - islam-and-modernity
 rights: link-only
 sourceUrl: "https://www.almadina.org/studio/articles/the-call-out-culture-an-islamic-perspective"
 added: 2026-10-14

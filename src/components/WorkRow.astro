@@ -1,20 +1,23 @@
 ---
 import { getEntry } from 'astro:content';
-import { FORMATS, hosted, RIGHTS_LABEL, eraOf, type Work } from '../lib/site';
+import { FORMATS, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, type Work } from '../lib/site';
 interface Props { work: Work; showAuthor?: boolean }
 const { work, showAuthor = true } = Astro.props;
 const d = work.data;
 const author = await getEntry(d.author);
 const isHosted = hosted(work);
-const era = eraOf(d.year);
+const era = eraOf(d.year, await allEras());
+const names = await subjectNames();
+const subjIds = d.subjects.map((s) => s.id);
+const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
 ---
 <article class="work-row"
   data-work
   data-title={d.title.toLowerCase()}
   data-author={(author?.data.name || '').toLowerCase()}
-  data-text={[d.title, author?.data.name, d.subjects.join(' '), d.summary, d.venue].join(' ').toLowerCase()}
-  data-type={d.type} data-lang={d.language} data-era={era.id} data-year={d.year}
-  data-subjects={d.subjects.join('|')} data-access={isHosted ? 'hosted' : 'link'}>
+  data-text={[d.title, author?.data.name, subjText, d.keywords.join(' '), d.summary, d.venue].join(' ').toLowerCase()}
+  data-type={d.type} data-lang={d.language} data-era={era?.id || ''} data-year={d.year}
+  data-subjects={subjIds.join('|')} data-access={isHosted ? 'hosted' : 'link'}>
   <div class="main">
     <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center">
       <span class="tag">{d.type.toUpperCase()}</span>

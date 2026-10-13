@@ -1,0 +1,23 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import WorkRow from '../../components/WorkRow.astro';
+import { allSubjects, allWorks, type Subject } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const subjects = await allSubjects();
+  return subjects.map((s) => ({ params: { slug: s.id }, props: { subject: s } }));
+}
+const { subject } = Astro.props as { subject: Subject };
+const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === subject.id));
+const { Content } = await render(subject);
+---
+<Base title={subject.data.name} current="subjects">
+  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:20px">
+    <nav aria-label="Breadcrumb" class="muted" style="font-size:14px"><a href="/subjects/">Subjects</a></nav>
+    <h1 style="font-size:40px">{subject.data.name}</h1>
+    <div style="font-size:17px; line-height:1.6; color:var(--ink-2); max-width:760px"><Content /></div>
+    <p class="muted" style="margin:0">{works.length} {works.length === 1 ? 'work' : 'works'} · <a href={`/library/?subject=${subject.id}`}>Filter further in the library</a></p>
+    {works.length ? <div class="card">{works.map((w) => <WorkRow work={w} />)}</div> : <p class="card muted" style="padding:32px; margin:0">No works have been tagged with this subject yet.</p>}
+  </div>
+</Base>

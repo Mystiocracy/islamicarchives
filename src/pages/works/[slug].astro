@@ -2,7 +2,7 @@
 import { getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import SendDialog from '../../components/SendDialog.astro';
-import { allWorks, FORMATS, hosted, RIGHTS_LABEL, eraOf, type Work } from '../../lib/site';
+import { allWorks, FORMATS, hosted, RIGHTS_LABEL, eraOf, eraSpan, allEras, subjectNames, type Work } from '../../lib/site';
 
 export async function getStaticPaths() {
   const works = await allWorks();
@@ -17,7 +17,10 @@ const toc = d.contents.length ? d.contents : headings.filter((h) => h.depth === 
 const url = new URL(`/works/${work.id}/`, Astro.site).href;
 const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
 const cite = `${lastFirst}. ${d.title}. ${d.year}. Islamic Archives: Archive of Modern Islamic Thought. ${url}`;
-const era = eraOf(d.year);
+const eras = await allEras();
+const era = eraOf(d.year, eras);
+const names = await subjectNames();
+const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id }));
 ---
 <Base title={d.title} description={d.summary}>
   <div class="wrap" style="padding-top:24px; display:flex; flex-direction:column; gap:28px" data-pagefind-body>
@@ -46,10 +49,14 @@ const era = eraOf(d.year);
 
       <div style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:24px">
         <div style="display:flex; flex-direction:column; gap:10px">
-          <span style="font-size:13px; font-weight:600; letter-spacing:0.05em; color:var(--saffron-text)">{[...d.subjects, era.span].join(' · ').toUpperCase()}</span>
+          <div style="display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; font-weight:600; letter-spacing:0.05em">
+            {subj.map((x) => <a href={`/subjects/${x.id}/`} data-pagefind-filter="subject" style="color:var(--saffron-text); text-decoration:none">{x.name.toUpperCase()}</a>)}
+            {era && <a href={`/library/?era=${era.id}`} style="color:var(--muted); text-decoration:none">{eraSpan(era.data)}</a>}
+          </div>
           <h1 style="font-size:clamp(30px, 3.6vw, 46px); line-height:1.1" data-pagefind-meta="title">{d.title}</h1>
           {author && <a href={`/authors/${author.id}/`} style="font-size:18px; font-weight:500">{author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
           {d.summary && <p style="margin:6px 0 0; font-size:17px; line-height:1.6; color:var(--ink-2); max-width:720px">{d.summary}</p>}
+          {d.keywords.length > 0 && <p class="muted" style="margin:0; font-size:14px">Keywords: {d.keywords.map((k, i) => <>{i > 0 && ', '}<a href={`/library/?q=${encodeURIComponent(k)}`}>{k}</a></>)}</p>}
         </div>
 
         <section data-pagefind-ignore class="card" aria-labelledby="dl-h" style="padding:24px; display:flex; flex-direction:column; gap:18px">
