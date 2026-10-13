@@ -1,0 +1,28 @@
+name: Check FTP settings
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Describe the saved FTP secrets (shape only, never values)
+        env:
+          S: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          node -e '
+            const {S,U,P}=process.env;
+            const ws=(x)=>/^\s|\s$/.test(x)||/[\r\n\t]/.test(x);
+            console.log("server: length", S.length, "| extra spaces/newlines:", ws(S), "| looks like IPv4:", /^\d{1,3}(\.\d{1,3}){3}$/.test(S.trim()), "| has ftp:// prefix:", /^\w+:\/\//.test(S.trim()));
+            console.log("username: length", U.length, "| extra spaces/newlines:", ws(U), "| starts like u+digits:", /^u\d+/.test(U.trim()), "| contains a dot:", U.includes("."), "| contains @:", U.includes("@"), "| part after first dot:", U.includes(".") ? (U.trim().split(".").slice(1).join(".")===("islamicarchives.org") ? "islamicarchives.org" : "something else") : "none");
+            console.log("password: length", P.length, "| extra spaces/newlines:", ws(P));
+          '
+      - name: Try logging in with plain FTP and with FTPS
+        env:
+          S: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          S=$(echo "$S" | xargs); U=$(echo "$U" | xargs)
+          echo "--- plain FTP:"; curl -s -o /dev/null -w "%{response_code}\n" --max-time 30 --user "$U:$P" "ftp://$S/" || true
+          echo "--- FTPS:"; curl -s -o /dev/null -w "%{response_code}\n" --max-time 30 --ssl-reqd -k --user "$U:$P" "ftp://$S/" || true
