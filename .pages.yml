@@ -40,7 +40,7 @@ content:
         label: Type
         type: select
         default: Article
-        options: { values: [Book, Article, Chapter, Essay, Policy paper, Speech, Review, Collection, Translation] }
+        options: { values: [Book, Pamphlet, Article, Chapter, Essay, Policy paper, Speech, Review, Collection, Anthology, Translation, Novel, Memoir, Letters, Bibliography, Interview] }
       - name: subjects
         label: Subjects
         type: reference

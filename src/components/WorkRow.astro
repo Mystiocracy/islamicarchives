@@ -34,8 +34,10 @@ const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
       </a>
     )) : d.sourceUrl ? (
       <a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank">READ AT SOURCE ↗</a>
+    ) : d.rights === 'link-only' ? (
+      <span class="muted" style="font-size:13px">No free copy online</span>
     ) : (
-      <span class="tag tag-green">{RIGHTS_LABEL[d.rights]}</span>
+      <span class="tag tag-green">Text in preparation</span>
     )}
   </div>
 </article>

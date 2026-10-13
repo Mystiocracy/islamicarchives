@@ -31,8 +31,8 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
     </nav>
 
     <div style="display:flex; flex-wrap:wrap; gap:40px; align-items:flex-start">
-      <div style="flex:1 1 260px; max-width:320px; display:flex; flex-direction:column; gap:18px">
-        <div style="aspect-ratio:2/3; background:var(--green-dark); border-radius:4px 10px 10px 4px; padding:28px 24px; display:flex; flex-direction:column; justify-content:space-between; color:#fff; border-left:10px solid #0E2E27">
+      <div class="work-meta-col" style="flex:1 1 260px; max-width:320px; display:flex; flex-direction:column; gap:18px">
+        <div class="work-cover" style="aspect-ratio:2/3; background:var(--green-dark); border-radius:4px 10px 10px 4px; padding:28px 24px; display:flex; flex-direction:column; justify-content:space-between; color:#fff; border-left:10px solid #0E2E27">
           <span style="font-size:12px; letter-spacing:0.12em; color:#E9C78D">ISLAMIC ARCHIVES</span>
           <span style="font-family:var(--serif); font-weight:700; font-size:clamp(20px, 2.2vw, 28px); line-height:1.15">{d.title}</span>
           <span style="display:flex; flex-direction:column; gap:10px"><span style="height:2px; width:60px; background:var(--saffron)"></span><span>{author?.data.name}</span></span>
@@ -82,7 +82,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
           ) : (
             <>
               <h2 id="dl-h" style="font-size:24px">Where to read it</h2>
-              <p class="muted" style="margin:0">{d.rights === 'link-only' ? 'This work is still in copyright. It is freely available from the publisher or author, so the archive links to that copy.' : 'The text of this work is being prepared for the archive.'}</p>
+              <p class="muted" style="margin:0">{d.rights === 'link-only' ? (d.sourceUrl ? 'This work is still in copyright. A free copy is available elsewhere, so the archive links to it.' : 'This work is still in copyright, and no free copy has been found online yet.') : 'The text of this work is being prepared for the archive.'}</p>
               {d.sourceUrl && <a class="btn btn-primary" href={d.sourceUrl} rel="noopener" target="_blank" style="align-self:flex-start">Read the free copy ↗</a>}
             </>
           )}

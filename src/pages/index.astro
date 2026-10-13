@@ -18,16 +18,16 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
 ---
 <Base>
   <section style="background: var(--green-dark); color: #fff">
-    <div class="wrap" style="padding-top: 88px; padding-bottom: 96px; display: flex; flex-direction: column; gap: 22px">
-      <p lang="ar" dir="rtl" style="margin:0; font-family:'Noto Naskh Arabic', serif; font-size:22px; color:#E9C78D; text-align:left">أرشيف الفكر الإسلامي الحديث</p>
-      <h1 style="font-weight:700; font-size: clamp(36px, 5vw, 64px); line-height:1.05; max-width:880px">The writings of modern Muslim thinkers, free to read and keep.</h1>
-      <p style="margin:0; font-size:19px; line-height:1.55; max-width:720px; color:#D7E3DF">Books, essays and articles from the 19th century to today. Search the full text, read online, download in the format you need, or send a work straight to your Kindle or inbox.</p>
-      <form action="/library/" method="get" role="search" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; max-width:880px">
+    <div class="wrap hero" style="padding-top: 88px; padding-bottom: 96px; display: flex; flex-direction: column; gap: 22px">
+      <p class="hero-ar" lang="ar" dir="rtl" style="margin:0; font-family:'Noto Naskh Arabic', serif; font-size:22px; color:#E9C78D; text-align:left">أرشيف الفكر الإسلامي الحديث</p>
+      <h1 class="hero-h1" style="font-weight:700; font-size: clamp(36px, 5vw, 64px); line-height:1.05; max-width:880px">The writings of modern Muslim thinkers, free to read and keep.</h1>
+      <p class="hero-lede" style="margin:0; font-size:19px; line-height:1.55; max-width:720px; color:#D7E3DF">Books, essays and articles from the 19th century to today. Search the full text, read online, download in the format you need, or send a work straight to your Kindle or inbox.</p>
+      <form class="hero-search" action="/library/" method="get" role="search" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; max-width:880px">
         <label for="q" class="sr-only">Search the archive</label>
         <input id="q" name="q" type="search" placeholder="Search authors, titles, subjects or words in the text" style="flex:1 1 420px; min-height:60px; font-size:17px; border:0; min-width:0">
-        <button class="btn btn-saffron" style="min-height:60px; padding:0 28px; font-size:17px">Search</button>
+        <button class="btn btn-saffron" style="min-height:60px; padding:0 28px; font-size:17px" aria-label="Search"><svg class="only-mobile" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="hide-mobile">Search</span></button>
       </form>
-      <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:14px; color:#D7E3DF">
+      <div class="hero-tries" style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:14px; color:#D7E3DF">
         <span>Try:</span>
         {['Iqbal', 'hadith', 'slavery', 'Salafi', 'modernity'].map((t) => (
           <a href={`/library/?q=${encodeURIComponent(t)}`} style="color:#fff; text-decoration:none; border:1px solid #4E7A6F; border-radius:999px; padding:8px 14px">{t}</a>
@@ -38,7 +38,7 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
 
   <div class="wrap">
     <section class="section">
-      <div class="grid-auto" style="--min: 260px">
+      <div class="grid-auto feature-tiles" style="--min: 260px">
         {[
           ['Search every word', 'Full-text search across hosted works, with filters for author, subject, era, language and type.'],
           ['Download any format', 'EPUB, PDF, Word and plain text, with linked footnotes and a table of contents. EPUB works on Kindle too.'],

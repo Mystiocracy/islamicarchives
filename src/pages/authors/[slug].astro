@@ -18,8 +18,8 @@ const anyHosted = works.some(hosted);
 ---
 <Base title={a.name} current="authors">
   <section style="background:var(--surface); border-bottom:1px solid var(--line)">
-    <div class="wrap" style="padding-top:40px; padding-bottom:40px; display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
-      <span class="monogram" style="width:120px; height:120px; font-size:40px">{initials(a.name)}</span>
+    <div class="wrap author-head" style="padding-top:40px; padding-bottom:40px; display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
+      <span class="monogram author-mono" style="width:120px; height:120px; font-size:40px">{initials(a.name)}</span>
       <div style="flex:1 1 520px; display:flex; flex-direction:column; gap:12px; min-width:0">
         <nav aria-label="Breadcrumb" class="muted" style="font-size:14px"><a href="/authors/">Authors</a></nav>
         <div style="display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 20px">
@@ -27,7 +27,7 @@ const anyHosted = works.some(hosted);
           {a.nameNative && <span lang={a.nativeLang || 'ar'} dir="rtl" style={`font-family:${a.nativeLang === 'ur' ? "'Noto Nastaliq Urdu'" : "'Noto Naskh Arabic'"}, serif; font-size:26px; color:var(--saffron-text)`}>{a.nameNative}</span>}
         </div>
         <p class="muted" style="margin:0; font-size:16px">{[years(a), a.region, a.roles].filter(Boolean).join(' · ')}</p>
-        {hasBio ? <div style="font-size:17px; line-height:1.6; max-width:760px; color:var(--ink-2)"><Content /></div> : <p class="muted" style="margin:0">Biography in preparation.</p>}
+        {hasBio ? <div class="author-bio" style="font-size:17px; line-height:1.6; max-width:760px; color:var(--ink-2)"><Content /></div> : <p class="muted" style="margin:0">Biography in preparation.</p>}
       </div>
       {anyHosted && (
         <div style="flex:1 1 240px; max-width:300px; display:flex; flex-direction:column; gap:10px">
