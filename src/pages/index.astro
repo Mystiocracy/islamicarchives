@@ -53,6 +53,17 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
     </section>
 
     <section class="section">
+      <a href="/quran/" class="card" style="display:flex; flex-wrap:wrap; align-items:center; gap:16px 28px; padding:24px 28px; text-decoration:none; color:var(--ink)">
+        <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text)">المعجم</span>
+        <span style="flex:1 1 360px; display:flex; flex-direction:column; gap:6px">
+          <span style="font-family:var(--serif); font-weight:600; font-size:24px">Quran Word Corpus</span>
+          <span class="muted">Read the Quran word by word, with the grammar and root of every word, a dictionary of roots, search in Arabic and English, a table of verbs and a concordance.</span>
+        </span>
+        <span class="btn btn-primary">Open the Quran tool →</span>
+      </a>
+    </section>
+
+    <section class="section">
       <div class="section-head"><h2>Featured authors</h2><a href="/authors/" style="font-weight:500">All authors A–Z →</a></div>
       <div class="grid-auto" style="--min: 190px">
         {featured.map((a) => (
