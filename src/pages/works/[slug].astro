@@ -1,0 +1,121 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SendDialog from '../../components/SendDialog.astro';
+import { allWorks, FORMATS, hosted, RIGHTS_LABEL, eraOf, type Work } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const works = await allWorks();
+  return works.map((w) => ({ params: { slug: w.id }, props: { work: w } }));
+}
+const { work } = Astro.props as { work: Work };
+const d = work.data;
+const author = await getEntry(d.author);
+const isHosted = hosted(work);
+const { Content, headings } = await render(work);
+const toc = d.contents.length ? d.contents : headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-label' && h.text !== 'Footnotes').map((h) => h.text);
+const url = new URL(`/works/${work.id}/`, Astro.site).href;
+const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
+const cite = `${lastFirst}. ${d.title}. ${d.year}. Islamic Archives: Archive of Modern Islamic Thought. ${url}`;
+const era = eraOf(d.year);
+---
+<Base title={d.title} description={d.summary}>
+  <div class="wrap" style="padding-top:24px; display:flex; flex-direction:column; gap:28px" data-pagefind-body>
+    <nav data-pagefind-ignore aria-label="Breadcrumb" class="muted" style="font-size:14px; display:flex; flex-wrap:wrap; gap:8px">
+      <a href="/library/">Library</a><span aria-hidden="true">/</span>
+      {author && <><a href={`/authors/${author.id}/`}>{author.data.name}</a><span aria-hidden="true">/</span></>}
+      <span>{d.title}</span>
+    </nav>
+
+    <div style="display:flex; flex-wrap:wrap; gap:40px; align-items:flex-start">
+      <div style="flex:1 1 260px; max-width:320px; display:flex; flex-direction:column; gap:18px">
+        <div style="aspect-ratio:2/3; background:var(--green-dark); border-radius:4px 10px 10px 4px; padding:28px 24px; display:flex; flex-direction:column; justify-content:space-between; color:#fff; border-left:10px solid #0E2E27">
+          <span style="font-size:12px; letter-spacing:0.12em; color:#E9C78D">ISLAMIC ARCHIVES</span>
+          <span style="font-family:var(--serif); font-weight:700; font-size:clamp(20px, 2.2vw, 28px); line-height:1.15">{d.title}</span>
+          <span style="display:flex; flex-direction:column; gap:10px"><span style="height:2px; width:60px; background:var(--saffron)"></span><span>{author?.data.name}</span></span>
+        </div>
+        <dl class="card" style="margin:0; display:grid; grid-template-columns:auto 1fr; gap:8px 16px; font-size:14px; padding:18px">
+          <dt class="muted">Published</dt><dd style="margin:0">{d.year}</dd>
+          {d.venue && <><dt class="muted">Venue</dt><dd style="margin:0">{d.venue}</dd></>}
+          <dt class="muted">Language</dt><dd style="margin:0">{d.language}</dd>
+          <dt class="muted">Type</dt><dd style="margin:0">{d.type}</dd>
+          {d.sourceEdition && <><dt class="muted">Source</dt><dd style="margin:0">{d.sourceEdition}</dd></>}
+          <dt class="muted">Rights</dt><dd style="margin:0"><span style="font-weight:600; color:var(--green)">{RIGHTS_LABEL[d.rights]}</span>{d.rightsNote && <span class="muted"> · {d.rightsNote}</span>}</dd>
+        </dl>
+      </div>
+
+      <div style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:24px">
+        <div style="display:flex; flex-direction:column; gap:10px">
+          <span style="font-size:13px; font-weight:600; letter-spacing:0.05em; color:var(--saffron-text)">{[...d.subjects, era.span].join(' · ').toUpperCase()}</span>
+          <h1 style="font-size:clamp(30px, 3.6vw, 46px); line-height:1.1" data-pagefind-meta="title">{d.title}</h1>
+          {author && <a href={`/authors/${author.id}/`} style="font-size:18px; font-weight:500">{author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
+          {d.summary && <p style="margin:6px 0 0; font-size:17px; line-height:1.6; color:var(--ink-2); max-width:720px">{d.summary}</p>}
+        </div>
+
+        <section data-pagefind-ignore class="card" aria-labelledby="dl-h" style="padding:24px; display:flex; flex-direction:column; gap:18px">
+          {isHosted ? (
+            <>
+              <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px">
+                <h2 id="dl-h" style="font-size:24px">Read or download</h2>
+                <a href="#text" style="font-weight:600; padding:10px 0">Read online ↓</a>
+              </div>
+              <div class="grid-auto" style="--min:200px; gap:10px">
+                {FORMATS.map((f) => (
+                  <a href={`/downloads/${work.id}.${f.ext}`} download style="text-decoration:none; color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:12px 14px; display:flex; align-items:center; gap:12px">
+                    <span style="width:44px; height:44px; flex:none; border-radius:6px; background:var(--green-tint); color:var(--green); display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700">{f.ext.toUpperCase()}</span>
+                    <span style="display:flex; flex-direction:column"><span style="font-weight:600">{f.label}</span><span class="muted" style="font-size:13px">{f.note}</span></span>
+                  </a>
+                ))}
+              </div>
+              <div style="display:flex; flex-wrap:wrap; gap:10px; border-top:1px solid var(--line-2); padding-top:18px">
+                <button type="button" class="btn btn-primary" data-send="kindle" data-slug={work.id} data-title={d.title}>Send to Kindle</button>
+                <button type="button" class="btn btn-outline" data-send="email" data-slug={work.id} data-title={d.title}>Email it to me</button>
+              </div>
+            </>
+          ) : (
+            <>
+              <h2 id="dl-h" style="font-size:24px">Where to read it</h2>
+              <p class="muted" style="margin:0">{d.rights === 'link-only' ? 'This work is still in copyright. It is freely available from the publisher or author, so the archive links to that copy.' : 'The text of this work is being prepared for the archive.'}</p>
+              {d.sourceUrl && <a class="btn btn-primary" href={d.sourceUrl} rel="noopener" target="_blank" style="align-self:flex-start">Read the free copy ↗</a>}
+            </>
+          )}
+        </section>
+
+        {toc.length > 0 && (
+          <section aria-labelledby="toc-h" style="display:flex; flex-direction:column; gap:12px">
+            <h2 id="toc-h" style="font-size:24px">Contents</h2>
+            <ol class="card" style="margin:0; padding:0; list-style:none">
+              {toc.map((t, i) => (
+                <li style="display:flex; gap:16px; align-items:baseline; padding:13px 20px; border-bottom:1px solid var(--line-2)">
+                  <span style="font-family:var(--serif); font-weight:700; color:var(--saffron); width:22px">{i + 1}</span><span>{t}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        <section data-pagefind-ignore class="card" aria-labelledby="cite-h" style="padding:20px; display:flex; flex-direction:column; gap:10px">
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:10px">
+            <h2 id="cite-h" style="font-family:var(--sans); font-size:16px">Cite this page</h2>
+            <button type="button" class="btn btn-quiet" data-copy={cite}>Copy</button>
+          </div>
+          <p style="margin:0; font-size:14px; line-height:1.6; color:var(--ink-2)">{cite}</p>
+        </section>
+      </div>
+    </div>
+
+    {isHosted && (
+      <article id="text" class="card" style="padding: clamp(24px, 5vw, 64px)">
+        <div class="prose"><Content /></div>
+      </article>
+    )}
+  </div>
+  {isHosted && <SendDialog />}
+  <script is:inline>
+    document.querySelectorAll('[data-copy]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        navigator.clipboard && navigator.clipboard.writeText(b.dataset.copy).then(function () { b.textContent = 'Copied'; });
+      });
+    });
+  </script>
+</Base>

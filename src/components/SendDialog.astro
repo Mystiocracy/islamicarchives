@@ -1,0 +1,105 @@
+---
+// One dialog per page; buttons with data-send="kindle|email" data-slug="..." data-title="..." open it.
+---
+<dialog class="send" id="send-dialog" aria-labelledby="send-h">
+  <div style="display:flex; justify-content:space-between; align-items:center; padding:18px 22px; border-bottom:1px solid var(--line-2)">
+    <h2 id="send-h" style="font-size:22px">Send this work</h2>
+    <button type="button" data-close aria-label="Close" style="width:44px; height:44px; border:0; background:none; cursor:pointer; font-size:22px">×</button>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" role="tab" data-tab="kindle" aria-selected="true">Kindle</button>
+    <button type="button" role="tab" data-tab="email" aria-selected="false">Email</button>
+  </div>
+  <form data-form style="padding:22px; display:flex; flex-direction:column; gap:16px" novalidate>
+    <p data-for-title class="muted" style="margin:0; font-size:14px"></p>
+    <label style="display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:500">
+      <span data-label>Your Send-to-Kindle address</span>
+      <input type="email" name="to" required autocomplete="email" list="saved-addresses" placeholder="yourname@kindle.com">
+      <datalist id="saved-addresses"></datalist>
+    </label>
+    <div data-kindle-only class="note-box"><strong>One-time step on Amazon:</strong> add <strong>books@islamicarchives.org</strong> to your Approved Personal Document E-mail List (Manage Your Content and Devices → Preferences → Personal Document Settings). Kindle copies are sent as EPUB, which Amazon converts for your device.</div>
+    <fieldset data-email-only hidden style="border:0; margin:0; padding:0">
+      <legend style="font-size:14px; font-weight:500; margin-bottom:8px">Format</legend>
+      <div style="display:flex; flex-wrap:wrap; gap:14px">
+        <label style="display:flex; gap:8px; align-items:center"><input type="radio" name="format" value="epub" checked> EPUB</label>
+        <label style="display:flex; gap:8px; align-items:center"><input type="radio" name="format" value="pdf"> PDF</label>
+        <label style="display:flex; gap:8px; align-items:center"><input type="radio" name="format" value="docx"> Word</label>
+      </div>
+    </fieldset>
+    <label style="display:flex; align-items:center; gap:10px; font-size:14px">
+      <input type="checkbox" name="remember" checked> Remember this address on this device
+    </label>
+    <button type="submit" class="btn btn-primary" style="min-height:50px">Send</button>
+    <p data-status role="status" style="margin:0; font-size:14px"></p>
+  </form>
+</dialog>
+
+<script>
+  const KEY = 'ia.delivery';
+  type Store = { addresses: { addr: string; kind: 'kindle' | 'email' }[]; def?: string; fmt?: string };
+  const load = (): Store => { try { return JSON.parse(localStorage.getItem(KEY) || '') || { addresses: [] }; } catch { return { addresses: [] }; } };
+  const save = (s: Store) => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} };
+  const isKindle = (a: string) => /@(free\.)?kindle\.com$/i.test(a.trim());
+
+  const dlg = document.getElementById('send-dialog') as HTMLDialogElement | null;
+  if (dlg) {
+    const form = dlg.querySelector('[data-form]') as HTMLFormElement;
+    const input = form.elements.namedItem('to') as HTMLInputElement;
+    const status = dlg.querySelector('[data-status]') as HTMLElement;
+    const label = dlg.querySelector('[data-label]') as HTMLElement;
+    const forTitle = dlg.querySelector('[data-for-title]') as HTMLElement;
+    const list = dlg.querySelector('#saved-addresses') as HTMLDataListElement;
+    let slug = '';
+    let mode: 'kindle' | 'email' = 'kindle';
+
+    const setMode = (m: 'kindle' | 'email') => {
+      mode = m;
+      dlg.querySelectorAll<HTMLButtonElement>('[data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === m)));
+      (dlg.querySelector('[data-kindle-only]') as HTMLElement).hidden = m !== 'kindle';
+      (dlg.querySelector('[data-email-only]') as HTMLElement).hidden = m !== 'email';
+      label.textContent = m === 'kindle' ? 'Your Send-to-Kindle address' : 'Email address';
+      input.placeholder = m === 'kindle' ? 'yourname@kindle.com' : 'you@example.com';
+      const s = load();
+      const mine = s.addresses.filter((a) => a.kind === m);
+      list.innerHTML = '';
+      mine.forEach((a) => { const o = document.createElement('option'); o.value = a.addr; list.appendChild(o); });
+      const def = mine.find((a) => a.addr === s.def) || mine[0];
+      input.value = def ? def.addr : '';
+      if (m === 'email' && s.fmt) { const r = form.querySelector<HTMLInputElement>(`input[name=format][value=${s.fmt}]`); if (r) r.checked = true; }
+      status.textContent = '';
+    };
+
+    document.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest<HTMLElement>('[data-send]');
+      if (!btn) return;
+      slug = btn.dataset.slug || '';
+      forTitle.textContent = btn.dataset.title || '';
+      setMode((btn.dataset.send as 'kindle' | 'email') || 'kindle');
+      dlg.showModal();
+    });
+    dlg.querySelectorAll<HTMLButtonElement>('[data-tab]').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.tab as 'kindle' | 'email')));
+    dlg.querySelector('[data-close]')!.addEventListener('click', () => dlg.close());
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const to = input.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(to)) { status.textContent = 'Please enter a valid email address.'; return; }
+      if (mode === 'kindle' && !isKindle(to)) { status.textContent = 'Kindle addresses end in @kindle.com. Use the Email tab for other addresses.'; return; }
+      const format = mode === 'kindle' ? 'epub' : (form.querySelector<HTMLInputElement>('input[name=format]:checked')?.value || 'epub');
+      if ((form.elements.namedItem('remember') as HTMLInputElement).checked) {
+        const s = load();
+        if (!s.addresses.some((a) => a.addr === to)) s.addresses.push({ addr: to, kind: mode });
+        if (mode === 'email') s.fmt = format;
+        save(s);
+      }
+      status.textContent = 'Sending…';
+      try {
+        const r = await fetch('/api/send', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ slug, format, to }) });
+        const j = await r.json().catch(() => ({}));
+        status.textContent = r.ok ? (mode === 'kindle' ? 'Sent. It usually appears in your Kindle library within a few minutes.' : 'Sent. Check your inbox (and spam folder) for a message from books@islamicarchives.org.') : (j.error || 'Sorry, sending failed. Please try again later.');
+      } catch {
+        status.textContent = 'Sorry, sending is not available right now.';
+      }
+    });
+  }
+</script>

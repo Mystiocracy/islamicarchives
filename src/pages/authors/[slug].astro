@@ -1,0 +1,59 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import WorkRow from '../../components/WorkRow.astro';
+import { allAuthors, allWorks, years, initials, hosted, type Author } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const authors = await allAuthors();
+  return authors.map((a) => ({ params: { slug: a.id }, props: { author: a } }));
+}
+const { author } = Astro.props as { author: Author };
+const a = author.data;
+const works = (await allWorks()).filter((w) => w.data.author.id === author.id);
+const { Content } = await render(author);
+const hasBio = (author.body || '').trim().length > 0;
+const langs = [...new Set(works.map((w) => w.data.language))];
+const anyHosted = works.some(hosted);
+---
+<Base title={a.name} current="authors">
+  <section style="background:var(--surface); border-bottom:1px solid var(--line)">
+    <div class="wrap" style="padding-top:40px; padding-bottom:40px; display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
+      <span class="monogram" style="width:120px; height:120px; font-size:40px">{initials(a.name)}</span>
+      <div style="flex:1 1 520px; display:flex; flex-direction:column; gap:12px; min-width:0">
+        <nav aria-label="Breadcrumb" class="muted" style="font-size:14px"><a href="/authors/">Authors</a></nav>
+        <div style="display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 20px">
+          <h1 style="font-size:clamp(32px, 4vw, 50px); line-height:1.05">{a.name}</h1>
+          {a.nameNative && <span lang={a.nativeLang || 'ar'} dir="rtl" style={`font-family:${a.nativeLang === 'ur' ? "'Noto Nastaliq Urdu'" : "'Noto Naskh Arabic'"}, serif; font-size:26px; color:var(--saffron-text)`}>{a.nameNative}</span>}
+        </div>
+        <p class="muted" style="margin:0; font-size:16px">{[years(a), a.region, a.roles].filter(Boolean).join(' · ')}</p>
+        {hasBio ? <div style="font-size:17px; line-height:1.6; max-width:760px; color:var(--ink-2)"><Content /></div> : <p class="muted" style="margin:0">Biography in preparation.</p>}
+      </div>
+      {anyHosted && (
+        <div style="flex:1 1 240px; max-width:300px; display:flex; flex-direction:column; gap:10px">
+          <a class="btn btn-primary" href={`/downloads/author-${author.id}.epub`} download>Download all as one EPUB</a>
+        </div>
+      )}
+    </div>
+  </section>
+  <div class="wrap" style="padding-top:28px; display:flex; flex-direction:column; gap:18px">
+    <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px">
+      <h2 style="font-size:28px">Works</h2>
+      {langs.length > 1 && (
+        <div role="group" aria-label="Filter by language" style="display:flex; flex-wrap:wrap; gap:8px">
+          {['All', ...langs].map((l) => <button type="button" class="btn btn-quiet" data-lang-filter={l} aria-pressed={l === 'All' ? 'true' : 'false'}>{l}</button>)}
+        </div>
+      )}
+    </div>
+    {works.length ? <div class="card">{works.map((w) => <WorkRow work={w} showAuthor={false} />)}</div> : <p class="card muted" style="padding:32px; margin:0">No works have been added for this author yet.</p>}
+  </div>
+  <script is:inline>
+    document.querySelectorAll('[data-lang-filter]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var l = b.dataset.langFilter;
+        document.querySelectorAll('[data-lang-filter]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+        document.querySelectorAll('[data-work]').forEach(function (r) { r.hidden = l !== 'All' && r.dataset.lang !== l; });
+      });
+    });
+  </script>
+</Base>

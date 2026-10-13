@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="My Kindle and email" current="delivery" noindex>
+  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:24px">
+    <div style="display:flex; flex-direction:column; gap:6px">
+      <h1 style="font-size:40px">My Kindle and email</h1>
+      <p class="muted" style="margin:0; font-size:16px; max-width:720px">Save where works should go. They are then filled in for you whenever you press “Send to Kindle” or “Email it to me”. Addresses are kept only in this browser on this device.</p>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:24px; align-items:flex-start">
+      <div style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:24px">
+        <section class="card" aria-labelledby="dest-h" style="padding:24px; display:flex; flex-direction:column; gap:16px">
+          <h2 id="dest-h" style="font-size:24px">Delivery addresses</h2>
+          <ul id="addr-list" style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px"></ul>
+          <p id="empty" class="muted" style="margin:0">No addresses saved yet.</p>
+          <form id="add-form" style="display:flex; flex-wrap:wrap; gap:10px; border-top:1px solid var(--line-2); padding-top:16px">
+            <label for="newaddr" class="sr-only">Add a Kindle or email address</label>
+            <input id="newaddr" type="email" required placeholder="yourname@kindle.com or an email address" style="flex:1 1 320px; min-width:0">
+            <button class="btn btn-primary" style="min-height:48px">Add address</button>
+          </form>
+          <p class="muted" style="margin:0; font-size:13px">Addresses ending in @kindle.com are treated as Kindle devices.</p>
+        </section>
+        <section class="card" aria-labelledby="fmt-h" style="padding:24px; display:flex; flex-direction:column; gap:12px">
+          <h2 id="fmt-h" style="font-size:24px">Format for email delivery</h2>
+          <div style="display:flex; flex-wrap:wrap; gap:16px">
+            <label style="display:flex; gap:8px; align-items:center"><input type="radio" name="fmt" value="epub"> EPUB</label>
+            <label style="display:flex; gap:8px; align-items:center"><input type="radio" name="fmt" value="pdf"> PDF</label>
+            <label style="display:flex; gap:8px; align-items:center"><input type="radio" name="fmt" value="docx"> Word</label>
+          </div>
+          <p class="muted" style="margin:0; font-size:13px">Kindle deliveries always use EPUB, which Amazon converts for your device.</p>
+        </section>
+      </div>
+      <aside aria-labelledby="setup-h" style="flex:1 1 300px; max-width:380px; background:var(--green-dark); color:#fff; border-radius:12px; padding:24px; display:flex; flex-direction:column; gap:16px">
+        <h2 id="setup-h" style="font-size:22px">Setting up Send to Kindle</h2>
+        <ol style="margin:0; padding-left:20px; display:flex; flex-direction:column; gap:12px; color:#D7E3DF; line-height:1.5">
+          <li>On Amazon, open <strong style="color:#fff">Manage Your Content and Devices → Preferences → Personal Document Settings</strong>.</li>
+          <li>Copy your device’s <strong style="color:#fff">@kindle.com</strong> address and add it here.</li>
+          <li>Add <strong style="color:#E9C78D">books@islamicarchives.org</strong> to the <strong style="color:#fff">Approved Personal Document E-mail List</strong>.</li>
+        </ol>
+        <p style="margin:0; font-size:13px; color:#B7CBC5">Your addresses are used only to deliver the works you request, and are never stored on our servers.</p>
+      </aside>
+    </div>
+  </div>
+  <script is:inline>
+    (function () {
+      var KEY = 'ia.delivery';
+      function load() { try { return JSON.parse(localStorage.getItem(KEY)) || { addresses: [] }; } catch (e) { return { addresses: [] }; } }
+      function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} }
+      var isKindle = function (a) { return /@(free\.)?kindle\.com$/i.test(a); };
+      var list = document.getElementById('addr-list');
+      function draw() {
+        var s = load();
+        list.innerHTML = '';
+        document.getElementById('empty').hidden = s.addresses.length > 0;
+        s.addresses.forEach(function (a) {
+          var li = document.createElement('li');
+          li.className = 'card';
+          li.style.cssText = 'display:flex; flex-wrap:wrap; align-items:center; gap:12px; padding:12px 16px';
+          var info = document.createElement('span');
+          info.style.cssText = 'flex:1 1 220px; display:flex; flex-direction:column; min-width:0';
+          var t = document.createElement('strong'); t.textContent = a.addr; t.style.overflowWrap = 'anywhere';
+          var k = document.createElement('span'); k.className = 'muted'; k.style.fontSize = '13px';
+          k.textContent = (a.kind === 'kindle' ? 'Kindle device' : 'Email') + (s.def === a.addr ? ' · default' : '');
+          info.appendChild(t); info.appendChild(k); li.appendChild(info);
+          if (s.def !== a.addr) {
+            var d = document.createElement('button'); d.type = 'button'; d.className = 'btn btn-quiet'; d.textContent = 'Make default';
+            d.onclick = function () { var s2 = load(); s2.def = a.addr; save(s2); draw(); };
+            li.appendChild(d);
+          }
+          var r = document.createElement('button'); r.type = 'button'; r.className = 'btn btn-quiet'; r.textContent = 'Remove';
+          r.setAttribute('aria-label', 'Remove ' + a.addr);
+          r.onclick = function () { var s2 = load(); s2.addresses = s2.addresses.filter(function (x) { return x.addr !== a.addr; }); if (s2.def === a.addr) delete s2.def; save(s2); draw(); };
+          li.appendChild(r);
+          list.appendChild(li);
+        });
+        var f = s.fmt || 'epub';
+        document.querySelectorAll('input[name=fmt]').forEach(function (x) { x.checked = x.value === f; });
+      }
+      document.getElementById('add-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var inp = document.getElementById('newaddr'); var v = inp.value.trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) return;
+        var s = load();
+        if (!s.addresses.some(function (x) { return x.addr === v; })) s.addresses.push({ addr: v, kind: isKindle(v) ? 'kindle' : 'email' });
+        if (!s.def) s.def = v;
+        save(s); inp.value = ''; draw();
+      });
+      document.querySelectorAll('input[name=fmt]').forEach(function (x) {
+        x.addEventListener('change', function () { var s = load(); s.fmt = x.value; save(s); });
+      });
+      draw();
+    })();
+  </script>
+</Base>

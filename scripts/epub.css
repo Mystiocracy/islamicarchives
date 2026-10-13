@@ -1,0 +1,8 @@
+body { font-family: serif; line-height: 1.5; margin: 0 4%; }
+h1, h2, h3 { line-height: 1.25; }
+h1 { font-size: 1.5em; margin: 1.2em 0 0.6em; }
+h2 { font-size: 1.25em; margin: 1.4em 0 0.5em; }
+p { margin: 0 0 0.7em; text-align: left; }
+blockquote { margin: 0.8em 1.5em; font-size: 0.95em; }
+section.footnotes { font-size: 0.85em; border-top: 1px solid #999; margin-top: 2em; }
+[dir="rtl"] { text-align: right; }

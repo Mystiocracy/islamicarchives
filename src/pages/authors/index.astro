@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allAuthors, allWorks, years, initials, sortName } from '../../lib/site';
+const authors = await allAuthors();
+const works = await allWorks();
+const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
+const letters = [...new Set(authors.map((a) => sortName(a.data.name)[0].toUpperCase()))].sort();
+---
+<Base title="Authors" current="authors">
+  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:24px">
+    <h1 style="font-size:40px">Authors</h1>
+    <nav aria-label="Jump to letter" style="display:flex; flex-wrap:wrap; gap:6px">
+      {letters.map((l) => <a class="fmt" href={`#${l}`} style="min-width:38px; justify-content:center; font-size:14px">{l}</a>)}
+    </nav>
+    {letters.map((l) => (
+      <section id={l} style="display:flex; flex-direction:column; gap:14px">
+        <h2 style="font-size:28px; color:var(--saffron-text)">{l}</h2>
+        <div class="grid-auto" style="--min:260px">
+          {authors.filter((a) => sortName(a.data.name)[0].toUpperCase() === l).map((a) => (
+            <a href={`/authors/${a.id}/`} class="card" style="text-decoration:none; color:var(--ink); padding:16px; display:flex; gap:14px; align-items:center">
+              <span class="monogram" style="width:48px; height:48px; font-size:17px">{initials(a.data.name)}</span>
+              <span style="display:flex; flex-direction:column; gap:2px; min-width:0">
+                <span style="font-family:var(--serif); font-weight:600; font-size:17px">{a.data.name}</span>
+                <span class="muted" style="font-size:13px">{years(a.data)}{a.data.region ? ` · ${a.data.region}` : ''}</span>
+                <span style="font-size:13px; color:var(--saffron-text)">{count(a.id) ? `${count(a.id)} ${count(a.id) === 1 ? 'work' : 'works'}` : 'Works in preparation'}</span>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

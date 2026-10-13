@@ -1,0 +1,93 @@
+---
+import Base from '../layouts/Base.astro';
+import WorkRow from '../components/WorkRow.astro';
+import { allWorks, allAuthors, SUBJECTS, ERAS, years, initials } from '../lib/site';
+
+const works = await allWorks();
+const authors = await allAuthors();
+const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
+let featured = authors.filter((a) => a.data.featured);
+if (featured.length < 6) featured = featured.concat(authors.filter((a) => !a.data.featured && count(a.id) > 0)).slice(0, 6);
+const recent = [...works].sort((a, b) => (b.data.added?.getTime() || 0) - (a.data.added?.getTime() || 0) || b.data.year - a.data.year).slice(0, 5);
+const eraWho = (from: number, to: number) => authors.filter((a) => {
+  const mid = a.data.died ?? (a.data.born ? a.data.born + 45 : 0);
+  return mid >= from + 10 && mid <= to + 25;
+}).slice(0, 3).map((a) => a.data.name).join(', ');
+---
+<Base>
+  <section style="background: var(--green-dark); color: #fff">
+    <div class="wrap" style="padding-top: 88px; padding-bottom: 96px; display: flex; flex-direction: column; gap: 22px">
+      <p lang="ar" dir="rtl" style="margin:0; font-family:'Noto Naskh Arabic', serif; font-size:22px; color:#E9C78D; text-align:left">أرشيف الفكر الإسلامي الحديث</p>
+      <h1 style="font-weight:700; font-size: clamp(36px, 5vw, 64px); line-height:1.05; max-width:880px">The writings of modern Muslim thinkers, free to read and keep.</h1>
+      <p style="margin:0; font-size:19px; line-height:1.55; max-width:720px; color:#D7E3DF">Books, essays and articles from the 19th century to today. Search the full text, read online, download in the format you need, or send a work straight to your Kindle or inbox.</p>
+      <form action="/library/" method="get" role="search" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; max-width:880px">
+        <label for="q" class="sr-only">Search the archive</label>
+        <input id="q" name="q" type="search" placeholder="Search authors, titles, subjects or words in the text" style="flex:1 1 420px; min-height:60px; font-size:17px; border:0; min-width:0">
+        <button class="btn btn-saffron" style="min-height:60px; padding:0 28px; font-size:17px">Search</button>
+      </form>
+      <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:14px; color:#D7E3DF">
+        <span>Try:</span>
+        {['Iqbal', 'hadith', 'slavery', 'Salafi', 'modernity'].map((t) => (
+          <a href={`/library/?q=${encodeURIComponent(t)}`} style="color:#fff; text-decoration:none; border:1px solid #4E7A6F; border-radius:999px; padding:8px 14px">{t}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="section">
+      <div class="grid-auto" style="--min: 260px">
+        {[
+          ['Search every word', 'Full-text search across hosted works, with filters for author, subject, era, language and type.'],
+          ['Download any format', 'EPUB, PDF, Word and plain text, with linked footnotes and a table of contents. EPUB works on Kindle too.'],
+          ['Send to Kindle or email', 'Save your Kindle address once on this device and send any hosted work to your Kindle or inbox in one click.'],
+        ].map(([h, p]) => (
+          <div class="card" style="padding:24px; display:flex; flex-direction:column; gap:10px">
+            <h2 style="font-size:21px">{h}</h2>
+            <p class="muted" style="margin:0">{p}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Featured authors</h2><a href="/authors/" style="font-weight:500">All authors A–Z →</a></div>
+      <div class="grid-auto" style="--min: 190px">
+        {featured.map((a) => (
+          <a href={`/authors/${a.id}/`} class="card" style="text-decoration:none; color:var(--ink); padding:20px; display:flex; flex-direction:column; gap:12px">
+            <span class="monogram">{initials(a.data.name)}</span>
+            <span style="font-family:var(--serif); font-weight:600; font-size:18px; line-height:1.25">{a.data.name}</span>
+            <span class="muted" style="font-size:14px">{years(a.data)}{a.data.region ? ` · ${a.data.region}` : ''}</span>
+            <span style="font-size:13px; color:var(--saffron-text); font-weight:500">{count(a.id)} {count(a.id) === 1 ? 'work' : 'works'}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Browse by subject</h2></div>
+      <div style="display:flex; flex-wrap:wrap; gap:10px">
+        {SUBJECTS.map((s) => <a class="chip" href={`/library/?subject=${encodeURIComponent(s)}`}>{s}</a>)}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Recently added</h2><a href="/library/" style="font-weight:500">See the whole library →</a></div>
+      <div class="card">{recent.map((w) => <WorkRow work={w} />)}</div>
+    </section>
+
+    <section class="section" id="eras">
+      <div class="section-head"><h2>Browse by era</h2></div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); border-top:3px solid var(--green)">
+        {ERAS.map((e) => (
+          <a href={`/library/?era=${e.id}`} style="text-decoration:none; color:var(--ink); padding:18px 18px 18px 0; display:flex; flex-direction:column; gap:6px">
+            <span style="width:14px; height:14px; border-radius:50%; background:var(--saffron); margin-top:-27px; border:3px solid var(--ground)"></span>
+            <span style="font-size:14px; font-weight:600; color:var(--saffron-text)">{e.span}</span>
+            <span style="font-family:var(--serif); font-weight:600; font-size:18px">{e.name}</span>
+            <span class="muted" style="font-size:14px; line-height:1.45">{eraWho(e.from, e.to)}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>

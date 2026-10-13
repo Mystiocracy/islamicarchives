@@ -1,0 +1,90 @@
+# Admin page configuration for Pages CMS (https://pagescms.org).
+# Sign in at https://app.pagescms.org with GitHub and open this repository.
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: works
+    label: Works
+    type: collection
+    path: content/works
+    filename: "{fields.title}.md"
+    view:
+      fields: [title, author, year, rights]
+      primary: title
+      sort: [year, title]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - name: author
+        label: Author
+        type: reference
+        required: true
+        options:
+          collection: authors
+          search: name
+          value: "{path}"
+          label: "{name}"
+        description: "Pick the author. If they are not listed yet, add them under Authors first."
+      - { name: coAuthors, label: Co-authors (if any), type: string }
+      - { name: year, label: Year first published, type: number, required: true }
+      - name: language
+        label: Language
+        type: select
+        default: English
+        options: { values: [English, Arabic, Urdu, Persian, French, Turkish, Malay, Bosnian, Other] }
+      - name: type
+        label: Type
+        type: select
+        default: Article
+        options: { values: [Book, Article, Chapter, Essay, Policy paper, Speech, Review, Collection, Translation] }
+      - name: subjects
+        label: Subjects
+        type: select
+        options:
+          multiple: true
+          creatable: true
+          values: [Hadith studies, Islamic law, Islam and modernity, Colonialism and decolonisation, Women and gender, Philosophy and theology, Political thought, Sufism, Economics, Slavery and race, Education, Qurʾānic studies]
+      - { name: venue, label: Where it was published, type: string, description: "Journal, publisher or website" }
+      - { name: summary, label: One- or two-sentence summary, type: text }
+      - name: rights
+        label: Rights status
+        type: select
+        required: true
+        options:
+          values:
+            - { value: public-domain, label: "Public domain – host the full text" }
+            - { value: permission, label: "Permission granted – host the full text" }
+            - { value: link-only, label: "In copyright – link to the free copy only" }
+      - { name: rightsNote, label: Rights note, type: string, description: "e.g. 'author d. 1938' or 'permission from the estate, 2026'" }
+      - { name: sourceUrl, label: Link to free copy (for link-only works), type: string }
+      - { name: sourceEdition, label: Source edition used for the text, type: string }
+      - { name: contents, label: Chapter list (optional), type: string, list: true }
+      - { name: added, label: Date added to the archive, type: date }
+      - { name: draft, label: Hide from the site (draft), type: boolean, default: false }
+      - { name: body, label: Full text (leave empty for link-only works), type: rich-text }
+
+  - name: authors
+    label: Authors
+    type: collection
+    path: content/authors
+    filename: "{fields.name}.md"
+    view:
+      fields: [name, born, died]
+      primary: name
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: nameNative, label: Name in original script, type: string }
+      - name: nativeLang
+        label: Original script language
+        type: select
+        options: { values: [ar, ur, fa] }
+      - { name: born, label: Year born, type: number }
+      - { name: died, label: Year died (leave empty if living), type: number }
+      - { name: region, label: Region, type: string }
+      - { name: roles, label: Roles, type: string, description: "e.g. Poet, philosopher, lawyer" }
+      - { name: featured, label: Feature on the home page, type: boolean, default: false }
+      - { name: body, label: Short biography, type: rich-text }

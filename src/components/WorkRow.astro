@@ -1,0 +1,38 @@
+---
+import { getEntry } from 'astro:content';
+import { FORMATS, hosted, RIGHTS_LABEL, eraOf, type Work } from '../lib/site';
+interface Props { work: Work; showAuthor?: boolean }
+const { work, showAuthor = true } = Astro.props;
+const d = work.data;
+const author = await getEntry(d.author);
+const isHosted = hosted(work);
+const era = eraOf(d.year);
+---
+<article class="work-row"
+  data-work
+  data-title={d.title.toLowerCase()}
+  data-author={(author?.data.name || '').toLowerCase()}
+  data-text={[d.title, author?.data.name, d.subjects.join(' '), d.summary, d.venue].join(' ').toLowerCase()}
+  data-type={d.type} data-lang={d.language} data-era={era.id} data-year={d.year}
+  data-subjects={d.subjects.join('|')} data-access={isHosted ? 'hosted' : 'link'}>
+  <div class="main">
+    <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center">
+      <span class="tag">{d.type.toUpperCase()}</span>
+      <span class="muted" style="font-size:13px">{d.year} · {d.language}{d.venue ? ` · ${d.venue}` : ''}</span>
+    </div>
+    <a class="title" href={`/works/${work.id}/`}>{d.title}</a>
+    {showAuthor && author && <a href={`/authors/${author.id}/`} style="font-weight:500; font-size:15px">{author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
+    {d.summary && <p class="muted" style="margin:2px 0 0; font-size:14px">{d.summary}</p>}
+  </div>
+  <div class="side">
+    {isHosted ? FORMATS.map((f) => (
+      <a class="fmt" href={`/downloads/${work.id}.${f.ext}`} download aria-label={`Download ${d.title} as ${f.label}`}>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>{f.label.toUpperCase()}
+      </a>
+    )) : d.sourceUrl ? (
+      <a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank">READ AT SOURCE ↗</a>
+    ) : (
+      <span class="tag tag-green">{RIGHTS_LABEL[d.rights]}</span>
+    )}
+  </div>
+</article>

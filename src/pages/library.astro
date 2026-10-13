@@ -1,0 +1,116 @@
+---
+import Base from '../layouts/Base.astro';
+import WorkRow from '../components/WorkRow.astro';
+import { allWorks, SUBJECTS, ERAS, eraOf } from '../lib/site';
+
+const works = await allWorks();
+const counts = (fn: (w: any) => string | string[]) => {
+  const m = new Map<string, number>();
+  for (const w of works) for (const v of [fn(w)].flat()) m.set(v, (m.get(v) || 0) + 1);
+  return m;
+};
+const groups = [
+  { key: 'type', label: 'Type', m: counts((w) => w.data.type) },
+  { key: 'lang', label: 'Language', m: counts((w) => w.data.language) },
+  { key: 'era', label: 'Era', m: counts((w) => eraOf(w.data.year).id), labels: Object.fromEntries(ERAS.map((e) => [e.id, e.span])) },
+  { key: 'subjects', label: 'Subject', m: counts((w) => w.data.subjects) },
+  { key: 'access', label: 'Access', m: counts((w) => (w.data.rights !== 'link-only' && (w.body || '').trim() ? 'hosted' : 'link')), labels: { hosted: 'Full text here', link: 'Link to free copy' } },
+];
+---
+<Base title="Library" current="library">
+  <link slot="head" href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:24px">
+    <h1 style="font-size:40px">Library</h1>
+
+    <div style="display:flex; flex-wrap:wrap; gap:10px">
+      <label for="lq" class="sr-only">Filter the library</label>
+      <input id="lq" type="search" placeholder="Filter by title, author or subject" style="flex:1 1 420px; min-width:0; min-height:54px">
+      <select id="sort" aria-label="Sort by" style="min-height:54px">
+        <option value="old">Oldest first</option>
+        <option value="new">Newest first</option>
+        <option value="az">Title A–Z</option>
+      </select>
+    </div>
+
+    <details class="card" style="padding:16px 20px">
+      <summary style="cursor:pointer; font-weight:600">Search inside the full texts</summary>
+      <div id="fulltext" style="margin-top:14px"></div>
+    </details>
+
+    <div style="display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
+      <aside aria-label="Filters" class="card" id="subjects" style="flex:1 1 250px; max-width:300px; padding:22px; display:flex; flex-direction:column; gap:22px">
+        <div style="display:flex; justify-content:space-between; align-items:center">
+          <span style="font-weight:600">Filters</span>
+          <button type="button" id="clear" style="border:0; background:none; color:var(--green); font:inherit; font-size:14px; font-weight:500; padding:10px 0; cursor:pointer">Clear all</button>
+        </div>
+        {groups.map((g) => (
+          <fieldset style="border:0; margin:0; padding:0; display:flex; flex-direction:column; gap:6px">
+            <legend style="font-size:13px; font-weight:600; letter-spacing:0.05em; color:var(--muted); margin-bottom:8px">{g.label.toUpperCase()}</legend>
+            {[...g.m.entries()].sort((a, b) => g.key === 'era' ? a[0].localeCompare(b[0]) : b[1] - a[1]).map(([v, n]) => (
+              <label style="display:flex; align-items:center; gap:10px; font-size:15px; min-height:32px; cursor:pointer">
+                <input type="checkbox" data-filter={g.key} value={v}>
+                <span style="flex:1">{(g as any).labels?.[v] ?? v}</span>
+                <span class="muted" style="font-size:13px">{n}</span>
+              </label>
+            ))}
+          </fieldset>
+        ))}
+      </aside>
+
+      <section aria-label="Results" style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:14px">
+        <p class="muted" style="margin:0" role="status"><strong id="count" style="color:var(--ink)">{works.length}</strong> works match</p>
+        <p id="none" class="card muted" hidden style="padding:40px; text-align:center; margin:0">No works match. Try fewer filters or a different word.</p>
+        <div class="card" id="results">{works.map((w) => <WorkRow work={w} />)}</div>
+      </section>
+    </div>
+  </div>
+
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    (function () {
+      if (window.PagefindUI) new PagefindUI({ element: '#fulltext', showSubResults: true, showImages: false });
+      var rows = Array.prototype.slice.call(document.querySelectorAll('[data-work]'));
+      var box = document.getElementById('results');
+      var q = document.getElementById('lq');
+      var sort = document.getElementById('sort');
+      var boxes = Array.prototype.slice.call(document.querySelectorAll('[data-filter]'));
+      var params = new URLSearchParams(location.search);
+      if (params.get('q')) q.value = params.get('q');
+      ['subject', 'era', 'type', 'lang'].forEach(function (k) {
+        var v = params.get(k); if (!v) return;
+        var key = k === 'subject' ? 'subjects' : k;
+        boxes.forEach(function (b) { if (b.dataset.filter === key && b.value === v) b.checked = true; });
+      });
+      function apply() {
+        var term = q.value.trim().toLowerCase();
+        var sel = {};
+        boxes.forEach(function (b) { if (b.checked) (sel[b.dataset.filter] = sel[b.dataset.filter] || []).push(b.value); });
+        var shown = 0;
+        rows.forEach(function (r) {
+          var ok = !term || r.dataset.text.indexOf(term) !== -1;
+          for (var k in sel) {
+            if (!ok) break;
+            var have = k === 'subjects' ? r.dataset.subjects.split('|') : [r.dataset[k]];
+            ok = sel[k].some(function (v) { return have.indexOf(v) !== -1; });
+          }
+          r.hidden = !ok; if (ok) shown++;
+        });
+        document.getElementById('count').textContent = shown;
+        document.getElementById('none').hidden = shown !== 0;
+        box.hidden = shown === 0;
+      }
+      function order() {
+        var m = sort.value;
+        rows.sort(function (a, b) {
+          if (m === 'az') return a.dataset.title.localeCompare(b.dataset.title);
+          return m === 'new' ? b.dataset.year - a.dataset.year : a.dataset.year - b.dataset.year;
+        }).forEach(function (r) { box.appendChild(r); });
+      }
+      q.addEventListener('input', apply);
+      sort.addEventListener('change', order);
+      boxes.forEach(function (b) { b.addEventListener('change', apply); });
+      document.getElementById('clear').addEventListener('click', function () { boxes.forEach(function (b) { b.checked = false; }); q.value = ''; apply(); });
+      apply();
+    })();
+  </script>
+</Base>
