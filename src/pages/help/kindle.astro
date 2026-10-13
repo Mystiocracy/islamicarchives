@@ -1,0 +1,103 @@
+---
+import Base from '../../layouts/Base.astro';
+const SENDER = 'books@islamicarchives.org';
+const steps = [
+  {
+    id: 'find',
+    h: 'Find your Kindle’s email address',
+    intro: 'Every Kindle device and Kindle app has its own address ending in @kindle.com. Find it in any one of these places:',
+    list: [
+      ['On the Amazon website', 'Sign in, open <strong>Account &amp; Lists → Content Library</strong> (also called <em>Manage Your Content and Devices</em>), choose the <strong>Devices</strong> tab, then your Kindle. The address is shown as “Email”.'],
+      ['On a Kindle e-reader', 'Open <strong>Settings → Your Account</strong>. It is listed as <strong>Send-to-Kindle Email</strong>.'],
+      ['In the Kindle app (phone or tablet)', 'Tap <strong>More → Settings</strong>. The address is listed under <strong>Send-to-Kindle Email Address</strong>.'],
+    ],
+  },
+  {
+    id: 'approve',
+    h: 'Allow Islamic Archives to send to it',
+    intro: 'Amazon only accepts documents from addresses you approve. You do this once.',
+    list: [
+      ['1', 'On the Amazon website open <strong>Account &amp; Lists → Content Library → Preferences</strong>.'],
+      ['2', 'Scroll to <strong>Personal Document Settings</strong> and open it.'],
+      ['3', 'Under <strong>Approved Personal Document E-mail List</strong>, choose <strong>Add a new approved e-mail address</strong>.'],
+      ['4', `Type <strong class="copy-me">${SENDER}</strong> and press <strong>Add Address</strong>.`],
+    ],
+  },
+  {
+    id: 'save',
+    h: 'Save your Kindle address on this site (optional)',
+    intro: 'Open <a href="/delivery/">My Kindle</a> and add your @kindle.com address. It is then filled in automatically every time you press “Send to Kindle”. The address is kept only in your browser on this device; we never store it.',
+  },
+  {
+    id: 'send',
+    h: 'Send a work',
+    intro: 'Open any work whose full text is in the archive and press <strong>Send to Kindle</strong>. Check the address and press <strong>Send</strong>. With Wi-Fi on, it usually reaches your Kindle within a few minutes. On a Kindle it appears in your Library; in the Kindle app look under <strong>Library → Docs</strong>.',
+  },
+];
+const faq = [
+  ['The book has not arrived.', 'Check that <strong>' + SENDER + '</strong> is spelled exactly right in your approved list, that your Kindle is connected to Wi-Fi, and then sync it (on a Kindle: swipe down → <strong>Sync</strong>). Amazon can take up to 15 minutes at busy times.'],
+  ['Amazon emailed me asking to verify the request.', 'Amazon sometimes asks you to confirm a delivery from a new sender. Open that email and press the verify link; the book is delivered straight after.'],
+  ['Amazon emailed me saying the document was rejected.', 'This means the sender address is not on your approved list yet. Repeat step 2, then send the work again.'],
+  ['Some works have no “Send to Kindle” button.', 'Works still in copyright are not hosted here; the archive links to a free copy elsewhere instead. Download that copy and send it to Kindle yourself using Amazon’s own Send to Kindle page or app.'],
+  ['Can I send to an ordinary email address instead?', 'Yes. Choose “Email it to me” on the work’s page, and pick EPUB, PDF or Word on the <a href="/delivery/">My Kindle</a> page.'],
+  ['Which format do Kindles receive?', 'EPUB. Amazon converts it for your device automatically, so you don’t need to choose a format.'],
+];
+---
+<Base title="How to send books to your Kindle" description="Step-by-step help: find your Kindle email address, approve books@islamicarchives.org on Amazon, and send works to your Kindle.">
+  <div class="wrap help" style="padding-top:32px; padding-bottom:16px; display:flex; flex-direction:column; gap:28px; max-width:860px">
+    <div style="display:flex; flex-direction:column; gap:8px">
+      <nav aria-label="Breadcrumb" class="muted" style="font-size:14px"><a href="/delivery/">My Kindle</a> / Help</nav>
+      <h1 style="font-size:clamp(30px, 4vw, 44px); line-height:1.1">How to send books to your Kindle</h1>
+      <p class="muted" style="margin:0; font-size:17px; line-height:1.6">A one-time setup of about two minutes. After that, any work with its full text in the archive can go to your Kindle with one button.</p>
+    </div>
+
+    <div class="card" style="padding:18px 20px; display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; background:var(--green-tint)">
+      <span style="flex:1 1 260px">The address to approve on Amazon:</span>
+      <code id="sender" style="font-size:17px; font-weight:700; color:var(--green)">{SENDER}</code>
+      <button type="button" class="btn btn-outline" id="copy-sender">Copy</button>
+    </div>
+
+    <ol class="help-steps" style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:18px">
+      {steps.map((s, i) => (
+        <li id={s.id} class="card" style="padding:22px; display:flex; gap:18px">
+          <span aria-hidden="true" style="flex:none; width:38px; height:38px; border-radius:50%; background:var(--green-dark); color:#fff; display:flex; align-items:center; justify-content:center; font-family:var(--serif); font-weight:700; font-size:18px">{i + 1}</span>
+          <div style="flex:1; min-width:0; display:flex; flex-direction:column; gap:10px">
+            <h2 style="font-size:22px">{s.h}</h2>
+            <p style="margin:0; line-height:1.6; color:var(--ink-2)" set:html={s.intro} />
+            {s.list && (
+              <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px">
+                {s.list.map(([k, v]) => (
+                  <li style="display:flex; gap:10px; line-height:1.55; border-top:1px solid var(--line-2); padding-top:10px">
+                    <strong style="flex:none; min-width:24px; color:var(--saffron-text)">{/^\d$/.test(k) ? k + '.' : '•'}</strong>
+                    <span style="min-width:0; overflow-wrap:anywhere">{!/^\d$/.test(k) && <strong>{k}: </strong>}<span set:html={v} /></span>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <section aria-labelledby="faq-h" style="display:flex; flex-direction:column; gap:12px">
+      <h2 id="faq-h" style="font-size:26px">If something goes wrong</h2>
+      <div class="card">
+        {faq.map(([q, a]) => (
+          <details style="padding:14px 20px; border-bottom:1px solid var(--line-2)">
+            <summary style="cursor:pointer; font-weight:600; padding:4px 0">{q}</summary>
+            <p style="margin:8px 0 4px; line-height:1.6; color:var(--ink-2)" set:html={a} />
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <p class="muted" style="margin:0; font-size:14px">Your Kindle address is used only to deliver the work you ask for. It is not stored on our servers. Still stuck? Write to <a href="mailto:contact@islamicarchives.org">contact@islamicarchives.org</a>.</p>
+    <a class="btn btn-primary" href="/delivery/" style="align-self:flex-start">Save my Kindle address</a>
+  </div>
+  <script is:inline>
+    document.getElementById('copy-sender').addEventListener('click', function (e) {
+      var b = e.currentTarget;
+      if (navigator.clipboard) navigator.clipboard.writeText(document.getElementById('sender').textContent).then(function () { b.textContent = 'Copied'; });
+    });
+  </script>
+</Base>
