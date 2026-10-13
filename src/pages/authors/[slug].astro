@@ -46,14 +46,32 @@ const anyHosted = works.some(hosted);
       )}
     </div>
     {works.length ? <div class="card">{works.map((w) => <WorkRow work={w} showAuthor={false} />)}</div> : <p class="card muted" style="padding:32px; margin:0">No works have been added for this author yet.</p>}
+    <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
   </div>
   <script is:inline>
-    document.querySelectorAll('[data-lang-filter]').forEach(function (b) {
-      b.addEventListener('click', function () {
-        var l = b.dataset.langFilter;
-        document.querySelectorAll('[data-lang-filter]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-        document.querySelectorAll('[data-work]').forEach(function (r) { r.hidden = l !== 'All' && r.dataset.lang !== l; });
+    (function () {
+      var rows = Array.prototype.slice.call(document.querySelectorAll('[data-work]'));
+      var more = document.getElementById('more');
+      var PAGE = 50, limit = PAGE, lang = 'All';
+      function apply() {
+        var shown = 0;
+        rows.forEach(function (r) {
+          var ok = lang === 'All' || r.dataset.lang === lang;
+          if (ok) shown++;
+          r.hidden = !ok || shown > limit;
+        });
+        more.hidden = shown <= limit;
+        more.textContent = 'Show more (' + (shown - Math.min(shown, limit)) + ' left)';
+      }
+      more.addEventListener('click', function () { limit += PAGE * 2; apply(); });
+      document.querySelectorAll('[data-lang-filter]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          lang = b.dataset.langFilter; limit = PAGE;
+          document.querySelectorAll('[data-lang-filter]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+          apply();
+        });
       });
-    });
+      apply();
+    })();
   </script>
 </Base>

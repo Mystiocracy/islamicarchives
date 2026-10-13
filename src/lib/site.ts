@@ -19,8 +19,8 @@ export async function allEras() {
 export const eraSpan = (e: Era['data']) => `${e.from}–${e.to >= 9999 ? 'today' : e.to + 1}`;
 
 /** The era a year falls in; years before the first era count as the first, later ones as the last. */
-export function eraOf(year: number, eras: Era[]) {
-  if (!eras.length) return undefined;
+export function eraOf(year: number | undefined, eras: Era[]) {
+  if (!eras.length || year == null) return undefined;
   return eras.find((e) => year >= e.data.from && year <= e.data.to) || (year < eras[0].data.from ? eras[0] : eras[eras.length - 1]);
 }
 
@@ -32,7 +32,7 @@ export async function subjectNames() {
 
 export async function allWorks() {
   const ws = await getCollection('works', ({ data }) => !data.draft);
-  return ws.sort((a, b) => a.data.year - b.data.year || a.data.title.localeCompare(b.data.title));
+  return ws.sort((a, b) => (a.data.year ?? 99999) - (b.data.year ?? 99999) || a.data.title.localeCompare(b.data.title));
 }
 
 export async function allAuthors() {

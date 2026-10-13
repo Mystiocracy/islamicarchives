@@ -19,5 +19,18 @@ const { Content } = await render(subject);
     <div style="font-size:17px; line-height:1.6; color:var(--ink-2); max-width:760px"><Content /></div>
     <p class="muted" style="margin:0">{works.length} {works.length === 1 ? 'work' : 'works'} · <a href={`/library/?subject=${subject.id}`}>Filter further in the library</a></p>
     {works.length ? <div class="card">{works.map((w) => <WorkRow work={w} />)}</div> : <p class="card muted" style="padding:32px; margin:0">No works have been tagged with this subject yet.</p>}
+    <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
   </div>
+  <script is:inline>
+    (function () {
+      var rows = document.querySelectorAll('[data-work]'), more = document.getElementById('more'), limit = 50;
+      function apply() {
+        rows.forEach(function (r, i) { r.hidden = i >= limit; });
+        more.hidden = rows.length <= limit;
+        more.textContent = 'Show more (' + Math.max(0, rows.length - limit) + ' left)';
+      }
+      more.addEventListener('click', function () { limit += 100; apply(); });
+      apply();
+    })();
+  </script>
 </Base>

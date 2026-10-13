@@ -15,7 +15,7 @@ const counts = (fn: (w: any) => string | string[]) => {
 const groups = [
   { key: 'type', label: 'Type', m: counts((w) => w.data.type) },
   { key: 'lang', label: 'Language', m: counts((w) => w.data.language) },
-  { key: 'era', label: 'Era', m: counts((w) => eraOf(w.data.year, eras)?.id || ''), labels: Object.fromEntries(eras.map((e) => [e.id, `${eraSpan(e.data)} · ${e.data.name}`])) },
+  { key: 'era', label: 'Era', m: counts((w) => eraOf(w.data.year, eras)?.id || 'none'), labels: { ...Object.fromEntries(eras.map((e) => [e.id, `${eraSpan(e.data)} · ${e.data.name}`])), none: 'Year unknown' } },
   { key: 'subjects', label: 'Subject', m: counts((w) => w.data.subjects.map((x: any) => x.id)), labels: Object.fromEntries(subjects.map((x) => [x.id, x.data.name])) },
   { key: 'access', label: 'Access', m: counts((w) => (w.data.rights !== 'link-only' && (w.body || '').trim() ? 'hosted' : 'link')), labels: { hosted: 'Full text here', link: 'Link to free copy' } },
 ];
@@ -66,6 +66,7 @@ const groups = [
         <p class="muted" style="margin:0" role="status"><strong id="count" style="color:var(--ink)">{works.length}</strong> works match</p>
         <p id="none" class="card muted" hidden style="padding:40px; text-align:center; margin:0">No works match. Try fewer filters or a different word.</p>
         <div class="card" id="results">{works.map((w) => <WorkRow work={w} />)}</div>
+        <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
       </section>
     </div>
   </div>
@@ -87,7 +88,11 @@ const groups = [
         var key = k === 'subject' ? 'subjects' : k;
         boxes.forEach(function (b) { if (b.dataset.filter === key && b.value === v) b.checked = true; });
       });
-      function apply() {
+      var PAGE = 50, limit = PAGE;
+      var more = document.getElementById('more');
+      more.addEventListener('click', function () { limit += PAGE * 2; apply(true); });
+      function apply(keep) {
+        if (keep !== true) limit = PAGE;
         var term = q.value.trim().toLowerCase();
         var sel = {};
         boxes.forEach(function (b) { if (b.checked) (sel[b.dataset.filter] = sel[b.dataset.filter] || []).push(b.value); });
@@ -99,8 +104,11 @@ const groups = [
             var have = k === 'subjects' ? r.dataset.subjects.split('|') : [r.dataset[k]];
             ok = sel[k].some(function (v) { return have.indexOf(v) !== -1; });
           }
-          r.hidden = !ok; if (ok) shown++;
+          if (ok) shown++;
+          r.hidden = !ok || shown > limit;
         });
+        more.hidden = shown <= limit;
+        more.textContent = 'Show more (' + (shown - Math.min(shown, limit)) + ' left)';
         document.getElementById('count').textContent = shown;
         document.getElementById('none').hidden = shown !== 0;
         box.hidden = shown === 0;
@@ -109,8 +117,12 @@ const groups = [
         var m = sort.value;
         rows.sort(function (a, b) {
           if (m === 'az') return a.dataset.title.localeCompare(b.dataset.title);
-          return m === 'new' ? b.dataset.year - a.dataset.year : a.dataset.year - b.dataset.year;
+          var ya = a.dataset.year === '' ? null : +a.dataset.year, yb = b.dataset.year === '' ? null : +b.dataset.year;
+          if (ya === null && yb === null) return a.dataset.title.localeCompare(b.dataset.title);
+          if (ya === null) return 1; if (yb === null) return -1;
+          return m === 'new' ? yb - ya : ya - yb;
         }).forEach(function (r) { box.appendChild(r); });
+        apply();
       }
       q.addEventListener('input', apply);
       sort.addEventListener('change', order);

@@ -26,7 +26,7 @@ const read = (dir) => existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWit
 const authors = Object.fromEntries(read(join(ROOT, 'content', 'authors')).map((a) => [a.id, a]));
 const works = read(join(ROOT, 'content', 'works'))
   .filter((w) => !w.data.draft && w.data.rights !== 'link-only' && w.body.trim())
-  .sort((a, b) => a.data.year - b.data.year);
+  .sort((a, b) => (a.data.year ?? 99999) - (b.data.year ?? 99999));
 
 const EPUB_CSS = join(ROOT, 'scripts', 'epub.css');
 const PDF_CSS = join(ROOT, 'scripts', 'pdf.css');
@@ -39,7 +39,7 @@ function meta(w) {
   const name = a ? a.data.name : w.data.author;
   const rights = w.data.rights === 'public-domain' ? 'Public domain' : 'Published with permission of the rights holder';
   const url = `https://islamicarchives.org/works/${w.id}/`;
-  return { title: w.data.title, author: name + (w.data.coAuthors ? ` and ${w.data.coAuthors}` : ''), date: String(w.data.year), lang: 'en',
+  return { title: w.data.title, author: name + (w.data.coAuthors ? ` and ${w.data.coAuthors}` : ''), date: w.data.year ? String(w.data.year) : undefined, lang: 'en',
     rights: `${rights}. ${w.data.sourceEdition ? 'Source: ' + w.data.sourceEdition + '. ' : ''}From Islamic Archives, ${url}` };
 }
 
@@ -66,7 +66,7 @@ for (const w of works) (byAuthor[idOf(w.data.author)] ||= []).push(w);
 for (const [id, ws] of Object.entries(byAuthor)) {
   const a = authors[id];
   const name = a ? a.data.name : id;
-  const body = ws.map((w) => `# ${w.data.title} (${w.data.year})\n\n` + w.body.replace(/^(#+) /gm, '#$1 ')).join('\n\n');
+  const body = ws.map((w) => `# ${w.data.title}${w.data.year ? ' (' + w.data.year + ')' : ''}\n\n` + w.body.replace(/^(#+) /gm, '#$1 ')).join('\n\n');
   const src = join(TMP, `author-${id}.md`);
   writeSource(src, { title: `${name}: Writings`, author: name, lang: 'en', rights: 'Collected from Islamic Archives, https://islamicarchives.org/authors/' + id + '/. Each work keeps the rights status shown on its page.' }, body);
   run([src, '-o', join(OUT, `author-${id}.epub`), '--toc', '--toc-depth=1', '--css', EPUB_CSS, '--split-level=1']);

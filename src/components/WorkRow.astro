@@ -15,15 +15,16 @@ const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
   data-work
   data-title={d.title.toLowerCase()}
   data-author={(author?.data.name || '').toLowerCase()}
-  data-text={[d.title, author?.data.name, subjText, d.keywords.join(' '), d.summary, d.venue].join(' ').toLowerCase()}
-  data-type={d.type} data-lang={d.language} data-era={era?.id || ''} data-year={d.year}
+  data-text={[d.title, d.titleOriginal, author?.data.name, subjText, d.keywords.join(' '), d.summary, d.venue].join(' ').toLowerCase()}
+  data-type={d.type} data-lang={d.language} data-era={era?.id || ''} data-year={d.year ?? ''}
   data-subjects={subjIds.join('|')} data-access={isHosted ? 'hosted' : 'link'}>
   <div class="main">
     <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center">
       <span class="tag">{d.type.toUpperCase()}</span>
-      <span class="muted" style="font-size:13px">{d.year} · {d.language}{d.venue ? ` · ${d.venue}` : ''}</span>
+      <span class="muted" style="font-size:13px">{[d.year, d.language, d.venue].filter(Boolean).join(' · ')}</span>
     </div>
     <a class="title" href={`/works/${work.id}/`}>{d.title}</a>
+    {d.titleOriginal && <span dir="auto" class="orig-title">{d.titleOriginal}</span>}
     {showAuthor && author && <a href={`/authors/${author.id}/`} style="font-weight:500; font-size:15px">{author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
     {d.summary && <p class="muted" style="margin:2px 0 0; font-size:14px">{d.summary}</p>}
   </div>

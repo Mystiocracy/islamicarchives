@@ -10,7 +10,7 @@ const eras = await allEras();
 const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
 let featured = authors.filter((a) => a.data.featured);
 if (featured.length < 6) featured = featured.concat(authors.filter((a) => !a.data.featured && count(a.id) > 0)).slice(0, 6);
-const recent = [...works].sort((a, b) => (b.data.added?.getTime() || 0) - (a.data.added?.getTime() || 0) || b.data.year - a.data.year).slice(0, 5);
+const recent = [...works].sort((a, b) => (b.data.added?.getTime() || 0) - (a.data.added?.getTime() || 0) || (b.data.year ?? 0) - (a.data.year ?? 0)).slice(0, 5);
 const eraWho = (from: number, to: number) => authors.filter((a) => {
   const mid = a.data.died ?? (a.data.born ? a.data.born + 45 : 0);
   return mid >= from + 10 && mid <= to + 25;

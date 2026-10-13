@@ -30,12 +30,13 @@ content:
           label: "{name}"
         description: "Pick the author. If they are not listed yet, add them under Authors first."
       - { name: coAuthors, label: Co-authors (if any), type: string }
-      - { name: year, label: Year first published, type: number, required: true }
+      - { name: titleOriginal, label: Title in original script (optional), type: string }
+      - { name: year, label: Year first published (leave empty if unknown), type: number }
       - name: language
         label: Language
         type: select
         default: English
-        options: { values: [English, Arabic, Urdu, Persian, French, Turkish, Malay, Bosnian, Other] }
+        options: { creatable: true, values: [English, Arabic, Urdu, Persian, Bengali, Hindi, French, Turkish, Malay, Bosnian, Malayalam, Other] }
       - name: type
         label: Type
         type: select

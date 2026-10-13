@@ -179,5 +179,9 @@ dialog.send::backdrop { background: rgba(20, 32, 30, 0.55); }
   .filters-panel > details > summary::-webkit-details-marker { display: none; }
 }
 
+.orig-title { font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', var(--serif); font-size: 18px; color: var(--ink-2); line-height: 1.7; }
+.orig-title:dir(rtl) { text-align: right; }
+.load-more { align-self: center; margin: 6px auto 0; }
+
 /* pagefind theming */
 .pagefind-ui { --pagefind-ui-primary: var(--green); --pagefind-ui-text: var(--ink); --pagefind-ui-border: #B9C2BF; --pagefind-ui-border-radius: 8px; --pagefind-ui-font: var(--sans); }

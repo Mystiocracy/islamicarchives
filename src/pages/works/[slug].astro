@@ -16,7 +16,7 @@ const { Content, headings } = await render(work);
 const toc = d.contents.length ? d.contents : headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-label' && h.text !== 'Footnotes').map((h) => h.text);
 const url = new URL(`/works/${work.id}/`, Astro.site).href;
 const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
-const cite = `${lastFirst}. ${d.title}. ${d.year}. Islamic Archives: Archive of Modern Islamic Thought. ${url}`;
+const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''} Islamic Archives: Archive of Modern Islamic Thought. ${url}`;
 const eras = await allEras();
 const era = eraOf(d.year, eras);
 const names = await subjectNames();
@@ -38,7 +38,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
           <span style="display:flex; flex-direction:column; gap:10px"><span style="height:2px; width:60px; background:var(--saffron)"></span><span>{author?.data.name}</span></span>
         </div>
         <dl class="card" style="margin:0; display:grid; grid-template-columns:auto 1fr; gap:8px 16px; font-size:14px; padding:18px">
-          <dt class="muted">Published</dt><dd style="margin:0">{d.year}</dd>
+          {d.year && <><dt class="muted">Published</dt><dd style="margin:0">{d.year}</dd></>}
           {d.venue && <><dt class="muted">Venue</dt><dd style="margin:0">{d.venue}</dd></>}
           <dt class="muted">Language</dt><dd style="margin:0">{d.language}</dd>
           <dt class="muted">Type</dt><dd style="margin:0">{d.type}</dd>
@@ -54,6 +54,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
             {era && <a href={`/library/?era=${era.id}`} style="color:var(--muted); text-decoration:none">{eraSpan(era.data)}</a>}
           </div>
           <h1 style="font-size:clamp(30px, 3.6vw, 46px); line-height:1.1" data-pagefind-meta="title">{d.title}</h1>
+          {d.titleOriginal && <p dir="auto" class="orig-title" style="margin:0; font-size:24px">{d.titleOriginal}</p>}
           {author && <a href={`/authors/${author.id}/`} style="font-size:18px; font-weight:500">{author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
           {d.summary && <p style="margin:6px 0 0; font-size:17px; line-height:1.6; color:var(--ink-2); max-width:720px">{d.summary}</p>}
           {d.keywords.length > 0 && <p class="muted" style="margin:0; font-size:14px">Keywords: {d.keywords.map((k, i) => <>{i > 0 && ', '}<a href={`/library/?q=${encodeURIComponent(k)}`}>{k}</a></>)}</p>}
@@ -84,6 +85,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
               <h2 id="dl-h" style="font-size:24px">Where to read it</h2>
               <p class="muted" style="margin:0">{d.rights === 'link-only' ? (d.sourceUrl ? 'This work is still in copyright. A free copy is available elsewhere, so the archive links to it.' : 'This work is still in copyright, and no free copy has been found online yet.') : 'The text of this work is being prepared for the archive.'}</p>
               {d.sourceUrl && <a class="btn btn-primary" href={d.sourceUrl} rel="noopener" target="_blank" style="align-self:flex-start">Read the free copy ↗</a>}
+              {d.sourceNote && <p class="muted" style="margin:0; font-size:14px; overflow-wrap:anywhere">{d.sourceNote}</p>}
             </>
           )}
         </section>
