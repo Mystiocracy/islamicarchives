@@ -28,6 +28,7 @@ const anyHosted = works.some(hosted);
         </div>
         <p class="muted" style="margin:0; font-size:16px">{[years(a), a.region, a.roles].filter(Boolean).join(' · ')}</p>
         {hasBio ? <div class="author-bio" style="font-size:17px; line-height:1.6; max-width:760px; color:var(--ink-2)"><Content /></div> : <p class="muted" style="margin:0">Biography in preparation.</p>}
+        {a.sources.length > 0 && <p class="muted" style="margin:0; font-size:13px; overflow-wrap:anywhere">Sources: {a.sources.map((u, i) => <>{i > 0 && ' · '}<a href={u} rel="noopener" target="_blank">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</p>}
       </div>
       {anyHosted && (
         <div style="flex:1 1 240px; max-width:300px; display:flex; flex-direction:column; gap:10px">

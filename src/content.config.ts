@@ -16,6 +16,8 @@ const authors = defineCollection({
     region: z.string().optional(),
     roles: z.string().optional(),
     featured: z.boolean().default(false),
+    // where the biography's facts come from
+    sources: z.array(z.string().url()).default([]),
   }),
 });
 
@@ -56,6 +58,10 @@ const works = defineCollection({
     rights: z.enum(['public-domain', 'permission', 'link-only']),
     rightsNote: z.string().optional(),
     sourceUrl: z.string().url().optional(),
+    // name of the website that hosts the free copy, shown as "Source: …"
+    sourceLabel: z.string().optional(),
+    // a catalogue or publisher page, for works with no free copy online
+    infoUrl: z.string().url().optional(),
     sourceEdition: z.string().optional(),
     // extra note about the source: an alternative link, edition details
     sourceNote: z.string().optional(),

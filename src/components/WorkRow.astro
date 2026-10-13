@@ -33,8 +33,8 @@ const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
       <a class="fmt" href={`/downloads/${work.id}.${f.ext}`} download aria-label={`Download ${d.title} as ${f.label}`}>
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>{f.label.toUpperCase()}
       </a>
-    )) : d.sourceUrl ? (
-      <a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank">READ AT SOURCE ↗</a>
+    )).concat(d.sourceUrl ? [<a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank" title={d.sourceLabel ? `Source: ${d.sourceLabel}` : undefined}>SOURCE ↗</a>] : []) : d.sourceUrl ? (
+      <a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank" title={d.sourceLabel ? `Source: ${d.sourceLabel}` : undefined}>READ AT SOURCE ↗</a>
     ) : d.rights === 'link-only' ? (
       <span class="muted" style="font-size:13px">No free copy online</span>
     ) : (

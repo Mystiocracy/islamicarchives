@@ -10,4 +10,7 @@ summary: "The controversial argument that the caliphate is not a religious oblig
 rights: public-domain
 rightsNote: "check jurisdiction: author d. 1966"
 added: 2026-10-14
+sourceUrl: "https://sites.dlib.nyu.edu/viewer/node/68525"
+sourceLabel: "Arabic Collections Online (NYU, public-domain scan of the 1925 first edition)"
+titleOriginal: "الإسلام وأصول الحكم"
 ---

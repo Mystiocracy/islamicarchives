@@ -68,7 +68,9 @@ content:
             - { value: permission, label: "Permission granted – host the full text" }
             - { value: link-only, label: "In copyright – link to the free copy only" }
       - { name: rightsNote, label: Rights note, type: string, description: "e.g. 'author d. 1938' or 'permission from the estate, 2026'" }
-      - { name: sourceUrl, label: Link to free copy (for link-only works), type: string }
+      - { name: sourceUrl, label: Link to free copy (Read at source), type: string }
+      - { name: sourceLabel, label: Name of the source website, type: string, description: "Shown as 'Source: …', e.g. Internet Archive" }
+      - { name: infoUrl, label: Catalogue or publisher page (when no free copy exists), type: string }
       - { name: sourceEdition, label: Source edition used for the text, type: string }
       - { name: contents, label: Chapter list (optional), type: string, list: true }
       - { name: added, label: Date added to the archive, type: date }
@@ -95,6 +97,7 @@ content:
       - { name: region, label: Region, type: string }
       - { name: roles, label: Roles, type: string, description: "e.g. Poet, philosopher, lawyer" }
       - { name: featured, label: Feature on the home page, type: boolean, default: false }
+      - { name: sources, label: Biography sources (links), type: string, list: true }
       - { name: body, label: Short biography, type: rich-text }
 
   - name: subjects

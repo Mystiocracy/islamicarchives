@@ -19,4 +19,6 @@ contents:
   - "The Principle of Movement in the Structure of Islam"
   - "Is Religion Possible?"
 added: 2026-10-14
+sourceUrl: "https://archive.org/details/in.ernet.dli.2015.217642"
+sourceLabel: "Internet Archive (1934 Oxford edition, Digital Library of India scan)"
 ---
