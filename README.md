@@ -30,7 +30,7 @@ pulls the `deploy` branch into `public_html`, and its auto-deployment webhook (a
 Settings → Webhooks) makes that happen after every build.
 
 **Send to Kindle / email:** create the mailbox books@islamicarchives.org in hPanel → Emails, then in
-hPanel → File Manager create `public_html/api/config.php` containing:
+hPanel → File Manager, open `domains/islamicarchives.org/` (the folder that contains `public_html`, not inside it) and create `mail-config.php` containing:
 
 ```php
 <?php
@@ -43,7 +43,7 @@ return [
 ];
 ```
 
-The file is never served to visitors (see `.htaccess`) and is not in the repository. Until it exists,
+Being outside `public_html`, the file is never served to visitors, is not in the repository, and survives every deploy. (`public_html/api/config.php` still works as a fallback.) Until it exists,
 the Send buttons show a polite "not switched on yet" message.
 
 ## Working locally

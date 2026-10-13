@@ -14,7 +14,10 @@ function reply($body, $status = 200) {
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') reply(['error' => 'Use POST.'], 405);
 
-$configFile = __DIR__ . '/config.php';
+// Preferred: mail-config.php one level ABOVE public_html (domains/islamicarchives.org/),
+// where website updates can never overwrite or delete it. Falls back to api/config.php.
+$configFile = dirname(__DIR__, 2) . '/mail-config.php';
+if (!is_file($configFile)) $configFile = __DIR__ . '/config.php';
 $autoload = __DIR__ . '/vendor/autoload.php';
 if (!is_file($configFile) || !is_file($autoload)) reply(['error' => 'Sending is not switched on yet. Please download the file instead.'], 503);
 $cfg = require $configFile;
