@@ -19,13 +19,22 @@ Each work is a Markdown file in `content/works/`, and each author is one in `con
 - [Astro](https://astro.build) turns the files in `content/` into pages (`src/pages/`).
 - [Pagefind](https://pagefind.app) builds the full-text search index.
 - `scripts/make-downloads.mjs` uses pandoc (and WeasyPrint for PDF) to make the downloads into `dist/downloads/`.
-- `functions/api/send.js` is a Cloudflare Pages Function that emails a download to a reader's Kindle or inbox.
-- `.github/workflows/deploy.yml` builds everything on each push to `main` and deploys it to Cloudflare Pages.
+- `public/api/send.php` emails a download to a reader's Kindle or inbox through the Hostinger mailbox books@islamicarchives.org.
+- `.github/workflows/deploy.yml` builds everything on each push to `main` and uploads it to the Hostinger hosting by FTP.
 
-## One-time setup
+## One-time setup (Hostinger)
 
-1. **Cloudflare Pages:** create a Cloudflare API token with the *Cloudflare Pages: Edit* permission, then add two repository secrets in GitHub (Settings → Secrets and variables → Actions): `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Create a Pages project named `islamicarchives` (Direct Upload), then add the custom domain `islamicarchives.org` to it.
-2. **Email delivery:** create a free account at resend.com, verify `islamicarchives.org` as a sending domain, and add `RESEND_API_KEY` and `FROM_ADDRESS` (for example `Islamic Archives <books@islamicarchives.org>`) as environment variables on the Pages project. Until then, the Send buttons show a polite "not switched on yet" message.
+Add these repository secrets in GitHub (Settings → Secrets and variables → Actions → New repository secret):
+
+| Secret | Value |
+|---|---|
+| `FTP_SERVER` | FTP hostname from hPanel → Websites → islamicarchives.org → Dashboard → Files → FTP Accounts |
+| `FTP_USERNAME` | FTP username from the same page |
+| `FTP_PASSWORD` | FTP password (set or change it on the same page) |
+| `SMTP_USER` | `books@islamicarchives.org` (create it in hPanel → Emails) |
+| `SMTP_PASSWORD` | that mailbox's password |
+
+The FTP account must open in the website's `public_html` folder (Hostinger's default FTP account for a website does). Until the FTP secrets exist the workflow only builds; until the SMTP secrets exist the Send buttons show a polite "not switched on yet" message.
 
 ## Working locally
 
