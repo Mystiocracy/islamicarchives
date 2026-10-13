@@ -1,5 +1,9 @@
 name: Build and deploy
 
+# Builds the site and puts the finished files on the `deploy` branch.
+# Hostinger's Git deployment pulls that branch into public_html
+# (and a webhook makes it pull automatically after every build).
+
 on:
   push:
     branches: [main]
@@ -13,9 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-    env:
-      HAS_FTP: ${{ secrets.FTP_PASSWORD != '' }}
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -34,27 +36,17 @@ jobs:
       - name: Build site, search index and downloads
         run: npm run build
 
-      - name: Add the email library and mail settings for Send to Kindle
-        if: ${{ env.HAS_FTP == 'true' }}
-        env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      - name: Add the email library used by Send to Kindle
         run: |
           cd dist/api
           composer require --no-interaction --quiet phpmailer/phpmailer:^6.9
-          node -e '
-            const fs = require("fs");
-            const q = (s) => JSON.stringify(s || "");
-            fs.writeFileSync("config.php", `<?php\nreturn [\n  "smtp_host" => "smtp.hostinger.com",\n  "smtp_port" => 465,\n  "smtp_user" => ${q(process.env.SMTP_USER)},\n  "smtp_password" => ${q(process.env.SMTP_PASSWORD)},\n  "from_name" => "Islamic Archives",\n];\n`);
-          '
 
-      - name: Upload to Hostinger
-        if: ${{ env.HAS_FTP == 'true' }}
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./dist/
-          server-dir: ./
+      - name: Publish the built site to the deploy branch
+        run: |
+          cd dist
+          git init -q -b deploy
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Site build from ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" deploy

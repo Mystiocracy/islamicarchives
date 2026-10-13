@@ -24,17 +24,27 @@ Each work is a Markdown file in `content/works/`, and each author is one in `con
 
 ## One-time setup (Hostinger)
 
-Add these repository secrets in GitHub (Settings → Secrets and variables → Actions → New repository secret):
+Each push to `main` builds the site and writes the finished files to the `deploy` branch.
+Hostinger's Git deployment (hPanel → Websites → islamicarchives.org → Dashboard → Advanced → GIT)
+pulls the `deploy` branch into `public_html`, and its auto-deployment webhook (added in GitHub →
+Settings → Webhooks) makes that happen after every build.
 
-| Secret | Value |
-|---|---|
-| `FTP_SERVER` | FTP hostname from hPanel → Websites → islamicarchives.org → Dashboard → Files → FTP Accounts |
-| `FTP_USERNAME` | FTP username from the same page |
-| `FTP_PASSWORD` | FTP password (set or change it on the same page) |
-| `SMTP_USER` | `books@islamicarchives.org` (create it in hPanel → Emails) |
-| `SMTP_PASSWORD` | that mailbox's password |
+**Send to Kindle / email:** create the mailbox books@islamicarchives.org in hPanel → Emails, then in
+hPanel → File Manager create `public_html/api/config.php` containing:
 
-The FTP account must open in the website's `public_html` folder (Hostinger's default FTP account for a website does). Until the FTP secrets exist the workflow only builds; until the SMTP secrets exist the Send buttons show a polite "not switched on yet" message.
+```php
+<?php
+return [
+  "smtp_host" => "smtp.hostinger.com",
+  "smtp_port" => 465,
+  "smtp_user" => "books@islamicarchives.org",
+  "smtp_password" => "THE MAILBOX PASSWORD",
+  "from_name" => "Islamic Archives",
+];
+```
+
+The file is never served to visitors (see `.htaccess`) and is not in the repository. Until it exists,
+the Send buttons show a polite "not switched on yet" message.
 
 ## Working locally
 
