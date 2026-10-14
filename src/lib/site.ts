@@ -55,6 +55,11 @@ export function plain(s: string) {
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[ʿʾ'’]/g, '');
 }
 
+// same normalisation as norm() in public/js/suggest.js, for text that the browser searches
+export function searchText(s: string) {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[ʿʾ'’`]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+}
+
 // where an author is filed in A–Z lists
 export function authorKey(a: { data: { name: string; sortAs?: string } }) {
   return a.data.sortAs ? plain(a.data.sortAs) : sortName(a.data.name);

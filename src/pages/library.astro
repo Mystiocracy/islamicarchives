@@ -27,7 +27,7 @@ const groups = [
 
     <div class="lib-controls" style="display:flex; flex-wrap:wrap; gap:10px">
       <label for="lq" class="sr-only">Filter the library</label>
-      <input id="lq" type="search" placeholder="Filter by title, author or subject" style="flex:1 1 420px; min-width:0; min-height:54px">
+      <input id="lq" type="search" data-suggest placeholder="Filter by title, author or subject" style="flex:1 1 420px; min-width:0; min-height:54px">
       <select id="sort" aria-label="Sort by" style="min-height:54px">
         <option value="old">Oldest first</option>
         <option value="new">Newest first</option>
@@ -64,6 +64,7 @@ const groups = [
 
       <section aria-label="Results" style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:14px">
         <p class="muted" style="margin:0" role="status"><strong id="count" style="color:var(--ink)">{works.length}</strong> works match</p>
+        <p id="near" class="near-note" hidden></p>
         <p id="none" class="card muted" hidden style="padding:40px; text-align:center; margin:0">No works match. Try fewer filters or a different word.</p>
         <div class="card" id="results">{works.map((w) => <WorkRow work={w} />)}</div>
         <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
@@ -88,17 +89,19 @@ const groups = [
         var key = k === 'subject' ? 'subjects' : k;
         boxes.forEach(function (b) { if (b.dataset.filter === key && b.value === v) b.checked = true; });
       });
-      var PAGE = 50, limit = PAGE;
+      var PAGE = 50, limit = PAGE, reordered = false;
       var more = document.getElementById('more');
       more.addEventListener('click', function () { limit += PAGE * 2; apply(true); });
       function apply(keep) {
         if (keep !== true) limit = PAGE;
-        var term = q.value.trim().toLowerCase();
+        var M = window.IAMatch;
+        var term = M ? M.norm(q.value) : q.value.trim().toLowerCase();
+        var qw = term ? term.split(' ') : [];
         var sel = {};
         boxes.forEach(function (b) { if (b.checked) (sel[b.dataset.filter] = sel[b.dataset.filter] || []).push(b.value); });
         var shown = 0;
         rows.forEach(function (r) {
-          var ok = !term || r.dataset.text.indexOf(term) !== -1;
+          var ok = !term || qw.every(function (t) { return r.dataset.text.indexOf(t) !== -1; });
           for (var k in sel) {
             if (!ok) break;
             var have = k === 'subjects' ? r.dataset.subjects.split('|') : [r.dataset[k]];
@@ -107,6 +110,27 @@ const groups = [
           if (ok) shown++;
           r.hidden = !ok || shown > limit;
         });
+        // nothing found: fall back to the nearest spellings and say so
+        var near = document.getElementById('near');
+        near.hidden = true;
+        if (reordered && !(!shown && term)) { rows.forEach(function (r) { box.appendChild(r); }); reordered = false; }
+        if (!shown && term && M) {
+          var scored = [];
+          rows.forEach(function (r) {
+            var ok = true;
+            for (var k in sel) { var have = k === 'subjects' ? r.dataset.subjects.split('|') : [r.dataset[k]]; if (!sel[k].some(function (v) { return have.indexOf(v) !== -1; })) { ok = false; break; } }
+            if (!ok) return;
+            r._w = r._w || r.dataset.text.split(' ');
+            var sc = M.score(qw, r._w, true) || M.score(qw, r._w, false) / 4;
+            if (sc >= 1) scored.push([sc, r]);
+          });
+          scored.sort(function (x, y) { return y[0] - x[0]; });
+          // best matches first
+          scored.forEach(function (x, i) { if (i < limit) x[1].hidden = false; box.appendChild(x[1]); });
+          reordered = true;
+          shown = scored.length;
+          if (shown) { near.textContent = 'No exact match for “' + q.value.trim() + '”. Showing the nearest matches.'; near.hidden = false; }
+        }
         more.hidden = shown <= limit;
         more.textContent = 'Show more (' + (shown - Math.min(shown, limit)) + ' left)';
         document.getElementById('count').textContent = shown;
