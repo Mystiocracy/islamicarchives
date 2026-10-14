@@ -4,6 +4,7 @@ author: jonathan-brown
 year: 2011
 language: "English"
 type: "Policy paper"
+venue: "Carnegie Endowment for International Peace"
 subjects:
   - political-thought
   - sufism

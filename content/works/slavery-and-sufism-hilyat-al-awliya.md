@@ -3,7 +3,7 @@ title: "Slavery and Sufism: The Ḥilyat al-Awliyāʾ as a Source on Slavery in 
 author: jonathan-brown
 year: 2020
 language: English
-type: "Article"
+type: "Paper"
 venue: "Annals of Japan Association for Middle East Studies 36/2"
 subjects:
   - slavery-and-race

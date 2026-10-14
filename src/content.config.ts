@@ -57,7 +57,7 @@ const works = defineCollection({
     titleOriginal: z.string().optional(),
     year: z.number().optional(),
     language: z.string().default('English'),
-    type: z.enum(['Book', 'Pamphlet', 'Article', 'Chapter', 'Essay', 'Policy paper', 'Speech', 'Review', 'Collection', 'Anthology', 'Translation', 'Novel', 'Memoir', 'Letters', 'Bibliography', 'Interview']).default('Article'),
+    type: z.enum(['Book', 'Pamphlet', 'Article', 'Chapter', 'Essay', 'Policy paper', 'Speech', 'Review', 'Collection', 'Anthology', 'Translation', 'Novel', 'Memoir', 'Letters', 'Bibliography', 'Interview', 'Paper', 'Video']).default('Article'),
     subjects: z.array(z.preprocess(toId, reference('subjects'))).default([]),
     keywords: z.array(z.string()).default([]),
     venue: z.string().optional(),

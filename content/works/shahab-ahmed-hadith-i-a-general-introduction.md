@@ -3,7 +3,7 @@ title: "Hadith i. A General Introduction"
 author: shahab-ahmed
 year: 2002
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - hadith-studies
 keywords:

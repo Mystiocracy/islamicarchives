@@ -3,7 +3,7 @@ title: "The Poetics of Solidarity: Palestine in Modern Urdu Poetry"
 author: shahab-ahmed
 year: 1998
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - political-thought
 keywords:

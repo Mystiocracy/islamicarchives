@@ -3,7 +3,7 @@ title: "A Man for All Seasons: Ibn ʿUqda and Crossing Sectarian Boundaries in t
 author: jonathan-brown
 year: 2016
 language: English
-type: "Article"
+type: "Paper"
 venue: "al-ʿUṣūr al-Wusṭā 24"
 subjects:
   - hadith-studies

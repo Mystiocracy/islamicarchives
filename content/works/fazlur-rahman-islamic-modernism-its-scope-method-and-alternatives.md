@@ -3,7 +3,7 @@ title: "Islamic Modernism: Its Scope, Method and Alternatives"
 author: fazlur-rahman
 year: 1970
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - islam-and-modernity
 keywords:

@@ -3,7 +3,7 @@ title: "Was the Gate of Ijtihad Closed?"
 author: hallaq
 year: 1984
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - islamic-law
 keywords:

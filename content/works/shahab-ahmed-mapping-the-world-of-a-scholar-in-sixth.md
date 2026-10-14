@@ -3,7 +3,7 @@ title: "Mapping the World of a Scholar in Sixth/Twelfth Century Bukhara"
 author: shahab-ahmed
 year: 2000
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - philosophy-and-theology
   - islamic-law

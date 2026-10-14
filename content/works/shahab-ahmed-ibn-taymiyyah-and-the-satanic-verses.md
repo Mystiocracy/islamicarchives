@@ -3,7 +3,7 @@ title: "Ibn Taymiyyah and the Satanic Verses"
 author: shahab-ahmed
 year: 1998
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - philosophy-and-theology
   - hadith-studies

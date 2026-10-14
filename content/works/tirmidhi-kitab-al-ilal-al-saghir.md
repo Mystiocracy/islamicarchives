@@ -3,7 +3,7 @@ title: "Introduction to al-Tirmidhī and his Kitāb al-ʿIlal al-ṣaghīr"
 author: jonathan-brown
 year: 2025
 language: English
-type: "Article"
+type: "Paper"
 venue: "Hashiya, Issue 1"
 subjects:
   - hadith-studies

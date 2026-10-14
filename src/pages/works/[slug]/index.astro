@@ -112,9 +112,9 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
             </>
           ) : (
             <>
-              <h2 id="dl-h" style="font-size:24px">Where to read it</h2>
-              <p class="muted" style="margin:0">{d.rights === 'link-only' ? (d.sourceUrl ? 'This work is still in copyright. A free copy is available elsewhere, so the archive links to it.' : 'This work is still in copyright, and no free copy has been found online yet.') : (d.sourceUrl ? 'The text of this work is being prepared for the archive. Meanwhile you can read it at the source below.' : 'The text of this work is being prepared for the archive.')}</p>
-              {d.sourceUrl && <a class="btn btn-primary" href={d.sourceUrl} rel="noopener" target="_blank" style="align-self:flex-start">Read at source ↗</a>}
+              <h2 id="dl-h" style="font-size:24px">{d.type === 'Video' ? 'Where to watch it' : 'Where to read it'}</h2>
+              <p class="muted" style="margin:0">{d.type === 'Video' ? 'This is a recorded lecture or series. The archive links to where it can be watched free of charge.' : d.rights === 'link-only' ? (d.sourceUrl ? 'This work is still in copyright. A free copy is available elsewhere, so the archive links to it.' : 'This work is still in copyright, and no free copy has been found online yet.') : (d.sourceUrl ? 'The text of this work is being prepared for the archive. Meanwhile you can read it at the source below.' : 'The text of this work is being prepared for the archive.')}</p>
+              {d.sourceUrl && <a class="btn btn-primary" href={d.sourceUrl} rel="noopener" target="_blank" style="align-self:flex-start">{d.type === 'Video' ? 'Watch ↗' : 'Read at source ↗'}</a>}
               {d.sourceUrl && <p class="muted" style="margin:0; font-size:14px; overflow-wrap:anywhere">Source: {d.sourceLabel || new URL(d.sourceUrl).hostname.replace(/^www\./, '')}</p>}
               {!d.sourceUrl && d.infoUrl && <a class="btn btn-outline" href={d.infoUrl} rel="noopener" target="_blank" style="align-self:flex-start">About this book ↗</a>}
               {d.sourceNote && <p class="muted" style="margin:0; font-size:14px; overflow-wrap:anywhere">{d.sourceNote}</p>}

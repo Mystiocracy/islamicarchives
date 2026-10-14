@@ -3,7 +3,7 @@ title: "Meta-Religion: Towards a Critical World Theology"
 author: al-faruqi
 year: 1986
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:

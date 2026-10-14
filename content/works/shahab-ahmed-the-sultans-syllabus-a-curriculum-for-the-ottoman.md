@@ -3,7 +3,7 @@ title: "The Sultan's Syllabus: A Curriculum for the Ottoman Imperial Medreses"
 author: shahab-ahmed
 year: 2004
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - education
   - philosophy-and-theology

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import WorkRow from '../components/WorkRow.astro';
-import { allWorks, allEras, allSubjects, eraOf, eraSpan, hosted } from '../lib/site';
+import { allWorks, allEras, allSubjects, eraOf, eraSpan, hosted, categoryOf, CATEGORIES } from '../lib/site';
 
 const works = await allWorks();
 const eras = await allEras();
@@ -13,6 +13,7 @@ const counts = (fn: (w: any) => string | string[]) => {
   return m;
 };
 const groups = [
+  { key: 'cat', label: 'Category', m: counts((w) => categoryOf(w.data.type)), labels: Object.fromEntries(CATEGORIES.map((c) => [c.id, c.label])), order: CATEGORIES.map((c) => c.id) },
   { key: 'type', label: 'Type', m: counts((w) => w.data.type) },
   { key: 'lang', label: 'Language', m: counts((w) => w.data.language) },
   { key: 'era', label: 'Era', m: counts((w) => eraOf(w.data.year, eras)?.id || 'none'), labels: { ...Object.fromEntries(eras.map((e) => [e.id, `${eraSpan(e.data)} · ${e.data.name}`])), none: 'Year unknown' } },
@@ -49,7 +50,7 @@ const groups = [
         {groups.map((g) => (
           <fieldset style="border:0; margin:0; padding:0; display:flex; flex-direction:column; gap:6px">
             <legend style="font-size:13px; font-weight:600; letter-spacing:0.05em; color:var(--muted); margin-bottom:8px">{g.label.toUpperCase()}</legend>
-            {[...g.m.entries()].sort((a, b) => g.key === 'era' ? eras.findIndex((e) => e.id === a[0]) - eras.findIndex((e) => e.id === b[0]) : g.key === 'subjects' ? subjectOrder.indexOf(a[0]) - subjectOrder.indexOf(b[0]) : b[1] - a[1]).map(([v, n]) => (
+            {[...g.m.entries()].sort((a, b) => (g as any).order ? (g as any).order.indexOf(a[0]) - (g as any).order.indexOf(b[0]) : g.key === 'era' ? eras.findIndex((e) => e.id === a[0]) - eras.findIndex((e) => e.id === b[0]) : g.key === 'subjects' ? subjectOrder.indexOf(a[0]) - subjectOrder.indexOf(b[0]) : b[1] - a[1]).map(([v, n]) => (
               <label style="display:flex; align-items:center; gap:10px; font-size:15px; min-height:32px; cursor:pointer">
                 <input type="checkbox" data-filter={g.key} value={v}>
                 <span style="flex:1">{(g as any).labels?.[v] ?? v}</span>
@@ -84,7 +85,7 @@ const groups = [
       var boxes = Array.prototype.slice.call(document.querySelectorAll('[data-filter]'));
       var params = new URLSearchParams(location.search);
       if (params.get('q')) q.value = params.get('q');
-      ['subject', 'era', 'type', 'lang'].forEach(function (k) {
+      ['subject', 'era', 'type', 'lang', 'cat'].forEach(function (k) {
         var v = params.get(k); if (!v) return;
         var key = k === 'subject' ? 'subjects' : k;
         boxes.forEach(function (b) { if (b.dataset.filter === key && b.value === v) b.checked = true; });

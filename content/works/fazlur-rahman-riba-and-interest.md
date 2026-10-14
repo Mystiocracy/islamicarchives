@@ -3,7 +3,7 @@ title: "Riba and Interest"
 author: fazlur-rahman
 year: 1964
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - economics
   - islamic-law

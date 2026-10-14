@@ -278,3 +278,16 @@ dialog.send::backdrop { background: rgba(20, 32, 30, 0.55); }
   .reader-fab { padding: 0 15px; font-size: 18px; }
 }
 @media print { .reader-fab, .reader-bar, .reader-foot { display: none; } }
+
+/* author page: category tabs */
+.cat-tabs { display: flex; flex-wrap: wrap; gap: 0; border-bottom: 2px solid var(--line); }
+.cat-tab { border: 0; background: none; font: inherit; font-size: 16px; font-weight: 500; color: var(--muted); padding: 10px 16px; margin-bottom: -2px; border-bottom: 3px solid transparent; cursor: pointer; }
+.cat-tab span { font-size: 13px; color: var(--muted); margin-left: 4px; }
+.cat-tab[aria-pressed='true'] { color: var(--green); border-bottom-color: var(--saffron); font-weight: 600; }
+.cat-tab:hover { color: var(--ink); }
+.cat-head { font-size: 21px; margin-top: 8px; }
+.cat-head span { font-family: var(--sans, inherit); font-size: 15px; font-weight: 500; margin-left: 6px; }
+@media (max-width: 820px) {
+  .cat-tabs { flex-wrap: wrap; }
+  .cat-tab { white-space: nowrap; padding: 9px 12px; font-size: 15px; }
+}

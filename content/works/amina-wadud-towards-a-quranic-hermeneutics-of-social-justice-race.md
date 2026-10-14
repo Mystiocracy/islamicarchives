@@ -3,7 +3,7 @@ title: "Towards a Qur'anic Hermeneutics of Social Justice: Race, Class and Gende
 author: amina-wadud
 year: 1995
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - quranic-studies
   - women-and-gender

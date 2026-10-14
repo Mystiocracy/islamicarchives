@@ -2,7 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import WorkRow from '../../components/WorkRow.astro';
-import { allAuthors, allWorks, years, initials, hosted, type Author } from '../../lib/site';
+import { allAuthors, allWorks, years, initials, hosted, categoryOf, CATEGORIES, type Author } from '../../lib/site';
 
 export async function getStaticPaths() {
   const authors = await allAuthors();
@@ -15,6 +15,7 @@ const { Content } = await render(author);
 const hasBio = (author.body || '').trim().length > 0;
 const langs = [...new Set(works.map((w) => w.data.language))];
 const anyHosted = works.some(hosted);
+const groups = CATEGORIES.map((c) => ({ ...c, works: works.filter((w) => categoryOf(w.data.type) === c.id) })).filter((g) => g.works.length);
 ---
 <Base title={a.name} current="authors">
   <section style="background:var(--surface); border-bottom:1px solid var(--line)">
@@ -38,41 +39,65 @@ const anyHosted = works.some(hosted);
     </div>
   </section>
   <div class="wrap" style="padding-top:28px; display:flex; flex-direction:column; gap:18px">
-    <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px">
-      <h2 style="font-size:28px">Works</h2>
-      {langs.length > 1 && (
-        <div role="group" aria-label="Filter by language" style="display:flex; flex-wrap:wrap; gap:8px">
-          {['All', ...langs].map((l) => <button type="button" class="btn btn-quiet" data-lang-filter={l} aria-pressed={l === 'All' ? 'true' : 'false'}>{l}</button>)}
-        </div>
-      )}
-    </div>
-    {works.length ? <div class="card">{works.map((w) => <WorkRow work={w} showAuthor={false} />)}</div> : <p class="card muted" style="padding:32px; margin:0">No works have been added for this author yet.</p>}
+    <h2 style="font-size:28px">Works</h2>
+    {groups.length > 1 && (
+      <div role="group" aria-label="Show category" class="cat-tabs">
+        <button type="button" class="cat-tab" data-cat-filter="all" aria-pressed="true">All <span>{works.length}</span></button>
+        {groups.map((g) => <button type="button" class="cat-tab" data-cat-filter={g.id} aria-pressed="false">{g.label} <span>{g.works.length}</span></button>)}
+      </div>
+    )}
+    {langs.length > 1 && (
+      <div role="group" aria-label="Filter by language" style="display:flex; flex-wrap:wrap; gap:8px; align-items:center">
+        <span class="muted" style="font-size:14px">Language:</span>
+        {['All', ...langs].map((l) => <button type="button" class="btn btn-quiet" data-lang-filter={l} aria-pressed={l === 'All' ? 'true' : 'false'}>{l}</button>)}
+      </div>
+    )}
+    {works.length ? groups.map((g) => (
+      <section data-cat-section={g.id} style="display:flex; flex-direction:column; gap:10px">
+        <h3 class="cat-head">{g.label} <span class="muted" data-cat-count>{g.works.length}</span></h3>
+        <div class="card">{g.works.map((w) => <WorkRow work={w} showAuthor={false} />)}</div>
+      </section>
+    )) : <p class="card muted" style="padding:32px; margin:0">No works have been added for this author yet.</p>}
+    <p id="cat-none" class="card muted" hidden style="padding:28px; margin:0">Nothing in this language here.</p>
     <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
   </div>
   <script is:inline>
     (function () {
       var rows = Array.prototype.slice.call(document.querySelectorAll('[data-work]'));
+      var secs = Array.prototype.slice.call(document.querySelectorAll('[data-cat-section]'));
       var more = document.getElementById('more');
-      var PAGE = 50, limit = PAGE, lang = 'All';
+      var PAGE = 50, limit = PAGE, lang = 'All', cat = 'all';
       function apply() {
         var shown = 0;
-        rows.forEach(function (r) {
-          var ok = lang === 'All' || r.dataset.lang === lang;
-          if (ok) shown++;
-          r.hidden = !ok || shown > limit;
+        secs.forEach(function (sec) {
+          var inCat = cat === 'all' || sec.dataset.catSection === cat, n = 0, vis = 0;
+          sec.querySelectorAll('[data-work]').forEach(function (r) {
+            var ok = inCat && (lang === 'All' || r.dataset.lang === lang);
+            if (ok) { n++; shown++; }
+            r.hidden = !ok || shown > limit;
+            if (!r.hidden) vis++;
+          });
+          sec.hidden = vis === 0;
+          sec.querySelector('[data-cat-count]').textContent = n;
         });
+        document.getElementById('cat-none').hidden = shown !== 0 || !rows.length;
         more.hidden = shown <= limit;
         more.textContent = 'Show more (' + (shown - Math.min(shown, limit)) + ' left)';
       }
       more.addEventListener('click', function () { limit += PAGE * 2; apply(); });
-      document.querySelectorAll('[data-lang-filter]').forEach(function (b) {
-        b.addEventListener('click', function () {
-          lang = b.dataset.langFilter; limit = PAGE;
-          document.querySelectorAll('[data-lang-filter]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-          apply();
+      function wire(attr, set) {
+        document.querySelectorAll('[' + attr + ']').forEach(function (b) {
+          b.addEventListener('click', function () {
+            set(b.getAttribute(attr)); limit = PAGE;
+            document.querySelectorAll('[' + attr + ']').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+            apply();
+          });
         });
-      });
-      apply();
+      }
+      wire('data-lang-filter', function (v) { lang = v; });
+      wire('data-cat-filter', function (v) { cat = v; if (history.replaceState) history.replaceState(null, '', v === 'all' ? location.pathname : '#' + v); });
+      var h = location.hash.slice(1), start = h && document.querySelector('[data-cat-filter="' + h + '"]');
+      if (start) { start.click(); start.scrollIntoView({ block: 'start' }); } else apply();
     })();
   </script>
 </Base>

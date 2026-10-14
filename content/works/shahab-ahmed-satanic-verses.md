@@ -3,7 +3,7 @@ title: "Satanic Verses"
 author: shahab-ahmed
 year: 2004
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - quranic-studies
 keywords:

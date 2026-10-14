@@ -98,3 +98,15 @@ export const RIGHTS_LABEL: Record<string, string> = {
   permission: 'Published with permission',
   'link-only': 'Link to free copy',
 };
+
+// The four groups works are divided into on author pages and in the Library.
+export const CATEGORIES = [
+  { id: 'books', label: 'Books', types: ['Book', 'Pamphlet', 'Collection', 'Anthology', 'Translation', 'Novel', 'Memoir', 'Letters', 'Bibliography'] },
+  { id: 'articles', label: 'Articles & essays', types: ['Article', 'Essay', 'Review', 'Speech', 'Interview'] },
+  { id: 'papers', label: 'Papers', types: ['Paper', 'Policy paper', 'Chapter'] },
+  { id: 'videos', label: 'Videos', types: ['Video'] },
+] as const;
+export type CategoryId = (typeof CATEGORIES)[number]['id'];
+export function categoryOf(type: string): CategoryId {
+  return (CATEGORIES.find((c) => (c.types as readonly string[]).includes(type))?.id || 'articles') as CategoryId;
+}

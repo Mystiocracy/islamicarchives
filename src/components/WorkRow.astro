@@ -1,6 +1,6 @@
 ---
 import { getEntry } from 'astro:content';
-import { FORMATS, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, type Work } from '../lib/site';
+import { FORMATS, categoryOf, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, type Work } from '../lib/site';
 interface Props { work: Work; showAuthor?: boolean }
 const { work, showAuthor = true } = Astro.props;
 const d = work.data;
@@ -16,7 +16,7 @@ const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
   data-title={d.title.toLowerCase()}
   data-author={(author?.data.name || '').toLowerCase()}
   data-text={searchText([d.title, d.titleOriginal, author?.data.name, author?.data.sortAs, subjText, d.keywords.join(' '), d.summary, d.venue].filter(Boolean).join(' '))}
-  data-type={d.type} data-lang={d.language} data-era={era?.id || ''} data-year={d.year ?? ''}
+  data-type={d.type} data-cat={categoryOf(d.type)} data-lang={d.language} data-era={era?.id || ''} data-year={d.year ?? ''}
   data-subjects={subjIds.join('|')} data-access={isHosted ? 'hosted' : 'link'}>
   <div class="main">
     <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center">
@@ -34,7 +34,7 @@ const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>{f.label.toUpperCase()}
       </a>
     )).concat(d.sourceUrl ? [<a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank" title={d.sourceLabel ? `Source: ${d.sourceLabel}` : undefined}>SOURCE ↗</a>] : []) : d.sourceUrl ? (
-      <a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank" title={d.sourceLabel ? `Source: ${d.sourceLabel}` : undefined}>READ AT SOURCE ↗</a>
+      <a class="fmt" href={d.sourceUrl} rel="noopener" target="_blank" title={d.sourceLabel ? `Source: ${d.sourceLabel}` : undefined}>{d.type === 'Video' ? 'WATCH ↗' : 'READ AT SOURCE ↗'}</a>
     ) : d.rights === 'link-only' ? (
       <span class="muted" style="font-size:13px">No free copy online</span>
     ) : (

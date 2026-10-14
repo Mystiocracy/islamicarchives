@@ -3,7 +3,7 @@ title: "Reflections on Islamic Feminist Exegesis of the Qur'an"
 author: amina-wadud
 year: 2021
 language: "English"
-type: "Article"
+type: "Paper"
 subjects:
   - quranic-studies
   - women-and-gender
