@@ -296,7 +296,7 @@ dialog.send::backdrop { background: rgba(20, 32, 30, 0.55); }
 html { scroll-padding-top: 140px; }
 @media (max-width: 820px) { html { scroll-padding-top: 76px; } }
 
-/* search box in the top bar, next to My Kindle & email (desktop); phones keep the row under the bar */
+/* search box in the top bar, in the header (desktop); phones keep the row under the bar */
 .header-search { flex: 0 1 340px; min-width: 200px; }
 .header-search .site-search-box input { min-height: 42px; font-size: 15px; }
 .header-search .suggest { width: min(520px, calc(100vw - 32px)); right: 0; }
