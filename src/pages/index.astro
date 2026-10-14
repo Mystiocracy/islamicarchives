@@ -16,7 +16,7 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
   return mid >= from + 10 && mid <= to + 25;
 }).slice(0, 3).map((a) => a.data.name).join(', ');
 ---
-<Base>
+<Base current="home">
   <section style="background: var(--green-dark); color: #fff">
     <div class="wrap hero" style="padding-top: 88px; padding-bottom: 96px; display: flex; flex-direction: column; gap: 22px">
       <h1 class="hero-h1" style="font-weight:700; font-size: clamp(36px, 5vw, 64px); line-height:1.05; max-width:880px">The writings of modern Muslim thinkers, free to read and keep.</h1>
