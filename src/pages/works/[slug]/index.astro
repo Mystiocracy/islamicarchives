@@ -16,7 +16,7 @@ const { Content, headings } = await render(work);
 const chapters = d.reader ? await chaptersOf(work.id) : [];
 const toc = d.contents.length ? d.contents : headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-label' && h.text !== 'Footnotes').map((h) => h.text);
 const url = new URL(`/works/${work.id}/`, Astro.site).href;
-const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
+const lastFirst = author ? (() => { const p = (d.byline || author.data.name).split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
 const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''} Islamic Archives: Archive of Modern Islamic Thought. ${url}`;
 const eras = await allEras();
 const era = eraOf(d.year, eras);
@@ -36,7 +36,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
         <div class="work-cover" style="aspect-ratio:2/3; background:var(--green-dark); border-radius:4px 10px 10px 4px; padding:28px 24px; display:flex; flex-direction:column; justify-content:space-between; color:#fff; border-left:10px solid #0E2E27">
           <span style="font-size:12px; letter-spacing:0.12em; color:#E9C78D">ISLAMIC ARCHIVES</span>
           <span style="font-family:var(--serif); font-weight:700; font-size:clamp(20px, 2.2vw, 28px); line-height:1.15">{d.title}</span>
-          <span style="display:flex; flex-direction:column; gap:10px"><span style="height:2px; width:60px; background:var(--saffron)"></span><span>{author?.data.name}</span></span>
+          <span style="display:flex; flex-direction:column; gap:10px"><span style="height:2px; width:60px; background:var(--saffron)"></span><span>{d.byline || author?.data.name}</span></span>
         </div>
         <dl class="card" style="margin:0; display:grid; grid-template-columns:auto 1fr; gap:8px 16px; font-size:14px; padding:18px">
           {d.year && <><dt class="muted">Published</dt><dd style="margin:0">{d.year}</dd></>}
@@ -56,7 +56,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
           </div>
           <h1 style="font-size:clamp(30px, 3.6vw, 46px); line-height:1.1" data-pagefind-meta="title">{d.title}</h1>
           {d.titleOriginal && <p dir="auto" class="orig-title" style="margin:0; font-size:24px">{d.titleOriginal}</p>}
-          {author && <a href={`/authors/${author.id}/`} style="font-size:18px; font-weight:500">{author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
+          {author && <a href={`/authors/${author.id}/`} style="font-size:18px; font-weight:500">{d.byline ? `${d.byline} (${author.data.name})` : author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
           {d.summary && <p style="margin:6px 0 0; font-size:17px; line-height:1.6; color:var(--ink-2); max-width:720px">{d.summary}</p>}
           {d.keywords.length > 0 && <p class="muted" style="margin:0; font-size:14px">Keywords: {d.keywords.map((k, i) => <>{i > 0 && ', '}<a href={`/library/?q=${encodeURIComponent(k)}`}>{k}</a></>)}</p>}
         </div>

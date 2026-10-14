@@ -54,6 +54,8 @@ const works = defineCollection({
     title: z.string(),
     author: z.preprocess(toId, reference('authors')),
     coAuthors: z.string().optional(),
+    // the writer's name when the work is filed under an institution (e.g. a Yaqeen Institute paper by a guest writer)
+    byline: z.string().optional(),
     titleOriginal: z.string().optional(),
     year: z.number().optional(),
     language: z.string().default('English'),
