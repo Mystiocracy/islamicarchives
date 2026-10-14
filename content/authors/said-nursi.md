@@ -1,7 +1,5 @@
 ---
 name: "Said Nursi"
-nameNative: "Bediüzzaman Said Nursî"
-nativeLang: tr
 born: 1877
 died: 1960
 region: "Ottoman Empire / Turkey"

@@ -37,13 +37,23 @@ export async function allWorks() {
 
 export async function allAuthors() {
   const as = await getCollection('authors');
-  return as.sort((a, b) => sortName(a.data.name).localeCompare(sortName(b.data.name)));
+  return as.sort((a, b) => authorKey(a).localeCompare(authorKey(b)));
 }
 
 // "Muhammad Iqbal" -> "Iqbal"; strips leading al-/ʿ for sorting
 export function sortName(name: string) {
   const last = name.replace(/\(.*?\)/g, '').trim().split(/\s+/).pop() || name;
-  return last.replace(/^(al-|el-)/i, '').replace(/^[ʿʾ'’]/, '');
+  return plain(last.replace(/^(al-|el-)/i, ''));
+}
+
+// strip diacritics and ʿ/ʾ so "Ṭāhā" files under T and "ʿAlī" under A
+export function plain(s: string) {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[ʿʾ'’]/g, '');
+}
+
+// where an author is filed in A–Z lists
+export function authorKey(a: { data: { name: string; sortAs?: string } }) {
+  return a.data.sortAs ? plain(a.data.sortAs) : sortName(a.data.name);
 }
 
 export function years(a: Author['data']) {

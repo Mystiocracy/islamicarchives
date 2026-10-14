@@ -7,6 +7,7 @@ died: 1951
 region: "France; Egypt"
 roles: "Metaphysician, Sufi, traditionalist writer, critic of modernity"
 featured: false
+sortAs: "Guenon"
 sources:
   - "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non"
   - "https://worldwisdom.com/author/rene-guenon/"

@@ -6,6 +6,7 @@ born: 1944
 region: "Morocco"
 roles: "Philosopher, logician, ethicist"
 featured: false
+sortAs: "Taha Abdurrahman"
 sources:
   - "https://en.wikipedia.org/wiki/Taha_Abdurrahman"
   - "https://ar.wikipedia.org/wiki/طه_عبد_الرحمن"

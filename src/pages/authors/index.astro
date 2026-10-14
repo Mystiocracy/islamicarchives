@@ -1,23 +1,29 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { allAuthors, allWorks, years, initials, sortName } from '../../lib/site';
+import { allAuthors, allWorks, years, initials, authorKey, plain } from '../../lib/site';
 const authors = await allAuthors();
 const works = await allWorks();
 const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
-const letters = [...new Set(authors.map((a) => sortName(a.data.name)[0].toUpperCase()))].sort();
+const letters = [...new Set(authors.map((a) => authorKey(a)[0].toUpperCase()))].sort();
 ---
 <Base title="Authors" current="authors">
   <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:24px">
-    <h1 style="font-size:40px">Authors</h1>
+    <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px">
+      <h1 style="font-size:40px">Authors</h1>
+      <label style="flex:0 1 340px; min-width:0"><span class="sr-only">Find an author</span>
+        <input id="af" type="search" placeholder="Find an author…" autocomplete="off" style="width:100%">
+      </label>
+    </div>
+    <p id="af-none" class="muted" hidden style="margin:0">No author matches. Try part of the name, e.g. “Taha” or “Qutb”.</p>
     <nav aria-label="Jump to letter" style="display:flex; flex-wrap:wrap; gap:6px">
       {letters.map((l) => <a class="fmt" href={`#${l}`} style="min-width:38px; justify-content:center; font-size:14px">{l}</a>)}
     </nav>
     {letters.map((l) => (
-      <section id={l} style="display:flex; flex-direction:column; gap:14px">
+      <section id={l} data-letter style="display:flex; flex-direction:column; gap:14px">
         <h2 style="font-size:28px; color:var(--saffron-text)">{l}</h2>
         <div class="grid-auto" style="--min:260px">
-          {authors.filter((a) => sortName(a.data.name)[0].toUpperCase() === l).map((a) => (
-            <a href={`/authors/${a.id}/`} class="card" style="text-decoration:none; color:var(--ink); padding:16px; display:flex; gap:14px; align-items:center">
+          {authors.filter((a) => authorKey(a)[0].toUpperCase() === l).map((a) => (
+            <a href={`/authors/${a.id}/`} data-author-card data-name={plain([a.data.name, a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' ')).toLowerCase()} class="card" style="text-decoration:none; color:var(--ink); padding:16px; display:flex; gap:14px; align-items:center">
               <span class="monogram" style="width:48px; height:48px; font-size:17px">{initials(a.data.name)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; min-width:0">
                 <span style="font-family:var(--serif); font-weight:600; font-size:17px">{a.data.name}</span>
@@ -30,4 +36,19 @@ const letters = [...new Set(authors.map((a) => sortName(a.data.name)[0].toUpperC
       </section>
     ))}
   </div>
+  <script is:inline>
+    (function () {
+      var f = document.getElementById('af');
+      var norm = function (t) { return t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[ʿʾ'’]/g, '').toLowerCase().trim(); };
+      f.addEventListener('input', function () {
+        var q = norm(f.value), any = false;
+        document.querySelectorAll('[data-letter]').forEach(function (sec) {
+          var shown = 0;
+          sec.querySelectorAll('[data-author-card]').forEach(function (c) { var ok = !q || c.dataset.name.indexOf(q) !== -1; c.hidden = !ok; if (ok) shown++; });
+          sec.hidden = shown === 0; if (shown) any = true;
+        });
+        document.getElementById('af-none').hidden = any;
+      });
+    })();
+  </script>
 </Base>

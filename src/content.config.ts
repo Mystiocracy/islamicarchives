@@ -16,6 +16,8 @@ const authors = defineCollection({
     region: z.string().optional(),
     roles: z.string().optional(),
     featured: z.boolean().default(false),
+    // the name to file the author under in A–Z lists, e.g. "Taha" (defaults to the last word of the name)
+    sortAs: z.string().optional(),
     // where the biography's facts come from
     sources: z.array(z.string().url()).default([]),
   }),

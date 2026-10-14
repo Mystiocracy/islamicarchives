@@ -1,7 +1,5 @@
 ---
 name: "Alija Izetbegović"
-nameNative: "Alija Izetbegović"
-nativeLang: bs
 born: 1925
 died: 2003
 region: "Bosnia and Herzegovina (Yugoslavia)"
