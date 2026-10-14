@@ -33,8 +33,8 @@ const groups = [
         <option value="random">Random order</option>
         <option value="az">Title A–Z</option>
         <option value="za">Title Z–A</option>
-        <option value="author">Author A–Z</option>
-        <option value="author-za">Author Z–A</option>
+        <option value="author">Author (surname) A–Z</option>
+        <option value="author-za">Author (surname) Z–A</option>
         <option value="old">Date: oldest first</option>
         <option value="new">Date: newest first</option>
       </select>
@@ -169,7 +169,7 @@ const groups = [
           if (m === 'az') return key(a.dataset.title).localeCompare(key(b.dataset.title));
           if (m === 'za') return key(b.dataset.title).localeCompare(key(a.dataset.title));
           if (m === 'author' || m === 'author-za') {
-            var c = key(a.dataset.author).localeCompare(key(b.dataset.author)) || key(a.dataset.title).localeCompare(key(b.dataset.title));
+            var c = key(a.dataset.authorSort).localeCompare(key(b.dataset.authorSort)) || key(a.dataset.title).localeCompare(key(b.dataset.title));
             return m === 'author' ? c : -c;
           }
           var ya = a.dataset.year === '' ? null : +a.dataset.year, yb = b.dataset.year === '' ? null : +b.dataset.year;

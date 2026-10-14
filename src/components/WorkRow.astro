@@ -1,6 +1,6 @@
 ---
 import { getEntry } from 'astro:content';
-import { FORMATS, categoryOf, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, type Work } from '../lib/site';
+import { FORMATS, categoryOf, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, authorKey, sortName, type Work } from '../lib/site';
 interface Props { work: Work; showAuthor?: boolean }
 const { work, showAuthor = true } = Astro.props;
 const d = work.data;
@@ -10,11 +10,15 @@ const era = eraOf(d.year, await allEras());
 const names = await subjectNames();
 const subjIds = d.subjects.map((s) => s.id);
 const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
+// surname used by the Library's author sort; a guest writer's own surname when the work is filed under an institution
+const firstWriter = d.byline?.split(/\s*(?:,|&|\band\b)\s*/)[0];
+const authorSort = (firstWriter ? sortName(firstWriter) : author ? authorKey(author) : '') + ' ' + (firstWriter || author?.data.name || '');
 ---
 <article class="work-row"
   data-work
   data-title={d.title.toLowerCase()}
   data-author={(author?.data.name || '').toLowerCase()}
+  data-author-sort={authorSort.toLowerCase()}
   data-text={searchText([d.title, d.titleOriginal, author?.data.name, d.byline, d.coAuthors, author?.data.sortAs, subjText, d.keywords.join(' '), d.summary, d.venue].filter(Boolean).join(' '))}
   data-type={d.type} data-cat={categoryOf(d.type)} data-lang={d.language} data-era={era?.id || ''} data-year={d.year ?? ''}
   data-subjects={subjIds.join('|')} data-access={isHosted ? 'hosted' : 'link'}>
