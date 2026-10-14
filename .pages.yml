@@ -97,6 +97,7 @@ content:
       - { name: region, label: Region, type: string }
       - { name: roles, label: Roles, type: string, description: "e.g. Poet, philosopher, lawyer" }
       - { name: featured, label: Feature on the home page, type: boolean, default: false }
+      - { name: sortAs, label: Sort as (A–Z list), type: string, description: "Name to file the author under, e.g. Taha. Leave empty to use the last word of the name" }
       - { name: sources, label: Biography sources (links), type: string, list: true }
       - { name: body, label: Short biography, type: rich-text }
 
