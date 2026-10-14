@@ -1,39 +1,31 @@
 ---
 import Base from '../layouts/Base.astro';
-import WorkRow from '../components/WorkRow.astro';
-import { allWorks, allAuthors, allSubjects, allEras, eraSpan, years, initials } from '../lib/site';
+import { allWorks, allAuthors, allSubjects, allEras, eraSpan } from '../lib/site';
 
 const works = await allWorks();
 const authors = await allAuthors();
-const subjects = (await allSubjects()).filter((s) => s.data.featured);
+const subjects = await allSubjects();
 const eras = await allEras();
-const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
-let featured = authors.filter((a) => a.data.featured);
-if (featured.length < 6) featured = featured.concat(authors.filter((a) => !a.data.featured && count(a.id) > 0)).slice(0, 6);
-const recent = [...works].sort((a, b) => (b.data.added?.getTime() || 0) - (a.data.added?.getTime() || 0) || (b.data.year ?? 0) - (a.data.year ?? 0)).slice(0, 5);
+const count = new Map<string, number>();
+for (const w of works) count.set(w.data.author.id, (count.get(w.data.author.id) || 0) + 1);
+const tickerAuthors = authors.filter((a) => (count.get(a.id) || 0) > 0);
 ---
 <Base current="home">
   <section style="background: var(--green-dark); color: #fff">
     <div class="wrap hero" style="padding-top: 44px; padding-bottom: 48px; display: flex; flex-direction: column; gap: 16px">
-      <h1 class="hero-h1" style="font-weight:700; font-size: clamp(32px, 4vw, 52px); line-height:1.08; max-width:1100px">The writings of modern Muslim thinkers, free to read and keep.</h1>
-      <p class="hero-lede" style="margin:0; font-size:19px; line-height:1.55; max-width:900px; color:#D7E3DF">Books, essays and articles from the 19th century to today. Search the full text, read online, download in the format you need, or send a work straight to your Kindle or inbox.</p>
-      <form class="hero-search" action="/library/" method="get" role="search" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:4px; max-width:1100px">
+      <h1 class="hero-h1" style="font-weight:700; font-size: clamp(32px, 4vw, 52px); line-height:1.08">The writings of modern Muslim thinkers.</h1>
+      <p class="hero-lede" style="margin:0; font-size:19px; line-height:1.55; color:#D7E3DF">Books, essays and articles from the 19th century to today. Search the full text, read online, download in the format you need, or send a work straight to your Kindle or inbox.</p>
+      <form class="hero-search" action="/library/" method="get" role="search" style="display:flex; flex-wrap:wrap; gap:10px; margin-top:4px">
         <label for="q" class="sr-only">Search the archive</label>
         <input id="q" name="q" type="search" data-suggest placeholder="Search authors, titles, subjects or words in the text" style="flex:1 1 420px; min-height:54px; font-size:17px; border:0; min-width:0">
         <button class="btn btn-saffron" style="min-height:54px; padding:0 28px; font-size:17px" aria-label="Search"><svg class="only-mobile" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="hide-mobile">Search</span></button>
       </form>
-      <div class="hero-tries" style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:14px; color:#D7E3DF">
-        <span>Try:</span>
-        {['Iqbal', 'hadith', 'slavery', 'Salafi', 'modernity'].map((t) => (
-          <a href={`/library/?q=${encodeURIComponent(t)}`} style="color:#fff; text-decoration:none; border:1px solid #4E7A6F; border-radius:999px; padding:8px 14px">{t}</a>
-        ))}
-      </div>
     </div>
   </section>
 
   <div class="wrap">
     <section class="section">
-      <div class="grid-auto feature-tiles" style="--min: 260px">
+      <div class="feature-tiles" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:18px">
         {[
           ['Search every word', 'Full-text search across hosted works, with filters for author, subject, era, language and type.'],
           ['Download any format', 'EPUB, PDF, Word and plain text, with linked footnotes and a table of contents. EPUB works on Kindle too.'],
@@ -60,28 +52,25 @@ const recent = [...works].sort((a, b) => (b.data.added?.getTime() || 0) - (a.dat
 
     <section class="section">
       <div class="section-head"><h2>Featured authors</h2><a href="/authors/" style="font-weight:500">All authors A–Z →</a></div>
-      <div class="grid-auto" style="--min: 190px">
-        {featured.map((a) => (
-          <a href={`/authors/${a.id}/`} class="card" style="text-decoration:none; color:var(--ink); padding:20px; display:flex; flex-direction:column; gap:12px">
-            <span class="monogram">{initials(a.data.name)}</span>
-            <span style="font-family:var(--serif); font-weight:600; font-size:18px; line-height:1.25">{a.data.name}</span>
-            <span class="muted" style="font-size:14px">{years(a.data)}{a.data.region ? ` · ${a.data.region}` : ''}</span>
-            <span style="font-size:13px; color:var(--saffron-text); font-weight:500">{count(a.id)} {count(a.id) === 1 ? 'work' : 'works'}</span>
-          </a>
-        ))}
+      <div class="ticker" data-ticker data-speed="40">
+        <div class="ticker-track">
+          {tickerAuthors.map((a) => <a class="chip" href={`/authors/${a.id}/`}>{a.data.name}</a>)}
+        </div>
       </div>
     </section>
 
     <section class="section">
       <div class="section-head"><h2>Browse by subject</h2><a href="/subjects/" style="font-weight:500">All subjects →</a></div>
-      <div style="display:flex; flex-wrap:wrap; gap:10px">
-        {subjects.map((s) => <a class="chip" href={`/subjects/${s.id}/`}>{s.data.name}</a>)}
+      <div class="ticker" data-ticker data-speed="32">
+        <div class="ticker-track">
+          {subjects.map((s) => <a class="chip" href={`/subjects/${s.id}/`}>{s.data.name}</a>)}
+        </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="section-head"><h2>Recently added</h2><a href="/library/" style="font-weight:500">See the whole library →</a></div>
-      <div class="card">{recent.map((w) => <WorkRow work={w} />)}</div>
+      <div class="section-head"><h2>From the archive</h2><button type="button" class="btn btn-quiet" id="pick-again" style="font-weight:500">Show others ↻</button></div>
+      <div class="card" id="random-works" aria-live="polite"></div>
     </section>
 
     <section class="section" id="eras">
@@ -97,4 +86,69 @@ const recent = [...works].sort((a, b) => (b.data.added?.getTime() || 0) - (a.dat
       </div>
     </section>
   </div>
+<script is:inline>
+  (function () {
+    function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+    var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Tickers: names in random order, scrolling for ever; each name that leaves on the left
+    // is replaced on the right by a random name not already showing, so there is never a fixed sequence.
+    document.querySelectorAll('[data-ticker]').forEach(function (box) {
+      var track = box.querySelector('.ticker-track');
+      var pool = shuffle(Array.prototype.slice.call(track.children));
+      pool.forEach(function (el) { el.remove(); });
+      if (still) { pool.forEach(function (el) { track.appendChild(el); }); box.classList.add('ticker-still'); return; }
+      var shown = [], waiting = pool.slice();
+      function next() {
+        if (!waiting.length) waiting = shuffle(pool.filter(function (el) { return shown.indexOf(el) < 0; }));
+        var el = waiting.pop();
+        if (!el) return pool[Math.floor(Math.random() * pool.length)].cloneNode(true);  // short lists: repeat a name
+        if (shown.indexOf(el) >= 0) el = el.cloneNode(true);
+        return el;
+      }
+      function fill() {
+        while (track.scrollWidth < box.clientWidth * 2 && shown.length < pool.length * 3) {
+          var el = next(); track.appendChild(el); shown.push(el);
+        }
+      }
+      fill();
+      var x = 0, last = 0, paused = false, speed = +box.dataset.speed || 36;
+      box.addEventListener('mouseenter', function () { paused = true; });
+      box.addEventListener('mouseleave', function () { paused = false; });
+      box.addEventListener('focusin', function () { paused = true; });
+      box.addEventListener('focusout', function () { paused = false; });
+      function step(t) {
+        var dt = last ? Math.min(t - last, 100) / 1000 : 0; last = t;
+        if (!paused && !document.hidden) x -= speed * dt;
+        var first = track.firstElementChild;
+        if (first) {
+          var w = first.getBoundingClientRect().width + parseFloat(getComputedStyle(track).columnGap || 10);
+          if (-x >= w) { x += w; first.remove(); shown.splice(shown.indexOf(first), 1); fill(); }
+        }
+        track.style.transform = 'translateX(' + x + 'px)';
+        requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+      window.addEventListener('resize', fill);
+    });
+
+    // From the archive: five random works on every visit.
+    var box = document.getElementById('random-works'), again = document.getElementById('pick-again'), works = null;
+    function esc(t) { var d = document.createElement('div'); d.textContent = t == null ? '' : String(t); return d.innerHTML; }
+    function draw() {
+      if (!works) return;
+      box.innerHTML = shuffle(works.slice()).slice(0, 5).map(function (w) {
+        var meta = [w[4], w[5]].filter(Boolean).join(' · ');
+        return '<article class="work-row"><div class="main">' +
+          (meta ? '<div><span class="tag">' + esc((w[4] || '').toUpperCase()) + '</span>' + (w[5] ? ' <span class="muted" style="font-size:13px">' + esc(w[5]) + '</span>' : '') + '</div>' : '') +
+          '<a class="title" href="' + esc(w[1]) + '">' + esc(w[0]) + '</a>' +
+          (w[3] ? '<span style="font-weight:500; font-size:15px; color:var(--ink-2)">' + esc(w[3]) + '</span>' : '') +
+          '</div></article>';
+      }).join('');
+    }
+    fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (d) { works = d.w; draw(); })
+      .catch(function () { box.innerHTML = '<p class="muted" style="padding:16px 20px; margin:0"><a href="/library/">Browse the whole library →</a></p>'; });
+    again.addEventListener('click', draw);
+  })();
+</script>
 </Base>

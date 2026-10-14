@@ -12,10 +12,10 @@ export async function GET() {
   for (const w of works) for (const s of w.data.subjects) subjCount.set(s.id, (subjCount.get(s.id) || 0) + 1);
 
   const out = {
-    // [name, url, extra words to match, note]
+    // [name, url, extra words to match, note] (works also carry type and language)
     a: authors.map((a) => [a.data.name, `/authors/${a.id}/`, [a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' '), [a.data.born && (a.data.died ? `${a.data.born}–${a.data.died}` : `b. ${a.data.born}`), `${count.get(a.id) || 0} works`].filter(Boolean).join(' · ')]),
     s: subjects.map((s) => [s.data.name, `/subjects/${s.id}/`, '', `${subjCount.get(s.id) || 0} works`]),
-    w: works.map((w) => [w.data.title, `/works/${w.id}/`, [w.data.titleOriginal, w.data.keywords.join(' ')].filter(Boolean).join(' '), [names.get(w.data.author.id), w.data.year].filter(Boolean).join(' · ')]),
+    w: works.map((w) => [w.data.title, `/works/${w.id}/`, [w.data.titleOriginal, w.data.keywords.join(' ')].filter(Boolean).join(' '), [names.get(w.data.author.id), w.data.year].filter(Boolean).join(' · '), w.data.type, w.data.language || '']),
   };
   return new Response(JSON.stringify(out), { headers: { 'Content-Type': 'application/json' } });
 }
