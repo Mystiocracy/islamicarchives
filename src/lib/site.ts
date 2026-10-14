@@ -6,12 +6,12 @@ export type Subject = CollectionEntry<'subjects'>;
 export type Era = CollectionEntry<'eras'>;
 
 export async function allSubjects() {
-  const s = await getCollection('subjects');
+  const s = await getCollection('subjects', ({ data }) => !data.draft);
   return s.sort((a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name));
 }
 
 export async function allEras() {
-  const e = await getCollection('eras');
+  const e = await getCollection('eras', ({ data }) => !data.draft);
   return e.sort((a, b) => a.data.from - b.data.from);
 }
 
@@ -31,12 +31,16 @@ export async function subjectNames() {
 }
 
 export async function allWorks() {
-  const ws = await getCollection('works', ({ data }) => !data.draft);
+  const hiddenAuthors = new Set((await getCollection('authors', ({ data }) => data.draft)).map((a) => a.id));
+  const shown = new Set((await allSubjects()).map((s) => s.id));
+  const ws = (await getCollection('works', ({ data }) => !data.draft && !hiddenAuthors.has(data.author.id)))
+    // drop hidden subjects from each work
+    .map((w) => ({ ...w, data: { ...w.data, subjects: w.data.subjects.filter((s) => shown.has(s.id)) } }));
   return ws.sort((a, b) => (a.data.year ?? 99999) - (b.data.year ?? 99999) || a.data.title.localeCompare(b.data.title));
 }
 
 export async function allAuthors() {
-  const as = await getCollection('authors');
+  const as = await getCollection('authors', ({ data }) => !data.draft);
   return as.sort((a, b) => authorKey(a).localeCompare(authorKey(b)));
 }
 

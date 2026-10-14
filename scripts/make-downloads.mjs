@@ -25,7 +25,7 @@ const read = (dir) => existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWit
 
 const authors = Object.fromEntries(read(join(ROOT, 'content', 'authors')).map((a) => [a.id, a]));
 const works = read(join(ROOT, 'content', 'works'))
-  .filter((w) => !w.data.draft && w.data.rights !== 'link-only' && w.body.trim())
+  .filter((w) => !w.data.draft && !authors[idOf(w.data.author)]?.data.draft && w.data.rights !== 'link-only' && w.body.trim())
   .sort((a, b) => (a.data.year ?? 99999) - (b.data.year ?? 99999));
 
 const EPUB_CSS = join(ROOT, 'scripts', 'epub.css');

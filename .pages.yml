@@ -100,6 +100,7 @@ content:
       - { name: featured, label: Feature on the home page, type: boolean, default: false }
       - { name: sortAs, label: Sort as (A–Z list), type: string, description: "Name to file the author under, e.g. Taha. Leave empty to use the last word of the name" }
       - { name: sources, label: Biography sources (links), type: string, list: true }
+      - { name: draft, label: Hide this author and all their works from the site, type: boolean, default: false }
       - { name: body, label: Short biography, type: rich-text }
 
   - name: subjects
@@ -115,6 +116,7 @@ content:
       - { name: name, label: Subject name, type: string, required: true }
       - { name: order, label: Position in lists (1 = first), type: number, default: 100 }
       - { name: featured, label: Show on the home page, type: boolean, default: true }
+      - { name: draft, label: Hide this subject from the site, type: boolean, default: false }
       - { name: body, label: Short description, type: rich-text }
 
   - name: eras
@@ -130,4 +132,5 @@ content:
       - { name: name, label: Era name, type: string, required: true }
       - { name: from, label: First year, type: number, required: true }
       - { name: to, label: Last year (use 9999 for “today”), type: number, required: true }
+      - { name: draft, label: Hide this era from the site, type: boolean, default: false }
       - { name: body, label: Short description, type: rich-text }

@@ -20,6 +20,8 @@ const authors = defineCollection({
     sortAs: z.string().optional(),
     // where the biography's facts come from
     sources: z.array(z.string().url()).default([]),
+    // hide this author (and all their works) from the site
+    draft: z.boolean().default(false),
   }),
 });
 
@@ -29,6 +31,8 @@ const subjects = defineCollection({
     name: z.string(),
     order: z.number().default(100),
     featured: z.boolean().default(true),
+    // hide this subject from the site (works keep their other subjects)
+    draft: z.boolean().default(false),
   }),
 });
 
@@ -39,6 +43,8 @@ const eras = defineCollection({
     from: z.number(),
     to: z.number(),
     order: z.number().default(100),
+    // hide this era from the site
+    draft: z.boolean().default(false),
   }),
 });
 
