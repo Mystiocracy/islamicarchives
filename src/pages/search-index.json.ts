@@ -11,11 +11,27 @@ export async function GET() {
   const subjCount = new Map<string, number>();
   for (const w of works) for (const s of w.data.subjects) subjCount.set(s.id, (subjCount.get(s.id) || 0) + 1);
 
+  // Writers with no author page of their own (guest writers of Yaqeen papers, co-authors):
+  // still offered in the suggestions, leading to a library search for their name.
+  const known = new Set(authors.map((a) => a.data.name.toLowerCase()));
+  const writers = new Map<string, number>();
+  for (const w of works) {
+    for (const field of [w.data.byline, w.data.coAuthors]) {
+      if (!field) continue;
+      for (let n of field.split(/\s*(?:,|&|\band\b)\s*/)) {
+        n = n.replace(/^(translated|edited|compiled|with|by)\b.*?\bby\s+/i, '').replace(/\s*\(.*?\)\s*/g, ' ').trim();
+        if (n.length < 4 || !/^[A-ZÀ-ÿʿʾĀ-ž]/.test(n) || known.has(n.toLowerCase())) continue;
+        writers.set(n, (writers.get(n) || 0) + 1);
+      }
+    }
+  }
+
   const out = {
     // [name, url, extra words to match, note] (works also carry type and language)
-    a: authors.map((a) => [a.data.name, `/authors/${a.id}/`, [a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' '), [a.data.born && (a.data.died ? `${a.data.born}–${a.data.died}` : `b. ${a.data.born}`), `${count.get(a.id) || 0} works`].filter(Boolean).join(' · ')]),
+    a: authors.map((a) => [a.data.name, `/authors/${a.id}/`, [a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' '), [a.data.born && (a.data.died ? `${a.data.born}–${a.data.died}` : `b. ${a.data.born}`), `${count.get(a.id) || 0} works`].filter(Boolean).join(' · ')])
+      .concat([...writers].map(([n, c]) => [n, `/library/?q=${encodeURIComponent(n)}`, '', `${c} ${c === 1 ? 'work' : 'works'}`])),
     s: subjects.map((s) => [s.data.name, `/subjects/${s.id}/`, '', `${subjCount.get(s.id) || 0} works`]),
-    w: works.map((w) => [w.data.title, `/works/${w.id}/`, [w.data.titleOriginal, w.data.keywords.join(' ')].filter(Boolean).join(' '), [names.get(w.data.author.id), w.data.year].filter(Boolean).join(' · '), w.data.type, w.data.language || '']),
+    w: works.map((w) => [w.data.title, `/works/${w.id}/`, [w.data.titleOriginal, w.data.byline, w.data.coAuthors, w.data.keywords.join(' ')].filter(Boolean).join(' '), [names.get(w.data.author.id), w.data.year].filter(Boolean).join(' · '), w.data.type, w.data.language || '']),
   };
   return new Response(JSON.stringify(out), { headers: { 'Content-Type': 'application/json' } });
 }
