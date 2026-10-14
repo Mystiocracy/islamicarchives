@@ -72,6 +72,7 @@ content:
       - { name: sourceLabel, label: Name of the source website, type: string, description: "Shown as 'Source: …', e.g. Internet Archive" }
       - { name: infoUrl, label: Catalogue or publisher page (when no free copy exists), type: string }
       - { name: sourceEdition, label: Source edition used for the text, type: string }
+      - { name: sourceNote, label: Extra source note (alternative link, edition details), type: text }
       - { name: contents, label: Chapter list (optional), type: string, list: true }
       - { name: added, label: Date added to the archive, type: date }
       - { name: draft, label: Hide from the site (draft), type: boolean, default: false }
