@@ -30,9 +30,13 @@ const groups = [
       <label for="lq" class="sr-only">Filter the library</label>
       <input id="lq" type="search" data-suggest placeholder="Filter by title, author or subject" style="flex:1 1 420px; min-width:0; min-height:54px">
       <select id="sort" aria-label="Sort by" style="min-height:54px">
-        <option value="old">Oldest first</option>
-        <option value="new">Newest first</option>
+        <option value="random">Random order</option>
         <option value="az">Title A–Z</option>
+        <option value="za">Title Z–A</option>
+        <option value="author">Author A–Z</option>
+        <option value="author-za">Author Z–A</option>
+        <option value="old">Date: oldest first</option>
+        <option value="new">Date: newest first</option>
       </select>
     </div>
 
@@ -132,16 +136,42 @@ const groups = [
           shown = scored.length;
           if (shown) { near.textContent = 'No exact match for “' + q.value.trim() + '”. Showing the nearest matches.'; near.hidden = false; }
         }
+        // first visit, nothing chosen: a random list as long as the filter column
+        if (sort.value === 'random' && !term && !Object.keys(sel).length && keep !== true) {
+          var aside = document.getElementById('subjects');
+          var target = aside.getBoundingClientRect().height - 60;
+          var narrow = window.matchMedia && window.matchMedia('(max-width: 820px)').matches;
+          if (narrow) target = 0;
+          var start = box.getBoundingClientRect().top, n = 0;
+          rows.forEach(function (r) { r.hidden = true; });
+          var pool = rows;
+          for (var i = 0; i < pool.length; i++) {
+            pool[i].hidden = false; n++;
+            if ((narrow && n >= 12) || (!narrow && box.getBoundingClientRect().bottom - start >= target && n >= 6)) break;
+          }
+          limit = n;
+        }
         more.hidden = shown <= limit;
         more.textContent = 'Show more (' + (shown - Math.min(shown, limit)) + ' left)';
         document.getElementById('count').textContent = shown;
         document.getElementById('none').hidden = shown !== 0;
         box.hidden = shown === 0;
       }
+      // sort key: no accents or ʿayn/hamza marks, no leading quotes
+      function key(t) { return (t || '').normalize('NFD').replace(/[\u0300-\u036f\u02bc-\u02bf\u2018-\u201f'"]/g, '').replace(/^[^a-z0-9\u0600-\uffff]+/i, ''); }
+      var randomRows = rows.slice();
+      for (var i = randomRows.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = randomRows[i]; randomRows[i] = randomRows[j]; randomRows[j] = t; }
+      var userSorted = false;
       function order() {
         var m = sort.value;
+        if (m === 'random') { rows = randomRows.slice(); rows.forEach(function (r) { box.appendChild(r); }); apply(); return; }
         rows.sort(function (a, b) {
-          if (m === 'az') return a.dataset.title.localeCompare(b.dataset.title);
+          if (m === 'az') return key(a.dataset.title).localeCompare(key(b.dataset.title));
+          if (m === 'za') return key(b.dataset.title).localeCompare(key(a.dataset.title));
+          if (m === 'author' || m === 'author-za') {
+            var c = key(a.dataset.author).localeCompare(key(b.dataset.author)) || key(a.dataset.title).localeCompare(key(b.dataset.title));
+            return m === 'author' ? c : -c;
+          }
           var ya = a.dataset.year === '' ? null : +a.dataset.year, yb = b.dataset.year === '' ? null : +b.dataset.year;
           if (ya === null && yb === null) return a.dataset.title.localeCompare(b.dataset.title);
           if (ya === null) return 1; if (yb === null) return -1;
@@ -149,11 +179,23 @@ const groups = [
         }).forEach(function (r) { box.appendChild(r); });
         apply();
       }
-      q.addEventListener('input', apply);
-      sort.addEventListener('change', order);
-      boxes.forEach(function (b) { b.addEventListener('change', apply); });
-      document.getElementById('clear').addEventListener('click', function () { boxes.forEach(function (b) { b.checked = false; }); q.value = ''; apply(); });
-      apply();
+      // Random until the reader searches or filters; then an ordered list (title A–Z unless they chose an order).
+      // Clearing everything goes back to the random list, unless they picked an order themselves.
+      function active() { return q.value.trim() !== '' || boxes.some(function (b) { return b.checked; }); }
+      function changed() {
+        if (!userSorted) {
+          var want = active() ? 'az' : 'random';
+          if (sort.value !== want) { sort.value = want; order(); return; }
+        }
+        apply();
+      }
+      q.addEventListener('input', changed);
+      sort.addEventListener('change', function () { userSorted = sort.value !== 'random'; order(); });
+      boxes.forEach(function (b) { b.addEventListener('change', changed); });
+      document.getElementById('clear').addEventListener('click', function () { boxes.forEach(function (b) { b.checked = false; }); q.value = ''; changed(); });
+      sort.value = active() ? 'az' : 'random';
+      order();
+      window.addEventListener('resize', function () { if (sort.value === 'random' && !active() && limit <= PAGE) apply(); });
     })();
   </script>
 </Base>
