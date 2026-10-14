@@ -23,6 +23,7 @@ const read = (dir) => existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWit
   return { id: basename(f, '.md'), data: m ? YAML.parse(m[1]) : {}, body: m ? m[2] : raw };
 }) : [];
 
+const idOf = (v) => String(v || '').replace(/^.*\//, '').replace(/\.md$/, '');
 const authors = Object.fromEntries(read(join(ROOT, 'content', 'authors')).map((a) => [a.id, a]));
 const works = read(join(ROOT, 'content', 'works'))
   .filter((w) => !w.data.draft && !authors[idOf(w.data.author)]?.data.draft && w.data.rights !== 'link-only' && w.body.trim())
@@ -32,7 +33,6 @@ const EPUB_CSS = join(ROOT, 'scripts', 'epub.css');
 const PDF_CSS = join(ROOT, 'scripts', 'pdf.css');
 const run = (args) => execFileSync('pandoc', args, { stdio: ['ignore', 'ignore', 'inherit'] });
 
-const idOf = (v) => String(v || '').replace(/^.*\//, '').replace(/\.md$/, '');
 
 function meta(w) {
   const a = authors[idOf(w.data.author)];
