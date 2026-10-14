@@ -96,7 +96,7 @@ const eraWho = (from: number, to: number) => authors.filter((a) => {
             <span style="width:14px; height:14px; border-radius:50%; background:var(--saffron); margin-top:-27px; border:3px solid var(--ground)"></span>
             <span style="font-size:14px; font-weight:600; color:var(--saffron-text)">{eraSpan(e.data)}</span>
             <span style="font-family:var(--serif); font-weight:600; font-size:18px">{e.data.name}</span>
-            <span class="muted" style="font-size:14px; line-height:1.45">{eraWho(e.data.from, e.data.to)}</span>
+            <span class="muted" style="font-size:14px; line-height:1.45">{e.data.names?.trim() || eraWho(e.data.from, e.data.to)}</span>
           </a>
         ))}
       </div>
