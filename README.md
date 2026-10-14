@@ -12,6 +12,12 @@ The website for **islamicarchives.org**: a free, searchable archive of writings 
   - **In copyright – link only**: leave *Full text* empty and put the publisher's free link in *Link to free copy*.
 - Press **Save**. The site rebuilds and goes live in about two minutes.
 
+**Books read chapter by chapter.** For a long book you already have as a finished EPUB, run
+`python3 scripts/epub-to-reader.py BOOK.epub WORK_ID [--scan SCAN_PDF_URL --offsets "roman:-6,1-62:+22,65-:+20"]`
+and set `reader: true` on the work. This writes one page per chapter into `content/chapters/WORK_ID/`, copies the EPUB to
+`public/downloads/WORK_ID.epub` (the Word, PDF and text downloads are made from it), and links each printed page number
+to that page of the scan. The book's page then opens with its contents, and every chapter page links back to it.
+
 Each work is a Markdown file in `content/works/`, and each author is one in `content/authors/`, so you can also add or edit files directly on GitHub.
 
 ## How the site is built

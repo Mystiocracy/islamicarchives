@@ -1,0 +1,98 @@
+---
+// One chapter of a book that is read chapter by chapter (works with `reader: true`).
+// Every chapter page links back to the book's contents at the top, at the bottom and from a floating button.
+import { getEntry } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { allWorks, chaptersOf, type Work, type Chapter } from '../../../lib/site';
+
+export async function getStaticPaths() {
+  const works = (await allWorks()).filter((w) => w.data.reader && w.data.rights !== 'link-only');
+  const paths = [];
+  for (const work of works) {
+    const chapters = await chaptersOf(work.id);
+    chapters.forEach((chapter, i) => {
+      paths.push({ params: { slug: work.id, chapter: chapter.data.slug }, props: { work, chapter, i, chapters } });
+    });
+  }
+  return paths;
+}
+const { work, chapter, i, chapters } = Astro.props as { work: Work; chapter: Chapter; i: number; chapters: Chapter[] };
+const d = work.data;
+const c = chapter.data;
+const author = await getEntry(d.author);
+const bookUrl = `/works/${work.id}/`;
+const tocUrl = `${bookUrl}#toc-h`;
+const prev = chapters[i - 1];
+const next = chapters[i + 1];
+const href = (x: Chapter) => `${bookUrl}${x.data.slug}/`;
+const body = chapter.body || '';
+// the first printed page of this chapter, as a link into the scan
+const firstScan = body.match(/<a class="pg" href="([^"]+)"/)?.[1];
+const url = new URL(href(chapter), Astro.site).href;
+const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
+const pp = c.pages ? (c.pages.includes('–') ? ` pp. ${c.pages}.` : ` p. ${c.pages}.`) : '';
+const cite = `${lastFirst}. “${c.title}.” In ${d.title}${d.sourceEdition ? ', ' + d.sourceEdition.replace(/\.$/, '') : ''}.${pp} Scan: ${d.sourceLabel ? d.sourceLabel.split(',')[0] : 'source'}${d.sourceUrl ? ', ' + decodeURI(d.sourceUrl) : ''}. Online text: Islamic Archives, ${url}`;
+---
+<Base title={`${c.title} – ${d.title}`} description={`${c.title}, from ${d.title} by ${author?.data.name}.`}>
+  <div class="wrap reader-page" data-pagefind-body>
+    <nav data-pagefind-ignore aria-label="Breadcrumb" class="muted crumbs">
+      <a href="/library/">Library</a><span aria-hidden="true">/</span>
+      {author && <><a href={`/authors/${author.id}/`}>{author.data.name}</a><span aria-hidden="true">/</span></>}
+      <a href={bookUrl}>{d.title}</a>
+    </nav>
+
+    <div data-pagefind-ignore class="reader-bar">
+      <a class="btn btn-outline" href={tocUrl}>☰ Contents</a>
+      <span class="muted">{i + 1} of {chapters.length}</span>
+      <span class="reader-step">
+        {prev ? <a href={href(prev)} rel="prev" aria-label={`Previous: ${prev.data.title}`}>← Previous</a> : <span></span>}
+        {next && <a href={href(next)} rel="next" aria-label={`Next: ${next.data.title}`}>Next →</a>}
+      </span>
+    </div>
+
+    <article class="card reader-card">
+      <header class="reader-head">
+        <p class="reader-book"><a href={bookUrl}>{d.title}</a> · {author?.data.name}</p>
+        <h1 data-pagefind-meta="title">{c.title}</h1>
+        {c.pages && (
+          <p class="muted reader-pp" data-pagefind-ignore>
+            Printed {c.pages.includes('–') ? 'pages' : 'page'} {c.pages}
+            {firstScan && <> · <a href={firstScan} target="_blank" rel="noopener">view the scan{d.sourceLabel ? ` at ${d.sourceLabel.split(',')[0]}` : ''} ↗</a></>}
+          </p>
+        )}
+        {c.sections.length > 0 && (
+          <details class="reader-sections" data-pagefind-ignore>
+            <summary>In this chapter ({c.sections.length} sections)</summary>
+            <ul>{c.sections.map((x) => <li><a href={`#${x.id}`}>{x.title}</a></li>)}</ul>
+          </details>
+        )}
+      </header>
+      <div class="prose reader-text"><Fragment set:html={body} /></div>
+    </article>
+
+    <nav data-pagefind-ignore class="reader-foot" aria-label="Chapters">
+      {prev ? <a class="card rf-link" href={href(prev)} rel="prev"><span class="muted">← Previous</span><span>{prev.data.title}</span></a> : <span></span>}
+      <a class="btn btn-primary rf-toc" href={tocUrl}>Back to contents</a>
+      {next ? <a class="card rf-link rf-next" href={href(next)} rel="next"><span class="muted">Next →</span><span>{next.data.title}</span></a> : <span></span>}
+    </nav>
+
+    <section data-pagefind-ignore class="card" aria-labelledby="cite-h" style="padding:20px; display:flex; flex-direction:column; gap:10px">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px">
+        <h2 id="cite-h" style="font-family:var(--sans); font-size:16px">Cite this chapter</h2>
+        <button type="button" class="btn btn-quiet" data-copy={cite}>Copy</button>
+      </div>
+      <p style="margin:0; font-size:14px; line-height:1.6; color:var(--ink-2); overflow-wrap:anywhere">{cite}</p>
+      {d.rightsNote && <p class="muted" style="margin:0; font-size:13px">{d.rightsNote}</p>}
+    </section>
+  </div>
+
+  <a data-pagefind-ignore class="reader-fab" href={tocUrl} aria-label="Back to contents">☰ <span>Contents</span></a>
+
+  <script is:inline>
+    document.querySelectorAll('[data-copy]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        navigator.clipboard && navigator.clipboard.writeText(b.dataset.copy).then(function () { b.textContent = 'Copied'; });
+      });
+    });
+  </script>
+</Base>

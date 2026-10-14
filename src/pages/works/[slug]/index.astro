@@ -1,8 +1,8 @@
 ---
 import { getEntry, render } from 'astro:content';
-import Base from '../../layouts/Base.astro';
-import SendDialog from '../../components/SendDialog.astro';
-import { allWorks, FORMATS, hosted, RIGHTS_LABEL, eraOf, eraSpan, allEras, subjectNames, type Work } from '../../lib/site';
+import Base from '../../../layouts/Base.astro';
+import SendDialog from '../../../components/SendDialog.astro';
+import { allWorks, FORMATS, hosted, RIGHTS_LABEL, eraOf, eraSpan, allEras, subjectNames, chaptersOf, type Work } from '../../../lib/site';
 
 export async function getStaticPaths() {
   const works = await allWorks();
@@ -13,6 +13,7 @@ const d = work.data;
 const author = await getEntry(d.author);
 const isHosted = hosted(work);
 const { Content, headings } = await render(work);
+const chapters = d.reader ? await chaptersOf(work.id) : [];
 const toc = d.contents.length ? d.contents : headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-label' && h.text !== 'Footnotes').map((h) => h.text);
 const url = new URL(`/works/${work.id}/`, Astro.site).href;
 const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
@@ -60,12 +61,38 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
           {d.keywords.length > 0 && <p class="muted" style="margin:0; font-size:14px">Keywords: {d.keywords.map((k, i) => <>{i > 0 && ', '}<a href={`/library/?q=${encodeURIComponent(k)}`}>{k}</a></>)}</p>}
         </div>
 
+        {chapters.length > 0 && (
+          <section aria-labelledby="toc-h" style="display:flex; flex-direction:column; gap:12px">
+            <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px">
+              <h2 id="toc-h" style="font-size:24px">Contents</h2>
+              <a class="btn btn-primary" href={`/works/${work.id}/${chapters[0].data.slug}/`}>Start reading</a>
+            </div>
+            <ol class="card reader-toc">
+              {chapters.map((c, i) => (
+                <li>
+                  <a class="rt-row" href={`/works/${work.id}/${c.data.slug}/`}>
+                    <span class="rt-n">{i + 1}</span>
+                    <span class="rt-t">{c.data.title}</span>
+                    {c.data.pages && <span class="rt-p muted">pp. {c.data.pages}</span>}
+                  </a>
+                  {c.data.sections.length > 0 && (
+                    <ul class="rt-sub">
+                      {c.data.sections.map((x) => <li><a href={`/works/${work.id}/${c.data.slug}/#${x.id}`}>{x.title}</a></li>)}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ol>
+            {d.sourceUrl && <p class="muted" style="margin:0; font-size:14px">Page numbers in the text are those of the printed {d.sourceEdition ? 'edition' : 'book'}; each one links to that page of the scan{d.sourceLabel ? ` at ${d.sourceLabel.split(',')[0]}` : ''}.</p>}
+          </section>
+        )}
+
         <section data-pagefind-ignore class="card" aria-labelledby="dl-h" style="padding:24px; display:flex; flex-direction:column; gap:18px">
           {isHosted ? (
             <>
               <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px">
                 <h2 id="dl-h" style="font-size:24px">Read or download</h2>
-                <a href="#text" style="font-weight:600; padding:10px 0">Read online ↓</a>
+                {chapters.length > 0 ? <a href={`/works/${work.id}/${chapters[0].data.slug}/`} style="font-weight:600; padding:10px 0">Read online →</a> : <a href="#text" style="font-weight:600; padding:10px 0">Read online ↓</a>}
               </div>
               <div class="grid-auto" style="--min:200px; gap:10px">
                 {FORMATS.map((f) => (
@@ -81,6 +108,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
                 {d.sourceUrl && <a class="btn btn-quiet" href={d.sourceUrl} rel="noopener" target="_blank">Read at source ↗</a>}
               </div>
               {d.sourceUrl && d.sourceLabel && <p class="muted" style="margin:0; font-size:14px">Source: {d.sourceLabel}</p>}
+              {d.sourceNote && <p class="muted" style="margin:0; font-size:14px">{d.sourceNote}</p>}
             </>
           ) : (
             <>
@@ -94,7 +122,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
           )}
         </section>
 
-        {toc.length > 0 && (
+        {toc.length > 0 && chapters.length === 0 && (
           <section aria-labelledby="toc-h" style="display:flex; flex-direction:column; gap:12px">
             <h2 id="toc-h" style="font-size:24px">Contents</h2>
             <ol class="card" style="margin:0; padding:0; list-style:none">
@@ -117,7 +145,7 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
       </div>
     </div>
 
-    {isHosted && (
+    {isHosted && chapters.length === 0 && (
       <article id="text" class="card" style="padding: clamp(24px, 5vw, 64px)">
         <div class="prose"><Content /></div>
       </article>

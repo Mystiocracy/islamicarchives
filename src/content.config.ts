@@ -74,9 +74,25 @@ const works = defineCollection({
     // extra note about the source: an alternative link, edition details
     sourceNote: z.string().optional(),
     contents: z.array(z.string()).default([]),
+    // the full text is in content/chapters/<work id>/ and is read chapter by chapter
+    reader: z.boolean().default(false),
     added: z.coerce.date().optional(),
     draft: z.boolean().default(false),
   }),
 });
 
-export const collections = { authors, subjects, eras, works };
+// chapters of a work read online one page at a time (made by scripts/epub-to-reader.py); the body is HTML
+const chapters = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './content/chapters' }),
+  schema: z.object({
+    work: z.string(),
+    order: z.number(),
+    title: z.string(),
+    slug: z.string(),
+    // printed page range in the source edition, e.g. "1–197"
+    pages: z.string().optional(),
+    sections: z.array(z.object({ id: z.string(), title: z.string() })).default([]),
+  }),
+});
+
+export const collections = { authors, subjects, eras, works, chapters };

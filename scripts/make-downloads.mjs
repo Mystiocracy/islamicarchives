@@ -26,7 +26,7 @@ const read = (dir) => existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWit
 const idOf = (v) => String(v || '').replace(/^.*\//, '').replace(/\.md$/, '');
 const authors = Object.fromEntries(read(join(ROOT, 'content', 'authors')).map((a) => [a.id, a]));
 const works = read(join(ROOT, 'content', 'works'))
-  .filter((w) => !w.data.draft && !authors[idOf(w.data.author)]?.data.draft && w.data.rights !== 'link-only' && w.body.trim())
+  .filter((w) => !w.data.draft && !authors[idOf(w.data.author)]?.data.draft && w.data.rights !== 'link-only' && (w.body.trim() || w.data.reader))
   .sort((a, b) => (a.data.year ?? 99999) - (b.data.year ?? 99999));
 
 const EPUB_CSS = join(ROOT, 'scripts', 'epub.css');
@@ -49,10 +49,24 @@ function writeSource(file, metadata, body) {
 
 let n = 0;
 for (const w of works) {
+  const base = join(OUT, w.id);
+  // books read chapter by chapter ship their own finished EPUB (public/downloads/<id>.epub, copied into dist);
+  // the other formats are made from it
+  if (w.data.reader) {
+    const epub = `${base}.epub`;
+    if (!existsSync(epub)) { console.warn(`make-downloads: ${w.id} has no EPUB in public/downloads, skipping`); continue; }
+    run([epub, '-o', `${base}.docx`, '--toc']);
+    run([epub, '-t', 'plain', '--wrap=none', '-s', '-o', `${base}.txt`]);
+    if (canPdf) run([epub, '-o', `${base}.pdf`, `--extract-media=${join(TMP, w.id)}`, '--pdf-engine=weasyprint', '--css', PDF_CSS, '-s', '--toc', '--toc-depth=1']);
+    // markdown copy for the author's collected EPUB below
+    w.body = execFileSync('pandoc', [epub, '-t', 'markdown-raw_html-native_divs-native_spans-fenced_divs-bracketed_spans-header_attributes-link_attributes', '--wrap=none'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 })
+      .replace(/\[(?:xi|xv|x|v|i|l|c|\d)+\]\(#page-[^)]*\)/g, '');
+    n++;
+    continue;
+  }
   const m = meta(w);
   const src = join(TMP, `${w.id}.md`);
   writeSource(src, m, w.body);
-  const base = join(OUT, w.id);
   run([src, '-o', `${base}.epub`, '--toc', '--toc-depth=2', '--epub-chapter-level=2', '--css', EPUB_CSS, '--epub-title-page=true']);
   run([src, '-o', `${base}.docx`, '--toc']);
   run([src, '-t', 'plain', '--wrap=none', '-s', '-o', `${base}.txt`]);

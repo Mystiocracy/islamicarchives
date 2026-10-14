@@ -77,7 +77,14 @@ export function initials(name: string) {
   return ((parts[0]?.[0] || '') + (parts.length > 1 ? parts[parts.length - 1][0] : '')).toUpperCase();
 }
 
-export const hosted = (w: Work) => w.data.rights !== 'link-only' && (w.body || '').trim().length > 0;
+export const hosted = (w: Work) => w.data.rights !== 'link-only' && (w.data.reader || (w.body || '').trim().length > 0);
+
+export type Chapter = CollectionEntry<'chapters'>;
+/** The chapters of a work that is read chapter by chapter, in reading order. */
+export async function chaptersOf(workId: string) {
+  const cs = await getCollection('chapters', ({ data }) => data.work === workId);
+  return cs.sort((a, b) => a.data.order - b.data.order);
+}
 
 export const FORMATS = [
   { ext: 'epub', label: 'EPUB', note: 'Kindle, Kobo, phones, Apple Books' },

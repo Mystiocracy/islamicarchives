@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import WorkRow from '../components/WorkRow.astro';
-import { allWorks, allEras, allSubjects, eraOf, eraSpan } from '../lib/site';
+import { allWorks, allEras, allSubjects, eraOf, eraSpan, hosted } from '../lib/site';
 
 const works = await allWorks();
 const eras = await allEras();
@@ -17,7 +17,7 @@ const groups = [
   { key: 'lang', label: 'Language', m: counts((w) => w.data.language) },
   { key: 'era', label: 'Era', m: counts((w) => eraOf(w.data.year, eras)?.id || 'none'), labels: { ...Object.fromEntries(eras.map((e) => [e.id, `${eraSpan(e.data)} · ${e.data.name}`])), none: 'Year unknown' } },
   { key: 'subjects', label: 'Subject', m: counts((w) => w.data.subjects.map((x: any) => x.id)), labels: Object.fromEntries(subjects.map((x) => [x.id, x.data.name])) },
-  { key: 'access', label: 'Access', m: counts((w) => (w.data.rights !== 'link-only' && (w.body || '').trim() ? 'hosted' : 'link')), labels: { hosted: 'Full text here', link: 'Link to free copy' } },
+  { key: 'access', label: 'Access', m: counts((w) => (hosted(w) ? 'hosted' : 'link')), labels: { hosted: 'Full text here', link: 'Link to free copy' } },
 ];
 ---
 <Base title="Library" current="library">
