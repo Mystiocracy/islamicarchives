@@ -53,7 +53,7 @@ for (const w of works) {
   const src = join(TMP, `${w.id}.md`);
   writeSource(src, m, w.body);
   const base = join(OUT, w.id);
-  run([src, '-o', `${base}.epub`, '--toc', '--toc-depth=2', '--css', EPUB_CSS, '--epub-title-page=true']);
+  run([src, '-o', `${base}.epub`, '--toc', '--toc-depth=2', '--epub-chapter-level=2', '--css', EPUB_CSS, '--epub-title-page=true']);
   run([src, '-o', `${base}.docx`, '--toc']);
   run([src, '-t', 'plain', '--wrap=none', '-s', '-o', `${base}.txt`]);
   if (canPdf) run([src, '-o', `${base}.pdf`, '--pdf-engine=weasyprint', '--css', PDF_CSS, '-s', '--toc']);
