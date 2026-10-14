@@ -43,8 +43,6 @@ const eras = defineCollection({
     from: z.number(),
     to: z.number(),
     order: z.number().default(100),
-    // names shown under the era on the home page; empty = chosen automatically
-    names: z.string().optional(),
     // hide this era from the site
     draft: z.boolean().default(false),
   }),

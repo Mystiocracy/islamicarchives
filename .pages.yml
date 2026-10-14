@@ -132,6 +132,5 @@ content:
       - { name: name, label: Era name, type: string, required: true }
       - { name: from, label: First year, type: number, required: true }
       - { name: to, label: Last year (use 9999 for “today”), type: number, required: true }
-      - { name: names, label: Names shown under this era on the home page (separate with commas; leave empty to choose automatically), type: string }
       - { name: draft, label: Hide this era from the site, type: boolean, default: false }
       - { name: body, label: Short description, type: rich-text }
