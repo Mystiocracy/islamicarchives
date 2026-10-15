@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuranSubnav from '../../../components/QuranSubnav.astro';
+import QList from '../../../components/QList.astro';
+import QEntry from '../../../components/QEntry.astro';
+import items from '../../../data/scholars.json';
+import { citeScholar, longDate } from '../../../lib/quran';
+
+const kindM = new Map<string, number>();
+for (const x of items) kindM.set(x.kind, (kindM.get(x.kind) || 0) + 1);
+const groups = [{ key: 'kind', label: 'Kind', values: ['Scholar', 'Project or centre'].filter((k) => kindM.get(k)).map((k) => [k, kindM.get(k)!] as [string, number]) }];
+const archivedDates = [...new Set(items.map((x: any) => x.archived))].sort();
+---
+<Base title="Scholars of Quranic manuscripts" description="Scholars and research projects that study early Qur'an manuscripts: searchable, with an archived date and citation for every entry." current="quran">
+  <div class="wrap" style="padding-top:40px; padding-bottom:40px" data-pagefind-body>
+    <QuranSubnav current="scholars" />
+    <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Scholars of Quranic manuscripts</h1>
+    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
+      <p>Researchers and projects working on early Qur'an manuscripts: palaeography, codicology, palimpsests, dating and textual variants. The list is in no order of importance, mixes Muslim and non-Muslim scholarship, and does not imply agreement with anyone’s conclusions. Affiliations may have changed; each link goes to a profile or project page.</p>
+      <p><strong>Archived</strong> is the date this archive recorded the entry ({archivedDates.map((d) => longDate(d as string)).join(', ')}). Press <strong>Cite</strong> on any entry for a ready citation. The manuscripts these scholars study are in the <a href="/quran/manuscripts/">manuscript catalogue</a>.</p>
+    </div>
+    <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, institution or subject" page={40}
+      sorts={[['curated', 'Curated order'], ['az', 'Name A–Z'], ['za', 'Name Z–A']]}>
+      {items.map((x: any) => <QEntry e={x} cite={citeScholar(x)} linkLabel={x.kind === 'Scholar' ? 'PROFILE ↗' : 'PROJECT ↗'} />)}
+    </QList>
+  </div>
+</Base>

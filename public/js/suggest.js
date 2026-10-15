@@ -73,7 +73,18 @@
     return hit ? total + hit * 2 : 0;
   }
 
-  window.IAMatch = { norm: norm, words: words, score: score, tokenScore: tokenScore };
+  window.IAMatch = { norm: norm, words: words, score: score, tokenScore: tokenScore, quranHits: quranHits };
+
+  // Quran-section entries that match typed words (used by the Library's "also in the Quran section" note)
+  function quranHits(q, limit) {
+    return load().then(function () {
+      var qw = words(q), r = [];
+      if (!qw.length) return r;
+      index.q.forEach(function (it) { var s = score(qw, it.w, true); if (s) r.push([s, it]); });
+      r.sort(function (x, y) { return y[0] - x[0]; });
+      return r.slice(0, limit || 8).map(function (x) { return x[1]; });
+    });
+  }
 
   // ---------- the drop-down ----------
   var index = null, loading = null;
@@ -83,7 +94,7 @@
       function prep(list, kind) {
         return list.map(function (x) { return { kind: kind, name: x[0], url: x[1], note: x[3], w: words(x[0] + ' ' + x[2]), nw: words(x[0]) }; });
       }
-      index = { a: prep(d.a, 'Author'), s: prep(d.s, 'Subject'), w: prep(d.w, 'Work') };
+      index = { a: prep(d.a, 'Author'), s: prep(d.s, 'Subject'), w: prep(d.w, 'Work'), q: prep(d.q || [], 'Quran') };
       return index;
     });
     return loading;
@@ -106,7 +117,7 @@
         return r.slice(0, limit).map(function (x) { return x[1]; });
       }
       // with one or two letters, only look at the start of names, so "t" lists Taha rather than every "the"
-      return pick(index.a, 6, false).concat(pick(index.s, 3, false), pick(index.w, one ? 4 : 7, one));
+      return pick(index.a, 6, false).concat(pick(index.s, 3, false), pick(index.q, one ? 2 : 5, one), pick(index.w, one ? 4 : 7, one));
     }
     var items = run(true);
     if (items.length) return { items: items, near: !items.some(function (it) { return exact(qw, it); }) };
@@ -148,7 +159,7 @@
         } else {
           if (res.near) html += '<p class="suggest-note">No exact match for “' + esc(q) + '”. Nearest matches:</p>';
           res.items.forEach(function (it, i) {
-            if (it.kind !== last) { html += '<p class="suggest-head">' + it.kind + 's</p>'; last = it.kind; }
+            if (it.kind !== last) { html += '<p class="suggest-head">' + (it.kind === 'Quran' ? 'Quran section' : it.kind + 's') + '</p>'; last = it.kind; }
             html += '<a role="option" id="' + box.id + '-' + i + '" href="' + it.url + '"><span class="suggest-name">' + esc(it.name) + '</span>' + (it.note ? '<span class="suggest-meta">' + esc(it.note) + '</span>' : '') + '</a>';
           });
         }

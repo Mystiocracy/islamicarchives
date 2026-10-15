@@ -1,37 +1,36 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import QuranSubnav from '../../../components/QuranSubnav.astro';
+import QList from '../../../components/QList.astro';
+import QEntry from '../../../components/QEntry.astro';
 import items from '../../../data/manuscripts.json';
 import intro from '../../../data/manuscripts-intro.json';
-const groups = ['Earliest and best known', 'Palimpsests and fragments', 'Online collections and databases'];
+import { citeManuscript, longDate, PERIODS } from '../../../lib/quran';
+
+const count = (fn: (x: any) => string) => { const m = new Map<string, number>(); for (const x of items) m.set(fn(x), (m.get(fn(x)) || 0) + 1); return m; };
+const kinds = ['Manuscript', 'Study or article', 'Collection or database'];
+const kindM = count((x) => x.kind);
+const perM = count((x) => x.period || 'Not dated or not applicable');
+const srcM = count((x) => (x.source === 'Islamic Awareness' ? 'Islamic Awareness' : 'Other'));
+const groups = [
+  { key: 'kind', label: 'Kind', values: kinds.filter((k) => kindM.get(k)).map((k) => [k, kindM.get(k)!] as [string, number]) },
+  { key: 'period', label: 'Date (as stated by the source)', values: PERIODS.filter((p) => perM.get(p)).map((p) => [p, perM.get(p)!] as [string, number]) },
+  { key: 'source', label: 'Source', values: [['Islamic Awareness', srcM.get('Islamic Awareness') || 0], ['Other', srcM.get('Other') || 0]] as [string, number][] },
+];
+const archivedDates = [...new Set(items.map((x: any) => x.archived))].sort();
 ---
-<Base title="Quranic manuscripts" description="Early Qur'an manuscripts and the online collections where they can be studied." current="quran">
-  <div class="wrap" style="padding-top:40px; padding-bottom:40px">
+<Base title="Quranic manuscript catalogue" description="A searchable catalogue of early Qur'an manuscripts, studies and the collections that hold them, with an archived date and citation for every entry." current="quran">
+  <div class="wrap" style="padding-top:40px; padding-bottom:40px" data-pagefind-body>
     <QuranSubnav current="manuscripts" />
-    <h1 style="font-size:40px; margin:0 0 0.4em">Quranic manuscripts</h1>
-    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px">
+    <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Quranic manuscript catalogue</h1>
+    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
       {intro.map((p) => <p>{p}</p>)}
-      <p>Below are some of the best-known early manuscripts and the libraries and databases that publish images or catalogue records. Dates are those given by the holding institution or by scholarship, and many are approximate. Links open the holder’s own pages where possible; some library sites block automated checks, so a link may need a browser. See also the <a href="/quran/manuscripts/scholars/">scholars and projects</a> who work in this field.</p>
+      <p>The catalogue lists <strong>{items.length}</strong> resources: manuscripts, studies about their script and dating, and the libraries and databases that publish images or catalogue records. Entries are resources, not unique manuscripts, so one manuscript can appear more than once (a library page and a study of it). It includes every manuscript resource listed on the <a href="https://www.islamic-awareness.org/quran/text/mss/" rel="noopener">Islamic Awareness manuscripts page</a>. That site is an apologetic one; its dates and attributions are given here as it states them and are marked as such. Where the entry comes from elsewhere, the holder’s own date is quoted.</p>
+      <p><strong>Archived</strong> is the date this archive recorded the entry and its link ({archivedDates.map((d) => longDate(d as string)).join(', ')}). Press <strong>Cite</strong> on any entry for a citation that gives the original page, that date and the entry’s address here. Some library sites block automated checks, so a link may need a browser. Scholars who work in this field are on the <a href="/quran/scholars/">scholars page</a>.</p>
     </div>
-    {groups.map((g) => (
-      <section style="margin-top:36px">
-        <h2 style="font-size:26px; margin-bottom:14px">{g}</h2>
-        <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px">
-          {items.filter((x) => x.group === g).map((x) => (
-            <article class="card" style="padding:16px 18px; font-family:var(--sans)">
-              <h3 style="font-size:18px; margin:0 0 4px">{x.name}</h3>
-              <p style="margin:0 0 8px; font-size:14px; color:var(--ink-2)">
-                {[x.institution, x.location].filter(Boolean).join(', ')}
-              </p>
-              {(x.dateNote || x.script) && (
-                <p style="margin:0 0 8px"><span class="tag tag-green">{[x.dateNote, x.script].filter(Boolean).join(' · ')}</span></p>
-              )}
-              <p style="margin:0 0 10px; font-size:15px; line-height:1.55">{x.description}</p>
-              <a href={x.url} rel="noopener" style="font-size:14px; font-weight:500">{x.urlLabel || 'Open'} →</a>
-            </article>
-          ))}
-        </div>
-      </section>
-    ))}
+    <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, shelfmark, library, place or period" page={40}
+      sorts={[['curated', 'Curated order'], ['period', 'Date: earliest first'], ['az', 'Title A–Z'], ['za', 'Title Z–A']]}>
+      {items.map((x: any) => <QEntry e={x} cite={citeManuscript(x)} pidx={Math.max(0, PERIODS.indexOf(x.period || 'Not dated or not applicable'))} />)}
+    </QList>
   </div>
 </Base>

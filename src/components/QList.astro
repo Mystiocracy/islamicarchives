@@ -1,0 +1,45 @@
+---
+// Library-style layout used inside the Quran section: search box, sort, filter panel, results, show more.
+interface Group { key: string; label: string; values: [string, number][] }
+interface Props { groups: Group[]; sorts: [string, string][]; placeholder: string; total: number; noun: string; page?: number }
+const { groups, sorts, placeholder, total, noun, page = 40 } = Astro.props;
+---
+<div data-qlist data-page={page} style="display:flex; flex-direction:column; gap:24px">
+  <div style="display:flex; flex-wrap:wrap; gap:10px">
+    <label for="qq" class="sr-only">Search this list</label>
+    <input id="qq" type="search" placeholder={placeholder} autocomplete="off" style="flex:1 1 420px; min-width:0; min-height:54px">
+    <select id="qsort" aria-label="Sort by" style="min-height:54px">
+      {sorts.map(([v, l]) => <option value={v}>{l}</option>)}
+    </select>
+  </div>
+  <div style="display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
+    <aside aria-label="Filters" class="card filters-panel" style="flex:1 1 250px; max-width:300px; padding:22px 22px 0">
+      <details id="qfilters" open>
+        <summary style="font-weight:600; cursor:pointer">Filters</summary>
+        <div class="filters-body" style="display:flex; flex-direction:column; gap:22px; padding-bottom:22px">
+          <button type="button" id="qclear" style="align-self:flex-start; border:0; background:none; color:var(--green); font:inherit; font-size:14px; font-weight:500; padding:8px 0 0; cursor:pointer">Clear all</button>
+          {groups.map((g) => (
+            <fieldset style="border:0; margin:0; padding:0; display:flex; flex-direction:column; gap:6px">
+              <legend style="font-size:13px; font-weight:600; letter-spacing:0.05em; color:var(--muted); margin-bottom:8px">{g.label.toUpperCase()}</legend>
+              {g.values.map(([v, n]) => (
+                <label style="display:flex; align-items:center; gap:10px; font-size:15px; min-height:32px; cursor:pointer">
+                  <input type="checkbox" data-qfilter={g.key} value={v}>
+                  <span style="flex:1">{v}</span>
+                  <span class="muted" style="font-size:13px">{n}</span>
+                </label>
+              ))}
+            </fieldset>
+          ))}
+        </div>
+      </details>
+    </aside>
+    <section aria-label="Results" style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:14px">
+      <p class="muted" style="margin:0" role="status"><strong id="qcount" style="color:var(--ink)">{total}</strong> {noun} match</p>
+      <p id="qnear" class="near-note" hidden></p>
+      <p id="qnone" class="card muted" hidden style="padding:40px; text-align:center; margin:0">Nothing matches. Try fewer filters or a different word.</p>
+      <div class="card" id="qresults"><slot /></div>
+      <button type="button" class="btn btn-outline load-more" id="qmore" hidden>Show more</button>
+    </section>
+  </div>
+</div>
+<script is:inline src="/js/qlist.js" defer></script>

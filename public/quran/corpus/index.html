@@ -318,7 +318,7 @@ body.hide-wtl .w .t{display:none}
   </div>
 </header>
 
-<div class="qsub-strip" style="background:var(--panel,#fff);border-bottom:1px solid var(--line,#ddd);padding:6px 16px;font:500 .88rem system-ui,sans-serif;display:flex;gap:16px;flex-wrap:wrap"><span style="font-weight:600">Quran:</span><a href="/quran/" style="color:inherit;text-decoration:none;border-bottom:2px solid currentColor">Word Corpus</a><a href="/quran/manuscripts/" style="color:inherit">Manuscripts</a><a href="/quran/manuscripts/scholars/" style="color:inherit">Manuscript scholars</a></div>
+<div class="qsub-strip" style="background:var(--panel,#fff);border-bottom:1px solid var(--line,#ddd);padding:6px 16px;font:500 .88rem system-ui,sans-serif;display:flex;gap:16px;flex-wrap:wrap"><span style="font-weight:600">Quran:</span><a href="/quran/" style="color:inherit">Home</a><a href="/quran/tafsir/" style="color:inherit">Tafseer</a><a href="/quran/corpus/" style="color:inherit;text-decoration:none;border-bottom:2px solid currentColor">Word Corpus</a><a href="/quran/manuscripts/" style="color:inherit">Manuscript catalogue</a><a href="/quran/scholars/" style="color:inherit">Manuscript scholars</a></div>
 <header class="bar">
   <div class="bar-in">
     <div class="brand"><span class="ar">المعجم</span><b>Quran Word Corpus</b></div>
@@ -507,7 +507,7 @@ function coloredWord(w){
 
 // ---------------- load ----------------
 async function getJSON(name){
-  const r=await fetch(`data/${name}.json`);if(!r.ok)throw new Error(name+' '+r.status);return r.json();
+  const r=await fetch(`/quran/data/${name}.json`);if(!r.ok)throw new Error(name+' '+r.status);return r.json();
 }
 async function load(){
   try{

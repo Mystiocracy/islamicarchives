@@ -70,6 +70,10 @@ const groups = [
       <section aria-label="Results" style="flex:999 1 560px; min-width:0; display:flex; flex-direction:column; gap:14px">
         <p class="muted" style="margin:0" role="status"><strong id="count" style="color:var(--ink)">{works.length}</strong> works match</p>
         <p id="near" class="near-note" hidden></p>
+        <div id="qhits" class="card" hidden style="padding:16px 20px; font-size:15px">
+          <strong style="font-size:13px; letter-spacing:0.05em; color:var(--muted)">ALSO IN THE QURAN SECTION</strong>
+          <ul id="qhits-list" style="list-style:none; margin:8px 0 0; padding:0; display:flex; flex-direction:column; gap:6px"></ul>
+        </div>
         <p id="none" class="card muted" hidden style="padding:40px; text-align:center; margin:0">No works match. Try fewer filters or a different word.</p>
         <div class="card" id="results">{works.map((w) => <WorkRow work={w} />)}</div>
         <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
@@ -151,11 +155,30 @@ const groups = [
           }
           limit = n;
         }
+        quranNote();
         more.hidden = shown <= limit;
         more.textContent = 'Show more (' + (shown - Math.min(shown, limit)) + ' left)';
         document.getElementById('count').textContent = shown;
         document.getElementById('none').hidden = shown !== 0;
         box.hidden = shown === 0;
+      }
+      var qtimer;
+      function quranNote() {
+        clearTimeout(qtimer);
+        qtimer = setTimeout(function () {
+          var box2 = document.getElementById('qhits'), list = document.getElementById('qhits-list');
+          if (!window.IAMatch || !q.value.trim()) { box2.hidden = true; return; }
+          window.IAMatch.quranHits(q.value, 8).then(function (hits) {
+            list.innerHTML = '';
+            hits.forEach(function (h) {
+              var li = document.createElement('li'), a = document.createElement('a');
+              a.href = h.url; a.textContent = h.name; li.appendChild(a);
+              if (h.note) { var s2 = document.createElement('span'); s2.className = 'muted'; s2.style.fontSize = '13px'; s2.textContent = ' · ' + h.note; li.appendChild(s2); }
+              list.appendChild(li);
+            });
+            box2.hidden = !hits.length;
+          });
+        }, 150);
       }
       // sort key: no accents or ʿayn/hamza marks, no leading quotes
       function key(t) { return (t || '').normalize('NFD').replace(/[\u0300-\u036f\u02bc-\u02bf\u2018-\u201f'"]/g, '').replace(/^[^a-z0-9\u0600-\uffff]+/i, ''); }

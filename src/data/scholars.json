@@ -6,7 +6,10 @@
   "description": "A codicologist who catalogued Qur'anic manuscripts at the Bibliothèque nationale and later held the Collège de France chair on the Qur'an's written transmission. He studies the script, layout and production of the earliest copies, including the Umayyad period and the composite Paris-St Petersburg codex. Works: Manuel de codicologie des manuscrits en écriture arabe (2000); La Transmission écrite du Coran dans les débuts de l'islam (2009); Qur'ans of the Umayyads (2014); Le Coran, une histoire plurielle (2019).",
   "url": "https://www.college-de-france.fr/en/chair/francois-deroche-history-of-the-koran-text-and-transmission-statutory-chair/biography",
   "urlLabel": "Collège de France biography",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-francois-deroche",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Alba Fedeli",
@@ -15,7 +18,10 @@
   "description": "Fedeli works on Qur'anic manuscripts of the seventh and eighth centuries. Her Birmingham doctorate (2015) dealt with the Mingana collection, where she recognised a Qur'anic undertext misfiled as Christian and linked it to the Cambridge Mingana-Lewis palimpsest. She built digital editions that record successive layers of writing and correction, and co-leads the IQSA unit on Qur'anic manuscripts and textual criticism.",
   "url": "https://www.intersame.uni-hamburg.de/team/fedeli.html",
   "urlLabel": "University of Hamburg profile",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-alba-fedeli",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Behnam Sadeghi",
@@ -24,7 +30,10 @@
   "description": "Sadeghi has examined the early textual history of the Qur'an through manuscript evidence. With Uwe Bergmann he studied a Hijazi-script codex, using radiocarbon dating and X-ray analysis, in a 2010 Arabica article. With Mohsen Goudarzi he produced an edition and analysis of the lower text of the Sanaa palimpsest (Sanaa 1), published in Der Islam in 2012.",
   "url": "https://en.wikipedia.org/wiki/Sanaa_manuscript",
   "urlLabel": "Overview of the Sanaa manuscript (Wikipedia)",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-behnam-sadeghi",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Mohsen Goudarzi",
@@ -33,7 +42,10 @@
   "description": "Goudarzi is a Qur'anic studies scholar who works on the Qur'an in its Late Antique setting. His manuscript work is the study of the lower text of the Sanaa palimpsest, written with Behnam Sadeghi, 'Sanaa 1 and the Origins of the Qur'an' (Der Islam, 2012).",
   "url": "https://hds.harvard.edu/people/mohsen-goudarzi",
   "urlLabel": "Harvard Divinity School profile",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-mohsen-goudarzi",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Asma Hilali",
@@ -42,7 +54,10 @@
   "description": "Hilali, trained at the École Pratique des Hautes Études, produced a new annotated edition of both layers of the Sanaa palimpsest, a parchment reused for a second Qur'anic text. Her study asks what the manuscript shows about how the Qur'an was written, taught and handed on in the first Islamic centuries. Work: The Sanaa Palimpsest: The Transmission of the Qur'an in the First Centuries AH (Oxford University Press, 2017).",
   "url": "https://iis.ac.uk/publications-listing/2017/the-sanaa-palimpsest",
   "urlLabel": "Institute of Ismaili Studies publication page",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-asma-hilali",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Marijn van Putten",
@@ -51,7 +66,10 @@
   "description": "A historical linguist who uses early Qur'an manuscripts to study spelling, vowelling and recitation. He has written on Hijazi orthography, case and hamza in the consonantal text, and orthographic idiosyncrasies pointing to a shared written archetype. Works: Quranic Arabic: From its Hijazi Origins to its Classical Reading Traditions (Brill, 2022); 'The Grace of God' as Evidence for a Written Uthmanic Archetype (BSOAS, 2019).",
   "url": "https://universiteitleiden.nl/en/staffmembers/marijn-van-putten/publications",
   "urlLabel": "Leiden University publications page",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-marijn-van-putten",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Hythem Sidky",
@@ -60,7 +78,10 @@
   "description": "Sidky combines philology with quantitative methods to study how the Qur'an spread in early Islam. He works on the stemmatics of manuscripts, regional oral traditions and radiocarbon chronology of early codices, and has argued that dated manuscripts agree with palaeographic and epigraphic evidence. Work: 'On the Regionality of Qur'anic Codices', Journal of the International Qur'anic Studies Association (2020).",
   "url": "https://mesc.osu.edu/events/how-old-quran-radiocarbon-dating-and-quranic-manuscript-chronology-hythem-sidky",
   "urlLabel": "Ohio State lecture page",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-hythem-sidky",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Michael Marx",
@@ -69,7 +90,10 @@
   "description": "Marx has directed the Corpus Coranicum research centre and edited its documentation of the Qur'anic text, including the Manuscripta Coranica database of early manuscripts with palaeographic and codicological data. He and Tobias Jocham published the radiocarbon dating results for several early codices, including the Tübingen Hijazi manuscript, in Documenta Coranica 2 (2019).",
   "url": "https://en.wikipedia.org/wiki/Corpus_Coranicum",
   "urlLabel": "Corpus Coranicum (overview)",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-michael-marx",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Gerd-Rüdiger Puin",
@@ -78,7 +102,10 @@
   "description": "Puin led the restoration and cataloguing of the parchment fragments found in 1972 in the Great Mosque of Sanaa, which come from hundreds of Qur'an manuscripts. He published preliminary observations on them in 1996 and argued that early orthography left room for different readings. His claims drew attention and some strong criticism, so they are best read alongside later responses.",
   "url": "https://en.wikipedia.org/wiki/Gerd_R._Puin",
   "urlLabel": "Biographical overview (Wikipedia)",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-gerd-rudiger-puin",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Keith Small",
@@ -87,7 +114,10 @@
   "description": "Small was a scholar of Qur'anic manuscripts who helped bring textual criticism into the field and served as first chair of the IQSA unit on manuscripts and textual criticism. He wrote the first book-length introduction to the subject and contributed to the Bodleian's exhibition catalogue. Works: Textual Criticism and Qur'an Manuscripts (Lexington, 2011); Qur'ans: Books of Divine Encounter (Bodleian Library).",
   "url": "https://iqsaweb.org/tag/in-memoriam/",
   "urlLabel": "IQSA obituary",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-keith-small",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Alain George",
@@ -96,7 +126,10 @@
   "description": "George studies the earliest Qur'an manuscripts through script and art history. He has written on how the Kufic copies developed their coloured-dot vowel systems, comparing al-Dani's medieval account with surviving codices to ask where early copies were made. Works: The Rise of Islamic Calligraphy (Saqi, 2010); 'Coloured Dots and the Question of Regional Origins in Early Qur'ans (Part I)', Journal of Qur'anic Studies 17 (2015).",
   "url": "https://saqibooks.com/books/saqi/the-rise-of-islamic-calligraphy/",
   "urlLabel": "Saqi Books page",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-alain-george",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Yasin Dutton",
@@ -105,7 +138,10 @@
   "description": "A Muslim scholar of Arabic and Islamic law who published pioneering studies on the vocalisation and dotting of early Qur'an manuscripts and on specific early codices. Works: 'Red Dots, Green Dots, Yellow Dots and Blue' (Journal of Qur'anic Studies, 1999 and 2000); 'An Early Mushaf According to the Reading of Ibn Amir' (2001); 'An Umayyad Fragment of the Qur'an and Its Dating' (2007).",
   "url": "https://en.wikipedia.org/wiki/Yasin_Dutton",
   "urlLabel": "Biographical overview (Wikipedia)",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-yasin-dutton",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Muhammad Mustafa al-A'zami",
@@ -114,7 +150,10 @@
   "description": "A hadith scholar who wrote a defence of the Qur'an's preservation from the traditional Muslim standpoint. His book surveys writing and recording in the Prophet's time, the compilation of the text, early orthography and the codex of Ibn Mas'ud, and compares this with the Bible's textual history. Work: The History of the Qur'anic Text from Revelation to Compilation (UK Islamic Academy, 2003).",
   "url": "https://ibtbooks.com/shop/the-history-of-the-quranic-text-from-revelation-to-compilation/",
   "urlLabel": "Publisher page (Islamic Book Trust)",
-  "group": "Scholars"
+  "group": "Scholars",
+  "id": "s-muhammad-mustafa-al-azami",
+  "kind": "Scholar",
+  "archived": "2026-10-15"
  },
  {
   "name": "Corpus Coranicum",
@@ -123,7 +162,10 @@
   "description": "A long-term research project begun in 2007 that documents the Qur'anic text and its surroundings. Its Manuscripta Coranica section offers images and codicological and palaeographic data on early manuscripts held in libraries worldwide, with about 2,000 pages transcribed and radiocarbon dating on more than 40 items. It also holds variant readings, parallel texts and a commentary.",
   "url": "https://www.bbaw.de/en/research/corpus-coranicum",
   "urlLabel": "BBAW project page",
-  "group": "Projects and centres"
+  "group": "Projects and centres",
+  "id": "s-corpus-coranicum",
+  "kind": "Project or centre",
+  "archived": "2026-10-15"
  },
  {
   "name": "Coranica and PALEOCORAN (Franco-German research projects)",
@@ -132,7 +174,10 @@
   "description": "Coranica (2011-2014) studied the earliest Qur'anic manuscripts. Its successor PALEOCORAN (from December 2014, French-German ANR funding) reconstructs the scattered Qur'an manuscripts of the 'Amr mosque library in Fustat, Old Cairo, and combines palaeography, codicology, ink analysis and radiocarbon dating to trace how script, variants and readings settled.",
   "url": "https://anr.fr/Project-ANR-14-FRAL-0015",
   "urlLabel": "ANR project record (PALEOCORAN)",
-  "group": "Projects and centres"
+  "group": "Projects and centres",
+  "id": "s-coranica-and-paleocoran-franco-german-research-projects",
+  "kind": "Project or centre",
+  "archived": "2026-10-15"
  },
  {
   "name": "QurCan (Canonization of the Quranic Reading Traditions)",
@@ -141,6 +186,9 @@
   "description": "A European Research Council project led by Marijn van Putten that is building a database of vocalised Quran manuscripts from before the tenth-century canon of reading traditions. It analyses their linguistic features and compares them with the canonical readings to understand how recitation looked before Ibn Mujahid and how the canon came to be set.",
   "url": "https://universiteitleiden.nl/vacatures/2025-nl/q1/15550postdoctoral-researcher-in-codicology-for-the-erc-consolidator-grant-project-qurcan",
   "urlLabel": "Leiden vacancy page describing the project",
-  "group": "Projects and centres"
+  "group": "Projects and centres",
+  "id": "s-qurcan-canonization-of-the-quranic-reading-traditions",
+  "kind": "Project or centre",
+  "archived": "2026-10-15"
  }
 ]

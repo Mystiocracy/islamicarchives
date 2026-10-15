@@ -1,8 +1,9 @@
 ---
 import { getEntry } from 'astro:content';
+import { longDate } from '../lib/quran';
 import { FORMATS, categoryOf, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, authorKey, sortName, type Work } from '../lib/site';
-interface Props { work: Work; showAuthor?: boolean }
-const { work, showAuthor = true } = Astro.props;
+interface Props { work: Work; showAuthor?: boolean; archive?: boolean }
+const { work, showAuthor = true, archive = false } = Astro.props;
 const d = work.data;
 const author = await getEntry(d.author);
 const isHosted = hosted(work);
@@ -13,9 +14,14 @@ const subjText = subjIds.map((id) => names.get(id) || id).join(' ');
 // surname used by the Library's author sort; a guest writer's own surname when the work is filed under an institution
 const firstWriter = d.byline?.split(/\s*(?:,|&|\band\b)\s*/)[0];
 const authorSort = (firstWriter ? sortName(firstWriter) : author ? authorKey(author) : '') + ' ' + (firstWriter || author?.data.name || '');
+const wUrl = new URL(`/works/${work.id}/`, 'https://islamicarchives.org').href;
+const lastFirst = author ? (() => { const p = (d.byline || author.data.name).split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
+const archivedOn = d.added ? d.added.toISOString().slice(0, 10) : '';
+const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isHosted && d.sourceUrl ? ' ' + (d.sourceLabel ? d.sourceLabel.replace(/[\s.]+$/, '') + ', ' : '') + d.sourceUrl + '.' : ''}${archivedOn ? ' Archived ' + longDate(archivedOn) + ' in' : ' In'} Islamic Archives: Archive of Modern Islamic Thought. ${wUrl}`;
 ---
 <article class="work-row"
   data-work
+  {...(archive ? { 'data-q-item': '' } : {})}
   data-title={d.title.toLowerCase()}
   data-author={(author?.data.name || '').toLowerCase()}
   data-author-sort={authorSort.toLowerCase()}
@@ -32,6 +38,14 @@ const authorSort = (firstWriter ? sortName(firstWriter) : author ? authorKey(aut
     {showAuthor && author && <a href={`/authors/${author.id}/`} style="font-weight:500; font-size:15px">{d.byline ? `${d.byline} · ${author.data.name}` : author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
     {!showAuthor && (d.byline || d.coAuthors) && <span style="font-weight:500; font-size:15px; color:var(--ink-2)">{d.byline || `with ${d.coAuthors}`}</span>}
     {d.summary && <p class="muted" style="margin:2px 0 0; font-size:14px">{d.summary}</p>}
+    {archive && archivedOn && <span class="muted" style="font-size:13px">Archived {longDate(archivedOn)}</span>}
+    {archive && (
+      <details class="cite-tile">
+        <summary>Cite</summary>
+        <p>{cite}</p>
+        <button type="button" class="btn btn-quiet" data-copy={cite}>Copy citation</button>
+      </details>
+    )}
   </div>
   <div class="side">
     {isHosted ? FORMATS.map((f) => (
@@ -47,3 +61,9 @@ const authorSort = (firstWriter ? sortName(firstWriter) : author ? authorKey(aut
     )}
   </div>
 </article>
+<style>
+  .cite-tile { margin-top: 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--ground); padding: 0 12px; max-width: 760px; }
+  .cite-tile summary { cursor: pointer; font-size: 13px; font-weight: 600; letter-spacing: 0.04em; color: var(--green); padding: 8px 0; }
+  .cite-tile p { margin: 0 0 8px; font-size: 14px; line-height: 1.55; color: var(--ink-2); overflow-wrap: anywhere; }
+  .cite-tile button { margin: 0 0 10px; min-height: 36px; }
+</style>

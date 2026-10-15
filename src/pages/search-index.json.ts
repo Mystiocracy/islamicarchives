@@ -1,5 +1,7 @@
 // A small index of authors, subjects and works for the search-as-you-type suggestions.
 import { allAuthors, allSubjects, allWorks } from '../lib/site';
+import manuscripts from '../data/manuscripts.json';
+import scholars from '../data/scholars.json';
 
 export async function GET() {
   const authors = await allAuthors();
@@ -26,7 +28,19 @@ export async function GET() {
     }
   }
 
+  // the Quran section: its own pages, every manuscript-catalogue entry and every scholar
+  const q = [
+    ['Quran', '/quran/', 'tafseer corpus manuscripts scholars', 'Quran section'],
+    ['Tafseer', '/quran/tafsir/', 'tafsir commentary exegesis translation', 'Quran section'],
+    ['Quran Word Corpus', '/quran/corpus/', 'word by word roots grammar concordance dictionary', 'Quran section'],
+    ['Manuscript catalogue', '/quran/manuscripts/', 'quranic manuscripts codex palimpsest', 'Quran section'],
+    ['Manuscript scholars', '/quran/scholars/', 'quranic manuscripts researchers palaeography', 'Quran section'],
+    ...manuscripts.map((m: any) => [m.name, `/quran/manuscripts/#${m.id}`, [m.institution, m.location, m.period, m.kind, m.source].filter(Boolean).join(' '), `Manuscript catalogue · ${m.kind}`]),
+    ...scholars.map((m: any) => [m.name, `/quran/scholars/#${m.id}`, [m.nameNative, m.affiliation, m.kind].filter(Boolean).join(' '), `Manuscript scholars · ${m.kind}`]),
+  ];
+
   const out = {
+    q,
     // [name, url, extra words to match, note] (works also carry type and language)
     a: authors.map((a) => [a.data.name, `/authors/${a.id}/`, [a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' '), [a.data.born && (a.data.died ? `${a.data.born}–${a.data.died}` : `b. ${a.data.born}`), `${count.get(a.id) || 0} works`].filter(Boolean).join(' · ')])
       .concat([...writers].map(([n, c]) => [n, `/library/?q=${encodeURIComponent(n)}`, '', `${c} ${c === 1 ? 'work' : 'works'}`])),

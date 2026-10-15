@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuranSubnav from '../../../components/QuranSubnav.astro';
+import QList from '../../../components/QList.astro';
+import WorkRow from '../../../components/WorkRow.astro';
+import { allWorks } from '../../../lib/site';
+
+const RX = /tafs[iīi]r|tafseer|commentary|exegesis|exegetical|interpretation of the (qur|kor)|message of the qur|towards understanding the qur|zilal|ẓilāl|translation of the (meanings|qur)/i;
+const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies') &&
+  (RX.test([w.data.title, w.data.titleOriginal, w.data.summary, w.data.keywords.join(' ')].filter(Boolean).join(' ')) || w.data.type === 'Translation'));
+const count = (fn: (w: any) => string) => { const m = new Map<string, number>(); for (const w of works) m.set(fn(w), (m.get(fn(w)) || 0) + 1); return [...m.entries()].sort((a, b) => b[1] - a[1]); };
+const groups = [
+  { key: 'lang', label: 'Language', values: count((w) => w.data.language) },
+  { key: 'type', label: 'Type', values: count((w) => w.data.type) },
+];
+---
+<Base title="Tafseer: Qur'an commentaries and translations" description="Commentaries, translations and studies of Qur'anic interpretation in the archive, searchable, with an archived date and citation for each." current="quran">
+  <div class="wrap" style="padding-top:40px; padding-bottom:40px" data-pagefind-body>
+    <QuranSubnav current="tafsir" />
+    <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Tafseer</h1>
+    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
+      <p>Commentaries on the Qur'an, translations with commentary, and writings on how the Qur'an is interpreted, drawn from the library. <strong>Archived</strong> is the date each work was added to this archive; press <strong>Cite</strong> for a ready citation. The full library, with every subject filter, is at <a href="/library/?subject=quranic-studies">Library → Quranic studies</a>.</p>
+    </div>
+    <QList groups={groups} total={works.length} noun="works" placeholder="Search tafseer by title, author, language or topic" page={30}
+      sorts={[['curated', 'Oldest first'], ['az', 'Title A–Z'], ['za', 'Title Z–A']]}>
+      {works.map((w) => <WorkRow work={w} archive />)}
+    </QList>
+  </div>
+</Base>

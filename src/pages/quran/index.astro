@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import manuscripts from '../../data/manuscripts.json';
+import scholars from '../../data/scholars.json';
+import { allWorks } from '../../lib/site';
+
+const RX = /tafs[iīi]r|tafseer|commentary|exegesis|exegetical|interpretation of the (qur|kor)|message of the qur|towards understanding the qur|zilal|ẓilāl|translation of the (meanings|qur)/i;
+const tafsir = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies') &&
+  (RX.test([w.data.title, w.data.titleOriginal, w.data.summary, w.data.keywords.join(' ')].filter(Boolean).join(' ')) || w.data.type === 'Translation')).length;
+const tiles = [
+  { href: '/quran/tafsir/', ar: 'تفسير', h: 'Tafseer', p: 'Commentaries on the Qur\'an, translations with commentary and writings on interpretation, from the library.', n: `${tafsir} works` },
+  { href: '/quran/corpus/', ar: 'المعجم', h: 'Quran Word Corpus', p: 'Read the Qur\'an word by word, with the grammar and root of every word, a dictionary of roots, a table of verbs and a concordance.', n: 'Word-by-word tool' },
+  { href: '/quran/manuscripts/', ar: 'مخطوطات', h: 'Manuscript catalogue', p: 'Early Qur\'an manuscripts, studies of their script and dating, and the libraries and databases that hold them.', n: `${manuscripts.length} resources` },
+  { href: '/quran/scholars/', ar: 'علماء', h: 'Manuscript scholars', p: 'Scholars and research projects working on early Qur\'an manuscripts: palaeography, codicology and textual variants.', n: `${scholars.length} entries` },
+];
+---
+<Base title="Quran" description="The Quran section of Islamic Archives: tafseer, the word-by-word corpus, a catalogue of early manuscripts and the scholars who study them." current="quran">
+  <div class="wrap" style="padding-top:40px; padding-bottom:48px; display:flex; flex-direction:column; gap:28px">
+    <div>
+      <h1 style="font-size:40px; margin:0 0 0.3em">Quran</h1>
+      <p class="muted" style="margin:0; max-width:700px; font-size:17px">Tools and references for studying the Qur'an. Everything here is searchable from the search box at the top of any page, and each catalogue entry carries an archived date and a citation.</p>
+    </div>
+    <div class="grid-auto" style="--min:300px">
+      {tiles.map((t) => (
+        <a href={t.href} class="card" style="text-decoration:none; color:var(--ink); padding:26px 26px 22px; display:flex; flex-direction:column; gap:10px; min-height:230px">
+          <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">{t.ar}</span>
+          <span style="font-family:var(--serif); font-weight:600; font-size:24px">{t.h}</span>
+          <span class="muted" style="font-size:15px; line-height:1.55; flex:1">{t.p}</span>
+          <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:14px"><span class="tag tag-green">{t.n}</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
