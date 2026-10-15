@@ -30,7 +30,7 @@ export async function GET() {
 
   // the Quran section: its own pages, every manuscript-catalogue entry and every scholar
   const q = [
-    ['Quran', '/quran/', 'tafseer corpus manuscripts scholars', 'Quran section'],
+    ['Quran Hub', '/quran/', 'quran tafseer corpus manuscripts scholars', 'Quran section'],
     ['Tafseer', '/quran/tafsir/', 'tafsir commentary exegesis translation', 'Quran section'],
     ['Quran Word Corpus', '/quran/corpus/', 'word by word roots grammar concordance dictionary', 'Quran section'],
     ['Manuscript catalogue', '/quran/manuscripts/', 'quranic manuscripts codex palimpsest', 'Quran section'],
