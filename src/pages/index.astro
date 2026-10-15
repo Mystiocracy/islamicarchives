@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { allWorks, allAuthors, allSubjects, allEras, eraSpan } from '../lib/site';
+import { allWorks, allAuthors, allSubjects, allEras, eraSpan, authorPhoto, initials } from '../lib/site';
 
 const works = await allWorks();
 const authors = await allAuthors();
@@ -54,7 +54,10 @@ const tickerAuthors = authors.filter((a) => (count.get(a.id) || 0) > 0);
       <div class="section-head"><h2>Featured authors</h2><a href="/authors/" style="font-weight:500">All authors A–Z →</a></div>
       <div class="ticker" data-ticker data-speed="40">
         <div class="ticker-track">
-          {tickerAuthors.map((a) => <a class="chip" href={`/authors/${a.id}/`}>{a.data.name}</a>)}
+          {tickerAuthors.map((a) => {
+            const photo = authorPhoto(a);
+            return <a class="chip chip-author" href={`/authors/${a.id}/`}>{photo ? <img class="avatar" src={photo} alt="" width="40" height="40" loading="lazy" decoding="async" /> : <span class="avatar avatar-mono" aria-hidden="true">{initials(a.data.name)}</span>}{a.data.name}</a>;
+          })}
         </div>
       </div>
     </section>

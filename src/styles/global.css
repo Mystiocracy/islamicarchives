@@ -142,6 +142,7 @@ dialog.send::backdrop { background: rgba(20, 32, 30, 0.55); }
   .grid-auto { gap: 10px; }
   .chip { padding: 8px 12px; font-size: 14px; }
   .monogram { width: 40px; height: 40px; font-size: 15px; }
+  .author-photo { width: 88px; height: 88px; }
   .card { border-radius: 8px; }
 
   /* lists of works */
@@ -312,5 +313,9 @@ html { scroll-padding-top: 140px; }
 .ticker { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); padding: 2px 0; }
 .ticker-track { display: flex; gap: 10px; width: max-content; will-change: transform; }
 .ticker-track .chip { white-space: nowrap; flex: none; }
+.chip-author { gap: 10px; padding: 6px 16px 6px 6px; border-radius: 999px; }
+.avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; object-position: center top; flex: none; background: var(--green-tint); }
+.avatar-mono { display: inline-flex; align-items: center; justify-content: center; color: var(--green); font-family: var(--serif); font-weight: 700; font-size: 15px; }
+.author-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; object-position: center top; flex: none; background: var(--green-tint); border: 1px solid var(--line); }
 .ticker-still { -webkit-mask-image: none; mask-image: none; }
 .ticker-still .ticker-track { flex-wrap: wrap; width: auto; }

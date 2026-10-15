@@ -1,4 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import fs from 'node:fs';
 
 export type Work = CollectionEntry<'works'>;
 export type Author = CollectionEntry<'authors'>;
@@ -109,4 +110,24 @@ export const CATEGORIES = [
 export type CategoryId = (typeof CATEGORIES)[number]['id'];
 export function categoryOf(type: string): CategoryId {
   return (CATEGORIES.find((c) => (c.types as readonly string[]).includes(type))?.id || 'articles') as CategoryId;
+}
+
+// ---- author portraits -------------------------------------------------------------------------
+// Easiest: save a square-ish photo as public/authors/<author-id>.jpg (or .png/.webp) and rebuild.
+// Or upload it in the admin page (Authors -> Photo), which fills the `photo` field.
+const PHOTO_EXT = ['jpg', 'jpeg', 'png', 'webp'];
+let credits: Record<string, { author?: string; license?: string; page?: string }> | undefined;
+
+export function authorPhoto(a: Author): string | undefined {
+  if (a.data.photo) return a.data.photo;
+  for (const ext of PHOTO_EXT) if (fs.existsSync(`public/authors/${a.id}.${ext}`)) return `/authors/${a.id}.${ext}`;
+  return undefined;
+}
+
+/** Credit line for a portrait taken from Wikimedia Commons (empty for photos you uploaded yourself). */
+export function photoCredit(a: Author) {
+  if (!credits) {
+    try { credits = JSON.parse(fs.readFileSync('public/authors/credits.json', 'utf8')); } catch { credits = {}; }
+  }
+  return a.data.photo ? undefined : credits![a.id];
 }

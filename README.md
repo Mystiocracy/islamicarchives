@@ -10,6 +10,7 @@ The website for **islamicarchives.org**: a free, searchable archive of writings 
 - *Add a work:* Works → Add entry → choose the author, fill in the details, pick the **Rights status**, then:
   - **Public domain** or **Permission granted**: paste the full text into *Full text*. The site will host it and generate the downloads.
   - **In copyright – link only**: leave *Full text* empty and put the publisher's free link in *Link to free copy*.
+- *Add a photo:* Authors → pick the author → **Photo** → upload → Save. It appears in a circle on the home-page ticker, the A–Z list and the author's page. (Or drop `<author-id>.jpg` into `public/authors/`.) Authors without a photo show their initials.
 - Press **Save**. The site rebuilds and goes live in about two minutes.
 
 **Books read chapter by chapter.** For a long book you already have as a finished EPUB, run

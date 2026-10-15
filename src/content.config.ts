@@ -16,6 +16,8 @@ const authors = defineCollection({
     region: z.string().optional(),
     roles: z.string().optional(),
     featured: z.boolean().default(false),
+    // portrait: uploaded in the admin page (saved under /media/...), or just drop <author-id>.jpg into public/authors/
+    photo: z.string().optional(),
     // the name to file the author under in A–Z lists, e.g. "Taha" (defaults to the last word of the name)
     sortAs: z.string().optional(),
     // where the biography's facts come from

@@ -2,7 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import WorkRow from '../../components/WorkRow.astro';
-import { allAuthors, allWorks, years, initials, hosted, categoryOf, CATEGORIES, type Author } from '../../lib/site';
+import { allAuthors, allWorks, years, initials, authorPhoto, photoCredit, hosted, categoryOf, CATEGORIES, type Author } from '../../lib/site';
 
 export async function getStaticPaths() {
   const authors = await allAuthors();
@@ -12,6 +12,8 @@ const { author } = Astro.props as { author: Author };
 const a = author.data;
 const works = (await allWorks()).filter((w) => w.data.author.id === author.id);
 const { Content } = await render(author);
+const photo = authorPhoto(author);
+const credit = photoCredit(author);
 const hasBio = (author.body || '').trim().length > 0;
 const langs = [...new Set(works.map((w) => w.data.language))];
 const anyHosted = works.some(hosted);
@@ -20,7 +22,7 @@ const groups = CATEGORIES.map((c) => ({ ...c, works: works.filter((w) => categor
 <Base title={a.name} current="authors">
   <section style="background:var(--surface); border-bottom:1px solid var(--line)">
     <div class="wrap author-head" style="padding-top:40px; padding-bottom:40px; display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
-      <span class="monogram author-mono" style="width:120px; height:120px; font-size:40px">{initials(a.name)}</span>
+      {photo ? <img class="author-photo" src={photo} alt={a.name} width="120" height="120" decoding="async" /> : <span class="monogram author-mono" style="width:120px; height:120px; font-size:40px">{initials(a.name)}</span>}
       <div style="flex:1 1 520px; display:flex; flex-direction:column; gap:12px; min-width:0">
         <nav aria-label="Breadcrumb" class="muted" style="font-size:14px"><a href="/authors/">Authors</a></nav>
         <div style="display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 20px">
@@ -29,6 +31,7 @@ const groups = CATEGORIES.map((c) => ({ ...c, works: works.filter((w) => categor
         </div>
         <p class="muted" style="margin:0; font-size:16px">{[years(a), a.region, a.roles].filter(Boolean).join(' · ')}</p>
         {hasBio ? <div class="author-bio" style="font-size:17px; line-height:1.6; max-width:760px; color:var(--ink-2)"><Content /></div> : <p class="muted" style="margin:0">Biography in preparation.</p>}
+        {credit && <p class="muted" style="margin:0; font-size:13px">Photo: {credit.author ? credit.author + ', ' : ''}<a href={credit.page} rel="noopener" target="_blank">{credit.license || 'Wikimedia Commons'}</a>, via Wikimedia Commons</p>}
         {a.sources.length > 0 && <p class="muted" style="margin:0; font-size:13px; overflow-wrap:anywhere">Sources: {a.sources.map((u, i) => <>{i > 0 && ' · '}<a href={u} rel="noopener" target="_blank">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</p>}
       </div>
       {anyHosted && (

@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { allAuthors, allWorks, years, initials, authorKey, plain } from '../../lib/site';
+import { allAuthors, allWorks, years, initials, authorKey, plain, authorPhoto } from '../../lib/site';
 const authors = await allAuthors();
 const works = await allWorks();
 const count = (id: string) => works.filter((w) => w.data.author.id === id).length;
@@ -25,7 +25,7 @@ const letters = [...new Set(authors.map((a) => authorKey(a)[0].toUpperCase()))].
         <div class="grid-auto" style="--min:260px">
           {authors.filter((a) => authorKey(a)[0].toUpperCase() === l).map((a) => (
             <a href={`/authors/${a.id}/`} data-author-card data-name={plain([a.data.name, a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' ')).toLowerCase()} class="card" style="text-decoration:none; color:var(--ink); padding:16px; display:flex; gap:14px; align-items:center">
-              <span class="monogram" style="width:48px; height:48px; font-size:17px">{initials(a.data.name)}</span>
+              {authorPhoto(a) ? <img class="author-photo" src={authorPhoto(a)} alt="" width="48" height="48" loading="lazy" decoding="async" style="width:48px; height:48px" /> : <span class="monogram" style="width:48px; height:48px; font-size:17px">{initials(a.data.name)}</span>}
               <span style="display:flex; flex-direction:column; gap:2px; min-width:0">
                 <span style="font-family:var(--serif); font-weight:600; font-size:17px">{a.data.name}</span>
                 <span class="muted" style="font-size:13px">{years(a.data)}{a.data.region ? ` · ${a.data.region}` : ''}</span>
