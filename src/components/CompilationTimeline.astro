@@ -1,0 +1,48 @@
+---
+import data from '../data/compilation.json';
+import { longDate, SITE } from '../lib/quran';
+const s = data.source;
+const groups = [...new Set(data.timeline.map((t) => t.group))];
+const cite = `${s.author}. ${s.title}. ${s.publisher}, ${s.year}. ${s.chapters}. ${s.url}. Archived ${longDate(s.archived)} in Islamic Archives, “Quran Hub”, ${SITE}/quran/#compilation.`;
+---
+<section id="compilation" aria-labelledby="comp-h">
+  <h2 id="comp-h" style="font-size:30px; margin:0 0 0.5em">How the Qur'an was compiled</h2>
+  <div class="prose comp-sum">
+    {data.summary.map((p) => <p>{p}</p>)}
+    <p class="muted" style="font-size:14px">{data.note}</p>
+  </div>
+  <h3 style="font-size:20px; margin:28px 0 4px">Timeline</h3>
+  <p class="muted" style="margin:0 0 12px; font-size:14px">Scroll sideways. Cards run from the first revelation to print, following the order of von Denffer's account.</p>
+  <div class="ct-legend">{groups.map((g, i) => <span><i class={`dot g${i}`}></i>{g}</span>)}</div>
+  <div class="ct-scroll" tabindex="0" role="region" aria-label="Timeline of the compilation of the Qur'an">
+    <ol class="ct-track">
+      {data.timeline.map((t) => (
+        <li class={`ct-ev g${groups.indexOf(t.group)}`}>
+          <span class="ct-d">{t.when}<small>{t.alt}</small></span>
+          <h4>{t.title}</h4>
+          <p>{t.text}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+  <p class="cite-line"><span>Archived {longDate(s.archived)}.</span> <span><strong>How to cite:</strong> {cite}</span></p>
+  <p class="cite-line" style="margin-top:2px"><span>Source: <a href={s.url} rel="noopener" target="_blank">{s.author}, {s.title}</a> ({s.publisher}, {s.year}), {s.chapters}.</span></p>
+</section>
+<style>
+  .comp-sum { font-family: var(--sans); font-size: 17px; max-width: 760px; }
+  .ct-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font: 13px var(--sans); color: var(--muted); margin-bottom: 10px; }
+  .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; border: 4px solid var(--green); background: var(--surface); }
+  .g1 > .dot, .dot.g1 { border-color: #3b7f9a } .dot.g2 { border-color: var(--saffron) } .dot.g3 { border-color: #8a5a12 } .dot.g4 { border-color: var(--muted) }
+  .ct-scroll { overflow-x: auto; padding: 4px 2px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+  .ct-track { list-style: none; margin: 0; padding: 36px 16px 8px; display: flex; align-items: flex-start; gap: 14px; width: max-content; position: relative; }
+  .ct-track:before { content: ''; position: absolute; left: 0; right: 0; top: 17px; height: 4px; background: var(--green); opacity: .85; }
+  .ct-ev { position: relative; width: 250px; flex: none; background: var(--ground); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-family: var(--sans); }
+  .ct-ev:before { content: ''; position: absolute; top: -27px; left: 16px; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); border: 4px solid var(--green); }
+  .ct-ev.g1:before { border-color: #3b7f9a } .ct-ev.g2:before { border-color: var(--saffron) } .ct-ev.g3:before { border-color: #8a5a12 } .ct-ev.g4:before { border-color: var(--muted) }
+  .ct-d { display: block; font-weight: 600; font-size: 13px; color: var(--green); }
+  .ct-d small { display: block; font-weight: 400; font-size: 12px; color: var(--muted); }
+  .ct-ev h4 { font: 600 17px var(--serif); margin: 6px 0 4px; }
+  .ct-ev p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+  .cite-line { margin: 10px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); max-width: 780px; overflow-wrap: anywhere; }
+  .cite-line strong { font-weight: 600; color: var(--ink-2); }
+</style>

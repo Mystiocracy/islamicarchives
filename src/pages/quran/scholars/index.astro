@@ -5,6 +5,11 @@ import QList from '../../../components/QList.astro';
 import QEntry from '../../../components/QEntry.astro';
 import items from '../../../data/scholars.json';
 import { citeScholar, longDate } from '../../../lib/quran';
+import { getCollection } from 'astro:content';
+
+const AUTHOR: Record<string, string> = { 's-francois-deroche': 'francois-deroche', 's-alba-fedeli': 'alba-fedeli', 's-behnam-sadeghi': 'behnam-sadeghi', 's-mohsen-goudarzi': 'mohsen-goudarzi', 's-asma-hilali': 'asma-hilali', 's-marijn-van-putten': 'marijn-van-putten', 's-hythem-sidky': 'hythem-sidky', 's-michael-marx': 'michael-marx', 's-gerd-rudiger-puin': 'gerd-ruediger-puin', 's-keith-small': 'keith-small', 's-alain-george': 'alain-george', 's-yasin-dutton': 'yasin-dutton', 's-muhammad-mustafa-al-azami': 'muhammad-mustafa-al-azami' };
+const works = await getCollection('works');
+const nWorks = (id: string) => works.filter((w) => w.data.author.id === id && !w.data.draft).length;
 
 const kindM = new Map<string, number>();
 for (const x of items) kindM.set(x.kind, (kindM.get(x.kind) || 0) + 1);
@@ -17,11 +22,11 @@ const archivedDates = [...new Set(items.map((x: any) => x.archived))].sort();
     <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Scholars of Quranic manuscripts</h1>
     <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
       <p>Researchers and projects working on early Qur'an manuscripts: palaeography, codicology, palimpsests, dating and textual variants. The list is in no order of importance, mixes Muslim and non-Muslim scholarship, and does not imply agreement with anyone’s conclusions. Affiliations may have changed; each link goes to a profile or project page.</p>
-      <p><strong>Archived</strong> is the date this archive recorded the entry ({archivedDates.map((d) => longDate(d as string)).join(', ')}). Press <strong>Cite</strong> on any entry for a ready citation. The manuscripts these scholars study are in the <a href="/quran/manuscripts/">manuscript catalogue</a>.</p>
+      <p><strong>Archived</strong> is the date this archive recorded the entry ({archivedDates.map((d) => longDate(d as string)).join(', ')}). Each entry also says how to cite it. Scholars have their own pages under Authors, with a biography and a list of their works. The manuscripts these scholars study are in the <a href="/quran/manuscripts/">manuscript catalogue</a>.</p>
     </div>
     <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, institution or subject" page={40}
       sorts={[['curated', 'Curated order'], ['az', 'Name A–Z'], ['za', 'Name Z–A']]}>
-      {items.map((x: any) => <QEntry e={x} cite={citeScholar(x)} linkLabel={x.kind === 'Scholar' ? 'PROFILE ↗' : 'PROJECT ↗'} />)}
+      {items.map((x: any) => <QEntry e={x} cite={citeScholar(x)} linkLabel={x.kind === 'Scholar' ? 'PROFILE ↗' : 'PROJECT ↗'} authorHref={AUTHOR[x.id] ? `/authors/${AUTHOR[x.id]}/` : undefined} works={AUTHOR[x.id] ? nWorks(AUTHOR[x.id]) : 0} />)}
     </QList>
   </div>
 </Base>

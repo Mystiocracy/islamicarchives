@@ -1,8 +1,8 @@
 ---
 import { longDate } from '../lib/quran';
 import { searchText } from '../lib/site';
-interface Props { e: any; cite: string; pidx?: number; extra?: string; linkLabel?: string }
-const { e, cite, pidx = 0, extra = '', linkLabel } = Astro.props;
+interface Props { e: any; cite: string; pidx?: number; extra?: string; linkLabel?: string; authorHref?: string; works?: number }
+const { e, cite, pidx = 0, extra = '', linkLabel, authorHref, works = 0 } = Astro.props;
 const meta = [e.institution || e.location || e.affiliation].filter(Boolean).join('');
 const text = searchText([e.name, e.nameNative, e.institution, e.location, e.affiliation, e.dateNote, e.script, e.period, e.kind, e.source, e.description, extra].filter(Boolean).join(' '));
 ---
@@ -11,27 +11,22 @@ const text = searchText([e.name, e.nameNative, e.institution, e.location, e.affi
     <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center">
       <span class="tag">{e.kind.toUpperCase()}</span>
       {e.period && e.period !== 'Not dated or not applicable' && <span class="tag tag-green">{e.period}</span>}
-      <span class="muted" style="font-size:13px">Archived {longDate(e.archived)}</span>
+      {works > 0 && <span class="tag tag-green">{works} {works === 1 ? 'work' : 'works'} listed</span>}
     </div>
-    <a class="title" href={`#${e.id}`}>{e.name}{e.nameNative && <span dir="rtl" lang="ar" style="font-family:'Noto Naskh Arabic',serif; margin-left:10px">{e.nameNative}</span>}</a>
+    <a class="title" href={authorHref || `#${e.id}`}>{e.name}{e.nameNative && <span dir="rtl" lang="ar" style="font-family:'Noto Naskh Arabic',serif; margin-left:10px">{e.nameNative}</span>}</a>
     {meta && <span class="muted" style="font-size:14px">{meta}</span>}
     {e.dateNote && <span class="muted" style="font-size:13px">{e.dateNote}{e.script ? ' · ' + e.script : ''}</span>}
     <p class="muted" style="margin:2px 0 0; font-size:14px">{e.description}</p>
-    <details class="cite-tile">
-      <summary>Cite</summary>
-      <p>{cite}</p>
-      <button type="button" class="btn btn-quiet" data-copy={cite}>Copy citation</button>
-    </details>
+    <p class="cite-line"><span>Archived {longDate(e.archived)}.</span> <span><strong>How to cite:</strong> {cite}</span></p>
   </div>
   <div class="side">
+    {authorHref && <a class="fmt" href={authorHref}>WORKS →</a>}
     <a class="fmt" href={e.url} rel="noopener" target="_blank" title={e.urlLabel || undefined}>{linkLabel || 'OPEN SOURCE ↗'}</a>
     <span class="muted" style="font-size:12px; width:100%">{e.source}</span>
   </div>
 </article>
 <style>
   .q-entry.q-target { outline: 2px solid var(--saffron); outline-offset: -2px; background: var(--saffron-tint); }
-  .cite-tile { margin-top: 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--ground); padding: 0 12px; max-width: 760px; }
-  .cite-tile summary { cursor: pointer; font-size: 13px; font-weight: 600; letter-spacing: 0.04em; color: var(--green); padding: 8px 0; }
-  .cite-tile p { margin: 0 0 8px; font-size: 14px; line-height: 1.55; color: var(--ink-2); overflow-wrap: anywhere; }
-  .cite-tile button { margin: 0 0 10px; min-height: 36px; }
+  .cite-line { margin: 6px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); max-width: 780px; overflow-wrap: anywhere; }
+  .cite-line strong { font-weight: 600; color: var(--ink-2); }
 </style>
