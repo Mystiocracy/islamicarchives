@@ -24,7 +24,7 @@
 <meta name="description" content="Read the Quran word by word with grammar, roots, a dictionary, search, verbs and a concordance.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Scheherazade+New:wght@400;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Scheherazade+New:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 [hidden]{display:none!important}
 /* Layout: a reference tool — slim top bar with views, a working column, and a word-detail drawer that slides in from the side (bottom sheet on phones). */
@@ -274,9 +274,53 @@ body.hide-wtl .w .t{display:none}
 .kbd .row2{display:flex;justify-content:space-between;gap:6px;margin-top:8px}
 </style>
 
+<style>
+/* Islamic Archives site bar (same as the rest of the site) */
+.sh{background:#fff;border-bottom:1px solid #DAD8CF;box-shadow:0 1px 6px rgba(20,32,30,.06);font-family:"IBM Plex Sans",system-ui,sans-serif;color:#14201E}
+:root[data-theme="dark"] .sh{background:var(--panel);border-bottom-color:var(--line);color:var(--ink)}
+.sh-in{max-width:1600px;margin:0 auto;padding:14px clamp(16px,3vw,40px);display:flex;flex-wrap:wrap;align-items:center;gap:12px 32px}
+.sh-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.sh-name{font-family:"Source Serif 4",Georgia,serif;font-weight:700;font-size:20px;display:block;line-height:1.15}
+.sh-sub{font-size:12px;color:#55605D;letter-spacing:.04em;display:block}
+:root[data-theme="dark"] .sh-sub{color:var(--muted)}
+.sh-nav{display:flex;flex-wrap:wrap;gap:4px 24px;font-weight:500;flex:1 1 auto}
+.sh-nav a{text-decoration:none;padding:10px 0;border-bottom:2px solid transparent;color:#1E5A4C}
+:root[data-theme="dark"] .sh-nav a{color:var(--ink)}
+.sh-nav a:hover{color:#143F35}
+.sh-nav a[aria-current="page"]{border-bottom-color:#C8892B}
+.sh-search{flex:0 1 340px;min-width:200px;position:relative;display:flex;align-items:center}
+.sh-search svg{position:absolute;left:12px;color:#55605D;pointer-events:none}
+.sh-search input{width:100%;min-height:42px;padding:0 12px 0 38px;font:inherit;font-size:15px;border:1px solid #DAD8CF;border-radius:10px;background:#fff;color:#14201E}
+:root[data-theme="dark"] .sh-search input{background:var(--wash);border-color:var(--line);color:var(--ink)}
+@media (max-width:820px){
+  .sh-in{flex-wrap:nowrap;gap:8px;padding:10px 16px;flex-direction:column;align-items:stretch}
+  .sh-brand svg{width:32px;height:32px}.sh-name{font-size:18px}.sh-sub{display:none}
+  .sh-nav{flex-wrap:nowrap;overflow-x:auto;gap:18px;scrollbar-width:none;flex:none}
+  .sh-nav::-webkit-scrollbar{display:none}
+  .sh-nav a{white-space:nowrap;padding:6px 0}
+  .sh-search{display:none}
+}
+</style>
+<header class="sh">
+  <div class="sh-in">
+    <a class="sh-brand" href="/">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><rect x="6" y="6" width="28" height="28" fill="none" stroke="#1E5A4C" stroke-width="2.5"/><rect x="6" y="6" width="28" height="28" fill="none" stroke="#C8892B" stroke-width="2.5" transform="rotate(45 20 20)"/><circle cx="20" cy="20" r="4" fill="#1E5A4C"/></svg>
+      <span><span class="sh-name">Islamic Archives</span><span class="sh-sub">ARCHIVE OF MODERN ISLAMIC THOUGHT</span></span>
+    </a>
+    <nav class="sh-nav" aria-label="Main">
+      <a href="/library/">Library</a><a href="/authors/">Authors</a><a href="/subjects/">Subjects</a><a href="/quran/" aria-current="page">Quran</a><a href="/delivery/">Share</a><a href="/about/">About</a>
+    </nav>
+    <form class="sh-search" action="/library/" method="get" role="search">
+      <label for="sh-q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Search the archive</label>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="sh-q" name="q" type="search" placeholder="Search the archive…" autocomplete="off">
+    </form>
+  </div>
+</header>
+
 <header class="bar">
   <div class="bar-in">
-    <div class="brand"><a href="/" class="back-link" style="font-size:.8rem;text-decoration:none;color:var(--muted);margin-right:6px" title="Back to Islamic Archives" aria-label="Back to Islamic Archives">←<span class="back-txt"> Islamic Archives</span></a><span class="ar">المعجم</span><b>Quran Word Corpus</b></div>
+    <div class="brand"><span class="ar">المعجم</span><b>Quran Word Corpus</b></div>
     <button type="button" class="theme-btn" id="theme-btn" aria-label="Switch to dark mode" title="Light / dark">
       <svg class="ic-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
       <svg class="ic-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
