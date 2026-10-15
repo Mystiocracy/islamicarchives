@@ -1,0 +1,17 @@
+---
+const { current = '' } = Astro.props;
+const items = [
+  { href: '/quran/', label: 'Word Corpus', key: 'corpus' },
+  { href: '/quran/manuscripts/', label: 'Manuscripts', key: 'manuscripts' },
+  { href: '/quran/manuscripts/scholars/', label: 'Manuscript scholars', key: 'scholars' },
+];
+---
+<nav class="qsub" aria-label="Quran section">
+  {items.map((i) => <a href={i.href} aria-current={current === i.key ? 'page' : undefined}>{i.label}</a>)}
+</nav>
+<style>
+  .qsub { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 24px; font-family: var(--sans); }
+  .qsub a { padding: 7px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--ink-2); font-size: 15px; background: var(--surface); }
+  .qsub a[aria-current] { background: var(--green); color: #fff; border-color: var(--green); }
+  .qsub a:hover:not([aria-current]) { border-color: var(--green); color: var(--green); }
+</style>

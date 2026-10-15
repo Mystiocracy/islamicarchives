@@ -1,0 +1,37 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuranSubnav from '../../../components/QuranSubnav.astro';
+import items from '../../../data/manuscripts.json';
+import intro from '../../../data/manuscripts-intro.json';
+const groups = ['Earliest and best known', 'Palimpsests and fragments', 'Online collections and databases'];
+---
+<Base title="Quranic manuscripts" description="Early Qur'an manuscripts and the online collections where they can be studied." current="quran">
+  <div class="wrap" style="padding-top:40px; padding-bottom:40px">
+    <QuranSubnav current="manuscripts" />
+    <h1 style="font-size:40px; margin:0 0 0.4em">Quranic manuscripts</h1>
+    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px">
+      {intro.map((p) => <p>{p}</p>)}
+      <p>Below are some of the best-known early manuscripts and the libraries and databases that publish images or catalogue records. Dates are those given by the holding institution or by scholarship, and many are approximate. Links open the holder’s own pages where possible; some library sites block automated checks, so a link may need a browser. See also the <a href="/quran/manuscripts/scholars/">scholars and projects</a> who work in this field.</p>
+    </div>
+    {groups.map((g) => (
+      <section style="margin-top:36px">
+        <h2 style="font-size:26px; margin-bottom:14px">{g}</h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px">
+          {items.filter((x) => x.group === g).map((x) => (
+            <article class="card" style="padding:16px 18px; font-family:var(--sans)">
+              <h3 style="font-size:18px; margin:0 0 4px">{x.name}</h3>
+              <p style="margin:0 0 8px; font-size:14px; color:var(--ink-2)">
+                {[x.institution, x.location].filter(Boolean).join(', ')}
+              </p>
+              {(x.dateNote || x.script) && (
+                <p style="margin:0 0 8px"><span class="tag tag-green">{[x.dateNote, x.script].filter(Boolean).join(' · ')}</span></p>
+              )}
+              <p style="margin:0 0 10px; font-size:15px; line-height:1.55">{x.description}</p>
+              <a href={x.url} rel="noopener" style="font-size:14px; font-weight:500">{x.urlLabel || 'Open'} →</a>
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
