@@ -1,0 +1,34 @@
+name: Save work pages to the Internet Archive
+
+# Every work page (about 2,500) is sent to the Wayback Machine once a week, a seventh of them each day,
+# slowly enough to stay within its rate limits. Best effort: a failure here never affects the site.
+
+on:
+  schedule:
+    - cron: "41 2 * * *"
+  workflow_dispatch:
+    inputs:
+      part:
+        description: "Which seventh to save (0-6). Leave empty for today's."
+        required: false
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit this part of the work pages
+        continue-on-error: true
+        env:
+          PART_IN: ${{ github.event.inputs.part }}
+        run: |
+          part="${PART_IN:-$(( $(date -u +%j | sed 's/^0*//') % 7 ))}"
+          ls content/works/*.md | sort | awk -v p="$part" 'NR % 7 == p' \
+            | while read -r f; do echo "https://islamicarchives.org/works/$(basename "$f" .md)/"; done > urls.txt
+          echo "part $part: $(wc -l < urls.txt) pages"
+          while read -r u; do
+            code=$(curl -s -m 60 -o /dev/null -w "%{http_code}" -A "islamicarchives-saver" "https://web.archive.org/save/$u" || true)
+            echo "$code $u"
+            sleep 10
+          done < urls.txt
