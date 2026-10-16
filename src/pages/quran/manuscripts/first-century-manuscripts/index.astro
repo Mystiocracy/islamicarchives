@@ -1,0 +1,46 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import QuranSubnav from '../../../../components/QuranSubnav.astro';
+import { longDate, SITE } from '../../../../lib/quran';
+import articleHtml from '../../../../data/first-century-article.html?raw';
+
+const ARCHIVED = '2026-10-16';
+const TITLE = 'Manuscripts of the Qur’an Attributable to the First Century of the Hijra';
+const SOURCE_TITLE = 'Concise List Of Arabic Manuscripts Of The Qur’ān Attributable To The First Century Hijra';
+const SOURCE_URL = 'https://www.islamic-awareness.org/quran/text/mss/hijazi';
+const HERE = `${SITE}/quran/manuscripts/first-century-manuscripts/`;
+const cite = `Islamic Awareness. “${SOURCE_TITLE}.” First composed 14 June 2008, last updated 3 April 2019. ${SOURCE_URL}. Summary and study guide archived ${longDate(ARCHIVED)} in Islamic Internet Archives, “Quranic manuscript catalogue”, ${HERE}.`;
+---
+<Base title={TITLE} description="A study guide to the Islamic Awareness article on Qur'an manuscripts attributable to the first century of the hijra: dating methods, radiocarbon results, discoveries, an annotated index of key manuscripts and a reading list." current="quran">
+  <div class="wrap" style="padding-top:40px; padding-bottom:56px" data-pagefind-body>
+    <QuranSubnav current="manuscripts" />
+    <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 10px"><a href="/quran/manuscripts/">Quranic manuscript catalogue</a> › Article</nav>
+    <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px">
+      <span class="tag">ARTICLE</span><span class="tag tag-green">1st century AH</span>
+    </div>
+    <h1 style="font-size:38px; margin:0 0 0.2em" data-pagefind-meta="title">{TITLE}</h1>
+    <p class="muted" style="margin:0 0 20px; font-size:17px">A study guide and annotated index, based on the article by Islamic Awareness. Archived {longDate(ARCHIVED)}.</p>
+    <div class="article" set:html={articleHtml} />
+    <p class="cite-line"><span><strong>Archived</strong> {longDate(ARCHIVED)}.</span> <span><strong>How to cite:</strong> {cite}</span></p>
+  </div>
+</Base>
+<style is:global>
+  .article { font-family: var(--serif); font-size: 18px; line-height: 1.7; color: var(--ink-2); max-width: 820px; }
+  .article h2 { font-size: 27px; margin: 1.8em 0 0.5em; padding-bottom: 0.2em; border-bottom: 1px solid var(--line); color: var(--green); scroll-margin-top: 90px; }
+  .article h3 { font-size: 21px; margin: 1.4em 0 0.4em; }
+  .article a { color: var(--green); }
+  .article ul { padding-left: 1.3em; }
+  .article li { margin: 0.3em 0; }
+  .article .a-credit { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--green); padding: 14px 18px; margin: 0 0 20px; font-family: var(--sans); font-size: 15px; line-height: 1.6; border-radius: 0 var(--radius) var(--radius) 0; }
+  .article .a-credit p { margin: 0.4em 0; }
+  .article .a-note { background: var(--saffron-tint); border: 1px solid var(--line); padding: 10px 14px; font-family: var(--sans); font-size: 15px; line-height: 1.6; margin: 1em 0; border-radius: var(--radius); }
+  .article .a-toc { background: var(--surface); border: 1px solid var(--line); padding: 10px 20px; font-family: var(--sans); font-size: 15px; border-radius: var(--radius); }
+  .article .a-toc ol { margin: 0.3em 0; padding-left: 1.3em; }
+  .article .a-scroll { overflow-x: auto; margin: 1em 0; }
+  .article table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 14px; line-height: 1.5; background: var(--surface); }
+  .article th, .article td { border: 1px solid var(--line); padding: 6px 9px; vertical-align: top; text-align: left; }
+  .article th { background: var(--green-tint); }
+  .article caption { text-align: left; font-size: 14px; color: var(--muted); padding: 0 0 6px; }
+  .cite-line { margin: 28px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); max-width: 820px; overflow-wrap: anywhere; border-top: 1px solid var(--line); padding-top: 14px; }
+  .cite-line strong { font-weight: 600; color: var(--ink-2); }
+</style>

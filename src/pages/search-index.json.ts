@@ -34,6 +34,7 @@ export async function GET() {
     ['Tafseer', '/quran/tafsir/', 'tafsir commentary exegesis translation', 'Quran section'],
     ['Quran Word Corpus', '/quran/corpus/', 'word by word roots grammar concordance dictionary', 'Quran section'],
     ['Manuscript catalogue', '/quran/manuscripts/', 'quranic manuscripts codex palimpsest', 'Quran section'],
+    ['Manuscripts of the Qur’an Attributable to the First Century of the Hijra', '/quran/manuscripts/first-century-manuscripts/', 'article study guide hijazi kufic radiocarbon dating palaeography islamic awareness first century hijra manuscripts', 'Manuscript catalogue · Article'],
     ['Manuscript scholars', '/quran/scholars/', 'quranic manuscripts researchers palaeography', 'Quran section'],
     ...manuscripts.map((m: any) => [m.name, `/quran/manuscripts/#${m.id}`, [m.institution, m.location, m.period, m.kind, m.source].filter(Boolean).join(' '), `Manuscript catalogue · ${m.kind}`]),
     ...scholars.map((m: any) => [m.name, `/quran/scholars/#${m.id}`, [m.nameNative, m.affiliation, m.kind].filter(Boolean).join(' '), `Manuscript scholars · ${m.kind}`]),
