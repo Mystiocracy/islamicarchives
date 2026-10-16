@@ -9,10 +9,11 @@ subjects:
   - psychology-and-mental-health
   - science-and-religion
 keywords:
-  - "General Psychology"
-  - "Nature & Science"
-  - "Psychology & Mental Health"
-  - "Technology"
+  - "social media"
+  - "comparison"
+  - "envy"
+  - "despair"
+  - "contentment"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -6,10 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - women-and-gender
-  - colonialism-and-decolonisation
+  - islam-and-modernity
 keywords:
   - "women's emancipation"
   - "Qasim Amin"
+  - "Egypt"
+  - "Waqi'una al-mu'asir"
+  - "feminism"
 summary: "Separately published chapter of Waqi'una al-mu'asir on the women's emancipation movement in Egypt."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

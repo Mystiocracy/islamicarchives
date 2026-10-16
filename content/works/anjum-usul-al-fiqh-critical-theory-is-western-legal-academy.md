@@ -10,6 +10,8 @@ subjects:
 keywords:
   - "usul al-fiqh"
   - "critical theory"
+  - "Western academia"
+  - "fiqh"
 venue: "Al-Arqam Institute"
 summary: "Lecture on how Western academic approaches affect the study of Islamic legal theory."
 rights: link-only

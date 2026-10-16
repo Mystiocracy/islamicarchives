@@ -4,10 +4,11 @@ author: yasir-qadhi
 year: 2015
 language: English
 type: "Video"
-subjects:
-  - education
 keywords:
-  - "sirah"
+  - "sira"
+  - "death of the Prophet"
+  - "Seerah 101"
+  - "Prophet Muhammad"
 summary: "The last lecture of the Seerah series."
 venue: "Memphis Islamic Center"
 rights: link-only

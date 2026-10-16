@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an"
+  - "duties toward the Qur'an"
+  - "recitation"
 summary: "Short statement of the duties Muslims owe the Qur'an."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,9 +5,10 @@ year: 2021
 language: English
 type: "Book"
 subjects:
-  - education
+  - sufism
 keywords:
-  - "Reflections"
+  - "personal reflections"
+  - "spiritual advice"
 summary: "A collection of personal reflections."
 venue: "Al-Buruj Press"
 rights: link-only

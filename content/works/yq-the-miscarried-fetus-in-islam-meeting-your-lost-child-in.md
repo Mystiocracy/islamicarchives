@@ -5,13 +5,14 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - family-and-society
+  - psychology-and-mental-health
 keywords:
-  - "Afterlife"
-  - "Divine Decree"
-  - "Family & Community"
-  - "Parenting"
+  - "miscarriage"
+  - "fetus"
+  - "Jannah"
+  - "child loss"
+  - "grief"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

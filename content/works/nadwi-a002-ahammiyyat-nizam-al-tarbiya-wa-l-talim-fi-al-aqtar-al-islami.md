@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "The Importance of the Educational System in Muslim Countries"
+  - "educational system"
+  - "Muslim countries"
+  - "leadership"
+  - "Westernised education"
 summary: "The Importance of the Educational System in Muslim Countries"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

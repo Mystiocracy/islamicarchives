@@ -5,7 +5,11 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - economics
+keywords:
+  - "zakat"
+  - "masarif al-zakat"
 summary: "The proper use of zakat"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

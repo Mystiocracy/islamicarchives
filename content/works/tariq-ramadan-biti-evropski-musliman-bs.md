@@ -7,6 +7,11 @@ language: "Bosnian/Croatian/Serbian"
 type: "Translation"
 subjects:
   - islam-and-modernity
+keywords:
+  - "To Be a European Muslim"
+  - "European Muslims"
+  - "citizenship"
+  - "Islamic sources"
 summary: "Bosnian/Croatian/Serbian translation of his study of Islamic sources and of how Muslims can live as European citizens."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

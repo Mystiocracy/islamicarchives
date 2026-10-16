@@ -5,8 +5,12 @@ language: Arabic
 type: "Collection"
 subjects:
   - hadith-studies
+  - islamic-law
 keywords:
-  - "lectures"
+  - "Durus"
+  - "lessons"
+  - "transcripts"
+  - "Shamela"
 summary: "Transcripts of his lessons, on Shamela."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

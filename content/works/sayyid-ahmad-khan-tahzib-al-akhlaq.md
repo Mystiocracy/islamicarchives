@@ -9,7 +9,6 @@ subjects:
   - islam-and-modernity
   - education
 keywords:
-  - "journal"
   - "Muhammadan Social Reformer"
   - "social reform"
   - "Aligarh movement"

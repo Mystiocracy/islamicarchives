@@ -5,7 +5,12 @@ titleOriginal: "الناس والحق"
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - family-and-society
+keywords:
+  - "truth"
+  - "haqq"
+  - "speaking truth"
+  - "people and truth"
 summary: "Reflections on how people relate to truth and to those who speak it."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

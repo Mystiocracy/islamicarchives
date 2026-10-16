@@ -7,10 +7,13 @@ language: "French"
 type: "Book"
 subjects:
   - economics
+  - family-and-society
 keywords:
+  - "Les Aït-Débrouille du Haut-Atlas"
   - "civil society"
   - "rural development"
   - "NGOs"
+  - "High Atlas"
   - "Morocco"
 summary: "A study of grassroots associations and self-help initiatives in rural Moroccan communities of the High Atlas."
 rights: link-only

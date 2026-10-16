@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "Democracy Now"
   - "Arab Awakening"
-  - "protests"
+  - "anti-American protests"
   - "Middle East"
+  - "Western policy"
 summary: "Democracy Now! interview about anti-American protests across the Middle East and Ramadan's book Islam and the Arab Awakening, covering revolution, economics and Western policy."
 venue: "Democracy Now!"
 rights: link-only

@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Why Islam"
+  - "dawa"
+  - "apologetics"
 summary: "Short answer to why one should choose Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

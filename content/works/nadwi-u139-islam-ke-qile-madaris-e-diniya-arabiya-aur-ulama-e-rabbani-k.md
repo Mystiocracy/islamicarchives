@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "madrasa"
+  - "ulama"
+  - "Arabic madrasas"
+  - "religious seminaries"
 summary: "Fortresses of Islam: Arabic madrasas and the duties of scholars"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

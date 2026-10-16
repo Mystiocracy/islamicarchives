@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "ijtihad"
+  - "collective ijtihad"
+  - "mujtahid"
+  - "contemporary ijtihad"
+  - "usul al-fiqh"
 summary: "Defines the conditions and fields of ijtihad and surveys contemporary collective and individual practice."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

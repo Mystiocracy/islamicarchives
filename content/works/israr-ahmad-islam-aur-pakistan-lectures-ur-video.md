@@ -8,7 +8,7 @@ subjects:
   - political-thought
 keywords:
   - "Pakistan"
-  - "ideology"
+  - "ideology of Pakistan"
   - "national crisis"
 summary: "Lectures from 1987 to 2009 on Pakistan's Islamic ideology, its crises and its future."
 rights: link-only

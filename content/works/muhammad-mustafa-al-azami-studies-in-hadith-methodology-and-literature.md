@@ -4,9 +4,15 @@ author: muhammad-mustafa-al-azami
 year: 1977
 language: English
 type: "Book"
-venue: "Islamic Book Trust"
 subjects:
   - hadith-studies
+keywords:
+  - "hadith methodology"
+  - "isnad"
+  - "hadith literature"
+  - "hadith criticism"
+  - "Orientalism"
+venue: "Islamic Book Trust"
 summary: "Introduction to hadith science based on his Cambridge doctoral work; related background to Qur'anic transmission rather than a Qur'an study."
 rights: link-only
 infoUrl: "https://ibtbooks.com/shop/studies-in-hadith-methodology-and-literature/"

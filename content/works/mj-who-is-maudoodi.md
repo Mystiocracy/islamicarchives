@@ -4,11 +4,13 @@ author: maryam-jameelah
 year: 1973
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - political-thought
 keywords:
   - "Maududi"
+  - "Jamaat-e-Islami"
+  - "Islamic movement"
+venue: "Mohammad Yusuf Khan"
 summary: "The life and work of Maududi, with long quotations from his writings."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

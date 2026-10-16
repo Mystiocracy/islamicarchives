@@ -5,8 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - islam-and-modernity
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Arab nationalism"
+  - "qawmiyya"
+  - "nationalism"
+  - "Arab world"
+  - "asabiyya"
 summary: "Why Arab nationalism is dangerous from an Islamic view"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

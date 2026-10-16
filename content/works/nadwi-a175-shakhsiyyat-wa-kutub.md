@@ -5,6 +5,13 @@ author: nadwi
 year: 1990
 language: "Arabic"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "personalities"
+  - "biographies"
+  - "books"
+  - "literary criticism"
 summary: "Personalities and Books"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

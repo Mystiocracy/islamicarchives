@@ -5,10 +5,15 @@ year: 1971
 language: "English"
 type: "Book"
 subjects:
-  - political-thought
+  - sufism
+  - education
 keywords:
-  - "Tarikh-e-Da'wat-o-'Azimat (Ur.) / Rijal al-Fikr wa al-Da'wa fi al-Islam (Ar.)"
-  - "Mohiuddin Ahmad (vols 1-3; vol 4 translator not stated)"
+  - "Tarikh-e-Da'wat-o-'Azimat"
+  - "Rijal al-Fikr wa al-Da'wa fi al-Islam"
+  - "tajdid"
+  - "Islamic reformers"
+  - "al-Ghazali"
+  - "Ibn Taymiyya"
 summary: "Saviours of Islamic Spirit. Translated by Mohiuddin Ahmad (vols 1-3; vol 4 translator not stated) from Urdu. 4 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

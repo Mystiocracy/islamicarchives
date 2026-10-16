@@ -7,6 +7,12 @@ type: "Book"
 subjects:
   - philosophy-and-theology
   - islam-and-modernity
+keywords:
+  - "ijtihad"
+  - "religious experience"
+  - "khudi"
+  - "selfhood"
+  - "Six Lectures"
 summary: "Seven lectures on religious experience as a source of knowledge, the nature of the self, and ijtihād as the principle of movement in Islam. First published in 1930; expanded edition 1934."
 rights: public-domain
 rightsNote: "author d. 1938"

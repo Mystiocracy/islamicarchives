@@ -5,7 +5,9 @@ author: nadwi
 language: "Persian"
 type: "Book"
 keywords:
-  - "possibly Karwan-e-Madina"
+  - "Madina"
+  - "Prophet Muhammad"
+  - "ziyara"
 summary: "Towards Madina. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

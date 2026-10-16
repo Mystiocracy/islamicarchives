@@ -4,6 +4,14 @@ titleOriginal: "الحسن البصري"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "al-Hasan al-Basri"
+  - "zuhd"
+  - "asceticism"
+  - "Basra"
+  - "Rijal al-Fikr wa-l-Da'wa"
 summary: "Al-Hasan al-Basri"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

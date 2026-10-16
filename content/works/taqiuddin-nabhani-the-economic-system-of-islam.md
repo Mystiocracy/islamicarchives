@@ -7,6 +7,12 @@ language: "English"
 type: "Translation"
 subjects:
   - economics
+keywords:
+  - "al-Nizam al-Iqtisadi fi al-Islam"
+  - "Hizb ut-Tahrir"
+  - "ownership"
+  - "capitalism"
+  - "socialism"
 summary: "English translation of the book on the Islamic economic system."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

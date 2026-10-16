@@ -9,8 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Arab Spring"
+  - "L'islam et le réveil arabe"
   - "Islamism"
-  - "secularisation"
+  - "secularism"
   - "civil state"
 summary: "Reads the 2011 uprisings as a shift in Arab politics, examines the divide between Islamist and secular camps, and argues for civil states and justice-based economic alternatives grounded in ethics rather than ideology."
 venue: "Oxford University Press (2012); UK ed. The Arab Awakening, Allen Lane 2012; French original Presses du Châtelet 2011"

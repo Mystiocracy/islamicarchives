@@ -5,12 +5,13 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - philosophy-and-theology
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Gaza"
+  - "faith in God"
+  - "Palestine"
+  - "Western moral crisis"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

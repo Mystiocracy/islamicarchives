@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Speech"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an"
+  - "dars-e-Qur'an"
+  - "tafsir"
 summary: "Quranic insights (Quran lessons and talks) 2 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

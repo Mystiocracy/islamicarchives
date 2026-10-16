@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "secularism"
+  - "Westernisers"
+  - "Islamic solution"
+  - "application of sharia"
+  - "secularists"
 summary: "Answers critics who oppose applying Islamic law and rebuts their arguments."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

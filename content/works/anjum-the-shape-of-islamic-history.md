@@ -5,11 +5,12 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - islamic-law
   - islam-and-modernity
 keywords:
   - "Islamic history"
   - "historiography"
+  - "philosophy of history"
+  - "future of Islam"
 venue: "Islamic Law Blog (Program in Islamic Law, Harvard Law School)"
 summary: "Asks how one should imagine the overall shape of Islamic history and what it implies for Islam's future."
 rights: link-only

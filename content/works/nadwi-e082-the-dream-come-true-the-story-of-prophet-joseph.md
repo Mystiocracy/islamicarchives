@@ -5,9 +5,14 @@ year: 2007
 language: "English"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - quranic-studies
+  - education
 keywords:
-  - "Qasas al-Nabiyyin (Ar.)"
+  - "Yusuf"
+  - "Joseph"
+  - "Surah Yusuf"
+  - "Qasas al-Nabiyyin"
+  - "children"
 summary: "The Dream Come True: The Story of Prophet Joseph. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

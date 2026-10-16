@@ -13,6 +13,7 @@ keywords:
   - "Islamic economics"
   - "Marxism"
   - "capitalism"
+  - "ownership"
   - "distribution"
 summary: "A comparative study of Marxist and capitalist economics followed by an attempt to reconstruct an Islamic economic doctrine, especially on ownership and distribution, from the rulings of fiqh."
 rights: link-only

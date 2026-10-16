@@ -7,6 +7,13 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - colonialism-and-decolonisation
+keywords:
+  - "Westernisation"
+  - "Muslim countries"
+  - "al-Sira bayn al-Fikra al-Islamiyya wa al-Fikra al-Gharbiyya"
+  - "Kemalism"
+  - "secularism"
 summary: "The struggle between Islamic and Western ideas in Muslim countries. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

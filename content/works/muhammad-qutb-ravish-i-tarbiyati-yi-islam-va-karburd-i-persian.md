@@ -8,7 +8,10 @@ type: "Translation"
 subjects:
   - education
 keywords:
+  - "Manhaj al-tarbiya al-Islamiyya"
   - "Islamic education"
+  - "tarbiya"
+  - "upbringing"
 venue: "Ārās, Sanandaj"
 summary: "Persian translation of Manhaj al-tarbiya al-Islamiyya."
 rights: link-only

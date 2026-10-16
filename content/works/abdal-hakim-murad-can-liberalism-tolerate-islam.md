@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "liberalism"
   - "Europe"
-  - "Oslo lecture"
   - "multiculturalism"
+  - "tolerance"
 summary: "A lecture given in Oslo asking whether European liberalism can accommodate religious communities, such as Muslims, that do not share its premises."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - hadith-studies
 keywords:
-  - "Mohiuddin Ahmad"
+  - "hadith"
+  - "sunna"
+  - "Islamic character"
+  - "authority of hadith"
 summary: "Role of Hadith in the Promotion of Islamic Climate and Attitudes. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

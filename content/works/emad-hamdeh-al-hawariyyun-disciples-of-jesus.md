@@ -7,7 +7,11 @@ type: "Article"
 subjects:
   - quranic-studies
 keywords:
-  - "Al-Ḥawāriyyūn: The Disciples of Jesus"
+  - "Hawariyyun"
+  - "disciples of Jesus"
+  - "Jesus"
+  - "Isa"
+  - "apostles"
 summary: "An entry on the disciples of Jesus in the Qur'an."
 venue: "Integrated Encyclopedia of the Qurʾān"
 rights: link-only

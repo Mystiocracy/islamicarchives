@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - family-and-society
+  - islamic-law
+keywords:
+  - "misyar marriage"
+  - "marriage"
+  - "nikah"
 summary: "Examines the nature and legal ruling of misyar marriage."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

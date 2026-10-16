@@ -6,12 +6,12 @@ language: English
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - science-and-religion
 keywords:
   - "atheism"
-  - "kalām"
-  - "Islamic theology"
-  - "Kalam Research & Media"
+  - "kalam"
+  - "apologetics"
+  - "existence of God"
+  - "new atheism"
 summary: "A monograph on how Muslim theologians and apologists respond to contemporary atheism, published by Kalam Research & Media."
 venue: "Kalam Research & Media"
 rights: link-only

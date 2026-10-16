@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "dawa"
+  - "dialogue"
+  - "interfaith dialogue"
+  - "opponents"
 summary: "On engaging opponents in dialogue when inviting to Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

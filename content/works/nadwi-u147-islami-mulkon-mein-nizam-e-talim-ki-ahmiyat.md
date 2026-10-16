@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+  - political-thought
+keywords:
+  - "education system"
+  - "Muslim countries"
+  - "leadership"
+  - "intellectual trends"
 summary: "Importance of the education system in Muslim countries"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

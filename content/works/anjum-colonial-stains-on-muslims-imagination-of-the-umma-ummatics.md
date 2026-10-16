@@ -8,8 +8,10 @@ subjects:
   - colonialism-and-decolonisation
   - political-thought
 keywords:
-  - "colonialism"
-  - "Umma"
+  - "umma"
+  - "nation-state"
+  - "Farah El-Sharif"
+  - "ummatics"
 venue: "Ummatics"
 summary: "Colloquium on how colonialism and the nation-state reshaped Muslim conceptions of the Umma."
 rights: link-only

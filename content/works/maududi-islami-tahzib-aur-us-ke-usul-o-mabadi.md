@@ -11,6 +11,7 @@ keywords:
   - "Islamic Civilization: Its Foundational Beliefs and Principles"
   - "worldview"
   - "civilisation"
+  - "Western civilisation"
 summary: "An account of the beliefs and moral principles on which, in his view, a distinctively Islamic civilisation is built, contrasted with Western civilisation."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

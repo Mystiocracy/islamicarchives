@@ -7,7 +7,11 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Qur'an and Sunna or the Madhhabs? A Salafi Polemic against Islamic Legal Tradition"
+  - "madhhab"
+  - "Salafism"
+  - "Albani"
+  - "taqlid"
+  - "legal tradition"
 summary: "On al-Albānī's polemic against adhering to the madhhabs. Free copy at https://commons.erau.edu/cgi/viewcontent.cgi?article=2603&context=publication"
 venue: "Islamic Law and Society 24, no. 3, pp. 211–253"
 rights: link-only

@@ -12,8 +12,8 @@ keywords:
   - "Asrar-i-Khudi"
   - "khudi"
   - "selfhood"
-  - "R. A. Nicholson (translator)"
   - "masnavi"
+  - "Persian poetry"
 summary: "A Persian philosophical poem on the self (khudi), arguing that the individual grows by striving and self-affirmation rather than by mystical self-extinction."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

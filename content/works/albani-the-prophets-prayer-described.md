@@ -7,8 +7,9 @@ subjects:
   - islamic-law
   - hadith-studies
 keywords:
-  - "prayer"
+  - "salat"
   - "Sifat salat al-nabi"
+  - "how to pray"
 summary: "An English translation of *Ṣifat ṣalāt al-nabī*; the translator is not named in the archive.org item."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

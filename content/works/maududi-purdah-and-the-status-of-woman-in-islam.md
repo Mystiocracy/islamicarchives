@@ -12,8 +12,8 @@ keywords:
   - "Purdah"
   - "hijab"
   - "veiling"
+  - "gender segregation"
   - "sexual ethics"
-  - "al-Hijab"
 summary: "A defence of veiling and gender segregation as part of an Islamic social order, set against a critique of Western sexual morality and the emancipation of women."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

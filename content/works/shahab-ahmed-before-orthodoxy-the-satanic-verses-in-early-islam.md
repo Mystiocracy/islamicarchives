@@ -12,8 +12,8 @@ keywords:
   - "Satanic verses"
   - "gharaniq"
   - "early Islam"
-  - "orthodoxy"
-  - "posthumous"
+  - "Sunni orthodoxy"
+  - "isma"
 summary: "Published posthumously, it shows that early Muslim scholars widely accepted the Satanic verses incident and traces how its later rejection marked the formation of Sunni orthodoxy."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

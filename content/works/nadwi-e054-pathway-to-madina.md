@@ -5,8 +5,12 @@ year: 1982
 language: "English"
 type: "Book"
 keywords:
-  - "Al-Tariq ila al-Madina (Ar.) / Karwan-e-Madina (Ur.)"
-  - "Mohammad Asif Kidwai"
+  - "Medina"
+  - "Madina"
+  - "Prophet Muhammad"
+  - "al-Tariq ila al-Madina"
+  - "Karwan-e-Madina"
+  - "love of the Prophet"
 summary: "Pathway to Madina. Translated by Mohammad Asif Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

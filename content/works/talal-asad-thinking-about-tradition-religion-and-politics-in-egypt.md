@@ -6,6 +6,13 @@ language: "English"
 type: "Article"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Egypt"
+  - "tradition"
+  - "sovereign state"
+  - "Critical Inquiry"
+  - "Arab Spring"
 summary: "Argues that the modern sovereign state undermines the embodied traditions that make ethical life possible, and suggests overlapping non-sovereign authorities as an alternative."
 venue: "Critical Inquiry 42(1), Autumn 2015"
 rights: link-only

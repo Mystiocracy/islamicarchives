@@ -5,13 +5,14 @@ year: 2002
 language: "French"
 type: "Book"
 subjects:
+  - political-thought
   - islamic-law
 keywords:
-  - "Jihad, Violence, War and Peace in Islam (English rendering of the title)"
+  - "Jihad, Violence, War and Peace in Islam"
   - "jihad"
   - "war and peace"
-  - "violence"
   - "terrorism"
+  - "civilians"
 summary: "Separates the legal and spiritual meaning of jihad from terrorism, explaining the classical conditions for war and the primacy of peace and justice in Islamic ethics, and condemning attacks on civilians."
 venue: "Tawhid poche (Lyon)"
 rights: link-only

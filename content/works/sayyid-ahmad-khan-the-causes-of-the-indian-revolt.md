@@ -11,7 +11,7 @@ subjects:
 keywords:
   - "Asbab-e-Baghawat-e-Hind"
   - "1857"
-  - "Mutiny"
+  - "Indian Rebellion"
   - "British rule"
 summary: "An analysis of the 1857 uprising that blames British misgovernment and the absence of Indians from legislative councils, while defending Muslims against the charge of organised rebellion."
 rights: link-only

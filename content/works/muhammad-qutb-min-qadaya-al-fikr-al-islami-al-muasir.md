@@ -7,9 +7,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
-  - "contemporary thought"
+  - "contemporary Islamic thought"
+  - "Islamic revival"
+  - "intellectual issues"
 venue: "Dār al-Shurūq"
 summary: "Collected essays on issues in contemporary Islamic thought."
 rights: link-only

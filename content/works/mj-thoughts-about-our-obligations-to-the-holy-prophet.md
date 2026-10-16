@@ -4,9 +4,11 @@ author: maryam-jameelah
 year: 1987
 language: English
 type: "Article"
+keywords:
+  - "Prophet Muhammad"
+  - "love of the Prophet"
+  - "obligations to the Prophet"
 venue: "The Pakistan Times, 15 Jan 1987"
-subjects:
-  - philosophy-and-theology
 summary: "A devotional essay."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Scan in \"My Life Work\" dossier, pp. 21–22"

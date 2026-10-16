@@ -4,8 +4,13 @@ titleOriginal: "ترجمہ دستور حیات"
 author: nadwi
 language: "Malayalam"
 type: "Book"
+subjects:
+  - islamic-law
+  - philosophy-and-theology
 keywords:
-  - "Dastur-e-Hayat"
+  - "aqida"
+  - "ibadat"
+  - "muamalat"
 summary: "Code of life. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

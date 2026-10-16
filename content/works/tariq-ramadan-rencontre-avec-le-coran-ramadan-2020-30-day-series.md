@@ -6,11 +6,12 @@ language: "French"
 type: "Video"
 subjects:
   - quranic-studies
+  - sufism
 keywords:
   - "Qur'an"
-  - "Ramadan"
+  - "month of Ramadan"
+  - "Qur'anic meditation"
   - "tafsir"
-  - "daily series"
 summary: "A thirty-day Ramadan series of short daily meditations on the Qur'an, with an introduction and one episode for each day, reflecting on themes such as trials, responsibility and spiritual life."
 venue: "Tariq Ramadan Official"
 rights: link-only

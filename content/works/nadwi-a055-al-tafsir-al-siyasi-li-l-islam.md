@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "The Political Interpretation of Islam"
+  - "Maududi"
+  - "Sayyid Qutb"
+  - "hakimiyya"
+  - "Asr-e Hazir mein Din ki Tafhim o Tashrih"
 summary: "The Political Interpretation of Islam (critique of Mawdudi and Sayyid Qutb). Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

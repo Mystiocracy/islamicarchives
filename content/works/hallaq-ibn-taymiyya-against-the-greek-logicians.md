@@ -9,9 +9,9 @@ subjects:
 keywords:
   - "Ibn Taymiyya"
   - "Jahd al-qariha"
-  - "Suyuti"
-  - "logic"
-  - "Aristotelianism"
+  - "al-Suyuti"
+  - "Aristotelian logic"
+  - "al-Radd 'ala al-mantiqiyyin"
 summary: "Annotated English translation, with a substantial introduction, of al-Suyuti's abridgement of Ibn Taymiyya's refutation of Aristotelian logic."
 rights: link-only
 rightsNote: "In copyright (living author)."

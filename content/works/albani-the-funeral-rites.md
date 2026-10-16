@@ -7,6 +7,9 @@ subjects:
   - islamic-law
 keywords:
   - "funerals"
+  - "janaza"
+  - "Ahkam al-jana'iz"
+  - "burial"
 summary: "An English translation of his funeral rulings (*Aḥkām al-janāʾiz*)."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

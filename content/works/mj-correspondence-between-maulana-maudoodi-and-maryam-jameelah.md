@@ -4,14 +4,15 @@ author: maryam-jameelah
 year: 1969
 language: English
 type: "Letters"
-venue: "Evergreen Press / Mohammad Yusuf Khan"
 subjects:
-  - women-and-gender
-  - political-thought
+  - islam-and-modernity
 keywords:
   - "Maududi"
   - "Lahore"
-  - "conversion"
+  - "conversion to Islam"
+  - "letters"
+  - "Jamaat-e-Islami"
+venue: "Evergreen Press / Mohammad Yusuf Khan"
 summary: "The 1960–62 letters with Maududi that led to her conversion and move to Lahore, with letters from the Marcus family."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

@@ -9,8 +9,9 @@ subjects:
   - islamic-law
 keywords:
   - "separation of powers"
-  - "constitutionalism"
+  - "Islamic constitutionalism"
   - "Islamic governance"
+  - "rule of law"
 summary: "A history of constitutional practice in Islamic governance from the ninth to the eighteenth century, emphasising the separation of legal from political power."
 rights: link-only
 rightsNote: "In copyright (living author)."

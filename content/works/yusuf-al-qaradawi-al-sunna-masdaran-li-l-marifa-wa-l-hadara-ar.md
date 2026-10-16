@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunna"
+  - "knowledge"
+  - "civilisation"
+  - "Prophetic Sunna"
 summary: "Presents the Sunna as a source of knowledge and civilisation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

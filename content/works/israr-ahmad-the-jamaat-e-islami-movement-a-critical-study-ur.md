@@ -10,6 +10,7 @@ keywords:
   - "Jamaat-e-Islami"
   - "Mawdudi"
   - "electoral politics"
+  - "Islamic movement"
 summary: "His critical analysis of how Jamaat-e-Islami moved from a reformist movement into electoral politics."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

@@ -5,10 +5,13 @@ author: nadwi
 language: "Persian"
 type: "Book"
 subjects:
-  - quranic-studies
   - political-thought
+  - islam-and-modernity
 keywords:
   - "Asr-e-Hazir mein Din ki Tafhim-o-Tashrih"
+  - "Abul Ala Maududi"
+  - "Jamaat-e-Islami"
+  - "political Islam"
 summary: "The political interpretation of Islam. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

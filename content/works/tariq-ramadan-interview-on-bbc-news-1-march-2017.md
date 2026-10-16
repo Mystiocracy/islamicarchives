@@ -7,9 +7,8 @@ type: "Interview"
 subjects:
   - political-thought
 keywords:
-  - "BBC"
+  - "BBC News"
   - "television"
-  - "2017"
 summary: "Nine-minute BBC News interview from March 2017 on current political questions; topic was not stated in the available metadata and the clip was not viewed."
 venue: "BBC News"
 rights: link-only

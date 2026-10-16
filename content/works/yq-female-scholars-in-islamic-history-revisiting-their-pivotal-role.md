@@ -5,11 +5,14 @@ byline: "Jude Elziq"
 year: 2026
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - women-and-gender
+  - education
 keywords:
-  - "History"
-  - "Islamic Civilization"
-  - "Spread of Islam"
+  - "female scholars"
+  - "women hadith transmitters"
+  - "muhaddithat"
+  - "Islamic scholarship"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

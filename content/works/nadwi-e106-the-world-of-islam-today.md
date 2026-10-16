@@ -3,6 +3,13 @@ title: "The World of Islam Today"
 author: nadwi
 language: "English"
 type: "Article"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Muslim world"
+  - "ummah"
+  - "contemporary Muslim world"
 summary: "The World of Islam Today. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

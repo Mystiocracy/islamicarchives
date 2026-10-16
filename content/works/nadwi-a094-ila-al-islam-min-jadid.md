@@ -5,6 +5,12 @@ author: nadwi
 year: 1951
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Back to Islam Anew"
+  - "Islamic revival"
+  - "return to Islam"
 summary: "Back to Islam Anew"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

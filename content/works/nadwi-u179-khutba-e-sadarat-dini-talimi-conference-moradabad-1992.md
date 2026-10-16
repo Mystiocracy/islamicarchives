@@ -5,6 +5,12 @@ author: nadwi
 year: 1992
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Moradabad"
 summary: "Presidential address, Moradabad (12 Jan 1992)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,6 +6,13 @@ language: "Urdu"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "finality of prophethood"
+  - "khatm-e-nubuwwat"
+  - "Qadianism on Trial"
+  - "Samiul Haq"
 summary: "Sets out the Muslim community’s case against Qadianism, co-authored with Samiul Haq; English: Qadianism on Trial."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,6 +5,12 @@ language: "English"
 type: "Article"
 subjects:
   - hadith-studies
+  - education
+keywords:
+  - "'Abd al-Fattah Abu Ghudda"
+  - "Syria"
+  - "obituary"
+  - "hadith scholar"
 summary: "A tribute written on the death of the Syrian hadith scholar."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

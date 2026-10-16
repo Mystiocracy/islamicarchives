@@ -5,14 +5,12 @@ year: 1986
 language: "English"
 type: "Book"
 subjects:
-  - philosophy-and-theology
   - islam-and-modernity
 keywords:
   - "Lois Lamya al-Faruqi"
   - "Islamic civilisation"
-  - "art"
-  - "history"
-  - "Macmillan"
+  - "Islamic art"
+  - "Islamic sciences"
 summary: "A broad survey, written with Lois Lamyāʾ al-Fārūqī, of Islamic civilisation, its religious foundations, institutions, arts and sciences."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

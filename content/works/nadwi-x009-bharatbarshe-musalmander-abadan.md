@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
-  - "Hindustani Musalman: Ek Tarikhi Ja'iza (per foundation slug)"
+  - "Hindustani Musalman: Ek Tarikhi Ja'iza"
+  - "Indian Muslims"
+  - "India"
 summary: "The contribution of Muslims in India. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -5,12 +5,14 @@ titleOriginal: "فرائض دینی کا جامع تصور"
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - quranic-studies
   - political-thought
+  - quranic-studies
 keywords:
+  - "Faraiz-e-Deeni ka Jame Tasawwur"
   - "religious duties"
   - "iqamat-e-deen"
-  - "worship"
+  - "da'wa"
+  - "obedience"
 summary: "Sets out his three-level scheme of a Muslim's duties: personal obedience, calling others, and establishing the faith."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

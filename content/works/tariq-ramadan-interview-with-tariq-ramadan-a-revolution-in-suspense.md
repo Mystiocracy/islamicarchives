@@ -9,9 +9,10 @@ subjects:
   - political-thought
 keywords:
   - "Arab uprisings"
+  - "Arab Spring"
   - "Qantara"
   - "revolution"
-  - "Bush democratisation"
+  - "democratisation"
 summary: "Ramadan argues that the Arab revolutions are unfinished, rejects the idealised view of spontaneous youth protest and discusses outside training of activists and the economics of change."
 venue: "Qantara.de (Deutsche Welle)"
 rights: link-only

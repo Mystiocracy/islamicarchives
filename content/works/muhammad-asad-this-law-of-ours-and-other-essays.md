@@ -8,10 +8,11 @@ subjects:
   - islamic-law
   - political-thought
 keywords:
-  - "essays"
-  - "Shariah"
+  - "sharia"
   - "ijtihad"
-  - "Arafat articles"
+  - "Sunnah"
+  - "Arafat journal"
+  - "Muslim community"
 summary: "A collection of essays written between the 1930s and the 1980s on Islamic law, the Sunnah, ijtihad and the Muslim community, many first printed in Arafat."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

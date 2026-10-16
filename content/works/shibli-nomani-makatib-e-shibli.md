@@ -8,9 +8,9 @@ subjects:
   - education
 keywords:
   - "letters"
-  - "Sulaiman Nadvi"
-  - "Nadwa"
+  - "Nadwat al-'Ulama"
   - "correspondence"
+  - "Nadwa"
 summary: "His collected letters, edited by Sulaiman Nadvi, which record his educational projects, scholarly plans and the controversies at Nadwa."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

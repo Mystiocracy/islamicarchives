@@ -5,6 +5,13 @@ author: nadwi
 year: 1978
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Islam and Governance"
+  - "Islamic governance"
+  - "Islamic state"
+  - "hukm"
 summary: "Islam and Governance"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

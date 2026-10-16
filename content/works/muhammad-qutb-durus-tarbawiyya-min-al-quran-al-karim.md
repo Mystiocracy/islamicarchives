@@ -8,8 +8,10 @@ subjects:
   - quranic-studies
   - education
 keywords:
-  - "Qur'an"
   - "tarbiya"
+  - "Islamic education"
+  - "Jeddah"
+  - "Qur'anic lessons"
 venue: "Dār al-Shurūq"
 summary: "Lectures delivered at a Qur'an school in Jeddah, drawing educational lessons from Qur'anic passages."
 rights: link-only

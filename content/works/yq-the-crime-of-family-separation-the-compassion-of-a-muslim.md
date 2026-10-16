@@ -7,9 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - political-thought
+  - family-and-society
 keywords:
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "family separation"
+  - "immigration"
+  - "sultan"
+  - "Muslim history"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

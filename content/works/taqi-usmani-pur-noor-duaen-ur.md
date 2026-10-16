@@ -4,8 +4,11 @@ author: taqi-usmani
 titleOriginal: "پُر نور دعائیں"
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "du'a"
+  - "supplications"
+  - "Radiant Prayers"
+  - "masnun du'a"
 summary: "Prayers from the Quran and sunnah with short explanation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

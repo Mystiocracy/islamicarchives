@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "ifta'"
+  - "fatwa"
+  - "mufti"
+  - "adab al-mufti"
 summary: "A manual on the principles and etiquette of issuing fatwas."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

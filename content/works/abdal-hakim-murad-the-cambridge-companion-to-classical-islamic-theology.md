@@ -8,9 +8,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "kalam"
-  - "editor"
-  - "Cambridge University Press"
   - "Islamic theology"
+  - "aqida"
+  - "Ashari"
+  - "Maturidi"
 summary: "An edited volume of scholarly essays on the history, methods and main doctrines of classical Islamic theology."
 rights: link-only
 rightsNote: "In copyright (living author)."

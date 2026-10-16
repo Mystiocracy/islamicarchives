@@ -6,6 +6,11 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "fasting"
+  - "sawm"
+  - "Ramadan"
+  - "Fiqh al-Siyam"
 summary: "Rulings on fasting."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

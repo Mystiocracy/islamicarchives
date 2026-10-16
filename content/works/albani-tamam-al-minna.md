@@ -5,11 +5,13 @@ titleOriginal: "تمام المنة في التعليق على فقه السنة
 language: Arabic
 type: "Book"
 subjects:
-  - hadith-studies
   - islamic-law
+  - hadith-studies
 keywords:
-  - "Tamām al-minna fī l-taʿlīq ʿalā Fiqh al-sunna"
-  - "Albani"
+  - "Fiqh al-sunna"
+  - "Sayyid Sabiq"
+  - "hadith grading"
+  - "fiqh"
 summary: "His critical notes on Sayyid Sābiq's *Fiqh al-sunna*."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

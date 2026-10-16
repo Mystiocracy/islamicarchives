@@ -5,8 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
-  - women-and-gender
+  - quranic-studies
+  - education
+keywords:
+  - "Qasas al-Nabiyyin"
+  - "stories of the prophets"
+  - "prophets"
+  - "children's books"
 summary: "Stories of the prophets for children. Translated from Arabic. 4 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

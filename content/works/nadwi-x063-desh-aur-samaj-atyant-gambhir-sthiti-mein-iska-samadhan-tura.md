@@ -4,6 +4,12 @@ titleOriginal: "देश और समाज अत्यन्त गंभी
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - family-and-society
+  - political-thought
+keywords:
+  - "India"
+  - "Payam-e-Insaniyat"
 summary: "Country and society in a grave situation: an immediate remedy is needed. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

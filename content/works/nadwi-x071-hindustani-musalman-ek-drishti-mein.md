@@ -8,6 +8,8 @@ subjects:
   - political-thought
 keywords:
   - "Hindustani Musalman: Ek Nazar Mein"
+  - "Indian Muslims"
+  - "India"
 summary: "Indian Muslims at a glance. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

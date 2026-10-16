@@ -6,7 +6,13 @@ year: 1982
 language: "Arabic"
 type: "Book"
 subjects:
+  - philosophy-and-theology
   - islam-and-modernity
+keywords:
+  - "takfir"
+  - "ghuluww"
+  - "extremism"
+  - "Kharijites"
 summary: "Analyses the causes of extremism in declaring other Muslims unbelievers and how to treat it."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

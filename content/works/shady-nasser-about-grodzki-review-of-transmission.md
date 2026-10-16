@@ -8,7 +8,10 @@ type: "Review"
 subjects:
   - quranic-studies
 keywords:
-  - "review"
+  - "qira'at"
+  - "variant readings"
+  - "tawatur"
+  - "shawadhdh"
 summary: "A review of his book."
 venue: "Bulletin critique des annales islamologiques 30"
 rights: link-only

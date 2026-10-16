@@ -6,12 +6,12 @@ language: "Persian"
 type: "Collection"
 subjects:
   - islam-and-modernity
-  - political-thought
 keywords:
   - "Ehya-ye tafakkor-e eslami"
   - "Islamic revival"
-  - "Iqbal"
+  - "Muhammad Iqbal"
   - "reform"
+  - "revival of religious thought"
 summary: "Five lectures on the revival of Islamic thought, discussing which ideas must be renewed and the dangers of distorted religiosity."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

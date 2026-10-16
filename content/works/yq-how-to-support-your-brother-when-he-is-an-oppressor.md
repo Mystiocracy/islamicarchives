@@ -6,9 +6,13 @@ language: "English"
 type: "Essay"
 subjects:
   - political-thought
+  - family-and-society
 keywords:
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "oppression"
+  - "justice"
+  - "brotherhood"
+  - "enjoining good"
+  - "zulm"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

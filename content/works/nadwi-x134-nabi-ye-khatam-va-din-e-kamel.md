@@ -5,10 +5,11 @@ author: nadwi
 language: "Persian"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
 keywords:
   - "al-Nabi al-Khatam wal-Din al-Kamil"
-  - "عبدالقادر دهقان"
+  - "khatm-e-nubuwwat"
+  - "finality of prophethood"
 summary: "The Final Prophet and the perfect religion. Translated by عبدالقادر دهقان."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

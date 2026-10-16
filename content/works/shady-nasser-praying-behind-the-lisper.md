@@ -5,10 +5,14 @@ year: 2016
 language: English
 type: "Paper"
 subjects:
+  - islamic-law
   - quranic-studies
 keywords:
-  - "Qur'an"
-  - "qirāʾāt"
+  - "imamate"
+  - "congregational prayer"
+  - "lahn"
+  - "Arabic pronunciation"
+  - "recitation"
 summary: "On the legal question of praying behind an imam who cannot pronounce Arabic correctly."
 venue: "Islamic Law and Society 23, pp. 23–51"
 rights: link-only

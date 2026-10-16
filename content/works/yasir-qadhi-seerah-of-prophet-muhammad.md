@@ -4,10 +4,11 @@ author: yasir-qadhi
 year: 2019
 language: English
 type: "Book"
-subjects:
-  - education
 keywords:
-  - "Seerah of Prophet Muhammad (SAW)"
+  - "sira"
+  - "Prophet Muhammad"
+  - "Memphis Islamic Center"
+  - "seerah"
 summary: "The text of his lecture series on the Prophet's life (776 pages)."
 venue: "Independent"
 rights: link-only

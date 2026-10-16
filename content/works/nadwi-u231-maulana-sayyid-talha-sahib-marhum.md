@@ -4,6 +4,12 @@ titleOriginal: "مولانا سید طلحہ صاحب مرحوم ایم یے س�
 author: nadwi
 language: "Urdu"
 type: "Article"
+subjects:
+  - education
+keywords:
+  - "Sayyid Talha"
+  - "Oriental College Lahore"
+  - "obituary"
 summary: "On the late Maulana Sayyid Talha (Oriental College, Lahore)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

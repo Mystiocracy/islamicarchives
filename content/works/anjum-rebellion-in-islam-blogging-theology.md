@@ -10,6 +10,8 @@ subjects:
 keywords:
   - "rebellion"
   - "khuruj"
+  - "obedience to rulers"
+  - "tyranny"
 venue: "Blogging Theology"
 summary: "Interview on classical Islamic views of rebellion against rulers."
 rights: link-only

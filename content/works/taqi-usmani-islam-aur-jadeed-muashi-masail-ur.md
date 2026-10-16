@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "Islam and Modern Economic Problems"
+  - "Islamic finance"
+  - "riba"
+  - "modern economics"
 summary: "His writings on modern economic problems and Islamic finance; original of Islam and Modern Economic Problems."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

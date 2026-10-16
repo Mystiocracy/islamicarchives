@@ -8,6 +8,12 @@ type: "Book"
 subjects:
   - philosophy-and-theology
   - political-thought
+keywords:
+  - "The System of Islam"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "rational belief"
+  - "ideology"
 summary: "A short foundational text on the Islamic creed, the rational basis of belief, and the Party’s view of Islam as a comprehensive system."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

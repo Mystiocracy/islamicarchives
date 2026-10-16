@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Gulf War"
+  - "Iraq"
+  - "Kuwait"
+  - "Arab world"
+  - "ummah"
 summary: "The Future of the Arab Muslim Nation after the Gulf War"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -9,9 +9,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "political theology"
-  - "sovereignty"
+  - "divine sovereignty"
   - "caliphate"
-  - "encyclopedia"
+  - "succession to the Prophet"
 venue: "St Andrews Encyclopaedia of Theology"
 summary: "Encyclopedia article on how Muslim thinkers from the Qur'an to modern revivalists understood divine sovereignty and succession to the Prophet."
 rights: link-only

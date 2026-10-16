@@ -5,6 +5,7 @@ language: "English"
 type: "Interview"
 subjects:
   - quranic-studies
+  - philosophy-and-theology
 keywords:
   - "Michel Hoebink"
   - "Zemzem"

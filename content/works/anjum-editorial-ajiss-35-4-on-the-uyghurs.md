@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "Uyghurs"
   - "China"
+  - "Xinjiang"
   - "solidarity"
-  - "editorial"
+  - "Aydin Anwar"
 venue: "American Journal of Islamic Social Sciences 35, no. 4: vii-xiv"
 summary: "Continues his reflections on solidarity and invites Uyghur activist Aydin Anwar to write on the persecution of Uyghur Muslims."
 rights: link-only

@@ -5,7 +5,13 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - islamic-law
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "muhasaba"
+  - "self-accountability"
+  - "Arab leaders"
+  - "Arab world"
 summary: "Come, Let Us Hold Ourselves and Our Leaders to Account"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

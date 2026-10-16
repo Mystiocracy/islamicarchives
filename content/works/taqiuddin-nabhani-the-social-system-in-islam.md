@@ -7,6 +7,12 @@ language: "English"
 type: "Translation"
 subjects:
   - family-and-society
+  - women-and-gender
+keywords:
+  - "al-Nizam al-Ijtima'i fi al-Islam"
+  - "Hizb ut-Tahrir"
+  - "gender segregation"
+  - "marriage"
 summary: "English translation of the book on the Islamic social system."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

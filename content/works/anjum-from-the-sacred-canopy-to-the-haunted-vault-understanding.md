@@ -9,7 +9,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "secularism"
-  - "editorial"
+  - "Peter Berger"
+  - "sacred canopy"
 venue: "American Journal of Islamic Social Sciences 34, no. 2: v-xxii"
 summary: "His incoming-editor editorial, reflecting on how secularism can be understood from an Islamic standpoint."
 rights: link-only

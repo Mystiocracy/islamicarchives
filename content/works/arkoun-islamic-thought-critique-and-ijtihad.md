@@ -11,7 +11,8 @@ subjects:
 keywords:
   - "al-Fikr al-Islami: naqd wa-ijtihad"
   - "ijtihad"
-  - "tr. Hashim Salih"
+  - "critique"
+  - "Islamic reason"
 summary: "Essays arguing that renewed ijtihad must extend to a critical examination of the foundations of Islamic thought itself."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "Al-Halal wa-l-Haram fi l-Islam"
+  - "halal"
+  - "haram"
+  - "food"
+  - "dress"
 summary: "Urdu version of the classic guide to what is permitted and forbidden in Muslim daily life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

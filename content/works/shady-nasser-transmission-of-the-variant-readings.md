@@ -7,9 +7,9 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "qirāʾāt"
-  - "tawātur"
-  - "shawādhdh"
+  - "qira'at"
+  - "tawatur"
+  - "shawadhdh"
   - "variant readings"
 summary: "His first book, on the transmission of the Qur'an's readings and the problem of mass transmission."
 venue: "Brill, Leiden"

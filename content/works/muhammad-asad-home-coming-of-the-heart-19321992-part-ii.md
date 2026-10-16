@@ -7,11 +7,12 @@ type: "Memoir"
 subjects:
   - political-thought
 keywords:
-  - "memoir"
   - "Pakistan"
-  - "Iqbal"
+  - "Muhammad Iqbal"
   - "Pola Hamida Asad"
-  - "posthumous"
+  - "autobiography"
+  - "The Road to Mecca"
+  - "India"
 summary: "The posthumously published continuation of Asad's autobiography, covering his years in India and Pakistan, his diplomatic service and later life, completed with material by his widow Pola Hamida Asad."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

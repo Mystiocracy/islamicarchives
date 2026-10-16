@@ -6,6 +6,10 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "khutbah"
+  - "Friday sermons"
+  - "Jumu'ah"
 summary: "A selection of Friday sermons."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

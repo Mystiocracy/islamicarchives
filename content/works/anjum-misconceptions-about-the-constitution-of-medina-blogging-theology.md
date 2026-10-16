@@ -8,6 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "Constitution of Medina"
+  - "Sahifa of Medina"
+  - "nation-state"
+  - "Blogging Theology"
 venue: "Blogging Theology"
 summary: "Interview on his research into how the Sahifa of Medina became a modern 'constitution'."
 rights: link-only

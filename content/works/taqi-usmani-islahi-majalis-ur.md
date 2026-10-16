@@ -5,7 +5,12 @@ titleOriginal: "اصلاحی مجالس"
 language: "Urdu"
 type: "Collection"
 subjects:
-  - family-and-society
+  - sufism
+keywords:
+  - "islah"
+  - "majalis"
+  - "spiritual reform"
+  - "tazkiya"
 summary: "Seven volumes of his informal reform-oriented gatherings and answers to questions."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

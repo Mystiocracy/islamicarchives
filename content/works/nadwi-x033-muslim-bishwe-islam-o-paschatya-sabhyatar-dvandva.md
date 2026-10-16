@@ -6,8 +6,12 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - colonialism-and-decolonisation
 keywords:
   - "Muslim Mamalik mein Islamiyat aur Maghribiyat ki Kashmakash"
+  - "Westernisation"
+  - "Western civilisation"
+  - "Ataturk"
 summary: "The conflict between Islam and Western civilisation in the Muslim world. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

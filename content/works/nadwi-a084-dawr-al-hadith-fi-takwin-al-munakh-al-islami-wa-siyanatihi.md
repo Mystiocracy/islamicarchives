@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+keywords:
+  - "The Role of Hadith in Forming and Preserving the Islamic Climate"
+  - "hadith"
+  - "Sunnah"
+  - "authority of hadith"
 summary: "The Role of Hadith in Forming and Preserving the Islamic Climate"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

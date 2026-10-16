@@ -5,6 +5,11 @@ author: nadwi
 year: 1971
 language: "Arabic"
 type: "Book"
+keywords:
+  - "Ebb and Flow in Islamic History"
+  - "Islamic history"
+  - "rise and decline"
+  - "Islamic revival"
 summary: "Ebb and Flow in Islamic History"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

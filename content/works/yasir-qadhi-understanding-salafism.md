@@ -6,8 +6,13 @@ language: English
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "Understanding Salafism"
+  - "Salafism"
+  - "salaf"
+  - "Ahl al-Hadith"
+  - "Wahhabism"
+  - "aqida"
 summary: "His account of Salafism: its history, creed, controversies and his own distance from it."
 venue: "Oneworld Academic"
 rights: link-only

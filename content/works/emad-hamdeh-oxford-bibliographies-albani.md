@@ -6,8 +6,12 @@ language: English
 type: "Article"
 subjects:
   - hadith-studies
+  - islamic-law
 keywords:
-  - "Muḥammad Nāṣir al-Dīn al-Albānī"
+  - "Albani"
+  - "Salafism"
+  - "Oxford Bibliographies"
+  - "bibliography"
 summary: "A bibliographic entry on al-Albānī."
 venue: "Oxford Bibliographies in Islamic Studies"
 rights: link-only

@@ -4,9 +4,15 @@ author: jonathan-brown
 year: 2016
 language: English
 type: "Paper"
-venue: "al-ʿUṣūr al-Wusṭā 24"
 subjects:
   - hadith-studies
+keywords:
+  - "Ibn Uqda"
+  - "Kufa"
+  - "Sunni-Shii relations"
+  - "sectarianism"
+  - "rijal"
+venue: "al-ʿUṣūr al-Wusṭā 24"
 summary: "The Kufan hadith scholar Ibn ʿUqda and how Sunni and Shiʿi scholars drew on him. Revised version of a 2008 article."
 rights: link-only
 sourceUrl: "https://www.middleeastmedievalists.com/wp-content/uploads/2016/11/UW-24-Brown.pdf"

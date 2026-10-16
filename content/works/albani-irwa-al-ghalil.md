@@ -8,8 +8,10 @@ subjects:
   - hadith-studies
   - islamic-law
 keywords:
-  - "Irwāʾ al-ghalīl fī takhrīj aḥādīth Manār al-sabīl"
-  - "Albani"
+  - "takhrij"
+  - "Manar al-sabil"
+  - "Hanbali fiqh"
+  - "hadith grading"
 summary: "A full hadith-source analysis of the hadith in *Manār al-sabīl* (a Ḥanbalī law text); nine parts, including an index."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

@@ -4,8 +4,14 @@ titleOriginal: "হজরত মুজাদ্দিদ আলফে ছান�
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sufism
 keywords:
-  - "Tarikh-e-Da'wat-o-Azimat vol. 4 - standalone"
+  - "Shaykh Ahmad Sirhindi"
+  - "Mujaddid Alf-e-Sani"
+  - "Naqshbandi"
+  - "Akbar"
+  - "Tarikh-e-Da'wat-o-Azimat"
 summary: "Hazrat Mujaddid Alf-e-Sani. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

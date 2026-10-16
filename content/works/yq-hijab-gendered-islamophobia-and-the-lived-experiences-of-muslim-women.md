@@ -6,11 +6,13 @@ year: 2021
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - islam-and-modernity
-  - political-thought
 keywords:
-  - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "hijab"
+  - "gendered Islamophobia"
+  - "Muslim women"
+  - "discrimination"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

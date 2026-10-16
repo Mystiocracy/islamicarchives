@@ -5,11 +5,12 @@ titleOriginal: "الثمر المستطاب في فقه السنة والكتا�
 language: Arabic
 type: "Book"
 subjects:
-  - hadith-studies
   - islamic-law
+  - hadith-studies
 keywords:
-  - "al-Thamar al-mustaṭāb fī fiqh al-sunna wa-l-kitāb"
-  - "Albani"
+  - "fiqh al-sunna"
+  - "fiqh"
+  - "salat"
 summary: "A work on jurisprudence from the Qur'an and Sunna."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

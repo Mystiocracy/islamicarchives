@@ -4,9 +4,15 @@ author: alba-fedeli
 year: 2015
 language: English
 type: "Paper"
-venue: "PhD thesis, University of Birmingham"
 subjects:
   - quranic-studies
+keywords:
+  - "Alphonse Mingana"
+  - "University of Birmingham"
+  - "Birmingham Qur'an"
+  - "digital philology"
+  - "Qur'an manuscripts"
+venue: "PhD thesis, University of Birmingham"
 summary: "Studies seven seventh-century Qur'anic fragments bought by Mingana, traces their provenance, and proposes XML-based digital philology for recording them."
 rights: link-only
 sourceUrl: "https://etheses.bham.ac.uk/id/eprint/5864/"

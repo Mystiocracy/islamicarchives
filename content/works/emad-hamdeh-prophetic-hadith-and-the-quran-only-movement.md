@@ -7,7 +7,10 @@ type: "Paper"
 subjects:
   - hadith-studies
 keywords:
-  - "Prophetic Hadith and the Qur'ān Only Movement"
+  - "Qur'an-only movement"
+  - "Quranism"
+  - "authority of hadith"
+  - "Sunna"
 summary: "On how Muslim scholars have answered the Qur'an-only movement."
 venue: "Journal of Islamic and Muslim Studies"
 rights: link-only

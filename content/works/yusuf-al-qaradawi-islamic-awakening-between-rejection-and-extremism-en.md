@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Al-Sahwa al-Islamiyya bayna l-Juhud wa-l-Tatarruf"
+  - "Islamic revival"
+  - "extremism"
+  - "moderation"
+  - "youth"
 summary: "Argues for a balanced, moderate approach to the Islamic revival, addressing the causes of extremism among youth."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

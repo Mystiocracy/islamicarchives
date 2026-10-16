@@ -5,6 +5,14 @@ author: nadwi
 year: 1959
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+  - philosophy-and-theology
+keywords:
+  - "irtidad"
+  - "apostasy"
+  - "materialism"
+  - "Westernisation"
 summary: "The new storm and how to face it"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

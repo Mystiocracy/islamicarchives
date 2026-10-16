@@ -7,10 +7,10 @@ language: "Urdu"
 type: "Memoir"
 subjects:
   - education
-  - islam-and-modernity
 keywords:
   - "travelogue"
   - "Ottoman Empire"
+  - "Istanbul"
   - "Egypt"
   - "Syria"
   - "Thomas Arnold"

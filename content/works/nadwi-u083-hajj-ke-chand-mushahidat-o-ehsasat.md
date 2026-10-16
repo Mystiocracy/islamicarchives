@@ -4,8 +4,10 @@ titleOriginal: "حج کے چند مشاہدات و احساسات"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "Hajj"
+  - "pilgrimage"
+  - "Mecca"
 summary: "Some observations and feelings on Hajj"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

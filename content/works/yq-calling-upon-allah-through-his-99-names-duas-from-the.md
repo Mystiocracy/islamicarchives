@@ -7,7 +7,11 @@ type: "Article"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "99 Names of Allah"
+  - "dua"
+  - "asma al-husna"
+  - "Ramadan"
+  - "The Name I Need"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

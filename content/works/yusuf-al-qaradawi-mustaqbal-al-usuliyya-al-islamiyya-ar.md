@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic fundamentalism"
+  - "usuliyya"
+  - "Islamic movement"
+  - "extremism"
 summary: "Examines the future of Islamic fundamentalism and what should be expected of it."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

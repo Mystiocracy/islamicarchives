@@ -4,13 +4,12 @@ author: tariq-ramadan
 year: 2020
 language: "English"
 type: "Video"
-subjects:
-  - hadith-studies
 keywords:
-  - "sirah"
+  - "sira"
   - "Prophet Muhammad"
-  - "hijrah"
-  - "revelation"
+  - "hijra"
+  - "first revelation"
+  - "peaceful resistance"
 summary: "Seven short lessons on the Prophet's life and message, covering his unique personality and spiritual quest, first revelation, adversity, peaceful resistance, first exile and the hijrah."
 venue: "Tariq Ramadan Official"
 rights: link-only

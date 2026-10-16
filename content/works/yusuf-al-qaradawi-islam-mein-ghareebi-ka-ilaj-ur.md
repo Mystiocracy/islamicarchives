@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "poverty"
+  - "zakat"
+  - "Mushkilat al-Faqr wa-Kayfa Alajaha al-Islam"
+  - "social justice"
 summary: "How Islam diagnoses and addresses poverty through zakat and economic duties."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

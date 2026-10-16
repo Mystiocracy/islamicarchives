@@ -6,9 +6,14 @@ language: "English"
 type: "Paper"
 subjects:
   - psychology-and-mental-health
+  - sufism
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "sabr"
+  - "beautiful patience"
+  - "sabr jamil"
+  - "Prophet Yaqub"
+  - "grief"
+  - "hardship"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -4,7 +4,13 @@ author: taqi-usmani
 language: "English"
 type: "Collection"
 subjects:
+  - sufism
   - family-and-society
+keywords:
+  - "Islahi Khutbat"
+  - "character"
+  - "akhlaq"
+  - "islah"
 summary: "English translation of selected Islahi Khutbat on conduct, character and worship."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

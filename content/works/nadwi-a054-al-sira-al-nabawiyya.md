@@ -5,8 +5,11 @@ author: nadwi
 year: 1977
 language: "Arabic"
 type: "Book"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "The Life of the Prophet"
+  - "Muhammad Rasulullah"
 summary: "The Life of the Prophet"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

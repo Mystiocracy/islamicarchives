@@ -7,10 +7,10 @@ type: "Book"
 subjects:
   - islamic-law
 keywords:
-  - "introduction"
-  - "Sharia"
-  - "textbook"
-  - "modernity"
+  - "sharia"
+  - "legal history"
+  - "fiqh"
+  - "modern state"
 summary: "A concise introduction to the history and structure of Islamic law and its fate in the modern period."
 rights: link-only
 rightsNote: "In copyright (living author)."

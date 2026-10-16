@@ -6,12 +6,11 @@ language: "English"
 type: "Collection"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
-  - "journal"
   - "Hyderabad"
-  - "editor"
+  - "Nizam"
   - "Islamic studies"
+  - "Islamic civilisation"
 summary: "A scholarly quarterly on Islamic history, thought and civilisation, published in Hyderabad under the Nizam's patronage. Pickthall edited it from its first issue in 1927 until 1935 and wrote editorials and articles for it."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1936); later translations may still be in copyright."

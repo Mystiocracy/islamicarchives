@@ -9,10 +9,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "evolution"
-  - "al-Ghazālī"
-  - "Ashʿarism"
+  - "al-Ghazali"
+  - "Ash'arism"
   - "creationism"
-  - "Routledge Science and Religion Series"
+  - "Adam"
 summary: "An overview of the debate between Muslim creationists and evolutionists, using al-Ghazālī's metaphysics and hermeneutics to ask how far Neo-Darwinian evolution can be accepted."
 venue: "Routledge"
 rights: link-only

@@ -9,9 +9,10 @@ subjects:
   - sufism
 keywords:
   - "happiness"
-  - "saʿada"
+  - "sa'ada"
+  - "certainty"
+  - "yaqin"
   - "ethics"
-  - "ISTAC"
 summary: "Explains the Islamic conception of happiness as a spiritual state grounded in certainty and knowledge of God, contrasted with Western secular ideas of happiness."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

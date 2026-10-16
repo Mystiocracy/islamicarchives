@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - islam-and-modernity
+keywords:
+  - "contemporary issues"
+  - "dialogues"
+  - "Islam and the age"
 summary: "Second volume of his interviews and dialogues on Islam and contemporary issues."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

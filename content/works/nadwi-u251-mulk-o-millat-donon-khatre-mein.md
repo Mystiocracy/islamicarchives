@@ -4,6 +4,12 @@ titleOriginal: "ملک و ملت دونوں خطرہ میں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "India"
+  - "Indian Muslims"
+  - "Muslim community"
 summary: "Both country and community in danger"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

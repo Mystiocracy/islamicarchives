@@ -5,9 +5,12 @@ year: 2023
 language: English
 type: "Video"
 subjects:
-  - education
+  - sufism
 keywords:
   - "tazkiya"
+  - "purification of the soul"
+  - "diseases of the heart"
+  - "month of Ramadan"
 summary: "A Ramadan series on diseases of the heart and purification of the soul."
 venue: "Yasir Qadhi"
 rights: link-only

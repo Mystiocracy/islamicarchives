@@ -9,8 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Seyri dar Nahj al-Balagha"
+  - "Nahj al-Balagha"
   - "Imam Ali"
-  - "sermons"
+  - "asceticism"
   - "Islamic government"
 summary: "A thematic study of the sermons and letters attributed to ʿAlī, covering theology, asceticism, government and justice."
 rights: link-only

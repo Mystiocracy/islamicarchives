@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - sufism
+  - family-and-society
+keywords:
+  - "Muslim condition"
+  - "reflections"
+  - "ummah"
 summary: "A look at Muslims and three impressions on the heart"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

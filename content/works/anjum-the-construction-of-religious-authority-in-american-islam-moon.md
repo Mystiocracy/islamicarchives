@@ -9,9 +9,11 @@ subjects:
   - islam-and-modernity
 keywords:
   - "moon-sighting"
-  - "religious authority"
+  - "astronomical calculation"
+  - "Fiqh Council of North America"
   - "American Muslims"
-  - "Fiqh Council"
+  - "religious authority"
+  - "Ramadan"
 venue: "Studies in Contemporary Islam (2019): 33-61"
 summary: "Uses the 2006 Fiqh Council debate over astronomical calculation for Ramadan to analyse how religious authority is built in American Islam."
 rights: link-only

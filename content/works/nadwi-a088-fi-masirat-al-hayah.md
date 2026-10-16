@@ -5,6 +5,11 @@ author: nadwi
 year: 1990
 language: "Arabic"
 type: "Book"
+keywords:
+  - "On Life's Journey"
+  - "autobiography"
+  - "Karwan-e Zindagi"
+  - "Nadwat al-Ulama"
 summary: "On Life's Journey (autobiography). Translated from Urdu. 3 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

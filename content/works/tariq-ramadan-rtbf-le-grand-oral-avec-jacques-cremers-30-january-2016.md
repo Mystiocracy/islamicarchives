@@ -9,9 +9,9 @@ subjects:
   - islam-and-modernity
 keywords:
   - "RTBF"
+  - "Jacques Crémers"
   - "Belgium"
   - "Islam in Europe"
-  - "television"
 summary: "Long-form Belgian television interview in which Ramadan is questioned at length on his thought, on Islam in Europe and on public reaction to his positions."
 venue: "RTBF (Belgium)"
 rights: link-only

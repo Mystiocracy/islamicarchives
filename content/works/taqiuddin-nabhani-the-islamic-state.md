@@ -7,6 +7,11 @@ language: "English"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "al-Dawla al-Islamiyya"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "Medina state"
 summary: "English translation of al-Dawla al-Islamiyya on the founding and structure of the Islamic state."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

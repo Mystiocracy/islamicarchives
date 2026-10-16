@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "study of the Qur'an"
+  - "al-Madkhal ila al-Dirasat al-Qur'aniyya"
+  - "usul al-tafsir"
 summary: "Principles for studying the Quran. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

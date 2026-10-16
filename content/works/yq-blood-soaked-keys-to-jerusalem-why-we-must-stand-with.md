@@ -5,15 +5,13 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - islam-and-modernity
-  - philosophy-and-theology
   - political-thought
 keywords:
-  - "History"
-  - "Islam in the West"
-  - "Islamic Civilization"
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "Syria"
+  - "Jerusalem"
+  - "Syrian revolution"
+  - "Assad"
+  - "solidarity"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

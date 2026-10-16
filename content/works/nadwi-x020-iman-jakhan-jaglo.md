@@ -4,10 +4,11 @@ titleOriginal: "ঈমান যখন জাগলো"
 author: nadwi
 language: "Bengali"
 type: "Book"
-subjects:
-  - philosophy-and-theology
 keywords:
-  - "Jab Iman ki Bahar Ayi (Ar. Idha Habbat Rih al-Iman)"
+  - "Jab Iman ki Bahar Ayi"
+  - "Idha Habbat Rih al-Iman"
+  - "Sayyid Ahmad Shahid"
+  - "mujahidin"
 summary: "When faith awoke. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

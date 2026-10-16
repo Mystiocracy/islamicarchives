@@ -11,7 +11,8 @@ keywords:
   - "Nur al-Din al-Raniri"
   - "wahdat al-wujud"
   - "Aceh"
-  - "MBRAS monograph"
+  - "Hamzah Fansuri"
+  - "wujudiyyah"
 summary: "Examines the seventeenth-century controversy in Aceh in which Nūr al-Dīn al-Rānīrī condemned the followers of the wujūdiyyah doctrine, and reassesses the teachings of Hamzah Fansuri and his school."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

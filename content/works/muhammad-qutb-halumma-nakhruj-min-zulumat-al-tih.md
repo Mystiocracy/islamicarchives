@@ -6,11 +6,13 @@ year: 1993
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "renewal"
+  - "la ilaha illa Allah"
   - "tawhid"
+  - "renewal"
+  - "Muslim ummah"
 venue: "Dār al-Shurūq"
 summary: "An appeal to the Muslim community to return to the full meaning of la ilaha illa Allah and leave its state of confusion."
 rights: link-only

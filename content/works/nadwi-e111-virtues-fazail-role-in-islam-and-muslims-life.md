@@ -3,8 +3,15 @@ title: "Virtues (Fazail): Role in Islam and Muslims' Life"
 author: nadwi
 language: "English"
 type: "Article"
+subjects:
+  - sufism
+  - hadith-studies
 keywords:
-  - "anonymous"
+  - "fada'il"
+  - "Fazail-e-A'mal"
+  - "virtues"
+  - "Tablighi Jamaat"
+  - "targhib"
 summary: "Virtues (Fazail): Role in Islam and Muslims' Life. Translated by anonymous from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

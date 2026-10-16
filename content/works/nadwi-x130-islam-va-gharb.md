@@ -7,8 +7,9 @@ type: "Speech"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Islam and the West (Oxford lecture, 1983; Ar. al-Islam wal-Gharb)"
-  - "اصغر علی مبارکی"
+  - "Islam and the West"
+  - "al-Islam wal-Gharb"
+  - "Oxford Centre for Islamic Studies"
 summary: "Islam and the West. Translated by اصغر علی مبارکی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

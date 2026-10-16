@@ -4,6 +4,13 @@ titleOriginal: "المعہد العالی للدعوۃ و الفکر الاسل�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "da'wa"
+  - "Islamic thought"
+  - "higher education"
 summary: "The Higher Institute of Da'wa and Islamic Thought: need and aims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

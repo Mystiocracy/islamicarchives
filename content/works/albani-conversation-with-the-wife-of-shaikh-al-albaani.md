@@ -5,11 +5,10 @@ byline: "Interview of his wife, Yusra ʿAbd al-Raḥmān ʿAbidīn"
 year: 2011
 language: English
 type: "Interview"
-subjects:
-  - hadith-studies
 keywords:
-  - "interview"
+  - "Umm al-Fadl"
   - "family"
+  - "reminiscences"
 summary: "A multi-part English translation of a conversation with his wife."
 venue: "thealbaani.site"
 rights: link-only

@@ -11,6 +11,7 @@ keywords:
   - "Urdu poetry"
   - "Palestine"
   - "pan-Islamic solidarity"
+  - "Faiz Ahmad Faiz"
 summary: "Essay in the journal Alif on how modern Urdu poets wrote about Palestine as an expression of Muslim solidarity."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

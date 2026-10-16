@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "i'tikaf"
+  - "Ramadan"
+  - "mosque"
+  - "fiqh of worship"
 summary: "Booklet on the rules of seclusion in the mosque during Ramadan."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

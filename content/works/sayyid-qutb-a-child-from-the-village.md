@@ -6,13 +6,13 @@ year: 1946
 language: "Arabic"
 type: "Memoir"
 subjects:
-  - islam-and-modernity
   - education
+  - family-and-society
 keywords:
-  - "Tifl min al-qarya"
-  - "autobiography"
+  - "Tifl min al-Qarya"
   - "Upper Egypt"
-  - "tr. John Calvert and William Shepard"
+  - "village life"
+  - "kuttab"
 summary: "A memoir of his childhood in an Upper Egyptian village, describing religious schooling, folk belief and rural society in the early twentieth century."
 rights: link-only
 rightsNote: "In copyright (author d. 1966)."

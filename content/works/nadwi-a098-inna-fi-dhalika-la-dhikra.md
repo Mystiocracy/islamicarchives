@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "Surely in That Is a Reminder"
+  - "dhikra"
+  - "reminder"
+  - "heart"
 summary: "Surely in That Is a Reminder"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

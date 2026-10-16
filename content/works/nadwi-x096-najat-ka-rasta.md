@@ -4,6 +4,12 @@ titleOriginal: "निजात का रास्ता"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "najat"
+  - "salvation"
+  - "tawhid"
 summary: "The path to salvation. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

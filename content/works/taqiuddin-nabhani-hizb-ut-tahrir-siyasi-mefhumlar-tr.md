@@ -7,6 +7,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Mafahim Siyasiyya li-Hizb al-Tahrir"
+  - "Political Concepts"
+  - "Hizb ut-Tahrir"
+  - "international affairs"
 summary: "Turkish edition of the political concepts book."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

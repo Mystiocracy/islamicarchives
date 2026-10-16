@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "ilm"
+  - "ulama"
+  - "responsibility of scholars"
 summary: "Status of knowledge and duties of scholars"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

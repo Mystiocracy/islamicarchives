@@ -6,12 +6,13 @@ year: 2026
 language: "English"
 type: "Essay"
 subjects:
+  - sufism
   - islamic-law
-  - philosophy-and-theology
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "night"
+  - "night prayer"
+  - "qiyam al-layl"
+  - "tahajjud"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

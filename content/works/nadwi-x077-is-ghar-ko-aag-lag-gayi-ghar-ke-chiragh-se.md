@@ -4,6 +4,11 @@ titleOriginal: "इस घर को आग लग गयी घर के च�
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "self-inflicted decline"
 summary: "This house was set ablaze by its own lamp. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

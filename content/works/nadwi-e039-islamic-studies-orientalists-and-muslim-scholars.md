@@ -5,10 +5,14 @@ year: 1983
 language: "English"
 type: "Pamphlet"
 subjects:
+  - colonialism-and-decolonisation
   - education
 keywords:
-  - "Al-Islamiyyat bayn Kitabat al-Mustashriqin wa al-Bahithin al-Muslimin (Ar.) / Islamiyat aur Maghribi Mustashriqin wa Musalman Musannifin (Ur.)"
-  - "Mohiuddin Ahmad"
+  - "Orientalism"
+  - "Orientalists"
+  - "Islamic studies"
+  - "Darul Musannifin"
+  - "Azamgarh"
 summary: "Islamic Studies, Orientalists and Muslim Scholars. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

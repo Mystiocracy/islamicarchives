@@ -7,9 +7,10 @@ type: "Translation"
 subjects:
   - sufism
 keywords:
-  - "al-Nawawī"
+  - "Imam al-Nawawi"
   - "dhikr"
-  - "translation"
+  - "wird"
+  - "supplication"
 summary: "A new translation, with a biography of the Imam, introduction and commentary, of the sequence of dhikr attributed to Imam al-Nawawī."
 venue: "The Oasis Initiative"
 rights: link-only

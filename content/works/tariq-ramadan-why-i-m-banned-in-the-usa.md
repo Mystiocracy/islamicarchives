@@ -6,6 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - political-thought
+keywords:
+  - "US visa ban"
+  - "Patriot Act"
+  - "Palestinian charities"
+  - "Washington Post"
+  - "US foreign policy"
 summary: "Ramadan describes how the United States barred him from entry, first over alleged terrorism links and then over donations to Palestinian charities, and says the real reason is his criticism of US policy."
 venue: "Washington Post, October 2006 (repost on Countercurrents)"
 rights: link-only

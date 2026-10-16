@@ -10,9 +10,10 @@ subjects:
   - islamic-law
 keywords:
   - "A Call to the Fair Sex"
-  - "rights of women in Islam"
+  - "rights of women"
   - "marriage"
   - "polygyny"
+  - "divorce"
 summary: "An exposition of women's rights in Islam, on marriage, divorce, polygyny and education, defending Islamic law against Western criticism."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

@@ -4,6 +4,12 @@ titleOriginal: "ترکی کا ایک عظیم مجاہد"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Said Nursi"
+  - "Risale-i Nur"
+  - "Turkey"
 summary: "A great striver of Turkey (Badiuzzaman Said Nursi)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

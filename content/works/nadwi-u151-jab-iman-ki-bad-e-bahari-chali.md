@@ -5,7 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - sufism
+  - political-thought
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "Idha Habbat Rih al-Iman"
+  - "Mujahidin movement"
+  - "Balakot"
+  - "Shah Ismail Shahid"
 summary: "When the spring breeze of faith blew (Sayyid Ahmad Shahid's companions). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

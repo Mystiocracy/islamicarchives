@@ -14,6 +14,7 @@ keywords:
   - "Escape into Freedom"
   - "Foča prison"
   - "aphorisms"
+  - "morality"
 summary: "Notes and reflections written during his imprisonment in Foča, on religion, morality, politics, art and Western thought."
 rights: link-only
 rightsNote: "In copyright (author d. 2003)."

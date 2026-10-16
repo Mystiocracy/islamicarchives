@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Jerusalem"
+  - "al-Quds"
+  - "al-Aqsa"
+  - "Palestine"
+  - "Zionism"
 summary: "Presents Jerusalem as the concern of every Muslim."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

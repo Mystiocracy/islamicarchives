@@ -4,10 +4,10 @@ author: albani
 byline: "Reminders From Al Albani"
 language: English
 type: "Video"
-subjects:
-  - hadith-studies
 keywords:
-  - "life"
+  - "biography"
+  - "Salafism"
+  - "Damascus"
 summary: "A fan-made documentary on his life."
 venue: "Reminders From Al Albani"
 rights: link-only

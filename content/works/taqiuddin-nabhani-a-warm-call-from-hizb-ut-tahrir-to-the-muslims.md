@@ -7,6 +7,11 @@ language: "English"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Nida' Harr ila al-Muslimin"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "khilafa"
 summary: "English translation of the Party’s 1965 appeal."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

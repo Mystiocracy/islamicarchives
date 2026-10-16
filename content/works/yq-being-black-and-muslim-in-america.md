@@ -5,10 +5,15 @@ coAuthors: "Husain Lateef"
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - slavery-and-race
+  - psychology-and-mental-health
 keywords:
-  - "Data"
-  - "Reports"
+  - "Black Muslims"
+  - "African American Muslims"
+  - "identity"
+  - "well-being"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

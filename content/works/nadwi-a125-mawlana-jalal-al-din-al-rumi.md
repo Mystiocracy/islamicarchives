@@ -4,6 +4,13 @@ titleOriginal: "مولانا جلال الدين الرومي"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "Jalal al-Din Rumi"
+  - "Rumi"
+  - "Masnavi"
+  - "Persian poetry"
 summary: "Mawlana Jalal al-Din Rumi"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

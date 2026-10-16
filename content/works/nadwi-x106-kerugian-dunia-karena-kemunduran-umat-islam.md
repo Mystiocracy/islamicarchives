@@ -4,9 +4,13 @@ author: nadwi
 year: 1984
 language: "Indonesian"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
 keywords:
   - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
-  - "Bey Arifin; Yunus Ali al-Muhdhar"
+  - "decline of Muslims"
+  - "Western civilisation"
 summary: "What the world lost through the decline of Muslims. Translated by Bey Arifin; Yunus Ali al-Muhdhar."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

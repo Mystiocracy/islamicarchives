@@ -6,12 +6,14 @@ year: 1973
 language: "Persian"
 type: "Book"
 subjects:
-  - political-thought
   - islam-and-modernity
+  - political-thought
 keywords:
   - "Khadamat-e motaqabel-e Eslam va Iran"
   - "Iranian nationalism"
-  - "history of Islam in Iran"
+  - "Iran"
+  - "Islamic civilisation"
+  - "Persia"
 summary: "A historical work rebutting nationalist claims that Islam was alien to Iran, describing what Iranians contributed to Islamic civilisation and what Islam gave to Iran."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

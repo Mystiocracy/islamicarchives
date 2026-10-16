@@ -4,9 +4,14 @@ author: nadwi
 language: "English"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
 keywords:
-  - "Al-Arkan al-Arba'a (Hajj section)"
+  - "Hajj"
+  - "pilgrimage"
+  - "Four Pillars of Islam"
+  - "al-Arkan al-Arba'a"
+  - "Mecca"
 summary: "Al-Hajj: The Fifth Pillar of Islam. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

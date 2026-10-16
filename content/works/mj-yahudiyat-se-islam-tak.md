@@ -4,11 +4,15 @@ author: maryam-jameelah
 year: 2000
 language: Urdu
 type: "Book"
-venue: "A'la Publications, Lahore"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "conversion"
+  - "conversion to Islam"
+  - "From Judaism to Islam"
+  - "Judaism"
+  - "Why I Embraced Islam"
+venue: "A'la Publications, Lahore"
 summary: "\"From Judaism to Islam\", her conversion narrative in Urdu."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

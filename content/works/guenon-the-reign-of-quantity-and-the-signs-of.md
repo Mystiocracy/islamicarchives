@@ -9,7 +9,7 @@ subjects:
   - islam-and-modernity
   - philosophy-and-theology
 keywords:
-  - "Le Règne de la quantité"
+  - "Le Règne de la quantité et les signes des temps"
   - "cosmic cycles"
   - "counter-initiation"
   - "materialism"

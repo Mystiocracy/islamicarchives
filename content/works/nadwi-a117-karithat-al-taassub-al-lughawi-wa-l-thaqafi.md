@@ -4,6 +4,15 @@ titleOriginal: "كارثة التعصب اللغوي والثقافي"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "linguistic nationalism"
+  - "cultural chauvinism"
+  - "Arabic"
+  - "Urdu"
+  - "Muslim unity"
 summary: "The Calamity of Linguistic and Cultural Chauvinism"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

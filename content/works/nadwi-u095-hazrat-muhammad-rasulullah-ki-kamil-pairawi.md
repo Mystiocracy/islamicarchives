@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - sufism
+keywords:
+  - "ittiba' al-sunna"
+  - "Sunnah"
+  - "Prophet Muhammad"
+  - "love of the Prophet"
 summary: "Complete following of the Prophet"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

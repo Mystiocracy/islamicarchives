@@ -8,8 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
-  - "unity"
-  - "contentions"
+  - "Muslim unity"
+  - "umma"
+  - "Contentions"
 venue: "Ummatics Institute"
 summary: "Introduces a series of arguments for why Muslim political and civilizational unification is a feasible and urgent priority."
 rights: link-only

@@ -4,8 +4,12 @@ author: nadwi
 year: 1977
 language: "English"
 type: "Book"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Mohiuddin Ahmad"
+  - "Muslim identity"
+  - "Islamic beliefs"
+  - "Muslim character"
 summary: "The Musalman. Translated by Mohiuddin Ahmad from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

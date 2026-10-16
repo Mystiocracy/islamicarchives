@@ -9,6 +9,8 @@ subjects:
   - hadith-studies
 keywords:
   - "King Faisal Prize"
+  - "Islamic Studies prize"
+  - "1999"
 summary: "The prize citation, with the list of his works."
 venue: "King Faisal Prize"
 rights: link-only

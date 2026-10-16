@@ -6,8 +6,13 @@ year: 1992
 language: "Arabic"
 type: "Pamphlet"
 subjects:
+  - islam-and-modernity
   - education
-  - islamic-law
+keywords:
+  - "Islamic society"
+  - "knowledge"
+  - "humanity"
+  - "ma'rifa"
 summary: "Humanity's Need for True Knowledge and an Islamic Society"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

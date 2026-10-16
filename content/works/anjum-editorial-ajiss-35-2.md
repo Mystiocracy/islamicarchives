@@ -6,10 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - women-and-gender
-  - islam-and-modernity
+  - political-thought
 keywords:
-  - "editorial"
+  - "Shirin Saeidi"
   - "feminist research ethics"
+  - "Hezbollah"
+  - "Iran"
 venue: "American Journal of Islamic Social Sciences 35, no. 2"
 summary: "Introduces an issue including Shirin Saeidi's essay on the ethics of feminist research on Iran's Hezbollah."
 rights: link-only

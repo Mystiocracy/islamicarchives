@@ -4,6 +4,12 @@ titleOriginal: "تذکرہ مولانا حکیم ڈاکٹر سید عبد الع
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "Sayyid Abdul Ali"
+  - "Nadwatul Ulama"
+  - "Lucknow"
 summary: "Memoir of Hakim Dr. Sayyid Abdul Ali (his elder brother)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

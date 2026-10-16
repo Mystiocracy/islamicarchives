@@ -10,9 +10,11 @@ subjects:
   - political-thought
 keywords:
   - "Tajdid-o-Ahya-e-Din"
+  - "tajdid"
   - "mujaddid"
-  - "renewal"
+  - "Umar ibn Abd al-Aziz"
   - "Shah Wali Allah"
+  - "Sayyid Ahmad Barelvi"
 summary: "A historical essay on renewal (tajdid) in Islam, assessing reformers from 'Umar ibn 'Abd al-'Aziz to Shah Wali Allah and Sayyid Ahmad Barelvi and defining the tasks of a true renewer."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

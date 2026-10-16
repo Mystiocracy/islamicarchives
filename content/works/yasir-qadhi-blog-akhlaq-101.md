@@ -5,10 +5,12 @@ year: 2022
 language: English
 type: "Essay"
 subjects:
-  - education
+  - sufism
 keywords:
   - "akhlaq"
+  - "character"
   - "manners"
+  - "good character"
 summary: "A transcript of a lecture on character, posted on his website."
 venue: "yasirqadhi.com"
 rights: link-only

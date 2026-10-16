@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "tawakkul"
+  - "reliance on God"
+  - "trust in God"
 summary: "Short treatise on reliance on God."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

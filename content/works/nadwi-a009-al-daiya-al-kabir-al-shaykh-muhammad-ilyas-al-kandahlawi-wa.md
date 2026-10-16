@@ -6,8 +6,13 @@ year: 2003
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
-  - islamic-law
+  - education
+  - sufism
+keywords:
+  - "Muhammad Ilyas Kandhlawi"
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "Mawlana Muhammad Ilyas aur unki Dini Da'wat"
 summary: "The Great Preacher Shaykh Muhammad Ilyas Kandhlawi and His Call to God. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

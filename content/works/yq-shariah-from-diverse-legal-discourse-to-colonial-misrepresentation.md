@@ -6,9 +6,13 @@ language: "English"
 type: "Paper"
 subjects:
   - islamic-law
+  - colonialism-and-decolonisation
 keywords:
-  - "Methodology (usul)"
-  - "Sharia"
+  - "sharia"
+  - "colonial law"
+  - "Anglo-Muhammadan law"
+  - "codification"
+  - "legal pluralism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

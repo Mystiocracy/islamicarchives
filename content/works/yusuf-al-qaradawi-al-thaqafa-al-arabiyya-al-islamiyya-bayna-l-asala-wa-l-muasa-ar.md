@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Arab-Islamic culture"
+  - "asala"
+  - "authenticity"
+  - "muasara"
+  - "Westernisation"
 summary: "Discusses Arab-Islamic culture between authenticity and modernity."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

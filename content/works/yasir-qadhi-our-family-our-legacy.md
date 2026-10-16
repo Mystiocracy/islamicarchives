@@ -4,9 +4,10 @@ author: yasir-qadhi
 language: English
 type: "Book"
 subjects:
-  - education
+  - family-and-society
 keywords:
-  - "Our Family, Our Legacy"
+  - "family"
+  - "legacy"
 summary: "A book listed on his website."
 rights: link-only
 rightsNote: "No free copy found online; catalogue or publisher page only."

@@ -5,6 +5,13 @@ author: nadwi
 year: 1997
 language: "Arabic"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "Arabic literature"
+  - "literary criticism"
+  - "adab islami"
+  - "Islamic literature"
 summary: "Observations on Literature"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -6,6 +6,8 @@ language: "Bengali"
 type: "Book"
 keywords:
   - "Karwan-e-Zindagi"
+  - "autobiography"
+  - "Nadwatul Ulama"
 summary: "Caravan of life (autobiography). Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

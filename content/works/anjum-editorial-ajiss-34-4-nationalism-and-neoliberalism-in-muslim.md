@@ -5,12 +5,14 @@ year: 2017
 language: "English"
 type: "Essay"
 subjects:
+  - political-thought
   - islam-and-modernity
   - economics
 keywords:
   - "neoliberalism"
   - "nationalism"
-  - "editorial"
+  - "Muslim societies"
+  - "AJISS"
 venue: "American Journal of Islamic Social Sciences 34, no. 4: v-x"
 summary: "Introduces an issue on territorial nationalism, neoliberalism and other modern forces shaping Muslim societies."
 rights: link-only

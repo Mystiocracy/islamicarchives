@@ -4,9 +4,13 @@ titleOriginal: "جهان در سایه‌ي‌ عقب ماندگی مسلمان�
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
 keywords:
   - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
-  - "عبدالحکیم عثمانی"
+  - "decline of Muslims"
+  - "Western civilisation"
 summary: "The world in the shadow of Muslim backwardness. Translated by عبدالحکیم عثمانی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

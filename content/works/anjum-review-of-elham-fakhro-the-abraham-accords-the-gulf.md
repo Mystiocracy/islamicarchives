@@ -8,10 +8,10 @@ subjects:
   - political-thought
 keywords:
   - "Abraham Accords"
-  - "Gulf"
+  - "Gulf states"
   - "Israel"
   - "normalization"
-  - "book review"
+  - "Elham Fakhro"
 venue: "American Journal of Islam and Society 43, no. 1-2: 106-110"
 summary: "Book review of a study of Gulf states' normalisation with Israel."
 rights: link-only

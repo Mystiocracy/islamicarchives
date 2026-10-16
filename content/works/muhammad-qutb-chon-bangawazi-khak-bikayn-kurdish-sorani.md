@@ -8,6 +8,8 @@ subjects:
   - education
 keywords:
   - "da'wa"
+  - "Kayfa nad'u al-nas"
+  - "calling to Islam"
 summary: "Sorani Kurdish translation of Kayfa nad'u al-nas."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

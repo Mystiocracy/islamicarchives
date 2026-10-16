@@ -4,8 +4,12 @@ titleOriginal: "بارہ دن ریاست میسور میں"
 author: nadwi
 language: "Urdu"
 type: "Book"
-subjects:
-  - political-thought
+keywords:
+  - "Mysore"
+  - "Karnataka"
+  - "India"
+  - "South India"
+  - "Tipu Sultan"
 summary: "Twelve days in Mysore state (travelogue)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

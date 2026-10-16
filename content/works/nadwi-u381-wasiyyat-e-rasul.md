@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+keywords:
+  - "wasiyya"
+  - "Prophet Muhammad"
+  - "prophetic advice"
 summary: "The Prophet's testament (advice)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,6 +6,11 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - quranic-studies
+  - sufism
+keywords:
+  - "sabr"
+  - "patience"
+  - "Al-Sabr fi l-Qur'an"
 summary: "On patience as presented in the Qur'an."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

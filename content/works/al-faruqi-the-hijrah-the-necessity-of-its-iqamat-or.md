@@ -9,9 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Hijra"
-  - "ABIM"
   - "renewal"
   - "Muslim minorities"
+  - "Muslims in the West"
 summary: "An essay arguing that the Prophet's migration should be re-enacted in the present as a model for Muslim renewal and for the mission of Muslims living in the West."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

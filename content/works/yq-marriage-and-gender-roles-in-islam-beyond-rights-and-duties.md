@@ -6,9 +6,12 @@ language: "English"
 type: "Paper"
 subjects:
   - family-and-society
+  - women-and-gender
 keywords:
-  - "Family & Community"
-  - "Marriage"
+  - "marriage"
+  - "gender roles"
+  - "spousal rights"
+  - "qiwama"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

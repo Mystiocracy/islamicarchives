@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "Islamic psychology"
+  - "mental health history"
+  - "bimaristan"
+  - "Abu Zayd al-Balkhi"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

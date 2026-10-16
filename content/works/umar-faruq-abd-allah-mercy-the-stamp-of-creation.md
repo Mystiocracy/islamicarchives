@@ -7,9 +7,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "mercy"
-  - "raḥma"
+  - "rahma"
   - "Prophet Muhammad"
-  - "peace"
+  - "religion of peace"
+  - "divine attributes"
 summary: "Argues that Islam is more exactly the religion of mercy than of peace, since revelation names the Prophet the prophet of mercy and puts mercy above God's other attributes."
 venue: "Nawawi Foundation (now The Oasis Initiative)"
 rights: link-only

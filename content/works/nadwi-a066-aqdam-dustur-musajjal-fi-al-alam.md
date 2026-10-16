@@ -4,6 +4,12 @@ titleOriginal: "أقدم دستور مسجل في العالم"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "The Oldest Recorded Constitution in the World"
+  - "Constitution of Medina"
+  - "Sahifat al-Madina"
 summary: "The Oldest Recorded Constitution in the World"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

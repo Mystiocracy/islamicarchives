@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - islamic-law
+  - family-and-society
+  - political-thought
+keywords:
+  - "Haramain"
+  - "Arabian Peninsula"
+  - "Saudi Arabia"
+  - "expatriates"
 summary: "Duties of foreign residents in the Haramain and Arabia"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

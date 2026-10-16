@@ -6,6 +6,11 @@ language: "Bengali"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+  - philosophy-and-theology
+keywords:
+  - "risalat"
+  - "Prophet Muhammad"
+  - "Western civilisation"
 summary: "The Muhammadan message and the Western world. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

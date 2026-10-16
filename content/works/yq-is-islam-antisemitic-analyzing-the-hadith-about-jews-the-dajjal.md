@@ -5,11 +5,14 @@ year: 2017
 language: "English"
 type: "Paper"
 subjects:
+  - hadith-studies
   - islam-and-modernity
-  - political-thought
 keywords:
-  - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "antisemitism"
+  - "Jews"
+  - "Dajjal"
+  - "End Times"
+  - "Gharqad hadith"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

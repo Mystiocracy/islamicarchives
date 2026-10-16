@@ -7,7 +7,9 @@ type: "Video"
 subjects:
   - islam-and-modernity
 keywords:
-  - "lecture"
+  - "Waqi'una al-mu'asir"
+  - "contemporary Muslim condition"
+  - "Muslim decline"
 venue: "YouTube"
 summary: "Lecture (1h23) on the contemporary Muslim condition."
 rights: link-only

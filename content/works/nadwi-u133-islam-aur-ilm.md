@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "ilm"
+  - "knowledge"
+  - "Islamic civilisation"
 summary: "Islam and knowledge"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

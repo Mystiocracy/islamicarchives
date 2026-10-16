@@ -8,6 +8,7 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
+  - "Harry Kreisler"
   - "What I Believe"
   - "identity"
   - "globalization"

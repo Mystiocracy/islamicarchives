@@ -9,10 +9,9 @@ subjects:
   - education
   - islam-and-modernity
 keywords:
-  - "letters"
   - "Ross Masood"
   - "Aligarh"
-  - "correspondence"
+  - "Muhammadan Anglo-Oriental College"
 summary: "A posthumous selection of his letters, edited by his grandson Ross Masood, documenting his educational and religious campaigns."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

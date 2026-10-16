@@ -8,8 +8,10 @@ type: "Article"
 subjects:
   - family-and-society
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "Halloween"
+  - "parenting"
+  - "children"
+  - "American holidays"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

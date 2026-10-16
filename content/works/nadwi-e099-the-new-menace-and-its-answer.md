@@ -3,8 +3,15 @@ title: "The New Menace and Its Answer"
 author: nadwi
 language: "English"
 type: "Article"
+subjects:
+  - islam-and-modernity
+  - philosophy-and-theology
 keywords:
-  - "Ridda wa la Aba Bakr laha (Ar.)"
+  - "Ridda wa la Aba Bakr laha"
+  - "apostasy"
+  - "secularism"
+  - "materialism"
+  - "modern ideologies"
 summary: "The New Menace and Its Answer. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

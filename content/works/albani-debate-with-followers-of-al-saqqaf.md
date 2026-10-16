@@ -4,9 +4,13 @@ author: albani
 language: Arabic
 type: "Video"
 subjects:
+  - philosophy-and-theology
   - hadith-studies
 keywords:
-  - "recording"
+  - "Hasan al-Saqqaf"
+  - "debate"
+  - "Ash'ari"
+  - "aqida"
 summary: "A recorded debate."
 venue: "YouTube"
 rights: link-only

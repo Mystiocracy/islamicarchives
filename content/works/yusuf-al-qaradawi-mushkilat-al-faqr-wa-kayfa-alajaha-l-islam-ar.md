@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "poverty"
+  - "zakat"
+  - "social justice"
+  - "Economic Security in Islam"
 summary: "Explains how Islam diagnoses and treats poverty."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

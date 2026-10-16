@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "race"
   - "anti-Blackness"
-  - "Muslim history"
-  - "Oneworld Academic"
+  - "Blackness"
+  - "Bilal"
+  - "Hamitic curse"
 summary: "Investigates attitudes to race and Blackness in Islamic scripture, law and history, and the presence of anti-Black prejudice in Muslim societies."
 rights: link-only
 rightsNote: "In copyright (living author)."

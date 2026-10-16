@@ -6,7 +6,12 @@ year: 2021
 language: "Bengali"
 type: "Book"
 subjects:
-  - islamic-law
+  - philosophy-and-theology
+keywords:
+  - "ibadah"
+  - "worship"
+  - "scope of worship"
+  - "Al-Ibada fi l-Islam"
 summary: "On the scope of worship in Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

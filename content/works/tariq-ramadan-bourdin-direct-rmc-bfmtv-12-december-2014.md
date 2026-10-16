@@ -8,9 +8,9 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Bourdin"
-  - "France"
+  - "Jean-Jacques Bourdin"
   - "RMC"
+  - "BFMTV"
   - "Islam in France"
 summary: "French radio and television interview in which Jean-Jacques Bourdin questions Ramadan on current affairs touching Islam and Muslims in France; the specific topics were not described in the metadata."
 venue: "RMC / BFMTV (Bourdin Direct)"

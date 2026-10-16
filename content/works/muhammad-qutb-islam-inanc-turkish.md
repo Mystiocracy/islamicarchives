@@ -8,7 +8,10 @@ type: "Translation"
 subjects:
   - philosophy-and-theology
 keywords:
+  - "Raka'iz al-iman"
+  - "iman"
   - "creed"
+  - "aqida"
 summary: "Turkish translation of Raka'iz al-iman."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

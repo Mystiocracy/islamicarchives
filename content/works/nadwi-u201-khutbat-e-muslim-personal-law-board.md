@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Speech"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "All India Muslim Personal Law Board"
+  - "AIMPLB"
+  - "Muslim personal law"
+  - "Indian Muslims"
 summary: "Addresses to the Muslim Personal Law Board"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

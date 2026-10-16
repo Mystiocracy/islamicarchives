@@ -4,10 +4,14 @@ author: nadwi
 language: "English"
 type: "Article"
 subjects:
-  - hadith-studies
-  - education
+  - sufism
+  - islam-and-modernity
 keywords:
-  - "anonymous compiler"
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "Sulaiman Nadvi"
+  - "Muhammad Ilyas"
+  - "tabligh"
 summary: "Scholars of Sunnah Views on Tablighi Jamaat, Vol. 1. Translated by anonymous compiler from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

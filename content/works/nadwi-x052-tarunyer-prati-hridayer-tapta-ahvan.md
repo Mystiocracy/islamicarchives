@@ -5,9 +5,10 @@ author: nadwi
 language: "Bengali"
 type: "Pamphlet"
 subjects:
-  - sufism
+  - islam-and-modernity
 keywords:
   - "Dard-e-Dil ka Paigham Naujawanon ke Naam"
+  - "youth"
 summary: "A heartfelt call to the young. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

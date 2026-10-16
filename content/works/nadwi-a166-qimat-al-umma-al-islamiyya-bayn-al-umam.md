@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "Muslim nation"
+  - "world role"
+  - "khayr umma"
 summary: "The Muslim Umma's Worth among Nations and Its Role in the World"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

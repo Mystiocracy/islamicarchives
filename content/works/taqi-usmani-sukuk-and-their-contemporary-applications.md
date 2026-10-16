@@ -6,6 +6,11 @@ type: "Paper"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "sukuk"
+  - "Islamic bonds"
+  - "AAOIFI"
+  - "Islamic finance"
 summary: "A paper on the Sharia requirements and structuring of sukuk (a scan; the text was not read)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -9,8 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Arab Awakening"
-  - "economics"
-  - "democracy"
+  - "Islamic democracy"
+  - "economic factors"
+  - "Heather McRobie"
   - "openDemocracy"
 summary: "Heather McRobie questions Ramadan on Islamic democracy and argues, with him, that the Arab Awakening has been misread when economic factors are ignored."
 venue: "openDemocracy"

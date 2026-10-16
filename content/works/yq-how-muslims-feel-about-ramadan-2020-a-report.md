@@ -5,10 +5,13 @@ coAuthors: "Hajer Nakua"
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - psychology-and-mental-health
 keywords:
-  - "Data"
-  - "Reports"
+  - "Ramadan"
+  - "Covid-19"
+  - "survey"
+  - "religiosity"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

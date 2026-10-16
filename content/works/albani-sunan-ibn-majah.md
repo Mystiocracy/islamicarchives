@@ -7,8 +7,11 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ṣaḥīḥ wa-ḍaʿīf Sunan Ibn Mājah"
-  - "Albani"
+  - "Sunan Ibn Majah"
+  - "Ibn Majah"
+  - "hadith grading"
+  - "sahih"
+  - "da'if"
 summary: "His sound and weak lists for Ibn Mājah's *Sunan*; a reader is at https://ketabonline.com/ar/books/213."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

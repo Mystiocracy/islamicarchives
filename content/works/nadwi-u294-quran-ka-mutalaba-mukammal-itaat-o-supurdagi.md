@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+  - sufism
+keywords:
+  - "Qur'an"
+  - "obedience"
+  - "submission"
+  - "islam"
 summary: "The Quran's demand: total obedience and surrender"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

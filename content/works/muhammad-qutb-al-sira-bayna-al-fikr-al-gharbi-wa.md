@@ -9,8 +9,9 @@ subjects:
   - islam-and-modernity
   - colonialism-and-decolonisation
 keywords:
-  - "West"
+  - "Western thought"
   - "intellectual conflict"
+  - "Westernization"
 summary: "Short treatment of the long-running conflict between Western and Islamic thought."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

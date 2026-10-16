@@ -4,6 +4,13 @@ titleOriginal: "اصلاح و استفادہ سے کوئی مستغنی نہیں
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "islah"
+  - "self-reform"
+  - "tazkiya"
+  - "companionship of the pious"
 summary: "No one is beyond reform and benefit"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,9 +4,16 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
+  - family-and-society
   - islam-and-modernity
+keywords:
+  - "Islamic manners"
+  - "adab"
+  - "etiquette"
+  - "cleanliness"
+  - "Westernization"
+venue: "Mohammad Yusuf Khan"
 summary: "Islamic manners against Western etiquette; cleanliness; mental health."
 rights: link-only
 rightsNote: "In copyright; no free copy found online. A listing on books.e3raf.co exists, but no working copy was confirmed"

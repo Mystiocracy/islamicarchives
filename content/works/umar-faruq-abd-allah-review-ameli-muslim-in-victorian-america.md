@@ -8,8 +8,10 @@ type: "Review"
 subjects:
   - islam-and-modernity
 keywords:
-  - "book review"
   - "Alexander Russell Webb"
+  - "A Muslim in Victorian America"
+  - "American Islam"
+  - "Journal of American Studies"
 summary: "A review of *A Muslim in Victorian America* by Ameli in the Journal of American Studies."
 venue: "Journal of American Studies"
 rights: link-only

@@ -6,12 +6,12 @@ language: "English"
 type: "Article"
 subjects:
   - islamic-law
-  - islam-and-modernity
   - political-thought
+  - islam-and-modernity
 keywords:
   - "Wael Hallaq"
-  - "Impossible State"
-  - "shari'a"
+  - "The Impossible State"
+  - "sharia"
   - "modern state"
 venue: "American Journal of Islamic Social Sciences 30, no. 3: 124-134"
 summary: "A critical review essay on Wael Hallaq's The Impossible State and its claim that the modern state and the shari'a are incompatible."

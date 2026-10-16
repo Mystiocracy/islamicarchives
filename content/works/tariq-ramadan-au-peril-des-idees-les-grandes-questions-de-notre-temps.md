@@ -7,11 +7,12 @@ language: "French"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "At the Peril of Ideas: The Great Questions of Our Time (English rendering of the title)"
-  - "dialogue"
+  - "At the Peril of Ideas"
   - "Edgar Morin"
   - "faith and reason"
+  - "identity"
   - "complexity"
 summary: "A recorded dialogue between the sociologist Edgar Morin and Ramadan on God, science and conscience, faith and reason, the meaning of words such as identity and reform, and rethinking global politics."
 venue: "Presses du Châtelet (Paris); Archipoche 2015"

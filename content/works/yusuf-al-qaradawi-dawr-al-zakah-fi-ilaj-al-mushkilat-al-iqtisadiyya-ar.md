@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "zakat"
+  - "poverty"
+  - "economic problems"
+  - "redistribution"
 summary: "Explains how zakat can solve economic problems and what makes it succeed."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

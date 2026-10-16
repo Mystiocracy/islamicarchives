@@ -5,12 +5,12 @@ year: 2015
 language: "English"
 type: "Video"
 subjects:
-  - hadith-studies
+  - islam-and-modernity
 keywords:
   - "Prophet Muhammad"
-  - "sirah"
-  - "Oxford"
-  - "legacy"
+  - "sira"
+  - "Oxford Islamic Society"
+  - "prophetic legacy"
 summary: "One-hour Oxford talk on the Prophet's life as a source of spiritual and ethical guidance and on what his legacy asks of Muslims living in the contemporary world."
 venue: "Oxford University Islamic Society"
 rights: link-only

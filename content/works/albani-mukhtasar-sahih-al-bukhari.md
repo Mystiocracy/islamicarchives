@@ -7,8 +7,9 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Mukhtaṣar Ṣaḥīḥ al-Bukhārī"
-  - "Albani"
+  - "Sahih al-Bukhari"
+  - "al-Bukhari"
+  - "abridgement"
 summary: "His abridgement of al-Bukhārī's collection."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

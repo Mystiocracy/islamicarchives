@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic movement"
+  - "priorities"
+  - "Muslim Brotherhood"
+  - "Priorities of the Islamic Movement"
 summary: "Sets out the priorities of the Islamic movement for the coming phase."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

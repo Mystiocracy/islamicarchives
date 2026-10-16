@@ -5,8 +5,13 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - political-thought
 keywords:
-  - "Tahaffuz-e-Shariat (Ur.)"
+  - "Tahaffuz-e-Shariat"
+  - "Muslim Personal Law"
+  - "AIMPLB"
+  - "Shah Bano case"
+  - "India"
 summary: "The Movement for Protection of Shariat. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

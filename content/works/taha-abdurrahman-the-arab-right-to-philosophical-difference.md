@@ -11,6 +11,7 @@ keywords:
   - "al-Haqq al-'arabi fi al-ikhtilaf al-falsafi"
   - "universalism"
   - "philosophical difference"
+  - "Arab philosophy"
 summary: "Defends the legitimacy of a distinctively Arab philosophy against claims that philosophy must be single and universal."
 rights: link-only
 rightsNote: "In copyright (living author)."

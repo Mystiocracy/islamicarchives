@@ -7,8 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - philosophy-and-theology
+  - quranic-studies
 keywords:
-  - "Afterlife"
+  - "Day of Judgment"
+  - "Maliki Yawm al-Din"
+  - "Surat al-Fatiha"
+  - "Names of Allah"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

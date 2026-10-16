@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - family-and-society
+keywords:
+  - "family life"
+  - "home"
+  - "television"
+  - "moral protection"
 summary: "Advice on protecting family life and the home from harmful influences."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

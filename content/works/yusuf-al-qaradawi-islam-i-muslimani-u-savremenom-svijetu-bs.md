@@ -6,6 +6,10 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "contemporary world"
+  - "Muslim world"
+  - "modern challenges"
 summary: "On Islam and Muslims in the contemporary world."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

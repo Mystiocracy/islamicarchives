@@ -3,9 +3,15 @@ title: "Life and Mission of Maulana Mohammad Ilyas"
 author: nadwi
 language: "English"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - sufism
 keywords:
-  - "Maulana Muhammad Ilyas aur unki Deeni Dawat (Ur.)"
-  - "Mohammad Asif Kidwai (attributed; not visible in scan)"
+  - "Muhammad Ilyas"
+  - "Tablighi Jamaat"
+  - "tabligh"
+  - "Mewat"
+  - "Maulana Muhammad Ilyas aur unki Deeni Dawat"
 summary: "Life and Mission of Maulana Mohammad Ilyas. Translated by Mohammad Asif Kidwai (attributed; not visible in scan) from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

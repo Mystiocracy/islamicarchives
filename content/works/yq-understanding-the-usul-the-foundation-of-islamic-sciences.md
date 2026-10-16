@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Methodology (usul)"
-  - "Sharia"
+  - "usul al-fiqh"
+  - "usul"
+  - "Islamic sciences"
+  - "methodology"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

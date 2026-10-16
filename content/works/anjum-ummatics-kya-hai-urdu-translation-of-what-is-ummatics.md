@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
-  - "Urdu"
+  - "What is Ummatics?"
+  - "umma"
+  - "Muslim unity"
 venue: "Ummatics Institute"
 summary: "Urdu translation of 'What is Ummatics?'."
 rights: link-only

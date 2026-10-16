@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+  - philosophy-and-theology
+keywords:
+  - "submission"
+  - "islam"
+  - "total obedience"
+  - "din"
 summary: "The Qur'an's Demand: Total Submission"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

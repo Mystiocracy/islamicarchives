@@ -4,6 +4,14 @@ titleOriginal: "من غار حراء"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Cave of Hira"
+  - "revelation"
+  - "Prophet Muhammad"
+  - "first revelation"
+  - "prophethood"
 summary: "From the Cave of Hira"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

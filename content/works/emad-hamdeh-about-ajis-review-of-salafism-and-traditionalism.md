@@ -5,9 +5,13 @@ byline: "Reviewer not recorded"
 language: English
 type: "Review"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
 keywords:
-  - "review"
+  - "Salafism"
+  - "traditionalism"
+  - "Albani"
+  - "scholarly authority"
+  - "AJIS"
 summary: "A review of his Cambridge book in AJIS."
 venue: "American Journal of Islam and Society"
 rights: link-only

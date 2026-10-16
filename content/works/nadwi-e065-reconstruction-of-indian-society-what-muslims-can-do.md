@@ -5,8 +5,13 @@ language: "English"
 type: "Speech"
 subjects:
   - political-thought
+  - family-and-society
 keywords:
-  - "Mohiuddin Ahmad"
+  - "India"
+  - "Indian Muslims"
+  - "Indian society"
+  - "communal harmony"
+  - "Payam-e-Insaniyat"
 summary: "Reconstruction of Indian Society: What Muslims Can Do. Translated by Mohiuddin Ahmad from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

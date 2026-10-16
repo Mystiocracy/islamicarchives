@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Abu Hanifa"
   - "Hanafi school"
-  - "biography"
   - "fiqh"
+  - "usul al-fiqh"
 summary: "A biography of Abu Hanifa together with an analysis of his legal method and the development of the Hanafi school."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

@@ -9,6 +9,8 @@ subjects:
   - political-thought
 keywords:
   - "liberalism"
+  - "individualism"
+  - "secularism"
 venue: "Al-Arqam Institute"
 summary: "Lecture on liberalism from an Islamic perspective."
 rights: link-only

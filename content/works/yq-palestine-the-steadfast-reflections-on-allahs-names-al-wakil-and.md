@@ -6,12 +6,14 @@ year: 2023
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - philosophy-and-theology
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Palestine"
+  - "al-Wakil"
+  - "al-Mu'min"
+  - "Names of Allah"
+  - "steadfastness"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

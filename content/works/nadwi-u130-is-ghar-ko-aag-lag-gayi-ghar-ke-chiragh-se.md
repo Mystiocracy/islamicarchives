@@ -4,6 +4,10 @@ titleOriginal: "اس گھر کو آگ لگ گئی گھر کے چراغ سے"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "self-inflicted harm"
+  - "internal decay"
+  - "Muslim community"
 summary: "This house was set on fire by its own lamp"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

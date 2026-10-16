@@ -6,11 +6,12 @@ language: "English"
 type: "Video"
 subjects:
   - islam-and-modernity
+  - education
 keywords:
   - "critical thinking"
   - "ISCAT"
-  - "Sakarya"
-  - "reform"
+  - "Sakarya University"
+  - "dogmatism"
 summary: "Keynote at the ISCAT 2015 conference on why critical thinking is indispensable for Muslim societies, North and South, in confronting dogmatism and rebuilding intellectual life."
 venue: "ISCAT 2015, Sakarya University, Turkey"
 rights: link-only

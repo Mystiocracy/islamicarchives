@@ -4,6 +4,13 @@ titleOriginal: "محبت فاتح عالم"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - family-and-society
+  - sufism
+keywords:
+  - "love"
+  - "mahabba"
+  - "communal harmony"
 summary: "Love conquers the world"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

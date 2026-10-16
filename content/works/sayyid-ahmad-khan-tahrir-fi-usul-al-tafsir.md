@@ -9,9 +9,9 @@ subjects:
   - quranic-studies
   - philosophy-and-theology
 keywords:
-  - "principles of exegesis"
+  - "usul al-tafsir"
   - "word of God and work of God"
-  - "fifteen principles"
+  - "laws of nature"
 summary: "A statement of the hermeneutical principles behind his Qur'an commentary, including the rule that revelation cannot contradict the laws of nature."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

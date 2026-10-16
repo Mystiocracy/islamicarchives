@@ -7,11 +7,12 @@ type: "Video"
 subjects:
   - quranic-studies
 keywords:
-  - "tafseer"
+  - "tafsir"
   - "Qur'an"
-  - "education"
-  - "economics"
   - "environment"
+  - "community"
+  - "economics"
+  - "unity"
 summary: "A numbered set of Quran-based talks, each titled 'Rethinking' a theme (community, environment, education, economics, unity), examining contemporary social questions through scriptural reflection."
 venue: "Tariq Ramadan Official"
 rights: link-only

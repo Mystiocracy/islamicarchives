@@ -12,8 +12,8 @@ keywords:
   - "Book of Eternity"
   - "Rumi"
   - "celestial journey"
+  - "mi'raj"
   - "Divine Comedy"
-  - "A. J. Arberry (translator)"
 summary: "A Persian epic of a journey through the heavens guided by Rumi, in which the poet meets historical and religious figures and reflects on the destiny of Muslims."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

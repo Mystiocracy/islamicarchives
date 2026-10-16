@@ -7,7 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "The Miracle of the Qur'an"
+  - "i'jaz al-Qur'an"
+  - "miracle"
+  - "inimitability"
+  - "Qur'an"
 summary: "On the Qur'an as a miracle."
 venue: "Tertib Publishing"
 rights: link-only

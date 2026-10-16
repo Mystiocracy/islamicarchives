@@ -5,7 +5,13 @@ titleOriginal: "تاريخنا المفترى عليه"
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - colonialism-and-decolonisation
+  - political-thought
+keywords:
+  - "Islamic history"
+  - "Orientalism"
+  - "historiography"
+  - "caliphate"
 summary: "Defends Islamic history against distortion and misrepresentation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

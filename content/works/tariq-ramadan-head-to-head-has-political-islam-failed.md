@@ -11,7 +11,8 @@ keywords:
   - "political Islam"
   - "Arab Spring"
   - "Mehdi Hasan"
-  - "Head to Head"
+  - "Al Jazeera"
+  - "Islamism"
 summary: "Mehdi Hasan challenges Ramadan on whether the Arab Spring has become an Islamist winter and whether political Islam has failed its own principles."
 venue: "Al Jazeera English (Head to Head)"
 rights: link-only

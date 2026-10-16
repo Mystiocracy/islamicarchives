@@ -6,6 +6,13 @@ language: "Urdu"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - quranic-studies
+keywords:
+  - "Bible"
+  - "Christianity"
+  - "Izhar al-Haqq"
+  - "Rahmatullah Kairanwi"
+  - "comparative religion"
 summary: "Urdu study comparing the Bible with the Qurʾan, in three volumes (only volume 1 was opened and checked)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

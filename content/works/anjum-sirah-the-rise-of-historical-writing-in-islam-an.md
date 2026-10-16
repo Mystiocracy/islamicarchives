@@ -8,7 +8,9 @@ subjects:
   - hadith-studies
 keywords:
   - "sira"
+  - "maghazi"
   - "historiography"
+  - "early Islamic historical writing"
 venue: "AlJumuah Magazine"
 summary: "Describes the Medinan, Iraqi and Yemeni schools of early Islamic historical writing."
 rights: link-only

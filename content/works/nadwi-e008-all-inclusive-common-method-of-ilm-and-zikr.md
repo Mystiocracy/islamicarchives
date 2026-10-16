@@ -5,9 +5,13 @@ language: "English"
 type: "Article"
 subjects:
   - sufism
+  - education
 keywords:
-  - "Zikr o Ta'lim ka Umoomi Tariqa (Ur.)"
-  - "anonymous volunteer translators"
+  - "ilm"
+  - "dhikr"
+  - "tasawwuf"
+  - "Zikr o Ta'lim ka Umoomi Tariqa"
+  - "tabligh"
 summary: "All Inclusive (Common) Method of 'Ilm and Zikr. Translated by anonymous volunteer translators from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

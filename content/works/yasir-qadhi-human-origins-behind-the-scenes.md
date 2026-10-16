@@ -5,9 +5,12 @@ year: 2018
 language: English
 type: "Video"
 subjects:
-  - education
+  - science-and-religion
 keywords:
   - "human origins"
+  - "evolution"
+  - "Adam"
+  - "Yaqeen Institute"
 summary: "Yaqeen's video on the Human Origins paper."
 venue: "Yaqeen Institute"
 rights: link-only

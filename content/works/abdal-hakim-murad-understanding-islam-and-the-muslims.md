@@ -6,11 +6,12 @@ language: "English"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - family-and-society
 keywords:
   - "John A. Williams"
   - "introduction to Islam"
   - "Muslim family"
-  - "Fons Vitae"
+  - "Islamic practice"
 summary: "A short introduction to Islamic belief, practice and family life, written with John A. Williams for a general readership."
 rights: link-only
 rightsNote: "In copyright (living author)."

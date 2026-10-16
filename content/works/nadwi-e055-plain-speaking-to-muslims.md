@@ -6,9 +6,12 @@ language: "English"
 type: "Article"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
-  - "Musalmanan-e-Hind se Saaf Saaf Baatein (Ur.)"
-  - "not stated (Board of Islamic Studies, Indore)"
+  - "Indian Muslims"
+  - "Musalmanan-e-Hind se Saaf Saaf Baatein"
+  - "Nida-e-Millat"
+  - "self-criticism"
 summary: "Plain Speaking to Muslims. Translated by not stated (Board of Islamic Studies, Indore) from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

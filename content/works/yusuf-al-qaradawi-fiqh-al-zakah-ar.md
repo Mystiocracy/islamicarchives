@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "zakat"
+  - "Fiqh al-Zakah"
+  - "wealth"
+  - "poverty alleviation"
 summary: "Comparative study of the rules and philosophy of zakat in light of the Qurʾān and Sunna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

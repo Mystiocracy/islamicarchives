@@ -5,7 +5,11 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "prophethood"
+  - "nubuwwa"
+  - "mission of the prophets"
 summary: "The real achievement of prophethood"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,9 +4,13 @@ titleOriginal: "دو تصویر متضاد"
 author: nadwi
 language: "Persian"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Suratan Mutadaddatan (Arabic)"
-  - "تالیف"
+  - "Suratan Mutadaddatan"
+  - "Sahaba"
+  - "Shia"
+  - "Sunni"
 summary: "Two contrasting portraits. Translated by تالیف."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

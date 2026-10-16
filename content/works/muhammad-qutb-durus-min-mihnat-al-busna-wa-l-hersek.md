@@ -9,7 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Bosnia"
-  - "war"
+  - "Bosnian war"
+  - "Muslim world"
+  - "genocide"
 venue: "Dār al-Shurūq"
 summary: "Lessons for the Muslim world drawn from the Bosnian war."
 rights: link-only

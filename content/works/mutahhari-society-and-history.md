@@ -7,11 +7,11 @@ type: "Book"
 subjects:
   - political-thought
   - philosophy-and-theology
-  - quranic-studies
 keywords:
   - "Jame'e va tarikh"
   - "philosophy of history"
   - "historical materialism"
+  - "Marxism"
   - "Qur'anic sociology"
 summary: "Part of the Islamic worldview series; sets out a Qur'anic theory of society and historical change in explicit contrast to Marxist historical materialism."
 rights: link-only

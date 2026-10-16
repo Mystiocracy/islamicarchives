@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - hadith-studies
 keywords:
-  - "Adil Salahi"
+  - "hadith"
+  - "sunna"
+  - "authority of hadith"
+  - "hujjiyya"
 summary: "Hadith: Status and Role. An Introduction to the Prophet's Tradition. Translated by Adil Salahi from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

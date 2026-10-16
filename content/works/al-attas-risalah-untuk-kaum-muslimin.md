@@ -9,9 +9,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "A Message to Muslims"
-  - "written 1973"
-  - "ISTAC"
   - "secularism"
+  - "Western civilisation"
+  - "worldview of Islam"
 summary: "A message to Muslims written in the early 1970s and published decades later, setting out in Malay the ideas on Western civilisation, secularism and the Islamic worldview later developed in Islam and Secularism."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

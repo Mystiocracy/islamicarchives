@@ -12,6 +12,7 @@ keywords:
   - "Pakistan constitution"
   - "shura"
   - "Islamic state"
+  - "constitution"
 summary: "A memorandum prepared for the Pakistani government proposing principles for an Islamic constitution; its ideas were later developed in The Principles of State and Government in Islam."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

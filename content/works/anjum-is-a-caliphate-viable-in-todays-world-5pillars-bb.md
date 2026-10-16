@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "caliphate"
-  - "podcast"
+  - "5Pillars"
+  - "khilafa"
+  - "nation-state"
 venue: "5Pillars"
 summary: "Extended interview on the viability of a modern caliphate."
 rights: link-only

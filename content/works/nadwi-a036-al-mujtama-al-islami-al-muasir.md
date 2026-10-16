@@ -4,6 +4,13 @@ titleOriginal: "المجتمع الإسلامي المعاصر: فضله وقي�
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - family-and-society
+  - islam-and-modernity
+keywords:
+  - "The Contemporary Muslim Society"
+  - "Muslim society"
+  - "Islamic society"
 summary: "The Contemporary Muslim Society: Its Merit and Value"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

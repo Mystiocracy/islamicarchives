@@ -6,7 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - hadith-studies
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "A Study of the Sira through the Transmitted Supplications"
+  - "du'a"
+  - "sira"
+  - "supplications"
+  - "Nazarat fi al-Adab al-Nabawi"
 summary: "A Study of the Sira through the Transmitted Supplications"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

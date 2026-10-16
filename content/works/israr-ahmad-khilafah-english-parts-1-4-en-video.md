@@ -7,7 +7,8 @@ subjects:
   - political-thought
 keywords:
   - "khilafah"
-  - "English lecture"
+  - "caliphate"
+  - "Islamic state"
 summary: "Four-part English lecture series explaining his concept of the caliphate."
 rights: link-only
 rightsNote: "Recorded lectures; linked, not hosted."

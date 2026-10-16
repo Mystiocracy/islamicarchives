@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Bible commentary"
   - "The Mohomedan Commentary on the Holy Bible"
+  - "tahrif"
   - "Christian-Muslim relations"
-  - "bilingual Urdu-English"
 summary: "An unfinished Muslim commentary on the Bible, published in parts from 1862 to 1865, arguing that the earlier scriptures had not been textually corrupted and seeking common ground between Islam and Christianity."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

@@ -5,6 +5,11 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "Hajj"
+  - "pilgrimage"
+  - "rites of Hajj"
+  - "virtues of Hajj"
 summary: "A guide to the virtues and rules of Hajj."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Speech"
 subjects:
   - islam-and-modernity
+keywords:
+  - "khutbah"
+  - "Friday sermons"
+  - "Jumu'ah"
 summary: "Second volume of his collected Friday sermons."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

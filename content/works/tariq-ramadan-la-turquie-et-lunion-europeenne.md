@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "Turkey"
   - "European Union"
-  - "accession"
-  - "identity"
+  - "EU accession"
+  - "European identity"
 summary: "An article by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "Confluences Méditerranée 52: 75-79"
 rights: link-only

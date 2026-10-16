@@ -9,7 +9,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Ensan-e kamel"
-  - "perfect human"
+  - "perfect man"
+  - "insan kamil"
   - "Imam Ali"
   - "ethics"
 summary: "Lectures comparing mystical, philosophical and modern ideals of human perfection with the Islamic model of a balanced, complete person."

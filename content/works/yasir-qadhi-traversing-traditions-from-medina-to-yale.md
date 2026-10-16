@@ -6,8 +6,10 @@ type: "Video"
 subjects:
   - education
 keywords:
-  - "Madinah"
+  - "Islamic University of Madinah"
   - "Yale"
+  - "academic training"
+  - "traditional scholarship"
 summary: "On his path from the Islamic University of Madinah to Yale."
 venue: "Yasir Qadhi"
 rights: link-only

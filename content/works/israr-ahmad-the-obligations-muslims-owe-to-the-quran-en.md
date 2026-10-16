@@ -6,8 +6,10 @@ type: "Pamphlet"
 subjects:
   - quranic-studies
 keywords:
-  - "Quran"
-  - "duties"
+  - "Musalmanon par Quran Majeed ke Huqooq"
+  - "rights of the Qur'an"
+  - "recitation"
+  - "tadabbur"
 summary: "English translation of his tract on the five duties Muslims owe to the Qur'an."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

@@ -5,7 +5,12 @@ titleOriginal: "الشيخ أبو الحسن الندوي كما عرفته"
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - education
+keywords:
+  - "Abul Hasan Ali Nadwi"
+  - "Nadwat al-Ulama"
+  - "biography"
+  - "memoir"
 summary: "Personal account of Shaykh Abu al-Hasan al-Nadwi."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

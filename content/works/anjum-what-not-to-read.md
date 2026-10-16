@@ -9,6 +9,7 @@ subjects:
 keywords:
   - "reading"
   - "books"
+  - "harmful content"
 venue: "AlJumuah Magazine"
 summary: "Advises readers to avoid material harmful to faith and character and choose beneficial works."
 rights: link-only

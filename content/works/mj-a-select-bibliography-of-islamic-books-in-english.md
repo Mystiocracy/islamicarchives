@@ -4,9 +4,13 @@ author: maryam-jameelah
 year: 1965
 language: English
 type: "Bibliography"
-venue: "Islamic Research Academy, Karachi"
 subjects:
-  - islam-and-modernity
+  - education
+keywords:
+  - "bibliography"
+  - "reading list"
+  - "books on Islam in English"
+venue: "Islamic Research Academy, Karachi"
 summary: "An annotated reading list of books on Islam in English."
 rights: link-only
 rightsNote: "In copyright; no free copy found online. Year of the first edition is approximate (1960s)"

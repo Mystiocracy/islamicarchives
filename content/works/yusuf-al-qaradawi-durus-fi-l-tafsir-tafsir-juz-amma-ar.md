@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - quranic-studies
+keywords:
+  - "tafsir"
+  - "Juz Amma"
+  - "thirtieth juz"
+  - "short surahs"
 summary: "Lessons interpreting the thirtieth part of the Qur'an."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

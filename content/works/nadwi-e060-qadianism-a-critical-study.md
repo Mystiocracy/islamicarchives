@@ -4,9 +4,15 @@ author: nadwi
 year: 1965
 language: "English"
 type: "Book"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Qadiyaniyat: Mutala'a wa Ja'iza (Ur.) / Al-Qadiyani wa al-Qadiyaniyya (Ar.)"
-  - "Zafar Ishaq Ansari"
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "khatm al-nubuwwa"
+  - "Qadiyaniyat: Mutala'a wa Ja'iza"
+  - "al-Qadiyani wa al-Qadiyaniyya"
 summary: "Qadianism: A Critical Study. Translated by Zafar Ishaq Ansari from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

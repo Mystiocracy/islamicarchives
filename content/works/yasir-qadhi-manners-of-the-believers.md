@@ -5,9 +5,12 @@ year: 2022
 language: English
 type: "Video"
 subjects:
-  - education
+  - sufism
 keywords:
   - "akhlaq"
+  - "manners"
+  - "good character"
+  - "month of Ramadan"
 summary: "A Ramadan 2022 series on Islamic manners."
 venue: "Yasir Qadhi"
 rights: link-only

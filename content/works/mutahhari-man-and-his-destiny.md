@@ -9,6 +9,7 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Ensan va sarnevesht"
+  - "qada and qadar"
   - "predestination"
   - "free will"
   - "decline of Muslims"

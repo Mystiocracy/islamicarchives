@@ -4,6 +4,11 @@ titleOriginal: "بين الإنسانية وأصدقائها"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Between Humanity and Its Friends"
+  - "humanity"
 summary: "Between Humanity and Its Friends"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

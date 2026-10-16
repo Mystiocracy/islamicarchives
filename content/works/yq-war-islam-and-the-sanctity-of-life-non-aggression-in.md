@@ -6,11 +6,14 @@ year: 2017
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - islamic-law
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "jihad"
+  - "laws of war"
+  - "non-combatants"
+  - "sanctity of life"
+  - "non-aggression"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

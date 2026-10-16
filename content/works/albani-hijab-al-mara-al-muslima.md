@@ -7,10 +7,12 @@ language: Arabic
 type: "Book"
 subjects:
   - women-and-gender
-  - hadith-studies
+  - islamic-law
 keywords:
-  - "Ḥijāb al-marʾa al-muslima fī l-kitāb wa-l-sunna"
-  - "Albani"
+  - "hijab"
+  - "niqab"
+  - "face veil"
+  - "women's dress"
 summary: "The first edition (the 1952 date comes from Wikipedia) of his study of the Muslim woman's dress. Argues that the face veil is not required."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

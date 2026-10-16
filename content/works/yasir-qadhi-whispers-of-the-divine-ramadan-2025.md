@@ -5,9 +5,11 @@ year: 2025
 language: English
 type: "Video"
 subjects:
-  - education
+  - sufism
 keywords:
-  - "Ramadan"
+  - "month of Ramadan"
+  - "Whispers of the Divine"
+  - "spirituality"
 summary: "A Ramadan 2025 series."
 venue: "Yasir Qadhi"
 rights: link-only

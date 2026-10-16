@@ -5,8 +5,12 @@ language: English
 type: "Video"
 subjects:
   - philosophy-and-theology
+  - political-thought
 keywords:
   - "Salafism"
+  - "Ibn Taymiyya"
+  - "Muhammad ibn Abd al-Wahhab"
+  - "Wahhabism"
 summary: "A lecture on the origins of Salafism."
 venue: "Yasir Qadhi"
 rights: link-only

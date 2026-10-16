@@ -8,7 +8,10 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "al-Sami"
+  - "Names of Allah"
+  - "asma al-husna"
+  - "dua"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

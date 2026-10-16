@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "anomalous fatwas"
+  - "shadhdh"
+  - "ijtihad"
+  - "ifta"
 summary: "Criteria, examples and causes of anomalous fatwas and how to avoid them."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

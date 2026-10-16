@@ -4,8 +4,10 @@ titleOriginal: "سیرت نبوی کے مطالعے کی دعوت"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "study of sira"
 summary: "An invitation to study the Sira"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

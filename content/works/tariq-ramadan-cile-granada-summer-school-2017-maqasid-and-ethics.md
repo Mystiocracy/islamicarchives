@@ -8,9 +8,9 @@ type: "Video"
 subjects:
   - islamic-law
 keywords:
-  - "maqasid"
+  - "maqasid al-sharia"
   - "CILE"
-  - "summer school"
+  - "Granada"
   - "bioethics"
   - "human rights"
   - "gender"

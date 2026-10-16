@@ -10,7 +10,7 @@ keywords:
   - "meta-religion"
   - "interfaith"
   - "world theology"
-  - "AJISS"
+  - "comparative religion"
 summary: "Proposes rational principles, independent of any single tradition, by which the truth claims of religions might be compared and judged."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

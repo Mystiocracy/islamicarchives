@@ -6,7 +6,13 @@ year: 1984
 language: "Urdu"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - sufism
+  - political-thought
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "Mujahidin movement"
+  - "Balakot"
+  - "companions of Sayyid Ahmad"
 summary: "Caravan of faith and resolve (Sayyid Ahmad Shahid's companions)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

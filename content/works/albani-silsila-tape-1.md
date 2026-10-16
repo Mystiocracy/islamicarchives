@@ -4,9 +4,11 @@ author: albani
 language: Arabic
 type: "Video"
 subjects:
-  - hadith-studies
+  - islamic-law
 keywords:
-  - "recording"
+  - "Silsilat al-Huda wa-l-Nur"
+  - "fatwa"
+  - "Amman"
 summary: "The first tape of the series."
 venue: "YouTube"
 rights: link-only

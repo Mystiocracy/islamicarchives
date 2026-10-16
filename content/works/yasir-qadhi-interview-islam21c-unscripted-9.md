@@ -5,9 +5,10 @@ year: 2019
 language: English
 type: "Interview"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "interview"
+  - "Islam21c"
+  - "Unscripted"
 summary: "A wide-ranging interview on his life and positions."
 venue: "Islam21c"
 rights: link-only

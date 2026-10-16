@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "Islamic movement"
+  - "extremism"
 summary: "Reviews the hopes and pitfalls facing the Islamic revival."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

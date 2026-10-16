@@ -12,6 +12,7 @@ keywords:
   - "Middle East"
   - "Democracy Now"
   - "foreign policy"
+  - "United States"
 summary: "Ramadan criticises Western arms sales and interventions in the Middle East and argues that foreign policy, not Islam, drives the region's instability."
 venue: "Democracy Now!"
 rights: link-only

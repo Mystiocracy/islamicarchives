@@ -10,10 +10,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Orient et Occident"
-  - "East and West"
+  - "Traditionalism"
   - "civilisation"
-  - "tradition"
-  - "West and the Orient"
+  - "modern West"
+  - "metaphysics"
 summary: "Contrasts the traditional civilisations of the East with the modern West, which Guénon sees as having lost its metaphysical principles, and argues for a restoration of Western intellectuality through contact with Eastern traditions."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1951); later translations may still be in copyright."

@@ -5,8 +5,13 @@ language: "English"
 type: "Book"
 subjects:
   - political-thought
+  - education
 keywords:
-  - "Mohammad Asif Kidwai"
+  - "India"
+  - "Indian subcontinent"
+  - "Indian Muslims"
+  - "Muslim contributions"
+  - "Muslim civilisation"
 summary: "Contributions of Muslims to the Indian Subcontinent. Translated by Mohammad Asif Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

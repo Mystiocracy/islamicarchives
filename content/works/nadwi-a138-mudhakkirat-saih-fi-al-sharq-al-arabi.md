@@ -4,6 +4,13 @@ titleOriginal: "مذكرات سائح في الشرق العربي"
 author: nadwi
 language: "Arabic"
 type: "Book"
+keywords:
+  - "Egypt"
+  - "Sudan"
+  - "Palestine"
+  - "Syria"
+  - "1951 tour"
+  - "Arab East"
 summary: "Memoirs of a Traveller in the Arab East"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

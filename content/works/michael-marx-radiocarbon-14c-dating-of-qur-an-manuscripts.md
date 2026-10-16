@@ -5,9 +5,15 @@ author: michael-marx
 year: 2019
 language: English
 type: "Chapter"
-venue: "in Kaplony and Marx (eds.), Qur'an Quotations Preserved on Papyrus Documents, 7th-10th Centuries, Brill, Leiden"
 subjects:
   - quranic-studies
+keywords:
+  - "radiocarbon dating"
+  - "Qur'an manuscripts"
+  - "palaeography"
+  - "orthography"
+  - "Coranica"
+venue: "in Kaplony and Marx (eds.), Qur'an Quotations Preserved on Papyrus Documents, 7th-10th Centuries, Brill, Leiden"
 summary: "Reports radiocarbon results for several early Qur'an fragments, finding some older than palaeography suggested, and discusses the method's limits when combined with palaeography and orthography."
 rights: link-only
 sourceUrl: "https://corpuscoranicum.de/pdf/Radiocarbon_Dating_of_Quran_Manuscripts.pdf"

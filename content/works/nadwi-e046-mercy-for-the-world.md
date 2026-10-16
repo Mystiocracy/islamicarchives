@@ -3,6 +3,14 @@ title: "Mercy for the World"
 author: nadwi
 language: "English"
 type: "Speech"
+subjects:
+  - quranic-studies
+  - philosophy-and-theology
+keywords:
+  - "rahmatan lil-alamin"
+  - "Qur'an 21:107"
+  - "Prophet Muhammad"
+  - "mercy"
 summary: "Mercy for the World. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

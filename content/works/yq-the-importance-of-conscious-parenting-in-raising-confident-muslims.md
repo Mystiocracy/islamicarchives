@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - family-and-society
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "conscious parenting"
+  - "Muslim children"
+  - "confidence"
+  - "parenting"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

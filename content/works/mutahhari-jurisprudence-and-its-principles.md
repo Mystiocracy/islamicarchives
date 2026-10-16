@@ -11,7 +11,7 @@ keywords:
   - "Ashna'i ba 'olum-e eslami"
   - "usul al-fiqh"
   - "fiqh"
-  - "Salman Tawhidi"
+  - "legal theory"
 summary: "An introductory textbook on Islamic law and legal theory, part of Mutahhari's survey of the Islamic sciences."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

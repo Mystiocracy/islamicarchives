@@ -5,8 +5,6 @@ titleOriginal: "Internet Archive (later edition 'Muhammad, Man of God', borrowab
 year: 1982
 language: "English"
 type: "Book"
-subjects:
-  - philosophy-and-theology
 keywords:
   - "Muhammad, Man of God"
   - "Prophet Muhammad"

@@ -4,9 +4,16 @@ author: jonathan-brown
 year: 2015
 language: English
 type: "Essay"
-venue: "Variety"
 subjects:
   - islamic-law
+  - islam-and-modernity
+keywords:
+  - "homosexuality"
+  - "LGBT"
+  - "sexual ethics"
+  - "liwat"
+  - "sharia"
+venue: "Variety"
 rights: link-only
 sourceUrl: "https://variety.com/2015/voices/opinion/islam-gay-marriage-beliefs-muslim-religion-1201531047/"
 added: 2026-10-14

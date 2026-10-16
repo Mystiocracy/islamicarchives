@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - sufism
+  - hadith-studies
+keywords:
+  - "dua"
+  - "supplication"
+  - "Prophet Muhammad"
+  - "prophetic prayers"
 summary: "Supplications of the Best of Mankind"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

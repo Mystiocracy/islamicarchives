@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+keywords:
+  - "sahih hadith"
+  - "hadith encyclopedia"
+  - "hadith authentication"
+  - "methodology"
 summary: "Proposes a method for an encyclopedia of authentic hadith."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

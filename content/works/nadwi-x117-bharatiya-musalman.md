@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
-  - "Hindustani Musalman (Muslims in India)"
+  - "Hindustani Musalman"
+  - "Indian Muslims"
+  - "India"
 summary: "Indian Muslims. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

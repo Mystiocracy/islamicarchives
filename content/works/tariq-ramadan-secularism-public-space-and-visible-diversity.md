@@ -10,6 +10,7 @@ keywords:
   - "secularism"
   - "public space"
   - "religious diversity"
+  - "visible diversity"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: The Problem of Religious Diversity, Edinburgh University Press, 2017"
 rights: link-only

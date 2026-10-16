@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "addiction"
+  - "Ibn al-Qayyim"
+  - "rehabilitation"
+  - "recovery"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -5,7 +5,12 @@ titleOriginal: "وقت کی اہمیت"
 language: "Hindi"
 type: "Book"
 subjects:
-  - education
+  - family-and-society
+  - sufism
+keywords:
+  - "time"
+  - "Al-Waqt fi Hayat al-Muslim"
+  - "time management"
 summary: "Hindi-tagged upload of the booklet on the value of time."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

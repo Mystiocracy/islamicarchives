@@ -10,7 +10,9 @@ subjects:
   - political-thought
 keywords:
   - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "foreign policy"
+  - "American identity"
+  - "Green Scare"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

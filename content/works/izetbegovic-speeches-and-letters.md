@@ -11,7 +11,7 @@ keywords:
   - "Govori i pisma"
   - "SDA"
   - "Bosnian war"
-  - "speeches"
+  - "Bosnian independence"
 summary: "A collection of his speeches and letters from the period of Bosnia and Herzegovina's independence and the outbreak of war."
 rights: link-only
 rightsNote: "In copyright (author d. 2003)."

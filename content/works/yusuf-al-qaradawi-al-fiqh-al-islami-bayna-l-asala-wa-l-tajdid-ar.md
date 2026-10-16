@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+  - islam-and-modernity
+keywords:
+  - "tajdid"
+  - "renewal"
+  - "ijtihad"
+  - "asala"
+  - "fiqh"
 summary: "Discusses authenticity and renewal in Islamic jurisprudence."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

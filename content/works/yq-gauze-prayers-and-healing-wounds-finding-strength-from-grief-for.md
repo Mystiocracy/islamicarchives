@@ -6,12 +6,14 @@ year: 2026
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - psychology-and-mental-health
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Gaza"
+  - "grief"
+  - "Palestine"
+  - "medics"
+  - "healing"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -4,6 +4,16 @@ titleOriginal: "تاریخ دعوت و عزیمت"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sufism
+  - political-thought
+keywords:
+  - "Saviours of Islamic Spirit"
+  - "tajdid"
+  - "Umar ibn Abd al-Aziz"
+  - "Ibn Taymiyya"
+  - "Shaykh Ahmad Sirhindi"
+  - "Shah Waliullah"
 summary: "History of Islamic revival and reformers (Saviours of Islamic Spirit) 5 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -5,12 +5,14 @@ year: 2015
 language: "English"
 type: "Video"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Ramadan"
+  - "month of Ramadan"
   - "values"
   - "ethics"
-  - "daily series"
+  - "justice"
+  - "forgiveness"
+  - "dignity"
 summary: "Thirty daily video reflections for Ramadan 2015, each devoted to one value such as peace, dignity, freedom, justice, forgiveness, love and solidarity."
 venue: "Tariq Ramadan Official"
 rights: link-only

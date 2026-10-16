@@ -8,8 +8,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "revelation"
+  - "divine foreknowledge"
   - "bid'a"
-  - "history"
+  - "preservation of the Qur'an"
 venue: "AlJumuah Magazine"
 summary: "Reflects on divine foreknowledge as shown in the preservation of the final revelation and warns against innovation."
 rights: link-only

@@ -5,6 +5,12 @@ author: nadwi
 year: 1977
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "changing world"
+  - "modernity"
+  - "renewal"
 summary: "Islam in a changing world (lectures)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

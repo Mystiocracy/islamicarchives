@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "The Leading and Creative Role of Muslims in India"
+  - "India"
+  - "Indian Muslims"
+  - "Muslim leadership"
 summary: "The Leading and Creative Role of Muslims in India"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

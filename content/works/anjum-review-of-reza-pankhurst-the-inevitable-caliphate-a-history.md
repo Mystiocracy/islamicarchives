@@ -9,7 +9,9 @@ subjects:
 keywords:
   - "caliphate"
   - "Hizb al-Tahrir"
-  - "book review"
+  - "Reza Pankhurst"
+  - "1924"
+  - "pan-Islamism"
 venue: "Journal of Islamic Studies 26, no. 3: 351-355"
 summary: "Book review of a history of movements seeking to restore the caliphate after 1924."
 rights: link-only

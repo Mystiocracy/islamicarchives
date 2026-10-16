@@ -8,10 +8,10 @@ subjects:
   - quranic-studies
   - women-and-gender
 keywords:
-  - "Religions"
   - "Islamic feminism"
+  - "feminist exegesis"
   - "tafsir"
-  - "open access"
+  - "hermeneutics"
 summary: "Open-access article reflecting on the development, methods and future of Islamic feminist interpretation of the Qur'an."
 rights: link-only
 rightsNote: "In copyright (living author)."

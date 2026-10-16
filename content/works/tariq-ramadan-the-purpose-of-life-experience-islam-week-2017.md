@@ -8,8 +8,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "purpose of life"
+  - "Experience Islam Week"
   - "Oxford"
-  - "spirituality"
   - "OUISoc"
 summary: "Opening talk of Oxford's Experience Islam Week 2017, in which Ramadan reflects on the purpose of human life from an Islamic perspective."
 venue: "Oxford University Islamic Society (OUISoc)"

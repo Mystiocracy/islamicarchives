@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - sufism
+keywords:
+  - "firasa"
+  - "iman"
+  - "spiritual insight"
 summary: "Faith-born insight"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -5,6 +5,13 @@ author: nadwi
 year: 1997
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Sayyid Abdul Hai"
+  - "Nuzhat al-Khawatir"
+  - "seminar"
+  - "Nadwat al-Ulama"
 summary: "Presidential address, Allama Abdul Hai seminar (16 March 1997)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,12 +6,13 @@ language: "English"
 type: "Video"
 subjects:
   - philosophy-and-theology
+  - islamic-law
 keywords:
   - "Islamic ethics"
   - "maqasid"
   - "methodology"
+  - "Jibreel Institute"
   - "CILE"
-  - "course"
 summary: "A ten-video classroom course on the sources and methodology of Islamic ethics, taught by Ramadan across six sessions for the Jibreel Institute in partnership with the CILE research centre."
 venue: "Jibreel Institute with CILE"
 rights: link-only

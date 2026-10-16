@@ -5,6 +5,13 @@ author: nadwi
 year: 1947
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "To the Representatives of the Muslim Countries"
+  - "Muslim countries"
+  - "Muslim leaders"
+  - "Muslim unity"
 summary: "To the Representatives of the Muslim Countries"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

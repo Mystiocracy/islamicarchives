@@ -5,6 +5,15 @@ author: nadwi
 year: 1986
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islamic-law
+  - political-thought
+keywords:
+  - "All India Muslim Personal Law Board"
+  - "AIMPLB"
+  - "Muslim personal law"
+  - "Shah Bano case"
+  - "Bombay"
 summary: "Presidential address, 8th AIMPLB session, Bombay (1986)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

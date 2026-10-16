@@ -6,7 +6,11 @@ type: "Speech"
 subjects:
   - political-thought
 keywords:
-  - "Musalmanon ke Masa'il wa Jazbat ko Samajhne ki Koshish Kijiye (Ur.)"
+  - "Indian Muslims"
+  - "India"
+  - "Musalmanon ke Masa'il wa Jazbat ko Samajhne ki Koshish Kijiye"
+  - "minority rights"
+  - "communalism"
 summary: "Try to Understand the Problems and Sentiments of Indian Muslims. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

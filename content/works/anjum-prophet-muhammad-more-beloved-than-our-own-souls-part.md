@@ -5,11 +5,12 @@ year: 2018
 language: "English"
 type: "Essay"
 subjects:
-  - hadith-studies
   - philosophy-and-theology
 keywords:
   - "love of the Prophet"
-  - "Sunnah"
+  - "Sunna"
+  - "Prophet Muhammad"
+  - "following the Prophet"
 venue: "AlJumuah Magazine"
 summary: "Argues that love of the Prophet is central to faith and must be expressed by following his Sunnah."
 rights: link-only

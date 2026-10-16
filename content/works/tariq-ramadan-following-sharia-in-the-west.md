@@ -6,6 +6,7 @@ language: "English"
 type: "Chapter"
 subjects:
   - islamic-law
+  - islam-and-modernity
 keywords:
   - "sharia"
   - "English law"

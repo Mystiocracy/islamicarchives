@@ -6,6 +6,10 @@ language: "Hindi"
 type: "Speech"
 subjects:
   - hadith-studies
+keywords:
+  - "sunna"
+  - "ittiba"
+  - "Prophet Muhammad"
 summary: "Complete following of the Prophet is necessary. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

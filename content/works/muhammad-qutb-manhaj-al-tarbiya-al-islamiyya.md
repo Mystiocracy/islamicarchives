@@ -10,8 +10,10 @@ subjects:
   - psychology-and-mental-health
 keywords:
   - "Islamic education"
+  - "tarbiya"
   - "upbringing"
   - "character formation"
+  - "King Faisal Prize"
 venue: "Dār al-Shurūq (first ed. Dār al-Qalam)"
 summary: "Two-volume treatment of Islamic education, the first on theory and the second on practice; awarded the King Faisal Prize in 1988."
 rights: link-only

@@ -5,13 +5,14 @@ year: 2012
 language: "English"
 type: "Article"
 subjects:
-  - family-and-society
+  - islam-and-modernity
+  - political-thought
 keywords:
-  - "Merah"
+  - "Mohamed Merah"
+  - "Toulouse shootings"
   - "France"
   - "marginalisation"
   - "terrorism"
-  - "elections"
 summary: "Ramadan argues the Toulouse gunman was a marginalised French citizen whose social and economic exclusion mattered more than religion, and that politicians exploited the tragedy for electoral gain."
 venue: "ABC Religion & Ethics, 23 March 2012"
 rights: link-only

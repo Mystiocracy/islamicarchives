@@ -5,10 +5,14 @@ byline: "Khalil Abdurrashid"
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - economics
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "waqf"
+  - "endowments"
+  - "philanthropy"
+  - "Islamic institutions"
+  - "charity"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

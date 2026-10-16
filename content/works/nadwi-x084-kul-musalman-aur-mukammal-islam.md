@@ -4,6 +4,11 @@ titleOriginal: "कुल मुसलमान और मुकम्मल इ
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "complete Islam"
 summary: "All Muslims and the whole of Islam. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

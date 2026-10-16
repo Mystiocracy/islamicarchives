@@ -9,7 +9,8 @@ subjects:
   - education
 keywords:
   - "decolonization"
-  - "knowledge"
+  - "epistemology"
+  - "Eurocentrism"
 venue: "Institute of Policy Studies, Islamabad"
 summary: "Long lecture on decolonising knowledge from a Muslim standpoint."
 rights: link-only

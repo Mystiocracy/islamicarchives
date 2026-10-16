@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "Alexander Russell Webb"
   - "American Islam"
-  - "biography"
   - "conversion"
+  - "Victorian America"
 summary: "A biography of an early American convert to Islam, whose life opens a window on the United States of the late 1800s and early 1900s."
 venue: "Oxford University Press"
 rights: link-only

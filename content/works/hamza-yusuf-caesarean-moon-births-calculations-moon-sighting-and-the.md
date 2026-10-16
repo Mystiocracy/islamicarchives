@@ -6,12 +6,13 @@ language: "English"
 type: "Book"
 subjects:
   - islamic-law
+  - science-and-religion
 keywords:
   - "moon sighting"
   - "hilal"
   - "astronomical calculation"
   - "Ramadan"
-  - "Fiqh Council"
+  - "Fiqh Council of North America"
 summary: "A legal study arguing for physical sighting of the new moon to begin the lunar months, against reliance on astronomical calculation alone."
 rights: link-only
 rightsNote: "In copyright (living author)."

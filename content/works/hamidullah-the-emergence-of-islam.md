@@ -10,9 +10,10 @@ subjects:
   - islamic-law
 keywords:
   - "Khutbat-e-Bahawalpur"
-  - "Afzal Iqbal (translator)"
-  - "Islamia University Bahawalpur"
-  - "lectures 1980"
+  - "Bahawalpur"
+  - "compilation of the Qur'an"
+  - "history of hadith"
+  - "Islamic state"
 summary: "Twelve lectures given at Bahawalpur in 1980 on the history of the Qur'an and hadith, Islamic law, the state, administration, finance and the spread of Islam in the Prophet's time."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

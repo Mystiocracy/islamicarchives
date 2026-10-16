@@ -8,11 +8,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
   - political-thought
-  - philosophy-and-theology
 keywords:
   - "jahiliyya"
   - "modern civilisation"
   - "critique of the West"
+  - "Jadid jahiliyyat"
 venue: "Dār al-Shurūq"
 summary: "His best-known work, portraying modern civilisation as a new jahiliyya marked by corruption in belief, politics, economics, sexuality and art."
 rights: link-only

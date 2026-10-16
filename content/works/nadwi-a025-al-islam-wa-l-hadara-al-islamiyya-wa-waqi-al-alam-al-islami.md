@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic civilisation"
+  - "Muslim world"
+  - "contemporary Muslim world"
 summary: "Islam, Islamic Civilisation and the Reality of the Muslim World"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

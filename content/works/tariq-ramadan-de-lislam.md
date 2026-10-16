@@ -7,9 +7,8 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "On Islam (English rendering of the title)"
-  - "introduction"
-  - "pocket series"
+  - "On Islam"
+  - "introduction to Islam"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Tawhid poche (Lyon)"
 rights: link-only

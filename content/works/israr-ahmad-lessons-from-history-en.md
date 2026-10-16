@@ -4,11 +4,13 @@ author: israr-ahmad
 language: "English"
 type: "Book"
 subjects:
+  - quranic-studies
   - political-thought
 keywords:
-  - "history"
   - "Bani Israel"
-  - "ummah"
+  - "Israelites"
+  - "Ummah"
+  - "rise and decline"
 summary: "English rendering of his reflections on parallels between the history of the Israelites and of the Muslims."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

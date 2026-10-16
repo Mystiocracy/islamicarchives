@@ -6,8 +6,12 @@ language: Arabic
 type: "Pamphlet"
 subjects:
   - hadith-studies
+  - philosophy-and-theology
 keywords:
-  - "Hadith Is Authoritative in Itself"
+  - "al-Hadith hujja bi-nafsih"
+  - "khabar al-wahid"
+  - "aqida"
+  - "authority of hadith"
 summary: "On accepting single-narrator reports in creed and law."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

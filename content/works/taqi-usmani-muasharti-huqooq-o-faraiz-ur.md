@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - family-and-society
+keywords:
+  - "social rights"
+  - "huquq al-'ibad"
+  - "neighbours"
+  - "relatives"
 summary: "Sets out social rights and duties among relatives, neighbours and the community."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

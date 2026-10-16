@@ -4,8 +4,12 @@ titleOriginal: "نقش طلاب و حوزه های علمیه در جامعه"
 author: nadwi
 language: "Persian"
 type: "Pamphlet"
+subjects:
+  - education
 keywords:
-  - "مولوی یارمحمد امراء"
+  - "madrasa"
+  - "seminaries"
+  - "students"
 summary: "The role of students and seminaries in society. Translated by مولوی یارمحمد امراء."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

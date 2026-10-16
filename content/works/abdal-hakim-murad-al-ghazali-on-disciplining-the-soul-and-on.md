@@ -9,10 +9,11 @@ subjects:
   - sufism
 keywords:
   - "al-Ghazali"
-  - "Ihya ʿUlum al-Din Books XXII-XXIII"
+  - "Ihya Ulum al-Din"
   - "nafs"
+  - "riyadat al-nafs"
+  - "desires"
   - "character"
-  - "Islamic Texts Society"
 summary: "A translation, with introduction and notes, of two books of al-Ghazālī's Revival on refining character, training the soul and controlling the appetites."
 rights: link-only
 rightsNote: "In copyright (living author)."

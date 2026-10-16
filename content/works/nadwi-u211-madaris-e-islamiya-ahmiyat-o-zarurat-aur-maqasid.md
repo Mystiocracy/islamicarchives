@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "madrasa"
+  - "Islamic seminaries"
+  - "aims of madrasas"
 summary: "Islamic madrasas: importance, need and aims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

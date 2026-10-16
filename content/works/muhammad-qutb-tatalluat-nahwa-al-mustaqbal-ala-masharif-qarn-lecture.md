@@ -7,8 +7,10 @@ type: "Video"
 subjects:
   - islam-and-modernity
 keywords:
-  - "audio"
-  - "future"
+  - "future of Islam"
+  - "twenty-first century"
+  - "Islamic revival"
+  - "new century"
 venue: "Internet Archive"
 summary: "Audio lecture (1h28) on hopes for the Muslim future at the turn of the century."
 rights: link-only

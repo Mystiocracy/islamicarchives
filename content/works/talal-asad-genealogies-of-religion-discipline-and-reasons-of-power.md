@@ -7,6 +7,12 @@ type: "Book"
 subjects:
   - islam-and-modernity
   - philosophy-and-theology
+keywords:
+  - "genealogy of religion"
+  - "discipline"
+  - "ritual"
+  - "monasticism"
+  - "anthropology of religion"
 summary: "Essays on the Western category of religion and on medieval monastic discipline versus Muslim theological and ritual practice, with power and discipline as the common thread."
 venue: "Johns Hopkins University Press, 1993"
 rights: link-only

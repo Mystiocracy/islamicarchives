@@ -9,10 +9,10 @@ subjects:
   - political-thought
   - islam-and-modernity
 keywords:
-  - "Khatirat"
   - "Muhammad Pasha al-Makhzumi"
   - "table talk"
-  - "recorded opinions"
+  - "Istanbul"
+  - "Ottoman Empire"
 summary: "Opinions and conversations of al-Afghānī recorded by his disciple Muḥammad Pāshā al-Makhzūmī during his last years in Istanbul."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1897); later translations may still be in copyright."

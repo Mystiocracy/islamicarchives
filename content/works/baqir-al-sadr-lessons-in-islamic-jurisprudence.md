@@ -11,7 +11,8 @@ keywords:
   - "Durus fi 'ilm al-usul"
   - "al-Halaqat"
   - "usul al-fiqh"
-  - "tr. Roy Mottahedeh"
+  - "Shi'i legal theory"
+  - "hawza"
 summary: "A graded three-part course in Shiʿi legal theory written for seminary students, which became a standard textbook in Najaf and Qom."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

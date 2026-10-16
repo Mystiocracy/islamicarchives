@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "ifta"
+  - "moderation"
+  - "ijtihad"
+  - "mufti"
 summary: "Calls for rigour and moderation in issuing fatwas."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

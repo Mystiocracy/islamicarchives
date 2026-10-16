@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "contemporary issues"
+  - "ijtihad"
 summary: "Combined first and second volumes of his contemporary fatwa collection."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

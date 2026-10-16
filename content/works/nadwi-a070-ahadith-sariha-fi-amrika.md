@@ -5,6 +5,13 @@ author: nadwi
 year: 1981
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Frank Talks in America"
+  - "America"
+  - "Muslims in the West"
+  - "Western civilisation"
 summary: "Frank Talks in America"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

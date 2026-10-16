@@ -7,7 +7,11 @@ language: "Persian"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
+  - "Mafahim yanbaghi an tusahhah"
+  - "tawhid"
+  - "worship"
   - "concepts"
 venue: "Nashr-i Iḥsān, Tehran"
 summary: "Persian translation of Mafahim yanbaghi an tusahhah."

@@ -4,6 +4,10 @@ titleOriginal: "تبلیغی تقاریر"
 author: nadwi
 language: "Urdu"
 type: "Speech"
+keywords:
+  - "Tablighi Jamaat"
+  - "tabligh"
+  - "da'wa"
 summary: "Speeches on Tabligh"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

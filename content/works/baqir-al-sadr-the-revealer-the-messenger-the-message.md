@@ -10,7 +10,8 @@ keywords:
   - "al-Mursil al-Rasul al-Risala"
   - "proof of God"
   - "prophethood"
-  - "introduction to al-Fatawa al-wadiha"
+  - "revelation"
+  - "al-Fatawa al-wadiha"
 summary: "A concise argument for the existence of God, the prophethood of Muhammad and the divine origin of the Qurʾan, originally the introduction to al-Fatāwā al-wāḍiḥa."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

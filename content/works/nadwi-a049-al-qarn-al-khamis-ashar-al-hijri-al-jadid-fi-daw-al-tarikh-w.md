@@ -5,6 +5,13 @@ author: nadwi
 year: 1981
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "15th Hijri century"
+  - "Hijri calendar"
+  - "Islamic revival"
+  - "Muslim world"
 summary: "The New 15th Hijri Century in Light of History and Reality"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -5,6 +5,14 @@ author: nadwi
 year: 1993
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+  - science-and-religion
+keywords:
+  - "Integral University"
+  - "Institute of Integral Technology"
+  - "Lucknow"
+  - "technical education"
 summary: "Presidential address and short report, Institute of Integral Technology (3 Nov 1993)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

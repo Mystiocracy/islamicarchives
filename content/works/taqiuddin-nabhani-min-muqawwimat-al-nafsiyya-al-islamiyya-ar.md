@@ -5,7 +5,13 @@ titleOriginal: "من مقومات النفسية الإسلامية"
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Islamic disposition"
+  - "nafsiyya"
+  - "Hizb ut-Tahrir"
+  - "al-Shakhsiyya al-Islamiyya"
+  - "character"
 summary: "A short work on the traits that shape an Islamic disposition, drawn mainly from al-Shakhsiyya al-Islamiyya."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

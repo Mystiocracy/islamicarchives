@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "spiritual memoir"
   - "five pillars"
-  - "Kantara Press"
+  - "hajj"
+  - "progressive Islam"
 summary: "A spiritual memoir that introduces the five pillars of Islam from a progressive, gender-inclusive perspective."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -7,7 +7,11 @@ type: "Book"
 subjects:
   - hadith-studies
   - education
-  - islamic-law
+keywords:
+  - "Muhammad Zakariyya Kandhlawi"
+  - "Shaykh al-Hadith"
+  - "Saharanpur"
+  - "Mazahir Uloom"
 summary: "The Hadith Master Shaykh Muhammad Zakariyya Kandhlawi and His Scholarly Legacy"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

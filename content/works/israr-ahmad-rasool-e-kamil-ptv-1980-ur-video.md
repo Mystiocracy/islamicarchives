@@ -5,12 +5,11 @@ titleOriginal: "رسولِ کامل"
 year: 1980
 language: "Urdu"
 type: "Video"
-subjects:
-  - political-thought
 keywords:
-  - "Seerah"
+  - "sira"
+  - "Prophet Muhammad"
   - "PTV"
-  - "prophethood"
+  - "prophetic mission"
 venue: "Pakistan Television (PTV)"
 summary: "His 12-part 1980 television series on the life and mission of the Prophet."
 rights: link-only

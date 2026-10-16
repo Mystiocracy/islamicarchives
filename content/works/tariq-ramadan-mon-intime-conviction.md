@@ -5,13 +5,13 @@ year: 2008
 language: "French"
 type: "Book"
 subjects:
-  - political-thought
+  - islam-and-modernity
 keywords:
-  - "My Intimate Conviction (revised edition of Face à nos peurs: le choix de la confiance) (English rendering of the title)"
+  - "My Intimate Conviction"
+  - "Face à nos peurs"
   - "controversy"
   - "reply to critics"
   - "secularism"
-  - "trust"
 summary: "Responds to the controversies that followed him in several countries, restating his positions on faith, violence, women, Israel and Western secular societies, and asking for trust and debate instead of suspicion."
 venue: "Presses du Châtelet (Paris) 2009; Archipoche pocket 2010; first as Face à nos peurs, Tawhid 2008"
 rights: link-only

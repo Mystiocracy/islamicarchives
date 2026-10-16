@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "murabaha"
+  - "Islamic banking"
+  - "Islamic finance"
+  - "riba"
 summary: "Studies murabaha sale as practised by Islamic banks and its legal soundness."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

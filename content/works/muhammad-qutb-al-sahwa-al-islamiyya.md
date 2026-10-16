@@ -11,6 +11,8 @@ subjects:
 keywords:
   - "Islamic revival"
   - "sahwa"
+  - "Islamic awakening"
+  - "Islamic movement"
 venue: "Maktabat al-Sunna, Cairo"
 summary: "Discusses the contemporary Islamic awakening, its strengths and the obstacles before it."
 rights: link-only

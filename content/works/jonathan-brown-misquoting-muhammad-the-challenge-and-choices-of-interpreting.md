@@ -11,8 +11,9 @@ subjects:
 keywords:
   - "interpretation"
   - "tradition"
-  - "authority"
-  - "Oneworld"
+  - "religious authority"
+  - "hermeneutics"
+  - "Sunna"
 summary: "Examines how Muslim scholars have interpreted the Qur'an and the Prophet's sayings, the role of tradition and authority, and the dilemmas modern Muslims face in reading scripture."
 rights: link-only
 rightsNote: "In copyright (living author)."

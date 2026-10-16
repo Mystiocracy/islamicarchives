@@ -7,8 +7,11 @@ type: "Article"
 subjects:
   - islamic-law
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "Shawwal"
+  - "fasting"
+  - "sawm"
+  - "Ramadan"
+  - "voluntary fasting"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

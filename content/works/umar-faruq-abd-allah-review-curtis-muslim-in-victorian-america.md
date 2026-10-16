@@ -8,8 +8,10 @@ type: "Review"
 subjects:
   - islam-and-modernity
 keywords:
-  - "book review"
   - "Alexander Russell Webb"
+  - "A Muslim in Victorian America"
+  - "Edward Curtis"
+  - "Journal of Religion"
 summary: "A review of *A Muslim in Victorian America* by Curtis in the Journal of Religion."
 venue: "Journal of Religion"
 rights: link-only

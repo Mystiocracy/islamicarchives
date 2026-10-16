@@ -5,7 +5,12 @@ author: nadwi
 language: "Gujarati"
 type: "Pamphlet"
 subjects:
+  - family-and-society
   - political-thought
+keywords:
+  - "India"
+  - "Indian society"
+  - "Payam-e-Insaniyat"
 summary: "What Islam can contribute to building a good Indian society. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

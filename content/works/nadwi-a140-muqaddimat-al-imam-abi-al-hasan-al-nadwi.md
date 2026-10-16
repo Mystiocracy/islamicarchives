@@ -5,6 +5,13 @@ author: nadwi
 year: 2010
 language: "Arabic"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "prefaces"
+  - "muqaddimat"
+  - "introductions"
+  - "book prefaces"
 summary: "The Prefaces of Imam Abul Hasan Nadwi 3 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -4,9 +4,14 @@ author: nadwi
 year: 1984
 language: "English"
 type: "Speech"
+subjects:
+  - political-thought
 keywords:
-  - "Is Ghar ko Aag lag gayi Ghar ke Chiragh se (Ur.)"
-  - "Qazi Abdul Hameed"
+  - "India"
+  - "Payam-e-Insaniyat"
+  - "Lucknow"
+  - "communalism"
+  - "Is Ghar ko Aag lag gayi Ghar ke Chiragh se"
 summary: "The Lamp of the House Burnt Down the House. Translated by Qazi Abdul Hameed from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

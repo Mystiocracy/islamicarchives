@@ -5,8 +5,8 @@ year: 1906
 language: "English"
 type: "Novel"
 subjects:
+  - family-and-society
   - islam-and-modernity
-  - women-and-gender
 keywords:
   - "Syria"
   - "Muslim household"

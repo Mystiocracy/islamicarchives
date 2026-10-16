@@ -9,6 +9,7 @@ subjects:
 keywords:
   - "khilafah"
   - "Islamic revolution"
+  - "Khutbaat-e-Khilafat"
   - "Islamic state"
 summary: "Collected lectures on caliphate and Islamic revolution, including Khutbaat-e-Khilafat and talks given in India and Pakistan."
 rights: link-only

@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+  - islam-and-modernity
+keywords:
+  - "educational reform"
+  - "curriculum"
+  - "Muslim countries"
+  - "Baghdad"
+  - "Westernisation"
 summary: "How Education Should Be Directed in Muslim Countries"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

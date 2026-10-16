@@ -4,6 +4,13 @@ titleOriginal: "ملک کا حقیقی مسئلہ اور اس کے لیے اصل
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - family-and-society
+keywords:
+  - "India"
+  - "communalism"
+  - "national crisis"
 summary: "The country's real problem and the real danger"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

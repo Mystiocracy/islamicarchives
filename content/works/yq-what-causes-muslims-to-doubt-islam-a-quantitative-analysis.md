@@ -5,10 +5,15 @@ byline: "Youssef Chouhoud"
 year: 2018
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - islam-and-modernity
+  - philosophy-and-theology
 keywords:
-  - "Data"
-  - "Reports"
+  - "religious doubt"
+  - "apostasy"
+  - "survey"
+  - "faith crisis"
+  - "leaving Islam"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

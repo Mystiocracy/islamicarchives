@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "European Islam"
   - "British Muslims"
-  - "essays"
-  - "Quilliam Press"
+  - "extremism"
+  - "liberalism"
 summary: "A collection of essays on the past, present and future of Muslims in Europe, on identity, extremism, liberalism and the recovery of tradition."
 rights: link-only
 rightsNote: "In copyright (living author)."

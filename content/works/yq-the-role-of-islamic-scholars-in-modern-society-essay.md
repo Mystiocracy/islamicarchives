@@ -5,10 +5,13 @@ year: 2023
 language: "English"
 type: "Essay"
 subjects:
-  - islamic-law
+  - islam-and-modernity
+  - education
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "ulama"
+  - "religious authority"
+  - "Islamic scholarship"
+  - "scholars"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

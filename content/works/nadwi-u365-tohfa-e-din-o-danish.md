@@ -6,7 +6,12 @@ year: 1987
 language: "Urdu"
 type: "Speech"
 subjects:
-  - philosophy-and-theology
+  - education
+  - islam-and-modernity
+keywords:
+  - "din"
+  - "ilm"
+  - "modern education"
 summary: "Gift of faith and wisdom (speeches)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

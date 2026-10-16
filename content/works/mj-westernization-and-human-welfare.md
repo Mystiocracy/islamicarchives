@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Westernization"
+  - "materialism"
+  - "modernization"
+  - "human welfare"
+venue: "Mohammad Yusuf Khan"
 summary: "The philosophical sources of Western materialism, and whether modernization serves human welfare."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Internet Archive"

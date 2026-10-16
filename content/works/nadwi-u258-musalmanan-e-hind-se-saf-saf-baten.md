@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - family-and-society
+keywords:
+  - "Indian Muslims"
+  - "self-criticism"
+  - "community reform"
 summary: "Plain talk to Indian Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

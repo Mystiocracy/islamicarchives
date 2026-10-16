@@ -4,8 +4,14 @@ author: nadwi
 year: 1967
 language: "English"
 type: "Pamphlet"
+subjects:
+  - political-thought
 keywords:
-  - "Mohiuddin Ahmad"
+  - "1967 war"
+  - "Six-Day War"
+  - "Arabs"
+  - "Israel"
+  - "Arab defeat"
 summary: "The Arabs Must Win. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

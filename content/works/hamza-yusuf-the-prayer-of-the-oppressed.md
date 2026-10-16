@@ -7,11 +7,12 @@ language: "Arabic"
 type: "Translation"
 subjects:
   - sufism
-  - political-thought
 keywords:
-  - "Muhammad ibn Nasir al-Darʿi"
-  - "al-Nasiriyya"
+  - "al-Du'a al-Nasiri"
+  - "Muhammad ibn Nasir al-Dar'i"
   - "supplication"
+  - "du'a"
+  - "oppression"
   - "justice"
 summary: "A translation of the supplication composed by the Moroccan Sufi Muḥammad ibn Nāṣir al-Darʿī, a plea for divine mercy and for justice against oppression."
 rights: link-only

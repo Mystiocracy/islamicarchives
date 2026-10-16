@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ḍaʿīf al-Jāmiʿ al-ṣaghīr wa-ziyādatuh"
-  - "Albani"
+  - "al-Jami al-saghir"
+  - "al-Suyuti"
+  - "weak hadith"
+  - "da'if"
 summary: "The companion volume of weak hadith from the same work."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

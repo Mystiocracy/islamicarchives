@@ -5,11 +5,12 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - islam-and-modernity
-  - political-thought
+  - philosophy-and-theology
 keywords:
-  - "Identity"
-  - "Politics & Practical Theology"
+  - "salvation"
+  - "non-Muslims"
+  - "afterlife"
+  - "soteriology"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -5,12 +5,14 @@ year: 2013
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - sufism
+  - islam-and-modernity
 keywords:
-  - "Ramadan"
   - "fasting"
+  - "month of Ramadan"
   - "freedom"
   - "consumerism"
+  - "solidarity with the poor"
 summary: "Presents fasting as a practice of self-examination, humility and generosity, which challenges consumer notions of freedom by directing believers inward and towards solidarity with the poor."
 venue: "ABC Religion & Ethics, 16 July 2013"
 rights: link-only

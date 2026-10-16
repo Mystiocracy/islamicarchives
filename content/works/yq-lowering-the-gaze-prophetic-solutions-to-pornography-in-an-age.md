@@ -7,9 +7,12 @@ language: "English"
 type: "Essay"
 subjects:
   - psychology-and-mental-health
+  - family-and-society
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "pornography"
+  - "lowering the gaze"
+  - "addiction"
+  - "sexual ethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

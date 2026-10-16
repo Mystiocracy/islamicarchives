@@ -9,7 +9,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "al-Sira' bayna al-Iman wal-Maddiyya"
-  - "unclear (legacy-font text, apparently K.J. Masthan Ali Baqavi Umari; unverified)"
+  - "materialism"
+  - "Surat al-Kahf"
 summary: "The conflict between faith and materialism. Translated by unclear (legacy-font text, apparently K.J. Masthan Ali Baqavi Umari; unverified)."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

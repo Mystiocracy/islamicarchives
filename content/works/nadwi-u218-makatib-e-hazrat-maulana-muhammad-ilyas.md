@@ -5,6 +5,13 @@ author: nadwi
 year: 1952
 language: "Urdu"
 type: "Letters"
+subjects:
+  - sufism
+keywords:
+  - "Muhammad Ilyas"
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "letters"
 summary: "Letters of Maulana Muhammad Ilyas"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

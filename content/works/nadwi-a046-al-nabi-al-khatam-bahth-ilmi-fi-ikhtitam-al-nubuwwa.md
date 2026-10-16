@@ -6,7 +6,12 @@ year: 1978
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "The Seal of the Prophets"
+  - "finality of prophethood"
+  - "khatm al-nubuwwa"
+  - "Qadianism"
 summary: "The Seal of the Prophets: A Study of the Finality of Prophethood"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

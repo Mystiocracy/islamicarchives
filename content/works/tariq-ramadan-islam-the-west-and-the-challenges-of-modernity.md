@@ -8,9 +8,10 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
+  - "Islam, le face à face des civilisations"
+  - "clash of civilisations"
   - "modernity"
-  - "civilisations"
-  - "West"
+  - "the West"
   - "reform"
 summary: "Rejects the clash-of-civilisations frame and asks what project of modernity Muslims and Westerners can build together, examining Islamic sources on reason, education, economics and politics as resources for critical engagement rather than imitation or rejection."
 venue: "The Islamic Foundation (Markfield, Leicester); French original Tawhid (Lyon)"

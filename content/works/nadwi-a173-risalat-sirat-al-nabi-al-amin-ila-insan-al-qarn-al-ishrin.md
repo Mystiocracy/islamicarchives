@@ -5,7 +5,12 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - islam-and-modernity
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "twentieth century"
+  - "modern man"
 summary: "The Message of the Trustworthy Prophet's Life to 20th-Century Man"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

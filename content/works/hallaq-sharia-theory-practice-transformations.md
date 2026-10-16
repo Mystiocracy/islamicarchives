@@ -8,10 +8,11 @@ subjects:
   - islamic-law
   - colonialism-and-decolonisation
 keywords:
-  - "Sharia"
+  - "sharia"
   - "colonialism"
   - "modern state"
   - "legal history"
+  - "codification"
 summary: "A comprehensive account of the Sharia as a pre-modern moral-legal system and of its dismantling and transformation under colonialism and the modern nation-state."
 rights: link-only
 rightsNote: "In copyright (living author)."

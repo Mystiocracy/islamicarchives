@@ -5,6 +5,14 @@ author: nadwi
 year: 1944
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+  - islam-and-modernity
+keywords:
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "tabligh"
+  - "Muhammad Ilyas"
 summary: "An important religious call (Tablighi Jamaat)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

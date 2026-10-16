@@ -13,7 +13,7 @@ keywords:
   - "secularism"
   - "laïcité"
   - "Religion et laïcité"
-  - "tr. Hashim Salih"
+  - "Christianity"
 summary: "Discusses secularism as an intellectual attitude rather than an anti-religious doctrine and compares its development in Christian and Muslim contexts."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

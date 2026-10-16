@@ -7,10 +7,11 @@ type: "Collection"
 subjects:
   - sufism
 keywords:
-  - "al-Mathurat"
   - "wird"
+  - "dhikr"
   - "daily litanies"
   - "supplications"
+  - "Muslim Brotherhood"
 summary: "A compilation of Qurʾānic passages and prophetic supplications to be recited morning and evening by members of the Brotherhood."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

@@ -7,6 +7,12 @@ language: "English"
 type: "Translation"
 subjects:
   - economics
+keywords:
+  - "Mushkilat al-Faqr wa-Kayfa Alajaha al-Islam"
+  - "poverty"
+  - "zakat"
+  - "charity"
+  - "social security"
 summary: "Explains how Islam tackles poverty through work, zakah, charity and state responsibility."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

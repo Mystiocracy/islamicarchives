@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "ummah"
+  - "Muslim unity"
+  - "pan-Islamism"
+  - "nationalism"
 summary: "Argues that the Islamic ummah is a real entity."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

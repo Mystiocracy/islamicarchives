@@ -5,7 +5,13 @@ year: 1986
 language: "English"
 type: "Speech"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "khatm al-nubuwwa"
+  - "finality of prophethood"
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Darul Uloom Deoband"
 summary: "The Final Prophet and the Perfect Religion. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

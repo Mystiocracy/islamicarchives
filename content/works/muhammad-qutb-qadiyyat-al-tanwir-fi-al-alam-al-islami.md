@@ -7,11 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
   - "enlightenment"
   - "tanwir"
   - "secularism"
+  - "European Enlightenment"
 venue: "Dār al-Shurūq"
 summary: "Critique of 'enlightenment' (tanwir) discourse in the Muslim world and its European roots."
 rights: link-only

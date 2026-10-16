@@ -5,7 +5,13 @@ titleOriginal: "حضرت معاویہ اور تاریخی حقائق"
 language: "Urdu"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - political-thought
+keywords:
+  - "Mu'awiya ibn Abi Sufyan"
+  - "Companions"
+  - "Khilafat o Malukiyat"
+  - "Mawdudi"
+  - "Umayyads"
 summary: "Defends Muawiya ibn Abi Sufyan against historical charges, using early sources."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

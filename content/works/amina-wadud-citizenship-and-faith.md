@@ -5,12 +5,13 @@ year: 2005
 language: "English"
 type: "Chapter"
 subjects:
-  - political-thought
   - women-and-gender
+  - political-thought
 keywords:
   - "Women and Citizenship"
-  - "Marilyn Friedman"
   - "citizenship"
+  - "Muslim women"
+  - "religious identity"
 summary: "Chapter in Women and Citizenship (ed. Marilyn Friedman) reflecting on Muslim women's citizenship and religious identity."
 rights: link-only
 rightsNote: "In copyright (living author)."

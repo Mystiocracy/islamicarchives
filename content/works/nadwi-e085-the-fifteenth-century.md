@@ -4,8 +4,13 @@ author: nadwi
 year: 1981
 language: "English"
 type: "Speech"
+subjects:
+  - islam-and-modernity
 keywords:
-  - "Syed Mohiuddin (Ahmad)"
+  - "15th Hijri century"
+  - "Hijri calendar"
+  - "Lucknow"
+  - "Muslim future"
 summary: "The Fifteenth Century. Translated by Syed Mohiuddin (Ahmad) from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

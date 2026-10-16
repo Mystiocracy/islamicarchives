@@ -3,11 +3,10 @@ title: "The Wasiyyah (Last Advice) of Shaykh al-Albani"
 author: albani
 language: English
 type: "Article"
-subjects:
-  - hadith-studies
 keywords:
-  - "will"
   - "wasiyya"
+  - "will"
+  - "last advice"
 summary: "English audio reading of his last will; also a YouTube reading by Kader Sahib Maricar: https://www.youtube.com/watch?v=s6SjD02wMa0"
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

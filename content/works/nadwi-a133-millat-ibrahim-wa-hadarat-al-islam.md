@@ -6,7 +6,14 @@ year: 1992
 language: "Arabic"
 type: "Pamphlet"
 subjects:
+  - philosophy-and-theology
   - islam-and-modernity
+keywords:
+  - "Abraham"
+  - "Ibrahim"
+  - "millat Ibrahim"
+  - "tawhid"
+  - "Islamic civilisation"
 summary: "The Creed of Abraham and the Civilisation of Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

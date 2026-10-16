@@ -8,12 +8,12 @@ type: "Essay"
 subjects:
   - psychology-and-mental-health
   - islam-and-modernity
-  - political-thought
 keywords:
-  - "General Psychology"
-  - "Identity"
-  - "Politics & Practical Theology"
-  - "Psychology & Mental Health"
+  - "dignity"
+  - "honor"
+  - "self-worth"
+  - "Muslim identity"
+  - "izzah"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

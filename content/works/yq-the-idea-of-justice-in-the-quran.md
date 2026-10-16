@@ -6,10 +6,13 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
+  - quranic-studies
   - political-thought
 keywords:
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "justice"
+  - "'adl"
+  - "Qur'anic justice"
+  - "law"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

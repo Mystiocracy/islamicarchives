@@ -7,11 +7,13 @@ language: English
 type: "Paper"
 subjects:
   - science-and-religion
+  - philosophy-and-theology
 keywords:
   - "human origins"
   - "evolution"
   - "Adam"
-  - "Yaqeen"
+  - "Yaqeen Institute"
+  - "theology and science"
 summary: "A Yaqeen paper on how Muslim theology and the scientific evidence on human origins relate."
 venue: "Yaqeen Institute for Islamic Research"
 rights: link-only

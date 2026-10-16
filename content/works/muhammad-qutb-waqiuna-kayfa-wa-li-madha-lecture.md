@@ -8,7 +8,9 @@ subjects:
   - islam-and-modernity
   - colonialism-and-decolonisation
 keywords:
-  - "lecture"
+  - "contemporary Muslim condition"
+  - "Muslim decline"
+  - "Waqi'una al-mu'asir"
 venue: "YouTube (Najib al-Rifai)"
 summary: "Lecture (1h10) on the causes of the Muslim world's present condition."
 rights: link-only

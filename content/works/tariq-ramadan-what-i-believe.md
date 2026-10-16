@@ -8,8 +8,9 @@ subjects:
   - islam-and-modernity
 keywords:
   - "reply to critics"
-  - "reform"
   - "Western Muslims"
+  - "reform"
+  - "secularism"
 summary: "A personal statement answering his critics, setting out his views on Islam and the West, women, violence, secularism and his role as a public intellectual, and defending a reformist, ethical reading of Islam."
 venue: "Oxford University Press"
 rights: link-only

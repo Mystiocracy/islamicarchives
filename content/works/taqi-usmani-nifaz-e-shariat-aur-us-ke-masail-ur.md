@@ -7,6 +7,11 @@ type: "Book"
 subjects:
   - islamic-law
   - political-thought
+keywords:
+  - "implementation of sharia"
+  - "Pakistan"
+  - "Islamisation"
+  - "Islamic state"
 summary: "Essays on implementing Islamic law in Pakistan and the practical obstacles to it."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

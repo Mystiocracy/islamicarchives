@@ -5,12 +5,13 @@ year: 2023
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - political-thought
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Palestine"
+  - "Gaza"
+  - "activism"
+  - "boycott"
+  - "solidarity"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

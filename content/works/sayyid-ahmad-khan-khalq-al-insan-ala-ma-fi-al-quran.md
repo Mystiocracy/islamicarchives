@@ -7,12 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
-  - philosophy-and-theology
+  - science-and-religion
 keywords:
   - "creation of man"
   - "Adam"
   - "evolution"
-  - "science and religion"
 summary: "A treatise on the Qur'anic account of human creation, read in a way that leaves room for natural processes of development."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

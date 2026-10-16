@@ -6,11 +6,11 @@ language: "English"
 type: "Chapter"
 subjects:
   - islam-and-modernity
-  - education
 keywords:
   - "Middle East"
+  - "Islamic tradition"
   - "teaching"
-  - "Islamic history"
+  - "modern Middle East"
 venue: "In Omnia El Shakry (ed.), Understanding and Teaching the Modern Middle East (University of Wisconsin Press), 49-67"
 summary: "A teaching-oriented chapter on how Islamic tradition shapes the modern Middle East."
 rights: link-only

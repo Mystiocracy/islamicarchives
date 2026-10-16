@@ -6,8 +6,9 @@ type: "Pamphlet"
 subjects:
   - women-and-gender
 keywords:
-  - "women"
+  - "Muslim women"
   - "religious duties"
+  - "women's obligations"
 summary: "English translation of his tract on the religious duties of Muslim women."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

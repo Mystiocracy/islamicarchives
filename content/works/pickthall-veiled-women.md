@@ -6,10 +6,12 @@ language: "English"
 type: "Novel"
 subjects:
   - women-and-gender
+  - family-and-society
 keywords:
   - "Egypt"
+  - "Cairo"
   - "harem"
-  - "English wife"
+  - "mixed marriage"
   - "novel"
 summary: "An Englishwoman marries an Egyptian Muslim, and the novel follows her life in the women's quarters of an upper-class Cairo household."
 rights: link-only

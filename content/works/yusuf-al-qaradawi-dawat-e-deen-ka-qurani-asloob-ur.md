@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "dawa"
+  - "Qur'anic method"
+  - "invitation to Islam"
 summary: "On the Qur'anic method of calling people to the faith."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

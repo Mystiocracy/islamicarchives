@@ -11,6 +11,7 @@ keywords:
   - "al-Ghazali"
   - "Salaf"
   - "cultural memory"
+  - "reform"
 venue: "Numen 58, no. 2-3: 344-374"
 summary: "Examines how al-Ghazali constructed and deployed the memory of the early Muslim generations to authorise his reform programme."
 rights: link-only

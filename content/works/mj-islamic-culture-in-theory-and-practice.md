@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+  - family-and-society
+keywords:
+  - "Islamic culture"
+  - "Muslim mind"
+  - "Islamic community"
+venue: "Mohammad Yusuf Khan"
 summary: "\"The Muslim Mind\" and \"The Essentials of an Islamic Community\"."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

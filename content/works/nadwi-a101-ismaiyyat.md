@@ -5,6 +5,15 @@ author: nadwi
 year: 2002
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Ismaʿi ya Misr"
+  - "Ismaʿi ya Suriya"
+  - "Arab world"
+  - "da'wa"
+  - "Listen! Addresses"
 summary: "The 'Listen!' Addresses"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

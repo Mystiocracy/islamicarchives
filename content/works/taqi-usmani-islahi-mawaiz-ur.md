@@ -5,7 +5,12 @@ titleOriginal: "اصلاحی مواعظ"
 language: "Urdu"
 type: "Collection"
 subjects:
-  - family-and-society
+  - sufism
+keywords:
+  - "islah"
+  - "mawa'iz"
+  - "spiritual discipline"
+  - "exhortation"
 summary: "Three volumes of exhortations on faith, conduct and spiritual discipline."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

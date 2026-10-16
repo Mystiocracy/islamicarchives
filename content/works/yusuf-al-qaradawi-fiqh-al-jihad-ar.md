@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islamic-law
+keywords:
+  - "jihad"
+  - "laws of war"
+  - "war and peace"
+  - "terrorism"
+  - "defensive jihad"
 summary: "Two-volume jurisprudential study of jihad, its rulings, aims and limits, and the ethics of war and peace."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

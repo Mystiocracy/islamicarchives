@@ -5,8 +5,6 @@ titleOriginal: "الملل المعاصرة في الدين اليهودي"
 year: 1968
 language: "Arabic"
 type: "Book"
-subjects:
-  - philosophy-and-theology
 keywords:
   - "Judaism"
   - "contemporary Jewish sects"

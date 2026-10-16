@@ -6,6 +6,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - islamic-law
+keywords:
+  - "al-Shakhsiyya al-Islamiyya"
+  - "The Islamic Personality"
+  - "Hizb ut-Tahrir"
+  - "ahkam"
 summary: "Turkish edition of volume 2."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

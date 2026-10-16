@@ -7,8 +7,11 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "non-Muslims"
+  - "legal obligation"
+  - "kuffar"
+  - "khitab"
+  - "rulings for non-Muslims"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

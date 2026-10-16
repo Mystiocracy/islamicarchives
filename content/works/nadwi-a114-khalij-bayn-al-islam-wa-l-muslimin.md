@@ -4,6 +4,13 @@ titleOriginal: "خليج بين الإسلام والمسلمين"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Muslim decline"
+  - "ummah"
+  - "religious revival"
+  - "nominal Muslims"
 summary: "A Gulf between Islam and the Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

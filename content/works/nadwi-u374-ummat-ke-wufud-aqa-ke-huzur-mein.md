@@ -4,6 +4,10 @@ titleOriginal: "امت کے وفود آقا کے حضور میں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "Prophet Muhammad"
+  - "Madina"
+  - "ummah"
 summary: "The community's delegations before the Master"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

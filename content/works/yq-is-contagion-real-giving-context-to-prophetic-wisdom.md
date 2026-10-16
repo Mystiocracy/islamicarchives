@@ -5,10 +5,14 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - hadith-studies
+  - science-and-religion
 keywords:
-  - "Hadith"
+  - "contagion"
+  - "disease"
+  - "Covid-19"
+  - "prophetic medicine"
+  - "la 'adwa"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

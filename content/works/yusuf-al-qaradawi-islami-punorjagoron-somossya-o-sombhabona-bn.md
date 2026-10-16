@@ -7,6 +7,10 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "Islamic movement"
 summary: "Problems and prospects of the Islamic revival."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

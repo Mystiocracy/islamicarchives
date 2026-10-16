@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "iman"
   - "faith"
-  - "theology"
-  - "interfaith"
+  - "aqida"
+  - "Murji'a"
 venue: "In The Concept of Faith in Judaism, Christianity and Islam (De Gruyter), 111-170"
 summary: "A long chapter on how iman (faith) is conceived in Islamic theology."
 rights: link-only

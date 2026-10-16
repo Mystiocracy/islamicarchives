@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "ulum al-Qur'an"
+  - "An Approach to the Quranic Sciences"
+  - "revelation"
+  - "compilation of the Qur'an"
+  - "qira'at"
 summary: "His Urdu study of the Qurʾanic sciences: revelation, collection, recitations and tafsir; original of An Approach to the Quranic Sciences."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

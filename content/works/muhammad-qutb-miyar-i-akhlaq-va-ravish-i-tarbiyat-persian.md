@@ -8,8 +8,11 @@ subjects:
   - hadith-studies
   - education
 keywords:
+  - "Qabasat min al-Rasul"
   - "hadith"
+  - "akhlaq"
   - "ethics"
+  - "tarbiya"
 summary: "Persian translation of Qabasat min al-Rasul."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

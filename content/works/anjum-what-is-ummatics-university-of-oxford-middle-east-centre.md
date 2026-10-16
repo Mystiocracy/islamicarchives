@@ -8,6 +8,8 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
+  - "umma"
+  - "Muslim unity"
   - "Oxford"
 venue: "University of Oxford Middle East Centre"
 summary: "Lecture introducing the idea of ummatics and whether Muslims can act politically as Muslims today; delivered 6 March 2023."

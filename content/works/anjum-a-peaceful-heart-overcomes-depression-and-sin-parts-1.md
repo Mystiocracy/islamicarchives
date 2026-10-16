@@ -10,7 +10,9 @@ subjects:
 keywords:
   - "heart"
   - "depression"
-  - "spirituality"
+  - "anxiety"
+  - "Ibn al-Jawzi"
+  - "sin"
 venue: "AlJumuah Magazine"
 summary: "Argues from the Qur'an and Ibn al-Jawzi that a heart attached to God is the remedy for depression, anxiety and sin."
 rights: link-only

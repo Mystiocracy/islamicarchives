@@ -7,8 +7,11 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Ibn Qayyim"
-  - "al-Ṣawāʿiq al-mursala"
+  - "Ibn Qayyim al-Jawziyya"
+  - "al-Sawa'iq al-mursala"
+  - "ta'wil"
+  - "Jahmiyya"
+  - "divine attributes"
 summary: "An introductory essay on Ibn Qayyim al-Jawziyya's *al-Ṣawāʿiq al-mursala*."
 venue: "Oriente Moderno 90, no. 1, pp. 135–149"
 rights: link-only

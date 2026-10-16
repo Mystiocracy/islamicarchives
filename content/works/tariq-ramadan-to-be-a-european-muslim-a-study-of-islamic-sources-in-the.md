@@ -6,11 +6,13 @@ year: 1999
 language: "English"
 type: "Book"
 subjects:
+  - islam-and-modernity
   - islamic-law
 keywords:
+  - "Être musulman européen"
   - "European Muslims"
-  - "identity"
   - "fiqh of minorities"
+  - "dar al-shahada"
   - "citizenship"
 summary: "Surveys the Islamic textual and legal sources to argue that Muslims in Europe may legitimately be both fully Muslim and fully European, and need to develop a distinct Western Muslim identity and jurisprudence of residence, citizenship and witness."
 venue: "The Islamic Foundation (Markfield, Leicester); French original Tawhid (Lyon) 1999"

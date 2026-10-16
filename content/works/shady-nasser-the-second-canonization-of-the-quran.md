@@ -7,9 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Ibn Mujāhid"
+  - "Ibn Mujahid"
   - "seven readings"
   - "canonization"
+  - "qira'at"
 summary: "On Ibn Mujāhid's selection of the seven readings; Brill's description mentions an audio collection of over 5,000 recitation files."
 venue: "Brill, Leiden"
 rights: link-only

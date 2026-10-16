@@ -11,6 +11,7 @@ keywords:
   - "Palestine"
   - "non-violence"
   - "alliances"
+  - "The Guardian"
 summary: "Ramadan argues that governments stay silent on Gaza, so Muslims should join the growing public majority backing Palestinians in non-violent, principled alliances against the violence."
 venue: "The Guardian, Comment is Free, 2 January 2009"
 rights: link-only

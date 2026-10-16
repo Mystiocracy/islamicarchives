@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "The Islamic State"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "Medina state"
 summary: "Urdu edition of The Islamic State."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

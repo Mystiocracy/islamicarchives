@@ -5,6 +5,13 @@ author: nadwi
 year: 2001
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "da'wa"
+  - "Islamic thought"
+  - "Islamic revival"
+  - "Muslim world"
 summary: "Islamic Lectures on Thought and Daʿwa 3 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

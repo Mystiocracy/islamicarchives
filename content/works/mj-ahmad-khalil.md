@@ -4,9 +4,15 @@ author: maryam-jameelah
 year: 2006
 language: Urdu
 type: "Book"
-venue: "Maktaba Ta'mir-i Insaniyat, Lahore"
 subjects:
-  - islam-and-modernity
+  - colonialism-and-decolonisation
+  - political-thought
+keywords:
+  - "Palestine"
+  - "Palestinian refugees"
+  - "novel"
+  - "Ahmad Khalil: The Story of a Palestinian Refugee and His Family"
+venue: "Maktaba Ta'mir-i Insaniyat, Lahore"
 summary: "Urdu translation of her novel."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

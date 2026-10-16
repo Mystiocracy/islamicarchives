@@ -5,6 +5,12 @@ author: nadwi
 year: 1964
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Allahabad"
 summary: "Presidential address, Allahabad (20-21 June 1964)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

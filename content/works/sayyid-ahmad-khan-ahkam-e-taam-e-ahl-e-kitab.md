@@ -9,6 +9,7 @@ subjects:
   - islamic-law
 keywords:
   - "dietary law"
+  - "Ahl al-Kitab"
   - "People of the Book"
   - "dining with Europeans"
 summary: "A legal treatise arguing that Muslims may lawfully eat with Christians and Jews, written to remove a religious barrier to social contact with the British."

@@ -8,6 +8,8 @@ subjects:
   - quranic-studies
 keywords:
   - "parables"
+  - "amthal al-Qur'an"
+  - "month of Ramadan"
 summary: "The Ramadan series behind his book of the same name."
 venue: "Yasir Qadhi"
 rights: link-only

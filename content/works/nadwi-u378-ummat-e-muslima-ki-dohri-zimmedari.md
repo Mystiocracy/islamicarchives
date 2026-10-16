@@ -4,6 +4,11 @@ titleOriginal: "امت مسلمہ کی دوہری ذمہ داری"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "dawah"
 summary: "The double responsibility of the Muslim community"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

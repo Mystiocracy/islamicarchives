@@ -4,6 +4,13 @@ titleOriginal: "مسلمانوں کی اصلی طاقت اور ان کے عرو�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Muslim decline"
+  - "rise and fall"
+  - "causes of decline"
 summary: "The real strength of Muslims and true causes of their rise and fall"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

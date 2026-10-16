@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - islamic-law
+keywords:
+  - "Al-Halal wa-l-Haram fi l-Islam"
+  - "halal"
+  - "haram"
+  - "food"
+  - "dress"
 summary: "Guide to what Islam permits and forbids in belief, daily life, dress, food, earning and family matters."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

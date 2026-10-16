@@ -7,11 +7,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "On Islam and Muslims: Reflections on Man, Reform, War and the West (English rendering of the title)"
-  - "essays"
+  - "On Islam and Muslims"
   - "reform"
   - "war"
-  - "West"
+  - "the West"
+  - "human nature"
 summary: "A volume of essays on what it means to be human, how reform should proceed, how to think about war and violence, and how Muslims and the West can view one another."
 venue: "Presses du Châtelet (Paris)"
 rights: link-only

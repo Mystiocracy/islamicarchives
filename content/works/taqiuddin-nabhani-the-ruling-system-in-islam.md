@@ -8,6 +8,11 @@ type: "Translation"
 subjects:
   - political-thought
   - islamic-law
+keywords:
+  - "Nizam al-Hukm fi al-Islam"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "judiciary"
 summary: "English translation of Nizam al-Hukm."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

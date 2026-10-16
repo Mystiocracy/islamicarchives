@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "al-Tawassul"
-  - "Albani"
+  - "tawassul"
+  - "intercession"
+  - "aqida"
+  - "du'a"
 summary: "A treatise on the kinds and rulings of tawassul (seeking intercession)."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

@@ -7,6 +7,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "al-Takattul al-Hizbi"
+  - "Party Structuring"
+  - "Hizb ut-Tahrir"
+  - "political party"
 summary: "Turkish edition of the party-structuring book."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

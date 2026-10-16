@@ -5,12 +5,13 @@ year: 1987
 language: "English"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - science-and-religion
 keywords:
   - "medicine"
   - "prophetic medicine"
   - "medical ethics"
-  - "Change and Identity"
+  - "Galenic medicine"
+  - "health"
 summary: "A study of how Islamic religious values and the Galenic medical tradition shaped ideas of health, illness and medical ethics in Muslim societies."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

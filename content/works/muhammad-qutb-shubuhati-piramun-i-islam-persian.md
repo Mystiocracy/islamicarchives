@@ -7,8 +7,11 @@ language: "Persian"
 type: "Translation"
 subjects:
   - islam-and-modernity
+  - philosophy-and-theology
 keywords:
+  - "Shubuhat hawla al-Islam"
   - "misconceptions"
+  - "apologetics"
 venue: "Ihsān, Tehran"
 summary: "Persian translation of Shubuhat hawla al-Islam."
 rights: link-only

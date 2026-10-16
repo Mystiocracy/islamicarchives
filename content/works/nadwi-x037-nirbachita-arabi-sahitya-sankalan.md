@@ -4,8 +4,12 @@ titleOriginal: "নির্বাচিত আরবি সাহিত্য �
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - education
 keywords:
-  - "Mukhtarat min Adab al-'Arab (Arabic)"
+  - "Mukhtarat min Adab al-'Arab"
+  - "Arabic literature"
+  - "adab"
 summary: "Selections of Arabic literature. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

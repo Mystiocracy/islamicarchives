@@ -7,7 +7,9 @@ type: "Video"
 subjects:
   - sufism
 keywords:
+  - "Ibn al-Qayyim"
   - "Madarij al-Salikin"
+  - "stations of the path"
   - "spirituality"
 venue: "Masjid As-Sabireen, Dulles"
 summary: "Community lecture on Ibn al-Qayyim's stations of the spiritual path."

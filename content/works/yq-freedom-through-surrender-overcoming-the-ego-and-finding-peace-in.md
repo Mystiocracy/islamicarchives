@@ -6,10 +6,14 @@ year: 2023
 language: "English"
 type: "Article"
 subjects:
+  - sufism
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "ego"
+  - "nafs"
+  - "surrender"
+  - "inner peace"
+  - "islam"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

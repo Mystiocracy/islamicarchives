@@ -4,6 +4,12 @@ titleOriginal: "الفتح للعرب المسلمين"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Victory Belongs to the Muslim Arabs"
+  - "Arabs"
+  - "Arab world"
 summary: "Victory Belongs to the Muslim Arabs"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

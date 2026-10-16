@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "religious democracy"
   - "velayat-e faqih"
-  - "governance"
+  - "human rights"
+  - "Iran"
 summary: "Argues that a democratic religious government must rest on human rights, justice and accountable power rather than clerical guardianship."
 rights: link-only
 rightsNote: "In copyright (living author)."

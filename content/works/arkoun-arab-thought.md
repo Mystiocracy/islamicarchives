@@ -9,9 +9,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "La Pensée arabe"
-  - "Que sais-je?"
   - "al-Fikr al-'arabi"
   - "intellectual history"
+  - "falsafa"
+  - "kalam"
 summary: "A concise survey of Arabic and Islamic intellectual history from the Qurʾan through classical theology and philosophy to the modern period."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

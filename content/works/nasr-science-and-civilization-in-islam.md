@@ -5,12 +5,13 @@ year: 1968
 language: "English"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - science-and-religion
 keywords:
   - "history of science"
   - "Islamic science"
-  - "Harvard University Press"
   - "cosmology"
+  - "alchemy"
+  - "astronomy"
 summary: "A survey of the Islamic sciences, from medicine and astronomy to alchemy, presented within their metaphysical and religious framework."
 rights: link-only
 rightsNote: "In copyright (living author)."

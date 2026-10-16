@@ -4,6 +4,10 @@ titleOriginal: "خطبات مفکر اسلام"
 author: nadwi
 language: "Urdu"
 type: "Speech"
+keywords:
+  - "Mufakkir-e-Islam"
+  - "khutbat"
+  - "collected speeches"
 summary: "Speeches of the thinker of Islam (collected speeches) 6 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

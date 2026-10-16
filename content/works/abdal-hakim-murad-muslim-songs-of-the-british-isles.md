@@ -4,13 +4,11 @@ author: abdal-hakim-murad
 year: 2005
 language: "English"
 type: "Collection"
-subjects:
-  - education
 keywords:
-  - "songs"
-  - "schools"
+  - "devotional songs"
+  - "nasheed"
   - "British Islam"
-  - "Quilliam Press"
+  - "choirs"
 summary: "A short collection of twenty-two Muslim devotional songs in English, including solo pieces, rounds and part-songs, arranged for schools, choirs and family gatherings."
 rights: link-only
 rightsNote: "In copyright (living author)."

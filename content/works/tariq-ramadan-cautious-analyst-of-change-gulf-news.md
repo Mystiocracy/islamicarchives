@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Gulf News"
   - "Arab uprisings"
-  - "economics"
-  - "analysis"
+  - "Arab Spring"
+  - "economic issues"
 summary: "Gulf News sits down with Ramadan to ask what the 2011 Arab uprisings mean, with him arguing that Arabs must first deal with economic issues."
 venue: "Gulf News (Weekend Review)"
 rights: link-only

@@ -6,10 +6,13 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - economics
+  - psychology-and-mental-health
 keywords:
-  - "Social Justice"
+  - "financial uncertainty"
+  - "baraka"
+  - "rizq"
+  - "resilience"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

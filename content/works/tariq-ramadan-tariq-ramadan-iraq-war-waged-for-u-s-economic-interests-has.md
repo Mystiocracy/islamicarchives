@@ -10,8 +10,9 @@ subjects:
 keywords:
   - "Iraq war"
   - "Middle East"
+  - "United States"
   - "Democracy Now"
-  - "violence"
+  - "terrorism"
 summary: "Ramadan links the wave of attacks at the end of Ramadan 2016 to the Iraq war and argues it was fought for economic interests and destabilised the region."
 venue: "Democracy Now!"
 rights: link-only

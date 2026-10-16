@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "ilm"
+  - "jahiliyya"
+  - "knowledge"
 summary: "Knowledge belongs with Islam, ignorance with Jahiliyya"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

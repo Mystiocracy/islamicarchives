@@ -5,8 +5,12 @@ year: 1979
 language: "English"
 type: "Book"
 keywords:
-  - "Al-Sirah al-Nabawiyyah (Ar.) / Nabi-e-Rahmat (Ur.)"
-  - "Mohiuddin Ahmad"
+  - "sira"
+  - "Prophet Muhammad"
+  - "Prophet of Mercy"
+  - "Nabi-e-Rahmat"
+  - "al-Sira al-Nabawiyya"
+  - "biography of the Prophet"
 summary: "Muhammad Rasulullah: The Apostle of Mercy. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

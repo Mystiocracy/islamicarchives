@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "Islamic economics"
   - "riba"
-  - "state"
+  - "interest-free economy"
+  - "Islamic state"
 summary: "Discusses the structure of a modern Islamic state and an economy freed from interest."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

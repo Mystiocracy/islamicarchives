@@ -4,6 +4,13 @@ titleOriginal: "قارنوا بين الربح والخسارة يا زعماء 
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Arab leaders"
+  - "Arab nationalism"
+  - "Arab world"
+  - "politics"
 summary: "Weigh Profit against Loss, O Arab Leaders"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

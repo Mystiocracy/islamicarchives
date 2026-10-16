@@ -6,9 +6,13 @@ year: 1992
 language: "Telugu"
 type: "Translation"
 subjects:
+  - philosophy-and-theology
   - islam-and-modernity
 keywords:
+  - "Shubuhat hawla al-Islam"
+  - "Islam: The Misunderstood Religion"
   - "misconceptions"
+  - "apologetics"
 venue: "Telugu Islamic Publications, Hyderabad"
 summary: "Telugu translation of Islam: The Misunderstood Religion."
 rights: link-only

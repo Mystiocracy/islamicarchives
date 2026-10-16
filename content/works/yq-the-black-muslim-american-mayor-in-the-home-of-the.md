@@ -6,10 +6,14 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - islam-and-modernity
+  - slavery-and-race
+  - political-thought
 keywords:
-  - "History"
-  - "Islam in the West"
+  - "Black Muslims"
+  - "KKK"
+  - "mayor"
+  - "American Muslims"
+  - "Ku Klux Klan"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

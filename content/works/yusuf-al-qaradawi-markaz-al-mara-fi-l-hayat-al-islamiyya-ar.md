@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - women-and-gender
+keywords:
+  - "status of women"
+  - "women's rights"
+  - "Muslim women"
 summary: "Outlines the position and role of women in Islamic life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

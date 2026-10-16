@@ -9,10 +9,10 @@ subjects:
   - quranic-studies
   - political-thought
 keywords:
-  - "Jehad"
+  - "jihad"
   - "defensive war"
   - "freedom of belief"
-  - "Mohammad Salman Tawhidi"
+  - "verses of war"
 summary: "Lectures on the Qur'anic verses on war, arguing that jihad is essentially defensive and cannot be used to impose belief."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

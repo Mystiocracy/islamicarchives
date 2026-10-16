@@ -4,9 +4,13 @@ titleOriginal: "افکار شگفت اقبال (شگفتیهای اندیشه ا
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "Rawa'i' Iqbal (Urdu: Nuqush-e-Iqbal)"
-  - "عبدالقادر دهقان"
+  - "Muhammad Iqbal"
+  - "Rawa'i' Iqbal"
+  - "Nuqush-e-Iqbal"
 summary: "The remarkable thought of Iqbal. Translated by عبدالقادر دهقان."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

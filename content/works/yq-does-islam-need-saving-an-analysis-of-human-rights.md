@@ -9,8 +9,10 @@ subjects:
   - islam-and-modernity
   - political-thought
 keywords:
-  - "Contemporary Ideologies"
-  - "Politics & Practical Theology"
+  - "human rights"
+  - "liberalism"
+  - "universal rights"
+  - "Western values"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

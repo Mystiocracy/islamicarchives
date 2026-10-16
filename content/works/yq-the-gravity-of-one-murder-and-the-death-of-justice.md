@@ -7,8 +7,10 @@ type: "Essay"
 subjects:
   - political-thought
 keywords:
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "murder"
+  - "justice"
+  - "sanctity of life"
+  - "injustice"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

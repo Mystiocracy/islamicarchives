@@ -5,14 +5,13 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - islam-and-modernity
-  - islamic-law
   - political-thought
+  - islamic-law
 keywords:
-  - "Islamophobia"
-  - "Jurisprudence (fiqh)"
-  - "Politics & Practical Theology"
-  - "Sharia"
+  - "voting"
+  - "elections"
+  - "political participation"
+  - "American Muslims"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

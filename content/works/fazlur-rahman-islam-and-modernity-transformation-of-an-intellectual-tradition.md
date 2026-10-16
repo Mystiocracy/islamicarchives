@@ -13,6 +13,7 @@ keywords:
   - "Islamic education"
   - "hermeneutics"
   - "reform"
+  - "madrasa"
 summary: "A history of Islamic education and intellectual life with a programme for reform, including his 'double movement' method for interpreting the Qur'an."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

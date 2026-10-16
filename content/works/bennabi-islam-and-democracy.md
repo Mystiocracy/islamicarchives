@@ -8,10 +8,10 @@ type: "Essay"
 subjects:
   - political-thought
 keywords:
+  - "Islam et démocratie"
   - "al-Islam wa-l-dimuqratiyya"
   - "democracy"
   - "human dignity"
-  - "lecture"
 summary: "Argues that Islam contains a democratic ethos grounded in the dignity of the person, distinct from the procedural democracy of the West."
 rights: link-only
 rightsNote: "In copyright (author d. 1973)."

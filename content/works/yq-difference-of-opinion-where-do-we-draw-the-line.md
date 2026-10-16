@@ -7,8 +7,10 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "ikhtilaf"
+  - "scholarly disagreement"
+  - "legitimate difference"
+  - "ijtihad"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

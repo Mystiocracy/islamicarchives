@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Dawr al-Muslim wa-risalatuh"
   - "Le Rôle du musulman"
-  - "mission"
-  - "lecture"
+  - "Muslim mission"
+  - "moral crisis"
 summary: "A lecture on the responsibilities and potential contribution of Muslims to a world facing the moral crisis of late modernity."
 rights: link-only
 rightsNote: "In copyright (author d. 1973)."

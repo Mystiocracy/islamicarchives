@@ -4,10 +4,11 @@ author: albani
 year: 2011
 language: English
 type: "Memoir"
-subjects:
-  - hadith-studies
 keywords:
   - "autobiography"
+  - "Isam Musa Hadi"
+  - "Damascus"
+  - "Salafism"
 summary: "His life, compiled from his own recorded accounts by ʿIṣām Mūsā Hādī (English translation, March 2011)."
 venue: "thealbaani.site"
 rights: link-only

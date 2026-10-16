@@ -7,6 +7,11 @@ language: "Indonesian"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Concepts of Hizb ut-Tahrir"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "method of change"
 summary: "Indonesian edition of Mafahim."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

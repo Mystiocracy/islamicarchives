@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "culture"
   - "American Muslims"
-  - "Islamism"
   - "indigenous Islam"
+  - "Islamism"
+  - "urf"
 summary: "On the cultural wisdom behind Islam's long success as a global civilisation, and why Muslims need to put down deep indigenous roots, in contrast to Islamist rhetoric that treats culture as a threat."
 venue: "Nawawi Foundation (now The Oasis Initiative)"
 rights: link-only

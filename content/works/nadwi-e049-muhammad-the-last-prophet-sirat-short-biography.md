@@ -3,10 +3,11 @@ title: "Muhammad: The Last Prophet (Sirat; Short Biography)"
 author: nadwi
 language: "English"
 type: "Book"
-subjects:
-  - hadith-studies
 keywords:
-  - "Dr. Shah Ebadur Rahman"
+  - "sira"
+  - "Prophet Muhammad"
+  - "biography of the Prophet"
+  - "Seal of the Prophets"
 summary: "Muhammad: The Last Prophet (Sirat; Short Biography). Translated by Dr. Shah Ebadur Rahman from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

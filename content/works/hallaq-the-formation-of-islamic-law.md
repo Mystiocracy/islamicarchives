@@ -7,9 +7,9 @@ type: "Anthology"
 subjects:
   - islamic-law
 keywords:
-  - "edited volume"
-  - "Ashgate"
   - "origins of Islamic law"
+  - "early fiqh"
+  - "legal history"
 summary: "Edited collection of key scholarly articles on the early formation of Islamic law, with an introduction by Hallaq."
 rights: link-only
 rightsNote: "In copyright (living author)."

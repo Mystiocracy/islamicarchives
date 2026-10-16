@@ -6,14 +6,14 @@ year: 1999
 language: "Persian"
 type: "Book"
 subjects:
-  - quranic-studies
   - philosophy-and-theology
+  - quranic-studies
 keywords:
   - "Bast-e tajrobe-ye nabavi"
   - "revelation"
+  - "prophethood"
+  - "religious experience"
   - "historicity"
-  - "Nilou Mobasser"
-  - "Forough Jahanbakhsh"
 summary: "Essays treating revelation as the Prophet's religious experience, shaped by his time and growing over his mission, and separating essential from accidental elements of religion."
 rights: link-only
 rightsNote: "In copyright (living author)."

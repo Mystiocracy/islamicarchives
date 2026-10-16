@@ -8,6 +8,7 @@ type: "Memoir"
 subjects:
   - colonialism-and-decolonisation
 keywords:
+  - "Mémoires d'un témoin du siècle"
   - "Mudhakkirat shahid lil-qarn"
   - "autobiography"
   - "colonial Algeria"

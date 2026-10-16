@@ -4,6 +4,15 @@ titleOriginal: "اسمعي يا إيران"
 author: nadwi
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Iran"
+  - "Persia"
+  - "Shi'ism"
+  - "da'wa"
+  - "Listen, O Iran"
 summary: "Listen, O Iran"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

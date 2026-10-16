@@ -4,6 +4,14 @@ titleOriginal: "الإمام السرهندي حياته وأعماله"
 author: nadwi
 language: "Arabic"
 type: "Book"
+subjects:
+  - sufism
+keywords:
+  - "Ahmad Sirhindi"
+  - "Mujaddid Alf Thani"
+  - "Naqshbandi"
+  - "Tarikh-e Da'wat-o-'Azimat"
+  - "Rijal al-Fikr wa-l-Da'wa"
 summary: "Imam Sirhindi: His Life and Works. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

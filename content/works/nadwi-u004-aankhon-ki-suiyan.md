@@ -4,6 +4,8 @@ titleOriginal: "آنکھوں کی سوئیاں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "Needles in the eyes"
 summary: "Needles in the eyes"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

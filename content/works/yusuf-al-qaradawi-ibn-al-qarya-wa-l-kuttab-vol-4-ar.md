@@ -6,7 +6,12 @@ year: 2008
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - education
+keywords:
+  - "autobiography"
+  - "memoir"
+  - "Qatar"
+  - "travels"
 summary: "Fourth volume of his memoirs, covering his later years of teaching, travel and public work."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

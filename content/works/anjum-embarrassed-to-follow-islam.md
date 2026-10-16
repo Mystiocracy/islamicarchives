@@ -8,7 +8,9 @@ subjects:
   - islam-and-modernity
   - psychology-and-mental-health
 keywords:
-  - "identity"
+  - "Muslim identity"
+  - "shame"
+  - "patience"
   - "community"
 venue: "AlJumuah Magazine"
 summary: "Urges Muslims ashamed of their faith or community to respond with patience, sincere practice and balanced correction."

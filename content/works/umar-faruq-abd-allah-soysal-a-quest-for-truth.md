@@ -5,12 +5,12 @@ byline: "Gökhan Soysal"
 year: 2020
 language: English
 type: "Essay"
-subjects:
-  - philosophy-and-theology
 keywords:
-  - "biography"
   - "conversion"
-  - "life story"
+  - "Nebraska"
+  - "Cornell"
+  - "Diffused Congruence"
+  - "reading list"
 summary: "A summary of the Diffused Congruence interview, retelling his life from childhood in Nebraska to Cornell and conversion, with a reading list."
 venue: "SeekersGuidance"
 rights: link-only

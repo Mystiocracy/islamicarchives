@@ -4,10 +4,16 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
-  - political-thought
   - colonialism-and-decolonisation
+  - political-thought
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "Imam Shamil"
+  - "Caucasus"
+  - "jihad"
+  - "Mujahidin movement"
+venue: "Mohammad Yusuf Khan"
 summary: "Sayyid Ahmad Shahid of India and Imam Shamil of the Caucasus."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

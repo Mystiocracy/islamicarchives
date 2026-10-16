@@ -5,7 +5,13 @@ titleOriginal: "الشيخ الغزالي كما عرفته: رحلة نصف ق�
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "Muhammad al-Ghazali"
+  - "biography"
+  - "memoir"
+  - "Egypt"
+  - "Muslim Brotherhood"
 summary: "Personal account of half a century of friendship with Shaykh Muhammad al-Ghazali."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

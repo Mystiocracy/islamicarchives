@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - islamic-law
+  - sufism
+keywords:
+  - "Muhammad Yusuf Kandhlawi"
+  - "Tablighi Jamaat"
+  - "Hayat al-Sahaba"
+  - "da'wa"
 summary: "Short biography of Maulana Muhammad Yusuf Kandhlawi"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

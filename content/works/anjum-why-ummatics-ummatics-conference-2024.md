@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
-  - "conference"
+  - "Ummah"
+  - "Muslim unity"
+  - "pan-Islamism"
 venue: "Ummatics Annual Conference 2024"
 summary: "Conference address making the case for the ummatics project."
 rights: link-only

@@ -7,6 +7,11 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "application of sharia"
+  - "implementation of sharia"
+  - "Islamic state"
 summary: "On putting Islamic law into practice in individual, family and state life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

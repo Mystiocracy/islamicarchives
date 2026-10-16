@@ -8,9 +8,10 @@ subjects:
   - philosophy-and-theology
   - political-thought
 keywords:
-  - "Allah"
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "al-wala' wal-bara'"
+  - "loyalty and disavowal"
+  - "love for God's sake"
+  - "non-Muslims"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

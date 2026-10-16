@@ -7,6 +7,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "al-Tafkir"
+  - "Thinking"
+  - "thought process"
+  - "Hizb ut-Tahrir"
 summary: "Turkish edition of Thinking."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -4,6 +4,13 @@ titleOriginal: "إلى الراية المحمدية أيها العرب"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "To the Banner of Muhammad, O Arabs"
+  - "Arabs"
+  - "Arab nationalism"
+  - "Arab world"
 summary: "To the Banner of Muhammad, O Arabs"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

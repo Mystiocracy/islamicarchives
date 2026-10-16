@@ -5,10 +5,15 @@ byline: "Faatimah Knight"
 year: 2023
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - women-and-gender
+  - sufism
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "Nana Asma'u"
+  - "Sokoto Caliphate"
+  - "Usman dan Fodio"
+  - "women scholars"
+  - "Fulani"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -10,6 +10,7 @@ subjects:
 keywords:
   - "fallacies"
   - "polemic"
+  - "Islam and the West"
 venue: "Dār al-Shurūq"
 summary: "Rebuts what he regards as fallacies in modern discourse about Islam, the West and history."
 rights: link-only

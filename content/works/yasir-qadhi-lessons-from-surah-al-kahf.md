@@ -7,7 +7,11 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Lessons from Surah al-Kahf"
+  - "Surat al-Kahf"
+  - "tafsir"
+  - "Companions of the Cave"
+  - "Musa and Khidr"
+  - "Dhul-Qarnayn"
 summary: "Lessons drawn from Sūrat al-Kahf."
 venue: "Kube Publishing"
 rights: link-only

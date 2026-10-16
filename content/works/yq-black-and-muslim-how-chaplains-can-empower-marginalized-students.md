@@ -5,11 +5,13 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - islam-and-modernity
-  - political-thought
+  - slavery-and-race
+  - education
 keywords:
-  - "Identity"
-  - "Politics & Practical Theology"
+  - "Black Muslims"
+  - "chaplaincy"
+  - "campus"
+  - "marginalized students"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

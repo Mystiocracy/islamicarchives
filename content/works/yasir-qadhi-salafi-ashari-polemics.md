@@ -8,8 +8,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Salafi"
-  - "Ashʿarī"
+  - "Ash'ari"
+  - "Ahl al-Hadith"
   - "polemics"
+  - "kalam"
 summary: "On the early polemics between the Ahl al-Ḥadīth and the Ashʿarīs."
 venue: "The Muslim World"
 rights: link-only

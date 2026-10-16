@@ -5,6 +5,13 @@ author: nadwi
 year: 1988
 language: "Arabic"
 type: "Article"
+subjects:
+  - education
+keywords:
+  - "da'wa"
+  - "du'at"
+  - "Da'wat al-Haqq"
+  - "Muslim World League"
 summary: "Daʿwa and Its Callers: Responsibility and History"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

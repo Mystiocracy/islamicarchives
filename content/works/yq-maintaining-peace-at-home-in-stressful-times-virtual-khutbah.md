@@ -5,10 +5,14 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
+  - family-and-society
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "home"
+  - "stress"
+  - "marriage"
+  - "family conflict"
+  - "Covid-19"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

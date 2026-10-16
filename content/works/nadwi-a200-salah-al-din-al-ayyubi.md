@@ -5,7 +5,12 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - political-thought
+keywords:
+  - "Saladin"
+  - "Crusades"
+  - "Jerusalem"
+  - "jihad"
 summary: "Saladin, the Hero Who Championed God's Religion"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

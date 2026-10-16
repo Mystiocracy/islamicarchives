@@ -5,6 +5,11 @@ author: nadwi
 year: 1980
 language: "Arabic"
 type: "Book"
+keywords:
+  - "The Road to Medina"
+  - "Medina"
+  - "Prophet Muhammad"
+  - "sira"
 summary: "The Road to Medina"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -5,13 +5,13 @@ year: 1993
 language: "English"
 type: "Book"
 subjects:
+  - science-and-religion
   - philosophy-and-theology
-  - islam-and-modernity
 keywords:
   - "sacred science"
   - "environment"
   - "religious pluralism"
-  - "SUNY Press"
+  - "cosmology"
 summary: "Argues for reintegrating science into a metaphysical and religious vision, and discusses traditional cosmologies across religions."
 rights: link-only
 rightsNote: "In copyright (living author)."

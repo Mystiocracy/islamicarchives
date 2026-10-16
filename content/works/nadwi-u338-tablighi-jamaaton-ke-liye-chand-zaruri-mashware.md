@@ -4,6 +4,11 @@ titleOriginal: "تبلیغی جماعتوں کے لئے چند ضروری مشو
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "Tablighi Jamaat"
+  - "tabligh"
+  - "da'wa"
+  - "advice"
 summary: "Some necessary advice for Tablighi groups"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

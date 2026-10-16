@@ -6,11 +6,14 @@ language: "French"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "Is Religion Something to Fear? (English rendering of the title)"
+  - "Is Religion Something to Fear?"
   - "interfaith dialogue"
   - "secularism"
-  - "pluralism"
+  - "Elie Barnavi"
+  - "Jean-Michel di Falco"
+  - "faith and reason"
 summary: "A three-way conversation among a Muslim thinker, a Jewish historian and a Catholic bishop about whether religions threaten society, covering faith and reason, violence, secularism and how believers can live together."
 venue: "Mordicus / Panama (Paris)"
 rights: link-only

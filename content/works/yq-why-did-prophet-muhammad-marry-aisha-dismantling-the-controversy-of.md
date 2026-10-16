@@ -6,13 +6,15 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - family-and-society
+  - women-and-gender
   - hadith-studies
 keywords:
-  - "Family & Community"
-  - "History"
-  - "Life of the Prophet (seerah)"
-  - "Marriage"
+  - "Aisha"
+  - "Aisha's age"
+  - "Prophet Muhammad"
+  - "marriage"
+  - "child marriage"
+  - "Orientalism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

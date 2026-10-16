@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "Syria"
+  - "Muslim Brotherhood"
   - "Islamic movements"
+  - "Hama"
 summary: "His first book, on the Islamic struggle in Syria."
 venue: "Mizan Press, Berkeley"
 rights: link-only

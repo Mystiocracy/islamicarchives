@@ -7,9 +7,13 @@ language: "English"
 type: "Paper"
 subjects:
   - psychology-and-mental-health
+  - philosophy-and-theology
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "suffering"
+  - "affliction"
+  - "purpose"
+  - "calling"
+  - "trials"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

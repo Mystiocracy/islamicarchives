@@ -8,6 +8,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "introduction to Islam"
+  - "Hadha huwa al-Islam"
+  - "Kurdish"
 summary: "Sorani Kurdish translation of Hadha huwa al-Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

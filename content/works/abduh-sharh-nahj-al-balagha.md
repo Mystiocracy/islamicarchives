@@ -5,13 +5,12 @@ titleOriginal: "شرح نهج البلاغة"
 year: 1885
 language: "Arabic"
 type: "Book"
-subjects:
-  - philosophy-and-theology
 keywords:
   - "Nahj al-balagha"
   - "Ali ibn Abi Talib"
   - "al-Sharif al-Radi"
-  - "Beirut"
+  - "sermons"
+  - "Arabic rhetoric"
 summary: "An edition with brief explanatory notes of the sermons, letters and sayings attributed to ʿAlī ibn Abī Ṭālib, prepared during ʿAbduh's Beirut exile."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1905); later translations may still be in copyright."

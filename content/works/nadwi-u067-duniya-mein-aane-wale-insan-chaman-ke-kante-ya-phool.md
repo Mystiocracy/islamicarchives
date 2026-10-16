@@ -4,6 +4,14 @@ titleOriginal: "دنیا میں آنے والے انسان چمن کے کانٹ�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - family-and-society
+keywords:
+  - "family planning"
+  - "birth control"
+  - "population control"
+  - "children"
+  - "India"
 summary: "Newborn humans: thorns or flowers of the garden?"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

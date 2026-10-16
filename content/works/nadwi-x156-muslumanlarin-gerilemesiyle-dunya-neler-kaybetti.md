@@ -4,9 +4,13 @@ author: nadwi
 year: 1978
 language: "Turkish"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
 keywords:
   - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
-  - "Mehmet Suslu (checked by Emin Sarac)"
+  - "decline of Muslims"
+  - "Western civilisation"
 summary: "What the world lost through the decline of Muslims. Translated by Mehmet Suslu (checked by Emin Sarac)."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -5,10 +5,14 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - hadith-studies
+  - slavery-and-race
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "Sahaba"
+  - "racism"
+  - "Abyssinia"
+  - "Najashi"
+  - "Bilal"
+  - "khutbah"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

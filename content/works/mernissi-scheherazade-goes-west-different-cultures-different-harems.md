@@ -11,6 +11,7 @@ keywords:
   - "Orientalism"
   - "harem"
   - "Western painting"
+  - "beauty norms"
 summary: "Contrasts Muslim and Western imaginings of the harem and argues that Western beauty norms constitute a harem of their own."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

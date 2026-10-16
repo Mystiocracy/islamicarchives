@@ -6,9 +6,11 @@ language: "Arabic"
 type: "Video"
 subjects:
   - women-and-gender
+  - family-and-society
 keywords:
-  - "lecture"
-  - "women"
+  - "Muslim woman"
+  - "role of women"
+  - "women in society"
 venue: "YouTube (Manar al-Huda)"
 summary: "Lecture (1h35) on the role of the Muslim woman in society."
 rights: link-only

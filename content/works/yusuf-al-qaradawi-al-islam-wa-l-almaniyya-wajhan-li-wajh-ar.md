@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "secularism"
+  - "almaniyya"
+  - "Fouad Zakariyya"
+  - "Islam and Secularism Face to Face"
 summary: "A direct critique of secularism and its claims against Islamic governance."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

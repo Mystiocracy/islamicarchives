@@ -4,6 +4,13 @@ titleOriginal: "ملک و معاشرہ انتہائی خطرناک موڑ پر"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - family-and-society
+keywords:
+  - "India"
+  - "social crisis"
+  - "communalism"
 summary: "Country and society at a very dangerous turn"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

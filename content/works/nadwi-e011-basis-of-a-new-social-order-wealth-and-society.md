@@ -3,6 +3,15 @@ title: "Basis of a New Social Order (Wealth and Society)"
 author: nadwi
 language: "English"
 type: "Pamphlet"
+subjects:
+  - economics
+  - family-and-society
+keywords:
+  - "zakat"
+  - "wealth"
+  - "social order"
+  - "Wealth and Society"
+  - "social justice"
 summary: "Basis of a New Social Order (Wealth and Society). Translated from Urdu/Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

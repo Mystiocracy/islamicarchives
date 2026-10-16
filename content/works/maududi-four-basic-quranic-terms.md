@@ -14,6 +14,7 @@ keywords:
   - "rabb"
   - "'ibada"
   - "din"
+  - "hakimiyya"
 summary: "An analysis of the Qur'anic terms ilah, rabb, 'ibada and din, arguing that their full meaning includes political and legal sovereignty and not only worship."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

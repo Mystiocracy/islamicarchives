@@ -4,6 +4,12 @@ titleOriginal: "دعوت فکر و عمل"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "reform"
+  - "Muslim community"
+  - "thought and action"
 summary: "A call to thought and action"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

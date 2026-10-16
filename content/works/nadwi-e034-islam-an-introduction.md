@@ -4,8 +4,13 @@ author: nadwi
 year: 1998
 language: "English"
 type: "Book"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Dr. Shah Ebadur Rahman"
+  - "introduction to Islam"
+  - "beliefs"
+  - "worship"
+  - "da'wa"
 summary: "Islam: An Introduction. Translated by Dr. Shah Ebadur Rahman from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

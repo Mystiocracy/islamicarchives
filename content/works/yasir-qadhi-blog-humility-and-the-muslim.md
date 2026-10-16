@@ -5,10 +5,12 @@ year: 2022
 language: English
 type: "Essay"
 subjects:
-  - education
+  - sufism
 keywords:
   - "humility"
+  - "tawadu"
   - "manners"
+  - "akhlaq"
 summary: "A transcript of a lecture on humility, posted on his website."
 venue: "yasirqadhi.com"
 rights: link-only

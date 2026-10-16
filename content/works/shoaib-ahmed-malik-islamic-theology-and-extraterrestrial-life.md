@@ -11,7 +11,7 @@ subjects:
 keywords:
   - "extraterrestrial life"
   - "astrobiology"
-  - "Islamic theology"
+  - "aliens"
 summary: "An edited volume on what Islamic theology, scripture and tradition say about life beyond Earth."
 rights: link-only
 rightsNote: "In copyright (living author); no free copy found online."

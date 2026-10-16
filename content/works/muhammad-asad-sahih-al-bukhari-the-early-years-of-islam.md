@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Sahih al-Bukhari"
   - "hadith translation"
-  - "Arafat Publications"
-  - "reissued 1981"
+  - "The Early Years of Islam"
+  - "al-Bukhari"
 summary: "Asad's annotated English translation of the opening books of Ṣaḥīḥ al-Bukhārī, issued in parts from Lahore in the 1930s and later reissued as The Early Years of Islam."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

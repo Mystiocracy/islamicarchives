@@ -6,10 +6,13 @@ year: 2026
 language: "English"
 type: "Essay"
 subjects:
+  - sufism
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "self-discipline"
+  - "entitlement"
+  - "nafs"
+  - "mujahada"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

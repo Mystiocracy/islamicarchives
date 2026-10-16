@@ -5,13 +5,14 @@ titleOriginal: "التشيع والإسلام: بحث حول الولاية"
 language: "Arabic"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - philosophy-and-theology
 keywords:
   - "Bahth hawl al-wilaya"
   - "al-Tashayyu' wa-l-Islam"
   - "imamate"
   - "succession"
+  - "wilaya"
 summary: "An essay arguing that Shiʿism arose as a natural continuation of the Prophet's arrangements for leadership rather than as a later political faction."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

@@ -10,9 +10,10 @@ subjects:
   - islamic-law
 keywords:
   - "Al-Jihad fi al-Islam"
+  - "jihad"
   - "law of war"
-  - "Syed Rafatullah Shah (translator)"
   - "comparative religion"
+  - "spread by the sword"
 summary: "A comprehensive treatment of the Islamic law and ethics of war, written in response to accusations that Islam was spread by the sword and comparing Islamic rules with other religious and modern legal traditions."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

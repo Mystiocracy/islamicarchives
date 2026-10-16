@@ -7,8 +7,9 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "al-Islam wa Atharuhu fi al-Hadara wa Fadluhu 'ala al-Insaniyya (Arabic)"
-  - "Bashkim Aliu"
+  - "al-Islam wa Atharuhu fi al-Hadara wa Fadluhu 'ala al-Insaniyya"
+  - "Islamic civilisation"
+  - "Tahzib-o-Tamaddun par Islam ke Asarat aur Ehsanat"
 summary: "Islam: its influence on civilisation and its merit for mankind. Translated by Bashkim Aliu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

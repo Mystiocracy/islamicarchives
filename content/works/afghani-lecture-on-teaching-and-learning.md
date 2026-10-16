@@ -7,10 +7,11 @@ type: "Speech"
 subjects:
   - education
   - islam-and-modernity
+  - science-and-religion
 keywords:
-  - "Calcutta lecture"
+  - "Calcutta"
   - "philosophy"
-  - "science"
+  - "ulema"
   - "Muslim education"
 summary: "A lecture delivered in Calcutta urging Muslims to revive the study of philosophy and the sciences and criticising ulema who opposed them."
 rights: link-only

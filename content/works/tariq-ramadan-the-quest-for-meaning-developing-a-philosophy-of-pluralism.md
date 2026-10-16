@@ -7,10 +7,12 @@ language: "English"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
   - "pluralism"
-  - "identity"
+  - "L'autre en nous"
   - "universals"
+  - "fear of difference"
   - "dialogue"
 summary: "Seeks a philosophy of pluralism grounded in the search for meaning, universality and freedom, arguing that fear of difference, not difference itself, drives conflict and that dialogue among traditions requires humility and trust."
 venue: "Allen Lane (London) 2010; French original Presses du Châtelet 2009"

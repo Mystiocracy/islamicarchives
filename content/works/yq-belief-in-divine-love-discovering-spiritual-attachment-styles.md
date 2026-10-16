@@ -6,12 +6,14 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
-  - family-and-society
+  - psychology-and-mental-health
+  - philosophy-and-theology
 keywords:
-  - "Data"
-  - "Family & Community"
-  - "Parenting"
-  - "Reports"
+  - "divine love"
+  - "attachment styles"
+  - "attachment theory"
+  - "love of God"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

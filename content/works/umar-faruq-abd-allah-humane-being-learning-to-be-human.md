@@ -10,6 +10,7 @@ keywords:
   - "Hamza Yusuf"
   - "Renovatio"
   - "humane being"
+  - "being human"
 summary: "A conversation between Umar Faruq Abd-Allah and Hamza Yusuf."
 venue: "Renovatio (Zaytuna College)"
 rights: link-only

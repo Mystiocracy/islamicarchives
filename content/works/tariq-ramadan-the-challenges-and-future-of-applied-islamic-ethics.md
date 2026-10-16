@@ -5,12 +5,13 @@ year: 2013
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - islam-and-modernity
 keywords:
-  - "applied ethics"
+  - "applied Islamic ethics"
   - "bioethics"
-  - "reform"
-  - "Islamic ethics"
+  - "radical reform"
+  - "religious authority"
 summary: "Examines applied Islamic ethics, notes Muslims' confusion over identity, and calls for radical reform that moves authority beyond scholars alone to include grassroots practitioners."
 venue: "Theoretical Medicine and Bioethics 34(2): 105-115, April 2013"
 rights: link-only

@@ -4,6 +4,11 @@ titleOriginal: "নতুন দাওয়াত"
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "dawah"
+  - "Islamic revival"
 summary: "A new call. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

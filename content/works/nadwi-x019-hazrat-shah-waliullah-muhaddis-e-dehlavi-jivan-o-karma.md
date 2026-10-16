@@ -4,8 +4,14 @@ titleOriginal: "হজরত শাহ্‌ ওয়ালী উল্লাহ�
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - hadith-studies
+  - sufism
 keywords:
-  - "Tarikh-e-Da'wat-o-Azimat vol. 5 (Shah Waliullah) - standalone edition"
+  - "Shah Waliullah Dehlawi"
+  - "Hujjat Allah al-Baligha"
+  - "Delhi"
+  - "Tarikh-e-Da'wat-o-Azimat"
 summary: "Life and work of Shah Waliullah of Delhi. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

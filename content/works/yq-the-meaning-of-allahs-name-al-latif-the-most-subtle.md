@@ -7,7 +7,9 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "al-Latif"
+  - "Names of Allah"
+  - "asma al-husna"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -6,6 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "secular state"
+  - "religious minorities"
+  - "liberalism"
+  - "Egypt 2013"
 summary: "Argues that the secular state is part of the problem for religious minorities, discussing liberal ideals of equality and Egypt in 2013."
 venue: "The Immanent Frame, 11 February 2016 (forum on Saba Mahmood’s Religious Difference in a Secular Age)"
 rights: link-only

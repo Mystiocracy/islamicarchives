@@ -10,10 +10,11 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "al-Ghazali"
-  - "Ihya ʿUlum al-Din Book XL"
+  - "Ihya Ulum al-Din"
   - "death"
   - "eschatology"
-  - "Islamic Texts Society"
+  - "afterlife"
+  - "grave"
 summary: "An annotated translation of the fortieth and final book of al-Ghazālī's Revival of the Religious Sciences, on death, the grave, resurrection and the hereafter."
 rights: link-only
 rightsNote: "In copyright (living author)."

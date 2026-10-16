@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - sufism
+keywords:
+  - "al-Ghazali"
+  - "Ihya Ulum al-Din"
+  - "Abu Hamid al-Ghazali"
+  - "critics of al-Ghazali"
 summary: "Weighs the praise and criticism directed at Imam al-Ghazali."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

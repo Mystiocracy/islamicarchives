@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "Arab world"
+  - "Muslim world"
+  - "Islamic movement"
 summary: "Examines the revival's role in confronting Arab and Muslim political and social concerns."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

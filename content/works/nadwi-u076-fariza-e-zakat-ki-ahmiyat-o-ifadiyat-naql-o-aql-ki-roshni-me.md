@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - economics
+keywords:
+  - "zakat"
+  - "reason and revelation"
+  - "obligatory charity"
 summary: "Importance of the zakat obligation in the light of revelation and reason"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

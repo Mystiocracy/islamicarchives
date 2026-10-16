@@ -7,9 +7,14 @@ language: "English"
 type: "Paper"
 subjects:
   - hadith-studies
+  - women-and-gender
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "Aisha"
+  - "Aisha's age"
+  - "marriage age"
+  - "Prophet Muhammad"
+  - "sira"
+  - "child marriage"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

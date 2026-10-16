@@ -5,16 +5,14 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
-  - islam-and-modernity
-  - psychology-and-mental-health
   - political-thought
+  - sufism
 keywords:
-  - "Allah"
-  - "Contemporary Ideologies"
-  - "General Psychology"
-  - "Politics & Practical Theology"
-  - "Psychology & Mental Health"
+  - "Gaza"
+  - "Pharaoh"
+  - "Ramadan"
+  - "Palestine"
+  - "Trump Gaza Riviera"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -7,9 +7,8 @@ type: "Video"
 subjects:
   - education
 keywords:
-  - "education"
-  - "ethics"
   - "CILE"
+  - "ethics of education"
   - "goals of education"
 summary: "Lecture from CILE's monthly public lecture series on the ethical foundations and goals of education in Muslim thought and contemporary practice."
 venue: "CILE Center"

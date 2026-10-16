@@ -5,10 +5,14 @@ byline: "Yakoob Ahmed"
 year: 2019
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - political-thought
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "Ottoman Empire"
+  - "Ottomans"
+  - "Muslim history"
+  - "caliphate"
+  - "historical memory"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

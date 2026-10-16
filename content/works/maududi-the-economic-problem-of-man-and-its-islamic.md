@@ -12,6 +12,7 @@ keywords:
   - "capitalism"
   - "socialism"
   - "Islamic economics"
+  - "private property"
 summary: "A lecture contrasting capitalism and socialism with an Islamic economic order based on private property limited by moral and legal obligations."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

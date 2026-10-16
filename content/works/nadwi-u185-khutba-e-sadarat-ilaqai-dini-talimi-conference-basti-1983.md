@@ -5,6 +5,12 @@ author: nadwi
 year: 1983
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Basti"
 summary: "Presidential address, Basti (27 Feb 1983)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,12 +6,11 @@ language: "English"
 type: "Essay"
 subjects:
   - political-thought
-  - islam-and-modernity
 keywords:
   - "Palestine"
   - "Rohingya"
+  - "Myanmar"
   - "solidarity"
-  - "editorial"
 venue: "American Journal of Islamic Social Sciences 35, no. 3: vii-xii"
 summary: "Asks whether scholarship is justified amid atrocities against Muslims in Palestine, Myanmar and elsewhere, and calls for real solidarity."
 rights: link-only

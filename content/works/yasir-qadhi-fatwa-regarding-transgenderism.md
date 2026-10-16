@@ -5,9 +5,13 @@ year: 2022
 language: English
 type: "Essay"
 subjects:
-  - family-and-society
+  - islamic-law
+  - women-and-gender
 keywords:
-  - "Fatwa Regarding Transgenderism"
+  - "transgenderism"
+  - "fatwa"
+  - "gender identity"
+  - "MuslimMatters"
 summary: "An essay by Yasir Qadhi on MuslimMatters."
 venue: "MuslimMatters"
 rights: link-only

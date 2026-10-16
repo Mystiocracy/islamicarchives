@@ -6,12 +6,14 @@ year: 2025
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - philosophy-and-theology
 keywords:
-  - "Allah"
-  - "Divine Decree"
-  - "Politics & Practical Theology"
+  - "Gaza"
+  - "hope"
+  - "resistance"
+  - "Names of Allah"
+  - "Palestine"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

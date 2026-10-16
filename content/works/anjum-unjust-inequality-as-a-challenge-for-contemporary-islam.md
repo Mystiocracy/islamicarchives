@@ -6,12 +6,12 @@ language: "English"
 type: "Chapter"
 subjects:
   - economics
-  - family-and-society
   - philosophy-and-theology
 keywords:
   - "inequality"
-  - "justice"
+  - "social justice"
   - "Building Bridges"
+  - "poverty"
 venue: "In A World of Inequalities: Christian and Muslim Perspectives (Georgetown University Press, Building Bridges), 7-20"
 summary: "Argues that structural inequality poses a pressing moral and theological challenge to contemporary Muslims."
 rights: link-only

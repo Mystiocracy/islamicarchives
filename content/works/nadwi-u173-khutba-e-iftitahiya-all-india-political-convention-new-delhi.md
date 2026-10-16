@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Indian Muslims"
+  - "political convention"
+  - "New Delhi"
+  - "1970"
 summary: "Inaugural address, New Delhi (19-20 Dec 1970)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

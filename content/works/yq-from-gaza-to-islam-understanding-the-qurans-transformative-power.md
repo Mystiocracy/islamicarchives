@@ -6,13 +6,13 @@ year: 2024
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
   - quranic-studies
+  - political-thought
 keywords:
-  - "Politics & Practical Theology"
-  - "Quran"
-  - "Social Justice"
+  - "Gaza"
+  - "Palestine"
+  - "conversions"
+  - "Qur'an's transformative power"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

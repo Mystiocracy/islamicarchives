@@ -6,9 +6,12 @@ language: "Arabic"
 type: "Video"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
-  - "audio"
   - "sahwa"
+  - "Islamic revival"
+  - "Islamic awakening"
+  - "obstacles"
 venue: "Internet Archive"
 summary: "Audio lecture (54 min) on obstacles facing the Islamic revival."
 rights: link-only

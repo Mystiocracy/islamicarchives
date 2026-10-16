@@ -4,6 +4,13 @@ titleOriginal: "حقیقتِ اسلام اور صورتِ اسلام"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "spirit of Islam"
+  - "outward form"
+  - "ikhlas"
+  - "sincerity"
 summary: "The reality and the outward form of Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

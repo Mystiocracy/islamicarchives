@@ -5,8 +5,11 @@ author: nadwi
 year: 1956
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
+keywords:
+  - "mawlid"
+  - "birth of the Prophet"
+  - "Prophet Muhammad"
+  - "sira"
 summary: "The world's birthday (on the Prophet's birth)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

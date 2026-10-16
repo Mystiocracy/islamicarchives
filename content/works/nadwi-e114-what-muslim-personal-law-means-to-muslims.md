@@ -6,6 +6,13 @@ language: "English"
 type: "Speech"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "Muslim Personal Law"
+  - "AIMPLB"
+  - "Calcutta"
+  - "India"
+  - "sharia"
 summary: "What Muslim Personal Law Means to Muslims. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

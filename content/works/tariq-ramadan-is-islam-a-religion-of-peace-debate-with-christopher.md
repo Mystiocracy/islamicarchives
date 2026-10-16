@@ -7,11 +7,12 @@ language: "English"
 type: "Video"
 subjects:
   - islam-and-modernity
+  - political-thought
 keywords:
-  - "debate"
-  - "Hitchens"
-  - "92Y"
+  - "Christopher Hitchens"
   - "religion of peace"
+  - "92Y"
+  - "violence"
 summary: "Ninety-minute New York debate in which Ramadan and Christopher Hitchens argue over whether Islam is a religion of peace and what the question assumes."
 venue: "92nd Street Y, New York"
 rights: link-only

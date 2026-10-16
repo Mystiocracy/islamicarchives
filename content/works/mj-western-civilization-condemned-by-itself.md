@@ -4,9 +4,13 @@ author: maryam-jameelah
 year: 1971
 language: English
 type: "Anthology"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Western civilization"
+  - "moral decline"
+  - "Western critics of modernity"
+venue: "Mohammad Yusuf Khan"
 summary: "An anthology of Western writers on the moral decline of modern society, with her introductions and notes."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

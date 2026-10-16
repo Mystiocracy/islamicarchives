@@ -6,10 +6,11 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "qira'at"
+  - "variant readings"
+  - "ahruf"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

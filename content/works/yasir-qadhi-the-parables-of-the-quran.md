@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "The Parables of the Qur'an"
+  - "amthal al-Qur'an"
+  - "parables"
+  - "Qur'an"
 summary: "On the parables (amthāl) of the Qur'an."
 venue: "Kube Publishing"
 rights: link-only

@@ -10,10 +10,10 @@ subjects:
   - colonialism-and-decolonisation
 keywords:
   - "al-Urwa al-wuthqa"
-  - "journal"
-  - "Paris 1884"
   - "Muhammad Abduh"
+  - "Paris 1884"
   - "pan-Islamism"
+  - "British imperialism"
 summary: "The eighteen issues of the Arabic weekly published in Paris with Muḥammad ʿAbduh, calling for Muslim unity and resistance to British rule in Egypt and India."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1897); later translations may still be in copyright."

@@ -5,9 +5,13 @@ author: nadwi
 year: 2008
 language: "Russian"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
 keywords:
   - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
-  - "not named (reviewed by Abu Abdurrahman Dagestani)"
+  - "decline of Muslims"
+  - "Western civilisation"
 summary: "What the world lost because Muslims abandoned Islam. Translated by not named (reviewed by Abu Abdurrahman Dagestani)."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

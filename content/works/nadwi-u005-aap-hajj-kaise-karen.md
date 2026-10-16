@@ -6,7 +6,13 @@ year: 1951
 language: "Urdu"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+keywords:
+  - "Hajj"
+  - "pilgrimage"
+  - "manasik"
+  - "Mecca"
+  - "Manzoor Nomani"
 summary: "How to perform Hajj"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

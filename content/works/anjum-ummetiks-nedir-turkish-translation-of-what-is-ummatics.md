@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
-  - "Turkish"
+  - "What is Ummatics?"
+  - "umma"
+  - "Muslim unity"
 venue: "Ummatics Institute"
 summary: "Turkish translation of 'What is Ummatics?'."
 rights: link-only

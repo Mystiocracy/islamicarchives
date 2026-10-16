@@ -7,11 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+  - philosophy-and-theology
 keywords:
   - "Mashahid al-qiyama fi al-Qur'an"
   - "eschatology"
   - "Day of Judgement"
-  - "literary study"
+  - "paradise and hell"
+  - "Qur'anic imagery"
 summary: "A companion to his study of Qurʾanic imagery that gathers and analyses the Qurʾan's depictions of the resurrection, judgement, paradise and hell."
 rights: link-only
 rightsNote: "In copyright (author d. 1966)."

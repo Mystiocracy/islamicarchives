@@ -7,10 +7,10 @@ type: "Essay"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Malay version"
   - "din"
   - "akhlak"
-  - "ABIM"
+  - "ethics"
+  - "Islam: The Concept of Religion and the Foundation of Ethics and Morality"
 summary: "The Malay version of al-Attas's essay on the Islamic concept of religion and the foundation of ethics."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

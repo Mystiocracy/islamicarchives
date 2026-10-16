@@ -7,8 +7,9 @@ type: "Video"
 subjects:
   - islam-and-modernity
 keywords:
+  - "Muslim minorities"
   - "Muslims in Europe"
-  - "minorities"
+  - "citizenship"
   - "integration"
   - "Georgetown"
 summary: "Georgetown lecture on the position, rights and responsibilities of Muslim minorities in Western Europe, including questions of citizenship, integration and identity."

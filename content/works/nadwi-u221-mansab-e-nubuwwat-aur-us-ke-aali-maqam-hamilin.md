@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "prophethood"
+  - "nubuwwa"
+  - "al-Nubuwwa wa al-Anbiya fi Daw' al-Qur'an"
+  - "prophets"
 summary: "The office of prophethood and its exalted bearers. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -11,7 +11,8 @@ keywords:
   - "Thughur al-murabata"
   - "Palestine"
   - "sectarian conflict"
-  - "trusteeship"
+  - "trusteeship paradigm"
+  - "i'timaniyya"
 summary: "Applies his trusteeship paradigm to contemporary conflicts in the Muslim world, including Palestine and sectarian strife."
 rights: link-only
 rightsNote: "In copyright (living author)."

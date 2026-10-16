@@ -6,9 +6,13 @@ year: 2006
 language: English
 type: "Article"
 subjects:
-  - hadith-studies
+  - political-thought
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "Salafi movement"
+  - "jihadism"
+  - "quietism"
+  - "Quintan Wiktorowicz"
 summary: "A study or biography of al-Albānī."
 venue: "Studies in Conflict & Terrorism 29, no. 3, pp. 207–239"
 rights: link-only

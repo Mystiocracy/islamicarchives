@@ -7,7 +7,9 @@ type: "Video"
 subjects:
   - hadith-studies
 keywords:
-  - "life"
+  - "Yasir Qadhi"
+  - "Salafism"
+  - "popularity"
 summary: "A lecture by Yasir Qadhi on his appeal."
 venue: "Yasir Qadhi"
 rights: link-only

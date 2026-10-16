@@ -4,8 +4,12 @@ titleOriginal: "ধর্ম ও কৃষ্টি"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - islam-and-modernity
 keywords:
   - "Mazhab-o-Tamaddun"
+  - "culture"
+  - "civilisation"
 summary: "Religion and culture. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

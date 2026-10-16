@@ -5,10 +5,12 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - islamic-law
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "ikhlas"
+  - "sincerity"
+  - "riya"
+  - "intention"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

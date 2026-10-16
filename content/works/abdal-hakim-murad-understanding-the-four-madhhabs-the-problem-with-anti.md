@@ -11,7 +11,7 @@ keywords:
   - "taqlid"
   - "ijtihad"
   - "Salafism"
-  - "Muslim Academic Trust"
+  - "anti-madhhabism"
 summary: "A defence of the four Sunni schools of law against modern calls to derive rulings directly from the Qur'an and hadith, explaining the role of ijtihad and taqlid."
 rights: link-only
 rightsNote: "In copyright (living author)."

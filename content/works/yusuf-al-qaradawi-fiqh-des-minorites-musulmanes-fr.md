@@ -6,6 +6,12 @@ language: "French"
 type: "Book"
 subjects:
   - islamic-law
+  - islam-and-modernity
+keywords:
+  - "Fi Fiqh al-Aqalliyyat al-Muslima"
+  - "fiqh al-aqalliyyat"
+  - "Muslim minorities"
+  - "Muslims in the West"
 summary: "Jurisprudence for Muslim minorities."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "The Lawful and the Prohibited in Islam"
+  - "halal"
+  - "haram"
+  - "food"
+  - "dress"
 summary: "A second Urdu scan of the permitted-and-forbidden guide."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

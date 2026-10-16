@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "Psychology & Mental Health"
-  - "Trauma"
+  - "grief"
+  - "loss"
+  - "faith crisis"
+  - "bereavement"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

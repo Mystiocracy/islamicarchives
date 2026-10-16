@@ -6,10 +6,14 @@ year: 2023
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - quranic-studies
+  - education
+  - sufism
 keywords:
-  - "Quran"
+  - "adab"
+  - "seekers of knowledge"
+  - "al-Ghazali"
+  - "al-Raghib al-Isfahani"
+  - "etiquette"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

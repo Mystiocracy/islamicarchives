@@ -8,9 +8,10 @@ subjects:
   - science-and-religion
 keywords:
   - "artificial intelligence"
+  - "AI"
   - "technology"
   - "Muslim world"
-  - "Yeni Şafak"
+  - "Yeni Safak"
 summary: "Forty-five-minute interview, posted in October 2026, in which Ramadan analyses artificial intelligence and its likely impact on the Muslim world and on religious thought."
 venue: "Nouvelle Aube (Yeni Şafak Français)"
 rights: link-only

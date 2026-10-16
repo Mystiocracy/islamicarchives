@@ -6,7 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
-  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "knowledge and faith"
+  - "secularism"
+  - "decline of humanity"
+  - "Iqra bismi rabbik"
 summary: "Cause of humanity's decline (separating knowledge from God's name)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

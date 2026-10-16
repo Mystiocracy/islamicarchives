@@ -6,8 +6,9 @@ type: "Interview"
 subjects:
   - quranic-studies
 keywords:
-  - "podcast"
-  - "qirāʾāt"
+  - "qira'at"
+  - "variant readings"
+  - "Bottled Petrichor"
 summary: "A podcast conversation recorded before his second Brill book appeared."
 venue: "Bottled Petrichor (podcast)"
 rights: link-only

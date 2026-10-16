@@ -6,9 +6,13 @@ language: "English"
 type: "Paper"
 subjects:
   - islamic-law
+  - islam-and-modernity
 keywords:
-  - "Methodology (usul)"
-  - "Sharia"
+  - "sharia"
+  - "renewal"
+  - "tajdid"
+  - "maqasid al-sharia"
+  - "contemporary fiqh"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

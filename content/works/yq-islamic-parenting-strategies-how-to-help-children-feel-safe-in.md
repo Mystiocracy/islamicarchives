@@ -7,9 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - family-and-society
+  - psychology-and-mental-health
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "parenting"
+  - "attachment theory"
+  - "children"
+  - "attachment to God"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

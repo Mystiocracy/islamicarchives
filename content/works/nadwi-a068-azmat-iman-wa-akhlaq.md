@@ -5,7 +5,13 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+  - sufism
+keywords:
+  - "A Crisis of Faith and Morals"
+  - "iman"
+  - "akhlaq"
+  - "moral crisis"
 summary: "A Crisis of Faith and Morals"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

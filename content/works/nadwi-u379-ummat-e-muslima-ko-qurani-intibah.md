@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+  - political-thought
+keywords:
+  - "zulm"
+  - "ummah"
+  - "Surat Hud"
 summary: "The Quran's warning to the Muslim community"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

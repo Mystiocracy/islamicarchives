@@ -11,8 +11,8 @@ keywords:
   - "Miskawayh"
   - "Arab humanism"
   - "Buyid period"
-  - "doctoral thesis"
   - "Naz'at al-ansana"
+  - "ethics"
 summary: "His doctoral study of Miskawayh, presenting the tenth-century Buyid milieu as a moment of philosophical humanism within Islamic civilisation."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

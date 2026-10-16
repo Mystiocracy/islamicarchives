@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Muslims Facing Western Civilisation"
+  - "Western civilisation"
+  - "Westernisation"
 summary: "Muslims Facing Western Civilisation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

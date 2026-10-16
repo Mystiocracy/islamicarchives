@@ -7,7 +7,10 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Divine Decree"
+  - "qadar"
+  - "predestination"
+  - "free will"
+  - "divine decree"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "din"
+  - "practising Islam"
+  - "blessings"
+  - "da'wa"
 summary: "The world will travel to see the blessings of practising the faith"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

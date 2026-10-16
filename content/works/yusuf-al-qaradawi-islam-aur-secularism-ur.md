@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "secularism"
+  - "Al-Islam wa-l-Almaniyya Wajhan li-Wajh"
+  - "religion and state"
 summary: "Critique of secularism and its place in Muslim societies."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

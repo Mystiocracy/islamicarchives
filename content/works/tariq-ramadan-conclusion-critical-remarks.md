@@ -5,7 +5,8 @@ year: 2016
 language: "English"
 type: "Chapter"
 subjects:
-  - philosophy-and-theology
+  - science-and-religion
+  - islamic-law
 keywords:
   - "bioethics"
   - "Islamic ethics"

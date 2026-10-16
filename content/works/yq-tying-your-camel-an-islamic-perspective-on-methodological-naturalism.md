@@ -6,11 +6,14 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
+  - science-and-religion
   - philosophy-and-theology
-  - political-thought
 keywords:
-  - "Epistemology"
-  - "Politics & Practical Theology"
+  - "methodological naturalism"
+  - "epistemology"
+  - "causality"
+  - "tawakkul"
+  - "tying your camel"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

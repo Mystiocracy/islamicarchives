@@ -6,11 +6,11 @@ language: "English"
 type: "Chapter"
 subjects:
   - islam-and-modernity
-  - islamic-law
 keywords:
   - "reform"
   - "Western Muslims"
   - "tradition"
+  - "discursive density"
 venue: "In Sohaira Siddiqui et al. (eds.), Locating the Shari'a: Legal Fluidity in Theory, History and Practice (Brill), 249-266"
 summary: "Discusses reformist approaches to Islam in the West and argues for the importance of 'discursive density' in tradition."
 rights: link-only

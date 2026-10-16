@@ -4,6 +4,15 @@ author: nadwi
 year: 1992
 language: "English"
 type: "Speech"
+subjects:
+  - islamic-law
+  - political-thought
+keywords:
+  - "Uniform Civil Code"
+  - "Muslim Personal Law"
+  - "AIMPLB"
+  - "India"
+  - "sharia"
 summary: "Islamic Code of Life and Uniform Civil Code. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

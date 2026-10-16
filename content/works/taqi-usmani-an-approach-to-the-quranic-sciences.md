@@ -6,6 +6,12 @@ language: "English"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "Ulum al-Quran"
+  - "revelation"
+  - "compilation of the Qur'an"
+  - "qira'at"
+  - "tafsir"
 summary: "English edition of Ulum al-Quran, covering revelation, the collection of the text, recitations and tafsir."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

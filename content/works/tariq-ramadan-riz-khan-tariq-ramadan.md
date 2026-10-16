@@ -7,10 +7,10 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Al Jazeera"
   - "Riz Khan"
+  - "Al Jazeera"
   - "Western Muslims"
-  - "reform"
+  - "Islamic reform"
 summary: "Al Jazeera English interview presenting Ramadan as one of the most sought-after Islamic commentators in the West and probing his views on Western Muslims and Islamic reform."
 venue: "Al Jazeera English (Riz Khan)"
 rights: link-only

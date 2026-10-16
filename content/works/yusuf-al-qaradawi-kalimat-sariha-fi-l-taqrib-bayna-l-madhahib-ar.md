@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - political-thought
+keywords:
+  - "taqrib"
+  - "Sunni-Shi'a relations"
+  - "Shi'ism"
+  - "sectarianism"
+  - "Muslim unity"
 summary: "Frank remarks on rapprochement among Islamic schools and sects."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

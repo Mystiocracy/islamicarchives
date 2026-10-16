@@ -5,8 +5,11 @@ author: nadwi
 year: 2002
 language: "Arabic"
 type: "Article"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "Seerah"
+  - "Articles on the Prophet's Life"
 summary: "Articles on the Prophet's Life"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

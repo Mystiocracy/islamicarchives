@@ -4,10 +4,14 @@ author: tesneem-alkiek
 year: 2018
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - political-thought
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "tolerance"
+  - "religious minorities"
+  - "dhimmi"
+  - "pluralism"
+  - "non-Muslims"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

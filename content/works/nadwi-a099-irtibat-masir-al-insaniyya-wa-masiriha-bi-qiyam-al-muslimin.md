@@ -4,6 +4,13 @@ titleOriginal: "ارتباط مسير الإنسانية ومصيرها بقيا
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Humanity's Course and Destiny Tied to Muslims Fulfilling Their Duty"
+  - "ummah"
+  - "humanity"
+  - "Muslim mission"
 summary: "Humanity's Course and Destiny Tied to Muslims Fulfilling Their Duty"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -5,11 +5,12 @@ year: 2016
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - islam-and-modernity
-  - political-thought
 keywords:
+  - "honor killings"
+  - "violence against women"
   - "Islamophobia"
-  - "Politics & Practical Theology"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

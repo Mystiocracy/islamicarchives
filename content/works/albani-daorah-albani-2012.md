@@ -6,7 +6,8 @@ type: "Video"
 subjects:
   - hadith-studies
 keywords:
-  - "recording"
+  - "Imam Albani Center"
+  - "course"
 summary: "A course from the Imam Albani Center."
 venue: "archive.org"
 rights: link-only

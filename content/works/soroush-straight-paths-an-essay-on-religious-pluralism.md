@@ -11,7 +11,7 @@ keywords:
   - "Serat-ha-ye mostaqim"
   - "religious pluralism"
   - "John Hick"
-  - "al-Sirat al-mustaqima (Arabic tr.)"
+  - "salvation"
 summary: "A defence of religious pluralism holding that several religious paths can be authentic and salvific."
 rights: link-only
 rightsNote: "In copyright (living author)."

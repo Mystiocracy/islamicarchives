@@ -5,6 +5,11 @@ language: "English"
 type: "Speech"
 subjects:
   - education
+keywords:
+  - "knowledge"
+  - "University of Kashmir"
+  - "convocation"
+  - "ilm"
 summary: "The Place of Knowledge and Responsibilities of Those Who Acquire It. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

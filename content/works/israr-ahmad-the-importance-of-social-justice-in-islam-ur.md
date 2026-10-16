@@ -8,8 +8,10 @@ subjects:
   - economics
   - political-thought
 keywords:
+  - "Adl-e-Ijtimai"
   - "social justice"
   - "economic justice"
+  - "collective justice"
 summary: "Argues that collective justice, not only personal piety, lies at the heart of the Islamic message."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

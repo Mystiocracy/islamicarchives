@@ -7,10 +7,10 @@ type: "Essay"
 subjects:
   - women-and-gender
 keywords:
-  - "New Internationalist"
   - "Aisha"
   - "women's rights"
   - "The New Voices of Islam"
+  - "Islamic feminism"
 summary: "Short essay invoking the example of Aisha to argue for women's rights from within the Islamic tradition; reprinted in The New Voices of Islam (2006)."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -4,8 +4,9 @@ author: yusuf-al-qaradawi
 titleOriginal: "نفحات ولفحات (ديوان)"
 language: "Arabic"
 type: "Collection"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "Arabic poetry"
+  - "diwan"
 summary: "Second collection of his Arabic poetry."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

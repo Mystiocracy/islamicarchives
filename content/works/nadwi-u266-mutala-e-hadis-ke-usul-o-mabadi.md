@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+keywords:
+  - "study of hadith"
+  - "principles of hadith"
+  - "Sunnah"
 summary: "Principles for studying Hadith"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

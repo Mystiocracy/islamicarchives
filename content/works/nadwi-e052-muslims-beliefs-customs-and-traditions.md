@@ -4,7 +4,14 @@ author: nadwi
 language: "English"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - family-and-society
+keywords:
+  - "Indian Muslims"
+  - "customs"
+  - "marriage"
+  - "funeral"
+  - "naming"
+  - "rites of passage"
 summary: "Muslims: Beliefs, Customs and Traditions. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

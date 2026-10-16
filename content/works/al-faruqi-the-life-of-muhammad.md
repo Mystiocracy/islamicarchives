@@ -5,13 +5,11 @@ titleOriginal: "حياة محمد"
 year: 1976
 language: "Arabic"
 type: "Translation"
-subjects:
-  - islam-and-modernity
 keywords:
+  - "Hayat Muhammad"
   - "Muhammad Husayn Haykal"
   - "sira"
-  - "biography of the Prophet"
-  - "translation"
+  - "Prophet Muhammad"
 summary: "Al-Fārūqī's English translation of Muhammad Husayn Haykal's modern biography of the Prophet Muhammad."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

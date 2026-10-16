@@ -7,6 +7,7 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
   - "Bu's al-dahraniyya"
   - "dahraniyya"

@@ -7,14 +7,15 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - women-and-gender
+  - philosophy-and-theology
   - slavery-and-race
-  - economics
 keywords:
   - "apologetics"
   - "misconceptions"
   - "slavery"
   - "capitalism"
+  - "women"
+  - "private property"
 venue: "Dār al-Shurūq"
 summary: "Answers common modern objections to Islam on topics such as slavery, women, capitalism, private property and punishment."
 rights: link-only

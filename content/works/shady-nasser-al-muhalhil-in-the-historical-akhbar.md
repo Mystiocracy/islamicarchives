@@ -4,11 +4,12 @@ author: shady-nasser
 year: 2009
 language: English
 type: "Paper"
-subjects:
-  - quranic-studies
 keywords:
-  - "Qur'an"
-  - "qirāʾāt"
+  - "al-Muhalhil"
+  - "pre-Islamic poetry"
+  - "akhbar"
+  - "folkloric sira"
+  - "Ayyam al-Arab"
 summary: "On the pre-Islamic poet al-Muhalhil in the sources."
 venue: "Journal of Arabic Literature 40, pp. 241–272"
 rights: link-only

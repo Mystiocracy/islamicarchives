@@ -7,9 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - family-and-society
+  - islam-and-modernity
 keywords:
-  - "Culture"
-  - "Family & Community"
+  - "culture"
+  - "American Muslims"
+  - "cultural production"
+  - "Muslim identity"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

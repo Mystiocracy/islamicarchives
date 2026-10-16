@@ -6,11 +6,14 @@ year: 2026
 language: English
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - political-thought
+  - islam-and-modernity
 keywords:
   - "da'wa"
   - "practical theology"
   - "October 7"
+  - "Gaza"
+  - "American Muslims"
 summary: "An academic study of his preaching after October 2023."
 venue: "Religions 17, no. 1, art. 118"
 rights: link-only

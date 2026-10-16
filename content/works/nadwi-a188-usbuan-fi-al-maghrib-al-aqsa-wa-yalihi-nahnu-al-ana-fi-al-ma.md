@@ -5,6 +5,12 @@ author: nadwi
 year: 1981
 language: "Arabic"
 type: "Book"
+keywords:
+  - "Morocco"
+  - "Maghreb"
+  - "1976 visit"
+  - "Fez"
+  - "Rabat"
 summary: "Two Weeks in Morocco; followed by: We Are Now in Morocco"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

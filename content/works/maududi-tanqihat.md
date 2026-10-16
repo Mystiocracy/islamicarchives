@@ -8,11 +8,12 @@ type: "Collection"
 subjects:
   - islam-and-modernity
   - colonialism-and-decolonisation
+  - education
 keywords:
-  - "essays"
   - "Western civilisation"
   - "Muslim education"
   - "cultural critique"
+  - "Indian Muslims"
 summary: "Essays criticising the intellectual and cultural dependence of Indian Muslims on Western civilisation and calling for an Islamic alternative in education and thought."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

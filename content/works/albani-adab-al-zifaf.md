@@ -8,8 +8,10 @@ subjects:
   - family-and-society
   - islamic-law
 keywords:
-  - "Ādāb al-zifāf fī l-sunna al-muṭahhara"
-  - "Albani"
+  - "marriage"
+  - "wedding"
+  - "etiquette of marriage"
+  - "Sunna"
 summary: "The etiquette of marriage according to the Sunna."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

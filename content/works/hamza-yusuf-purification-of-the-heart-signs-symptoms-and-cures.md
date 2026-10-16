@@ -8,11 +8,12 @@ type: "Translation"
 subjects:
   - sufism
 keywords:
-  - "Imam Mawlud"
   - "Matharat al-Qulub"
+  - "Imam Mawlud"
   - "diseases of the heart"
   - "tazkiya"
-  - "Mauritania"
+  - "envy"
+  - "pride"
 summary: "A translation and commentary of Imam Mawlūd's didactic poem on the spiritual diseases of the heart, such as envy, pride and greed, and their remedies."
 rights: link-only
 rightsNote: "In copyright (living author)."

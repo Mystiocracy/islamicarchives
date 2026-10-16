@@ -6,12 +6,14 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - economics
   - islam-and-modernity
 keywords:
+  - "al-Insan al-mu'asir wa-l-mushkila al-ijtima'iyya"
   - "al-Madrasa al-Islamiyya"
-  - "Towards an Islamic Economy"
+  - "capitalism"
+  - "socialism"
   - "social system"
-  - "tr. Yasin T. al-Jibouri"
 summary: "The first booklet of the series al-Madrasa al-Islamiyya, contrasting capitalist, socialist and Islamic answers to the question of how society should be organised."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

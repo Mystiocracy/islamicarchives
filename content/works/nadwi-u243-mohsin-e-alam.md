@@ -6,7 +6,12 @@ year: 1975
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "Prophet Muhammad"
+  - "rahmatan lil-alamin"
+  - "sira"
+  - "benefactor of humanity"
 summary: "Benefactor of the world (the Prophet)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

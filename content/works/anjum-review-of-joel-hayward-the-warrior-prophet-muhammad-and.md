@@ -7,10 +7,11 @@ type: "Review"
 subjects:
   - political-thought
 keywords:
+  - "Joel Hayward"
   - "Prophet Muhammad"
-  - "war"
+  - "warfare"
   - "sira"
-  - "book review"
+  - "military leadership"
 venue: "American Journal of Islam and Society 41, no. 2: 146-157"
 summary: "An extended review of Hayward's study of the Prophet Muhammad's military leadership."
 rights: link-only

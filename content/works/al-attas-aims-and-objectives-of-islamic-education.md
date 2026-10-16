@@ -10,7 +10,7 @@ keywords:
   - "First World Conference on Muslim Education"
   - "Mecca 1977"
   - "King Abdulaziz University"
-  - "editor"
+  - "Islamic education"
 summary: "Papers from the First World Conference on Muslim Education, edited by al-Attas, with his own contribution on the meaning and aims of education in Islam."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

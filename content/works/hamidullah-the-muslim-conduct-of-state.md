@@ -12,6 +12,7 @@ keywords:
   - "international law"
   - "law of war and peace"
   - "neutrality"
+  - "diplomacy"
 summary: "A treatise on siyar, the Islamic law of nations, covering war, peace, neutrality and diplomacy, and presenting it as an early system of international law."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

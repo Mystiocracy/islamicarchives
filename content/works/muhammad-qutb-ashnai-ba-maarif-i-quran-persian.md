@@ -8,7 +8,10 @@ type: "Translation"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
+  - "Dirasat Qur'aniyya"
+  - "Qur'anic themes"
+  - "Meccan suras"
+  - "Persian"
 summary: "Persian translation of Dirasat Qur'aniyya."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "caliphate"
-  - "Indonesian"
+  - "Who Wants the Caliphate?"
+  - "khilafah"
+  - "ummatics"
 venue: "Ummatics Institute"
 summary: "Indonesian translation of his essay on the caliphate."
 rights: link-only

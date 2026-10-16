@@ -3,10 +3,9 @@ title: "Son Peygamber Hz. Muhammed'in Hayati"
 author: nadwi
 language: "Turkish"
 type: "Book"
-subjects:
-  - hadith-studies
 keywords:
-  - "al-Sira al-Nabawiyya (Arabic)"
+  - "al-Sira al-Nabawiyya"
+  - "Prophet Muhammad"
 summary: "The life of the Last Prophet Muhammad. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

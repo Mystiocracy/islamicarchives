@@ -6,7 +6,10 @@ type: "Video"
 subjects:
   - quranic-studies
 keywords:
+  - "juz'"
   - "Qur'an"
+  - "month of Ramadan"
+  - "themes of the Qur'an"
 summary: "A Ramadan series giving the message of each juz'."
 venue: "Yasir Qadhi"
 rights: link-only

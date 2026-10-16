@@ -6,10 +6,12 @@ year: 1994
 language: "Arabic"
 type: "Book"
 subjects:
-  - political-thought
   - islam-and-modernity
+  - political-thought
 keywords:
   - "secularism"
+  - "secularists"
+  - "religion and politics"
   - "democracy"
 venue: "Dār al-Waṭan / Dār al-Shurūq"
 summary: "Critique of secularism and of Muslim secularists' arguments about religion and politics."

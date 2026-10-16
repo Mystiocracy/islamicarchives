@@ -11,7 +11,7 @@ keywords:
   - "Islam and the West"
   - "imitation of the West"
   - "Sunnah"
-  - "The Spirit of Islam"
+  - "Islamic revival"
 summary: "A short polemical essay arguing that Muslims should not imitate Western civilisation and that a revival must rest on renewed adherence to the Qur'an and Sunnah."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

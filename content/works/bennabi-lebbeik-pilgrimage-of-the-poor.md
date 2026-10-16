@@ -6,11 +6,13 @@ year: 1948
 language: "French"
 type: "Novel"
 subjects:
-  - islam-and-modernity
+  - sufism
 keywords:
+  - "Lebbeik, pèlerinage de pauvres"
   - "Labbayk hajj al-fuqara'"
   - "hajj"
   - "Algeria"
+  - "novel"
   - "spiritual renewal"
 summary: "A short novel about a poor Algerian who sets out on the pilgrimage to Mecca and is transformed by the journey."
 rights: link-only

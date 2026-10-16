@@ -4,6 +4,10 @@ titleOriginal: "روشنی کا مینار"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "guidance"
+  - "lighthouse"
+  - "light"
 summary: "The lighthouse"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,6 +4,9 @@ titleOriginal: "आशा की किरन"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+keywords:
+  - "Payam-e-Insaniyat"
+  - "hope"
 summary: "A ray of hope. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

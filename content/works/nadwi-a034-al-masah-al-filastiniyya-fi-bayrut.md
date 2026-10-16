@@ -4,6 +4,14 @@ titleOriginal: "المأساة الفلسطينية في بيروت"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "The Palestinian Tragedy in Beirut"
+  - "Palestine"
+  - "Beirut"
+  - "Lebanon war 1982"
+  - "Sabra and Shatila"
 summary: "The Palestinian Tragedy in Beirut"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

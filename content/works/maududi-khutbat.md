@@ -5,13 +5,15 @@ titleOriginal: "خطبات"
 language: "Urdu"
 type: "Collection"
 subjects:
-  - philosophy-and-theology
   - islamic-law
+  - philosophy-and-theology
 keywords:
   - "Fundamentals of Islam"
   - "Let Us Be Muslims"
-  - "sermons"
-  - "worship"
+  - "salat"
+  - "zakat"
+  - "hajj"
+  - "Friday sermons"
 summary: "Friday sermons delivered to villagers in the Punjab explaining faith, prayer, fasting, zakat, hajj and jihad as parts of one way of life."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

@@ -8,7 +8,9 @@ subjects:
   - psychology-and-mental-health
   - family-and-society
 keywords:
+  - "Fi al-nafs wa-l-mujtama'"
   - "individual and society"
+  - "faith"
 venue: "Kānūn-i Intishār, Tehran"
 summary: "Persian translation of Fi al-nafs wa-l-mujtama'."
 rights: link-only

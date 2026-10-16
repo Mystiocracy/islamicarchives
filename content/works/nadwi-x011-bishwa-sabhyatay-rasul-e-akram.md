@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Tahzib-o-Tamaddun par Islam ke Asarat aur Ehsanat (per foundation slug)"
+  - "Tahzib-o-Tamaddun par Islam ke Asarat aur Ehsanat"
+  - "Prophet Muhammad"
+  - "Islamic civilisation"
 summary: "The Noble Messenger in world civilisation. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

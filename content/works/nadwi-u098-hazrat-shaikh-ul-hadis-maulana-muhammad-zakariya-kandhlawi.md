@@ -6,8 +6,14 @@ year: 1982
 language: "Urdu"
 type: "Book"
 subjects:
+  - sufism
   - hadith-studies
-  - islamic-law
+keywords:
+  - "Muhammad Zakariya Kandhlawi"
+  - "Shaikh al-Hadith"
+  - "Mazahir Ulum"
+  - "Saharanpur"
+  - "Tablighi Jamaat"
 summary: "Biography of Shaikh al-Hadith Muhammad Zakariya"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

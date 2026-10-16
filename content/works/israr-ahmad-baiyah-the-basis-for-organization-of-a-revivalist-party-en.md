@@ -7,8 +7,9 @@ subjects:
   - political-thought
 keywords:
   - "bay'ah"
-  - "organisation"
   - "Tanzeem-e-Islami"
+  - "revivalist movement"
+  - "organisation"
 summary: "Defends the pledge of allegiance as the right organising principle for an Islamic revivalist movement."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

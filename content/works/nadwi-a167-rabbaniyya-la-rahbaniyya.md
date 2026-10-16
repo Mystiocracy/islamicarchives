@@ -6,7 +6,13 @@ year: 1966
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "rabbaniyya"
+  - "monasticism"
+  - "rahbaniyya"
+  - "tasawwuf"
+  - "spirituality"
 summary: "Godliness, Not Monasticism"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

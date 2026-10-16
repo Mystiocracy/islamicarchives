@@ -10,7 +10,11 @@ subjects:
   - political-thought
 keywords:
   - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "terrorism"
+  - "condemnation"
+  - "scapegoating"
+  - "War on Terror"
+  - "Western violence"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

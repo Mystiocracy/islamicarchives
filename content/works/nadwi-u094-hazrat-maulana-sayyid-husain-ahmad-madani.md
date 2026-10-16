@@ -4,6 +4,14 @@ titleOriginal: "حضرت مولانا سید حسین احمد مدنی"
 author: nadwi
 language: "Urdu"
 type: "Article"
+subjects:
+  - education
+  - colonialism-and-decolonisation
+keywords:
+  - "Husain Ahmad Madani"
+  - "Deoband"
+  - "Jamiat Ulama-e-Hind"
+  - "Indian independence"
 summary: "On Maulana Husain Ahmad Madani"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

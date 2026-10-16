@@ -8,10 +8,10 @@ subjects:
   - political-thought
   - islam-and-modernity
 keywords:
-  - "Majmuat rasail"
-  - "Rasail al-Imam al-Shahid"
+  - "Majmu'at rasa'il"
+  - "Rasa'il al-Imam al-Shahid"
   - "Muslim Brotherhood"
-  - "collected tracts"
+  - "Ikhwan"
 summary: "The standard collection of al-Bannā's epistles, speeches and programme statements, the principal source for his thought."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

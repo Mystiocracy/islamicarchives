@@ -6,8 +6,10 @@ language: "Persian"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - sufism
 keywords:
-  - "مولانا محمد قاسم قاسمی"
+  - "yaqin"
+  - "iman"
 summary: "The certainty of the men of God. Translated by مولانا محمد قاسم قاسمی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

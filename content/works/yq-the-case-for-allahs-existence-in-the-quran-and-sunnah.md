@@ -7,7 +7,10 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "existence of God"
+  - "Qur'an"
+  - "Sunna"
+  - "arguments for God"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

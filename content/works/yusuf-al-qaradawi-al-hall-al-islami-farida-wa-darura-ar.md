@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic solution"
+  - "application of sharia"
+  - "Islamic state"
+  - "secularism"
 summary: "Makes the case that applying Islam is both a duty and a necessity."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

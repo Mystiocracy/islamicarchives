@@ -8,6 +8,11 @@ type: "Translation"
 subjects:
   - political-thought
   - islamic-law
+keywords:
+  - "Muqaddimat al-Dustur"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "constitution"
 summary: "English translation of the second part."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

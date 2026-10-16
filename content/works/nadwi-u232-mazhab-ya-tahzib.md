@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "religion and civilisation"
+  - "Western civilisation"
+  - "tahzib"
 summary: "Religion or civilisation?"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

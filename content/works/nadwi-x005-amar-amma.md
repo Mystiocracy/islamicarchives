@@ -5,7 +5,9 @@ author: nadwi
 language: "Bengali"
 type: "Book"
 keywords:
-  - "Zikr-e-Khair (memoir of his mother Khairunnisa)"
+  - "Zikr-e-Khair"
+  - "Khairunnisa Behtar"
+  - "mother"
 summary: "My mother. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

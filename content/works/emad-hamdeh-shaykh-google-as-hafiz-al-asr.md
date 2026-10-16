@@ -6,8 +6,14 @@ language: English
 type: "Paper"
 subjects:
   - islam-and-modernity
+  - education
 keywords:
-  - "Shaykh Google as Ḥāfiẓ al-ʿAṣr"
+  - "Shaykh Google"
+  - "internet"
+  - "religious authority"
+  - "ulama"
+  - "self-learning"
+  - "Šejh Google kao hafiz el-Asr"
 summary: "On how the internet is changing religious authority. Listed in a Bosnian-language version, \"Šejh Google kao hafiz el-Asr\"."
 venue: "Context: Journal of Interdisciplinary Studies"
 rights: link-only

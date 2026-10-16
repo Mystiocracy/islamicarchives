@@ -4,6 +4,13 @@ titleOriginal: "ترے ضمیر پر جب تک نہ ہو نزول کتاب"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - quranic-studies
+  - islam-and-modernity
+keywords:
+  - "Qur'an"
+  - "Muhammad Iqbal"
+  - "revelation"
 summary: "Until the Book descends upon your conscience"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

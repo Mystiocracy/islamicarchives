@@ -7,10 +7,11 @@ type: "Pamphlet"
 subjects:
   - quranic-studies
 keywords:
-  - "Surah al-Asr"
+  - "Rah-e-Nijat"
+  - "Surat al-Asr"
   - "salvation"
-  - "faith"
   - "righteous deeds"
+  - "patience"
 summary: "Reads Surah al-Asr as a four-part minimum condition for salvation: faith, righteous action, urging truth and urging patience."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

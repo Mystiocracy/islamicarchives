@@ -6,14 +6,13 @@ language: "Persian"
 type: "Anthology"
 subjects:
   - philosophy-and-theology
-  - political-thought
   - islam-and-modernity
+  - political-thought
 keywords:
-  - "R. Campbell"
-  - "Hamid Algar"
-  - "Mizan Press"
+  - "Marxism"
   - "humanism"
   - "existentialism"
+  - "liberalism"
 summary: "Translated lectures criticising Marxism, liberal humanism and existentialism as incomplete accounts of the human being."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

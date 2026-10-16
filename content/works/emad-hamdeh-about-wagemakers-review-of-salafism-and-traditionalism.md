@@ -6,9 +6,13 @@ year: 2022
 language: English
 type: "Review"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
 keywords:
-  - "review"
+  - "Salafism"
+  - "traditionalism"
+  - "Albani"
+  - "Joas Wagemakers"
+  - "scholarly authority"
 summary: "A review of his Cambridge book."
 venue: "Die Welt des Islams 62"
 rights: link-only

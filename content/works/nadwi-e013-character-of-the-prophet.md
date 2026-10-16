@@ -4,7 +4,13 @@ author: nadwi
 language: "English"
 type: "Article"
 subjects:
-  - hadith-studies
+  - sufism
+keywords:
+  - "Prophet Muhammad"
+  - "akhlaq"
+  - "character"
+  - "shama'il"
+  - "sira"
 summary: "Character of the Prophet. Translated from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

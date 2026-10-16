@@ -8,9 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "democracy"
-  - "Islam"
   - "Georgetown"
   - "Berkley Center"
+  - "visa ban"
 summary: "Lecture at Georgetown on the relationship between Islam and democratic politics, delivered during Ramadan's first US visit after the lifting of his visa ban."
 venue: "Berkley Center for Religion, Peace and World Affairs, Georgetown University"
 rights: link-only

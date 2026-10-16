@@ -7,9 +7,14 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
   - psychology-and-mental-health
 keywords:
+  - "al-Insan bayna al-maddiyya wa-l-Islam"
   - "materialism"
+  - "human nature"
+  - "Freud"
+  - "Darwin"
 venue: "Markazī Maktaba-yi Islāmī, Delhi"
 summary: "Urdu translation of al-Insan bayna al-maddiyya wa-l-Islam."
 rights: link-only

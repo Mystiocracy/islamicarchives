@@ -4,6 +4,13 @@ titleOriginal: "مسلمان کی شان امتیازی"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+  - islam-and-modernity
+keywords:
+  - "Muslim identity"
+  - "distinctiveness"
+  - "character"
 summary: "The distinctive dignity of the Muslim"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

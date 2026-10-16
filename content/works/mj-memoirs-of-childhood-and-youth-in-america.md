@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1989
 language: English
 type: "Memoir"
-venue: "Mohammad Yusuf Khan"
 subjects:
-  - women-and-gender
+  - islam-and-modernity
+keywords:
+  - "conversion to Islam"
+  - "autobiography"
+  - "America"
+  - "Haqq ki Talash"
+venue: "Mohammad Yusuf Khan"
 summary: "Her early letters to her family, arranged as an autobiography of her path to Islam."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

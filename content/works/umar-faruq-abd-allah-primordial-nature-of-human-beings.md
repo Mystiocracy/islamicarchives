@@ -6,9 +6,9 @@ type: "Video"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "fiṭra"
-  - "Renovatio"
+  - "fitra"
   - "human nature"
+  - "Renovatio"
 summary: "A talk on the primordial nature (fiṭra) of human beings."
 venue: "Renovatio (Zaytuna College)"
 rights: link-only

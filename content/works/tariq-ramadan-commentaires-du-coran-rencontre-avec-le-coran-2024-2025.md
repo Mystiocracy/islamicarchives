@@ -12,6 +12,7 @@ keywords:
   - "courage"
   - "Abraham"
   - "Moses"
+  - "CHIFA"
 summary: "Eleven lessons of Quranic commentary from the CHIFA and public-course programme, taking up the theme of courage through Abraham, Moses and other Quranic figures."
 venue: "Tariq Ramadan Official (CHIFA courses)"
 rights: link-only

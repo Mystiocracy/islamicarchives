@@ -5,7 +5,8 @@ author: nadwi
 language: "Bengali"
 type: "Book"
 keywords:
-  - "Tuhfa-e-Mashriq"
+  - "dawah"
+  - "ummah"
 summary: "Gift of the East. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

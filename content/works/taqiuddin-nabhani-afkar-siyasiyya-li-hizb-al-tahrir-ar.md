@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Hizb ut-Tahrir"
+  - "Political Thoughts"
+  - "political analysis"
+  - "Muslim world"
 summary: "Political analyses and positions on questions facing the Muslim world."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

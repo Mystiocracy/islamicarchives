@@ -7,8 +7,9 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ḍaʿīf Sunan Abī Dāwūd"
-  - "Albani"
+  - "Sunan Abi Dawud"
+  - "weak hadith"
+  - "da'if"
 summary: "His list of the weak hadith in Abū Dāwūd's *Sunan* (the sound list is at https://shamela.ws/book/25881)."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

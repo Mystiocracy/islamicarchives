@@ -4,6 +4,11 @@ titleOriginal: "بين نظرتين"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Between Two Outlooks"
+  - "worldview"
 summary: "Between Two Outlooks"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

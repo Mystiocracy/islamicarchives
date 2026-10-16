@@ -9,6 +9,7 @@ subjects:
 keywords:
   - "al-Islam wa-mushkilat al-hadara"
   - "Alexis Carrel"
+  - "Man the Unknown"
   - "Western civilisation"
   - "materialism"
 summary: "A critique of modern Western civilisation, drawing heavily on Alexis Carrel's Man the Unknown, presenting Islam as the remedy for its spiritual and social ills."

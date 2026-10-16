@@ -9,8 +9,10 @@ subjects:
   - political-thought
 keywords:
   - "worship"
+  - "ibadah"
   - "Ramadan"
   - "world-making"
+  - "Ummah"
 venue: "Ummatics Ramadan Series 1446"
 summary: "Two-part Ramadan lecture series on how worship shapes the Muslim world-view and collective life."
 rights: link-only

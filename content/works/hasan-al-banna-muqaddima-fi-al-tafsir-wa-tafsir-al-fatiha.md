@@ -7,9 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "introduction to tafsir"
+  - "Introduction to Tafsir and Commentary on al-Fatiha"
+  - "tafsir"
   - "Surat al-Fatiha"
-  - "Quranic exegesis"
+  - "exegesis"
 summary: "An introduction to Qurʾānic exegesis with a commentary on the opening sura, published after al-Bannā's death."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

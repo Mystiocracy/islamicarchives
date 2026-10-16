@@ -4,6 +4,15 @@ titleOriginal: "یورپ امریکہ اور اسرائیل- ایک اظہار �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Europe"
+  - "America"
+  - "Israel"
+  - "Zionism"
+  - "the West"
 summary: "Europe, America and Israel: a disclosure and warning"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

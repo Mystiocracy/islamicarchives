@@ -8,9 +8,10 @@ subjects:
   - sufism
   - political-thought
 keywords:
-  - "Sufism"
   - "governmentality"
-  - "authority"
+  - "spiritual authority"
+  - "medieval Islam"
+  - "Sufi shaykhs"
 venue: "In John J. Curry and Erik S. Ohlander (eds.), Sufism and Society: Arrangements of the Mystical in the Muslim World, 1200-1800 (Routledge Sufi Series 12), 71-93"
 summary: "Explores how Sufi spiritual authority intersected with political power and governance in medieval Islam."
 rights: link-only

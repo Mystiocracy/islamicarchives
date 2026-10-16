@@ -6,7 +6,13 @@ year: 1966
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "finality of prophethood"
+  - "Khatm-e-Nubuwwat"
 summary: "Qadianism: a revolt against Islam and Muhammad's prophethood"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

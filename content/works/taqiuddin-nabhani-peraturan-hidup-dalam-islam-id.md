@@ -7,6 +7,12 @@ language: "Indonesian"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - political-thought
+keywords:
+  - "Nidham al-Islam"
+  - "The System of Islam"
+  - "Hizb ut-Tahrir"
+  - "aqida"
 summary: "Indonesian translation of Nidham al-Islam (HTI-Press, Jakarta, 2013)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

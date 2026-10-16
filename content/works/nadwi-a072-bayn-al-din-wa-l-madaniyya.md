@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Speech"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Between Religion and Civilisation"
+  - "religion and civilisation"
+  - "madaniyya"
 summary: "Between Religion and Civilisation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

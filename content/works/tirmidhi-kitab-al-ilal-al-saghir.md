@@ -4,9 +4,15 @@ author: jonathan-brown
 year: 2025
 language: English
 type: "Paper"
-venue: "Hashiya, Issue 1"
 subjects:
   - hadith-studies
+keywords:
+  - "al-Tirmidhi"
+  - "Kitab al-Ilal al-Saghir"
+  - "ilal"
+  - "hadith criticism"
+  - "Jami al-Tirmidhi"
+venue: "Hashiya, Issue 1"
 summary: "An introduction and annotated translation of al-Tirmidhī’s short book on hadith criticism."
 rights: link-only
 sourceUrl: "https://hashiya.org/posts/tirmidhi-kitab-ilal-saghir"

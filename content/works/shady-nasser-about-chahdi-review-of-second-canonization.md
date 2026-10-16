@@ -8,7 +8,10 @@ type: "Review"
 subjects:
   - quranic-studies
 keywords:
-  - "review"
+  - "Ibn Mujahid"
+  - "seven readings"
+  - "qira'at"
+  - "canonization"
 summary: "A review of his book."
 venue: "Bulletin critique des annales islamologiques 36, pp. ~20–23"
 rights: link-only

@@ -8,10 +8,12 @@ type: "Book"
 subjects:
   - education
   - women-and-gender
+  - family-and-society
 keywords:
   - "al-Murshid al-amin"
   - "girls' education"
   - "upbringing"
+  - "citizenship"
   - "school textbook"
 summary: "An educational manual written for the new state schools, arguing that girls as well as boys should be educated and discussing morals, family life and citizenship."
 rights: link-only

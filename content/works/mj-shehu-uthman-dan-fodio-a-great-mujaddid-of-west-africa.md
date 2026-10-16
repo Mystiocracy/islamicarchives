@@ -4,12 +4,15 @@ author: maryam-jameelah
 year: 1978
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
-  - islam-and-modernity
   - political-thought
 keywords:
-  - "Sokoto"
+  - "Uthman dan Fodio"
+  - "Sokoto Caliphate"
+  - "mujaddid"
+  - "West Africa"
+  - "Fulani jihad"
+venue: "Mohammad Yusuf Khan"
 summary: "The founder of the Sokoto Caliphate."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

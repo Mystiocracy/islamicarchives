@@ -9,7 +9,10 @@ subjects:
   - education
   - family-and-society
 keywords:
-  - "compilation"
+  - "human nature"
+  - "human psychology"
+  - "al-Insan bayna al-maddiyya wa-l-Islam"
+  - "Dirasat fi al-nafs al-insaniyya"
 summary: "Single-file compilation of six of his books on human nature, psychology, society and education."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

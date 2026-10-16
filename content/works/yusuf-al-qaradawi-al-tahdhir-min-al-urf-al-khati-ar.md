@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Article"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "aqida"
+  - "urf"
+  - "custom"
+  - "creed"
 summary: "Warns against mistaken custom and verbal deception, and stresses creed and its effect on life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

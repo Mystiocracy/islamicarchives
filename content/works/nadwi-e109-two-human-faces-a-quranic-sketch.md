@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - quranic-studies
 keywords:
-  - "Dr. Aejaz Mohammed Sheikh"
+  - "Qur'an"
+  - "believer and unbeliever"
+  - "human types"
+  - "Qur'anic portraits"
 summary: "Two Human Faces: A Qur'anic Sketch. Translated by Dr. Aejaz Mohammed Sheikh from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

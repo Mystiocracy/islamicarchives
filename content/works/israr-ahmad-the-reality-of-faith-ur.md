@@ -7,8 +7,10 @@ type: "Pamphlet"
 subjects:
   - philosophy-and-theology
 keywords:
+  - "Haqiqat-e-Iman"
   - "iman"
   - "certainty"
+  - "yaqin"
   - "belief"
 summary: "Separates legal profession of faith from the inner conviction that, in his account, transforms conduct."
 rights: link-only

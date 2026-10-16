@@ -7,10 +7,10 @@ type: "Article"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Toronto"
-  - "Mansour Lectureship"
   - "Islam and the Cultural Imperative"
-  - "news report"
+  - "Mohamed Mansour Lectureship"
+  - "Emmanuel College"
+  - "Toronto"
 summary: "A report on his lecture \"Islam and the Cultural Imperative\" at the first Mohamed Mansour Lectureship in Contemporary Islamic Thought, Emmanuel College, Toronto, on 16 April 2018."
 venue: "Iqra.ca"
 rights: link-only

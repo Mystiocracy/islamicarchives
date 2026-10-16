@@ -6,12 +6,13 @@ language: "French"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islamic-law
+  - sufism
 keywords:
-  - "Introduction to Islamic Ethics: Legal, Philosophical and Mystical Sources and Contemporary Questions (English rendering of the title)"
-  - "ethics"
+  - "Introduction to Islamic Ethics"
+  - "Islamic ethics"
   - "maqasid"
-  - "law"
-  - "Sufism"
+  - "akhlaq"
 summary: "Surveys how Islamic ethics draws on law, philosophy and Sufism, then applies the ethical framework to present-day issues, arguing that the objectives of the law should guide moral reasoning."
 venue: "Presses du Châtelet (Paris)"
 rights: link-only

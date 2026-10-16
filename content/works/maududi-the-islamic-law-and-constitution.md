@@ -8,10 +8,10 @@ subjects:
   - political-thought
   - islamic-law
 keywords:
-  - "Khurshid Ahmad (editor)"
   - "Islamic state"
   - "constitution of Pakistan"
-  - "shari'a"
+  - "sharia"
+  - "Islamic constitution"
 summary: "Lectures and articles, translated and edited by Khurshid Ahmad, setting out his proposals for an Islamic constitution and legal system for Pakistan."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

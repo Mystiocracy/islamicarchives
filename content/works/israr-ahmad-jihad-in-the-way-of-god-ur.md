@@ -8,9 +8,11 @@ subjects:
   - political-thought
   - quranic-studies
 keywords:
+  - "Jihad fi Sabilillah"
   - "jihad"
   - "struggle"
-  - "stages"
+  - "stages of jihad"
+  - "self-discipline"
 summary: "Describes jihad as a graded, lifelong struggle running from self-discipline to collective effort for God's order."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

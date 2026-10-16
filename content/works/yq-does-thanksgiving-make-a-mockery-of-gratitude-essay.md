@@ -5,12 +5,13 @@ year: 2023
 language: "English"
 type: "Essay"
 subjects:
-  - political-thought
+  - islam-and-modernity
 keywords:
-  - "History"
-  - "Islamic Civilization"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Thanksgiving"
+  - "gratitude"
+  - "shukr"
+  - "Native Americans"
+  - "American holidays"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

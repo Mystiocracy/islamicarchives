@@ -4,6 +4,9 @@ titleOriginal: "जग के मोहसिन"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+keywords:
+  - "Prophet Muhammad"
+  - "sira"
 summary: "Benefactor of the world. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

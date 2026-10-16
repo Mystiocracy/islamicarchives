@@ -3,6 +3,15 @@ title: "The Responsibility of Elite in the Millat"
 author: nadwi
 language: "English"
 type: "Speech"
+subjects:
+  - political-thought
+  - education
+keywords:
+  - "Kashmir"
+  - "millat"
+  - "elite"
+  - "leadership"
+  - "intellectuals"
 summary: "The Responsibility of Elite in the Millat. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

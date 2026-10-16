@@ -7,6 +7,11 @@ language: "English"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Mafahim Siyasiyya"
+  - "Hizb ut-Tahrir"
+  - "international affairs"
+  - "great powers"
 summary: "English translation of Mafahim Siyasiyya."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

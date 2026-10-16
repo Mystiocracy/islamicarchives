@@ -4,6 +4,13 @@ titleOriginal: "اختیارات شرح اردو مختارات"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "Mukhtarat min Adab al-Arab"
+  - "Arabic literature"
+  - "Arabic language"
+  - "madrasa curriculum"
 summary: "Urdu commentary and translation of Mukhtarat min Adab al-Arab. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

@@ -7,13 +7,12 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - political-thought
-  - hadith-studies
 keywords:
-  - "documents"
-  - "treaties"
-  - "letters of the Prophet"
-  - "Rightly Guided Caliphs"
   - "Documents sur la diplomatie musulmane"
+  - "letters of the Prophet"
+  - "treaties"
+  - "Rightly Guided Caliphs"
+  - "diplomacy"
 summary: "A critical collection of the treaties, letters and political documents attributed to the Prophet and the first four caliphs, with notes on their sources."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

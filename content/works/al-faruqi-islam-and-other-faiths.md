@@ -7,10 +7,10 @@ type: "Collection"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "interfaith"
-  - "Ataullah Siddiqui"
-  - "Islamic Foundation"
-  - "posthumous"
+  - "interfaith dialogue"
+  - "religious pluralism"
+  - "Judaism"
+  - "Christianity"
 summary: "A posthumous collection, edited by Ataullah Siddiqui, of al-Fārūqī's essays on Judaism, Christianity, religious pluralism and interfaith dialogue."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

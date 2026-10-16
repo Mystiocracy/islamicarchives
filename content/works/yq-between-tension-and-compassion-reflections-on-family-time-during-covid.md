@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - family-and-society
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "Covid-19"
+  - "family time"
+  - "quarantine"
+  - "parenting"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

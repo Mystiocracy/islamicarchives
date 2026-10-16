@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "zakat"
+  - "nisab"
+  - "zakatable wealth"
+  - "poverty alleviation"
 summary: "Comprehensive comparative study of zakah rules, its wealth categories, and economic role (volume 1)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -4,8 +4,9 @@ author: taqi-usmani
 titleOriginal: "سفر در سفر"
 language: "Urdu"
 type: "Book"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "travelogue"
+  - "safarnama"
 summary: "A further volume of his travelogues."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

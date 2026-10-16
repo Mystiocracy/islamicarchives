@@ -5,9 +5,13 @@ year: 2025
 language: English
 type: "Interview"
 subjects:
-  - philosophy-and-theology
+  - political-thought
 keywords:
-  - "interview"
+  - "Israel"
+  - "Gaza"
+  - "Palestine"
+  - "public opinion"
+  - "The Thinking Muslim"
 summary: "An interview on Gaza and public opinion."
 venue: "The Thinking Muslim"
 rights: link-only

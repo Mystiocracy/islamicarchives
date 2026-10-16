@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Indian Muslims"
+  - "course of action"
+  - "communalism"
 summary: "Course of action for Indian Muslims today"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

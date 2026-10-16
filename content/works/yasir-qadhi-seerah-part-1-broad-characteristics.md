@@ -4,10 +4,11 @@ author: yasir-qadhi
 year: 2011
 language: English
 type: "Video"
-subjects:
-  - education
 keywords:
-  - "sirah"
+  - "sira"
+  - "Prophet Muhammad"
+  - "characteristics of the Prophet"
+  - "Memphis Islamic Center"
 summary: "The first lecture of the Memphis Islamic Center Seerah series."
 venue: "Memphis Islamic Center"
 rights: link-only

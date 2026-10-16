@@ -7,6 +7,7 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
+  - "Maulana Maudoodi Marhoom aur Main"
   - "Mawdudi"
   - "memoir"
   - "Jamaat-e-Islami"

@@ -4,12 +4,12 @@ author: nadwi
 year: 1993
 language: "English"
 type: "Book"
-subjects:
-  - hadith-studies
-  - political-thought
 keywords:
-  - "Qasas al-Nabiyyin (vol. 5, Sirat Khatam al-Nabiyyin) (Ar.)"
-  - "not stated (gen. ed. Iqbal Ahmad Azami)"
+  - "sira"
+  - "Prophet Muhammad"
+  - "Qasas al-Nabiyyin"
+  - "Sirat Khatam al-Nabiyyin"
+  - "children"
 summary: "Muhammad the Last Prophet: A Model for All Time. Translated by not stated (gen. ed. Iqbal Ahmad Azami) from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "tasawwuf"
+  - "tazkiya"
+  - "ihsan"
+  - "Muhammad Manzoor Nomani"
 summary: "What is Sufism?"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

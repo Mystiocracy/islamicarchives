@@ -5,10 +5,13 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - hadith-studies
+  - colonialism-and-decolonisation
 keywords:
-  - "Hadith"
+  - "Orientalism"
+  - "Western hadith criticism"
+  - "Ignaz Goldziher"
+  - "Joseph Schacht"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

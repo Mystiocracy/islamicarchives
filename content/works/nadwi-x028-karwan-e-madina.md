@@ -5,7 +5,9 @@ author: nadwi
 language: "Bengali"
 type: "Book"
 keywords:
-  - "Karwan-e-Madina"
+  - "Madina"
+  - "Prophet Muhammad"
+  - "ziyara"
 summary: "Caravan to Madina. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

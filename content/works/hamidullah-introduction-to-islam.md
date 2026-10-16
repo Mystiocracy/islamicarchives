@@ -10,8 +10,9 @@ subjects:
 keywords:
   - "Initiation à l'Islam"
   - "Islam: A General Picture"
-  - "introductory"
-  - "translated into many languages"
+  - "worship"
+  - "Islamic history"
+  - "Islamic civilisation"
 summary: "A concise survey of Islamic belief, worship, law, history and civilisation for general readers, reissued in many editions and languages."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

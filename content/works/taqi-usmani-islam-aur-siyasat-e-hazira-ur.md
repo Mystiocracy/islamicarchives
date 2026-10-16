@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - political-thought
+keywords:
+  - "contemporary politics"
+  - "Pakistan"
+  - "Islamic state"
 summary: "Essays on Islam and contemporary political questions."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,6 +5,13 @@ author: nadwi
 year: 2004
 language: "Arabic"
 type: "Article"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "da'wa"
+  - "Islamic thought"
+  - "Islamic revival"
+  - "Muslim world"
 summary: "Islamic Articles on Thought and Daʿwa 2 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

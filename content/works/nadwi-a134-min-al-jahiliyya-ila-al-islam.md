@@ -5,6 +5,15 @@ author: nadwi
 year: 1949
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "jahiliyya"
+  - "Madha Khasira al-Alam"
+  - "pre-Islamic world"
+  - "Prophet Muhammad"
+  - "prophethood"
 summary: "From Jahiliyya to Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

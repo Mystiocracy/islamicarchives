@@ -5,9 +5,13 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Allah"
+  - "humility"
+  - "arrogance"
+  - "repentance"
+  - "mercy"
+  - "khutbah"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

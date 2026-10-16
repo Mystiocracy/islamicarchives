@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "tawhid"
+  - "oneness of God"
+  - "shirk"
 summary: "Explains the real meaning of God's oneness."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

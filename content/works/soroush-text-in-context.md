@@ -8,10 +8,10 @@ subjects:
   - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "McGill lecture"
-  - "Liberal Islam"
-  - "Charles Kurzman"
+  - "hermeneutics"
   - "religious knowledge"
+  - "Liberal Islam"
+  - "interpretation of scripture"
 summary: "A lecture summarising his theory that interpretations of scripture are always shaped by the interpreter's prior knowledge and assumptions."
 rights: link-only
 rightsNote: "In copyright (living author)."

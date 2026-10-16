@@ -8,6 +8,8 @@ subjects:
 keywords:
   - "tasawwuf"
   - "ihsan"
+  - "popular Sufism"
+  - "prophetic spirituality"
 summary: "English rendering of his critique of popular Sufism and his account of prophetic spirituality."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

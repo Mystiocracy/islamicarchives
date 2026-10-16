@@ -6,6 +6,11 @@ language: "English"
 type: "Translation"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an translation"
+  - "English translation"
+  - "explanatory notes"
+  - "tafsir"
 summary: "His English translation of the Qurʾan with explanatory notes (the 2010 edition; first published 2007)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

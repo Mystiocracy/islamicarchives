@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "ijtihad"
   - "taqlid"
-  - "IJMES"
-  - "closing of the gate"
+  - "closing of the gate of ijtihad"
+  - "mujtahid"
 summary: "Influential journal article arguing that independent legal reasoning (ijtihad) never ceased in Sunni jurisprudence, contrary to the long-held view that its 'gate' was closed around the tenth century."
 rights: link-only
 rightsNote: "In copyright (living author)."

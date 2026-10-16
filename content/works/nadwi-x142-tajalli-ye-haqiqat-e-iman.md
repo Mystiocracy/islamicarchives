@@ -6,6 +6,9 @@ language: "Persian"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "iman"
+  - "faith"
 summary: "The manifestation of the reality of faith. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

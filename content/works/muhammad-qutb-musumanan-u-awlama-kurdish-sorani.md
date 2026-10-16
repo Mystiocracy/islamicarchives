@@ -5,9 +5,12 @@ titleOriginal: "موسڵمانان و عەولەمە"
 language: "Kurdish (Sorani)"
 type: "Translation"
 subjects:
+  - islam-and-modernity
   - political-thought
 keywords:
+  - "al-Muslimun wa-l-'awlama"
   - "globalisation"
+  - "Kurdish"
 summary: "Sorani Kurdish translation of al-Muslimun wa-l-'awlama."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

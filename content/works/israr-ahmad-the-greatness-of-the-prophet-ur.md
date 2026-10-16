@@ -4,13 +4,11 @@ author: israr-ahmad
 titleOriginal: "عظمت مصطفیٰ ﷺ"
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - quranic-studies
-  - political-thought
 keywords:
-  - "Seerah"
+  - "Azmat-e-Mustafa"
   - "Prophet Muhammad"
-  - "revolution"
+  - "sira"
+  - "prophetic revolution"
 summary: "Explains the Prophet's unique stature through the scale of the transformation he brought to society."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

@@ -6,10 +6,12 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
+  - quranic-studies
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "shukr"
+  - "gratitude"
+  - "Qur'anic themes"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

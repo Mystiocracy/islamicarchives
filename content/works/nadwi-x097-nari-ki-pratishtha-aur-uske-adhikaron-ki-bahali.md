@@ -6,6 +6,9 @@ language: "Hindi"
 type: "Speech"
 subjects:
   - women-and-gender
+keywords:
+  - "women's rights"
+  - "dignity of women"
 summary: "Restoring the dignity and rights of women. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

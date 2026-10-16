@@ -7,11 +7,12 @@ language: "English"
 type: "Article"
 subjects:
   - islamic-law
-  - philosophy-and-theology
+  - women-and-gender
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "menstruation"
+  - "last ten nights"
+  - "Ramadan"
+  - "worship"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

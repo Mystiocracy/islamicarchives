@@ -5,6 +5,12 @@ author: nadwi
 year: 1994
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Najibabad"
 summary: "Presidential address, Najibabad (28 April 1994)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

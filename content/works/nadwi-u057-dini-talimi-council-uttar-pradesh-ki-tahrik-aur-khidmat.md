@@ -7,6 +7,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "Uttar Pradesh"
+  - "primary education"
+  - "religious education"
+  - "India"
 summary: "The UP Religious Education Council: its movement and services"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

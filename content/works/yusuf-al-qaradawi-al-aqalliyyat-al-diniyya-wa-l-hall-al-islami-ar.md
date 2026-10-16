@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "religious minorities"
+  - "dhimmi"
+  - "non-Muslims"
+  - "Copts"
+  - "citizenship"
+  - "Islamic state"
 summary: "Explains how religious minorities fit within an Islamic order."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

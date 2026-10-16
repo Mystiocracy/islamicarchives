@@ -8,8 +8,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "introduction to Islam"
-  - "Argus Communications"
   - "Muslim family"
+  - "ritual"
   - "world order"
 summary: "A short introduction to Islam covering its essence, ritual life, the Prophet, family, economics and world order, written for students of religion."
 rights: link-only

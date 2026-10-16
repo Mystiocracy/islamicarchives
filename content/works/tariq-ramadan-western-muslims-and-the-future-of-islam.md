@@ -8,10 +8,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
+  - "Les musulmans d'Occident et l'avenir de l'islam"
   - "Western Muslims"
-  - "reform"
-  - "identity"
   - "ijtihad"
+  - "culture"
+  - "identity"
 summary: "Distinguishes universal Islamic principles from their cultural expressions and argues that Muslims in the West are forming a new, rooted Islamic identity and a re-reading of sources that may renew Islam globally."
 venue: "Oxford University Press; French original Sindbad/Actes Sud (Paris/Arles) 2003"
 rights: link-only

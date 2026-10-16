@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - education
+  - economics
+keywords:
+  - "Sunnah"
+  - "education"
+  - "economic life"
+  - "work"
 summary: "Draws on the Sunnah to discuss education and economic life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

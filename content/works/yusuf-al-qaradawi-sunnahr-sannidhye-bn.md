@@ -7,6 +7,10 @@ language: "Bengali"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunnah"
+  - "Kayfa Nata'amal ma'a al-Sunna al-Nabawiyya"
+  - "fiqh al-hadith"
 summary: "On how to approach and understand the Sunnah."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,7 +6,8 @@ type: "Video"
 subjects:
   - hadith-studies
 keywords:
-  - "recording"
+  - "Salih Al al-Shaykh"
+  - "Saudi Arabia"
 summary: "A meeting with Salih Āl al-Shaykh."
 venue: "YouTube"
 rights: link-only

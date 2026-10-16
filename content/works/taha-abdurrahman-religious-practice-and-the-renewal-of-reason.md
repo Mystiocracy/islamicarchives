@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "al-'Amal al-dini wa-tajdid al-'aql"
   - "levels of reason"
-  - "Sufism"
   - "supported reason"
+  - "tasawwuf"
 summary: "Distinguishes abstract, guided and supported levels of reason and argues that the highest is reached through lived religious and spiritual practice."
 rights: link-only
 rightsNote: "In copyright (living author)."

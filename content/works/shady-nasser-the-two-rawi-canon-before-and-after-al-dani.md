@@ -7,8 +7,12 @@ type: "Paper"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
-  - "qirāʾāt"
+  - "al-Dani"
+  - "Ibn Ghalbun"
+  - "rawi"
+  - "Qayrawan"
+  - "Andalus"
+  - "qira'at"
 summary: "On the role of Ibn Ghalbūn (d. 389/998) and the Qayrawān/Andalus school in creating the two-transmitter canon."
 venue: "Oriens 41, pp. 41–75"
 rights: link-only

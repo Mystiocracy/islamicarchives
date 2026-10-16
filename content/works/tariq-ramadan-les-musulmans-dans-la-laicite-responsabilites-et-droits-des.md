@@ -7,11 +7,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Muslims in the Secular Order: Responsibilities and Rights of Muslims in Western Societies (English rendering of the title)"
+  - "Muslims in the Secular Order"
+  - "laïcité"
   - "secularism"
   - "citizenship"
   - "Muslims in the West"
-  - "laïcité"
 summary: "An early programmatic essay arguing that Muslims living in secular Western states should read their duties and rights through Islamic sources while accepting citizenship and the rule of law, and so contribute actively instead of withdrawing."
 venue: "Tawhid (Lyon)"
 rights: link-only

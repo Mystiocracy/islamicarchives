@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "women's rights"
   - "Zanan"
-  - "Nilou Mobasser"
   - "fiqh"
+  - "hermeneutics"
 summary: "An interview applying his hermeneutic theory to women's rights in Islamic law."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -6,10 +6,11 @@ year: 2022
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "tadabbur"
+  - "reflection on the Qur'an"
+  - "Qur'an connection"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

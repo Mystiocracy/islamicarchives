@@ -7,11 +7,13 @@ language: "English"
 type: "Interview"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
   - "Charlie Hebdo"
+  - "Art Spiegelman"
   - "satire"
-  - "Democracy Now"
   - "free speech"
+  - "Democracy Now"
 summary: "Ramadan and cartoonist Art Spiegelman discuss the Charlie Hebdo killings, satire and the power dynamics between Western media and Muslim minorities."
 venue: "Democracy Now!"
 rights: link-only

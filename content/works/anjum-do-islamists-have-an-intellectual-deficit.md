@@ -11,6 +11,7 @@ keywords:
   - "Islamism"
   - "Muslim Brotherhood"
   - "political Islam"
+  - "Rethinking Political Islam"
 venue: "Brookings Institution, Rethinking Political Islam series (April 2016); reprinted in Shadi Hamid and William McCants (eds.), Rethinking Political Islam (Oxford University Press, 2017), 300-307"
 summary: "Responds to the Brookings 'Rethinking Political Islam' project by asking whether Islamist movements lack serious intellectual foundations."
 rights: link-only

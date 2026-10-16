@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - hadith-studies
+  - islamic-law
+keywords:
+  - "Jami' al-Tirmidhi"
+  - "Hanafi school"
+  - "juristic differences"
+  - "hadith commentary"
 summary: "Transcribed lessons on Jami al-Tirmidhi covering the hadith text, juristic differences and the Hanafi position."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

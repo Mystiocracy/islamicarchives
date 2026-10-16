@@ -5,13 +5,14 @@ titleOriginal: "مذهب علیه مذهب"
 language: "Persian"
 type: "Speech"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - philosophy-and-theology
 keywords:
   - "Mazhab 'alayh-e mazhab"
+  - "shirk"
   - "polytheism"
-  - "Laleh Bakhtiar"
   - "religion of legitimation"
+  - "tawhid"
 summary: "Two lectures arguing that history's real conflict is not between religion and unbelief but between a religion of liberation and a religion that legitimises power."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

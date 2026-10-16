@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "riba"
+  - "bank interest"
+  - "Fawa'id al-Bunuk Hiya l-Riba al-Haram"
+  - "usury"
 summary: "Argues that bank interest falls under the Qur'anic prohibition of riba."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

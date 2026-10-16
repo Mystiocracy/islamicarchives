@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - hadith-studies
+keywords:
+  - "Sahih al-Bukhari"
+  - "Darul Uloom Karachi"
+  - "hadith commentary"
 summary: "Seven volumes of his lectures on Sahih al-Bukhari at Darul Uloom Karachi."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

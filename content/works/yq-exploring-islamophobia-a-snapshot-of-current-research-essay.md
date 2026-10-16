@@ -6,12 +6,12 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - islam-and-modernity
   - political-thought
 keywords:
   - "Islamophobia"
-  - "Social Justice"
+  - "anti-Muslim bias"
+  - "research"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

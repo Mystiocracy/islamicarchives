@@ -8,7 +8,8 @@ subjects:
   - political-thought
 keywords:
   - "Constitution of Medina"
-  - "podcast"
+  - "Sahifa of Medina"
+  - "nation-state"
 venue: "Yaqeen Institute, DoubleTake podcast"
 summary: "Podcast discussion of his paper on the 'Constitution' of Medina."
 rights: link-only

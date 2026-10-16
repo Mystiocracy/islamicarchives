@@ -7,9 +7,10 @@ type: "Pamphlet"
 subjects:
   - political-thought
 keywords:
-  - "Pakistan ideology"
-  - "Iqbal"
-  - "Jinnah"
+  - "ideology of Pakistan"
+  - "Muhammad Iqbal"
+  - "Muhammad Ali Jinnah"
+  - "Pakistan"
 summary: "Argues that Pakistan was founded on an Islamic ideology articulated by Iqbal and Jinnah."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

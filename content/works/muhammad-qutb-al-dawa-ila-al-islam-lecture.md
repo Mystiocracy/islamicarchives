@@ -7,8 +7,9 @@ type: "Video"
 subjects:
   - education
 keywords:
-  - "audio"
   - "da'wa"
+  - "calling to Islam"
+  - "Islamic preaching"
 venue: "Internet Archive"
 summary: "Audio lecture (1h30) on calling people to Islam."
 rights: link-only

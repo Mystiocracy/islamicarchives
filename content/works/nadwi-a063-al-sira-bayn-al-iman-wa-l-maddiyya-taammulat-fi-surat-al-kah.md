@@ -6,8 +6,14 @@ year: 1971
 language: "Arabic"
 type: "Book"
 subjects:
+  - quranic-studies
   - islam-and-modernity
-  - philosophy-and-theology
+keywords:
+  - "Surat al-Kahf"
+  - "Faith versus Materialism"
+  - "materialism"
+  - "Dajjal"
+  - "People of the Cave"
 summary: "Faith versus Materialism: Reflections on Surat al-Kahf"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

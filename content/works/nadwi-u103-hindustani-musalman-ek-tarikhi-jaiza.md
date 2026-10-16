@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Indian Muslims"
+  - "Muslims in India"
+  - "history of Muslim India"
 summary: "Indian Muslims: a historical survey"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

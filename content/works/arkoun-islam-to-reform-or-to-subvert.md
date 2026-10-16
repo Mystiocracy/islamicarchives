@@ -8,9 +8,9 @@ subjects:
   - islam-and-modernity
 keywords:
   - "reform"
-  - "subversion"
-  - "Saqi Books"
+  - "The Unthought in Contemporary Islamic Thought"
   - "critique"
+  - "orthodoxy"
 summary: "A revised edition of The Unthought in Contemporary Islamic Thought, arguing that superficial reform is insufficient and that Islamic thought needs a deeper critique of inherited certainties."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

@@ -7,11 +7,13 @@ type: "Essay"
 subjects:
   - islam-and-modernity
   - political-thought
+  - psychology-and-mental-health
 keywords:
   - "British Muslims"
   - "extremism"
   - "belonging"
   - "citizenship"
+  - "loyalty"
 summary: "Explores the psychological and social roots of extremism among Muslims in the West and the question of loyalty to non-Muslim societies."
 rights: link-only
 rightsNote: "In copyright (living author)."

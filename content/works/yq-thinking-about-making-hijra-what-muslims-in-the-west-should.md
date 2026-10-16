@@ -5,9 +5,13 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+  - family-and-society
 keywords:
-  - "Allah"
+  - "hijra"
+  - "emigration"
+  - "Muslims in the West"
+  - "migration"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

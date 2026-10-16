@@ -5,10 +5,11 @@ author: nadwi
 language: "Persian"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
 keywords:
-  - "three essays (original titles not given)"
-  - "مولانا محمد قاسم قاسمی"
+  - "nubuwwa"
+  - "prophets"
+  - "prophethood"
 summary: "The role of the prophets in human happiness. Translated by مولانا محمد قاسم قاسمی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

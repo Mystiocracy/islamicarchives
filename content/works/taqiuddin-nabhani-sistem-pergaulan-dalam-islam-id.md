@@ -7,6 +7,12 @@ language: "Indonesian"
 type: "Translation"
 subjects:
   - family-and-society
+  - women-and-gender
+keywords:
+  - "al-Nizam al-Ijtima'i fi al-Islam"
+  - "The Social System in Islam"
+  - "Hizb ut-Tahrir"
+  - "gender segregation"
 summary: "Indonesian edition (7th printing) of the social system book."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

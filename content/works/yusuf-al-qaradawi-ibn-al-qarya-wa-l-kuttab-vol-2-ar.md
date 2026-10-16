@@ -6,7 +6,14 @@ year: 2004
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - education
+  - political-thought
+keywords:
+  - "autobiography"
+  - "memoir"
+  - "al-Azhar"
+  - "Muslim Brotherhood"
+  - "Egypt"
 summary: "Second volume of his memoirs, covering his years at al-Azhar and early activism."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

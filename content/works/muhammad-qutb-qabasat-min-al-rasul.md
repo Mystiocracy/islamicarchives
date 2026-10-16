@@ -10,8 +10,10 @@ subjects:
   - education
 keywords:
   - "hadith"
-  - "Prophet"
+  - "Prophet Muhammad"
   - "ethics"
+  - "akhlaq"
+  - "moral lessons"
 venue: "Dār al-Shurūq"
 summary: "Reflections drawing moral and educational lessons from selected hadiths of the Prophet."
 rights: link-only

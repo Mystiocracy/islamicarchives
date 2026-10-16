@@ -4,6 +4,10 @@ titleOriginal: "ایک اہم دینی تحریک کا تعارف"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "religious movement"
 summary: "Introduction to an important religious movement"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

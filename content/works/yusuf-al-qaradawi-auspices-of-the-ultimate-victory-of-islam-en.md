@@ -6,6 +6,11 @@ language: "English"
 type: "Translation"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Al-Mubashshirat bi-Intisar al-Islam"
+  - "victory of Islam"
+  - "future of Islam"
+  - "Islamic revival"
 summary: "Argues, from texts and history, that the future belongs to Islam despite present weakness."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

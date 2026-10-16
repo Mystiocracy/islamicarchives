@@ -6,10 +6,11 @@ language: "Arabic"
 type: "Essay"
 subjects:
   - islamic-law
-  - philosophy-and-theology
+  - sufism
 keywords:
   - "Nazra 'amma fi al-'ibadat"
   - "worship"
+  - "ibadat"
   - "ritual"
   - "spirituality"
 summary: "A reflection on the purpose and social meaning of acts of worship in Islam, written as part of his practical legal manual."

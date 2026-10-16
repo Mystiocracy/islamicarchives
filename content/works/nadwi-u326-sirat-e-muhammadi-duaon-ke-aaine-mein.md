@@ -5,8 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "du'a"
+  - "supplications of the Prophet"
+  - "sira"
+  - "Prophet Muhammad"
 summary: "The Prophet's life mirrored in his supplications"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

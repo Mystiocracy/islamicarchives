@@ -3,8 +3,13 @@ title: "Hz. Ali el-Murteza"
 author: nadwi
 language: "Turkish"
 type: "Book"
+subjects:
+  - political-thought
 keywords:
-  - "al-Murtada (Arabic)"
+  - "Ali ibn Abi Talib"
+  - "al-Murtada"
+  - "caliphate"
+  - "Rashidun"
 summary: "Ali al-Murtada. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

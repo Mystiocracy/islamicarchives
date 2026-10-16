@@ -5,12 +5,13 @@ year: 2023
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - sufism
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Palestine"
+  - "Gaza"
+  - "du'a"
+  - "supplication"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

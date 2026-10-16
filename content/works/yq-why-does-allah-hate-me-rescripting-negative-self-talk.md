@@ -8,8 +8,11 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "negative self-talk"
+  - "perception of God"
+  - "self-esteem"
+  - "despair"
+  - "mercy"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

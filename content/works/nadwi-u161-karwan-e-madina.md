@@ -4,6 +4,11 @@ titleOriginal: "کاروان مدینہ"
 author: nadwi
 language: "Urdu"
 type: "Speech"
+keywords:
+  - "Madina"
+  - "Hijaz"
+  - "Arab world"
+  - "talks"
 summary: "Caravan to Madina (talks and gatherings)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

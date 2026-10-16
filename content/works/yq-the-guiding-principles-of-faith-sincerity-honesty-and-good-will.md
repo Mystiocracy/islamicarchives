@@ -5,11 +5,13 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - sufism
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "sincerity"
+  - "nasiha"
+  - "honesty"
+  - "good will"
+  - "ikhlas"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

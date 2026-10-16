@@ -10,7 +10,7 @@ subjects:
 keywords:
   - "jinn"
   - "angels"
-  - "unseen"
+  - "ghayb"
   - "rationalism"
 summary: "A rationalist reading of the Qur'anic references to jinn, one of the essays that drew the strongest objections from his traditionalist critics."
 rights: link-only

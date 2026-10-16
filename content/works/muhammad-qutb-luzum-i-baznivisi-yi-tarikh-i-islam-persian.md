@@ -6,9 +6,13 @@ year: 2009
 language: "Persian"
 type: "Translation"
 subjects:
-  - philosophy-and-theology
+  - colonialism-and-decolonisation
+  - education
 keywords:
+  - "Kayfa naktub al-tarikh al-Islami"
+  - "Islamic history"
   - "historiography"
+  - "rewriting history"
 venue: "Ihsān, Tehran"
 summary: "Persian translation of Kayfa naktub al-tarikh al-Islami."
 rights: link-only

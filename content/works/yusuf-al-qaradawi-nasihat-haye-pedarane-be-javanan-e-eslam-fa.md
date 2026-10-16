@@ -6,6 +6,11 @@ language: "Persian"
 type: "Pamphlet"
 subjects:
   - family-and-society
+  - education
+keywords:
+  - "Muslim youth"
+  - "advice to youth"
+  - "young people"
 summary: "Fatherly advice to Muslim youth."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

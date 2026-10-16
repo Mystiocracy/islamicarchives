@@ -8,6 +8,7 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Roots of Islam in America"
+  - "Muslims in the New World"
   - "Caribbean"
   - "Trinidad"
   - "IBN"

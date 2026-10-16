@@ -3,8 +3,14 @@ title: "Economic Order in Islam"
 author: nadwi
 language: "English"
 type: "Pamphlet"
+subjects:
+  - economics
 keywords:
-  - "Ehsanul Haque Nadwi"
+  - "Islamic economics"
+  - "economic order"
+  - "zakat"
+  - "riba"
+  - "wealth"
 summary: "Economic Order in Islam. Translated by Ehsanul Haque Nadwi from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

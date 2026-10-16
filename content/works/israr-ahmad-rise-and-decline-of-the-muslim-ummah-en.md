@@ -7,9 +7,10 @@ subjects:
   - political-thought
   - quranic-studies
 keywords:
-  - "ummah"
-  - "history"
-  - "decline"
+  - "Ummah"
+  - "rise and decline"
+  - "Bani Israel"
+  - "Muslim decline"
 summary: "Explores the causes of Muslim rise and decline with reference to Qur'anic patterns and the history of earlier communities."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

@@ -5,6 +5,12 @@ author: nadwi
 year: 1983
 language: "Urdu"
 type: "Book"
+keywords:
+  - "autobiography"
+  - "Nadwat al-Ulama"
+  - "Lucknow"
+  - "memoirs"
+  - "Indian Muslims"
 summary: "Caravan of life (autobiography) 7 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

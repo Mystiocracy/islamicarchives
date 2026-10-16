@@ -6,10 +6,12 @@ year: 1973
 language: "Persian"
 type: "Translation"
 subjects:
-  - philosophy-and-theology
   - islam-and-modernity
+  - philosophy-and-theology
 keywords:
+  - "al-Tatawwur wa-l-thabat fi hayat al-bashariyya"
   - "change and permanence"
+  - "evolutionism"
 venue: "Muʾassasa-yi Intishārāt-i Farāhānī, Tehran"
 summary: "Persian translation of al-Tatawwur wa-l-thabat fi hayat al-bashariyya."
 rights: link-only

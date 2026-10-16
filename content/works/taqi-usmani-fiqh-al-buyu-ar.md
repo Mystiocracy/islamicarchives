@@ -7,6 +7,11 @@ type: "Book"
 subjects:
   - islamic-law
   - economics
+keywords:
+  - "sales law"
+  - "buyu'"
+  - "four madhhabs"
+  - "modern transactions"
 summary: "A comparative study of sales law in the four Sunni schools, applied to modern transactions."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -4,10 +4,9 @@ titleOriginal: "ﷺترجمہ سیرت رسول اکرم"
 author: nadwi
 language: "Telugu"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
 keywords:
-  - "Sirat-e-Rasul-e-Akram"
+  - "Prophet Muhammad"
+  - "sira"
 summary: "Biography of the Noble Messenger. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

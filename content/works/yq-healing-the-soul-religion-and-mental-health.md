@@ -7,8 +7,9 @@ type: "Article"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "mental health"
+  - "healing the soul"
+  - "religion and wellbeing"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

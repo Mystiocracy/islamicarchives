@@ -8,10 +8,13 @@ type: "Book"
 subjects:
   - philosophy-and-theology
   - islamic-law
+  - political-thought
 keywords:
   - "tawhid"
   - "shahada"
   - "hakimiyya"
+  - "la ilaha illa Allah"
+  - "sharia"
 venue: "Dār al-Shurūq"
 summary: "Explains the testimony of faith as encompassing belief, law and a complete way of life."
 rights: link-only

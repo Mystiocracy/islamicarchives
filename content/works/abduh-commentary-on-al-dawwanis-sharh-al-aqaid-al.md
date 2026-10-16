@@ -8,6 +8,7 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "al-Taliqat ala sharh al-Dawwani"
+  - "al-Dawwani"
   - "al-Iji"
   - "Ashari theology"
   - "Jamal al-Din al-Afghani"

@@ -5,7 +5,13 @@ titleOriginal: "الجويني: إمام الحرمين بين المؤرخين 
 language: "Arabic"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - education
+keywords:
+  - "al-Juwayni"
+  - "Imam al-Haramayn"
+  - "al-Dhahabi"
+  - "al-Subki"
+  - "biography"
 summary: "Examines how the historians al-Dhahabi and al-Subki treated Imam al-Haramayn al-Juwayni."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

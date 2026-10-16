@@ -6,10 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - sufism
-  - philosophy-and-theology
 keywords:
   - "tasawwuf"
   - "ihsan"
+  - "suluk"
+  - "popular Sufism"
   - "spiritual path"
 summary: "Contrasts popular Sufi practice with what he presents as the Prophet's own way of spiritual excellence (ihsan)."
 rights: link-only

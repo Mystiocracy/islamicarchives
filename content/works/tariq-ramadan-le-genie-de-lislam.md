@@ -7,10 +7,9 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "The Genius of Islam (English rendering of the title)"
-  - "introduction"
-  - "civilisation"
-  - "essay"
+  - "The Genius of Islam"
+  - "introduction to Islam"
+  - "Islamic civilisation"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Presses du Châtelet (Paris)"
 rights: link-only

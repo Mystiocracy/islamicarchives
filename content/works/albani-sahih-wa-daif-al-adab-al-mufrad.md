@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ṣaḥīḥ and Ḍaʿīf al-Adab al-mufrad"
-  - "Albani"
+  - "al-Adab al-mufrad"
+  - "al-Bukhari"
+  - "adab"
+  - "hadith grading"
 summary: "His sound list (weak list: https://shamela.ws/book/1346) of al-Bukhārī's *al-Adab al-mufrad*."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

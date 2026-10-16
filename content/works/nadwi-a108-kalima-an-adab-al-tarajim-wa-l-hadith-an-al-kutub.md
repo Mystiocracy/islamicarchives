@@ -5,6 +5,14 @@ author: nadwi
 year: 1986
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "biography writing"
+  - "tarajim"
+  - "literary criticism"
+  - "books"
+  - "adab"
 summary: "A Word on Biographical Writing and Writing about Books"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

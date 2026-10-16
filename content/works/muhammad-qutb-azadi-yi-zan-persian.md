@@ -7,7 +7,10 @@ type: "Translation"
 subjects:
   - women-and-gender
 keywords:
-  - "women"
+  - "women's emancipation"
+  - "Waqi'una al-mu'asir"
+  - "women's liberation"
+  - "feminism"
 summary: "Persian translation of the women's emancipation chapter of Waqi'una al-mu'asir."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -7,6 +7,10 @@ type: "Pamphlet"
 subjects:
   - education
   - islam-and-modernity
+keywords:
+  - "education system"
+  - "Westernisation"
+  - "curriculum reform"
 summary: "Education system: Western trends and the need for change"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

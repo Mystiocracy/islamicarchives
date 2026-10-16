@@ -6,12 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - sufism
-  - philosophy-and-theology
 keywords:
   - "Ibn al-Qayyim"
   - "Madarij al-Salikin"
-  - "spirituality"
   - "tasawwuf"
+  - "al-Harawi"
+  - "Manazil al-Sa'irin"
 venue: "Brill (Islamic Translation Series)"
 summary: "Annotated English translation with Arabic text and an extensive introduction of the first part of Ibn al-Qayyim's spiritual classic Madarij al-Salikin."
 rights: link-only

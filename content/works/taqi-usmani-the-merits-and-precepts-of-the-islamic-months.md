@@ -5,6 +5,12 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "Islamic calendar"
+  - "Muharram"
+  - "Sha'ban"
+  - "Ramadan"
+  - "bid'a"
 summary: "A month-by-month guide to the occasions, worship and common misconceptions of the Islamic calendar."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

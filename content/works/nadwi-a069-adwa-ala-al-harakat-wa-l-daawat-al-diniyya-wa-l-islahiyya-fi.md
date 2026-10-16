@@ -7,7 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - education
-  - political-thought
+  - islam-and-modernity
+keywords:
+  - "reform movements"
+  - "India"
+  - "madrasas"
+  - "Deoband"
+  - "Nadwat al-Ulama"
+  - "Aligarh"
 summary: "Light on the Religious and Reform Movements, Schools of Thought and Educational Centres of India"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

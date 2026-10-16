@@ -7,9 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - science-and-religion
+  - philosophy-and-theology
 keywords:
-  - "Evolution"
-  - "Nature & Science"
+  - "human origins"
+  - "evolution"
+  - "Adam"
+  - "empirical limits"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

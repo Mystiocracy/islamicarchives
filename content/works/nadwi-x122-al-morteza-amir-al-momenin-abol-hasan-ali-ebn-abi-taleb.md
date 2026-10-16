@@ -4,9 +4,13 @@ titleOriginal: "المرتضى –  اميرالمؤمنين ابوالحسن ع
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - political-thought
 keywords:
-  - "al-Murtada (Arabic)"
-  - "عبدالقادر دهقان"
+  - "Ali ibn Abi Talib"
+  - "al-Murtada"
+  - "caliphate"
+  - "Rashidun"
 summary: "Al-Murtada: Ali ibn Abi Talib. Translated by عبدالقادر دهقان."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

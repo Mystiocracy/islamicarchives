@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - family-and-society
+keywords:
+  - "Indian society"
+  - "social reform"
+  - "Indian Muslims"
 summary: "Attend to Indian society quickly"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

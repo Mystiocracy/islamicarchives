@@ -5,6 +5,9 @@ language: "English"
 type: "Translation"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an translation"
+  - "English translation"
 summary: "The same translation without footnotes."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

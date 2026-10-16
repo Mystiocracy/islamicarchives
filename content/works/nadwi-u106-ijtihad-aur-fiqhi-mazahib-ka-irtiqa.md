@@ -5,8 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - education
   - islamic-law
+keywords:
+  - "ijtihad"
+  - "madhhab"
+  - "schools of law"
+  - "history of fiqh"
 summary: "Ijtihad and the development of the legal schools"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

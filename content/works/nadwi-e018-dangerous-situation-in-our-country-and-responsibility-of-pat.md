@@ -5,6 +5,12 @@ language: "English"
 type: "Speech"
 subjects:
   - political-thought
+keywords:
+  - "India"
+  - "Payam-e-Insaniyat"
+  - "patriotism"
+  - "communalism"
+  - "Indian Muslims"
 summary: "Dangerous Situation in Our Country and Responsibility of Patriots. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

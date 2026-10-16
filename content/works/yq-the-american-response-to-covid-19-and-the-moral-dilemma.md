@@ -6,11 +6,14 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
   - political-thought
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "Covid-19"
+  - "United States"
+  - "moral dilemma"
+  - "public health"
+  - "ethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

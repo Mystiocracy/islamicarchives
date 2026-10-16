@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - sufism
+keywords:
+  - "tawba"
+  - "repentance"
+  - "forgiveness"
 summary: "Treatise on repentance."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

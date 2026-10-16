@@ -5,11 +5,13 @@ year: 2023
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - quranic-studies
+  - islamic-law
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "naskh"
+  - "abrogation"
+  - "divine wisdom"
+  - "Qur'anic rulings"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

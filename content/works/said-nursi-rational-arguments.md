@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "Muhakemat"
   - "The Reasonings"
-  - "Qur'anic exegesis method"
-  - "Israiliyyat"
+  - "Isra'iliyyat"
+  - "balagha"
 summary: "An early methodological work on reading the Qur'an, separating its truths from legends and outdated science, and setting out principles of eloquence and belief."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

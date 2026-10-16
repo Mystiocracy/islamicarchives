@@ -4,10 +4,9 @@ author: yasir-qadhi
 year: 2015
 language: English
 type: "Essay"
-subjects:
-  - education
 keywords:
-  - "reflection"
+  - "personal reflection"
+  - "milestones"
 summary: "A personal piece on his website."
 venue: "yasirqadhi.com"
 rights: link-only

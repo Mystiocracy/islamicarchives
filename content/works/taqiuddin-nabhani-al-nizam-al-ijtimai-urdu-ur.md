@@ -7,6 +7,12 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - family-and-society
+  - women-and-gender
+keywords:
+  - "The Social System in Islam"
+  - "Hizb ut-Tahrir"
+  - "gender segregation"
+  - "marriage"
 summary: "Urdu edition of the social system book."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

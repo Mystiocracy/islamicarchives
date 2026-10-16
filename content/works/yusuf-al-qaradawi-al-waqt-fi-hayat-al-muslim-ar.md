@@ -5,7 +5,13 @@ titleOriginal: "الوقت في حياة المسلم"
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - education
+  - family-and-society
+  - sufism
+keywords:
+  - "time"
+  - "time management"
+  - "Time in the Life of a Muslim"
+  - "productivity"
 summary: "Stresses the value of time in a Muslim's life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,6 +5,14 @@ author: nadwi
 year: 1995
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islamic-law
+  - political-thought
+keywords:
+  - "All India Muslim Personal Law Board"
+  - "AIMPLB"
+  - "Muslim personal law"
+  - "Ahmedabad"
 summary: "Presidential address, 12th AIMPLB session, Ahmedabad (7-8 Oct 1995)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

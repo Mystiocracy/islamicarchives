@@ -7,6 +7,12 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "Al-Halal wa-l-Haram fi l-Islam"
+  - "halal"
+  - "haram"
+  - "food"
+  - "dress"
 summary: "Bengali edition of the permitted-and-forbidden guide."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

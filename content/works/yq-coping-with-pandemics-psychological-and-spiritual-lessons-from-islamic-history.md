@@ -8,8 +8,11 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "pandemics"
+  - "plague"
+  - "Covid-19"
+  - "Islamic history"
+  - "tawakkul"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

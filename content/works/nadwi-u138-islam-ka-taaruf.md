@@ -4,6 +4,13 @@ titleOriginal: "اسلام کا تعارف"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "introduction to Islam"
+  - "Islamic beliefs"
+  - "pillars of Islam"
+  - "worship"
 summary: "An introduction to Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

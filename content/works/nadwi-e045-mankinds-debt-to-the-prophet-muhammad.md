@@ -5,7 +5,13 @@ year: 1989
 language: "English"
 type: "Speech"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "Prophet Muhammad"
+  - "prophethood"
+  - "humanity"
+  - "Oxford Centre for Islamic Studies"
 summary: "Mankind's Debt to the Prophet Muhammad. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

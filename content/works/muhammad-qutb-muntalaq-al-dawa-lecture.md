@@ -5,11 +5,12 @@ titleOriginal: "منطلق الدعوة"
 language: "Arabic"
 type: "Video"
 subjects:
-  - political-thought
   - education
+  - political-thought
 keywords:
-  - "lecture"
   - "da'wa"
+  - "starting point of da'wa"
+  - "Islamic movement"
 venue: "YouTube"
 summary: "Lecture (1h29) on the starting point of Islamic da'wa."
 rights: link-only

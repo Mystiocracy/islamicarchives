@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - quranic-studies
+keywords:
+  - "Prophet Yusuf"
+  - "Joseph"
+  - "Surah Yusuf"
+  - "da'wa"
 summary: "An example of Prophet Yusuf's style of preaching"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

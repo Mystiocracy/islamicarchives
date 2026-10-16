@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Islamic state"
+  - "shura"
+  - "democracy"
+  - "pluralism"
+  - "State in Islam"
 summary: "Explores the Islamic state's nature, shura, pluralism and rights."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

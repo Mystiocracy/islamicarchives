@@ -4,6 +4,15 @@ titleOriginal: "انسانی دنیا پر مسلمانوں کے عروج و ز�
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "What the World Lost"
+  - "Madha Khasira al-Alam bi-Inhitat al-Muslimin"
+  - "Muslim decline"
+  - "jahiliyya"
+  - "Islamic civilisation"
 summary: "Effect of the Muslims' rise and fall on mankind (What the World Lost). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

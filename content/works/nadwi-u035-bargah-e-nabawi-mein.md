@@ -4,8 +4,12 @@ titleOriginal: "بارگاہ نبوی میں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
+keywords:
+  - "Prophet's Mosque"
+  - "Medina"
+  - "Prophet Muhammad"
+  - "love of the Prophet"
+  - "ziyara"
 summary: "In the Prophet's presence"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

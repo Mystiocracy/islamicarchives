@@ -4,10 +4,14 @@ author: osman-umarji
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - psychology-and-mental-health
+  - family-and-society
 keywords:
-  - "Data"
-  - "Reports"
+  - "religious doubt"
+  - "childhood experiences"
+  - "religiosity"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

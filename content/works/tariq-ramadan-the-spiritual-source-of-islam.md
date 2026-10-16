@@ -8,8 +8,7 @@ subjects:
   - sufism
 keywords:
   - "spirituality"
-  - "terror"
-  - "Islam"
+  - "spiritual sources of Islam"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: Transforming Terror, University of California Press (Crossref lists 2019 reissue; original about 2005)"
 rights: link-only

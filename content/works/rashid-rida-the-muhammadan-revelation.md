@@ -6,13 +6,13 @@ year: 1933
 language: "Arabic"
 type: "Book"
 subjects:
-  - quranic-studies
   - philosophy-and-theology
+  - quranic-studies
 keywords:
   - "al-Wahy al-Muhammadi"
-  - "The Revelation to Muhammad"
-  - "Yusuf Talal DeLorenzo (translator)"
+  - "revelation"
   - "prophethood"
+  - "i'jaz"
 summary: "An argument for the divine origin of the Qurʾān and the prophethood of Muḥammad, addressed in part to Western readers and critics."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

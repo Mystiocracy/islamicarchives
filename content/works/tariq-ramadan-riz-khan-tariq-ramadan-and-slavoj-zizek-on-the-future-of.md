@@ -9,8 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Egypt"
-  - "revolution"
-  - "Zizek"
+  - "Egyptian revolution"
+  - "Slavoj Zizek"
+  - "Riz Khan"
   - "Al Jazeera"
 summary: "Roundtable with Ramadan and philosopher Slavoj Zizek on where the Egyptian revolution might lead, examining the role of Islamists, the army and popular movements."
 venue: "Al Jazeera English (Riz Khan)"

@@ -4,8 +4,13 @@ titleOriginal: "মাওলানা ইলিয়াস (রহ.) ও তা
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sufism
 keywords:
-  - "Hazrat Maulana Muhammad Ilyas aur unki Dini Da'wat"
+  - "Muhammad Ilyas Kandhlawi"
+  - "Tablighi Jamaat"
+  - "Mewat"
+  - "dawah"
 summary: "Maulana Ilyas and his religious call. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

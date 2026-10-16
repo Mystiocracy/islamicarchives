@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "death anxiety"
+  - "fear of death"
+  - "mortality"
+  - "afterlife"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

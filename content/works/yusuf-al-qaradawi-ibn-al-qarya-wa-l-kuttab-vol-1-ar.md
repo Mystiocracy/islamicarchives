@@ -6,7 +6,13 @@ year: 2002
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - education
+keywords:
+  - "autobiography"
+  - "memoir"
+  - "Egypt"
+  - "kuttab"
+  - "childhood"
 summary: "First volume of his memoirs, covering his Egyptian village childhood, Quranic schooling and early studies."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

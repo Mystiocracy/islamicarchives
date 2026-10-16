@@ -5,9 +5,12 @@ year: 2021
 language: English
 type: "Book"
 subjects:
-  - education
+  - sufism
 keywords:
-  - "The Power of Repentance"
+  - "tawba"
+  - "repentance"
+  - "forgiveness"
+  - "sin"
 summary: "On repentance (tawba)."
 venue: "Tertib Publishing"
 rights: link-only

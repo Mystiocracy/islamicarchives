@@ -5,11 +5,14 @@ year: 2012
 language: "English"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
-  - political-thought
+  - quranic-studies
+  - education
 keywords:
-  - "Qasas al-Nabiyyin (Ar.)"
-  - "not stated (ed. Ibrahim Wadi)"
+  - "Nuh"
+  - "Noah"
+  - "flood"
+  - "Qasas al-Nabiyyin"
+  - "children"
 summary: "Stories of the Prophets: Nuh's Voyage, Vol. I. Translated by not stated (ed. Ibrahim Wadi) from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -12,7 +12,7 @@ keywords:
   - "Le Symbolisme de la croix"
   - "Universal Man"
   - "al-insan al-kamil"
-  - "ʿIllaysh"
+  - "Abd al-Rahman Illaysh"
   - "metaphysics"
 summary: "A metaphysical study of the cross as a universal symbol of the degrees of being, dedicated to the memory of Shaykh ʿAbd al-Raḥmān ʿIllaysh and drawing on the Sufi doctrine of the Universal Man."
 rights: link-only

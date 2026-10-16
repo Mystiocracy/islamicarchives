@@ -10,8 +10,8 @@ subjects:
   - sufism
 keywords:
   - "Qur'an"
-  - "Prophet"
-  - "Shari'a"
+  - "Prophet Muhammad"
+  - "sharia"
   - "Sunnism and Shi'ism"
 summary: "A general introduction to Islam's main dimensions, the Qur'an, the Prophet, the Law, the Sufi path and the Sunni-Shiʿi division, from a traditional perspective."
 rights: link-only

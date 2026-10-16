@@ -5,9 +5,13 @@ year: 1993
 language: "Bengali"
 type: "Translation"
 subjects:
+  - philosophy-and-theology
   - islam-and-modernity
 keywords:
+  - "Shubuhat hawla al-Islam"
+  - "Islam: The Misunderstood Religion"
   - "misconceptions"
+  - "apologetics"
 venue: "Adhunik Prokashani, Dhaka"
 summary: "Bengali translation of Islam: The Misunderstood Religion."
 rights: link-only

@@ -4,10 +4,16 @@ author: maryam-jameelah
 year: 1990
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - political-thought
   - colonialism-and-decolonisation
+keywords:
+  - "Izz al-Din al-Qassam"
+  - "Palestine"
+  - "British Mandate"
+  - "jihad"
+  - "resistance"
+venue: "Mohammad Yusuf Khan"
 summary: "A biography of the Palestinian preacher and resistance leader."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

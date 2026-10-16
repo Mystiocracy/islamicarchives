@@ -9,6 +9,7 @@ subjects:
   - islam-and-modernity
   - colonialism-and-decolonisation
 keywords:
+  - "Les Conditions de la renaissance"
   - "Shurut al-nahda"
   - "civilisation"
   - "colonisability"

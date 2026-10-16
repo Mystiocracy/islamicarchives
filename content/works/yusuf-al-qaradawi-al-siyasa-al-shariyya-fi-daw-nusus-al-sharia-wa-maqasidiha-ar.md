@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islamic-law
+keywords:
+  - "siyasa shar'iyya"
+  - "maqasid al-sharia"
+  - "Islamic governance"
+  - "Islamic state"
 summary: "Frames Islamic governance through the texts and objectives of the sharia."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

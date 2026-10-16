@@ -8,9 +8,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Christianity"
+  - "Christian ethics"
   - "comparative ethics"
   - "Jesus"
-  - "McGill University Press"
 summary: "A critical study of the main ideas of Christian ethics from the standpoint of a Muslim historian of religions, distinguishing the ethic of Jesus from later Christian doctrine."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

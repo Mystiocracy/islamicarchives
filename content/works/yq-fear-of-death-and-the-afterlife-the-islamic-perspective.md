@@ -7,8 +7,13 @@ language: "English"
 type: "Paper"
 subjects:
   - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
-  - "Afterlife"
+  - "afterlife"
+  - "death"
+  - "akhira"
+  - "fear of death"
+  - "grave"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

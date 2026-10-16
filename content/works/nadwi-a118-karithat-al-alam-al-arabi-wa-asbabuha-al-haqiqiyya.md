@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "1967 war"
+  - "Arab world"
+  - "Arab nationalism"
+  - "Muslim World League"
+  - "Israel"
 summary: "The Arab World's Catastrophe and Its Real Causes"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

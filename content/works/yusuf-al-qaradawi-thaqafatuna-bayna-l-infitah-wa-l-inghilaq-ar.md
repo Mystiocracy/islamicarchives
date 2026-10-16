@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "culture"
+  - "openness"
+  - "Westernisation"
+  - "cultural identity"
 summary: "Discusses Muslim culture between openness to others and isolation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

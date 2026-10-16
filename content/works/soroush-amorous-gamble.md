@@ -12,6 +12,7 @@ keywords:
   - "Shams-e Tabrizi"
   - "Rumi"
   - "love mysticism"
+  - "Masnavi"
 summary: "Lectures on the relationship between Rumi and Shams of Tabriz and on mystical love."
 rights: link-only
 rightsNote: "In copyright (living author)."

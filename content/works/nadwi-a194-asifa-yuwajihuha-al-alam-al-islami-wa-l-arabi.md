@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Ridda wa-la Aba Bakrin laha"
+  - "Arab world"
+  - "secularism"
+  - "nationalism"
+  - "Muslim world"
 summary: "A Storm Facing the Muslim and Arab World"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

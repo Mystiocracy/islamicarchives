@@ -5,6 +5,14 @@ author: nadwi
 year: 1991
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islamic-law
+  - political-thought
+keywords:
+  - "All India Muslim Personal Law Board"
+  - "AIMPLB"
+  - "Muslim personal law"
+  - "Delhi"
 summary: "Presidential address, 10th AIMPLB session, Delhi (1991)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

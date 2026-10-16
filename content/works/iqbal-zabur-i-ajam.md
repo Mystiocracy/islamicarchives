@@ -11,6 +11,7 @@ subjects:
 keywords:
   - "Persian Psalms"
   - "Gulshan-i-Raz-i-Jadid"
+  - "Mahmud Shabistari"
   - "Bandagi Nama"
   - "ghazals"
 summary: "Persian ghazals and two longer poems, including a 'New Garden of Mystery' that reworks Mahmud Shabistari's Sufi classic in terms of his own philosophy."

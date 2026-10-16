@@ -5,10 +5,15 @@ coAuthors: "Hassan Elwan and Mustafa Umar"
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
-  - "Data"
-  - "Reports"
+  - "COVID-19"
+  - "pandemic"
+  - "divine punishment"
+  - "mercy"
+  - "trials"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

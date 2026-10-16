@@ -10,6 +10,7 @@ keywords:
   - "Vesayat va showra"
   - "succession to the Prophet"
   - "shura"
+  - "wisaya"
   - "democracy"
 summary: "A lecture contrasting designation (waṣāya) and consultation (shūrā) as models of succession and political legitimacy in early Islam."
 rights: link-only

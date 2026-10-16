@@ -5,6 +5,12 @@ author: nadwi
 year: 1961
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Lucknow"
 summary: "Presidential address, Lucknow (4-5 June 1961)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

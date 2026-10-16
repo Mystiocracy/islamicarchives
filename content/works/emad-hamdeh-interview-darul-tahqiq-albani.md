@@ -5,10 +5,14 @@ year: 2015
 language: English
 type: "Video"
 subjects:
+  - islamic-law
   - hadith-studies
 keywords:
   - "Albani"
-  - "lecture"
+  - "Salafism"
+  - "traditionalism"
+  - "Dar ul-Tahqiq"
+  - "madhhab"
 summary: "A page on Dar ul-Tahqiq about the same talk reported in AJIS 32, no. 2 (2015)."
 venue: "Dar ul-Tahqiq"
 rights: link-only

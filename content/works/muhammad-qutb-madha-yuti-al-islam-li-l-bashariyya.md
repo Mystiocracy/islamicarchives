@@ -9,8 +9,11 @@ subjects:
   - islam-and-modernity
   - slavery-and-race
 keywords:
+  - "Arnold Toynbee"
+  - "racism"
+  - "alcohol"
+  - "What Islam can offer Humanity"
   - "da'wa"
-  - "Toynbee"
 venue: "Muslim Welfare House, London"
 summary: "Short tract on what Islam offers humanity, starting from Toynbee's remarks on race and alcohol."
 rights: link-only

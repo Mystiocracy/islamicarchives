@@ -6,6 +6,9 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "ulama"
+  - "religious scholars"
 summary: "The ulama's greatest duty"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

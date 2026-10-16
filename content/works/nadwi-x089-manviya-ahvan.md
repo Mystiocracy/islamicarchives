@@ -4,6 +4,11 @@ titleOriginal: "मानवीय आवाह्न"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - family-and-society
+keywords:
+  - "Payam-e-Insaniyat"
+  - "humanity"
 summary: "A humane appeal. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

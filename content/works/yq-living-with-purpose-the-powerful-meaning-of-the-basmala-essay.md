@@ -6,9 +6,13 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
+  - quranic-studies
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "Basmala"
+  - "bismillah"
+  - "purpose"
+  - "Names of Allah"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

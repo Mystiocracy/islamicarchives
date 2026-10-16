@@ -7,10 +7,10 @@ type: "Paper"
 subjects:
   - islam-and-modernity
 keywords:
-  - "International Journal of Middle East Studies"
-  - "modernism"
+  - "Islamic modernism"
   - "neo-fundamentalism"
-  - "method"
+  - "Qur'anic hermeneutics"
+  - "reform"
 summary: "An assessment of nineteenth- and twentieth-century Islamic modernism that criticises its piecemeal method and calls for a systematic hermeneutic of the Qur'an."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

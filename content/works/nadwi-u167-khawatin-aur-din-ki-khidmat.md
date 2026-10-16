@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+keywords:
+  - "Muslim women"
+  - "service to religion"
+  - "women's role"
 summary: "Women and service to religion"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

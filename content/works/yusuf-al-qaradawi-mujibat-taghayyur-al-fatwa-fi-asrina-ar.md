@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "change of fatwa"
+  - "ijtihad"
+  - "custom"
+  - "urf"
 summary: "Identifies factors that justify changing a fatwa in the modern age."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

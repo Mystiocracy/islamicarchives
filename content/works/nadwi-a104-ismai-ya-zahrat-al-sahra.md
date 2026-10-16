@@ -4,6 +4,14 @@ titleOriginal: "اسمعي يا زهرة الصحراء"
 author: nadwi
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Kuwait"
+  - "oil wealth"
+  - "Gulf"
+  - "materialism"
+  - "Listen, O Flower of the Desert"
 summary: "Listen, O Flower of the Desert (address to Kuwait)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

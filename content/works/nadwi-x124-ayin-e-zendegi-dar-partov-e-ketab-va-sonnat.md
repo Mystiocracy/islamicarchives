@@ -5,10 +5,13 @@ author: nadwi
 language: "Persian"
 type: "Book"
 subjects:
-  - hadith-studies
-  - quranic-studies
+  - islamic-law
+  - philosophy-and-theology
 keywords:
   - "Dastur-e-Hayat"
+  - "sunna"
+  - "aqida"
+  - "ibadat"
 summary: "The code of life in the light of the Quran and Sunna. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

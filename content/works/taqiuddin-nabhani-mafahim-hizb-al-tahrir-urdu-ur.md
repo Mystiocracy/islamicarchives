@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Concepts of Hizb ut-Tahrir"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "method of change"
 summary: "Urdu edition of Mafahim Hizb al-Tahrir."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

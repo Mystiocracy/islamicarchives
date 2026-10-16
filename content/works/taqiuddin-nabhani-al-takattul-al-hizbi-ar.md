@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Party Structuring"
+  - "Hizb ut-Tahrir"
+  - "political party"
+  - "ideology"
+  - "method of change"
 summary: "Sets out the nature of a political party built on an ideology and the stages of its work."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

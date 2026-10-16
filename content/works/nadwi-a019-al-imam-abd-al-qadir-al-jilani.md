@@ -4,6 +4,13 @@ titleOriginal: "الإمام عبد القادر الجيلاني"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "Abd al-Qadir al-Jilani"
+  - "Qadiriyya"
+  - "Rijal al-Fikr wa-l-Da'wa"
+  - "Baghdad"
 summary: "Imam Abd al-Qadir al-Jilani"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,6 +4,13 @@ titleOriginal: "حضرت مولانا محمد الیاسؒ اور ان کی د�
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sufism
+keywords:
+  - "Muhammad Ilyas"
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "Mewat"
 summary: "Maulana Muhammad Ilyas and his religious mission"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

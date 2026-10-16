@@ -8,6 +8,8 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
+  - "umma"
+  - "Muslim unity"
   - "Cambridge"
 venue: "Cambridge University Islamic Society"
 summary: "Lecture on the ummatics project to a Cambridge audience."

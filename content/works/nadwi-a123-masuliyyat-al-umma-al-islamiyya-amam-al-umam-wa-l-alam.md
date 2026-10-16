@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "Muslim responsibility"
+  - "da'wa"
+  - "humanity"
+  - "world leadership"
 summary: "The Muslim Umma's Responsibility to the Nations and the World"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

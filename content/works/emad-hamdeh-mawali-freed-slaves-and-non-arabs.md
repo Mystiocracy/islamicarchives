@@ -6,9 +6,13 @@ language: English
 type: "Paper"
 subjects:
   - slavery-and-race
-  - hadith-studies
+  - education
 keywords:
-  - "Mawālī"
+  - "mawali"
+  - "freed slaves"
+  - "non-Arabs"
+  - "early Islamic scholarship"
+  - "ulama"
 summary: "On the role of the mawālī in early Islamic scholarship and the ethic of judging scholars by piety and knowledge."
 venue: "Yaqeen Institute for Islamic Research"
 rights: link-only

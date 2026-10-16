@@ -11,9 +11,10 @@ subjects:
   - political-thought
 keywords:
   - "al-Manar journal"
-  - "Cairo 1898–1935"
+  - "Cairo"
   - "fatwas"
   - "Islamic reform"
+  - "Salafiyya"
 summary: "The Cairo journal Riḍā founded and edited from 1898 to 1935, a leading forum for Islamic reform, fatwas and political commentary."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

@@ -4,6 +4,12 @@ titleOriginal: "ملک کی آزادی کا صحیح مطلب اور فائدہ"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Indian independence"
+  - "freedom"
+  - "India"
 summary: "The true meaning and benefit of independence"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

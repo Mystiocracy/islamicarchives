@@ -5,7 +5,13 @@ titleOriginal: "الدين في عصر العلم"
 language: "Arabic"
 type: "Book"
 subjects:
+  - science-and-religion
   - philosophy-and-theology
+keywords:
+  - "Religion in the Age of Science"
+  - "atheism"
+  - "materialism"
+  - "faith and science"
 summary: "Argues that religion remains necessary in the scientific age."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

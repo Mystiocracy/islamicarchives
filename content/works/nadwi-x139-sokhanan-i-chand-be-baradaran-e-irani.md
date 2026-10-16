@@ -4,8 +4,13 @@ titleOriginal: "سخنان چند به برادران ایرانی"
 author: nadwi
 language: "Persian"
 type: "Pamphlet"
+subjects:
+  - political-thought
 keywords:
-  - "probably Isma'i ya Iran (Arabic)"
+  - "Isma'i ya Iran"
+  - "Iran"
+  - "Shia"
+  - "Iranian Revolution"
 summary: "A few words to Iranian brothers. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

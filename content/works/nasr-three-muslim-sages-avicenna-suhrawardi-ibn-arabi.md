@@ -11,7 +11,7 @@ keywords:
   - "Ibn Sina"
   - "Suhrawardi"
   - "Ibn 'Arabi"
-  - "Harvard lectures"
+  - "Illuminationism"
 summary: "Lectures presenting three representative schools of Islamic thought: Peripatetic philosophy, Illuminationism and Sufi metaphysics."
 rights: link-only
 rightsNote: "In copyright (living author)."

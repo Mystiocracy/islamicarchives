@@ -8,9 +8,9 @@ subjects:
   - islam-and-modernity
 keywords:
   - "RIS"
+  - "Reviving the Islamic Spirit"
   - "social change"
   - "responsibility"
-  - "future"
 summary: "RIS convention talk urging Muslims to engage actively with the present, take responsibility for social change and imagine a hopeful future grounded in ethical commitment."
 venue: "Reviving the Islamic Spirit (RIS) convention"
 rights: link-only

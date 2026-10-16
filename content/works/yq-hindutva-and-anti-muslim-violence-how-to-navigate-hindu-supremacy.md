@@ -6,12 +6,13 @@ year: 2026
 language: "English"
 type: "Paper"
 subjects:
-  - islam-and-modernity
   - political-thought
 keywords:
-  - "Islamophobia"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Hindutva"
+  - "India"
+  - "anti-Muslim violence"
+  - "Hindu nationalism"
+  - "BJP"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

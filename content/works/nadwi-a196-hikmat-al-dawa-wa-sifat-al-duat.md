@@ -4,6 +4,13 @@ titleOriginal: "حكمة الدعوة وصفة الدعاة"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "da'wa"
+  - "hikma"
+  - "du'at"
+  - "wisdom in da'wa"
 summary: "The Wisdom of Daʿwa and the Qualities of Its Callers"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

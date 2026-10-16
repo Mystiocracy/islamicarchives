@@ -5,8 +5,12 @@ author: nadwi
 year: 1974
 language: "Arabic"
 type: "Book"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "When the Breeze of Faith Blew"
+  - "Companions"
+  - "sahaba"
+  - "stories of faith"
+  - "iman"
 summary: "When the Breeze of Faith Blew"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

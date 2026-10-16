@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "Ouvertures sur l'islam"
   - "Nafidha 'ala al-Islam"
-  - "tr. Robert D. Lee"
-  - "introduction"
+  - "revelation"
+  - "introduction to Islam"
 summary: "Answers common questions about revelation, law, the state and modernity, introducing his critical approach for a general readership."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

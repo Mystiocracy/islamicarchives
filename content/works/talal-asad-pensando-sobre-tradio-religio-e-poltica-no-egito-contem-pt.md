@@ -7,6 +7,12 @@ language: "Portuguese"
 type: "Article"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Thinking About Tradition, Religion, and Politics in Egypt Today"
+  - "Egypt"
+  - "tradition"
+  - "sovereign state"
 summary: "Portuguese translation of the 2015 Critical Inquiry essay."
 venue: "Política & Sociedade 16(36), October 2017"
 rights: link-only

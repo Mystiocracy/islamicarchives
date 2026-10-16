@@ -4,10 +4,15 @@ author: maryam-jameelah
 year: 1980
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
-  - political-thought
   - colonialism-and-decolonisation
+  - political-thought
+keywords:
+  - "Islamic resurgence"
+  - "Islamic revival"
+  - "decolonization"
+  - "colonial yoke"
+venue: "Mohammad Yusuf Khan"
 summary: "Islamic revival as decolonization."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

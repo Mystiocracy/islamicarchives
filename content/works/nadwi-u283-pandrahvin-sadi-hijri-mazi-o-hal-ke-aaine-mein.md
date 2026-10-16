@@ -5,6 +5,14 @@ author: nadwi
 year: 1980
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "fifteenth Hijri century"
+  - "1400 AH"
+  - "Muslim world"
+  - "ummah"
 summary: "The fifteenth Hijri century in the mirror of past and present"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

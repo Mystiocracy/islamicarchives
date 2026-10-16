@@ -8,7 +8,8 @@ subjects:
   - islamic-law
 keywords:
   - "tradition"
-  - "authority"
+  - "scholarly authority"
+  - "turath"
   - "modernity"
 venue: "AlJumuah Magazine"
 summary: "Argues that Muslims must engage the accumulated scholarly heritage, not only the Qur'an and hadith, to live their faith amid modern challenges."

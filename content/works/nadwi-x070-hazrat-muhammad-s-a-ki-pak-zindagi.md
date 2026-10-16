@@ -4,8 +4,9 @@ titleOriginal: "हज़रत मुहम्मद स0अ0 की पाक 
 author: nadwi
 language: "Hindi"
 type: "Speech"
-subjects:
-  - hadith-studies
+keywords:
+  - "Prophet Muhammad"
+  - "sira"
 summary: "The pure life of the Prophet Muhammad. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

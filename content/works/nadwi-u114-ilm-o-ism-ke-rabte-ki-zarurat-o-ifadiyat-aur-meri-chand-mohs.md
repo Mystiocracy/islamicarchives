@@ -7,6 +7,11 @@ type: "Pamphlet"
 subjects:
   - education
   - philosophy-and-theology
+keywords:
+  - "ilm"
+  - "knowledge and faith"
+  - "formative books"
+  - "Iqra bismi rabbik"
 summary: "Knowledge with God's name, and some books that shaped me"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

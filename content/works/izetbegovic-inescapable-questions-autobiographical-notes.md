@@ -8,10 +8,12 @@ type: "Memoir"
 subjects:
   - political-thought
 keywords:
-  - "Sjecanja"
+  - "Sjećanja"
   - "autobiography"
   - "Bosnian war"
   - "Young Muslims"
+  - "Party of Democratic Action"
+  - "Dayton"
 summary: "Memoirs covering his youth, imprisonments, founding of the Party of Democratic Action and leadership during the Bosnian war and the Dayton negotiations."
 rights: link-only
 rightsNote: "In copyright (author d. 2003)."

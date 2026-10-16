@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
+  - "Khilafat ki Haqiqat"
   - "khilafah"
+  - "caliphate"
   - "constitution"
   - "Islamic state"
 summary: "Outlines the theological basis of the caliphate and a model for how it could be organised in a modern state."

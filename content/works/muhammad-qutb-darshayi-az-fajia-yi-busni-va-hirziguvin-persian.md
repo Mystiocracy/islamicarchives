@@ -9,6 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Bosnia"
+  - "Bosnian war"
+  - "Durus min mihnat al-Busna wa-l-Hersek"
+  - "Muslim world"
 venue: "Intishārāt-i Sunnat, Taybad"
 summary: "Persian translation of Durus min mihnat al-Busna wa-l-Hersek."
 rights: link-only

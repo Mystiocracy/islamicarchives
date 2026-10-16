@@ -9,10 +9,11 @@ subjects:
   - women-and-gender
   - slavery-and-race
 keywords:
-  - "Journal of Law and Religion"
   - "social justice"
   - "race"
+  - "class"
   - "hermeneutics"
+  - "Journal of Law and Religion"
 summary: "Journal article proposing a Qur'anic hermeneutic centred on justice that addresses race and class alongside gender."
 rights: link-only
 rightsNote: "In copyright (living author)."

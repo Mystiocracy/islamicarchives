@@ -6,11 +6,15 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - women-and-gender
+  - quranic-studies
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "women in the Qur'an"
+  - "Maryam"
+  - "Asiya"
+  - "Queen of Sheba"
+  - "Bilqis"
+  - "female role models"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -7,10 +7,10 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Time Out"
-  - "Islam and the Arab Awakening"
-  - "criticism"
-  - "Chicago"
+  - "Time Out Chicago"
+  - "Chicago Public Library"
+  - "doublespeak"
+  - "critics"
 summary: "Phone interview ahead of his Chicago Public Library appearance in which Ramadan responds to critics who say he presents a moderate face to the West and a different one to Arabs."
 venue: "Time Out Chicago"
 rights: link-only

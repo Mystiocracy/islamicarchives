@@ -4,8 +4,11 @@ author: yusuf-al-qaradawi
 titleOriginal: "المسلمون قادمون (ديوان شعر)"
 language: "Arabic"
 type: "Collection"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "Arabic poetry"
+  - "diwan"
+  - "Islamic revival"
+  - "The Muslims Are Coming"
 summary: "Collection of his Arabic poems celebrating the return of Muslim confidence."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

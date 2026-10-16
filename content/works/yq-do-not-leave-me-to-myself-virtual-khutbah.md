@@ -5,10 +5,12 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - hadith-studies
+  - sufism
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "dua"
+  - "reliance on Allah"
+  - "tawakkul"
+  - "prophetic supplication"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

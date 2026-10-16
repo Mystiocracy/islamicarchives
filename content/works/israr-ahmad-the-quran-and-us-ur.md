@@ -7,7 +7,7 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Quran-e-Hakeem aur Hum"
   - "Muslim life"
   - "responsibility"
 summary: "Collected talks on how Muslims should relate to the Qur'an in personal and communal life."

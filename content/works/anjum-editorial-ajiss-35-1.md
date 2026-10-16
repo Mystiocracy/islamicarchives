@@ -7,9 +7,10 @@ type: "Essay"
 subjects:
   - islam-and-modernity
 keywords:
-  - "editorial"
-  - "secularism"
   - "Talal Asad"
+  - "secularism"
+  - "Lebanese Shi'i activism"
+  - "American Muslim adolescents"
 venue: "American Journal of Islamic Social Sciences 35, no. 1"
 summary: "Introduces an issue featuring studies of Lebanese Shi'i activism and American Muslim adolescents along with an interview with Talal Asad."
 rights: link-only

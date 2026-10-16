@@ -9,7 +9,6 @@ subjects:
 keywords:
   - "Biz First TV"
   - "television"
-  - "2015"
 summary: "A television interview with Ramadan; its content has not been checked for this entry."
 venue: "Biz First TV"
 rights: link-only

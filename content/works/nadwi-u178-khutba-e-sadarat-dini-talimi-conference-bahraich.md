@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Bahraich"
 summary: "Presidential address, religious education conference, Bahraich (17-18 April 1982)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

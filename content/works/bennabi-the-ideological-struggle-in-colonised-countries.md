@@ -9,9 +9,9 @@ subjects:
   - colonialism-and-decolonisation
   - political-thought
 keywords:
+  - "La Lutte idéologique en pays colonisé"
   - "al-Sira' al-fikri fi al-bilad al-musta'mara"
-  - "colonialism"
-  - "ideas"
+  - "ideological struggle"
   - "propaganda"
 summary: "Describes how colonial powers manage and neutralise ideas in colonised societies and how intellectuals there can resist such manipulation."
 rights: link-only

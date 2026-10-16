@@ -4,6 +4,11 @@ titleOriginal: "दुनिया में आने वाले इन्स
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - family-and-society
+keywords:
+  - "Payam-e-Insaniyat"
+  - "humanity"
 summary: "People born into the world: thorns or flowers of the garden?. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

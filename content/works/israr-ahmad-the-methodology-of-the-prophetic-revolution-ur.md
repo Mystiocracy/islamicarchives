@@ -7,8 +7,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
-  - "revolution"
-  - "Seerah"
+  - "Manhaj-e-Inqilab-e-Nabawi"
+  - "Islamic revolution"
+  - "sira"
   - "methodology"
   - "khilafah"
 summary: "Builds a staged model of Islamic revolution from the Prophet's life, from preaching and organisation to endurance and confrontation."

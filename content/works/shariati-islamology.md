@@ -10,8 +10,9 @@ subjects:
   - political-thought
 keywords:
   - "Islamshenasi"
-  - "Mashhad lectures"
   - "Hosseiniyeh Ershad"
+  - "philosophy of history"
+  - "worldview"
   - "An Approach to the Understanding of Islam"
 summary: "Sharīʿatī's principal attempt to present Islam as a complete worldview and philosophy of history, first published in Mashhad and later expanded in lectures at the Ḥusayniyya-yi Irshād."
 rights: link-only

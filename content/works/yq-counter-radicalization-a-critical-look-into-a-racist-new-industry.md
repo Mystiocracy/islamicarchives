@@ -6,11 +6,14 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
-  - islam-and-modernity
   - political-thought
+  - islam-and-modernity
 keywords:
+  - "counter-radicalization"
+  - "CVE"
   - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "racism"
+  - "surveillance"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

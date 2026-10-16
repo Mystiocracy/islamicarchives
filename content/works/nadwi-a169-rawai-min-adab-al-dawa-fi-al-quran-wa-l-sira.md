@@ -5,8 +5,13 @@ author: nadwi
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
   - quranic-studies
+keywords:
+  - "da'wa"
+  - "Qur'an"
+  - "sira"
+  - "prophets"
+  - "literature of da'wa"
 summary: "Masterpieces of Daʿwa Literature in the Qur'an and Sira"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

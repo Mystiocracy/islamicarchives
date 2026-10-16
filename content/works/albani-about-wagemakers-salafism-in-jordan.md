@@ -6,9 +6,13 @@ year: 2016
 language: English
 type: "Book"
 subjects:
-  - hadith-studies
+  - political-thought
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "Jordan"
+  - "quietism"
+  - "political Islam"
+  - "Joas Wagemakers"
 summary: "A study or biography of al-Albānī."
 venue: "Cambridge University Press"
 rights: link-only

@@ -10,8 +10,9 @@ subjects:
 keywords:
   - "W. W. Hunter"
   - "The Indian Musalmans"
-  - "loyalty"
+  - "jihad"
   - "Wahhabi trials"
+  - "British India"
 summary: "A rebuttal of W. W. Hunter's claim that Indian Muslims were bound by religion to rebel against the Crown, arguing that Islamic law did not require jihad against British rule in India."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

@@ -5,9 +5,12 @@ language: "English"
 type: "Essay"
 subjects:
   - islam-and-modernity
+  - islamic-law
 keywords:
   - "religious authority"
   - "tradition"
+  - "ikhtilaf"
+  - "scholarly disagreement"
 venue: "AlJumuah Magazine"
 summary: "Argues that the crisis of religious authority should be met by returning to the humility and structured disagreement of the scholarly tradition."
 rights: link-only

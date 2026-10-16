@@ -4,6 +4,12 @@ titleOriginal: "देश और समाज का सबसे भयंक�
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - family-and-society
+keywords:
+  - "India"
+  - "Payam-e-Insaniyat"
+  - "social ills"
 summary: "The most dreadful disease of country and society. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -5,7 +5,14 @@ titleOriginal: "الإسلام بين شبهات الضالين وأكاذيب �
 language: "Arabic"
 type: "Book"
 subjects:
+  - philosophy-and-theology
   - islam-and-modernity
+keywords:
+  - "shubuhat"
+  - "apologetics"
+  - "Ahmad al-Assal"
+  - "misconceptions about Islam"
+  - "Orientalism"
 summary: "Replies to doubts raised about Islam, co-authored with Ahmad al-Assal."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,7 +6,14 @@ year: 2012
 language: "Arabic"
 type: "Pamphlet"
 subjects:
+  - political-thought
   - education
+keywords:
+  - "India"
+  - "communalism"
+  - "intellectuals"
+  - "national integration"
+  - "Indian Muslims"
 summary: "A Great Danger to the Country and the Responsibility of the Educated"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

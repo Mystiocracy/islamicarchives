@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - sufism
+keywords:
+  - "iman"
+  - "reality of faith"
+  - "hypocrisy"
 summary: "Claim of faith and its reality"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

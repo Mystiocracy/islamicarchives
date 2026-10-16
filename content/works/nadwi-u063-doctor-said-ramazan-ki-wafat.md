@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - education
+  - islam-and-modernity
+keywords:
+  - "Said Ramadan"
+  - "Muslim Brotherhood"
+  - "obituary"
+  - "Geneva Islamic Centre"
 summary: "On the death of Dr. Said Ramadan"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

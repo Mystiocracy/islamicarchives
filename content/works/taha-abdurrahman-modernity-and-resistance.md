@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "al-Hadatha wa-l-muqawama"
   - "resistance"
+  - "occupation"
   - "ethics"
-  - "modernity"
 summary: "A reflection on resistance to occupation and domination as an ethical and spiritual form of modern action."
 rights: link-only
 rightsNote: "In copyright (living author)."

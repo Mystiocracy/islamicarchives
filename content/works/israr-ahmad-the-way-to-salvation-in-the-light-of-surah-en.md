@@ -6,8 +6,10 @@ type: "Pamphlet"
 subjects:
   - quranic-studies
 keywords:
-  - "Surah al-Asr"
+  - "Rah-e-Nijat"
+  - "Surat al-Asr"
   - "salvation"
+  - "conditions of salvation"
 summary: "English translation of Rah-e-Nijat, his exposition of the four conditions for salvation in Surah al-Asr."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

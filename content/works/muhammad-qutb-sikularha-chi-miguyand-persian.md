@@ -5,9 +5,12 @@ titleOriginal: "سکولارها چه می‌گویند؟"
 language: "Persian"
 type: "Translation"
 subjects:
+  - islam-and-modernity
   - political-thought
 keywords:
+  - "al-'Ilmaniyyun wa-l-Islam"
   - "secularism"
+  - "secularists"
 venue: "Kānūn-i Andīsha-yi Javān"
 summary: "Persian translation of al-'Ilmaniyyun wa-l-Islam."
 rights: link-only

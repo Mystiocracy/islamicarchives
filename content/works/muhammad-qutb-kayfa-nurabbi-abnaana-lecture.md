@@ -5,11 +5,12 @@ titleOriginal: "كيف نربي أبناءنا"
 language: "Arabic"
 type: "Video"
 subjects:
-  - education
   - family-and-society
+  - education
 keywords:
-  - "lecture"
   - "parenting"
+  - "raising children"
+  - "tarbiya"
 venue: "YouTube (Qaradawi channel)"
 summary: "Lecture (1h19) on raising children."
 rights: link-only

@@ -8,8 +8,9 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
+  - "Islamic art"
   - "aesthetics"
-  - "literature"
+  - "Islamic literature"
   - "art"
 venue: "Dār al-Shurūq (first ed. Dār al-Qalam)"
 summary: "Sets out an Islamic theory of art and literature rooted in the Islamic conception of man and the universe."

@@ -7,7 +7,9 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Prophets"
+  - "prophecies"
+  - "Prophet Muhammad"
+  - "proofs of prophethood"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

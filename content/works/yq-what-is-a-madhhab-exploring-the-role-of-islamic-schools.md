@@ -7,8 +7,12 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "madhhab"
+  - "schools of law"
+  - "taqlid"
+  - "Hanafi"
+  - "Maliki"
+  - "Shafi'i"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

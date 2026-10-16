@@ -4,6 +4,12 @@ titleOriginal: "مسلمانوں کے مسائل و جذبات کو سمجھنے
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Indian Muslims"
+  - "Muslim grievances"
+  - "communal harmony"
 summary: "Try to understand Muslims' problems and feelings"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

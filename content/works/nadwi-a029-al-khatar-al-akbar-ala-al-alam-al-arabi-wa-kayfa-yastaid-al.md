@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Arab world"
+  - "Arab nationalism"
+  - "secularism"
+  - "Arab revival"
 summary: "The Greatest Danger to the Arab World and How the Arabs Can Regain Their Standing"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

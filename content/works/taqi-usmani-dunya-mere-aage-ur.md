@@ -4,8 +4,10 @@ author: taqi-usmani
 titleOriginal: "دنیا مرے آگے"
 language: "Urdu"
 type: "Book"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "travelogue"
+  - "travel accounts"
+  - "safarnama"
 summary: "Travel accounts of his journeys in many countries."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

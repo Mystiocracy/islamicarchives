@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "human dignity"
+  - "purpose of life"
+  - "human nature"
+  - "khilafa"
 summary: "Discusses the worth of the human being and the purpose of existence in Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

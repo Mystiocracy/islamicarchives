@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "contemporary fiqh"
+  - "Islamic finance"
+  - "medical ethics"
+  - "trade"
 summary: "Two volumes of his research papers on contemporary fiqh issues (finance, medicine, trade)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

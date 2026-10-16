@@ -8,10 +8,10 @@ subjects:
   - islam-and-modernity
   - philosophy-and-theology
 keywords:
+  - "Enlightenment"
   - "Altaf Gauhar Memorial Lecture"
   - "Islamabad"
-  - "Enlightenment"
-  - "modernity"
+  - "secularism"
 summary: "The first Altaf Gauhar Memorial Lecture, delivered in Islamabad, on how Muslims should respond to the legacy and crisis of the European Enlightenment."
 rights: link-only
 rightsNote: "In copyright (living author)."

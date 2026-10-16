@@ -7,10 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - islam-and-modernity
-  - political-thought
+  - slavery-and-race
 keywords:
   - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "anti-Muslim discrimination"
+  - "racism"
+  - "racialization"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

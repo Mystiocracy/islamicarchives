@@ -6,6 +6,11 @@ language: "French"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Al-Islam Hadarat al-Ghad"
+  - "Islamic civilisation"
+  - "future"
+  - "Western civilisation"
 summary: "Islam as the civilisation of tomorrow."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

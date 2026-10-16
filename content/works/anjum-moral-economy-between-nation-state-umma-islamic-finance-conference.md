@@ -10,6 +10,8 @@ subjects:
 keywords:
   - "moral economy"
   - "Islamic finance"
+  - "nation-state"
+  - "umma"
 venue: "Harvard Islamic Finance conference"
 summary: "Talk on moral economy in relation to the nation-state and the Umma."
 rights: link-only

@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "LGBTQ curricula"
   - "schools"
-  - "op-ed"
+  - "Muslim parents"
+  - "Al Jazeera"
 summary: "An Al Jazeera opinion piece on Muslim parents and LGBTQ school curricula."
 venue: "Al Jazeera"
 rights: link-only

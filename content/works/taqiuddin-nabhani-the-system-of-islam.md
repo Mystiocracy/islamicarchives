@@ -8,6 +8,12 @@ type: "Translation"
 subjects:
   - philosophy-and-theology
   - political-thought
+keywords:
+  - "Nidham al-Islam"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "rational belief"
+  - "ideology"
 summary: "English translation of Nidham al-Islam, the Party’s foundational text on creed and system."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

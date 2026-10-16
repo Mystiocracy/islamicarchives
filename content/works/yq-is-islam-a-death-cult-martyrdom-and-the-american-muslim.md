@@ -8,8 +8,10 @@ subjects:
   - islam-and-modernity
   - political-thought
 keywords:
+  - "martyrdom"
+  - "death cult"
   - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "American Muslims"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

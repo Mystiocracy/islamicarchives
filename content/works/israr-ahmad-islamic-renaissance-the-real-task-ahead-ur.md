@@ -9,8 +9,9 @@ subjects:
   - islam-and-modernity
   - quranic-studies
 keywords:
-  - "revival"
-  - "Quranic academy"
+  - "Islam ki Nashat-e-Saniya"
+  - "Islamic revival"
+  - "Qur'an Academy"
   - "intellectual renewal"
 summary: "His programmatic essay arguing that Islamic revival must begin with an intellectual renewal of faith grounded in the Qur'an."
 rights: link-only

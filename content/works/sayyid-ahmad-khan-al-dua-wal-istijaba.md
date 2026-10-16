@@ -7,10 +7,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - science-and-religion
 keywords:
-  - "prayer"
+  - "du'a"
   - "supplication"
-  - "divine response"
   - "natural law"
 summary: "An essay on the meaning of supplication, arguing that the answer to prayer lies in the spiritual effect on the believer rather than in the suspension of natural causes."
 rights: link-only

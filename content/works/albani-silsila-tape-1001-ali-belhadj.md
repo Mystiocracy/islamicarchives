@@ -4,9 +4,12 @@ author: albani
 language: Arabic
 type: "Video"
 subjects:
-  - hadith-studies
+  - political-thought
 keywords:
-  - "recording"
+  - "Silsilat al-Huda wa-l-Nur"
+  - "Ali Belhadj"
+  - "Algeria"
+  - "FIS"
 summary: "A tape of the series with Ali Belhadj."
 venue: "archive.org"
 rights: link-only

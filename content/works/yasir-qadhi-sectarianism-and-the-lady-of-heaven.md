@@ -5,9 +5,13 @@ year: 2022
 language: English
 type: "Essay"
 subjects:
+  - political-thought
   - philosophy-and-theology
 keywords:
-  - "Sectarianism and \"The Lady of Heaven\" Film"
+  - "sectarianism"
+  - "The Lady of Heaven"
+  - "Sunni-Shia relations"
+  - "Fatima"
 summary: "An essay by Yasir Qadhi on MuslimMatters."
 venue: "MuslimMatters"
 rights: link-only

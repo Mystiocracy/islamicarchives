@@ -4,6 +4,15 @@ titleOriginal: "عصر حاضر میں دین کی تفہیم و تشریح"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Abul A'la Mawdudi"
+  - "Jamaat-e-Islami"
+  - "political interpretation of Islam"
+  - "al-Tafsir al-Siyasi lil-Islam"
+  - "Sayyid Qutb"
 summary: "Interpreting religion in the present age (critique of Maududi's thought)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

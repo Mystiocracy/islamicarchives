@@ -4,11 +4,11 @@ author: ovamir-anjum
 year: 2023
 language: "English"
 type: "Video"
-subjects:
-  - education
 keywords:
   - "Islamic history"
   - "historiography"
+  - "periodisation"
+  - "Islam Through the Ages"
 venue: "Islam Through the Ages"
 summary: "Discussion of how to approach and periodise Islamic history."
 rights: link-only

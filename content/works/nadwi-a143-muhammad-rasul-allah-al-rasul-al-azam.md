@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Prophet Muhammad"
+  - "prophethood"
+  - "risala"
+  - "messengership"
+  - "final prophet"
 summary: "Muhammad the Messenger of God, the Greatest Messenger"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

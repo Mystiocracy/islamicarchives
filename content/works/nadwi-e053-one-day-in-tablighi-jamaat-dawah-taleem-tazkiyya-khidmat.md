@@ -3,8 +3,15 @@ title: "One Day in Tablighi Jamaat (Dawah, Taleem, Tazkiyya, Khidmat)"
 author: nadwi
 language: "English"
 type: "Article"
+subjects:
+  - sufism
+  - education
 keywords:
-  - "anonymous compiler"
+  - "Tablighi Jamaat"
+  - "da'wa"
+  - "ta'lim"
+  - "tazkiya"
+  - "khidmat"
 summary: "One Day in Tablighi Jamaat (Dawah, Taleem, Tazkiyya, Khidmat). Translated by anonymous compiler from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

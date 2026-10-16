@@ -5,6 +5,10 @@ author: nadwi
 year: 2002
 language: "Urdu"
 type: "Book"
+keywords:
+  - "forewords"
+  - "book introductions"
+  - "muqaddimat"
 summary: "Reviews and introductions to books"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

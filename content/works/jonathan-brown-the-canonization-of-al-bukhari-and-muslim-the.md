@@ -8,10 +8,10 @@ subjects:
   - hadith-studies
 keywords:
   - "Sahihayn"
-  - "canon"
-  - "Bukhari"
-  - "Muslim"
-  - "Brill"
+  - "Sahih al-Bukhari"
+  - "Sahih Muslim"
+  - "hadith canon"
+  - "canonization"
 summary: "Based on his doctoral dissertation, a study of how the two Sahih collections came to be treated as canonical in Sunni Islam between the tenth and fourteenth centuries and what functions that canon served."
 rights: link-only
 rightsNote: "In copyright (living author)."

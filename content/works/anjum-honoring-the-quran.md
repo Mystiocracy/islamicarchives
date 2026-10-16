@@ -7,8 +7,10 @@ type: "Essay"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
-  - "study"
+  - "Qur'an study"
+  - "Islamophobia"
+  - "Qur'an burning"
+  - "reading list"
 venue: "AlJumuah Magazine"
 summary: "Urges Muslims to answer anti-Muslim hostility by recommitting to study of the Qur'an, recommending five books."
 rights: link-only

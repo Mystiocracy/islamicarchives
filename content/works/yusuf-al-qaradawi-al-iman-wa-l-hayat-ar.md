@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "iman"
+  - "faith"
+  - "Faith and Life"
+  - "meaning of life"
 summary: "Shows the effect of faith on the believer's life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

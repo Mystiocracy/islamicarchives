@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "watan"
+  - "citizenship"
+  - "muwatana"
+  - "nationalism"
+  - "maqasid al-sharia"
+  - "non-Muslim citizens"
 summary: "Discusses homeland and citizenship from creed and sharia objectives."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,13 +5,12 @@ titleOriginal: "Muhammad : vie du prophète : les enseignements spirituels et co
 year: 2007
 language: "English"
 type: "Book"
-subjects:
-  - philosophy-and-theology
 keywords:
   - "sira"
-  - "Muhammad"
+  - "Prophet Muhammad"
+  - "Muhammad: vie du prophète"
   - "prophetic biography"
-  - "spirituality"
+  - "spiritual lessons"
 summary: "Retells the Prophet's life chronologically and draws from each episode ethical and spiritual lessons on faith, trust, tolerance and justice, intended as a reading of the sira for Muslims and non-Muslims today."
 venue: "Oxford University Press (US 2007); UK ed. as The Messenger, Allen Lane 2007; French original Presses du Châtelet 2006"
 rights: link-only

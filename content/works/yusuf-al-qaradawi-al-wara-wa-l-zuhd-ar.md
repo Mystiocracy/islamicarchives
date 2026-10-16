@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "wara"
+  - "zuhd"
+  - "asceticism"
+  - "scrupulousness"
 summary: "Short treatise on scrupulousness and asceticism."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

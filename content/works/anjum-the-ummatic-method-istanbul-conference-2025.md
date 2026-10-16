@@ -7,8 +7,10 @@ type: "Video"
 subjects:
   - political-thought
 keywords:
+  - "ummatic method"
   - "ummatics"
-  - "method"
+  - "Istanbul"
+  - "Muslim unity"
 venue: "Ummatics Istanbul Conference 2025"
 summary: "Conference address presenting the 'ummatic method'."
 rights: link-only

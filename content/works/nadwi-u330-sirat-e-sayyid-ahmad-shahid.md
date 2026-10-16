@@ -6,7 +6,14 @@ year: 1939
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
+  - sufism
+  - political-thought
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "Mujahidin movement"
+  - "Balakot"
+  - "Shah Ismail Shahid"
+  - "Sikhs"
 summary: "Biography of Sayyid Ahmad Shahid 2 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

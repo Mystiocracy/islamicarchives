@@ -8,7 +8,7 @@ subjects:
 keywords:
   - "Gambia"
   - "West Africa"
-  - "television interview"
+  - "Gambian TV"
 summary: "A television interview recorded for Gambian TV, uploaded to a Vimeo group."
 venue: "Gambian TV, via Vimeo"
 rights: link-only

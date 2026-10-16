@@ -6,10 +6,14 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - hadith-studies
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "Zaynab bint Jahsh"
+  - "Zayd ibn Haritha"
+  - "Prophet's marriages"
+  - "adoption"
+  - "sira"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

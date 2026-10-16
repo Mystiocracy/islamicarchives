@@ -4,11 +4,15 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "conversion"
+  - "conversion to Islam"
+  - "How I Discovered the Holy Quran"
+  - "Prophet Muhammad"
+  - "Judaism"
+venue: "Mohammad Yusuf Khan"
 summary: "Her own account of her conversion, with \"How I Discovered the Holy Quran\" and \"The Holy Prophet and His Impact on my Life\"."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Internet Archive"

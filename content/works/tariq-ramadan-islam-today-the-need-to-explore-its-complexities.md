@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "media"
   - "representation"
-  - "Islam"
+  - "diversity of Islam"
   - "journalism"
+  - "moderate Muslims"
 summary: "Ramadan says media sort Muslims into simple moderate-or-dangerous boxes, and urges journalists and scholars to study Islam's theological, historical and national diversity before judging it."
 venue: "Nieman Reports, 15 June 2007"
 rights: link-only

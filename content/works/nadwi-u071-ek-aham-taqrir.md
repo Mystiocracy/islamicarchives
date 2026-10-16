@@ -4,6 +4,9 @@ titleOriginal: "ایک اہم تقریر"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "An Important Speech"
+  - "ایک اہم تقریر"
 summary: "An important speech"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

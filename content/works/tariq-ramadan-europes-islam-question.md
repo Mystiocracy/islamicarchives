@@ -5,12 +5,13 @@ year: 2008
 language: "English"
 type: "Article"
 subjects:
-  - family-and-society
+  - islam-and-modernity
 keywords:
   - "Europe"
-  - "Muslims"
   - "integration"
   - "Islamophobia"
+  - "unemployment"
+  - "exclusion"
 summary: "Ramadan contends that Europe's large Muslim population worries officials and publics, who wrongly blame culture and religion for unemployment, violence and exclusion that are really social and economic problems."
 venue: "Project Syndicate, 3 December 2008"
 rights: link-only

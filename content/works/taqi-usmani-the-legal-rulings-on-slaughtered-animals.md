@@ -5,6 +5,12 @@ language: "English"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "halal slaughter"
+  - "dhabiha"
+  - "machine slaughter"
+  - "imported meat"
+  - "Ahkam al-Dhaba'ih"
 summary: "A fiqh study of halal slaughter, including modern methods and imported meat."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -8,8 +8,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
-  - "al-Khilafa"
+  - "al-Khilafa aw al-Imama al-Uzma"
   - "caliphate"
+  - "abolition of the Ottoman sultanate"
   - "Kemalist Turkey"
   - "Islamic state"
 summary: "A treatise written as the Ottoman sultanate was abolished, setting out the legal theory of the caliphate and proposing its revival through a reformed, consultative Islamic government."

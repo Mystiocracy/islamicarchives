@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "names of Allah"
+  - "asma al-husna"
+  - "divine attributes"
 summary: "Study of God's beautiful names and their meanings."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

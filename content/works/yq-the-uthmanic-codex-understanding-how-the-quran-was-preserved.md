@@ -6,10 +6,14 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Uthmanic codex"
+  - "mushaf"
+  - "Qur'an preservation"
+  - "Uthman ibn Affan"
+  - "compilation of the Qur'an"
+  - "manuscripts"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

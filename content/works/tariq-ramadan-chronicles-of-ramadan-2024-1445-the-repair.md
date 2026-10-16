@@ -5,12 +5,12 @@ year: 2024
 language: "English"
 type: "Video"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Ramadan"
+  - "month of Ramadan"
   - "repair"
+  - "self-reform"
   - "spirituality"
-  - "daily series"
 summary: "Daily Ramadan reflections for 2024 organised around the theme of repair, apparently addressing the mending of the self, relationships and society through spiritual and ethical practice across thirty-one videos."
 venue: "Tariq Ramadan Official"
 rights: link-only

@@ -4,9 +4,15 @@ author: nadwi
 year: 1974
 language: "English"
 type: "Pamphlet"
+subjects:
+  - islamic-law
+  - sufism
 keywords:
-  - "Al-Arkan al-Arba'a (Hajj section)"
-  - "Mohammad Asif Kidwai"
+  - "Hajj"
+  - "pilgrimage"
+  - "al-Arkan al-Arba'a"
+  - "Four Pillars of Islam"
+  - "Mecca"
 summary: "The Haj. Translated by Mohammad Asif Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

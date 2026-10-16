@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "ta'dib"
   - "adab"
-  - "university"
-  - "Islamic education"
+  - "Islamic university"
+  - "philosophy of education"
 summary: "Argues that the Islamic concept of education is best expressed by taʾdīb, the inculcation of adab, and outlines the implications for the structure of a Muslim university."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

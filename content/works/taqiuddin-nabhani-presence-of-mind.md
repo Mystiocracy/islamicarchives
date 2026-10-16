@@ -7,6 +7,12 @@ language: "English"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Sur'at al-Badiha"
+  - "quick-wittedness"
+  - "thinking"
+  - "debate"
+  - "Hizb ut-Tahrir"
 summary: "English translation of Surʿat al-Badiha."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

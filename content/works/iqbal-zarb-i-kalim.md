@@ -13,6 +13,7 @@ keywords:
   - "The Rod of Moses"
   - "Declaration of War against the Present Age"
   - "Urdu poetry"
+  - "women"
 summary: "Short Urdu poems, subtitled a declaration of war against the present age, commenting on religion, education, women, politics and art."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

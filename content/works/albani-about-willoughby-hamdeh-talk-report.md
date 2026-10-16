@@ -7,8 +7,12 @@ language: English
 type: "Article"
 subjects:
   - hadith-studies
+  - islamic-law
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "traditionalism"
+  - "madhhab"
+  - "Syria"
 summary: "A study or biography of al-Albānī."
 venue: "American Journal of Islamic Social Sciences 32, no. 2, pp. 156–159"
 rights: link-only

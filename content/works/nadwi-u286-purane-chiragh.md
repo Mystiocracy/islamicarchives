@@ -4,6 +4,14 @@ titleOriginal: "پرانے چراغ"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - education
+  - sufism
+keywords:
+  - "biographical sketches"
+  - "contemporaries"
+  - "ulama"
+  - "Indian scholars"
 summary: "Old lamps (biographical sketches of contemporaries) 3 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

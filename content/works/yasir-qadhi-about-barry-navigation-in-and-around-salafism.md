@@ -5,10 +5,12 @@ byline: "Yahya Barry"
 language: English
 type: "Paper"
 subjects:
+  - islam-and-modernity
   - philosophy-and-theology
 keywords:
   - "Salafism"
-  - "discourse analysis"
+  - "critical discourse analysis"
+  - "Salafi responses"
 summary: "Conference slides using critical discourse analysis on his critiques of Salafism and the Salafi responses."
 venue: "Academia.edu"
 rights: link-only

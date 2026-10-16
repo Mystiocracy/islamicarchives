@@ -4,9 +4,12 @@ author: albani
 language: Arabic
 type: "Video"
 subjects:
-  - hadith-studies
+  - political-thought
 keywords:
-  - "recording"
+  - "Ali Belhadj"
+  - "Algeria"
+  - "FIS"
+  - "Islamic Salvation Front"
 summary: "An archival dialogue with the Algerian Ali Belhadj."
 venue: "YouTube"
 rights: link-only

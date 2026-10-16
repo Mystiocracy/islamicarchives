@@ -6,9 +6,14 @@ language: "English"
 type: "Article"
 subjects:
   - psychology-and-mental-health
+  - philosophy-and-theology
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "earthquake"
+  - "Turkey"
+  - "Syria"
+  - "tragedy"
+  - "divine mercy"
+  - "theodicy"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

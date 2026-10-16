@@ -4,9 +4,12 @@ author: yasir-qadhi
 language: English
 type: "Video"
 subjects:
-  - education
+  - philosophy-and-theology
 keywords:
   - "Jannah"
+  - "Paradise"
+  - "afterlife"
+  - "akhira"
 summary: "A series on the Qur'an and Sunna's descriptions of Paradise."
 venue: "Yasir Qadhi"
 rights: link-only

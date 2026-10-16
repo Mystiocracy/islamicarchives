@@ -4,6 +4,9 @@ titleOriginal: "زندگی گزارنے ک بہترین دستورعمل"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "akhlaq"
+  - "Islamic way of life"
 summary: "The best rule for living"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

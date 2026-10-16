@@ -10,7 +10,8 @@ keywords:
   - "Mulla Sadra"
   - "Sadr al-Din al-Shirazi"
   - "existence"
-  - "SUNY Press"
+  - "substantial motion"
+  - "Safavid philosophy"
 summary: "A systematic exposition of the metaphysics of the Safavid philosopher Mulla Sadra, especially his doctrines of existence and substantial motion."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

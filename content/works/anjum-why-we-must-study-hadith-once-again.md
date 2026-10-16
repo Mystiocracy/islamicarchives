@@ -9,6 +9,8 @@ subjects:
 keywords:
   - "hadith"
   - "Sunnah"
+  - "hadith authority"
+  - "Prophet Muhammad"
 venue: "AlJumuah Magazine"
 summary: "Calls on Muslims to study hadith anew to defend the Prophet's teachings and understand the Qur'an in context."
 rights: link-only

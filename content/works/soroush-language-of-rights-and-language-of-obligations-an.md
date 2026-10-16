@@ -6,11 +6,12 @@ type: "Speech"
 subjects:
   - islamic-law
   - political-thought
+  - islam-and-modernity
 keywords:
   - "human rights"
   - "duties"
   - "fiqh"
-  - "modernity"
+  - "rights discourse"
 summary: "A lecture contrasting the duty-based language of traditional jurisprudence with the rights-based language of modern political thought."
 rights: link-only
 rightsNote: "In copyright (living author)."

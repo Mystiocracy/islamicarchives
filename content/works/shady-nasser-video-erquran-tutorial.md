@@ -7,7 +7,9 @@ subjects:
   - quranic-studies
 keywords:
   - "erquran"
-  - "tutorial"
+  - "variant readings"
+  - "qira'at"
+  - "database"
 summary: "A tutorial for the Encyclopedia of Variant Readings site, linked from his Harvard page."
 rights: link-only
 rightsNote: "Recorded lecture or talk; linked, not hosted."

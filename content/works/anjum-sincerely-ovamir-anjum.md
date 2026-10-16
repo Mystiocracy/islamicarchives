@@ -4,11 +4,10 @@ author: ovamir-anjum
 year: 2022
 language: "English"
 type: "Video"
-subjects:
-  - family-and-society
 keywords:
-  - "reflection"
-  - "personal"
+  - "Yaqeen Institute"
+  - "Sincerely Yours"
+  - "personal letter"
 venue: "Yaqeen Institute (Sincerely Yours series)"
 summary: "A personal video letter in Yaqeen's 'Sincerely Yours' series."
 rights: link-only

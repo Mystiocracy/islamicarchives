@@ -6,12 +6,13 @@ language: "Persian"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - sufism
+  - political-thought
 keywords:
   - "Wala'ha va welayat-ha"
-  - "wilayah"
+  - "wilaya"
   - "Imamate"
   - "Shi'i doctrine"
+  - "authority"
 summary: "Distinguishes the several Qur'anic and Shi'i senses of wilāya, from love and loyalty to spiritual and political authority."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

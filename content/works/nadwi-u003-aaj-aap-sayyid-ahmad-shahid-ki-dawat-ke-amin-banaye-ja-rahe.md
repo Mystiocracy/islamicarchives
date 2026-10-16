@@ -4,6 +4,14 @@ titleOriginal: "آج آپ سید احمد شہیدکی دعوت کے امین ب
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - sufism
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "da'wa"
+  - "tajdid"
+  - "Rae Bareli"
 summary: "Today you are made trustees of Sayyid Ahmad Shahid's call"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

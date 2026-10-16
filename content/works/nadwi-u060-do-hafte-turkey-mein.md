@@ -4,6 +4,12 @@ titleOriginal: "دو ہفتے ترکی میں"
 author: nadwi
 language: "Urdu"
 type: "Book"
+keywords:
+  - "Turkey"
+  - "Istanbul"
+  - "Ottoman"
+  - "Ataturk"
+  - "secularism"
 summary: "Two weeks in Turkey (travelogue)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

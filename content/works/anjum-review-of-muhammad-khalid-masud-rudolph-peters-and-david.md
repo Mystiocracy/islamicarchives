@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "qadis"
   - "courts"
-  - "book review"
+  - "Dispensing Justice in Islam"
+  - "judicial practice"
 venue: "Ilahiyat Studies 5, no. 2: 261-264"
 summary: "Book review of an edited volume on Muslim judges and court practice."
 rights: link-only

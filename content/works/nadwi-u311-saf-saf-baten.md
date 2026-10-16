@@ -5,6 +5,11 @@ author: nadwi
 year: 1978
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "plain talk"
+  - "the West"
 summary: "Plain talk"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

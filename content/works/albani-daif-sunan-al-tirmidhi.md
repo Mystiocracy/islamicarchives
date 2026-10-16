@@ -7,8 +7,9 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ḍaʿīf Sunan al-Tirmidhī"
-  - "Albani"
+  - "Sunan al-Tirmidhi"
+  - "weak hadith"
+  - "da'if"
 summary: "His list of the weak hadith in al-Tirmidhī's *Sunan*; a combined reader is at https://ketabonline.com/ar/books/205."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

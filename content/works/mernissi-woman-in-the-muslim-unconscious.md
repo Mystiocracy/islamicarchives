@@ -8,10 +8,10 @@ type: "Book"
 subjects:
   - women-and-gender
 keywords:
-  - "Fatna A. Sabbah"
-  - "pseudonym"
+  - "La Femme dans l'inconscient musulman"
   - "erotic literature"
   - "religious discourse"
+  - "sexuality"
 summary: "Published under the pseudonym Fatna Aït Sabbah, it analyses images of women in classical erotic and religious-legal writing."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

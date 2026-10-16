@@ -7,10 +7,10 @@ type: "Translation"
 subjects:
   - quranic-studies
 keywords:
+  - "Qur'an translation"
   - "French Qur'an translation"
-  - "Michel Léturmy"
-  - "commentary"
   - "Le Coran"
+  - "Michel Léturmy"
 summary: "His French translation of the Qur'an with commentary, prepared with Michel Léturmy, the first French rendering by a Muslim and frequently reprinted."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

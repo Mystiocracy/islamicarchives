@@ -6,9 +6,13 @@ year: 2009
 language: English
 type: "Chapter"
 subjects:
+  - political-thought
   - hadith-studies
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "quietism"
+  - "Stéphane Lacroix"
+  - "apoliticism"
 summary: "A study or biography of al-Albānī."
 venue: "In Global Salafism, ed. Roel Meijer (Hurst/OUP), pp. 58–80"
 rights: link-only

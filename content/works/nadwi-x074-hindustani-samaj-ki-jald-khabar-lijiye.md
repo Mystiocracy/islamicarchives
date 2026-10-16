@@ -5,7 +5,12 @@ author: nadwi
 language: "Hindi"
 type: "Speech"
 subjects:
+  - family-and-society
   - political-thought
+keywords:
+  - "India"
+  - "Indian society"
+  - "Payam-e-Insaniyat"
 summary: "Attend quickly to Indian society. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

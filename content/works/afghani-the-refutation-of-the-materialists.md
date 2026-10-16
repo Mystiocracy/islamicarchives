@@ -13,7 +13,7 @@ keywords:
   - "Haqiqat-i madhhab-i nichari"
   - "naturalists"
   - "Sayyid Ahmad Khan"
-  - "Muhammad Abduh (Arabic translator)"
+  - "materialism"
 summary: "A polemic against materialism and the 'naturalist' (nēcharī) thinkers of British India, arguing that religion is the foundation of social and moral order."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1897); later translations may still be in copyright."

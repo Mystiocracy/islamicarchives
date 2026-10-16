@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "Genius of Islam"
   - "introduction to Islam"
-  - "course"
-  - "civilisation"
+  - "sources"
+  - "Islamic civilisation"
 summary: "Eight public lessons offering a contemporary introduction to Islam, from foundations and sources through history and civilisation, delivered as Ramadan's popular course and archived in sequence."
 venue: "Tariq Ramadan Official (CHIFA public course)"
 rights: link-only

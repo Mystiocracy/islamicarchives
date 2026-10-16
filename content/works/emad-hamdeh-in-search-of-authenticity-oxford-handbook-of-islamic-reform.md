@@ -7,7 +7,10 @@ subjects:
   - hadith-studies
   - islam-and-modernity
 keywords:
-  - "In Search of Authenticity"
+  - "hadith authenticity"
+  - "modern reformers"
+  - "Islamic reform"
+  - "Oxford Handbook of Islamic Reform"
 summary: "A chapter on how modern reformers approach hadith."
 venue: "The Oxford Handbook of Islamic Reform"
 rights: link-only

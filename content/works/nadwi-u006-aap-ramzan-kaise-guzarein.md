@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
+keywords:
+  - "Ramadan"
+  - "fasting"
+  - "sawm"
+  - "tarawih"
 summary: "How should you spend Ramadan"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

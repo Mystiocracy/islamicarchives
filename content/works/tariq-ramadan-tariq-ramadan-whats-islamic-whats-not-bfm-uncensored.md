@@ -8,8 +8,8 @@ subjects:
 keywords:
   - "BFM"
   - "Malaysia"
-  - "culture"
-  - "Islam"
+  - "religion and culture"
+  - "custom"
 summary: "Brief Malaysian business-radio interview, titled 'What's Islamic, What's Not?', in which Ramadan addresses where religious norms end and cultural custom begins, judging by the title."
 venue: "BFM 89.9 (Malaysia)"
 rights: link-only

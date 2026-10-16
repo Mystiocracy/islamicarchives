@@ -6,6 +6,11 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "taqlid"
+  - "Taqleed ki Shari Haisiyat"
+  - "madhhab"
+  - "ijtihad"
 summary: "English edition of his work on taqlid."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

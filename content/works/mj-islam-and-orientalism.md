@@ -4,11 +4,16 @@ author: maryam-jameelah
 year: 1971
 language: English
 type: "Book"
-venue: "Mohammad Yusuf Khan"
 subjects:
+  - colonialism-and-decolonisation
   - islam-and-modernity
 keywords:
-  - "orientalism"
+  - "Orientalism"
+  - "Philip Hitti"
+  - "Kenneth Cragg"
+  - "S. D. Goitein"
+  - "Wilfred Cantwell Smith"
+venue: "Mohammad Yusuf Khan"
 summary: "Six essays criticizing Philip Hitti, Kenneth Cragg, S. D. Goitein, Wilfred Cantwell Smith and others."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

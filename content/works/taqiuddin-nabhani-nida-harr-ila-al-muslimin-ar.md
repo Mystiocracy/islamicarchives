@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "A Warm Call to the Muslims"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "khilafa"
 summary: "The Party’s 1965 appeal to Muslims on the need to establish the caliphate."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

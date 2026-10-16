@@ -10,9 +10,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Aperçus sur l'ésotérisme islamique et le taoïsme"
-  - "tasawwuf"
   - "Islamic esoterism"
-  - "al-faqr"
+  - "Taoism"
+  - "faqr"
   - "tawhid"
 summary: "A posthumous collection of Guénon's essays on Islamic esoterism, including pieces on Sufism, the Arabic language, divine unity and spiritual poverty, together with essays on Taoism."
 rights: link-only

@@ -11,6 +11,7 @@ keywords:
   - "Studia Islamica"
   - "Ibn Taymiyya"
   - "gharaniq"
+  - "Satanic verses"
   - "prophetic infallibility"
 summary: "Studia Islamica article showing that Ibn Taymiyya accepted the historicity of the Satanic verses incident and explaining how this fitted his theology of prophethood."
 rights: link-only

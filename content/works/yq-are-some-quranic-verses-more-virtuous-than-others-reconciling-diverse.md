@@ -6,10 +6,12 @@ year: 2024
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "virtues of the Qur'an"
+  - "Ayat al-Kursi"
+  - "Surat al-Ikhlas"
+  - "fada'il al-Qur'an"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

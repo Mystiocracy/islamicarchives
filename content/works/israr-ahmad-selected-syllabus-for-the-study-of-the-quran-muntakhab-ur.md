@@ -6,10 +6,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - quranic-studies
-  - education
 keywords:
   - "Muntakhab Nisab"
-  - "syllabus"
+  - "Mutala-e-Quran-e-Hakeem ka Muntakhab Nisab"
+  - "Qur'an syllabus"
   - "study circles"
 summary: "Introduces his graded selection of Qur'anic passages designed as a complete course in the religious obligations of a Muslim."
 rights: link-only

@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "flexibility of sharia"
+  - "ijtihad"
+  - "maslaha"
+  - "ease"
 summary: "Identifies the features that give Islamic law breadth and flexibility."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

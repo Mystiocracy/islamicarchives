@@ -6,12 +6,12 @@ year: 2026
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "dua"
+  - "etiquette of dua"
+  - "adab"
+  - "supplication"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

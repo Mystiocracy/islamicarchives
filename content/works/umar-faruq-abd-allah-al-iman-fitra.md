@@ -9,10 +9,11 @@ subjects:
   - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "fiṭra"
-  - "faith"
-  - "theology"
+  - "fitra"
+  - "al-Iman fitra"
+  - "innate faith"
   - "primordial nature"
+  - "fitra hadith"
 summary: "His major Arabic-language treatise on the doctrine of fiṭra, the innate inclination to belief named in the hadith that every child is born upon the natural disposition."
 venue: "Dār al-Faqīh, Jeddah"
 rights: link-only

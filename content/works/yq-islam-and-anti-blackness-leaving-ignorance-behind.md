@@ -4,10 +4,13 @@ author: jonathan-brown
 year: 2021
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - slavery-and-race
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "anti-Blackness"
+  - "racism"
+  - "Black Muslims"
+  - "Bilal"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -6,12 +6,14 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - quranic-studies
   - political-thought
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Surat al-Buruj"
+  - "genocide"
+  - "injustice"
+  - "People of the Ditch"
+  - "ashab al-ukhdud"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

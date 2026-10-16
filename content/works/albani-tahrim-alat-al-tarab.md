@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - islamic-law
 keywords:
-  - "The Prohibition of Musical Instruments"
+  - "Tahrim alat al-tarab"
+  - "music"
+  - "musical instruments"
+  - "singing"
 summary: "On the prohibition of musical instruments."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

@@ -6,6 +6,11 @@ language: "Indonesian"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunnah"
+  - "Kayfa Nata'amal ma'a al-Sunna al-Nabawiyya"
+  - "hadith interpretation"
+  - "fiqh al-hadith"
 summary: "Guide to understanding and applying the Prophet's Sunnah."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

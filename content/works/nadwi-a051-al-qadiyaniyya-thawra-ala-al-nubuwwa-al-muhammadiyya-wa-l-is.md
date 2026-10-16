@@ -5,7 +5,12 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "finality of prophethood"
 summary: "Qadianism: A Revolt against Muhammad's Prophethood and Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

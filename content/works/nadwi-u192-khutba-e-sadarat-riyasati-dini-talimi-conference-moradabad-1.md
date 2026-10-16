@@ -5,6 +5,12 @@ author: nadwi
 year: 1969
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Moradabad"
 summary: "Presidential address, Moradabad (14-15 June 1969)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

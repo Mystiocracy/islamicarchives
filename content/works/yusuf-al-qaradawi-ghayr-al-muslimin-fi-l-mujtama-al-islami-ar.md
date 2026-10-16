@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "non-Muslims"
+  - "dhimmi"
+  - "religious minorities"
+  - "Non-Muslims in Islamic Society"
+  - "jizya"
 summary: "Sets out the rights and duties of non-Muslims in an Islamic society."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

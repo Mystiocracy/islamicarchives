@@ -5,9 +5,12 @@ author: nadwi
 year: 1999
 language: "Persian"
 type: "Speech"
+subjects:
+  - education
 keywords:
-  - "probably Pa Ja Suragh-e-Zindagi (talks to students)"
-  - "Muhammad Qasim Qasimi"
+  - "students"
+  - "Pa Ja Suragh-e-Zindagi"
+  - "madrasa students"
 summary: "Find yourselves (addresses to students). Translated by Muhammad Qasim Qasimi."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -4,6 +4,12 @@ titleOriginal: "تذکرہ حضرت شیخ عبد القادر جیلانیؒ �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "Abdul Qadir Jilani"
+  - "Qadiriyya"
+  - "Baghdad"
 summary: "Life and work of Shaikh Abdul Qadir Jilani"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

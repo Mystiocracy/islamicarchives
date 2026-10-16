@@ -4,9 +4,13 @@ author: maryam-jameelah
 year: 1979
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+keywords:
+  - "modern crisis"
+  - "Islamic revival"
+  - "A Manifesto of the Islamic Movement"
+venue: "Mohammad Yusuf Khan"
 summary: "Islam as the remedy for the crisis of the contemporary world."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

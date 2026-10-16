@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "religion and politics"
+  - "secularism"
+  - "Islamic state"
+  - "din wa dawla"
 summary: "Establishes the link between religion and politics and answers objections."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

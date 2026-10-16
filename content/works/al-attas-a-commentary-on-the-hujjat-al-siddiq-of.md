@@ -8,10 +8,11 @@ subjects:
   - sufism
   - philosophy-and-theology
 keywords:
-  - "al-Raniri"
+  - "Nur al-Din al-Raniri"
   - "Hujjat al-Siddiq"
   - "Malay manuscript"
   - "wujudiyyah"
+  - "existence"
 summary: "An edition, translation and philosophical commentary on a Malay treatise by al-Rānīrī setting out the positions of theologians, philosophers and Sufis on the nature of existence."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

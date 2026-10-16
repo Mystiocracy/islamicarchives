@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "Modara va modiriyat"
   - "religious democracy"
-  - "pluralism"
+  - "tolerance"
+  - "clerical authority"
   - "human rights"
 summary: "Essays on religious democracy, tolerance and the limits of clerical authority."
 rights: link-only

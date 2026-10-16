@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+  - family-and-society
+keywords:
+  - "charity"
+  - "charitable work"
+  - "waqf"
+  - "sadaqa"
+  - "maqasid al-sharia"
 summary: "Sets out foundations of organised charitable work in Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -7,9 +7,12 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - philosophy-and-theology
-  - islamic-law
+  - islam-and-modernity
 keywords:
+  - "Mafahim yanbaghi an tusahhah"
   - "tawhid"
+  - "worship"
+  - "la ilaha illa Allah"
   - "concepts"
 venue: "Risale Yayınları / Bilimevi, Istanbul"
 summary: "Turkish translation of Mafahim yanbaghi an tusahhah."

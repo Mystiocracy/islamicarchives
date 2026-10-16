@@ -6,11 +6,14 @@ year: 2026
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - education
   - islamic-law
 keywords:
-  - "Islamic Ethics"
-  - "Jurisprudence (fiqh)"
+  - "Taj al-Din al-Subki"
+  - "scholarly ethics"
+  - "debate"
+  - "disagreement"
+  - "adab"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

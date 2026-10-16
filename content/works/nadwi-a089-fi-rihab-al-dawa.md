@@ -4,6 +4,11 @@ titleOriginal: "في رحاب الدعوة"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "In the Courtyards of Da'wa"
+  - "da'wa"
 summary: "In the Courtyards of Daʿwa"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

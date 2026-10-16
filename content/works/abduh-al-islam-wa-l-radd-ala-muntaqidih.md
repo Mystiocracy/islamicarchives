@@ -11,7 +11,7 @@ keywords:
   - "Gabriel Hanotaux"
   - "reply to critics"
   - "apologetics"
-  - "al-Muayyad articles"
+  - "al-Muayyad"
 summary: "Collected articles answering European critics of Islam, above all the French statesman Gabriel Hanotaux."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1905); later translations may still be in copyright."

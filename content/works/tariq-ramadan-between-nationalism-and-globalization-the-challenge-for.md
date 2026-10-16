@@ -6,6 +6,7 @@ language: "English"
 type: "Video"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
   - "nationalism"
   - "globalization"

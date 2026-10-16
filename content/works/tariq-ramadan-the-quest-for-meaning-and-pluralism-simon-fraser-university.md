@@ -5,10 +5,11 @@ language: "English"
 type: "Video"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
   - "meaning"
   - "pluralism"
-  - "SFU"
+  - "Simon Fraser University"
   - "Vancouver"
 summary: "Lecture to a packed Vancouver theatre on the search for meaning in modern life and on pluralism as a framework for living with deep religious difference."
 venue: "Simon Fraser University"

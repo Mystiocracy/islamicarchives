@@ -5,7 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
+  - political-thought
   - philosophy-and-theology
+keywords:
+  - "Payam-e-Insaniyat"
+  - "da'wa"
+  - "iman"
+  - "humanity"
+  - "India"
 summary: "The call of faith and the message of humanity"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -7,7 +7,6 @@ language: "Persian"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - sufism
 keywords:
   - "Jazebe va dafe'e-ye Ali"
   - "Imam Ali"

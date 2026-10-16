@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "art"
+  - "music"
+  - "singing"
+  - "entertainment"
+  - "Islam and Art"
 summary: "Discusses Islamic rulings on art, music, singing and entertainment."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

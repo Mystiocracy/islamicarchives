@@ -5,6 +5,14 @@ author: nadwi
 year: 1990
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Arabs"
+  - "Arab nationalism"
+  - "Arab leadership"
+  - "Islamic revival"
 summary: "How the Arabs Can Regain and Keep Their Rightful Place"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

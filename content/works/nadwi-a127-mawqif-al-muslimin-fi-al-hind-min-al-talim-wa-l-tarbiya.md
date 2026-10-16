@@ -7,7 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
-  - political-thought
+keywords:
+  - "Indian Muslims"
+  - "India"
+  - "Islamic history"
+  - "tarbiya"
+  - "madrasa"
 summary: "Indian Muslims' Attitude to Education and Their Contribution to Islamic History"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

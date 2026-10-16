@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "niyya"
+  - "intention"
+  - "ikhlas"
+  - "sincerity"
 summary: "Short treatise on intention and sincerity."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

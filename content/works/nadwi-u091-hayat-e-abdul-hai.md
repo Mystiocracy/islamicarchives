@@ -5,6 +5,13 @@ author: nadwi
 year: 1970
 language: "Urdu"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "Hakim Sayyid Abdul Hai"
+  - "Nadwat al-Ulama"
+  - "Nuzhat al-Khawatir"
+  - "biography"
 summary: "Life of Hakim Sayyid Abdul Hai (his father)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

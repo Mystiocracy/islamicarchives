@@ -7,8 +7,11 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Islam ke Teen Buniyadi 'Aqaid (Ur.)"
-  - "Iqbal Ahmad"
+  - "tawhid"
+  - "risala"
+  - "akhira"
+  - "aqida"
+  - "Islam ke Teen Buniyadi 'Aqaid"
 summary: "The Fundamental Trio of Articles of Faith in Islam: Tawheed, Risalat, Akhirat. Translated by Iqbal Ahmad from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

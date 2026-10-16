@@ -5,6 +5,13 @@ author: nadwi
 year: 1951
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Between the World and the Arabian Peninsula"
+  - "Arabian Peninsula"
+  - "Arabs"
+  - "world leadership"
 summary: "Between the World and the Arabian Peninsula"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

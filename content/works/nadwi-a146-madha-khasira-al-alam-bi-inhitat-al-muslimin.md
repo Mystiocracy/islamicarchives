@@ -6,7 +6,15 @@ year: 1950
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Muslim decline"
+  - "Islam and the World"
+  - "What the World Lost by the Decline of Muslims"
+  - "Western civilisation"
+  - "jahiliyya"
+  - "Sayyid Qutb"
 summary: "What the World Lost by the Decline of Muslims (Islam and the World)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

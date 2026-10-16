@@ -5,11 +5,13 @@ year: 2025
 language: English
 type: "Video"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+  - islamic-law
 keywords:
   - "Salafism"
-  - "interview"
-  - "Qadhi"
+  - "Yasir Qadhi"
+  - "Albani"
+  - "madhhab"
 summary: "A conversation on Salafism with Yasir Qadhi on Hamdeh's own channel."
 venue: "YouTube (Emad Hamdeh)"
 rights: link-only

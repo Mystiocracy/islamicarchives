@@ -9,8 +9,11 @@ subjects:
   - philosophy-and-theology
   - political-thought
 keywords:
-  - "Epistemology"
-  - "Politics & Practical Theology"
+  - "human freedom"
+  - "human dignity"
+  - "karama"
+  - "Adam"
+  - "liberty"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

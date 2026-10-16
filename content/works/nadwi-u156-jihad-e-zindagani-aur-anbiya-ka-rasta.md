@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - quranic-studies
+  - sufism
+keywords:
+  - "struggle"
+  - "path of the prophets"
+  - "prophets"
+  - "da'wa"
 summary: "Life's struggle and the path of the prophets"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

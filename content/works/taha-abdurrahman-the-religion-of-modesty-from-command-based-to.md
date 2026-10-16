@@ -11,9 +11,9 @@ subjects:
 keywords:
   - "Din al-haya'"
   - "fiduciary jurisprudence"
+  - "haya'"
   - "media revolution"
   - "hijab"
-  - "three volumes"
 summary: "A three-volume work proposing a jurisprudence grounded in trust and modesty, applied to the ethics of the media age and to the meaning of veiling."
 rights: link-only
 rightsNote: "In copyright (living author)."

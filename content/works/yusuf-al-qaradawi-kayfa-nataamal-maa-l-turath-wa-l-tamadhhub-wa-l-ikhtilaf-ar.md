@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "turath"
+  - "madhhab"
+  - "tamadhhub"
+  - "ikhtilaf"
+  - "disagreement"
 summary: "Offers principles for approaching the inherited tradition, school loyalty and disagreement."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

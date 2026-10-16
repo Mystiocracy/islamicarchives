@@ -8,8 +8,12 @@ type: "Paper"
 subjects:
   - political-thought
 keywords:
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Uyghurs"
+  - "Xinjiang"
+  - "China"
+  - "ummah"
+  - "solidarity"
+  - "persecution"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

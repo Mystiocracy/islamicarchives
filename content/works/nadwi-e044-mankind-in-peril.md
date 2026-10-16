@@ -4,6 +4,14 @@ author: nadwi
 year: 1982
 language: "English"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "humanity"
+  - "materialism"
+  - "Sri Lanka"
+  - "modern civilisation"
+  - "The New Menace and Its Answer"
 summary: "Mankind in Peril. Translated from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -4,6 +4,13 @@ titleOriginal: "غارِ حرا سے طلوع ہونے والا آفتاب"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Cave of Hira"
+  - "revelation"
+  - "Prophet Muhammad"
+  - "sira"
 summary: "The sun that rose from the cave of Hira"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+  - family-and-society
+keywords:
+  - "status of women"
+  - "women's rights"
+  - "duties of women"
 summary: "Status, rights and duties of women in Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,6 +6,12 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - education
+  - political-thought
+keywords:
+  - "Al-Tarbiya al-Islamiyya wa-Madrasat Hasan al-Banna"
+  - "Hasan al-Banna"
+  - "tarbiya"
+  - "Muslim Brotherhood"
 summary: "On Islamic upbringing and the school of Hasan al-Banna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

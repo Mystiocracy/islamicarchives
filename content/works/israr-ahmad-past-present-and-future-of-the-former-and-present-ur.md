@@ -5,13 +5,14 @@ titleOriginal: "سابقہ اور موجودہ مسلمان امتوں کا ما
 language: "Urdu"
 type: "Book"
 subjects:
-  - political-thought
   - quranic-studies
+  - political-thought
 keywords:
   - "Bani Israel"
-  - "ummah"
-  - "history"
+  - "Children of Israel"
+  - "Ummah"
   - "eschatology"
+  - "rise and decline"
 summary: "Draws parallels between the history of the Children of Israel and that of the Muslim community, with predictions about the future."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

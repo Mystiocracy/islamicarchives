@@ -6,10 +6,12 @@ year: 2022
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "istighfar"
+  - "tawba"
+  - "repentance"
+  - "forgiveness"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -7,6 +7,11 @@ type: "Paper"
 subjects:
   - islam-and-modernity
   - philosophy-and-theology
+keywords:
+  - "anthropology of Islam"
+  - "discursive tradition"
+  - "orthodoxy"
+  - "Ernest Gellner"
 summary: "Argues that Islam is best approached as a discursive tradition tied to founding texts and continuing practice, not as a unified social structure or a set of local variants."
 venue: "Georgetown University Center for Contemporary Arab Studies, Occasional Papers Series, March 1986"
 rights: link-only

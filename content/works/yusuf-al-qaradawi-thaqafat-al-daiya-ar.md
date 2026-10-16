@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - education
+keywords:
+  - "dawa"
+  - "da'i"
+  - "preacher"
+  - "Islamic knowledge"
 summary: "Describes the knowledge and formation a preacher needs."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,6 +5,13 @@ author: nadwi
 year: 1977
 language: "Urdu"
 type: "Book"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "America"
+  - "the West"
+  - "Muslims in America"
+  - "American Muslims"
 summary: "Plain talk in the New World (America)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

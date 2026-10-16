@@ -5,6 +5,14 @@ author: nadwi
 year: 1979
 language: "Arabic"
 type: "Book"
+subjects:
+  - political-thought
+keywords:
+  - "Hijaz"
+  - "Arabian Peninsula"
+  - "Saudi Arabia"
+  - "Mecca"
+  - "Medina"
 summary: "How Muslims Regard the Hijaz and the Arabian Peninsula"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

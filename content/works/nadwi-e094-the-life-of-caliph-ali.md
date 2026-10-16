@@ -7,8 +7,11 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
-  - "Al-Murtada (Ar.) / Al-Murtaza (Ur.)"
-  - "S. Mohiuddin Ahmad"
+  - "Ali ibn Abi Talib"
+  - "al-Murtada"
+  - "caliphate"
+  - "Rightly Guided Caliphs"
+  - "Ahl al-Bayt"
 summary: "The Life of Caliph Ali. Translated by S. Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -8,6 +8,7 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Bahth hawl al-Mahdi"
+  - "Mahdi"
   - "Twelfth Imam"
   - "occultation"
   - "messianism"

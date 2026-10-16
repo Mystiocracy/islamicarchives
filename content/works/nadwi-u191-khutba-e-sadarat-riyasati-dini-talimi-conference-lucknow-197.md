@@ -5,6 +5,12 @@ author: nadwi
 year: 1975
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Lucknow"
 summary: "Presidential address, Lucknow (22-23 June 1975)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

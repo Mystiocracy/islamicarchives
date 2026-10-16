@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic civilisation"
+  - "contribution of Islam"
+  - "humanity"
 summary: "Islam: Its Impact on Civilisation and Its Gift to Humanity"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

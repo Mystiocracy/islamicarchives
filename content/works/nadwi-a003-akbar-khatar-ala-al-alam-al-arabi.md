@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "The Greatest Danger to the Arab World"
+  - "Arab world"
+  - "Arab nationalism"
+  - "secularism"
 summary: "The Greatest Danger to the Arab World: Plots to Sever the Arabs from Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

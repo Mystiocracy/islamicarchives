@@ -8,9 +8,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Qur'an"
-  - "unseen"
-  - "Mormons and Muslims"
-  - "metaphysics"
+  - "the unseen"
+  - "ghayb"
+  - "Latter-day Saints"
+  - "Muslims and Mormons"
 summary: "A chapter on the Qur'anic view of the unseen and of human beings' relationship to God, in a volume of Muslim and Latter-day Saint essays."
 venue: "In Mormons and Muslims (Religious Studies Center, Brigham Young University)"
 rights: link-only

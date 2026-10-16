@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - islamic-law
 keywords:
-  - "The Ruling on One Who Abandons Prayer"
+  - "Hukm tarik al-salat"
+  - "salat"
+  - "abandoning prayer"
+  - "takfir"
 summary: "A short work on the ruling on abandoning prayer."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

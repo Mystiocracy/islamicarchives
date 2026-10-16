@@ -8,8 +8,9 @@ subjects:
   - islamic-law
 keywords:
   - "al-Fatawa al-wadiha"
-  - "practical treatise"
   - "risala 'amaliyya"
+  - "fatwas"
+  - "Shi'i fiqh"
   - "worship"
 summary: "His manual of practical legal rulings for followers, written in plain language and prefaced by a theological introduction on God, prophecy and revelation."
 rights: link-only

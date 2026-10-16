@@ -8,10 +8,10 @@ type: "Interview"
 subjects:
   - political-thought
 keywords:
-  - "Channel 4"
-  - "Jon Snow"
+  - "Channel 4 News"
   - "terrorism"
-  - "Trump"
+  - "Donald Trump"
+  - "Muslim Brotherhood"
 summary: "Short Channel 4 News interview in which Ramadan discusses how to combat terrorism, Donald Trump's policies and the Muslim Brotherhood."
 venue: "Channel 4 News (UK)"
 rights: link-only

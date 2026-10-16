@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Introduction to the Study of Prophetic Hadith"
+  - "hadith"
+  - "Sunnah"
+  - "hadith sciences"
 summary: "Introduction to the Study of Prophetic Hadith"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

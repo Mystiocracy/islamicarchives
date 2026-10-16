@@ -5,10 +5,14 @@ byline: "Asadullah Ali Al-Andalusi"
 year: 2017
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - science-and-religion
+  - colonialism-and-decolonisation
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "Islamic Golden Age"
+  - "Orientalism"
+  - "history of science"
+  - "decline thesis"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

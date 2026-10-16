@@ -6,7 +6,9 @@ type: "Translation"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "psychology"
+  - "Dirasat fi al-nafs al-insaniyya"
+  - "human psychology"
+  - "human soul"
 venue: "Pustaka Dian"
 summary: "Malay translation, probably of Dirasat fi al-nafs al-insaniyya."
 rights: link-only

@@ -4,6 +4,12 @@ titleOriginal: "جنرل محمد ضیاءالحق شہید"
 author: nadwi
 language: "Urdu"
 type: "Article"
+subjects:
+  - political-thought
+keywords:
+  - "Zia-ul-Haq"
+  - "Pakistan"
+  - "Islamisation"
 summary: "On General Zia-ul-Haq"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

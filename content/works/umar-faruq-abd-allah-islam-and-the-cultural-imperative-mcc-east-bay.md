@@ -8,6 +8,7 @@ subjects:
 keywords:
   - "culture"
   - "American Muslims"
+  - "indigenous Islam"
   - "MCC East Bay"
 summary: "The lecture version of his paper on Islam and culture, given at the Muslim Community Center, East Bay."
 venue: "MCC East Bay (Muslim Community Center)"

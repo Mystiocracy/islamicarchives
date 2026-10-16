@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+keywords:
+  - "da'wa"
+  - "tabligh"
+  - "Qur'anic method"
+  - "prophets"
 summary: "The miraculous method of preaching (in the Quran)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

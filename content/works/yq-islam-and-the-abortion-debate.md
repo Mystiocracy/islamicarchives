@@ -5,11 +5,13 @@ year: 2017
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - islamic-law
+  - family-and-society
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "abortion"
+  - "bioethics"
+  - "ensoulment"
+  - "Roe v. Wade"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

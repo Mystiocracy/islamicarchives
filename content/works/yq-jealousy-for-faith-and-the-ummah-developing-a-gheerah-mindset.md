@@ -6,11 +6,13 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - sufism
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "ghira"
+  - "ummah"
+  - "religious zeal"
+  - "Muslim solidarity"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

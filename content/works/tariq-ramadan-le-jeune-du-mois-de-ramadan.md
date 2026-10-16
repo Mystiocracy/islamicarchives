@@ -5,11 +5,12 @@ year: 1999
 language: "French"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
 keywords:
-  - "Ramadan"
   - "fasting"
-  - "practice"
+  - "sawm"
+  - "month of Ramadan"
 summary: "An article by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "Autres Temps. Les cahiers du christianisme social 62(1): 19-20"
 rights: link-only

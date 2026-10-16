@@ -5,8 +5,12 @@ author: nadwi
 year: 1985
 language: "Arabic"
 type: "Book"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "Qasas al-Nabiyyin"
+  - "children"
+  - "Seal of the Prophets"
 summary: "Life of the Seal of the Prophets (for young readers)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

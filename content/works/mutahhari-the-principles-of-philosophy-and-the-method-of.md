@@ -11,7 +11,8 @@ keywords:
   - "Usul-e falsafe va ravesh-e realism"
   - "Allamah Tabataba'i"
   - "realism"
-  - "critique of materialism"
+  - "dialectical materialism"
+  - "Islamic philosophy"
 summary: "Mutahhari's extensive commentary on the philosophical lectures of his teacher ʿAllāma Ṭabāṭabāʾī, defending a realist Islamic philosophy against dialectical materialism."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

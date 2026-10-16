@@ -6,11 +6,14 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - islam-and-modernity
-  - political-thought
 keywords:
-  - "Identity"
-  - "Politics & Practical Theology"
+  - "gender"
+  - "gender roles"
+  - "gender identity"
+  - "complementarity"
+  - "feminism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

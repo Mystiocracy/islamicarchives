@@ -6,9 +6,14 @@ year: 1983
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
-  - quranic-studies
   - philosophy-and-theology
+  - sufism
+  - islamic-law
+keywords:
+  - "Belief, Worship and Conduct"
+  - "aqida"
+  - "ibada"
+  - "suluk"
 summary: "Belief, Worship and Conduct in Light of Qur'an, Sunna and Sira"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

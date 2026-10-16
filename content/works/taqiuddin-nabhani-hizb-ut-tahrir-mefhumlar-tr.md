@@ -7,6 +7,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Mafahim Hizb al-Tahrir"
+  - "Concepts of Hizb ut-Tahrir"
+  - "method of change"
+  - "aqida"
 summary: "Turkish edition of the Party’s concepts."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

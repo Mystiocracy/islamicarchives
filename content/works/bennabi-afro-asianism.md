@@ -9,6 +9,7 @@ subjects:
   - colonialism-and-decolonisation
   - political-thought
 keywords:
+  - "L'Afro-asiatisme"
   - "Fikrat al-Ifriqiyya al-Asyawiyya"
   - "Bandung Conference"
   - "non-alignment"

@@ -7,11 +7,13 @@ language: "English"
 type: "Interview"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
   - "Charlie Hebdo"
+  - "Rick MacArthur"
+  - "Harper's"
   - "Islamophobia"
   - "Democracy Now"
-  - "West and Muslims"
 summary: "Ramadan and Harper's publisher Rick MacArthur respond to the Charlie Hebdo attack, discussing Western treatment of Muslims, hypocrisy on free speech and the political context."
 venue: "Democracy Now!"
 rights: link-only

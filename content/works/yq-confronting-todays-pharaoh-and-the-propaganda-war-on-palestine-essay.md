@@ -8,10 +8,11 @@ type: "Essay"
 subjects:
   - political-thought
 keywords:
-  - "History"
-  - "Islamic Civilization"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Palestine"
+  - "Pharaoh"
+  - "propaganda"
+  - "Gaza"
+  - "media"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

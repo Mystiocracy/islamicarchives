@@ -4,6 +4,14 @@ titleOriginal: "سوانح حضرت مولانا عبد القادر رائے پ
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sufism
+keywords:
+  - "Abdul Qadir Raipuri"
+  - "Raipur"
+  - "Naqshbandi"
+  - "Chishti"
+  - "shaykh"
 summary: "Biography of Maulana Abdul Qadir Raipuri"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

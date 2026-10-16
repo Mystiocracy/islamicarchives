@@ -6,13 +6,15 @@ language: English
 type: "Book"
 subjects:
   - islamic-law
+  - islam-and-modernity
   - hadith-studies
-  - philosophy-and-theology
 keywords:
   - "Salafism"
   - "traditionalism"
   - "Albani"
   - "madhhab"
+  - "scholarly authority"
+  - "taqlid"
 summary: "The main academic study of how Salafis and traditionalists dispute scholarly authority in modern Islamic law, centred on al-Albānī and his critics."
 venue: "Cambridge University Press"
 rights: link-only

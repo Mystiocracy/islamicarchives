@@ -5,7 +5,13 @@ titleOriginal: "میرے والد میرے شیخ"
 language: "Urdu"
 type: "Memoir"
 subjects:
-  - islam-and-modernity
+  - education
+  - sufism
+keywords:
+  - "Mufti Muhammad Shafi"
+  - "Deoband"
+  - "Darul Uloom Karachi"
+  - "biography"
 summary: "Memoir of his father, Mufti Muhammad Shafi (d. 1976), written by his son."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

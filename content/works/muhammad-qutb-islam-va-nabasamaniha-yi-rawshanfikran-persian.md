@@ -6,9 +6,13 @@ language: "Persian"
 type: "Translation"
 subjects:
   - islam-and-modernity
-  - slavery-and-race
+  - philosophy-and-theology
 keywords:
+  - "Shubuhat hawla al-Islam"
   - "misconceptions"
+  - "intellectuals"
+  - "slavery"
+  - "feudalism"
 summary: "Three-volume Persian translation answering intellectuals' objections to Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

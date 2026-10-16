@@ -7,6 +7,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Turkey"
+  - "Ottoman"
+  - "Kemalism"
+  - "secularism"
 summary: "The striving Muslim nation of Turkey"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

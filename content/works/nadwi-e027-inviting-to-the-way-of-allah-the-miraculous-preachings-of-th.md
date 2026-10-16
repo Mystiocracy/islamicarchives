@@ -6,8 +6,12 @@ language: "English"
 type: "Speech"
 subjects:
   - quranic-studies
+  - islam-and-modernity
 keywords:
-  - "Qazi Abdul Hameed (Ta-Ha ed. edited by 'Abdassamad Clarke)"
+  - "da'wa"
+  - "Qur'anic method"
+  - "prophets"
+  - "The Miraculous Preachings of the Glorious Qur'an"
 summary: "Inviting to the Way of Allah (The Miraculous Preachings of the Glorious Qur'an). Translated by Qazi Abdul Hameed (Ta-Ha ed. edited by 'Abdassamad Clarke) from Arabic (via Urdu)."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

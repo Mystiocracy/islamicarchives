@@ -7,7 +7,11 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "An Explanation of Muhammad ibn Abd al-Wahhab's Kashf al-Shubuhat"
+  - "Kashf al-Shubuhat"
+  - "Muhammad ibn Abd al-Wahhab"
+  - "tawhid"
+  - "shirk"
+  - "aqida"
 summary: "An explanation of Ibn ʿAbd al-Wahhāb's treatise on removing doubts about tawḥīd."
 venue: "Al-Hidaayah"
 rights: link-only

@@ -4,6 +4,11 @@ titleOriginal: "বিধ্বস্ত মানবতা"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "humanity"
+  - "decline"
 summary: "Ruined humanity. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1970
 language: English
 type: "Article"
-venue: "Pakistan Observer weekly, Dacca, Apr 1970"
 subjects:
-  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Israel"
+  - "Hebrew literature"
+  - "Zionism"
+  - "Israeli intelligentsia"
+venue: "Pakistan Observer weekly, Dacca, Apr 1970"
 summary: "A critique of modern Hebrew fiction, published in four parts."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Scan in \"My Life Work\" dossier, pp. 58–63"

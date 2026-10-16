@@ -8,7 +8,10 @@ type: "Translation"
 subjects:
   - islam-and-modernity
 keywords:
+  - "Hal nahnu muslimun"
   - "Muslim identity"
+  - "Muslim decline"
+  - "renewal"
 venue: "Al-Firdous Ltd, London"
 summary: "English translation of Hal nahnu muslimun."
 rights: link-only

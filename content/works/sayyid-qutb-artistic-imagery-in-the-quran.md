@@ -9,9 +9,10 @@ subjects:
   - quranic-studies
 keywords:
   - "al-Taswir al-fanni fi al-Qur'an"
-  - "literary approach"
   - "Qur'anic imagery"
   - "i'jaz"
+  - "literary approach"
+  - "narrative"
 summary: "A literary study of the Qurʾan that locates its persuasive power in its vivid imagery and narrative technique."
 rights: link-only
 rightsNote: "In copyright (author d. 1966)."

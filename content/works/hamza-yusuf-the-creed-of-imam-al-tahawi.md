@@ -8,10 +8,10 @@ type: "Translation"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "al-ʿAqida al-Tahawiyya"
+  - "al-'Aqida al-Tahawiyya"
+  - "al-Tahawi"
   - "Sunni creed"
   - "aqida"
-  - "Zaytuna Institute"
 summary: "A translation, with an extended introduction on Islamic theology, of the classical Sunni creed of Abū Jaʿfar al-Ṭaḥāwī."
 rights: link-only
 rightsNote: "In copyright (living author)."

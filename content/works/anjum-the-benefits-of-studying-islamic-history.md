@@ -8,6 +8,8 @@ subjects:
   - education
 keywords:
   - "Islamic history"
+  - "moral lessons"
+  - "faith"
 venue: "AlJumuah Magazine"
 summary: "Argues that reading history through a moral and spiritual lens strengthens faith and guides the present."
 rights: link-only

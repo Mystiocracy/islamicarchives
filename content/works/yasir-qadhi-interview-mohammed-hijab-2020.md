@@ -5,9 +5,11 @@ year: 2020
 language: English
 type: "Interview"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "interview"
+  - "Mohammed Hijab"
+  - "Accidental Muslims"
+  - "controversies"
 summary: "A long interview (22 June 2020) with Mohammed Hijab covering his views and controversies."
 venue: "Accidental Muslims"
 rights: link-only

@@ -5,7 +5,8 @@ author: nadwi
 language: "Bengali"
 type: "Pamphlet"
 keywords:
-  - "Naya Khun"
+  - "youth"
+  - "Islamic revival"
 summary: "New blood. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

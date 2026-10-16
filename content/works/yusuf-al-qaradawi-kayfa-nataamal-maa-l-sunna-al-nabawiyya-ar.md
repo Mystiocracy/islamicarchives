@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunnah"
+  - "hadith interpretation"
+  - "fiqh al-hadith"
+  - "literalism"
 summary: "Gives guidelines for understanding and using the Prophetic Sunna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

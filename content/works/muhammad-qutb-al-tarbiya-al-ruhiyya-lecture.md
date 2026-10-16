@@ -5,9 +5,12 @@ titleOriginal: "التربية الروحية"
 language: "Arabic"
 type: "Video"
 subjects:
+  - sufism
   - education
 keywords:
-  - "lecture"
+  - "spiritual education"
+  - "tarbiya"
+  - "purification of the soul"
   - "spirituality"
 venue: "YouTube (Qaradawi channel)"
 summary: "Lecture (1h42) on spiritual education."

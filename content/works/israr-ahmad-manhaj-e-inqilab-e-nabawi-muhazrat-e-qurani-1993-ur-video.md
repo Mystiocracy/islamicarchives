@@ -8,8 +8,9 @@ type: "Video"
 subjects:
   - political-thought
 keywords:
-  - "revolution"
-  - "Seerah"
+  - "Prophetic method of revolution"
+  - "Islamic revolution"
+  - "sira"
   - "methodology"
 summary: "Lecture series setting out the Prophet's method of revolution as a model for Islamic change."
 rights: link-only

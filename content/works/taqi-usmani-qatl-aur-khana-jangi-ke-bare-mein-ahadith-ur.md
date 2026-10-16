@@ -6,6 +6,13 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+  - political-thought
+keywords:
+  - "civil strife"
+  - "fitna"
+  - "sanctity of life"
+  - "The Sanctity of Life in the Quran and Sunnah"
+  - "killing"
 summary: "Collects hadiths on killing and civil strife; English: The Sanctity of Life in the Quran and Sunnah."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

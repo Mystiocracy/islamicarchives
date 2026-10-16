@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "fatwas"
+  - "transactions"
+  - "family law"
+  - "worship"
 summary: "His fatwas on worship, transactions, family law and contemporary questions, arranged by topic."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - political-thought
 keywords:
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Kashmir"
+  - "occupation"
+  - "India"
+  - "Kashmiri Muslims"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

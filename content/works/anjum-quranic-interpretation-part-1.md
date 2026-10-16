@@ -8,7 +8,9 @@ subjects:
   - quranic-studies
 keywords:
   - "tafsir"
-  - "Qur'an"
+  - "Qur'anic interpretation"
+  - "exegesis"
+  - "authority"
 venue: "AlJumuah Magazine"
 summary: "Encourages direct engagement with the Qur'an's core message while warning against self-appointed interpreters."
 rights: link-only

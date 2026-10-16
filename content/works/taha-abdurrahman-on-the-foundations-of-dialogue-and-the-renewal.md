@@ -12,6 +12,7 @@ keywords:
   - "kalam"
   - "argumentation"
   - "dialogue"
+  - "renewal of kalam"
 summary: "Reconstructs Islamic theology as a dialogical, argumentative practice and uses modern theories of argumentation to renew it."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -6,7 +6,10 @@ language: "Hindi"
 type: "Speech"
 subjects:
   - education
-  - political-thought
+keywords:
+  - "madrasa"
+  - "Arabic madrasas"
+  - "India"
 summary: "Religious Arabic madrasas that raise the nation's dignity: their distinctive education and features. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

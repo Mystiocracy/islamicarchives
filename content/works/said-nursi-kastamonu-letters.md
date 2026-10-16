@@ -5,11 +5,11 @@ titleOriginal: "Kastamonu Lâhikası"
 language: "Turkish"
 type: "Letters"
 subjects:
-  - education
   - political-thought
+  - philosophy-and-theology
 keywords:
   - "Kastamonu Lahikasi"
-  - "correspondence"
+  - "Risale-i Nur"
   - "Second World War"
   - "exile"
 summary: "Letters written during Nursi's years under surveillance in Kastamonu, addressing his students and the conditions of the time."

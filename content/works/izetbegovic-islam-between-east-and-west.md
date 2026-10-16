@@ -9,11 +9,11 @@ subjects:
   - philosophy-and-theology
   - islam-and-modernity
 keywords:
-  - "Islam izmedju Istoka i Zapada"
+  - "Islam između Istoka i Zapada"
   - "bipolarity"
-  - "religion and science"
   - "materialism"
   - "Christianity"
+  - "religion and science"
 summary: "His main philosophical work, presenting Islam as a 'bipolar' synthesis of the spiritual and the material that stands between Christianity's inwardness and materialism's outwardness, with wide reference to European literature and philosophy."
 rights: link-only
 rightsNote: "In copyright (author d. 2003)."

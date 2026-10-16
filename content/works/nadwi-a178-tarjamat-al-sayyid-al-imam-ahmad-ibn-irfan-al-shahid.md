@@ -5,6 +5,16 @@ author: nadwi
 year: 2000
 language: "Arabic"
 type: "Book"
+subjects:
+  - political-thought
+  - sufism
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "Sayyid Ahmad Barelvi"
+  - "jihad movement"
+  - "Balakot"
+  - "tajdid"
+  - "Shah Ismail Shahid"
 summary: "Biography of Sayyid Ahmad ibn Irfan Shahid, Renewer of the 13th Century"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

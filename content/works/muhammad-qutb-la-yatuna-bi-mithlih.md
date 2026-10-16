@@ -9,7 +9,8 @@ subjects:
   - quranic-studies
 keywords:
   - "i'jaz"
-  - "Qur'an"
+  - "inimitability of the Qur'an"
+  - "miraculousness"
 venue: "Dār al-Shurūq"
 summary: "On the inimitability of the Qur'an."
 rights: link-only

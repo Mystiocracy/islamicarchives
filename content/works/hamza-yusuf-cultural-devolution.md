@@ -6,11 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - islam-and-modernity
+  - family-and-society
 keywords:
   - "culture"
+  - "moral formation"
   - "moral norms"
-  - "modernity"
-  - "Renovatio"
+  - "Western culture"
 summary: "Examines how cultural and moral norms are transmitted and argues that contemporary Western culture is eroding the boundaries on which moral formation depends."
 rights: link-only
 rightsNote: "In copyright (living author)."

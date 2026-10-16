@@ -8,10 +8,10 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "NPR"
+  - "On Point"
   - "Islam and the West"
   - "American Muslims"
-  - "pluralism"
+  - "coexistence"
 summary: "Radio interview in which Ramadan, newly allowed back into the US, argues that Islam and the West can coexist and urges American Muslims to have faith in America."
 venue: "WBUR On Point (NPR)"
 rights: link-only

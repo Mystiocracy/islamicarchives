@@ -5,9 +5,13 @@ year: 2017
 language: English
 type: "Article"
 subjects:
+  - islamic-law
   - hadith-studies
 keywords:
-  - "Legal Thought of Muḥammad Nāṣir al-Dīn al-Albānī"
+  - "Albani"
+  - "Salafism"
+  - "madhhab"
+  - "Oxford Encyclopedia"
 summary: "An encyclopedia entry on al-Albānī's legal thought."
 venue: "Oxford Encyclopedia of Islam and Law"
 rights: link-only

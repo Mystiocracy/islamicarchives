@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Muslim decline"
+  - "reform"
+  - "Where Is the Flaw"
+  - "islah"
 summary: "Diagnoses the causes of weakness in the Muslim world and where reform should start."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

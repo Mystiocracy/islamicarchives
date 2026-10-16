@@ -4,6 +4,14 @@ author: nadwi
 year: 2005
 language: "English"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Qutb Minar"
+  - "India"
+  - "Delhi Sultanate"
+  - "Islamic history of India"
+  - "children"
 summary: "The Minaret Speaks. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

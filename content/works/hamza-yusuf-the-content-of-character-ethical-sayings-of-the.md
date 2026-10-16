@@ -6,11 +6,13 @@ language: "Arabic"
 type: "Translation"
 subjects:
   - hadith-studies
+  - sufism
 keywords:
   - "al-Amin Mazrui"
-  - "hadith"
-  - "ethics"
   - "akhlaq"
+  - "ethics"
+  - "prophetic sayings"
+  - "character"
 summary: "A translation, with introduction, of a selection of ethical sayings of the Prophet compiled by the East African scholar al-Amīn Mazrūʿī."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+  - islamic-law
+keywords:
+  - "niqab"
+  - "face veil"
+  - "hijab"
+  - "bid'a"
 summary: "Discusses whether the face veil is obligatory or an innovation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

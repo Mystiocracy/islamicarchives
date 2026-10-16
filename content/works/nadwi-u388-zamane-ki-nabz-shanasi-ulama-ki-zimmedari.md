@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+  - islam-and-modernity
+keywords:
+  - "ulama"
+  - "religious scholars"
 summary: "Reading the pulse of the times is the ulama's duty"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "Islamic economics"
+  - "ethics"
+  - "values"
+  - "akhlaq"
 summary: "Shows the ethical and value foundations of an Islamic economy."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

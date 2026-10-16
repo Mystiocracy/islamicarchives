@@ -12,6 +12,7 @@ keywords:
   - "sharia"
   - "free speech"
   - "Western Muslims"
+  - "Europe"
 summary: "Transcript and audio of a Pew Forum event where Ramadan discusses sharia in the West, free speech, the reform of Islam and the future of Muslims in Europe and America."
 venue: "Pew Forum on Religion & Public Life"
 rights: link-only

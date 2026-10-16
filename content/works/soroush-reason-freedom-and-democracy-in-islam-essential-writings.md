@@ -9,10 +9,10 @@ subjects:
   - philosophy-and-theology
   - islam-and-modernity
 keywords:
-  - "Mahmoud Sadri"
-  - "Ahmad Sadri"
-  - "Oxford University Press"
   - "religious democracy"
+  - "religious knowledge"
+  - "tolerance"
+  - "hermeneutics"
 summary: "Eleven essays in English translation on interpretation, the evolution of religious knowledge, tolerance and the compatibility of Islam and democracy."
 rights: link-only
 rightsNote: "In copyright (living author)."

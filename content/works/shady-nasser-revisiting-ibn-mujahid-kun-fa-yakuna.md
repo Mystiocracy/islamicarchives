@@ -7,8 +7,11 @@ type: "Paper"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
-  - "qirāʾāt"
+  - "Ibn Mujahid"
+  - "Ibn 'Amir"
+  - "kun fa-yakun"
+  - "seven readings"
+  - "qira'at"
 summary: "On Ibn Mujāhid's treatment of Ibn ʿĀmir's reading."
 venue: "Journal of Qur'anic Studies 17, no. 1, pp. 85–113"
 rights: link-only

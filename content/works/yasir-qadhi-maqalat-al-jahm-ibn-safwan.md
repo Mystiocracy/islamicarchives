@@ -10,6 +10,8 @@ keywords:
   - "Jahm ibn Safwan"
   - "Jahmiyya"
   - "heresiography"
+  - "Islamic sects"
+  - "firaq"
 summary: "A study of the teachings of Jahm ibn Ṣafwān and their influence on the Islamic sects, from his Madinah period."
 venue: "Aḍwāʾ al-Salaf, Riyadh"
 rights: link-only

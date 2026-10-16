@@ -7,6 +7,11 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "art"
+  - "music"
+  - "entertainment"
+  - "Al-Islam wa-l-Fann"
 summary: "On Islam's stance toward arts, music and entertainment."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

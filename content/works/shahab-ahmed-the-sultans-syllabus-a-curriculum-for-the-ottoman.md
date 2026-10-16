@@ -6,7 +6,6 @@ language: "English"
 type: "Paper"
 subjects:
   - education
-  - philosophy-and-theology
 keywords:
   - "Nenad Filipovic"
   - "Ottoman madrasa"

@@ -4,6 +4,13 @@ titleOriginal: "طالبان علوم نبوت کا مقام اور ان کی ذ
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Deoband"
+  - "Darul Uloom Deoband"
+  - "students of religious knowledge"
+  - "madrasa students"
 summary: "Status of students of religious learning (paper read at Deoband)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

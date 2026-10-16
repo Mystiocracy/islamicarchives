@@ -8,11 +8,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Can One Live with Islam? (English rendering of the title)"
-  - "dialogue"
+  - "Can One Live with Islam?"
+  - "Jacques Neirynck"
   - "democracy"
   - "fundamentalism"
-  - "Switzerland"
+  - "integration"
 summary: "A dialogue in which a Swiss engineer and politician questions Ramadan on Islam and democracy, women, violence, fundamentalism and integration, and he answers by distinguishing scriptural principles from cultural practice and calling for a critical Muslim reform."
 venue: "Favre (Lausanne)"
 rights: link-only

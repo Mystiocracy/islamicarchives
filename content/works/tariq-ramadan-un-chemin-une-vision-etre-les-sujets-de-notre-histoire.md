@@ -7,9 +7,9 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "A Path, a Vision: Being the Subjects of Our History (English rendering of the title)"
-  - "responsibility"
+  - "A Path, a Vision"
   - "agency"
+  - "responsibility"
   - "Muslims in the West"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Tawhid (Lyon)"

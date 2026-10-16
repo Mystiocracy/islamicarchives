@@ -5,10 +5,12 @@ titleOriginal: "التيارات الفكرية"
 language: "Arabic"
 type: "Video"
 subjects:
+  - islam-and-modernity
   - political-thought
 keywords:
-  - "audio"
+  - "intellectual currents"
   - "ideologies"
+  - "contemporary thought"
 venue: "Internet Archive"
 summary: "Audio lecture (51 min) on intellectual currents."
 rights: link-only

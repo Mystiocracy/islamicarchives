@@ -5,11 +5,13 @@ titleOriginal: "صفة صلاة النبي من التكبير إلى التسل
 language: Arabic
 type: "Book"
 subjects:
-  - hadith-studies
   - islamic-law
+  - hadith-studies
 keywords:
-  - "Ṣifat ṣalāt al-nabī"
-  - "Albani"
+  - "salat"
+  - "The Prophet's Prayer Described"
+  - "how to pray"
+  - "takbir"
 summary: "The prayer of the Prophet described from the takbīr to the taslīm, with the hadith evidence."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

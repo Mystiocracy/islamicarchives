@@ -6,6 +6,9 @@ language: "Bengali"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "iman"
+  - "faith"
 summary: "The demands of faith. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "al-Madkhal ila al-Dirasat al-Qur'aniyya (Urdu: Mutala-e-Quran ke Usul-o-Mabadi)"
-  - "مولانا محمد قاسم قاسمی"
+  - "al-Madkhal ila al-Dirasat al-Qur'aniyya"
+  - "Mutala-e-Quran ke Usul-o-Mabadi"
+  - "Qur'an"
+  - "tafsir"
 summary: "Principles for understanding the Quran. Translated by مولانا محمد قاسم قاسمی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

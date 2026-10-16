@@ -6,7 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
-  - philosophy-and-theology
+keywords:
+  - "service to religion"
+  - "ilm"
+  - "ulama"
 summary: "Permanent opportunities to serve faith and knowledge"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

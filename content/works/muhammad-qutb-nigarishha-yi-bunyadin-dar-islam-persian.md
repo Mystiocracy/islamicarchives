@@ -7,7 +7,9 @@ type: "Translation"
 subjects:
   - philosophy-and-theology
 keywords:
+  - "Hadha huwa al-Islam"
   - "introduction to Islam"
+  - "principles of Islam"
 summary: "Persian translation of Hadha huwa al-Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

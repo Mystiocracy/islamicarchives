@@ -8,7 +8,8 @@ subjects:
 keywords:
   - "Al-Huda"
   - "Muntakhab Nisab"
-  - "television"
+  - "Qur'an study course"
+  - "tafsir"
 venue: "PTV (Al-Huda)"
 summary: "The Al-Huda series of lectures on his selected Qur'anic syllabus."
 rights: link-only

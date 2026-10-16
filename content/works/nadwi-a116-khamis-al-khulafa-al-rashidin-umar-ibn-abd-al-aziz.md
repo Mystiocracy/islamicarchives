@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Umar ibn Abd al-Aziz"
+  - "Umayyad caliphate"
+  - "Rightly Guided Caliphs"
+  - "just ruler"
+  - "tajdid"
 summary: "Umar ibn Abd al-Aziz, the Fifth Rightly-Guided Caliph"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

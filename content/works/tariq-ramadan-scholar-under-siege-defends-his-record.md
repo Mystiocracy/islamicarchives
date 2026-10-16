@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "visa revocation"
   - "Daniel Pipes"
-  - "rebuttal"
   - "Notre Dame"
+  - "rebuttal"
 summary: "Responding to Daniel Pipes, Ramadan calls many accusations false or distorted and denies any link to alleged militants, defending his record as a Notre Dame appointee whose visa was revoked."
 venue: "University of Notre Dame news (op-ed), 30 August 2004"
 rights: link-only

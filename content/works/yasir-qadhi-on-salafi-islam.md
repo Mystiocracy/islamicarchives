@@ -6,8 +6,11 @@ language: English
 type: "Essay"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "On Salafi Islam"
+  - "Salafism"
+  - "Salafi Islam"
+  - "MuslimMatters"
 summary: "An essay by Yasir Qadhi on MuslimMatters."
 venue: "MuslimMatters"
 rights: link-only

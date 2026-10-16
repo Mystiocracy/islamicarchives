@@ -8,7 +8,9 @@ subjects:
   - islamic-law
   - philosophy-and-theology
 keywords:
-  - "editorial"
+  - "AJIS"
+  - "Islamic legal tradition"
+  - "premodern societies"
 venue: "American Journal of Islam and Society 40, no. 3-4: 2-4"
 summary: "Introduces articles on how Islamic legal and theological tradition intersected with premodern and modern societies."
 rights: link-only

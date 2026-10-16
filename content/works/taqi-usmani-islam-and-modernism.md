@@ -5,6 +5,13 @@ language: "English"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - hadith-studies
+keywords:
+  - "modernism"
+  - "Islam aur Jiddat Pasandi"
+  - "authority of hadith"
+  - "ijtihad"
+  - "women's issues"
 summary: "A critique of modernist approaches to Islam, covering hadith authority, ijtihad and women’s issues."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

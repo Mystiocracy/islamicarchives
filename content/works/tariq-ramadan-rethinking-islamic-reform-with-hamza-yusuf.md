@@ -8,9 +8,9 @@ type: "Video"
 subjects:
   - islam-and-modernity
 keywords:
-  - "reform"
-  - "tradition"
+  - "Islamic reform"
   - "Hamza Yusuf"
+  - "tradition"
   - "Oxford"
 summary: "Nearly three-hour Oxford event where Ramadan and Hamza Yusuf discuss the meaning, methods and limits of Islamic reform, contrasting their approaches to tradition, ethics and contemporary society."
 venue: "University of Oxford (Oxford event)"

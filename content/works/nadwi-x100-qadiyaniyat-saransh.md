@@ -4,8 +4,13 @@ titleOriginal: "क़ादियानियत ( सारांश)"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Qadiyaniyat: Mutala-o-Jaiza (Ar. al-Qadiyani wal-Qadiyaniyya)"
+  - "Qadiyaniyat"
+  - "al-Qadiyani wal-Qadiyaniyya"
+  - "Ahmadiyya"
+  - "khatm-e-nubuwwat"
 summary: "Qadianism (summary). Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

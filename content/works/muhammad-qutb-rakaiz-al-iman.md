@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "creed"
   - "aqida"
-  - "faith"
+  - "iman"
+  - "pillars of faith"
 venue: "Dār Ishbīliyā (Markaz al-Dirāsāt wa-l-Iʿlām)"
 summary: "Systematic exposition of the pillars of Islamic belief."
 rights: link-only

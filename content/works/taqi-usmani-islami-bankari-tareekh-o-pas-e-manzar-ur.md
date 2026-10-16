@@ -7,6 +7,10 @@ type: "Book"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "Islamic banking"
+  - "history of Islamic banking"
+  - "riba"
 summary: "Traces the background and development of Islamic banking and the questions it faced."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

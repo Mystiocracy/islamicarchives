@@ -6,10 +6,13 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - islamic-law
+  - philosophy-and-theology
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "repentance"
+  - "redemption"
+  - "salvation"
+  - "tawba"
+  - "sin"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

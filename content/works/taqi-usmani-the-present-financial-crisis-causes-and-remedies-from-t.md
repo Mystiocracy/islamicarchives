@@ -5,6 +5,12 @@ language: "English"
 type: "Paper"
 subjects:
   - economics
+keywords:
+  - "2008 financial crisis"
+  - "Islamic finance"
+  - "riba"
+  - "derivatives"
+  - "financial reform"
 summary: "Analysis of the 2008 financial crisis and the remedies offered by Islamic economics."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

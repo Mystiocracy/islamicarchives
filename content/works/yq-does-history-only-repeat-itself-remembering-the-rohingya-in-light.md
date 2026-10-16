@@ -5,14 +5,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
-  - islam-and-modernity
   - political-thought
 keywords:
-  - "Allah"
-  - "Islamophobia"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Rohingya"
+  - "Myanmar"
+  - "Palestine"
+  - "genocide"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

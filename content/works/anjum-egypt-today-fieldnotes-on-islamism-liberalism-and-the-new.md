@@ -10,6 +10,8 @@ keywords:
   - "Egypt"
   - "Arab Spring"
   - "Islamism"
+  - "liberalism"
+  - "Imam Khattab lecture"
 venue: "University of Toledo"
 summary: "Annual endowed-chair lecture on Egypt after the 2011 uprising."
 rights: link-only

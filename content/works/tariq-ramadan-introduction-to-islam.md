@@ -7,10 +7,10 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "introduction"
-  - "history"
-  - "pillars"
-  - "contemporary debates"
+  - "beginners' guide"
+  - "pillars of Islam"
+  - "schools of law"
+  - "misconceptions"
 summary: "A plain-language guide to Islam's principles, history, schools of law, theology, Sufism, ethics and contemporary debates, written for readers with no prior knowledge, including a section on common misperceptions."
 venue: "Oxford University Press (US); UK ed. Islam: The Essentials, Pelican/Penguin 2017"
 rights: link-only

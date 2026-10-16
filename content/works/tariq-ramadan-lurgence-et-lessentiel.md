@@ -7,10 +7,11 @@ language: "French"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "The Urgent and the Essential (English rendering of the title)"
-  - "dialogue"
+  - "The Urgent and the Essential"
   - "Edgar Morin"
+  - "dialogue"
   - "contemporary crises"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Don Quichotte éditions (Paris)"

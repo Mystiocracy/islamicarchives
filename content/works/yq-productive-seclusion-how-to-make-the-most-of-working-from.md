@@ -7,8 +7,10 @@ type: "Article"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "working from home"
+  - "productivity"
+  - "seclusion"
+  - "Covid-19"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

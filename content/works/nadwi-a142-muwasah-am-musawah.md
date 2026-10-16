@@ -5,7 +5,14 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - islamic-law
+  - economics
+  - islam-and-modernity
+keywords:
+  - "socialism"
+  - "equality"
+  - "muwasat"
+  - "compassion"
+  - "communism"
 summary: "Compassionate Sharing or Equalisation?"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

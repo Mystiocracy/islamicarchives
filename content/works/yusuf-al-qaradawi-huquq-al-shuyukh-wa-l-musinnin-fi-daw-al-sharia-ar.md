@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - family-and-society
+keywords:
+  - "elderly"
+  - "rights of the elderly"
+  - "old age"
+  - "filial duty"
 summary: "Sets out the rights of the elderly under Islamic law."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

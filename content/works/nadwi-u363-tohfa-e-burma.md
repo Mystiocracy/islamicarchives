@@ -4,6 +4,10 @@ titleOriginal: "تحفۂ برما"
 author: nadwi
 language: "Urdu"
 type: "Speech"
+keywords:
+  - "Burma"
+  - "Myanmar"
+  - "Rangoon"
 summary: "Gift to Burma (speeches)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

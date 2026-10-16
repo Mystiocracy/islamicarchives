@@ -8,9 +8,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
+  - "Hammam ibn Munabbih"
   - "earliest hadith collection"
   - "Abu Hurayra"
-  - "manuscript"
+  - "writing of hadith"
   - "Dunya ka Qadim-tarin Majmu'a-e-Hadith"
 summary: "An edition of a first-century collection of hadith transmitted from Abu Hurayra, with an introduction on the early writing down of hadith."
 rights: link-only

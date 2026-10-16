@@ -8,7 +8,7 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "al-Nasafi"
-  - "Aqa'id"
+  - "Aqa'id al-Nasafi"
   - "Malay manuscript"
   - "kalam"
 summary: "Edits and studies a sixteenth-century Malay translation of al-Nasafī's creed, presented as the oldest surviving Malay manuscript and as evidence of early Malay engagement with kalām."

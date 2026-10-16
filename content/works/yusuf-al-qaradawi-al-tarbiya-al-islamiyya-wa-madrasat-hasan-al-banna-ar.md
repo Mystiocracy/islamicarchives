@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - education
+  - political-thought
+keywords:
+  - "tarbiya"
+  - "Hasan al-Banna"
+  - "Muslim Brotherhood"
+  - "Islamic education"
 summary: "Examines Islamic education and the educational approach of Hasan al-Banna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

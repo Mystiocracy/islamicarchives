@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "protection of sharia"
+  - "Muslim unity"
+  - "Muslim personal law"
+  - "Shah Bano case"
 summary: "Muslim unity to protect the Shari'a heralds their awakening"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

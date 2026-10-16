@@ -4,6 +4,15 @@ author: nadwi
 year: 1989
 language: "English"
 type: "Speech"
+subjects:
+  - islamic-law
+  - political-thought
+keywords:
+  - "AIMPLB"
+  - "All India Muslim Personal Law Board"
+  - "Muslim Personal Law"
+  - "Kanpur"
+  - "Shah Bano case"
 summary: "Presidential Address, AIMPLB Conference, Kanpur, 4-5 March 1989. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

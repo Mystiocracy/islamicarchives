@@ -4,12 +4,15 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - women-and-gender
-  - political-thought
+  - islam-and-modernity
 keywords:
   - "Qasim Amin"
+  - "feminism"
+  - "Muslim woman"
+  - "motherhood"
+venue: "Mohammad Yusuf Khan"
 summary: "Essays on the Muslim woman's role, the duties of the mother, Qasim Amin, and the feminist movement."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

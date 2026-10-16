@@ -5,6 +5,15 @@ author: nadwi
 year: 1989
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - sufism
+keywords:
+  - "Sayyid Ahmad Shahid"
+  - "Shah Ismail Shahid"
+  - "Mujahidin movement"
+  - "jihad movement"
+  - "India"
 summary: "The Imam Not Given His Due (on Shah Ismail Shahid / Sayyid Ahmad)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

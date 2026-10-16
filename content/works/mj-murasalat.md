@@ -4,11 +4,14 @@ author: maryam-jameelah
 year: 1990
 language: Urdu
 type: "Book"
-venue: "Mohammad Yusuf Khan"
 subjects:
-  - political-thought
+  - islam-and-modernity
 keywords:
   - "Maududi"
+  - "letters"
+  - "conversion to Islam"
+  - "Correspondence between Maulana Maudoodi and Maryam Jameelah"
+venue: "Mohammad Yusuf Khan"
 summary: "Urdu edition of the correspondence with Maududi."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

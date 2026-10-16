@@ -5,7 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
+  - sufism
   - philosophy-and-theology
+keywords:
+  - "Ahmad Sirhindi"
+  - "Mujaddid Alf-e-Sani"
+  - "Shah Waliullah"
+  - "tajdid"
+  - "Mughal India"
 summary: "The Mujaddid and Shah Waliullah as guardians of the faith"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

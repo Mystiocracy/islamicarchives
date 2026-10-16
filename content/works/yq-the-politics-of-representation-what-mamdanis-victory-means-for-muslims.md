@@ -5,13 +5,14 @@ year: 2025
 language: "English"
 type: "Article"
 subjects:
-  - islam-and-modernity
-  - philosophy-and-theology
   - political-thought
+  - islam-and-modernity
 keywords:
-  - "Islam in the West"
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "Zohran Mamdani"
+  - "New York"
+  - "representation"
+  - "American Muslims"
+  - "elections"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

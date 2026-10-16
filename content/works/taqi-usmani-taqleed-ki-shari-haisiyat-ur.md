@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "taqlid"
+  - "madhhab"
+  - "four schools"
+  - "ijtihad"
 summary: "Defends adherence to one of the four schools of law (taqlid) and explains who needs to follow one."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

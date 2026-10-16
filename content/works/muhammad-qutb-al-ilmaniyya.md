@@ -5,10 +5,13 @@ titleOriginal: "العلمانية"
 language: "Arabic"
 type: "Article"
 subjects:
-  - political-thought
   - islam-and-modernity
+  - political-thought
 keywords:
   - "secularism"
+  - "secularization"
+  - "Europe"
+  - "church and state"
 venue: "Islamway (islamway.com)"
 summary: "Short essay defining secularism and tracing its European origins."
 rights: link-only

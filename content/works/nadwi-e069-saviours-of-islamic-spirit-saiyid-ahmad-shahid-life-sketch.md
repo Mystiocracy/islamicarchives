@@ -3,9 +3,15 @@ title: "Saviours of Islamic Spirit: Saiyid Ahmad Shahid (Life Sketch)"
 author: nadwi
 language: "English"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - sufism
 keywords:
-  - "Seerat Sayyid Ahmad Shaheed (abridged)"
-  - "Qazi Abdul Hameed"
+  - "Sayyid Ahmad Shahid"
+  - "Sayyid Ahmad Barelvi"
+  - "Seerat Sayyid Ahmad Shaheed"
+  - "jihad movement"
+  - "Balakot"
 summary: "Saviours of Islamic Spirit: Saiyid Ahmad Shahid (Life Sketch). Translated by Qazi Abdul Hameed from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

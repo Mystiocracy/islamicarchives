@@ -4,13 +4,12 @@ author: tariq-ramadan
 year: 2022
 language: "English"
 type: "Video"
-subjects:
-  - hadith-studies
 keywords:
-  - "sirah"
+  - "sira"
   - "Prophet Muhammad"
-  - "biography"
-  - "spirituality"
+  - "hijra"
+  - "Medina"
+  - "Mecca"
 summary: "A fifteen-part spoken biography of the Prophet Muhammad, from personality and spiritual quest through trials, hijrah, Medina and the return to Mecca, in episodes of about twenty to thirty-five minutes."
 venue: "Tariq Ramadan Official"
 rights: link-only

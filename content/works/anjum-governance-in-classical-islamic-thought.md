@@ -10,7 +10,7 @@ keywords:
   - "governance"
   - "caliphate"
   - "imamate"
-  - "encyclopedia"
+  - "Sunni political theory"
 venue: "Oxford Research Encyclopedia of Religion"
 summary: "Encyclopedia article surveying classical Sunni theories of governance and the caliphate."
 rights: link-only

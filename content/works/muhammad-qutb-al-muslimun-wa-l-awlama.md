@@ -6,11 +6,13 @@ year: 2000
 language: "Arabic"
 type: "Book"
 subjects:
+  - islam-and-modernity
   - political-thought
   - economics
-  - islam-and-modernity
 keywords:
   - "globalisation"
+  - "Muslim weakness"
+  - "Western hegemony"
 venue: "Dār al-Shurūq"
 summary: "Discusses globalisation as a threat to Muslims and Muslims' own responsibility for their weakness."
 rights: link-only

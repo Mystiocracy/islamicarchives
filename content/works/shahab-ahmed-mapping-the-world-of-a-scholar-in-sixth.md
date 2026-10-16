@@ -5,13 +5,13 @@ year: 2000
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - islamic-law
+  - education
 keywords:
-  - "Journal of the American Oriental Society"
   - "Bukhara"
   - "Hanafi scholarship"
+  - "Central Asia"
   - "bibliography"
+  - "Journal of the American Oriental Society"
 summary: "Reconstructs the intellectual world of a twelfth-century Central Asian scholar from a bibliography of the books he studied, illuminating regional traditions of learning."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

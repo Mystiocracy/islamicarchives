@@ -6,7 +6,13 @@ year: 2001
 language: "Arabic"
 type: "Book"
 subjects:
+  - science-and-religion
   - islamic-law
+keywords:
+  - "environment"
+  - "environmental protection"
+  - "Environmental Care in Islamic Law"
+  - "maqasid al-sharia"
 summary: "Presents the Islamic ethics and law of environmental protection."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

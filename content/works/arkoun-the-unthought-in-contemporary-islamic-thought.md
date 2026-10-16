@@ -10,8 +10,9 @@ subjects:
 keywords:
   - "unthought"
   - "impensé"
-  - "Institute of Ismaili Studies"
-  - "Saqi"
+  - "revelation"
+  - "humanism"
+  - "orthodoxy"
 summary: "A collection of essays on what Muslim orthodoxies have left unthought, covering revelation, ethics, law, humanism and the modern state."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

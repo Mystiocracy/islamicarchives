@@ -5,6 +5,11 @@ language: "English"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "sunnah"
+  - "Hujjiyat-e-Hadith"
+  - "hadith rejection"
+  - "Ghulam Ahmad Parwez"
 summary: "Defends the sunnah as a binding source of law and answers the arguments of hadith rejectionists."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,9 +6,10 @@ type: "Essay"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
-  - "Christians and Muslims"
   - "names of God"
+  - "Christians and Muslims"
+  - "same God"
+  - "interfaith"
 summary: "Answers the claim that Muslims and Christians worship different gods."
 venue: "Nawawi Foundation (now The Oasis Initiative)"
 rights: link-only

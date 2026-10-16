@@ -7,8 +7,10 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "apostasy"
+  - "ridda"
+  - "religious freedom"
+  - "blasphemy"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

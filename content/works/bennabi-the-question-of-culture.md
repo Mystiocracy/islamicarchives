@@ -6,12 +6,12 @@ language: "French"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - education
+  - family-and-society
 keywords:
+  - "Le Problème de la culture"
   - "Mushkilat al-thaqafa"
   - "culture"
   - "civilisation"
-  - "tr. Abdul Wahid Lu'lu'a"
 summary: "Defines culture as the shared ethical, aesthetic and practical framework of a society and examines how it can be reconstructed in the Muslim world."
 rights: link-only
 rightsNote: "In copyright (author d. 1973)."

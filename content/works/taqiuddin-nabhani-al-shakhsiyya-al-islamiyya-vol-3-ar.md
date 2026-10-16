@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "The Islamic Personality"
+  - "usul al-fiqh"
+  - "Hizb ut-Tahrir"
 summary: "Third volume, a work on the principles of Islamic jurisprudence."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

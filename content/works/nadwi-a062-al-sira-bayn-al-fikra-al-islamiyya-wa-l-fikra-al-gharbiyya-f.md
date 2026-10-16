@@ -7,6 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - colonialism-and-decolonisation
+keywords:
+  - "The Conflict between Islamic and Western Ideas"
+  - "Westernisation"
+  - "Turkey"
+  - "Ataturk"
+  - "nationalism"
+  - "secularism"
 summary: "The Conflict between Islamic and Western Ideas in Muslim Countries"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

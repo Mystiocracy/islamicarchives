@@ -4,8 +4,12 @@ titleOriginal: "নতুন তুফান ও তার প্রতিরো
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
 keywords:
   - "Naya Tufan aur uska Muqabala"
+  - "irtidad"
+  - "Westernisation"
 summary: "The new storm and how to resist it. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

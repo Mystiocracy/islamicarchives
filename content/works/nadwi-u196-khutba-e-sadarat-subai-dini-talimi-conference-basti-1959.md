@@ -5,6 +5,12 @@ author: nadwi
 year: 1959
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Basti"
 summary: "Presidential address, Basti (30-31 Dec 1959)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

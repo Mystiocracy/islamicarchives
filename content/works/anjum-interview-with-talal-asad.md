@@ -12,6 +12,7 @@ keywords:
   - "Talal Asad"
   - "secularism"
   - "tradition"
+  - "anthropology"
 venue: "American Journal of Islamic Social Sciences 35, no. 1: 55-90"
 summary: "A long interview in which Anjum questions anthropologist Talal Asad on secularism, tradition and Islam."
 rights: link-only

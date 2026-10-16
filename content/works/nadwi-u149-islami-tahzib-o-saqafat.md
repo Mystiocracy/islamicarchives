@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic civilisation"
+  - "Islamic culture"
+  - "tahzib"
+  - "saqafat"
 summary: "Islamic civilisation and culture"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from kitabosunnat.com"

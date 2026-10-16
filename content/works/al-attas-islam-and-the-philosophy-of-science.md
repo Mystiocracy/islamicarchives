@@ -5,13 +5,14 @@ year: 1989
 language: "English"
 type: "Essay"
 subjects:
+  - science-and-religion
   - philosophy-and-theology
-  - islam-and-modernity
 keywords:
   - "philosophy of science"
-  - "ISTAC"
   - "worldview"
   - "knowledge"
+  - "nature"
+  - "metaphysics"
 summary: "Contrasts the Islamic and modern Western philosophies of science, grounding an Islamic view of nature and knowledge in revelation and metaphysics."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

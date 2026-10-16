@@ -4,9 +4,15 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - political-thought
+keywords:
+  - "Wahhabi movement"
+  - "Sanusi movement"
+  - "Sudanese Mahdi"
+  - "Mahdist movement"
+  - "Arab world"
+venue: "Mohammad Yusuf Khan"
 summary: "The Wahhabi, Sanusi and Sudanese Mahdist movements."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

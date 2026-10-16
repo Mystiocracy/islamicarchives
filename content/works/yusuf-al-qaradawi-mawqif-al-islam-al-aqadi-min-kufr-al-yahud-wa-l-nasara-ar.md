@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "kufr"
+  - "Jews"
+  - "Christians"
+  - "People of the Book"
+  - "salvation"
+  - "Ahl al-Kitab"
 summary: "Explains the doctrinal position of Islam on Jewish and Christian disbelief."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -10,10 +10,10 @@ subjects:
   - sufism
 keywords:
   - "neo-traditionalism"
+  - "Walaa Quisay"
   - "Hamza Yusuf"
   - "Abdal Hakim Murad"
-  - "seekers"
-  - "retreats"
+  - "converts"
 summary: "A study of white convert neo-traditionalist scholars in the West and the young seekers who study with them, focusing on three shaykhs: Hamza Yusuf, Abdal Hakim Murad and Umar Faruq Abd-Allah."
 venue: "Edinburgh University Press"
 rights: link-only

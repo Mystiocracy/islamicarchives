@@ -10,9 +10,9 @@ subjects:
 keywords:
   - "Burda"
   - "al-Busiri"
+  - "Qasidat al-Burda"
   - "praise of the Prophet"
-  - "Mauritania"
-  - "Sandala"
+  - "al-Kawakib al-durriyya"
 summary: "An English verse translation of al-Būṣīrī's celebrated thirteenth-century poem in praise of the Prophet Muhammad, with an introduction on its place in Muslim devotional life."
 rights: link-only
 rightsNote: "In copyright (living author)."

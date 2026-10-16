@@ -4,6 +4,15 @@ titleOriginal: "نقوش اقبال"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "Muhammad Iqbal"
+  - "Glory of Iqbal"
+  - "Rawa'i Iqbal"
+  - "Iqbal's poetry"
+  - "khudi"
 summary: "Impressions of Iqbal (Glory of Iqbal). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,12 +6,12 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - political-thought
-  - philosophy-and-theology
 keywords:
+  - "Ahl al-Bayt: tanawwu' adwar wa-wahdat hadaf"
   - "Ahl al-Bayt"
   - "Imams"
-  - "Shiʿi history"
-  - "lectures"
+  - "Shi'i history"
+  - "imamate"
 summary: "Lectures, published after his death, interpreting the varied political roles of the Shiʿi Imams as serving one common aim of protecting the Islamic message."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

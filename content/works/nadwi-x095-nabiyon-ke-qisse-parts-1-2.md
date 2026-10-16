@@ -5,9 +5,11 @@ author: nadwi
 language: "Hindi"
 type: "Book"
 subjects:
-  - hadith-studies
+  - quranic-studies
 keywords:
-  - "Qasas al-Nabiyyin (Arabic)"
+  - "Qasas al-Nabiyyin"
+  - "prophets"
+  - "children"
 summary: "Stories of the Prophets. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

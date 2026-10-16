@@ -5,6 +5,12 @@ author: nadwi
 year: 1972
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "welcome address"
+  - "1972"
 summary: "Address of welcome"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

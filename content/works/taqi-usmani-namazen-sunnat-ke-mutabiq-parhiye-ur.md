@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "salah"
+  - "prayer"
+  - "sunnah method of prayer"
+  - "Perform Salah Correctly"
 summary: "Booklet on performing prayer according to the sunnah."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

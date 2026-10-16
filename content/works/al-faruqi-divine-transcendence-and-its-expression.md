@@ -10,7 +10,7 @@ keywords:
   - "transcendence"
   - "tawhid"
   - "comparative religion"
-  - "ABIM"
+  - "God"
 summary: "Compares conceptions of the divine across religious traditions and argues that Islam safeguards God's absolute transcendence through its language and theology."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

@@ -11,6 +11,7 @@ keywords:
   - "Burda"
   - "al-Busiri"
   - "praise of the Prophet"
+  - "madih"
   - "poetry"
 summary: "A verse translation of al-Būṣīrī's thirteenth-century poem in praise of the Prophet Muhammad, with commentary."
 rights: link-only

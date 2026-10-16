@@ -4,8 +4,10 @@ author: taqi-usmani
 titleOriginal: "درود شریف ایک اہم عبادت ہے"
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "durood"
+  - "salawat"
+  - "blessings on the Prophet"
 summary: "Booklet on the merits and etiquette of sending blessings on the Prophet."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

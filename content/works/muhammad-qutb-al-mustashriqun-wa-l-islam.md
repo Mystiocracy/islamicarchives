@@ -10,6 +10,7 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Orientalism"
+  - "Orientalists"
 venue: "Maktabat Wahba"
 summary: "Examines Orientalist scholarship on Islam and its aims and effects."
 rights: link-only

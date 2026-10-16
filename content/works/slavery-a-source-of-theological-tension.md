@@ -4,10 +4,15 @@ author: jonathan-brown
 year: 2021
 language: English
 type: "Chapter"
-venue: "Georgetown University Press (Building Bridges)"
 subjects:
   - slavery-and-race
   - philosophy-and-theology
+keywords:
+  - "slavery"
+  - "abolition"
+  - "moral theology"
+  - "Islamic ethics"
+venue: "Georgetown University Press (Building Bridges)"
 rights: link-only
 sourceUrl: "https://buildingbridges.georgetown.edu/publications/a-world-of-inequalities-christian-and-muslim-perspectives"
 added: 2026-10-14

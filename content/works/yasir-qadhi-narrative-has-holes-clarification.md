@@ -7,6 +7,9 @@ subjects:
   - quranic-studies
 keywords:
   - "Qur'an preservation"
+  - "Ibrahim Bakeer"
+  - "qira'at"
+  - "Qur'an compilation"
 summary: "His clarification of his 2020 remark on Qur'an preservation, answering Shaykh Ibrahim Bakeer."
 venue: "Yasir Qadhi"
 rights: link-only

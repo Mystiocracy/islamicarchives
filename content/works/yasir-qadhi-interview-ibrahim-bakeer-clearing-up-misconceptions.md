@@ -5,9 +5,12 @@ year: 2020
 language: English
 type: "Interview"
 subjects:
-  - philosophy-and-theology
+  - quranic-studies
 keywords:
-  - "interview"
+  - "Ibrahim Bakeer"
+  - "Qur'an preservation"
+  - "controversy"
+  - "misconceptions"
 summary: "A conversation clarifying remarks that had caused controversy."
 venue: "Imam Ibrahim Bakeer"
 rights: link-only

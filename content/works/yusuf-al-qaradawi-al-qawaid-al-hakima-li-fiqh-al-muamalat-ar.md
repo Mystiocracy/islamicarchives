@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "fiqh al-muamalat"
+  - "financial transactions"
+  - "legal maxims"
+  - "riba"
+  - "Islamic finance"
 summary: "Lays out general principles governing the fiqh of financial dealings."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

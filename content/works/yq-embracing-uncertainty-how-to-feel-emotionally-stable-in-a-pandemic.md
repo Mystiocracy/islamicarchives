@@ -5,10 +5,14 @@ coAuthors: "Hassan Elwan"
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - psychology-and-mental-health
 keywords:
-  - "Data"
-  - "Reports"
+  - "uncertainty"
+  - "emotional stability"
+  - "Covid-19"
+  - "pandemic"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

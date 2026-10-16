@@ -8,8 +8,9 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "fard kifaya"
+  - "communal obligation"
+  - "collective responsibility"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -8,9 +8,12 @@ type: "Book"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "psychology"
+  - "human psychology"
   - "human soul"
   - "drives"
+  - "emotions"
+  - "fear"
+  - "love"
 venue: "Dār al-Shurūq (first ed. Dār al-Qalam)"
 summary: "Studies of human psychology (drives, emotions, fear, love) from an Islamic standpoint, as an alternative to Western psychology."
 rights: link-only

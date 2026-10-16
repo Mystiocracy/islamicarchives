@@ -4,8 +4,11 @@ titleOriginal: "حجۃ الوداع کی شان یکتائی"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "Hajjat al-Wida"
+  - "Farewell Pilgrimage"
+  - "Farewell Sermon"
+  - "sira"
 summary: "The uniqueness of the Farewell Pilgrimage"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

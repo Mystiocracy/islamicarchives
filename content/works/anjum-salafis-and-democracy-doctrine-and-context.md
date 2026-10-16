@@ -12,6 +12,7 @@ keywords:
   - "democracy"
   - "Arab Spring"
   - "Egypt"
+  - "Nour Party"
 venue: "The Muslim World 106, no. 3: 448-473"
 summary: "Examines Salafi positions on democracy after the Arab uprisings, relating doctrinal arguments to their political contexts."
 rights: link-only

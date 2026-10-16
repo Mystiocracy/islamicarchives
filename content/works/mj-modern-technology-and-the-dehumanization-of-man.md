@@ -4,9 +4,15 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
+  - science-and-religion
   - islam-and-modernity
+keywords:
+  - "modern technology"
+  - "industrialization"
+  - "dehumanization"
+  - "materialism"
+venue: "Mohammad Yusuf Khan"
 summary: "Industrial technology as destructive of human and spiritual values."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

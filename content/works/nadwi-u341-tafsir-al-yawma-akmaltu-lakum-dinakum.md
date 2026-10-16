@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+keywords:
+  - "Surat al-Ma'ida 5:3"
+  - "al-yawma akmaltu lakum dinakum"
+  - "perfection of religion"
+  - "tafsir"
 summary: "Commentary on 'This day I have perfected your religion'"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

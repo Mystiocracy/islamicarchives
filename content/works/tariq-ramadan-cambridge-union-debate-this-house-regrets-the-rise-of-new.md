@@ -7,10 +7,10 @@ type: "Video"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "debate"
   - "New Atheism"
   - "Cambridge Union"
-  - "religion"
+  - "atheism"
+  - "pluralism"
 summary: "Cambridge Union debate on the rise of New Atheism in which Ramadan argues against the motion from a position of religious and philosophical pluralism."
 venue: "Cambridge Union"
 rights: link-only

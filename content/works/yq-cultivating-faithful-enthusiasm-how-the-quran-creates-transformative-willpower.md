@@ -5,11 +5,13 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - quranic-studies
+  - psychology-and-mental-health
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "willpower"
+  - "motivation"
+  - "iman"
+  - "spiritual transformation"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

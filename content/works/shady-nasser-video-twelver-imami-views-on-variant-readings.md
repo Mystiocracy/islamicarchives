@@ -8,9 +8,11 @@ subjects:
   - quranic-studies
   - islamic-law
 keywords:
-  - "Shi'i"
-  - "qirāʾāt"
-  - "lecture"
+  - "Twelver Shi'ism"
+  - "Imami"
+  - "qira'at"
+  - "variant readings"
+  - "tahrif"
 summary: "A lecture on 30 November 2017 (CMES, Harvard). The event page carries no video link, so this is an information link only."
 venue: "Harvard CMES"
 rights: link-only

@@ -4,8 +4,14 @@ author: yaqeen-institute
 year: 2022
 language: "English"
 type: "Article"
-subjects: []
-keywords: []
+subjects:
+  - islamic-law
+  - sufism
+keywords:
+  - "menstruation"
+  - "dhikr"
+  - "du'a"
+  - "worship without salah"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

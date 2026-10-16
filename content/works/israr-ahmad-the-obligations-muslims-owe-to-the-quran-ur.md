@@ -7,10 +7,10 @@ type: "Pamphlet"
 subjects:
   - quranic-studies
 keywords:
-  - "Quran"
-  - "duties"
+  - "rights of the Qur'an"
   - "recitation"
   - "tadabbur"
+  - "conveying the Qur'an"
 summary: "Sets out five duties a Muslim owes the Qur'an, from belief and recitation to understanding, practice and conveying it to others."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

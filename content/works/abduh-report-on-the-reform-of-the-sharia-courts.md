@@ -12,7 +12,8 @@ keywords:
   - "Taqrir islah al-mahakim al-shariyya"
   - "qadis"
   - "legal reform"
-  - "Grand Mufti"
+  - "sharia courts"
+  - "Egypt"
 summary: "An official report, prepared after ʿAbduh's inspection of the Egyptian sharīʿa courts, recommending reforms in procedure, staffing and the training of judges."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1905); later translations may still be in copyright."

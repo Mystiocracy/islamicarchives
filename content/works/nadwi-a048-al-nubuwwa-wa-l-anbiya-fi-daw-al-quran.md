@@ -6,8 +6,12 @@ year: 1967
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
   - quranic-studies
+keywords:
+  - "Prophethood and the Prophets in Light of the Qur'an"
+  - "prophethood"
+  - "prophets"
 summary: "Prophethood and the Prophets in Light of the Qur'an"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

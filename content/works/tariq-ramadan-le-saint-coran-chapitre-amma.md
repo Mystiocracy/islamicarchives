@@ -7,10 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "The Holy Qur'an, Chapter 'Amma, with a French Translation of the Meaning of Its Verses (English rendering of the title)"
-  - "Qur'an"
   - "juz' Amma"
-  - "translation"
+  - "Qur'an translation"
+  - "French translation"
+  - "The Holy Qur'an, Chapter 'Amma"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Tawhid (Lyon)"
 rights: link-only

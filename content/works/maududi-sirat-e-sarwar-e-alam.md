@@ -6,12 +6,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - quranic-studies
 keywords:
   - "sira"
   - "Prophet Muhammad"
-  - "Na'im Siddiqi"
-  - "biography"
+  - "prophethood"
+  - "Tafhim al-Qur'an"
 summary: "An unfinished biography of the Prophet compiled from his writings, especially the commentary in Tafhim al-Qur'an, setting the Prophet's mission in the context of earlier prophets."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

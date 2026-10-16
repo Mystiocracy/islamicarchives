@@ -7,7 +7,9 @@ type: "Video"
 subjects:
   - political-thought
 keywords:
-  - "caliphate centenary"
+  - "umma"
+  - "caliphate"
+  - "abolition of the caliphate"
   - "renewal"
 venue: "Ummatics Ramadan Series 1447"
 summary: "Lecture on prospects for renewal of the Umma a century after the caliphate's abolition."

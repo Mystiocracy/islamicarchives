@@ -7,8 +7,12 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Al-Sira' bayn al-Fikra al-Islamiyya wa al-Fikra al-Gharbiyya (Ar.) / Muslim Mamalik mein Islamiyat aur Maghribiyat ki Kashmakash (Ur.)"
-  - "Mohammad Asif Kidwai"
+  - "Western civilisation"
+  - "Westernisation"
+  - "Muslim countries"
+  - "al-Sira' bayn al-Fikra al-Islamiyya wa al-Fikra al-Gharbiyya"
+  - "Muslim Mamalik mein Islamiyat aur Maghribiyat ki Kashmakash"
+  - "secularism"
 summary: "Western Civilisation, Islam and Muslims. Translated by Mohammad Asif Kidwai from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

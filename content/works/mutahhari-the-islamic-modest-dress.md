@@ -12,6 +12,7 @@ keywords:
   - "hijab"
   - "veiling"
   - "The Problem of Hijab"
+  - "modesty"
 summary: "A juristic and social discussion of hijab, its Qur'anic basis, its limits (face and hands) and the philosophy behind it, written in response to modernist critiques."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

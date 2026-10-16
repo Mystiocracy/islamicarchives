@@ -5,11 +5,10 @@ titleOriginal: "كلمة الأستاذ محمد قطب الفائز بجائز�
 year: 1988
 language: "Arabic"
 type: "Article"
-subjects:
-  - education
 keywords:
   - "King Faisal Prize"
-  - "speech"
+  - "acceptance speech"
+  - "Islamic studies"
 venue: "King Faisal Foundation"
 summary: "His acceptance speech for the 1988 King Faisal Prize, archived with the prize citation and ceremony video."
 rights: link-only

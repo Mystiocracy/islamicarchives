@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - sufism
+keywords:
+  - "saints"
+  - "awliya"
+  - "suhbat"
+  - "shaykhs"
 summary: "Company of the people of the heart (meetings with saints)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

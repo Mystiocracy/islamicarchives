@@ -8,8 +8,9 @@ subjects:
   - quranic-studies
   - education
 keywords:
-  - "lecture"
-  - "al-Anfal"
+  - "Surat al-Anfal"
+  - "tarbiya"
+  - "Battle of Badr"
 venue: "YouTube"
 summary: "Lecture (1h37) drawing educational lessons from Surat al-Anfal."
 rights: link-only

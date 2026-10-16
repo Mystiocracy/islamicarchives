@@ -6,6 +6,11 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Al-Islam Hadarat al-Ghad"
+  - "Islamic civilisation"
+  - "future"
+  - "Western civilisation"
 summary: "Argues for Islam as the basis of tomorrow's civilisation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

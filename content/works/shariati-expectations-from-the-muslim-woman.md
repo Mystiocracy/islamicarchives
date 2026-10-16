@@ -6,11 +6,12 @@ language: "Persian"
 type: "Speech"
 subjects:
   - women-and-gender
+  - islam-and-modernity
 keywords:
   - "Entezarat-e mardom az zan-e mosalman"
-  - "women"
-  - "modernity"
+  - "Muslim woman"
   - "tradition"
+  - "Westernisation"
 summary: "A lecture asking what society expects of the modern Muslim woman and proposing a path between inherited custom and imported Western models."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

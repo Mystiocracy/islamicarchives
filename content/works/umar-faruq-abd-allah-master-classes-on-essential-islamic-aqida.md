@@ -6,10 +6,10 @@ type: "Video"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "ʿaqīda"
+  - "aqida"
   - "creed"
-  - "Rosales"
-  - "master classes"
+  - "Alqueria de Rosales"
+  - "tawhid"
 summary: "A multi-part series of classes on the essentials of Islamic creed, from Alqueria de Rosales."
 venue: "Alqueria de Rosales Campus"
 rights: link-only

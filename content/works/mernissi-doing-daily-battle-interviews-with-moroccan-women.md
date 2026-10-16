@@ -8,6 +8,7 @@ type: "Interview"
 subjects:
   - women-and-gender
 keywords:
+  - "Le Maroc raconté par ses femmes"
   - "Le monde n'est pas un harem"
   - "oral history"
   - "Moroccan women"

@@ -4,6 +4,13 @@ titleOriginal: "ملت اسلامیہ کا مقام و پیغام"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "Muslim community"
+  - "mission of the ummah"
 summary: "The Muslim community's place and message"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

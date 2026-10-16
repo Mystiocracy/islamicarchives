@@ -5,6 +5,11 @@ language: "English"
 type: "Paper"
 subjects:
   - economics
+keywords:
+  - "financial crisis"
+  - "2008 crisis"
+  - "financial reform"
+  - "Islamic finance"
 summary: "A short paper on what an Islamic framework adds to post-crisis financial reform."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

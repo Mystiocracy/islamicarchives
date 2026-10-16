@@ -4,8 +4,15 @@ titleOriginal: "আরকানে আরবা’আ"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - islamic-law
+  - sufism
 keywords:
-  - "Arkan-e-Arba'a (Ar. al-Arkan al-Arba'a)"
+  - "al-Arkan al-Arba'a"
+  - "salat"
+  - "zakat"
+  - "sawm"
+  - "hajj"
 summary: "The four pillars. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

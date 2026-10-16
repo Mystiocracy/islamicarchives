@@ -10,6 +10,7 @@ keywords:
   - "The Poverty of Fanaticism"
   - "extremism"
   - "tasawwuf"
+  - "tazkiya"
   - "spiritual reform"
 summary: "Argues that militant and fanatical movements reflect a neglect of the inner, spiritual dimension of Islam, and calls for a revival of Sufi-informed self-purification."
 rights: link-only

@@ -6,7 +6,13 @@ year: 1980
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
+keywords:
+  - "Hajj"
+  - "pilgrimage"
+  - "Mecca"
+  - "Ibrahim"
 summary: "And Proclaim the Hajj to Mankind"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

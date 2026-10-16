@@ -13,7 +13,7 @@ keywords:
   - "epistemology"
   - "dialectical materialism"
   - "Marxism"
-  - "tr. Shams C. Inati"
+  - "empiricism"
 summary: "A critique of materialist and empiricist theories of knowledge and of dialectical materialism, setting out a rationalist epistemology and a theistic worldview."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

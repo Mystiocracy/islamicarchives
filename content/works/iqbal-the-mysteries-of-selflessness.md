@@ -12,7 +12,8 @@ keywords:
   - "Rumuz-i-Bekhudi"
   - "community"
   - "millat"
-  - "A. J. Arberry (translator)"
+  - "selflessness"
+  - "Persian poetry"
 summary: "The companion poem to Asrar-i-Khudi, describing how the individual self finds completion within the Muslim community and its law."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

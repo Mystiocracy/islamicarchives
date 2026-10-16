@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "extremism"
+  - "tatarruf"
+  - "Islamic Awakening between Rejection and Extremism"
 summary: "Addresses the Islamic revival, steering between rejection of religion and extremism."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

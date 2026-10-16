@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "usul al-fiqh"
   - "legal theory"
-  - "Shafi'i"
+  - "al-Shafi'i"
   - "Sunni jurisprudence"
+  - "ijtihad"
 summary: "A survey of the development of Sunni legal theory from its formative period to modern reformist attempts to rethink it."
 rights: link-only
 rightsNote: "In copyright (living author)."

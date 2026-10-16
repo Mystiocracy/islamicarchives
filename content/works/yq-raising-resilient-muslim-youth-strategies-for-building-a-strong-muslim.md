@@ -9,10 +9,10 @@ subjects:
   - family-and-society
   - psychology-and-mental-health
 keywords:
-  - "Family & Community"
-  - "General Psychology"
-  - "Parenting"
-  - "Psychology & Mental Health"
+  - "Muslim youth"
+  - "resilience"
+  - "Muslim identity"
+  - "parenting"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

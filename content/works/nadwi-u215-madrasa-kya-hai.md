@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "madrasa"
+  - "Islamic seminaries"
+  - "purpose of madrasa"
 summary: "What is a madrasa?"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

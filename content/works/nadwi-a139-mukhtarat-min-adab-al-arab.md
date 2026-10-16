@@ -5,6 +5,14 @@ author: nadwi
 year: 1999
 language: "Arabic"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "Arabic literature"
+  - "anthology"
+  - "adab"
+  - "textbook"
+  - "madrasa"
 summary: "Selections from Arabic Literature 2 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

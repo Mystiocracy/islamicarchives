@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1970
 language: Urdu
 type: "Book"
-venue: "Maktaba-e-Safeer, Sant Nagar, Lahore"
 subjects:
-  - philosophy-and-theology
+  - quranic-studies
+  - hadith-studies
+keywords:
+  - "Qur'anic teachings"
+  - "sayings of the Prophet"
+  - "Islamic teachings"
+venue: "Maktaba-e-Safeer, Sant Nagar, Lahore"
 summary: "An Urdu compilation of Qur'anic teachings and sayings of the Prophet."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Internet Archive. First-edition date on the imprint is illegible; 1970s"

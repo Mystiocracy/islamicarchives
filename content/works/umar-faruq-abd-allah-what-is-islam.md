@@ -7,8 +7,8 @@ type: "Video"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "introduction"
-  - "Islam"
+  - "introduction to Islam"
+  - "IslamiCity"
 summary: "A short introduction to Islam, also posted on IslamiCity on 16 March 2018."
 venue: "Islam Rewards / IslamiCity"
 rights: link-only

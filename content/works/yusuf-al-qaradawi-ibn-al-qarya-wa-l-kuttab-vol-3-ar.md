@@ -6,7 +6,13 @@ year: 2006
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - political-thought
+keywords:
+  - "autobiography"
+  - "memoir"
+  - "imprisonment"
+  - "Qatar"
+  - "Nasser"
 summary: "Third volume of his memoirs, covering his imprisonment, move to Qatar and early career there."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

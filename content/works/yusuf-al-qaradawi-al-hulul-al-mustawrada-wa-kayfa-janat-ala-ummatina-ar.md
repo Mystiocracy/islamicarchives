@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "imported solutions"
+  - "liberalism"
+  - "socialism"
+  - "nationalism"
+  - "secularism"
 summary: "Argues that imported ideologies failed Muslim societies."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

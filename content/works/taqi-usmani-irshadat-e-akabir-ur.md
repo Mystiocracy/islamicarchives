@@ -5,7 +5,13 @@ titleOriginal: "ارشادات اکابر"
 language: "Urdu"
 type: "Collection"
 subjects:
-  - family-and-society
+  - sufism
+keywords:
+  - "Deobandi scholars"
+  - "akabir"
+  - "islah"
+  - "spiritual reform"
+  - "sayings"
 summary: "Reform-related sayings of senior Deobandi scholars, compiled by him."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

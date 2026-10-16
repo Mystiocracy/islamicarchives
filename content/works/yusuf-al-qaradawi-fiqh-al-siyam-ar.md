@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "fasting"
+  - "sawm"
+  - "siyam"
+  - "Ramadan"
 summary: "Simplified jurisprudence of fasting in light of the Qurʾān and Sunna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Speech"
 subjects:
   - islam-and-modernity
+keywords:
+  - "the West"
+  - "Western civilisation"
+  - "dialogue"
+  - "Europe"
 summary: "A Conversation with the West"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - family-and-society
+keywords:
+  - "Muslim society"
+  - "social ethics"
+  - "community"
+  - "Islamic values"
 summary: "Describes the features of the Muslim society the author hopes for."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

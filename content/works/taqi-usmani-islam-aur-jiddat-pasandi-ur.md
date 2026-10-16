@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - hadith-studies
+keywords:
+  - "Islam and Modernism"
+  - "modernism"
+  - "authority of hadith"
+  - "ijtihad"
 summary: "Urdu critique of modernist approaches to the Islamic sources; English: Islam and Modernism."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

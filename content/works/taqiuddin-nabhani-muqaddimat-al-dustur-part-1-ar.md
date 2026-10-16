@@ -8,6 +8,11 @@ type: "Book"
 subjects:
   - political-thought
   - islamic-law
+keywords:
+  - "Draft Constitution of the Khilafah"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "constitution"
 summary: "Evidence and reasoning for each article of the Party’s draft constitution for a caliphate state."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

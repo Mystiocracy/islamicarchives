@@ -8,8 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "caliphate"
-  - "ummatics"
-  - "podcast"
+  - "khilafa"
+  - "Ummatics Institute"
+  - "Islam21c"
 venue: "Islam21c"
 summary: "Podcast interview on the Ummatics Institute and the caliphate."
 rights: link-only

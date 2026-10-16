@@ -6,6 +6,11 @@ language: Arabic
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "tawhid"
+  - "kalam"
+  - "Theology of Unity"
+  - "Beirut"
 summary: "ʿAbduh’s treatise on the unity of God, developed from his lectures in Beirut."
 rights: public-domain
 rightsNote: "author d. 1905"

@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Ramadan"
+  - "fasting"
+  - "sawm"
+  - "renewal of faith"
 summary: "Ramadan: new life for the true believer"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

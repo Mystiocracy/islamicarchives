@@ -6,7 +6,13 @@ year: 1997
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - islamic-law
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Arab youth"
+  - "sacrifice"
+  - "humanity"
+  - "Arab world"
 summary: "The Sacrifice of Arab Youth: A Bridge to Humanity's Happiness"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

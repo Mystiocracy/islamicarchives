@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "iman"
+  - "faith"
+  - "ni'ma"
+  - "blessing of faith"
 summary: "Faith is God's greatest blessing"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

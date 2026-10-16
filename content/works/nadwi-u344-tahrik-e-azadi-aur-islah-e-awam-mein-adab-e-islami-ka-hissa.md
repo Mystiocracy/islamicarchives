@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - political-thought
+  - colonialism-and-decolonisation
+  - education
+keywords:
+  - "Indian freedom movement"
+  - "Islamic literature"
+  - "Urdu literature"
+  - "reform"
 summary: "Role of Islamic literature in the freedom movement and popular reform"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

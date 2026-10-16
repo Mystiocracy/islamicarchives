@@ -7,6 +7,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic movements"
+  - "Muslim Brotherhood"
+  - "self-criticism"
+  - "Islamic revival"
 summary: "A critical assessment of Islamic movements."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

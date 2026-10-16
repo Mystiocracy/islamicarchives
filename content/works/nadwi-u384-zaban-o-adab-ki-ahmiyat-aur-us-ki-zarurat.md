@@ -4,6 +4,12 @@ titleOriginal: "زبان و ادب کی اہمیت اور اس کی ضرورت"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Urdu"
+  - "Arabic literature"
+  - "adab"
 summary: "The importance of language and literature"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

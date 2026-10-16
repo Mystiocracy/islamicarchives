@@ -6,11 +6,12 @@ language: "English"
 type: "Collection"
 subjects:
   - women-and-gender
+  - political-thought
 keywords:
-  - "essays"
   - "Muslim women"
+  - "fundamentalism"
+  - "women's protest"
   - "memory"
-  - "Zed Books"
 summary: "Collected essays on women, religion and politics in the Muslim world, including reflections on fundamentalism and women's protest."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

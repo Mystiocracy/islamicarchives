@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "Qur'an translation"
   - "tafsir"
-  - "commentary"
-  - "Dar al-Andalus"
+  - "Qur'an commentary"
+  - "Arabic usage"
+  - "rationalist exegesis"
 summary: "A complete English translation of the Qur'an with extensive explanatory notes, which reads the text in the light of classical Arabic usage and reason and gives particular weight to historical context."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

@@ -8,9 +8,10 @@ subjects:
   - political-thought
   - colonialism-and-decolonisation
 keywords:
-  - "Muslims and the present political struggle"
+  - "Muslims and the Present Political Struggle"
   - "Indian nationalism"
-  - "Congress"
+  - "composite nationalism"
+  - "Indian National Congress"
   - "Muslim League"
 summary: "A multi-volume critique, written in the late 1930s, of composite Indian nationalism and of the secular nationalism of the Muslim League, arguing for a distinct Islamic political goal."
 rights: link-only

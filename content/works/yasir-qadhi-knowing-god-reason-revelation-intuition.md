@@ -7,7 +7,12 @@ type: "Essay"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Knowing God: Reason, Revelation, and Intuition"
+  - "knowing God"
+  - "reason"
+  - "revelation"
+  - "intuition"
+  - "fitra"
+  - "MuslimMatters"
 summary: "An essay by Yasir Qadhi on MuslimMatters."
 venue: "MuslimMatters"
 rights: link-only

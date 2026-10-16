@@ -7,10 +7,9 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "introduction"
   - "history of Islam"
   - "schools of thought"
-  - "HarperSanFrancisco"
+  - "introduction to Islam"
 summary: "A concise introduction to Islamic belief, law, schools of thought and history up to the present."
 rights: link-only
 rightsNote: "In copyright (living author)."

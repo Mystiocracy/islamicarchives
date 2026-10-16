@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "Lucknow"
+  - "managing committee"
+  - "1969"
 summary: "Report of the Nadwa managing committee meeting, 1969"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

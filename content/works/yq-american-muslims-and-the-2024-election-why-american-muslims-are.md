@@ -6,11 +6,13 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - islam-and-modernity
   - political-thought
 keywords:
-  - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "2024 election"
+  - "American Muslims"
+  - "political alliances"
+  - "Gaza"
+  - "voting"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

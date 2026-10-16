@@ -8,6 +8,11 @@ type: "Book"
 subjects:
   - political-thought
   - islamic-law
+keywords:
+  - "Draft Constitution of the Khilafah"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "constitution"
 summary: "Second part of the evidence for the draft constitution’s articles."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

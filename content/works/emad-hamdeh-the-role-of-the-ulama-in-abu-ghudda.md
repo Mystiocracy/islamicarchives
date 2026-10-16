@@ -5,8 +5,13 @@ language: English
 type: "Paper"
 subjects:
   - islamic-law
+  - education
 keywords:
-  - "The Role of the ʿUlamā' in the Thoughts of ʿAbd al-Fattāḥ Abū Ghudda"
+  - "Abd al-Fattah Abu Ghudda"
+  - "ulama"
+  - "scholarly authority"
+  - "Albani"
+  - "Syria"
 summary: "On the Syrian scholar who criticised al-Albānī."
 venue: "Not stated"
 rights: link-only

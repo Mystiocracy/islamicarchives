@@ -5,7 +5,12 @@ titleOriginal: "نقوش رفتگان"
 language: "Urdu"
 type: "Collection"
 subjects:
-  - islam-and-modernity
+  - education
+keywords:
+  - "biographical sketches"
+  - "Deobandi scholars"
+  - "ulama"
+  - "obituaries"
 summary: "Biographical sketches of scholars and figures he knew."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

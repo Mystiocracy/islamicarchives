@@ -6,7 +6,12 @@ year: 1993
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - islam-and-modernity
+keywords:
+  - "Madha Khasira al-Alam"
+  - "Islam and the World"
+  - "What the World Lost by the Decline of Muslims"
+  - "book history"
 summary: "A Book's Story Told by Its Author (on Madha Khasira al-ʿAlam)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -4,11 +4,10 @@ titleOriginal: "নবীয়ে রহমত"
 author: nadwi
 language: "Bengali"
 type: "Book"
-subjects:
-  - hadith-studies
 keywords:
-  - "Nabi-e-Rahmat (Ar. al-Sira al-Nabawiyya)"
-  - "Abu Saeed Muhammad Omar Ali (translator of the Islamic Foundation Bangladesh edition; foundation copy not checked)"
+  - "Nabi-e-Rahmat"
+  - "al-Sira al-Nabawiyya"
+  - "Prophet Muhammad"
 summary: "The Prophet of Mercy. Translated by Abu Saeed Muhammad Omar Ali (translator of the Islamic Foundation Bangladesh edition; foundation copy not checked)."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

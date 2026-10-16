@@ -7,8 +7,10 @@ type: "Video"
 subjects:
   - quranic-studies
 keywords:
-  - "Surah al-Asr"
+  - "Surat al-Asr"
+  - "Rah-e-Nijat"
   - "salvation"
+  - "tafsir"
 summary: "Video lectures on Surah al-Asr as the Qur'an's short guide to salvation."
 rights: link-only
 rightsNote: "Recorded lectures; linked, not hosted."

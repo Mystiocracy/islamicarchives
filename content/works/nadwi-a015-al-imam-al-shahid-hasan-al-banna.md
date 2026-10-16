@@ -4,6 +4,12 @@ titleOriginal: "الإمام الشهيد حسن البنا"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Hasan al-Banna"
+  - "Muslim Brotherhood"
+  - "Egypt"
 summary: "The Martyred Imam Hasan al-Banna"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

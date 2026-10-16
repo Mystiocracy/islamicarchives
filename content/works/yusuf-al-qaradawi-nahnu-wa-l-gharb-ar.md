@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "the West"
+  - "Islam and the West"
+  - "clash of civilisations"
+  - "terrorism"
 summary: "Answers difficult questions about Muslims' relations with the West."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

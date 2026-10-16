@@ -4,8 +4,10 @@ author: taqi-usmani
 titleOriginal: "جہانِ دیدہ"
 language: "English"
 type: "Book"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "Jahan-e-Deedah"
+  - "travelogue"
+  - "Muslim communities"
 summary: "English edition of his travelogue Jahan-e-Deedah (matched by title only)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

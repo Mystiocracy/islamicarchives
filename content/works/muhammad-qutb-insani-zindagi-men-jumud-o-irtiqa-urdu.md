@@ -5,9 +5,12 @@ titleOriginal: "انسانی زندگی میں جمود و ارتقاء"
 language: "Urdu"
 type: "Translation"
 subjects:
+  - islam-and-modernity
   - philosophy-and-theology
 keywords:
+  - "al-Tatawwur wa-l-thabat fi hayat al-bashariyya"
   - "change and permanence"
+  - "evolutionism"
 summary: "Urdu translation of al-Tatawwur wa-l-thabat fi hayat al-bashariyya."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

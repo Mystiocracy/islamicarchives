@@ -7,6 +7,7 @@ language: "Persian"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - political-thought
 keywords:
   - "Akhlaq-e khodayan"
   - "ethics"

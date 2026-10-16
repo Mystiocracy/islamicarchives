@@ -4,6 +4,14 @@ titleOriginal: "ملک و معاشرہ کا سب سے خطرناک مرض ظلم
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - family-and-society
+  - political-thought
+keywords:
+  - "zulm"
+  - "oppression"
+  - "cruelty"
+  - "injustice"
 summary: "Society's most dangerous disease: oppression and cruelty"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

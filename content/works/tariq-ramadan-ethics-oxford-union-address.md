@@ -5,12 +5,14 @@ year: 2013
 language: "English"
 type: "Video"
 subjects:
+  - islam-and-modernity
   - philosophy-and-theology
 keywords:
-  - "ethics"
   - "Oxford Union"
-  - "religion"
-  - "values"
+  - "ethics"
+  - "freedom"
+  - "rationality"
+  - "modern values"
 summary: "Ramadan addresses the Oxford Union on ethics in religious tradition, taking questions on freedom, rationality, respect for other beliefs and the contradictions of modern values."
 venue: "Oxford Union"
 rights: link-only

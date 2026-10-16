@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "madrasa"
+  - "Islamic seminaries"
+  - "humanity"
 summary: "The madrasa is a need of humanity"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -5,11 +5,13 @@ year: 2026
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
   - hadith-studies
+  - islamic-law
 keywords:
-  - "Acts of Worship"
-  - "Hadith"
+  - "Ramadan"
+  - "fasting"
+  - "motivation"
+  - "last ten nights"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

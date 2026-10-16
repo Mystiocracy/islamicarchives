@@ -5,6 +5,15 @@ author: nadwi
 year: 1997
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Europe"
+  - "America"
+  - "Israel"
+  - "Palestine"
+  - "Zionism"
+  - "the West"
 summary: "Europe, America and Israel: Exposing a Glaring Truth"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

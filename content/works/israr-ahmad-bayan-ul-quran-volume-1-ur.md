@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "tafsir"
   - "Bayan-ul-Quran"
-  - "commentary"
+  - "Urdu tafsir"
+  - "Surat al-Baqara"
 summary: "Opening volume of the written edition of his lecture commentary on the whole Qur'an; the other six volumes are on the same site."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

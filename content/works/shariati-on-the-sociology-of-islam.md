@@ -5,13 +5,13 @@ year: 1979
 language: "Persian"
 type: "Anthology"
 subjects:
-  - political-thought
   - philosophy-and-theology
+  - political-thought
 keywords:
-  - "Hamid Algar"
-  - "Mizan Press"
+  - "sociology of religion"
   - "Islamology"
   - "philosophy of history"
+  - "worldview"
 summary: "English anthology of Sharīʿatī lectures translated by Hamid Algar, covering his worldview, philosophy of history and the anthropology of Islam."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

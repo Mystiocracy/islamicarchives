@@ -4,6 +4,10 @@ titleOriginal: "ہدایت و تبلیغ کی اہمیت"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "tabligh"
+  - "da'wa"
+  - "hidaya"
 summary: "Importance of guidance and preaching"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

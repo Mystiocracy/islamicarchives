@@ -6,6 +6,11 @@ language: "English"
 type: "Translation"
 subjects:
   - family-and-society
+keywords:
+  - "akhlaq"
+  - "morality"
+  - "Islamic ethics"
+  - "values"
 summary: "Examines the moral values and ethical principles of Islam and their application."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

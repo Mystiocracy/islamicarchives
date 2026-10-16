@@ -5,7 +5,11 @@ titleOriginal: "تراشے"
 language: "Urdu"
 type: "Collection"
 subjects:
-  - islam-and-modernity
+  - family-and-society
+keywords:
+  - "newspaper columns"
+  - "social issues"
+  - "short essays"
 summary: "Short essays and newspaper columns on assorted religious and social topics."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

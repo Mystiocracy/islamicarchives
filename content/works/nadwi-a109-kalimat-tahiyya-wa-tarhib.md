@@ -4,6 +4,13 @@ titleOriginal: "كلمة تحية وترحيب (كلمتان)"
 author: nadwi
 language: "Arabic"
 type: "Speech"
+subjects:
+  - education
+keywords:
+  - "Islamic literature"
+  - "adab islami"
+  - "seminar"
+  - "welcome address"
 summary: "Words of Greeting and Welcome (two addresses)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

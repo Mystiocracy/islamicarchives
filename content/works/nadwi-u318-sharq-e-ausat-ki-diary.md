@@ -4,6 +4,15 @@ titleOriginal: "شرق اوسط کی ڈائری"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Middle East"
+  - "Arab world"
+  - "Egypt"
+  - "Syria"
+  - "travel diary"
 summary: "Middle East diary (travelogue)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

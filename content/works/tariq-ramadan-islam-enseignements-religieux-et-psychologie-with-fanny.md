@@ -8,10 +8,11 @@ type: "Video"
 subjects:
   - psychology-and-mental-health
 keywords:
+  - "Fanny Bauer Motti"
   - "psychology"
-  - "spirituality"
-  - "religious teaching"
-  - "dialogue"
+  - "suffering"
+  - "emotions"
+  - "the self"
 summary: "A series of recorded discussions between Ramadan and psychologist Fanny Bauer Motti on how religious teachings and psychology can inform one another in understanding suffering, emotion and the self."
 venue: "Tariq Ramadan Official"
 rights: link-only

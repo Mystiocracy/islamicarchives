@@ -10,8 +10,9 @@ subjects:
 keywords:
   - "Ibn al-Qayyim"
   - "Madarij al-Salikin"
-  - "Sufism"
   - "Hanbalism"
+  - "al-Harawi"
+  - "mysticism"
 venue: "Oriente Moderno 90, no. 1: 166-188"
 summary: "Argues that Ibn al-Qayyim's Madarij reworks Sufi spirituality around scripture and reason rather than mystical illumination."
 rights: link-only

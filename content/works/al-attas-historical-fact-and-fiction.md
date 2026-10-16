@@ -5,12 +5,13 @@ year: 2011
 language: "English"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - colonialism-and-decolonisation
 keywords:
   - "Malay historiography"
   - "coming of Islam"
   - "Islamization"
-  - "UTM Press"
+  - "Malay Archipelago"
+  - "Orientalism"
 summary: "Criticises the methods and assumptions of historians of the Malay Archipelago in their accounts of the coming and spread of Islam, and offers al-Attas's own interpretation of the chronology and effects of Islamization."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

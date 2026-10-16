@@ -11,7 +11,7 @@ keywords:
   - "sexuality"
   - "Morocco"
   - "sociology"
-  - "Brandeis dissertation"
+  - "gender relations"
 summary: "A sociological study of gender relations in Morocco that contrasts traditional Muslim conceptions of female sexuality with the pressures of modernisation."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

@@ -4,6 +4,13 @@ titleOriginal: "موجودہ عالم اسلام کے لیے فیصلہ کن م�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Muslim world"
+  - "ummah"
+  - "priorities"
 summary: "The decisive front for today's Muslim world"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

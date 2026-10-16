@@ -5,10 +5,12 @@ year: 2023
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
+  - women-and-gender
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "hijab"
+  - "World Hijab Day"
+  - "modesty"
+  - "veiling"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

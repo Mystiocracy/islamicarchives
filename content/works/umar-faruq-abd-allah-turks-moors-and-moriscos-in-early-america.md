@@ -6,8 +6,10 @@ type: "Essay"
 subjects:
   - islam-and-modernity
 keywords:
-  - "early America"
   - "Moriscos"
+  - "Moors"
+  - "Turks"
+  - "early America"
   - "American Muslim history"
 summary: "On Turks, Moors and Moriscos in the Americas in the early colonial period."
 venue: "Nawawi Foundation (now The Oasis Initiative)"

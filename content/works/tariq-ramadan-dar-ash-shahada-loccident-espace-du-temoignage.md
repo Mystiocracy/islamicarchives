@@ -7,10 +7,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Dar al-Shahada: The West as a Space of Witness (English rendering of the title)"
-  - "Dar al-shahada"
+  - "Dar al-Shahada"
+  - "The West as a Space of Witness"
   - "Muslims in the West"
-  - "witness"
+  - "dar al-harb"
+  - "citizenship"
 summary: "Proposes that the West be understood not as a house of war or of mere residence but as a space of witness, where Muslims testify to their values through ethical conduct, education and civic participation."
 venue: "Tawhid poche (Lyon)"
 rights: link-only

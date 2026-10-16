@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+  - philosophy-and-theology
+keywords:
+  - "The Importance of Civilisation in the History of Religions"
+  - "civilisation"
+  - "history of religions"
 summary: "The Importance of Civilisation in the History of Religions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

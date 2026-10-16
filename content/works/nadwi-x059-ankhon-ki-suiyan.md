@@ -4,6 +4,9 @@ titleOriginal: "आंखों की सुईयां"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+keywords:
+  - "Payam-e-Insaniyat"
+  - "humanity"
 summary: "Needles in the eyes. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -4,6 +4,13 @@ titleOriginal: "موجودہ حالات میں مسلمان کیا کرے"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Muslim response"
+  - "present conditions"
+  - "ummah"
 summary: "What should Muslims do in present conditions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

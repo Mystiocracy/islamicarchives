@@ -4,13 +4,11 @@ author: tahtawi
 titleOriginal: "نهاية الإيجاز في سيرة ساكن الحجاز"
 language: "Arabic"
 type: "Book"
-subjects:
-  - islam-and-modernity
 keywords:
-  - "Nihayat al-ijaz"
-  - "biography of the Prophet"
   - "sira"
+  - "Prophet Muhammad"
   - "Rawdat al-madaris"
+  - "biography of the Prophet"
 summary: "A biography of the Prophet Muḥammad, serialised in the journal Rawḍat al-madāris and published as a book after the author's death."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1873); later translations may still be in copyright."

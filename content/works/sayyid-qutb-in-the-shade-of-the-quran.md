@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "Fi zilal al-Qur'an"
   - "tafsir"
-  - "commentary"
-  - "tr. Adil Salahi"
+  - "jahiliyya"
+  - "hakimiyya"
 summary: "A complete commentary on the Qurʾan, begun in the early 1950s and revised in prison, that reads the text as a living guide for building a Muslim society."
 rights: link-only
 rightsNote: "In copyright (author d. 1966)."

@@ -7,8 +7,8 @@ subjects:
   - quranic-studies
 keywords:
   - "tafsir"
-  - "English"
-  - "Quran"
+  - "Qur'an commentary"
+  - "English tafsir"
 summary: "His English-language lecture commentary on the Qur'an, surah by surah."
 rights: link-only
 rightsNote: "Recorded lectures; linked, not hosted."

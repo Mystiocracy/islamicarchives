@@ -7,6 +7,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Ibn Taymiyya"
+  - "reason and revelation"
+  - "Dar' ta'arud al-'aql wa-l-naql"
+  - "Yale dissertation"
 summary: "His own lecture summarising his Yale dissertation on Ibn Taymiyya."
 venue: "Yasir Qadhi"
 rights: link-only

@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunna"
+  - "hadith sciences"
+  - "introduction to hadith"
+  - "Prophetic Sunna"
 summary: "Introduction to the study of the Prophetic Sunna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

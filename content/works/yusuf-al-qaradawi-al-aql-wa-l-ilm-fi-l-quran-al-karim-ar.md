@@ -7,6 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+  - science-and-religion
+keywords:
+  - "reason"
+  - "aql"
+  - "ilm"
+  - "knowledge"
+  - "Reason and Knowledge in the Qur'an"
 summary: "Shows how the Qur'an honours reason and science."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

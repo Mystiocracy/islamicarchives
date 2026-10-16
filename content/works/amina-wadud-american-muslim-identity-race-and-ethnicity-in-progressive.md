@@ -9,9 +9,10 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Progressive Muslims"
-  - "Omid Safi"
   - "African American Muslims"
   - "race"
+  - "ethnicity"
+  - "American Islam"
 summary: "Chapter in Progressive Muslims (ed. Omid Safi) on race, ethnicity and African American experience within American Islam."
 rights: link-only
 rightsNote: "In copyright (living author)."

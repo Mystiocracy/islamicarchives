@@ -7,6 +7,11 @@ type: "Pamphlet"
 subjects:
   - education
   - philosophy-and-theology
+keywords:
+  - "ilm"
+  - "knowledge"
+  - "iman"
+  - "religious service"
 summary: "Serving faith and knowledge, and faith's demands"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

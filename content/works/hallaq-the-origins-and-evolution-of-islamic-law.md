@@ -10,7 +10,8 @@ keywords:
   - "early Islamic law"
   - "qadis"
   - "formative period"
-  - "Schacht"
+  - "Joseph Schacht"
+  - "legal schools"
 summary: "Traces the emergence of Islamic law out of Near Eastern legal practice and early Muslim society up to the consolidation of the legal schools."
 rights: link-only
 rightsNote: "In copyright (living author)."

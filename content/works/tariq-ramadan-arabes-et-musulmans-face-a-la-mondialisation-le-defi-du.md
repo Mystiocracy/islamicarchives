@@ -6,8 +6,9 @@ language: "French"
 type: "Book"
 subjects:
   - economics
+  - islam-and-modernity
 keywords:
-  - "Globalisation: Muslim Resistances (English rendering of the title)"
+  - "Globalisation: Muslim Resistances"
   - "globalisation"
   - "resistance"
   - "pluralism"

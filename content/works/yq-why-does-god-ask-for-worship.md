@@ -5,10 +5,13 @@ year: 2017
 language: "English"
 type: "Paper"
 subjects:
-  - islamic-law
+  - philosophy-and-theology
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "worship"
+  - "ibadah"
+  - "purpose of life"
+  - "divine wisdom"
+  - "atheism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -7,7 +7,11 @@ type: "Pamphlet"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Asmi'i ya Urubba (Ar.)"
+  - "the West"
+  - "Europe"
+  - "Western civilisation"
+  - "Asmi'i ya Urubba"
+  - "Listen, O Europe"
 summary: "Speaking Plainly to the West. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

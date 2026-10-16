@@ -8,7 +8,8 @@ subjects:
 keywords:
   - "China"
   - "Hui Muslims"
-  - "history"
+  - "Chinese Islam"
+  - "culture"
 summary: "On the history and cultural formation of the Hui, the largest Muslim community in the People's Republic of China, who are culturally Chinese."
 venue: "Nawawi Foundation (now The Oasis Initiative)"
 rights: link-only

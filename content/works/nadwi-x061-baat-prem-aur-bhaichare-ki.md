@@ -4,6 +4,12 @@ titleOriginal: "बात प्रेम और भाईचारे की"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - family-and-society
+keywords:
+  - "Payam-e-Insaniyat"
+  - "brotherhood"
+  - "communal harmony"
 summary: "A word about love and brotherhood. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

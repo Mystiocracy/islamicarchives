@@ -6,10 +6,13 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
+  - sufism
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "dua"
+  - "prophetic prayers"
+  - "protection"
+  - "adhkar"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

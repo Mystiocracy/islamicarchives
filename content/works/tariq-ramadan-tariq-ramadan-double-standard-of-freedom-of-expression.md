@@ -6,6 +6,7 @@ language: "English"
 type: "Interview"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
   - "Charlie Hebdo"
   - "freedom of expression"

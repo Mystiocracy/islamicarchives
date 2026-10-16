@@ -7,10 +7,11 @@ type: "Book"
 subjects:
   - sufism
 keywords:
-  - "A Few Letters from the Heart (English rendering of the title)"
-  - "spirituality"
-  - "letters"
+  - "A Few Letters from the Heart"
   - "trust in God"
+  - "tawakkul"
+  - "hope"
+  - "faith"
 summary: "A collection of short personal letters on faith, hope, love and trust in God, offering spiritual encouragement to readers facing doubt, fear and everyday hardship."
 venue: "Tawhid (Lyon)"
 rights: link-only

@@ -4,8 +4,13 @@ titleOriginal: "কাদিয়ানীদের স্বরূপ"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Qadiyaniyat: Mutala-o-Jaiza"
+  - "Qadiyaniyat"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "khatm-e-nubuwwat"
 summary: "The true face of the Qadianis. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

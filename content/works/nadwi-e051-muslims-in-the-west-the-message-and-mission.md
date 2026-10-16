@@ -7,7 +7,11 @@ type: "Speech"
 subjects:
   - islam-and-modernity
 keywords:
-  - "edited by Khurram Murad"
+  - "Muslims in the West"
+  - "Britain"
+  - "USA"
+  - "da'wa"
+  - "Muslim minorities"
 summary: "Muslims in the West: The Message and Mission. Translated by edited by Khurram Murad from Urdu/Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

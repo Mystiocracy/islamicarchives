@@ -5,8 +5,8 @@ year: 2018
 language: "English"
 type: "Book"
 subjects:
-  - islam-and-modernity
   - colonialism-and-decolonisation
+  - islam-and-modernity
 keywords:
   - "Orientalism"
   - "Edward Said"

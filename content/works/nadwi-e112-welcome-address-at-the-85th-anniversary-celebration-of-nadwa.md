@@ -6,6 +6,11 @@ language: "English"
 type: "Speech"
 subjects:
   - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "Lucknow"
+  - "85th anniversary"
+  - "madrasa"
 summary: "Welcome Address at the 85th Anniversary Celebration of Nadwatul Ulama. Translated from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

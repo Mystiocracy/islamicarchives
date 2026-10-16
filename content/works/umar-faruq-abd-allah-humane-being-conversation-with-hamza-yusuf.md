@@ -9,6 +9,7 @@ subjects:
 keywords:
   - "Hamza Yusuf"
   - "Renovatio"
+  - "Night Sky"
   - "humane being"
 summary: "The written version of a conversation between Umar Faruq Abd-Allah and Hamza Yusuf, published as \"Night Sky Humane Being\" in Renovatio."
 venue: "Renovatio (Zaytuna College)"

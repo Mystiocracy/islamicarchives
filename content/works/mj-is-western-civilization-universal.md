@@ -4,10 +4,15 @@ author: maryam-jameelah
 year: 1973
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
   - colonialism-and-decolonisation
+keywords:
+  - "Western civilization"
+  - "cultural imperialism"
+  - "universalism"
+  - "modernity"
+venue: "Mohammad Yusuf Khan"
 summary: "Argues that \"modernity\" is European cultural imperialism and that only Islam is truly universal."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

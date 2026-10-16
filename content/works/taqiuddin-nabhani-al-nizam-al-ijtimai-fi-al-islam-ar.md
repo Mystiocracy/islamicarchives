@@ -8,6 +8,11 @@ type: "Book"
 subjects:
   - family-and-society
   - women-and-gender
+keywords:
+  - "The Social System in Islam"
+  - "Hizb ut-Tahrir"
+  - "gender segregation"
+  - "marriage"
 summary: "Covers Islamic rules on men and women, marriage, the family and social relations."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

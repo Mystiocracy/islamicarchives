@@ -6,9 +6,15 @@ year: 2021
 language: English
 type: "Book"
 subjects:
+  - islamic-law
   - hadith-studies
+  - islam-and-modernity
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "traditionalism"
+  - "scholarly authority"
+  - "madhhab"
+  - "taqlid"
 summary: "A study or biography of al-Albānī."
 venue: "Cambridge University Press"
 rights: link-only

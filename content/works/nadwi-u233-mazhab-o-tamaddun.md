@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "religion and civilisation"
+  - "tamaddun"
+  - "Western civilisation"
 summary: "Religion and civilisation (lectures)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

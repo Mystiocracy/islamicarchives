@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "qalb salim"
+  - "sound heart"
+  - "tazkiya"
+  - "purification of the heart"
 summary: "In search of a sound heart"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "existence of God"
+  - "atheism"
+  - "arguments for God"
 summary: "Presents arguments for the existence of God."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

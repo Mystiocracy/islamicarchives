@@ -4,9 +4,12 @@ author: yasir-qadhi
 language: English
 type: "Video"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
   - "Western Islam"
+  - "Muslim institutions"
+  - "Salafism"
+  - "tradition"
 summary: "A lecture on Muslim institutions in the West."
 venue: "Yasir Qadhi"
 rights: link-only

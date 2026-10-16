@@ -6,7 +6,6 @@ language: "English"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
   - "Madras lectures on Islam"
   - "Islamic civilisation"

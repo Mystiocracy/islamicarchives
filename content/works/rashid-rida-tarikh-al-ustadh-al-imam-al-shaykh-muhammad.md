@@ -8,10 +8,10 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "biography of Muhammad Abduh"
+  - "Muhammad Abduh"
   - "Jamal al-Din al-Afghani"
-  - "collected writings"
-  - "3 volumes"
+  - "Islamic reform"
+  - "Egypt"
 summary: "A multi-volume biography of Muḥammad ʿAbduh with a large collection of his writings and documents on the reform movement."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

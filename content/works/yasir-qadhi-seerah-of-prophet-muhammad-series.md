@@ -3,10 +3,11 @@ title: "Seerah of Prophet Muhammad (lecture series)"
 author: yasir-qadhi
 language: English
 type: "Video"
-subjects:
-  - education
 keywords:
-  - "sirah"
+  - "sira"
+  - "Prophet Muhammad"
+  - "Memphis Islamic Center"
+  - "seerah"
 summary: "The long Seerah series, first given at the Memphis Islamic Center (2011–2015)."
 venue: "Yasir Qadhi"
 rights: link-only

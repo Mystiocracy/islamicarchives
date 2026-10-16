@@ -9,7 +9,7 @@ subjects:
 keywords:
   - "Edgar Morin"
   - "ethics"
-  - "dialogue"
+  - "complexity"
   - "CILE"
 summary: "Public conference in which Ramadan hosts the French thinker Edgar Morin for a dialogue on how ethical theory relates to practice in complex contemporary societies."
 venue: "CILE Center public conference"

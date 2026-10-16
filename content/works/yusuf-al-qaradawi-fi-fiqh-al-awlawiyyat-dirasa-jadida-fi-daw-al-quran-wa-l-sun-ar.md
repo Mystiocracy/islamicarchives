@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "fiqh al-awlawiyyat"
+  - "priorities"
+  - "fiqh of priorities"
+  - "maqasid al-sharia"
 summary: "Argues for ordering religious and social duties by their true priority."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

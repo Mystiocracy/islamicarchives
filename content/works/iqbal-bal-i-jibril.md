@@ -11,8 +11,9 @@ subjects:
 keywords:
   - "Gabriel's Wing"
   - "Mosque of Cordoba"
-  - "Urdu ghazals"
   - "Lenin before God"
+  - "khudi"
+  - "Urdu poetry"
 summary: "His most admired Urdu collection, including 'The Mosque of Cordoba' and other poems on love, time and the creative self."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

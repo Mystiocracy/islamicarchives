@@ -5,7 +5,15 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
+keywords:
+  - "salat"
+  - "zakat"
+  - "sawm"
+  - "Hajj"
+  - "al-Arkan al-Arba'a"
+  - "Four Pillars of Islam"
 summary: "The four pillars (prayer, zakat, fasting, hajj). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

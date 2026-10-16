@@ -6,7 +6,9 @@ type: "Paper"
 subjects:
   - quranic-studies
 keywords:
-  - "The Walking Qur'an"
+  - "Prophet Muhammad"
+  - "character of the Prophet"
+  - "Qur'an"
 summary: "A piece listed on his Academia.edu profile; details not verified."
 venue: "American Journal of Islam and Society"
 rights: link-only

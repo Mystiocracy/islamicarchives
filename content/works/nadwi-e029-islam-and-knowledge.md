@@ -6,6 +6,11 @@ language: "English"
 type: "Speech"
 subjects:
   - education
+keywords:
+  - "knowledge"
+  - "ilm"
+  - "Oxford Centre for Islamic Studies"
+  - "learning"
 summary: "Islam and Knowledge. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

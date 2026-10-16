@@ -6,10 +6,13 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
+  - islam-and-modernity
   - family-and-society
 keywords:
-  - "Culture"
-  - "Family & Community"
+  - "culture"
+  - "urf"
+  - "American Muslims"
+  - "cultural resistance"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

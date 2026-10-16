@@ -4,8 +4,15 @@ titleOriginal: "মুসলমানদের পতনে বিশ্ব ক�
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
 keywords:
-  - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin (Urdu: Insani Dunya par Musalmanon ke Uruj-o-Zawal ka Asar)"
+  - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
+  - "Insani Dunya par Musalmanon ke Uruj-o-Zawal ka Asar"
+  - "decline of Muslims"
+  - "jahiliyya"
+  - "Western civilisation"
 summary: "What the world lost through the decline of Muslims. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - sufism
+  - family-and-society
+keywords:
+  - "character"
+  - "akhlaq"
+  - "self-reform"
+  - "islah"
 summary: "The need to change character and conduct"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

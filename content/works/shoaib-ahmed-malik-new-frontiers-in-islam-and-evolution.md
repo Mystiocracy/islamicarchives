@@ -9,7 +9,8 @@ subjects:
   - science-and-religion
 keywords:
   - "evolution"
-  - "Islamic scriptures"
+  - "Darwinism"
+  - "creationism"
   - "Muslim societies"
 summary: "An edited volume on Muslim scholarly and public responses to evolution, with chapters on scripture, scholars and societies."
 venue: "Routledge"

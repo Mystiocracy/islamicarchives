@@ -4,11 +4,14 @@ author: nadwi
 language: "English"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
   - education
+  - hadith-studies
 keywords:
-  - "Musalmanon ki Umoomi Ta'lim o Tarbiyat (Ur.)"
-  - "anonymous volunteer translators"
+  - "tarbiya"
+  - "Prophetic model"
+  - "Musalmanon ki Umoomi Ta'lim o Tarbiyat"
+  - "Muslim masses"
+  - "religious education"
 summary: "Education and Nurturing of Muslim Masses: Prophetic Model and Application. Translated by anonymous volunteer translators from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

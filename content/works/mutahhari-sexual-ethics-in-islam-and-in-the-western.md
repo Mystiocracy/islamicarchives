@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - women-and-gender
   - islam-and-modernity
+  - family-and-society
 keywords:
   - "Akhlaq-e jensi"
+  - "sexual ethics"
   - "sexual morality"
   - "Bertrand Russell"
   - "Freud"

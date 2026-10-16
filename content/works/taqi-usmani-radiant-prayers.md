@@ -3,8 +3,11 @@ title: "Radiant Prayers"
 author: taqi-usmani
 language: "English"
 type: "Pamphlet"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "du'a"
+  - "supplications"
+  - "Pur Noor Duaen"
+  - "masnun du'a"
 summary: "English edition of his collection of prayers from the Qurʾan and hadith."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

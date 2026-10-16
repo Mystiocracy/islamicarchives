@@ -8,6 +8,7 @@ subjects:
 keywords:
   - "American Muslim history"
   - "early America"
+  - "Muslims in America"
 summary: "A lecture on the history of Muslims in America from 1587 to 1965."
 venue: "Lecture"
 rights: link-only

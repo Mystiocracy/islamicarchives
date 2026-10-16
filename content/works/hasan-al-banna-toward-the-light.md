@@ -10,8 +10,10 @@ subjects:
   - colonialism-and-decolonisation
 keywords:
   - "Nahwa al-nur"
-  - "letter to King Faruq"
+  - "King Faruq"
+  - "Egypt"
   - "reform programme"
+  - "Muslim Brotherhood"
 summary: "An open letter to the King of Egypt and other Muslim rulers proposing a programme of political, social and economic reform on Islamic lines."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

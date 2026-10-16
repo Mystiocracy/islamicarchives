@@ -7,9 +7,10 @@ type: "Video"
 subjects:
   - political-thought
 keywords:
-  - "authority"
-  - "debate"
   - "Cemil Aydin"
+  - "authority"
+  - "Muslim world"
+  - "pan-Islamism"
 venue: "Ummatics Istanbul Forum"
 summary: "Debate with historian Cemil Aydin on religious and political authority in the Muslim world."
 rights: link-only

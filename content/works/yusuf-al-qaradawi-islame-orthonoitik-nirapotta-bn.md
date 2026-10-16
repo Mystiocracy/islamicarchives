@@ -7,6 +7,11 @@ language: "Bengali"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "economic security"
+  - "social security"
+  - "poverty"
+  - "zakat"
 summary: "On economic and social security in Islamic teaching."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

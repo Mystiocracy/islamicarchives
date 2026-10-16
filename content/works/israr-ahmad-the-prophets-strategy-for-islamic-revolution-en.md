@@ -6,8 +6,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
-  - "revolution"
-  - "Seerah"
+  - "Manhaj-e-Inqilab-e-Nabawi"
+  - "Islamic revolution"
+  - "sira"
   - "methodology"
 summary: "English version of Manhaj-e-Inqilab-e-Nabawi, deriving a staged method of revolution from the Prophet's career."
 rights: link-only

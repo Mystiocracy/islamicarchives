@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "Palestine"
   - "Gaza"
-  - "podcast"
+  - "Zionism"
+  - "Israel"
 venue: "Yaqeen Institute, Dogma Disrupted podcast"
 summary: "Podcast episode challenging common narratives about Palestine."
 rights: link-only

@@ -11,6 +11,7 @@ subjects:
 keywords:
   - "Khutbat-e-Ahmadiyya"
   - "William Muir"
+  - "Life of Mahomet"
   - "sira"
   - "apologetics"
 summary: "Essays written in London as a reply to William Muir's Life of Mahomet, covering pre-Islamic Arabia, the Qur'an, hadith and the Prophet's life; an Urdu version appeared as Khutbat-e-Ahmadiyya."

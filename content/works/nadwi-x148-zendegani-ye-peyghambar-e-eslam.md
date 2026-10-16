@@ -4,11 +4,9 @@ titleOriginal: "زندگانی پیغمبر اسلام صلی الله علیه 
 author: nadwi
 language: "Persian"
 type: "Book"
-subjects:
-  - hadith-studies
 keywords:
-  - "al-Sira al-Nabawiyya (Arabic)"
-  - "محمد حسینی"
+  - "al-Sira al-Nabawiyya"
+  - "Prophet Muhammad"
 summary: "The life of the Prophet of Islam. Translated by محمد حسینی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from aqeedeh.com (Kitabkhaneh-ye Qalam)"

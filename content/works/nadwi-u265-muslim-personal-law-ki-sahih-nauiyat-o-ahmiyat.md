@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "Muslim personal law"
+  - "AIMPLB"
+  - "uniform civil code"
 summary: "True nature and importance of Muslim Personal Law"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

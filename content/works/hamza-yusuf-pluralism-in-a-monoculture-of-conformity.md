@@ -6,13 +6,13 @@ language: "English"
 type: "Essay"
 subjects:
   - islam-and-modernity
-  - political-thought
 keywords:
   - "pluralism"
   - "diversity"
-  - "Moby Dick"
+  - "Moby-Dick"
+  - "Herman Melville"
   - "America"
-  - "Renovatio"
+  - "conformity"
 summary: "Reflects, by way of Melville's Moby-Dick, on diversity and pluralism in America and the pressures of cultural conformity."
 rights: link-only
 rightsNote: "In copyright (living author)."

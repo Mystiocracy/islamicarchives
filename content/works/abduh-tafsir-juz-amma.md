@@ -8,8 +8,9 @@ subjects:
   - quranic-studies
   - education
 keywords:
-  - "Tafsir juz Amma"
+  - "Juz Amma"
   - "short suras"
+  - "tafsir"
   - "school commentary"
 summary: "A commentary on the last thirtieth of the Qurʾān, written for teachers and students in plain language."
 rights: link-only

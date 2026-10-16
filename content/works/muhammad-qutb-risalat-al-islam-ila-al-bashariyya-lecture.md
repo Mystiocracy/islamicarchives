@@ -7,7 +7,9 @@ type: "Video"
 subjects:
   - islam-and-modernity
 keywords:
-  - "lecture"
+  - "message of Islam"
+  - "humanity"
+  - "da'wa"
 venue: "YouTube (Qaradawi channel)"
 summary: "Lecture (1h48) on the message Islam brings to humanity."
 rights: link-only

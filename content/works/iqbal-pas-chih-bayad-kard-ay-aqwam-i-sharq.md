@@ -6,12 +6,13 @@ year: 1936
 language: "Persian"
 type: "Book"
 subjects:
-  - political-thought
   - colonialism-and-decolonisation
+  - political-thought
 keywords:
   - "What Then Is To Be Done, O Peoples of the East"
-  - "masnavi"
   - "anti-imperialism"
+  - "the East"
+  - "masnavi"
 summary: "A Persian masnavi urging the peoples of the East to free themselves from Western political and intellectual domination through renewed faith and self-reliance."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

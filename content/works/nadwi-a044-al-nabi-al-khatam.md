@@ -5,7 +5,12 @@ author: nadwi
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "The Final Prophet"
+  - "Prophet Muhammad"
+  - "finality of prophethood"
+  - "sira"
 summary: "The Final Prophet. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

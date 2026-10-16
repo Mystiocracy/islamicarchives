@@ -5,11 +5,13 @@ year: 2011
 language: "English"
 type: "Book"
 subjects:
+  - islam-and-modernity
   - political-thought
 keywords:
-  - "diversity"
+  - "super-diversity"
   - "universalism"
   - "pluralism"
+  - "multiculturalism"
 summary: "A short commissioned essay on super-diversity, defending universalism as a necessary aim, questioning how art and culture represent difference, and assessing the limits of dialogue in managing diversity day to day."
 venue: "Sternberg Press / Witte de With (Rotterdam-Berlin), Reflections series no. 2"
 rights: link-only

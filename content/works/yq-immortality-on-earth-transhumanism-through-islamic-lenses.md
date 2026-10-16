@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - science-and-religion
 keywords:
-  - "Nature & Science"
-  - "Technology"
+  - "transhumanism"
+  - "immortality"
+  - "technology"
+  - "bioethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

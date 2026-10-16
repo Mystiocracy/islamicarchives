@@ -7,12 +7,12 @@ language: "French"
 type: "Article"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
+  - science-and-religion
 keywords:
-  - "Reply to Ernest Renan"
+  - "Ernest Renan"
   - "Journal des Débats"
-  - "Islam and science"
   - "L'Islamisme et la science"
+  - "Réponse à Renan"
 summary: "A reply published in the Journal des Débats to Ernest Renan's lecture on Islam and science, conceding the decline of scientific inquiry among Muslims but attributing it to historical causes rather than to Islam or Arab character."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1897); later translations may still be in copyright."

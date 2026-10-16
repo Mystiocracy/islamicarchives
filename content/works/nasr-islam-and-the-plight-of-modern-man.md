@@ -10,7 +10,7 @@ subjects:
 keywords:
   - "modernism"
   - "tradition"
-  - "West"
+  - "Traditionalism"
   - "spiritual crisis"
 summary: "Essays diagnosing the crisis of modern civilisation and the challenges modernism poses to Muslim societies from a Traditionalist standpoint."
 rights: link-only

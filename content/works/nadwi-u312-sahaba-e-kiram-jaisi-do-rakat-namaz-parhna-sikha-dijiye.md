@@ -4,6 +4,14 @@ titleOriginal: "صحابہ کرام جیسی دو رکعت نماز پڑھنا �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+  - islamic-law
+keywords:
+  - "salah"
+  - "prayer"
+  - "khushu'"
+  - "Sahaba"
 summary: "Teach us to pray two rak'as like the Companions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -13,7 +13,7 @@ keywords:
   - "Gulf War"
   - "democracy"
   - "human rights"
-  - "tr. Mary Jo Lakeland"
+  - "Arab world"
 summary: "Written after the Gulf War, it explores Arab anxieties about democracy and modernity and the historical reasons for them."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

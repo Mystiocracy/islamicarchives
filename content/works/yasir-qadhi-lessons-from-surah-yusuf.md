@@ -7,7 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Lessons from Surah Yusuf"
+  - "Surat Yusuf"
+  - "Prophet Yusuf"
+  - "Joseph"
+  - "tafsir"
 summary: "Lessons drawn from Sūrat Yūsuf."
 venue: "Kube Publishing"
 rights: link-only

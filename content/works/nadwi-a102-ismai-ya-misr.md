@@ -4,6 +4,15 @@ titleOriginal: "اسمعي يا مصر"
 author: nadwi
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Egypt"
+  - "Cairo"
+  - "Arab nationalism"
+  - "da'wa"
+  - "Listen, O Egypt"
 summary: "Listen, O Egypt"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

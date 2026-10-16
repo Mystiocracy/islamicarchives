@@ -8,8 +8,9 @@ subjects:
   - islamic-law
 keywords:
   - "usul al-fiqh"
-  - "Zysow"
-  - "book review"
+  - "Aron Zysow"
+  - "The Economy of Certainty"
+  - "legal theory"
 venue: "Journal of Islamic Studies 26, no. 2: 204-206"
 summary: "Book review of Zysow's classic study of Islamic legal theory."
 rights: link-only

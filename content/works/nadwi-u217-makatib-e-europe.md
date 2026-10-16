@@ -5,6 +5,13 @@ author: nadwi
 year: 1963
 language: "Urdu"
 type: "Letters"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Europe"
+  - "travel letters"
+  - "Muslims in Europe"
+  - "the West"
 summary: "Letters from Europe"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

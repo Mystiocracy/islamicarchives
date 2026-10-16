@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+keywords:
+  - "misunderstood hadith"
+  - "understanding Sunnah"
+  - "hadith interpretation"
+  - "fiqh al-hadith"
 summary: "Clarifies hadiths that are commonly misunderstood."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

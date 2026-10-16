@@ -8,7 +8,10 @@ type: "Article"
 subjects:
   - hadith-studies
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "hadith authentication"
+  - "Stéphane Lacroix"
+  - "isnad criticism"
 summary: "A study or biography of al-Albānī."
 venue: "ISIM Review 21, pp. 6–7"
 rights: link-only

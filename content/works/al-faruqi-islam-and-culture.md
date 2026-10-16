@@ -8,8 +8,8 @@ subjects:
   - islam-and-modernity
 keywords:
   - "culture"
-  - "ABIM"
   - "tawhid"
+  - "aesthetics"
   - "civilisation"
 summary: "Lectures on the relationship between Islam and culture, arguing that tawḥīd must shape every dimension of Muslim cultural life."
 rights: link-only

@@ -4,6 +4,14 @@ titleOriginal: "المرتضیٰ"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - political-thought
+keywords:
+  - "Ali ibn Abi Talib"
+  - "al-Murtada"
+  - "caliphate"
+  - "Rightly Guided Caliphs"
+  - "Ahl al-Bayt"
 summary: "Biography of Ali ibn Abi Talib. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

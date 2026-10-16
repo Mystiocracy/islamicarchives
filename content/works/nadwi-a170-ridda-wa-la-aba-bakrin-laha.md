@@ -5,6 +5,16 @@ author: nadwi
 year: 1992
 language: "Arabic"
 type: "Article"
+subjects:
+  - islam-and-modernity
+  - philosophy-and-theology
+keywords:
+  - "ridda"
+  - "apostasy"
+  - "Abu Bakr"
+  - "secularism"
+  - "modern apostasy"
+  - "materialism"
 summary: "An Apostasy, and No Abu Bakr to Face It"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

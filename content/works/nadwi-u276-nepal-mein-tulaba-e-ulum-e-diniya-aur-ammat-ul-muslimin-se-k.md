@@ -4,6 +4,12 @@ titleOriginal: "نیپال میں طلبائے علوم دینیہ اور عام
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Nepal"
+  - "students of religious knowledge"
+  - "Muslims of Nepal"
 summary: "Address to students and Muslims in Nepal"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

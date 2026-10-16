@@ -9,9 +9,10 @@ subjects:
   - political-thought
 keywords:
   - "mazalim"
-  - "courts"
+  - "grievance courts"
   - "legal reform"
-  - "Oneworld Academic"
+  - "qadi"
+  - "justice"
 summary: "A study of the mazalim (grievance) courts through which Muslim rulers administered justice alongside Sharia judges, and their significance for legal reform."
 rights: link-only
 rightsNote: "In copyright (living author)."

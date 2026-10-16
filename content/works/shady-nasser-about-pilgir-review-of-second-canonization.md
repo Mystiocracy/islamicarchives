@@ -8,7 +8,10 @@ type: "Review"
 subjects:
   - quranic-studies
 keywords:
-  - "review"
+  - "Ibn Mujahid"
+  - "seven readings"
+  - "qira'at"
+  - "canonization"
 summary: "A review of his book."
 venue: "İslam Araştırmaları Dergisi 51, pp. 196–201"
 rights: link-only

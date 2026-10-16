@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "Muhammad Ali Mungeri"
+  - "Nadwa movement"
 summary: "The Nadwa movement and its eminent founder"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

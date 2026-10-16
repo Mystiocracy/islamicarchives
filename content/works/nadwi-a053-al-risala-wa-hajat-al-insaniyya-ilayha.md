@@ -5,7 +5,12 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "Prophethood and Humanity's Need for It"
+  - "prophethood"
+  - "risala"
+  - "revelation"
 summary: "Prophethood and Humanity's Need for It"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

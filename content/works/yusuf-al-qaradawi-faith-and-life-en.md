@@ -7,6 +7,11 @@ language: "English"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "iman"
+  - "Al-Iman wa-l-Hayat"
+  - "meaning of life"
+  - "faith"
 summary: "Shows how faith shapes a believer's outlook, conduct and the progress of life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

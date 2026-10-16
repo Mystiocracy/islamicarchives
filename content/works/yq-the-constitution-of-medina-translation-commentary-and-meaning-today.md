@@ -5,10 +5,13 @@ year: 2021
 language: "English"
 type: "Paper"
 subjects:
-  - hadith-studies
+  - political-thought
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "Constitution of Medina"
+  - "Medina"
+  - "sahifa"
+  - "ummah"
+  - "pluralism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

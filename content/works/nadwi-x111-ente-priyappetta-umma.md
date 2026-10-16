@@ -5,8 +5,9 @@ author: nadwi
 language: "Malayalam"
 type: "Book"
 keywords:
-  - "Zikr-e-Khair (memoir of his mother Khairunnisa)"
-  - "Abdushakkoor Qasimi"
+  - "Zikr-e-Khair"
+  - "Khairunnisa Behtar"
+  - "mother"
 summary: "My beloved mother. Translated by Abdushakkoor Qasimi."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

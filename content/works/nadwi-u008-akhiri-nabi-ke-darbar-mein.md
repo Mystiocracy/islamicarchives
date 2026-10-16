@@ -4,8 +4,11 @@ titleOriginal: "آخری نبی ﷺکے دربار میں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "Companions"
+  - "Prophet's court"
 summary: "In the court of the Last Prophet"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

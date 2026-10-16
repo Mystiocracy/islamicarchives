@@ -10,9 +10,9 @@ subjects:
   - islamic-law
 keywords:
   - "Risala-e-Diniyat"
-  - "Khurshid Ahmad (translator)"
   - "introduction to Islam"
   - "faith and law"
+  - "worship"
 summary: "A short primer on Islamic belief, worship and law written originally as a school textbook, which became one of his most widely translated books."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

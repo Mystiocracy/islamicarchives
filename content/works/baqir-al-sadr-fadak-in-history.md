@@ -7,12 +7,13 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
-  - philosophy-and-theology
 keywords:
   - "Fadak fi al-Tarikh"
+  - "Fadak"
   - "Fatima"
+  - "succession"
   - "early caliphate"
-  - "Shiʿi history"
+  - "Shi'i history"
 summary: "An early study of the dispute over the estate of Fadak after the Prophet's death, read as a window onto the succession question in early Islam."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

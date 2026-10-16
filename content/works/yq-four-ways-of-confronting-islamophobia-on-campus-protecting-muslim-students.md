@@ -7,11 +7,12 @@ language: "English"
 type: "Article"
 subjects:
   - islam-and-modernity
-  - political-thought
+  - education
 keywords:
   - "Islamophobia"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "campus"
+  - "Muslim students"
+  - "university"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

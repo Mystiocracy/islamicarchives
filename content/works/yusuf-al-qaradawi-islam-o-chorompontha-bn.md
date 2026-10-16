@@ -7,6 +7,11 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "extremism"
+  - "religious extremism"
+  - "Al-Sahwa al-Islamiyya bayna l-Juhud wa-l-Tatarruf"
+  - "moderation"
 summary: "On Islam and extremism."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

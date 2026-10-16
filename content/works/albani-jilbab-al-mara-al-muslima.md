@@ -6,10 +6,13 @@ language: Arabic
 type: "Book"
 subjects:
   - women-and-gender
-  - hadith-studies
+  - islamic-law
 keywords:
-  - "Jilbāb al-marʾa al-muslima fī l-kitāb wa-l-sunna"
-  - "Albani"
+  - "jilbab"
+  - "hijab"
+  - "niqab"
+  - "women's dress"
+  - "Hijab al-mar'a al-muslima"
 summary: "The enlarged later edition of his book on women's dress."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

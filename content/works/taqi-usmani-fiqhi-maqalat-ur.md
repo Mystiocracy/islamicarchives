@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "contemporary fiqh"
+  - "fiqh academies"
+  - "research papers"
 summary: "Six volumes of research papers on contemporary fiqh, many presented at international fiqh academies."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

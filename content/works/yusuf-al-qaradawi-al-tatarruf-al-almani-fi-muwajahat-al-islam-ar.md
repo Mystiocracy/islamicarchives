@@ -7,6 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "secularism"
+  - "secular extremism"
+  - "Turkey"
+  - "Tunisia"
+  - "Ataturk"
+  - "Bourguiba"
 summary: "Studies militant secularism's confrontation with Islam, with Turkey and Tunisia as cases."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

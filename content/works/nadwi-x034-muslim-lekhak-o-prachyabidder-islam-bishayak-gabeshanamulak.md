@@ -4,8 +4,12 @@ titleOriginal: "মুসলিম লেখক ও প্রাচ্যবি�
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - colonialism-and-decolonisation
 keywords:
   - "Islamiyat aur Maghribi Mustashriqin wa Musalman Musannifin"
+  - "Orientalism"
+  - "Orientalists"
 summary: "A critical review of Islamic studies by Orientalists and Muslim writers. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

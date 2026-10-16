@@ -3,8 +3,14 @@ title: "Dvije oprecne slike kod ehli-sunneta i siija-imamija"
 author: nadwi
 language: "Bosnian"
 type: "Book"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Suratan Mutadaddatan (Arabic)"
+  - "Suratan Mutadaddatan"
+  - "Sahaba"
+  - "Shia"
+  - "Imamiyya"
+  - "Sunni"
 summary: "Two contrasting portraits among the Sunnis and the Imami Shia. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

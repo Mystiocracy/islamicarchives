@@ -5,7 +5,13 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - political-thought
+  - education
+keywords:
+  - "Darul Uloom Deoband"
+  - "Deoband"
+  - "madrasa"
+  - "India"
+  - "Islamic learning"
 summary: "The Centre of Islamic Learning in India: Darul Uloom Deoband"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -5,11 +5,12 @@ titleOriginal: "مغريات الحياة وكيف يقاومها الشباب"
 language: "Arabic"
 type: "Video"
 subjects:
-  - education
   - family-and-society
+  - education
 keywords:
-  - "audio"
   - "youth"
+  - "temptations"
+  - "worldly temptations"
 venue: "Internet Archive"
 summary: "Audio lecture (64 min) to young people on resisting worldly temptations."
 rights: link-only

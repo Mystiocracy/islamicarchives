@@ -6,9 +6,9 @@ language: "English"
 type: "Article"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
   - "Talal Asad"
+  - "discursive tradition"
   - "anthropology of Islam"
   - "tradition"
 venue: "Comparative Studies of South Asia, Africa and the Middle East 27, no. 3: 656-672"

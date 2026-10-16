@@ -5,10 +5,13 @@ year: 2021
 language: "English"
 type: "Paper"
 subjects:
+  - economics
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "wealth"
+  - "personal finance"
+  - "money"
+  - "contentment"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

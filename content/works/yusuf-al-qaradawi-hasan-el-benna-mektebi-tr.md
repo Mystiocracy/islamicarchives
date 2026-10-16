@@ -7,6 +7,12 @@ language: "Turkish"
 type: "Book"
 subjects:
   - education
+  - political-thought
+keywords:
+  - "Al-Tarbiya al-Islamiyya wa-Madrasat Hasan al-Banna"
+  - "Hasan al-Banna"
+  - "tarbiya"
+  - "Muslim Brotherhood"
 summary: "Turkish edition on the educational school of Hasan al-Banna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

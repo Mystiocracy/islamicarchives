@@ -4,15 +4,17 @@ author: maryam-jameelah
 year: 1968
 language: English
 type: "Book"
-venue: "Mohammad Yusuf Khan & Sons, Lahore"
 subjects:
   - philosophy-and-theology
+  - political-thought
 keywords:
   - "Zionism"
   - "Judaism"
   - "Christianity"
   - "Christian missions"
   - "People of the Book"
+  - "Ahl al-Kitab"
+venue: "Mohammad Yusuf Khan & Sons, Lahore"
 summary: "A polemic against Judaism, Christianity, Zionism and Christian missions."
 rights: permission
 rightsNote: "© Mohammad Yusuf Khan & Sons. Published here with the permission of the copyright owner, who retains all rights."

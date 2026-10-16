@@ -5,12 +5,14 @@ year: 2011
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - sufism
+  - economics
 keywords:
-  - "Ramadan"
   - "fasting"
-  - "spirituality"
+  - "month of Ramadan"
   - "social justice"
+  - "self-discipline"
+  - "consumerism"
 summary: "Ramadan argues that fasting should build self-discipline, compassion and a concern for social justice, and warns that many Muslims turn the holy month into a season of excess."
 venue: "ABC Religion & Ethics, 9 August 2011"
 rights: link-only

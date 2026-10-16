@@ -4,6 +4,14 @@ titleOriginal: "انسانیت کی مسیحائی"
 author: nadwi
 language: "Urdu"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - family-and-society
+keywords:
+  - "humanity"
+  - "Payam-e-Insaniyat"
+  - "communal harmony"
+  - "moral reform"
 summary: "Healing humanity (collected speeches)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

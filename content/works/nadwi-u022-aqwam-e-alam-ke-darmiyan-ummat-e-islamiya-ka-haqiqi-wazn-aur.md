@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "Muslim nation"
+  - "world role"
+  - "khayr umma"
 summary: "The true weight of the Muslim community among the nations"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

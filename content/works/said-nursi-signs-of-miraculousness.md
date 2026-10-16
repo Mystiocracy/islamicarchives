@@ -12,7 +12,7 @@ keywords:
   - "tafsir"
   - "Surat al-Fatiha"
   - "Surat al-Baqara"
-  - "inimitability"
+  - "i'jaz al-Qur'an"
 summary: "A Qur'anic commentary on al-Fātiḥa and the opening of al-Baqara, much of it composed on the front during the First World War, focusing on the coherence and inimitability of the text."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

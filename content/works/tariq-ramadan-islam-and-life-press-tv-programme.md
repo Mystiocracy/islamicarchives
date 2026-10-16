@@ -8,10 +8,10 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Press TV"
-  - "Islam and Life"
-  - "reform"
+  - "fitra"
+  - "patience"
   - "Muslims in Europe"
-  - "spirituality"
+  - "Islamophobia"
 summary: "Fifty weekly Press TV episodes, re-uploaded in one playlist, in which Ramadan discusses fitrah, patience, reform, Muslims in Europe, family, Islamophobia and Quranic themes in roughly twenty-five-minute slots."
 venue: "Press TV"
 rights: link-only

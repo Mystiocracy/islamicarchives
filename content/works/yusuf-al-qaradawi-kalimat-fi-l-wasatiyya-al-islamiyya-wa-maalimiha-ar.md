@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "wasatiyya"
+  - "moderation"
+  - "extremism"
 summary: "Short pieces on the meaning and features of Islamic moderation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

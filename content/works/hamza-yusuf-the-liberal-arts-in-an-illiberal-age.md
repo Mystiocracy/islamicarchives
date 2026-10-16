@@ -6,11 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - education
+  - islam-and-modernity
 keywords:
   - "liberal arts"
   - "freedom of thought"
-  - "education"
-  - "Renovatio"
+  - "freedom of expression"
+  - "modern schooling"
 summary: "Argues that genuine freedom of thought and expression depends on a disciplined liberal education, which modern schooling has largely abandoned."
 rights: link-only
 rightsNote: "In copyright (living author)."

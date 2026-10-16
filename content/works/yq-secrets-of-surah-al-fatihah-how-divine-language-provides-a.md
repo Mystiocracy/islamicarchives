@@ -5,11 +5,11 @@ year: 2025
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Epistemology"
-  - "Quran"
+  - "Surat al-Fatiha"
+  - "moral compass"
+  - "divine language"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

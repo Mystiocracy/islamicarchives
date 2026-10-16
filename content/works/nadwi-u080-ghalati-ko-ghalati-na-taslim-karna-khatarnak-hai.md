@@ -4,6 +4,10 @@ titleOriginal: "غلطی کو غلطی نہ تسلیم کرنا خطرناک ہ�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "self-criticism"
+  - "accountability"
+  - "admitting mistakes"
 summary: "Refusing to admit a mistake is dangerous"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

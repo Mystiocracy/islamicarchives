@@ -4,8 +4,13 @@ author: taqi-usmani
 language: "English"
 type: "Pamphlet"
 subjects:
-  - economics
   - family-and-society
+  - economics
+keywords:
+  - "financial dealings"
+  - "relatives"
+  - "joint family property"
+  - "transactions"
 summary: "A booklet on keeping financial dealings clear among relatives."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

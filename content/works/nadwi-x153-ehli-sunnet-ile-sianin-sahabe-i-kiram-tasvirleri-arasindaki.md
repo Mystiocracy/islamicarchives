@@ -4,8 +4,13 @@ titleOriginal: "Ehli Sünnet ile Şiaʹnın Sahabe‐i Kiram TasvirleriArasında
 author: nadwi
 language: "Turkish"
 type: "Book"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Suratan Mutadaddatan (Arabic)"
+  - "Suratan Mutadaddatan"
+  - "Sahaba"
+  - "Shia"
+  - "Sunni"
 summary: "Two contrasting portraits: how Sunnis and Shia depict the Companions. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -4,8 +4,9 @@ titleOriginal: "ذکر خیر (حضرت مولانا علیہ الرحمۃ کی 
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - sufism
+keywords:
+  - "Khairunnisa Behtar"
+  - "mother"
 summary: "Remembrance of his mother Khairunnisa Behtar"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

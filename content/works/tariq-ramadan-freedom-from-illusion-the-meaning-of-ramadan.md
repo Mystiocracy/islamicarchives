@@ -5,12 +5,13 @@ year: 2012
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Ramadan"
-  - "spirituality"
-  - "freedom"
+  - "month of Ramadan"
   - "fasting"
+  - "freedom"
+  - "consumerism"
+  - "Muslim unity"
 summary: "Describes Ramadan as a spiritual school teaching discipline, humility and compassion for the poor, questioning consumerist ideas of freedom and urging inner reflection and Muslim unity."
 venue: "ABC Religion & Ethics, 10 July 2012"
 rights: link-only

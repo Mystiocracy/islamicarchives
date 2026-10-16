@@ -6,6 +6,10 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "Fi Fiqh al-Awlawiyyat"
+  - "fiqh al-awlawiyyat"
+  - "priorities"
 summary: "On understanding the order of priorities in Islamic action."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

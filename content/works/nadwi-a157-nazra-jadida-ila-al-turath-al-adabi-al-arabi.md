@@ -4,6 +4,14 @@ titleOriginal: "نظرة جديدة إلى التراث الأدبي العرب�
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Arabic literature"
+  - "literary heritage"
+  - "turath"
+  - "adab"
+  - "Arabic literary history"
 summary: "A Fresh Look at the Arabic Literary Heritage"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

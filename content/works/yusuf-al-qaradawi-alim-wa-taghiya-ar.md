@@ -5,7 +5,13 @@ titleOriginal: "عالم وطاغية (مسرحية تاريخية)"
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - political-thought
+keywords:
+  - "historical play"
+  - "drama"
+  - "scholar and tyrant"
+  - "Sa'id ibn Jubayr"
+  - "al-Hajjaj"
 summary: "Historical play about the confrontation between a scholar and a tyrant."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

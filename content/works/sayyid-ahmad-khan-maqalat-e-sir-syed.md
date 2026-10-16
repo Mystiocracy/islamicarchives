@@ -10,9 +10,9 @@ subjects:
   - philosophy-and-theology
   - education
 keywords:
-  - "collected essays"
   - "Muhammad Ismail Panipati"
-  - "Majlis-e-Taraqqi-e-Adab"
+  - "Aligarh"
+  - "religious reform"
 summary: "The multi-volume edition of his collected essays and articles compiled by Muhammad Ismail Panipati, the standard modern source for his shorter writings."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

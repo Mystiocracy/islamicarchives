@@ -13,6 +13,7 @@ keywords:
   - "caliphate"
   - "reason"
   - "Sunni political thought"
+  - "al-Ghazali"
 venue: "Cambridge University Press (Cambridge Studies in Islamic Civilization)"
 summary: "A revisionist history of Sunni political thought from the early to late medieval period that places Ibn Taymiyya's ideas on reason, community and governance at its centre."
 rights: link-only

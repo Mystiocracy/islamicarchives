@@ -7,7 +7,9 @@ type: "Speech"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Tahzib-o-Tamaddun par Islam ke Asarat aur Ehsanat (Ar. al-Islam wa Atharuhu fi al-Hadara)"
+  - "Tahzib-o-Tamaddun par Islam ke Asarat aur Ehsanat"
+  - "al-Islam wa Atharuhu fi al-Hadara"
+  - "Islamic civilisation"
 summary: "The imprint of Islam on civilisation and culture, and its contribution. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -8,10 +8,11 @@ type: "Interview"
 subjects:
   - political-thought
 keywords:
-  - "swissinfo"
   - "Arab Spring"
+  - "Islam and the Arab Awakening"
   - "secularism"
-  - "Geneva"
+  - "Islamists"
+  - "swissinfo"
 summary: "Ramadan, in Geneva promoting Islam and the Arab Awakening, warns that the secularist-Islamist polarisation masks the real social and economic issues facing the Arab world."
 venue: "swissinfo.ch (Swiss Broadcasting)"
 rights: link-only

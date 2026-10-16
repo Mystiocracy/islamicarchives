@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Western civilisation"
+  - "Westernisation"
+  - "Muslim world"
+  - "modernity"
+  - "the West"
 summary: "The Muslim World's Stance toward Western Civilisation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

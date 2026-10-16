@@ -5,12 +5,11 @@ year: 2002
 language: "French"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Faith, the Way and Resistance (English rendering of the title)"
+  - "Faith, the Way and Resistance"
   - "faith"
   - "worship"
-  - "ethics"
   - "resistance"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Tawhid poche (Lyon)"

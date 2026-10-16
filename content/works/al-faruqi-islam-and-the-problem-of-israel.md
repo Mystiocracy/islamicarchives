@@ -11,7 +11,7 @@ keywords:
   - "Zionism"
   - "Palestine"
   - "Israel"
-  - "Islamic Council of Europe"
+  - "dhimmi"
 summary: "Analyses Zionism and the State of Israel from an Islamic standpoint and proposes a solution in which Jews would live as a protected religious community within an Islamic order."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

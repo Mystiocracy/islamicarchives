@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 2006
 language: Urdu
 type: "Book"
-venue: "Maktaba Khawatin Magazine, Lahore"
 subjects:
   - islam-and-modernity
+keywords:
+  - "conversion to Islam"
+  - "autobiography"
+  - "America"
+  - "Memoirs of Childhood and Youth in America"
+venue: "Maktaba Khawatin Magazine, Lahore"
 summary: "Urdu translation of Memoirs of Childhood and Youth in America."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "ikhtilaf"
+  - "disagreement"
+  - "unity"
 summary: "Distinguishes legitimate disagreement from blameworthy division within the revival movement."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

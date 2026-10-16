@@ -11,8 +11,9 @@ subjects:
 keywords:
   - "Symboles de la science sacrée"
   - "Fundamental Symbols"
-  - "Michel Vâlsan"
   - "symbolism"
+  - "sacred science"
+  - "Traditionalism"
 summary: "A posthumous collection, compiled by Michel Vâlsan, of Guénon's articles on traditional symbolism, including symbols drawn from Islamic and Sufi sources."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1951); later translations may still be in copyright."

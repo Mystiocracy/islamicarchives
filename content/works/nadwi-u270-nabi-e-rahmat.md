@@ -4,8 +4,12 @@ titleOriginal: "نبی رحمتﷺ"
 author: nadwi
 language: "Urdu"
 type: "Book"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "al-Sira al-Nabawiyya"
+  - "biography of the Prophet"
+  - "Muhammad Rasulullah"
 summary: "The Prophet of mercy (biography of the Prophet). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -7,7 +7,10 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
+  - "Ali ibn Abi Talib"
   - "al-Murtada"
+  - "caliphate"
+  - "Rashidun"
 summary: "Ali: life and caliphate. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

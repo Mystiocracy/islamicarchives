@@ -8,8 +8,10 @@ subjects:
   - psychology-and-mental-health
   - islam-and-modernity
 keywords:
-  - "learned helplessness"
   - "hope"
+  - "despair"
+  - "Muslim decline"
+  - "Martin Seligman"
 venue: "AlJumuah Magazine"
 summary: "Applies the psychological concept of learned helplessness to Muslim despair and prescribes faith, history and effort as remedies."
 rights: link-only

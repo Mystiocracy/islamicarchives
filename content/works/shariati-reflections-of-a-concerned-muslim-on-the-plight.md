@@ -7,10 +7,10 @@ subjects:
   - political-thought
   - colonialism-and-decolonisation
 keywords:
-  - "Ali Behzadnia"
-  - "Najla Denny"
   - "oppression"
   - "Third World"
+  - "tawhid"
+  - "mustad'afin"
 summary: "A short lecture on the duty of believers toward the oppressed and the political meaning of monotheism."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

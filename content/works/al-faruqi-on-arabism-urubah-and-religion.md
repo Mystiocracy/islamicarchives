@@ -9,9 +9,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Arabism"
-  - "ʿurubah"
+  - "urubah"
   - "Arab identity"
-  - "Djambatan"
+  - "Arab nationalism"
 summary: "Argues that Arab identity is bound up with the religious consciousness expressed most fully in Islam, presenting ʿurubah as the vehicle of a universal monotheistic vision."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

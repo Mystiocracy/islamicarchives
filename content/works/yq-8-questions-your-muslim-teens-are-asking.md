@@ -7,8 +7,10 @@ type: "Article"
 subjects:
   - family-and-society
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "Muslim teens"
+  - "youth"
+  - "parenting"
+  - "doubts"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

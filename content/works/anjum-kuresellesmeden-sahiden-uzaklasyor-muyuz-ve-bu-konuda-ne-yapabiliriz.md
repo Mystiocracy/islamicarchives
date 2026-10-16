@@ -5,11 +5,13 @@ year: 2024
 language: "Turkish"
 type: "Essay"
 subjects:
-  - economics
   - political-thought
+  - economics
 keywords:
   - "deglobalization"
-  - "Turkish"
+  - "Is Deglobalization Real?"
+  - "globalization"
+  - "world order"
 venue: "American Journal of Islam and Society (Turkish translation)"
 summary: "Turkish translation of his editorial 'Is Deglobalization Real? And What Can We Do About It?'."
 rights: link-only

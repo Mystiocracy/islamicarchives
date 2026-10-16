@@ -5,6 +5,14 @@ author: nadwi
 year: 2002
 language: "Arabic"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "Muslim notables"
+  - "biographies"
+  - "scholars"
+  - "Islamic history"
+  - "tarajim"
 summary: "Notable and Famous Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

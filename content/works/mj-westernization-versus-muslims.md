@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+  - colonialism-and-decolonisation
+keywords:
+  - "Westernization"
+  - "cultural slavery"
+  - "political slavery"
+venue: "Mohammad Yusuf Khan"
 summary: "\"Cultural Slavery is Inseparable from Political Slavery\" and \"Westernization: a Panoramic View\"."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

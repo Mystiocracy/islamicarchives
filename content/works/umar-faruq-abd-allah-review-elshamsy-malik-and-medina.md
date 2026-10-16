@@ -8,9 +8,10 @@ type: "Review"
 subjects:
   - islamic-law
 keywords:
-  - "book review"
-  - "Mālik and Medina"
-  - "ʿamal"
+  - "Malik and Medina"
+  - "Ahmed El Shamsy"
+  - "amal"
+  - "Maliki school"
 summary: "A review of *Mālik and Medina* by Ahmed El Shamsy of the University of Chicago."
 venue: "Ilahiyat Studies 5, no. 1, pp. 126–131"
 rights: link-only

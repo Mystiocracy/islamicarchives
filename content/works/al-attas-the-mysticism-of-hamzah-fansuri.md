@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "Hamzah Fansuri"
   - "Malay Sufi poetry"
-  - "PhD thesis SOAS"
   - "wujudiyyah"
+  - "Aceh"
 summary: "Al-Attas's doctoral study of the sixteenth-century Malay Sufi poet Hamzah Fansuri, with editions and translations of his prose treatises and analysis of his metaphysics."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

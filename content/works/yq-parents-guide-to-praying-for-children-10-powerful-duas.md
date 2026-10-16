@@ -5,11 +5,13 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
-  - quranic-studies
+  - family-and-society
+  - sufism
 keywords:
-  - "Allah"
-  - "Quran"
+  - "dua"
+  - "children"
+  - "parents"
+  - "supplication"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

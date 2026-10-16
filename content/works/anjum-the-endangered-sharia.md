@@ -8,9 +8,10 @@ subjects:
   - islamic-law
   - islam-and-modernity
 keywords:
-  - "shari'a"
+  - "sharia"
+  - "Wael Hallaq"
+  - "The Impossible State"
   - "modernity"
-  - "Hallaq"
 venue: "Islamic Law Blog (Program in Islamic Law, Harvard Law School)"
 summary: "Opens a guest series by examining the claim that modernity has 'killed' the shari'a."
 rights: link-only

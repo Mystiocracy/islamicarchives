@@ -4,10 +4,11 @@ author: yasir-qadhi
 year: 2023
 language: English
 type: "Book"
-subjects:
-  - education
 keywords:
-  - "The Sīrah of the Prophet"
+  - "sira"
+  - "Prophet Muhammad"
+  - "prophetic biography"
+  - "seerah"
 summary: "A contemporary study of the Prophet's life."
 venue: "Kube Publishing"
 rights: link-only

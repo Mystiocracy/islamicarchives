@@ -5,6 +5,12 @@ author: nadwi
 year: 1980
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Islam in a Changing World"
+  - "social change"
+  - "modern world"
 summary: "Islam in a Changing World"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

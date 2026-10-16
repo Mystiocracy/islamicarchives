@@ -11,6 +11,7 @@ keywords:
   - "Risalat al-jihad"
   - "jihad"
   - "fiqh of jihad"
+  - "Muslim Brotherhood"
 summary: "A tract on the obligation and rules of jihad, drawing on Qurʾānic verses, ḥadīth and the legal schools."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

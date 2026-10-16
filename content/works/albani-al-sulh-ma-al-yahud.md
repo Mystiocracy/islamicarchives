@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - political-thought
 keywords:
-  - "Peace with the Jews"
+  - "al-Sulh ma al-yahud"
+  - "Palestine"
+  - "peace treaty"
+  - "Israel"
 summary: "A short Arabic treatise on Palestine."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

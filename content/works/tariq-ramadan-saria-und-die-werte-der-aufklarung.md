@@ -6,9 +6,11 @@ language: "de"
 type: "Chapter"
 subjects:
   - islamic-law
+  - islam-and-modernity
 keywords:
   - "sharia"
   - "Enlightenment"
+  - "Aufklärung"
   - "values"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: von Stosch et al. (eds), Moderne Zugänge zum Islam, Schoeningh/Brill, 2010"

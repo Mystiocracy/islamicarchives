@@ -7,8 +7,11 @@ type: "Translation"
 subjects:
   - political-thought
   - economics
+  - islam-and-modernity
 keywords:
   - "communism"
+  - "Marxism"
+  - "Islam, Communism and Idealism"
 venue: "Super Printing"
 summary: "French pamphlet contrasting Islam and communism."
 rights: link-only

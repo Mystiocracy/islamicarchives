@@ -5,8 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - sufism
   - education
+  - sufism
+keywords:
+  - "education"
+  - "ta'lim"
+  - "tarbiya"
+  - "heart"
+  - "educational reform"
 summary: "Hearts will change when education changes"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

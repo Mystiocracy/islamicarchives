@@ -11,6 +11,8 @@ subjects:
 keywords:
   - "tarbiya"
   - "Islamic movement"
+  - "Islamic activism"
+  - "character formation"
 venue: "Dār al-Shurūq"
 summary: "Argues that education and character formation must take priority in Islamic activism."
 rights: link-only

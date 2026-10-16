@@ -7,11 +7,12 @@ type: "Book"
 subjects:
   - islamic-law
 keywords:
-  - "Imam Mālik"
+  - "Imam Malik"
   - "Medina"
-  - "ʿamal"
+  - "amal"
+  - "Maliki school"
+  - "usul al-fiqh"
   - "legal reasoning"
-  - "Mālikī school"
 summary: "A study of the legal reasoning of Imam Mālik ibn Anas, founder of the Mālikī school, and its similarities to and differences from the other Sunni schools."
 venue: "Brill (Islamic History and Civilization)"
 rights: link-only

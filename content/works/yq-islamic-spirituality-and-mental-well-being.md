@@ -7,9 +7,11 @@ language: "English"
 type: "Paper"
 subjects:
   - psychology-and-mental-health
+  - sufism
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "spirituality"
+  - "mental well-being"
+  - "religiosity"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

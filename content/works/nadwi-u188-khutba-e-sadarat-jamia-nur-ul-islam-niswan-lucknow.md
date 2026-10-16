@@ -7,6 +7,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+  - education
+keywords:
+  - "Jamia Nur-ul-Islam Niswan"
+  - "women's madrasa"
+  - "women's education"
+  - "Lucknow"
 summary: "Presidential address on women's duties (15-16 April 1992)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

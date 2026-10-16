@@ -12,7 +12,7 @@ keywords:
   - "Tajdid al-manhaj fi taqwim al-turath"
   - "turath"
   - "integrative reading"
-  - "critique of al-Jabiri"
+  - "al-Jabiri"
 summary: "Criticises fragmentary and ideological readings of the Arabic-Islamic heritage and proposes an integrative method rooted in its own disciplines."
 rights: link-only
 rightsNote: "In copyright (living author)."

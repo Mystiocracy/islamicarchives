@@ -5,10 +5,14 @@ year: 1979
 language: "English"
 type: "Book"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+  - quranic-studies
 keywords:
-  - "Al-Nubuwwa wa al-Anbiya' fi Daw' al-Qur'an (Ar.) / Nabuwwat aur Anbiya-e-Kiram (Ur.)"
-  - "Mohiuddin Ahmad"
+  - "prophethood"
+  - "nubuwwa"
+  - "prophets"
+  - "al-Nubuwwa wa al-Anbiya' fi Daw' al-Qur'an"
+  - "Nabuwwat aur Anbiya-e-Kiram"
 summary: "Islamic Concept of Prophethood. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -9,9 +9,9 @@ subjects:
 keywords:
   - "political Islam"
   - "Islamism"
-  - "Middle East"
   - "Saudi Arabia"
-  - "Oxford"
+  - "Middle East"
+  - "Oxford Middle East Centre"
 summary: "Lecture delivered on 4 March 2016 at the Oxford Middle East Centre examining political Islam, Islamist movements, Saudi Arabia, Western foreign policy and reform; about 61 minutes."
 venue: "Middle East Centre, University of Oxford (Oxford Podcasts)"
 rights: link-only

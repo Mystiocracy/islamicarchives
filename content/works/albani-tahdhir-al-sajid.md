@@ -5,11 +5,14 @@ titleOriginal: "تحذير الساجد من اتخاذ القبور مساجد"
 language: Arabic
 type: "Book"
 subjects:
-  - hadith-studies
   - islamic-law
+  - philosophy-and-theology
 keywords:
-  - "Taḥdhīr al-sājid min ittikhādh al-qubūr masājid"
-  - "Albani"
+  - "graves"
+  - "mosques"
+  - "shrines"
+  - "bid'a"
+  - "shirk"
 summary: "On taking graves as mosques, cited as one of his first works."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

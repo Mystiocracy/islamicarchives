@@ -7,6 +7,11 @@ language: "Indonesian"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "al-Dawla al-Islamiyya"
+  - "The Islamic State"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
 summary: "Indonesian edition of The Islamic State."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

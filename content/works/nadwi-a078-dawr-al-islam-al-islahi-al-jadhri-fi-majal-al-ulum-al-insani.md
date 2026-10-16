@@ -4,6 +4,13 @@ titleOriginal: "دور الإسلام الإصلاحي الجذري في مجا�
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - education
+  - islam-and-modernity
+keywords:
+  - "Islam's Radical Reforming Role in the Human Sciences"
+  - "human sciences"
+  - "Islamisation of knowledge"
 summary: "Islam's Radical Reforming Role in the Human Sciences"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

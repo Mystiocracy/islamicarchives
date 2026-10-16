@@ -7,13 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - science-and-religion
-  - philosophy-and-theology
-  - political-thought
 keywords:
-  - "Environment"
-  - "Islamic Ethics"
-  - "Nature & Science"
-  - "Politics & Practical Theology"
+  - "environment"
+  - "nature"
+  - "ecological crisis"
+  - "beauty"
+  - "stewardship"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

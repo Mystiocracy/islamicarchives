@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Muslims in India"
+  - "India"
+  - "Indian Muslims"
+  - "Islam in India"
 summary: "Muslims in India"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

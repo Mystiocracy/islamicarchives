@@ -10,7 +10,7 @@ subjects:
 keywords:
   - "Chahrazad n'est pas marocaine"
   - "Morocco"
-  - "women"
+  - "Moroccan women"
 summary: "Essays on the situation of women in contemporary Moroccan society."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

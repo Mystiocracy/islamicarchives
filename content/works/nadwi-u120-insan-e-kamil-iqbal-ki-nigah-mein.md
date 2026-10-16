@@ -4,6 +4,15 @@ titleOriginal: "انسان کامل اقبال کی نگاہ میں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Muhammad Iqbal"
+  - "insan-e-kamil"
+  - "perfect man"
+  - "khudi"
+  - "mard-e-momin"
 summary: "The perfect man in Iqbal's view"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

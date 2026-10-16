@@ -6,8 +6,13 @@ year: 1985
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - education
   - islam-and-modernity
+  - education
+keywords:
+  - "Western civilisation"
+  - "Westernisation"
+  - "educated class"
+  - "intelligentsia"
 summary: "Imported Western Civilisation and Its Effect on the Educated Generation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

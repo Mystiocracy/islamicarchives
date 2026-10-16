@@ -6,13 +6,14 @@ year: 2019
 language: "Arabic"
 type: "Book"
 subjects:
-  - quranic-studies
   - islamic-law
   - political-thought
+  - quranic-studies
 keywords:
-  - "Quran and Sharia"
+  - "The Qur'an and the Sharia"
   - "Islamic constitutionalism"
-  - "Arabic"
+  - "sharia"
+  - "Qur'anic ethics"
 summary: "Arabic book reflecting on the Qur'an as the moral foundation of the Sharia and proposing a new Islamic constitutionalism."
 rights: link-only
 rightsNote: "In copyright (living author)."

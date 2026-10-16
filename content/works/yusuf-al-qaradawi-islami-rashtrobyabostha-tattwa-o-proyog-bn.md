@@ -7,6 +7,11 @@ language: "Bengali"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Islamic state"
+  - "governance"
+  - "Min Fiqh al-Dawla fi l-Islam"
+  - "shura"
 summary: "Theory and practice of the Islamic state."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

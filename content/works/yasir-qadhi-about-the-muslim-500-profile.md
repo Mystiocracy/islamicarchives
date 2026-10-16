@@ -4,9 +4,10 @@ author: yasir-qadhi
 language: English
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "profile"
+  - "The Muslim 500"
+  - "influential Muslims"
 summary: "A short profile listing him among influential Muslims."
 venue: "The Muslim 500"
 rights: link-only

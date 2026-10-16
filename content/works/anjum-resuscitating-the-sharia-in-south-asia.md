@@ -10,7 +10,9 @@ subjects:
 keywords:
   - "South Asia"
   - "Shah Wali Allah"
-  - "shari'a"
+  - "custom"
+  - "urf"
+  - "sharia"
 venue: "Islamic Law Blog (Program in Islamic Law, Harvard Law School)"
 summary: "Looks at South Asian efforts, drawing on Shah Wali Allah's ideas on custom, to revive the shari'a."
 rights: link-only

@@ -9,10 +9,11 @@ subjects:
   - islam-and-modernity
   - philosophy-and-theology
 keywords:
+  - "Humanisme et islam"
   - "humanism"
   - "ethics"
-  - "Vrin"
   - "violence"
+  - "dogmatism"
 summary: "Argues for recovering and renewing a humanist tradition within Islamic thought in response to contemporary violence and dogmatism."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

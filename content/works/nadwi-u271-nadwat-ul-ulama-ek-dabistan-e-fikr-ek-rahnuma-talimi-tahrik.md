@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "Lucknow"
+  - "school of thought"
+  - "educational reform"
 summary: "Nadwat al-Ulama: a school of thought and leading educational movement"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

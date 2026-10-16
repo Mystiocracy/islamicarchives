@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "Introduction to Qur'anic Studies"
+  - "tadabbur"
+  - "understanding the Qur'an"
+  - "principles of reflection"
 summary: "Introduction to Qur'anic Studies"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

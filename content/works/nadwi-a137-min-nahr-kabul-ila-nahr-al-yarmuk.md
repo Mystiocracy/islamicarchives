@@ -5,8 +5,13 @@ author: nadwi
 year: 1974
 language: "Arabic"
 type: "Book"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "Afghanistan"
+  - "Kabul"
+  - "Yarmuk"
+  - "West Asia"
+  - "Middle East"
+  - "travel"
 summary: "From the Kabul River to the Yarmuk: A Tour of West Asia"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

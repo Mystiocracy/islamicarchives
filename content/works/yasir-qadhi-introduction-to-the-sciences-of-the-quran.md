@@ -7,7 +7,11 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "An Introduction to the Sciences of the Qur'aan"
+  - "ulum al-Qur'an"
+  - "revelation"
+  - "compilation of the Qur'an"
+  - "qira'at"
+  - "tafsir"
 summary: "An introduction to the sciences of the Qur'an: revelation, collection, recitation and exegesis."
 venue: "Al-Hidaayah"
 rights: link-only

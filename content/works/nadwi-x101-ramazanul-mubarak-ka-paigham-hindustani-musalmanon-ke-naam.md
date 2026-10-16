@@ -6,7 +6,11 @@ language: "Hindi"
 type: "Speech"
 subjects:
   - political-thought
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Ramadan"
+  - "Indian Muslims"
+  - "sawm"
 summary: "The message of Ramadan to Indian Muslims. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

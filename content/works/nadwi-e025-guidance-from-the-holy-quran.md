@@ -7,7 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Abdur Raheem Kidwai"
+  - "Qur'an"
+  - "guidance"
+  - "tadabbur"
+  - "Qur'anic themes"
 summary: "Guidance from the Holy Qur'an. Translated by Abdur Raheem Kidwai from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

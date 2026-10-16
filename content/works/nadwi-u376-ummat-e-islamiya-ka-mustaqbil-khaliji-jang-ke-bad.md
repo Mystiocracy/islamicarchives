@@ -4,6 +4,13 @@ titleOriginal: "امت اسلامیہ کا مستقبل خلیجی جنگ کے �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Gulf War"
+  - "Iraq"
+  - "Kuwait"
+  - "ummah"
 summary: "The Muslim community's future after the Gulf War"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

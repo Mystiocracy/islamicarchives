@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Awlawiyyat al-Haraka al-Islamiyya fi l-Marhala al-Qadima"
+  - "Islamic movement"
+  - "fiqh al-awlawiyyat"
+  - "Muslim Brotherhood"
 summary: "Sets out the fiqh of priorities and balances for the Islamic movement across thought, outreach and organisation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

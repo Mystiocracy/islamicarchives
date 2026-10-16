@@ -5,9 +5,11 @@ year: 2001
 language: English
 type: "Book"
 subjects:
-  - education
+  - sufism
 keywords:
-  - "Du'a"
+  - "du'a"
+  - "supplication"
+  - "Sunna"
 summary: "On supplication in the Qur'an and Sunna."
 venue: "Al-Hidaayah"
 rights: link-only

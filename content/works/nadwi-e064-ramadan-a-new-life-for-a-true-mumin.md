@@ -4,9 +4,13 @@ author: nadwi
 language: "English"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
 keywords:
-  - "Ramazan: Momin-e-Sadiq ki Hayat-e-Nau (Ur.)"
+  - "Ramadan"
+  - "fasting"
+  - "sawm"
+  - "Ramazan: Momin-e-Sadiq ki Hayat-e-Nau"
 summary: "Ramadan: A New Life for a True Mu'min. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

@@ -11,7 +11,9 @@ keywords:
   - "Islam aur Jahiliyyat"
   - "jahiliyya"
   - "worldviews"
-  - "ignorance"
+  - "polytheism"
+  - "materialism"
+  - "monasticism"
 summary: "A lecture contrasting the Islamic worldview with the forms of jahiliyya, or ignorance, underlying polytheism, materialism and monasticism."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

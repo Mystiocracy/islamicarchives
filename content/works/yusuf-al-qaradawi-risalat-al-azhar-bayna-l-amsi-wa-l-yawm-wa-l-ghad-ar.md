@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "al-Azhar"
+  - "Egypt"
+  - "religious education"
+  - "millennium of al-Azhar"
 summary: "Reflection on al-Azhar's past, present and future role, written for its millennium."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

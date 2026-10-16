@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "Muslim personal law"
+  - "Muslim countries"
+  - "family law reform"
 summary: "Muslim Personal Law and Muslim countries (another edition)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

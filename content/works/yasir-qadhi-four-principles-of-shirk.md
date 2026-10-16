@@ -7,7 +7,11 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "An Explanation of the Four Principles of Shirk"
+  - "Qawa'id al-Arba"
+  - "shirk"
+  - "Muhammad ibn Abd al-Wahhab"
+  - "tawhid"
+  - "aqida"
 summary: "An explanation of Muhammad ibn ʿAbd al-Wahhāb's treatise on the four principles of shirk."
 venue: "Al-Hidaayah"
 rights: link-only

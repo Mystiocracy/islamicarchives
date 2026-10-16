@@ -8,11 +8,14 @@ type: "Book"
 subjects:
   - women-and-gender
   - islamic-law
+  - family-and-society
 keywords:
   - "Nezam-e hoquq-e zan dar Eslam"
-  - "Zan-e Ruz articles"
+  - "women's rights"
   - "family law"
-  - "marriage and divorce"
+  - "polygamy"
+  - "inheritance"
+  - "Zan-e Ruz"
 summary: "Grew out of a 1966-67 press debate over Iran's family law reforms; argues that Islamic law gives men and women equal but not identical rights in marriage, divorce, inheritance and polygamy."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

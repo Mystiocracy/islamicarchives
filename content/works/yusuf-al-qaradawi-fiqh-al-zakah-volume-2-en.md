@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "zakat"
+  - "zakat distribution"
+  - "zakat on trade"
+  - "recipients of zakat"
 summary: "Second volume of the zakah study covering zakah on trade, industry, professions and its distribution."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

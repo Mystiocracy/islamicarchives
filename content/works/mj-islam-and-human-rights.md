@@ -4,9 +4,13 @@ author: maryam-jameelah
 year: 1998
 language: English
 type: "Article"
-venue: "The Universal Message (Islamic Research Academy, Karachi)"
 subjects:
   - islam-and-modernity
+  - political-thought
+keywords:
+  - "human rights"
+  - "Western conceptions of rights"
+venue: "The Universal Message (Islamic Research Academy, Karachi)"
 summary: "Islamic and Western conceptions of human rights compared."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Scan in \"My Life Work\" dossier, p. 83. Date approximate (late 1990s)"

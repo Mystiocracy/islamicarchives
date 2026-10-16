@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "Fiqh al-Awlawiyyat"
+  - "priorities"
+  - "fiqh of priorities"
 summary: "Urdu translation of the study on ordering priorities in religious practice."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

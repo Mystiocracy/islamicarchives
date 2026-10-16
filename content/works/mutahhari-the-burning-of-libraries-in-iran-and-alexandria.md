@@ -4,13 +4,12 @@ author: mutahhari
 titleOriginal: "کتابسوزی ایران و مصر"
 language: "Persian"
 type: "Book"
-subjects:
-  - political-thought
 keywords:
   - "Ketab-suzi"
-  - "Alexandria library"
+  - "Library of Alexandria"
   - "Muslim conquests"
-  - "historiography"
+  - "book burning"
+  - "Persia"
 summary: "A historical inquiry rejecting the claim that the early Muslim conquerors destroyed the libraries of Persia and Alexandria."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

@@ -4,9 +4,16 @@ author: nadwi
 year: 1972
 language: "English"
 type: "Book"
+subjects:
+  - islamic-law
+  - sufism
 keywords:
-  - "Al-Arkan al-Arba'a (Ar.) / Arkan-e-Arba'a (Ur.)"
-  - "Mohammad Asif Kidwai"
+  - "salat"
+  - "zakat"
+  - "sawm"
+  - "Hajj"
+  - "al-Arkan al-Arba'a"
+  - "Arkan-e-Arba'a"
 summary: "The Four Pillars of Islam. Translated by Mohammad Asif Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

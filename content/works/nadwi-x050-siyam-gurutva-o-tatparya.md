@@ -5,9 +5,12 @@ author: nadwi
 language: "Bengali"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - sufism
 keywords:
-  - "Arkan-e-Arba'a (fasting section)"
+  - "sawm"
+  - "Ramadan"
+  - "Arkan-e-Arba'a"
 summary: "Fasting: importance and significance. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

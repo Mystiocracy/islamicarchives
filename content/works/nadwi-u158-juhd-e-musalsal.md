@@ -4,6 +4,10 @@ titleOriginal: "جہد مسلسل"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "struggle"
+  - "perseverance"
+  - "juhd"
 summary: "Continuous struggle"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

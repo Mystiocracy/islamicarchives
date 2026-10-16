@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - hadith-studies
+keywords:
+  - "Sunna"
+  - "bid'a"
+  - "innovation"
+  - "ittiba"
 summary: "Distinguishes the sunna from blameworthy innovation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

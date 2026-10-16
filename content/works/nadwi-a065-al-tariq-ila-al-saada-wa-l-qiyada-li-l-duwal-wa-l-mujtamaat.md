@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "The Road to Happiness and Leadership"
+  - "Muslim states"
+  - "leadership"
 summary: "The Road to Happiness and Leadership for Free Muslim States and Societies"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

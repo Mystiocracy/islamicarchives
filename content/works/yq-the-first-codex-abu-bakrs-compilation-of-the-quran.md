@@ -6,10 +6,13 @@ year: 2023
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Abu Bakr"
+  - "compilation of the Qur'an"
+  - "mushaf"
+  - "Zayd ibn Thabit"
+  - "codex"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

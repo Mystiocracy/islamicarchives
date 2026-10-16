@@ -7,6 +7,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "al-Shakhsiyya al-Islamiyya"
+  - "The Islamic Personality"
+  - "Hizb ut-Tahrir"
+  - "aqida"
 summary: "Turkish edition of volume 1 of The Islamic Personality."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

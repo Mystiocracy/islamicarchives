@@ -5,6 +5,12 @@ language: "English"
 type: "Speech"
 subjects:
   - political-thought
+keywords:
+  - "India"
+  - "patriotism"
+  - "Payam-e-Insaniyat"
+  - "communalism"
+  - "national integration"
 summary: "Issues for Every Patriot to Ponder. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

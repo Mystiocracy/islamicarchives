@@ -11,7 +11,7 @@ keywords:
   - "Islamic philosophy"
   - "Mulla Sadra"
   - "Persian culture"
-  - "traditional society"
+  - "tradition"
 summary: "A collection of essays on Islamic philosophy, science, spirituality and the place of tradition in Muslim life."
 rights: link-only
 rightsNote: "In copyright (living author)."

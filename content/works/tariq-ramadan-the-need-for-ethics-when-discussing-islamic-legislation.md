@@ -7,7 +7,7 @@ type: "Video"
 subjects:
   - islamic-law
 keywords:
-  - "ethics"
+  - "Islamic ethics"
   - "Islamic legislation"
   - "maqasid"
   - "CILE"

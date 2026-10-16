@@ -8,8 +8,9 @@ type: "Review"
 subjects:
   - islam-and-modernity
 keywords:
-  - "book review"
   - "Alexander Russell Webb"
+  - "A Muslim in Victorian America"
+  - "Religious Studies Review"
 summary: "A review of *A Muslim in Victorian America* by Scopino in the Religious Studies Review."
 venue: "Religious Studies Review"
 rights: link-only

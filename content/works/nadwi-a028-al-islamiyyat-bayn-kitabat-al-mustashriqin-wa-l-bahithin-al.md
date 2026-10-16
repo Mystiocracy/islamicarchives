@@ -6,7 +6,13 @@ year: 1986
 language: "Arabic"
 type: "Book"
 subjects:
+  - colonialism-and-decolonisation
   - education
+keywords:
+  - "Islamic studies"
+  - "Orientalism"
+  - "Orientalists"
+  - "Muslim scholarship"
 summary: "Islamic Studies between Orientalist and Muslim Scholarship"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

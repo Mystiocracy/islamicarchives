@@ -7,6 +7,12 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - political-thought
+keywords:
+  - "Nidham al-Islam"
+  - "The System of Islam"
+  - "Hizb ut-Tahrir"
+  - "aqida"
 summary: "Turkish edition of The System of Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

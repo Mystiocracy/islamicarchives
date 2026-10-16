@@ -5,11 +5,13 @@ titleOriginal: "المذاهب الفكرية المعاصرة"
 language: "Arabic"
 type: "Video"
 subjects:
-  - political-thought
   - islam-and-modernity
+  - political-thought
 keywords:
-  - "lecture"
   - "ideologies"
+  - "Western ideologies"
+  - "contemporary schools of thought"
+  - "materialism"
 venue: "YouTube (Qaradawi channel)"
 summary: "Lecture (1h35) on modern Western ideologies."
 rights: link-only

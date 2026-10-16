@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "communal riots"
+  - "Indian Muslims"
+  - "Hindu-Muslim relations"
 summary: "Riots and Indian Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

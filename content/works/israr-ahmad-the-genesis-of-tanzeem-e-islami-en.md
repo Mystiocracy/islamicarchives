@@ -7,8 +7,9 @@ subjects:
   - political-thought
 keywords:
   - "Tanzeem-e-Islami"
-  - "history"
   - "Jamaat-e-Islami"
+  - "Islamic movement"
+  - "Pakistan"
 summary: "Traces the origins of Tanzeem-e-Islami from his break with Jamaat-e-Islami to the founding of the organisation."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

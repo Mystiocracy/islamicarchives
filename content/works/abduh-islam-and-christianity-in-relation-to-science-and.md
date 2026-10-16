@@ -7,12 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - science-and-religion
   - philosophy-and-theology
 keywords:
   - "al-Islam wa-l-nasraniyya"
   - "Farah Antun"
-  - "religion and science"
+  - "Christianity"
   - "tolerance"
+  - "reason"
 summary: "A reply to Faraḥ Anṭūn's claims about religious intolerance, arguing that Islam is more hospitable to reason, science and civilisation than historical Christianity."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1905); later translations may still be in copyright."

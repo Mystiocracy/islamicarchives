@@ -6,12 +6,13 @@ year: 1998
 language: "Arabic"
 type: "Book"
 subjects:
-  - psychology-and-mental-health
   - education
-  - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
   - "Islamisation of knowledge"
   - "social sciences"
+  - "sociology"
+  - "psychology"
 venue: "Dār al-Shurūq"
 summary: "Argues for re-founding psychology, sociology and education on Islamic premises."
 rights: link-only

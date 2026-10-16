@@ -9,9 +9,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "CSID"
-  - "keynote"
+  - "Center for the Study of Islam and Democracy"
   - "Mu'tazila"
   - "freedom"
+  - "reason"
 summary: "Keynote address to the Center for the Study of Islam and Democracy on the place of reason and freedom in the Islamic intellectual tradition."
 rights: link-only
 rightsNote: "In copyright (living author)."

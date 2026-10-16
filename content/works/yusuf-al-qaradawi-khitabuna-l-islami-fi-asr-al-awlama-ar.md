@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "globalisation"
+  - "Islamic discourse"
+  - "dawa"
+  - "awlama"
 summary: "Discusses how Islamic discourse should respond to globalisation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

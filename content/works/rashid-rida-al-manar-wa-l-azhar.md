@@ -8,9 +8,9 @@ subjects:
   - education
   - islam-and-modernity
 keywords:
-  - "al-Manar wa-l-Azhar"
   - "al-Azhar reform"
   - "Islamic education"
+  - "al-Manar"
 summary: "Riḍā's account of his long dispute with the al-Azhar establishment and his case for reforming religious education."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

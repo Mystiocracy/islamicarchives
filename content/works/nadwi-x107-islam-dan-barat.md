@@ -7,8 +7,9 @@ type: "Speech"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Islam and the West (Oxford lecture, 1983)"
-  - "Che Zarrina Sa'ari"
+  - "Islam and the West"
+  - "Oxford Centre for Islamic Studies"
+  - "al-Islam wal-Gharb"
 summary: "Islam and the West. Translated by Che Zarrina Sa'ari."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from Jurnal Usuluddin (University of Malaya)"

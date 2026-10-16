@@ -6,10 +6,12 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Qur'an preservation"
+  - "oral transmission"
+  - "written transmission"
+  - "compilation of the Qur'an"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

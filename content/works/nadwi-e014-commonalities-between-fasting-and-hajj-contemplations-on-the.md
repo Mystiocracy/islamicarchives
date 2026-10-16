@@ -6,10 +6,13 @@ language: "English"
 type: "Article"
 subjects:
   - quranic-studies
-  - philosophy-and-theology
+  - islamic-law
 keywords:
-  - "Ta'ammulat fi al-Qur'an al-Karim (Ar.)"
-  - "Shahin ur-Rahman"
+  - "fasting"
+  - "Ramadan"
+  - "Hajj"
+  - "Ta'ammulat fi al-Qur'an al-Karim"
+  - "Contemplations on the Noble Qur'an"
 summary: "Commonalities between Fasting and Hajj (Contemplations on the Noble Qur'an, ch. 3). Translated by Shahin ur-Rahman from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from darultahqiq.com (PDF hosted on archive.org)"

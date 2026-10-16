@@ -5,10 +5,11 @@ year: 2022
 language: "English"
 type: "Chapter"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
   - "cosmopolitanism"
   - "pluralism"
+  - "diversity"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: Whose Cosmopolitanism?, Berghahn Books (Crossref online date 2022; earlier print date possible)"
 rights: link-only

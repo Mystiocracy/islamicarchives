@@ -7,12 +7,14 @@ language: "English"
 type: "Translation"
 subjects:
   - islam-and-modernity
-  - women-and-gender
-  - slavery-and-race
-  - economics
+  - philosophy-and-theology
 keywords:
+  - "Shubuhat hawla al-Islam"
   - "misconceptions"
   - "apologetics"
+  - "slavery"
+  - "women"
+  - "capitalism"
 venue: "Ministry of Awqaf, Kuwait (1964); IIFSO; Islamic Publications, Lahore"
 summary: "English translation of Shubuhat hawla al-Islam answering modern objections to Islam."
 rights: link-only

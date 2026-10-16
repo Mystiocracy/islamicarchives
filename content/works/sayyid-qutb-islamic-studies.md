@@ -7,12 +7,13 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - political-thought
+  - colonialism-and-decolonisation
   - islam-and-modernity
 keywords:
   - "Dirasat Islamiyya"
-  - "essays"
   - "Muslim Brotherhood"
-  - "journalism"
+  - "Egypt"
+  - "colonialism"
 summary: "A collection of articles from the early 1950s on Islam, colonialism and the political situation of Egypt and the Muslim world."
 rights: link-only
 rightsNote: "In copyright (author d. 1966)."

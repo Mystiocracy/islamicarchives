@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Muslim Majlis-e-Mushawarat"
+  - "Indian Muslims"
+  - "1964"
 summary: "Welcome to the All-India Muslim consultative meeting (8 Aug 1964)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -5,12 +5,13 @@ year: 2012
 language: "English"
 type: "Chapter"
 subjects:
+  - islam-and-modernity
   - family-and-society
 keywords:
   - "multiculturalism"
   - "British identity"
   - "integration"
-  - "7/7"
+  - "7/7 London bombings"
 summary: "Looks at how views of multiculturalism and British identity changed after the 2005 London bombings, pairing theory with grassroots strategies for mutual respect between cultures and faiths."
 venue: "In: Farrar, Robinson, Valli, Wetherly (eds), Islam in the West, Palgrave Macmillan, pp. 24-35"
 rights: link-only

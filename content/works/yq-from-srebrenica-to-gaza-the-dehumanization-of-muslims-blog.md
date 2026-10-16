@@ -5,13 +5,13 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - islam-and-modernity
   - political-thought
 keywords:
-  - "History"
-  - "Islam in the West"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Srebrenica"
+  - "Bosnian genocide"
+  - "Gaza"
+  - "dehumanization"
+  - "Palestine"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

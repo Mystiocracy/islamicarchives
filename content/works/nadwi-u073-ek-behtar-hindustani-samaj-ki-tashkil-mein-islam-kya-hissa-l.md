@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - family-and-society
+keywords:
+  - "Indian society"
+  - "Indian Muslims"
+  - "pluralism"
 summary: "Islam's possible contribution to a better Indian society"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -7,6 +7,11 @@ type: "Book"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "Islamic finance"
+  - "trade"
+  - "modern economy"
+  - "tijarat"
 summary: "Discusses modern trade, finance and economic practice under Islamic law."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

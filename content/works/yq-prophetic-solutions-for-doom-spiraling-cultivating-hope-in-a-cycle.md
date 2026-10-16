@@ -6,11 +6,12 @@ year: 2026
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "doom spiraling"
+  - "hope"
+  - "negativity"
+  - "news"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -4,6 +4,8 @@ titleOriginal: "المضيف الجائع"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+keywords:
+  - "The Hungry Host"
 summary: "The Hungry Host"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

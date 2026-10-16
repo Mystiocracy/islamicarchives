@@ -4,6 +4,11 @@ titleOriginal: "زندہ رہنا ہے تو میر کارواں بن کر رہو
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "leadership"
+  - "ummah"
 summary: "If you want to live, lead the caravan"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

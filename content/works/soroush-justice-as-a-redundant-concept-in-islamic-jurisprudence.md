@@ -5,6 +5,7 @@ language: "English"
 type: "Speech"
 subjects:
   - islamic-law
+  - philosophy-and-theology
 keywords:
   - "justice"
   - "fiqh"

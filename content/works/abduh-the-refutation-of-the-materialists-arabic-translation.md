@@ -7,10 +7,13 @@ language: "Arabic"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
   - "al-Radd ala al-dahriyyin"
   - "Jamal al-Din al-Afghani"
-  - "translation from Persian"
+  - "materialism"
+  - "naturalists"
+  - "Sayyid Ahmad Khan"
 summary: "ʿAbduh's Arabic translation of al-Afghānī's Persian treatise against materialism and the Indian 'naturalists'."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1905); later translations may still be in copyright."

@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "caliphate"
   - "pluralism"
-  - "podcast"
+  - "Shadi Hamid"
+  - "Comment magazine"
 venue: "Comment magazine"
 summary: "Shadi Hamid and Matthew Kaemingk interview Anjum about his case for a revived caliphate."
 rights: link-only

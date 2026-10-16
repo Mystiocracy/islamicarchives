@@ -5,10 +5,14 @@ byline: "Hassam Munir"
 year: 2018
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - political-thought
 keywords:
-  - "History"
-  - "Spread of Islam"
+  - "spread of Islam"
+  - "conversion"
+  - "trade"
+  - "Sufis"
+  - "Islamic history"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

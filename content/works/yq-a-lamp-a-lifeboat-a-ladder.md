@@ -5,10 +5,10 @@ byline: "Zahra Wadia"
 year: 2026
 language: "English"
 type: "Article"
-subjects:
-  - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "lamp"
+  - "lifeboat"
+  - "ladder"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

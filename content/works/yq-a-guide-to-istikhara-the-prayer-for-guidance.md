@@ -6,11 +6,12 @@ language: "English"
 type: "Article"
 subjects:
   - islamic-law
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "istikhara"
+  - "salat al-istikhara"
+  - "guidance"
+  - "decision-making"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -4,8 +4,13 @@ titleOriginal: "হজরত নিয়ামুদ্দীন আওলিয়�
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sufism
 keywords:
-  - "Tarikh-e-Da'wat-o-Azimat vol. 3 (section) - standalone"
+  - "Nizamuddin Auliya"
+  - "Chishti"
+  - "Delhi"
+  - "Tarikh-e-Da'wat-o-Azimat"
 summary: "Hazrat Nizamuddin Auliya. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

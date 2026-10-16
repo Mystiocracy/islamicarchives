@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - political-thought
+keywords:
+  - "Egyptian revolution"
+  - "Arab Spring"
+  - "January 25 revolution"
+  - "Tahrir Square"
+  - "Mubarak"
 summary: "Collected statements and sermons on the January 2011 Egyptian revolution."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

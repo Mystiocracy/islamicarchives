@@ -6,11 +6,11 @@ language: "English"
 type: "Article"
 subjects:
   - political-thought
-  - islamic-law
 keywords:
   - "al-Juwayni"
   - "imamate"
   - "Ghiyath al-umam"
+  - "political metaphors"
 venue: "Journal of the Royal Asiatic Society 26, no. 1-2: 7-18"
 summary: "Analyses the political vocabulary and metaphors in al-Juwayni's writings on the imamate."
 rights: link-only

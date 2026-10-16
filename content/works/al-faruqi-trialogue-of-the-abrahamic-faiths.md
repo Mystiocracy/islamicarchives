@@ -8,9 +8,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "interfaith dialogue"
+  - "Abrahamic religions"
   - "Judaism"
   - "Christianity"
-  - "IIIT"
 summary: "Papers, edited by al-Fārūqī, from a dialogue between Jewish, Christian and Muslim scholars on shared and divergent themes of the Abrahamic religions."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

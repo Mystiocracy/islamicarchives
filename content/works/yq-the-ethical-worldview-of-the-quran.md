@@ -6,11 +6,12 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
+  - quranic-studies
   - philosophy-and-theology
-  - political-thought
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "Qur'anic ethics"
+  - "Islamic ethics"
+  - "moral worldview"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -6,9 +6,13 @@ year: 2024
 language: "English"
 type: "Paper"
 subjects:
+  - quranic-studies
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "Surat al-Hashr"
+  - "Names of Allah"
+  - "asma al-husna"
+  - "nearness to Allah"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

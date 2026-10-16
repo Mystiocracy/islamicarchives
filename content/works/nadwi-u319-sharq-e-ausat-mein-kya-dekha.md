@@ -4,6 +4,13 @@ titleOriginal: "شرق اوسط میں کیا دیکھا؟"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Middle East"
+  - "Arab world"
+  - "Arab nationalism"
 summary: "What I saw in the Middle East"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "What I Believe"
   - "Western Muslims"
-  - "identity"
-  - "Northwestern"
+  - "citizenship"
+  - "Northwestern University"
 summary: "Lecture drawing on his book What I Believe about being both Muslim and Western, covering faith, citizenship and the ethics of belonging."
 venue: "Roberta Buffett Institute for Global Affairs, Northwestern University"
 rights: link-only

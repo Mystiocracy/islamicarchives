@@ -10,8 +10,8 @@ keywords:
   - "din"
   - "religion"
   - "ethics"
-  - "ABIM"
   - "covenant"
+  - "morality"
 summary: "Analyses the Arabic concept of dīn and the primordial covenant to show how the Islamic idea of religion grounds ethics and morality."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

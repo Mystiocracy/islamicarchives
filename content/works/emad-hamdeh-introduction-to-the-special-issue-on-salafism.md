@@ -4,9 +4,11 @@ author: emad-hamdeh
 language: English
 type: "Paper"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "Introduction to Special Issue on Salafism"
+  - "Salafism"
+  - "Salafi movement"
+  - "scholarly authority"
 summary: "His introduction to a special journal issue on Salafism."
 venue: "Not stated"
 rights: link-only

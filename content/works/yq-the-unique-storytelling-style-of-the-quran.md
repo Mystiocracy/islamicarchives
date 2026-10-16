@@ -5,10 +5,13 @@ year: 2022
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Qur'an"
+  - "Qur'anic narrative"
+  - "qasas"
+  - "stories of the prophets"
+  - "i'jaz"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

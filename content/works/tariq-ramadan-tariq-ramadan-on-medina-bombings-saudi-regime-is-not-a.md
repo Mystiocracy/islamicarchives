@@ -9,9 +9,9 @@ subjects:
   - political-thought
 keywords:
   - "Saudi Arabia"
-  - "Medina"
+  - "Medina bombing"
   - "Democracy Now"
-  - "extremism"
+  - "regional violence"
 summary: "After the Medina suicide attack, Ramadan argues that Saudi Arabia is a perpetrator rather than victim of regional violence and criticises Western alliances with it."
 venue: "Democracy Now!"
 rights: link-only

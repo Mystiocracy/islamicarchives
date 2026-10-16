@@ -8,10 +8,11 @@ subjects:
   - islam-and-modernity
   - philosophy-and-theology
 keywords:
-  - "podcast"
-  - "life story"
+  - "Diffused Congruence"
   - "America"
   - "metaphysics"
+  - "Islam in America"
+  - "conversion"
 summary: "A long-form audio interview (1 hour 56 minutes) in which he tells his personal story and speaks on America, metaphysics, Islam in America and the modern world."
 venue: "Diffused Congruence: The American Muslim Experience (podcast)"
 rights: link-only

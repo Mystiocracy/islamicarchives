@@ -8,9 +8,10 @@ subjects:
   - quranic-studies
   - philosophy-and-theology
 keywords:
-  - "Qur'an"
   - "revelation"
   - "i'jaz"
+  - "word of God"
+  - "prophecy"
 venue: "AlJumuah Magazine"
 summary: "Sets out reasons Muslims accept the Qur'an as divine speech, from its style and coherence to fulfilled predictions."
 rights: link-only

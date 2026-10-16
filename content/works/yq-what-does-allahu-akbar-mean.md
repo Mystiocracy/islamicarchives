@@ -5,12 +5,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
   - philosophy-and-theology
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "Allahu Akbar"
+  - "takbir"
+  - "greatness of God"
+  - "dhikr"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

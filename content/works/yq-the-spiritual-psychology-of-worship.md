@@ -6,10 +6,14 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - islamic-law
+  - sufism
+  - psychology-and-mental-health
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "worship"
+  - "ibadah"
+  - "spirituality"
+  - "khushu"
+  - "prayer"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -4,8 +4,15 @@ author: nadwi
 year: 1999
 language: "English"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - sufism
 keywords:
-  - "Mohsin Jalil Shamsi"
+  - "Tablighi Jamaat"
+  - "ijtema"
+  - "Nadwat al-Ulama"
+  - "Muslim identity"
+  - "khayr umma"
 summary: "The Distinctive Position of Muslims. Translated by Mohsin Jalil Shamsi from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

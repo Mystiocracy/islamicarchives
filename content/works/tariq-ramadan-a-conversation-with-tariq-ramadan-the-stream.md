@@ -7,7 +7,7 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "The Stream"
+  - "Al Jazeera The Stream"
   - "Introduction to Islam"
   - "reform"
   - "Western Muslims"

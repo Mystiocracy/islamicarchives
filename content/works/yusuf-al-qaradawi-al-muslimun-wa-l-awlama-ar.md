@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "globalisation"
+  - "awlama"
+  - "Muslims and Globalisation"
+  - "Western hegemony"
 summary: "Short study of Muslims' stance towards globalisation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -9,8 +9,10 @@ subjects:
   - economics
   - islam-and-modernity
 keywords:
+  - "Le Musulman dans le monde de l'économie"
   - "al-Muslim fi 'alam al-iqtisad"
   - "development"
+  - "underdevelopment"
   - "economic independence"
 summary: "Discusses the economic underdevelopment of Muslim countries and the social and cultural conditions required for genuine economic development."
 rights: link-only

@@ -7,10 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - education
-  - family-and-society
+  - colonialism-and-decolonisation
 keywords:
-  - "Education"
-  - "Family & Community"
+  - "colonized mind"
+  - "Islamic education"
+  - "madrasa"
+  - "decline"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

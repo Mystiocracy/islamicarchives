@@ -7,8 +7,10 @@ type: "Essay"
 subjects:
   - islam-and-modernity
 keywords:
-  - "da'wah"
+  - "da'wa"
   - "America"
+  - "liberty"
+  - "American Muslims"
 venue: "AlJumuah Magazine"
 summary: "Argues that inviting others to Islam fits American values of liberty and open debate."
 rights: link-only

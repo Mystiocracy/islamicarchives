@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - economics
+keywords:
+  - "zakat"
+  - "zakat institutions"
+  - "zakat administration"
 summary: "Conditions for success of modern zakat institutions."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

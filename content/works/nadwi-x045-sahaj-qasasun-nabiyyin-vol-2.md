@@ -5,9 +5,11 @@ author: nadwi
 language: "Bengali"
 type: "Book"
 subjects:
-  - hadith-studies
+  - quranic-studies
 keywords:
-  - "Qasas al-Nabiyyin vol. 2 (Arabic)"
+  - "Qasas al-Nabiyyin"
+  - "prophets"
+  - "children"
 summary: "Easy Stories of the Prophets, vol. 2. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

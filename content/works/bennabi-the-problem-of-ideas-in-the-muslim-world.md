@@ -7,13 +7,13 @@ language: "French"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
+  - "Le Problème des idées dans le monde musulman"
   - "Mushkilat al-afkar fi al-'alam al-Islami"
-  - "ideas"
+  - "dead ideas"
+  - "deadly ideas"
   - "authenticity"
-  - "efficacy"
-  - "tr. Mohamed El-Tahir El-Mesawi"
+  - "civilisation"
 summary: "Examines how ideas lose their vitality in a society, distinguishing 'dead' inherited ideas from 'deadly' imported ones, and what this means for Muslim renewal."
 rights: link-only
 rightsNote: "In copyright (author d. 1973)."

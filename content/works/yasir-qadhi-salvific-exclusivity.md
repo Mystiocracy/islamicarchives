@@ -7,7 +7,10 @@ type: "Essay"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Salvific Exclusivity"
+  - "salvation"
+  - "non-Muslims"
+  - "inclusivism"
+  - "MuslimMatters"
 summary: "An essay by Yasir Qadhi on MuslimMatters."
 venue: "MuslimMatters"
 rights: link-only

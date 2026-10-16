@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "Peace in Islam"
   - "war and peace"
-  - "essays"
+  - "jihad"
+  - "tafsir"
 summary: "Essays on peace and war in Islam together with other short studies, including Qurʾānic commentary."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

@@ -7,8 +7,9 @@ type: "Pamphlet"
 subjects:
   - islam-and-modernity
 keywords:
-  - "modernity"
-  - "crisis"
+  - "modern crisis"
+  - "modern civilisation"
+  - "moral crisis"
 venue: "The Islamic Foundation, Leicester"
 summary: "Short essay on the spiritual and moral crisis of modern civilisation and Islam as its remedy."
 rights: link-only

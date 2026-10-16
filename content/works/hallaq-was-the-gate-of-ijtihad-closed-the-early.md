@@ -7,10 +7,10 @@ type: "Collection"
 subjects:
   - islamic-law
 keywords:
-  - "Japanese translation"
-  - "Atsushi Okuda"
-  - "Keio University Press"
   - "ijtihad"
+  - "gate of ijtihad"
+  - "taqlid"
+  - "usul al-fiqh"
 summary: "Japanese-language collection of Hallaq's early essays on Islamic legal theory, edited and translated by Atsushi Okuda."
 rights: link-only
 rightsNote: "In copyright (living author)."

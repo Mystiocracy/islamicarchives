@@ -7,13 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - psychology-and-mental-health
   - islam-and-modernity
+  - psychology-and-mental-health
 keywords:
   - "materialism"
   - "human nature"
   - "Freud"
   - "Darwin"
+  - "Marx"
 venue: "Dār al-Shurūq (later editions)"
 summary: "His first book, contrasting materialist accounts of human nature (Darwin, Freud, Marx) with an Islamic view of the human being."
 rights: link-only

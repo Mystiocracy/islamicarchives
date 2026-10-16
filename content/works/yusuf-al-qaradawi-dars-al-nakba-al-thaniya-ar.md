@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Six-Day War"
+  - "1967 defeat"
+  - "Naksa"
+  - "Israel"
+  - "Arab nationalism"
 summary: "Draws lessons from the 1967 defeat and how to reach victory."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

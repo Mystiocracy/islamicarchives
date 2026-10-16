@@ -6,10 +6,11 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "i'jaz al-Qur'an"
+  - "inimitability"
+  - "miraculous Qur'an"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

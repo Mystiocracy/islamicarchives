@@ -7,10 +7,11 @@ type: "Video"
 subjects:
   - political-thought
 keywords:
-  - "democracy"
+  - "Muslim democrats"
   - "Charlie Hebdo"
-  - "Bencheikh"
-  - "St Antony's"
+  - "Ghaleb Bencheikh"
+  - "St Antony's College"
+  - "democracy"
 summary: "Seminar discussing the call for Muslim democrats to organise after the Charlie Hebdo attacks, with Ramadan reflecting on democracy, authority and reform within Muslim societies."
 venue: "Middle East Centre, St Antony's College, Oxford"
 rights: link-only

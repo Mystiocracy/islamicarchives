@@ -7,9 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - psychology-and-mental-health
+  - sufism
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "nafs"
+  - "ego"
+  - "lower self"
+  - "tazkiya"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

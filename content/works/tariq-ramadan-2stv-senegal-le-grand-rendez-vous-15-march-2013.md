@@ -8,8 +8,8 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Senegal"
-  - "television"
   - "Africa"
+  - "2STV"
   - "reform"
 summary: "Fifty-minute Senegalese television interview on the programme Le Grand rendez-vous, recorded in March 2013; the specific topics were not described in the available metadata."
 venue: "2STV (Senegal)"

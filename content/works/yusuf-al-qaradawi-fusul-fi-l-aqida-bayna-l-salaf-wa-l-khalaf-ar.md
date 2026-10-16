@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "aqida"
+  - "Salaf"
+  - "Khalaf"
+  - "divine attributes"
+  - "Ash'ari"
 summary: "Chapters on creed comparing the early and later approaches."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - islamic-law
+keywords:
+  - "The Islamic Personality"
+  - "usul al-fiqh"
+  - "Hizb ut-Tahrir"
 summary: "Urdu edition of volume 3."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

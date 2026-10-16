@@ -6,8 +6,12 @@ year: 1983
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - education
   - islamic-law
+keywords:
+  - "Ijtihad and the Rise of the Legal Schools"
+  - "ijtihad"
+  - "madhhab"
+  - "legal schools"
 summary: "Ijtihad and the Rise of the Legal Schools"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

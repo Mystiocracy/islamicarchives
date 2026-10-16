@@ -4,10 +4,15 @@ author: jonathan-brown
 year: 2011
 language: English
 type: "Policy paper"
-venue: "Carnegie Endowment for International Peace"
 subjects:
   - political-thought
   - sufism
+keywords:
+  - "Salafism"
+  - "Egypt"
+  - "2011 revolution"
+  - "Arab Spring"
+venue: "Carnegie Endowment for International Peace"
 summary: "The two movements and their rivalry in the year after the 2011 revolution."
 rights: link-only
 draft: true

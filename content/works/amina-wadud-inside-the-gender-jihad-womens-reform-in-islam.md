@@ -13,6 +13,7 @@ keywords:
   - "woman-led prayer"
   - "tawhid"
   - "Islamic feminism"
+  - "gender justice"
 summary: "Combines autobiography and theology to describe the struggle for gender justice in Muslim communities, including her 2005 leadership of mixed-gender Friday prayer."
 rights: link-only
 rightsNote: "In copyright (living author)."

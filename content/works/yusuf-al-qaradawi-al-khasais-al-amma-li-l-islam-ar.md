@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "characteristics of Islam"
+  - "rabbaniyya"
+  - "wasatiyya"
+  - "universality"
 summary: "Describes the general characteristics that distinguish Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

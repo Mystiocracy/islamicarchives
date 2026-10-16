@@ -7,7 +7,9 @@ type: "Collection"
 subjects:
   - quranic-studies
 keywords:
-  - "qirāʾāt"
+  - "erquran"
+  - "qira'at"
+  - "variant readings"
   - "database"
 summary: "A searchable website on the Qur'an's variant readings, released 13 May 2022; announced by Harvard Islamic Studies."
 venue: "erquran.org"

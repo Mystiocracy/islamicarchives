@@ -10,6 +10,7 @@ keywords:
   - "Encyclopaedia of the Qur'an"
   - "gharaniq"
   - "sira"
+  - "Surat al-Najm"
 summary: "Encyclopaedia of the Qur'an entry on the reports that Muhammad briefly recited verses praising pagan goddesses and on their reception."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

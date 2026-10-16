@@ -5,10 +5,14 @@ year: 2023
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
+  - philosophy-and-theology
+  - quranic-studies
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "gender of God"
+  - "divine pronoun"
+  - "Arabic grammar"
+  - "tanzih"
+  - "divine attributes"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

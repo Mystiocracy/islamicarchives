@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - political-thought
+keywords:
+  - "enforcement of sharia"
+  - "Nifaz-e-Shariat"
+  - "Pakistan"
+  - "Muslim community"
 summary: "Protecting the community, enforcing Shari'a and Islam's ascendancy"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

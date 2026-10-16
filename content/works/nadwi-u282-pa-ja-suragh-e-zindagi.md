@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Speech"
 subjects:
   - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "students"
+  - "madrasa students"
+  - "Muhammad Iqbal"
 summary: "Find the trace of life (addresses to Nadwa students)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

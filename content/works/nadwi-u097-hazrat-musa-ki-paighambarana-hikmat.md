@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - quranic-studies
+keywords:
+  - "Prophet Musa"
+  - "Moses"
+  - "Pharaoh"
+  - "da'wa"
 summary: "Prophet Musa's prophetic wisdom"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

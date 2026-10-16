@@ -6,7 +6,14 @@ year: 1990
 language: "Arabic"
 type: "Book"
 subjects:
+  - sufism
   - education
+keywords:
+  - "rabbaniyya"
+  - "God-centred life"
+  - "ilm"
+  - "knowledge"
+  - "spirituality"
 summary: "Links a God-centred life with the pursuit of knowledge."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

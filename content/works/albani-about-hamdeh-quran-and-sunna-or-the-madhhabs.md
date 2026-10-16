@@ -6,9 +6,14 @@ year: 2017
 language: English
 type: "Article"
 subjects:
+  - islamic-law
   - hadith-studies
 keywords:
-  - "Albani"
+  - "madhhab"
+  - "Salafism"
+  - "taqlid"
+  - "anti-madhhabism"
+  - "Sifat salat al-Nabi"
 summary: "A study or biography of al-Albānī."
 venue: "Islamic Law and Society 24, no. 3, pp. 211–253"
 rights: link-only

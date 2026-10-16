@@ -4,9 +4,15 @@ author: maryam-jameelah
 year: 1986
 language: Urdu
 type: "Book"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+  - family-and-society
+keywords:
+  - "letters"
+  - "Jewish parents"
+  - "conversion to Islam"
+  - "Judaism"
+venue: "Mohammad Yusuf Khan"
 summary: "\"A Muslim daughter's letters to her Jewish parents\", in Urdu."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

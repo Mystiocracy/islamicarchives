@@ -6,10 +6,14 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - islamic-law
+  - quranic-studies
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "Laylat al-Qadr"
+  - "Night of Decree"
+  - "Ramadan"
+  - "Surat al-Qadr"
+  - "last ten nights"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

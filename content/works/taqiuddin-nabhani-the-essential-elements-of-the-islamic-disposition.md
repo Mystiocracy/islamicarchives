@@ -5,7 +5,13 @@ titleOriginal: "من مقومات النفسية الإسلامية"
 language: "English"
 type: "Translation"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Min Muqawwimat al-Nafsiyya al-Islamiyya"
+  - "nafsiyya"
+  - "Islamic disposition"
+  - "Hizb ut-Tahrir"
+  - "character"
 summary: "English translation of the Nafsiyyah compilation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

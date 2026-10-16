@@ -11,6 +11,7 @@ keywords:
   - "diplomacy"
   - "treaties"
   - "Medina"
+  - "sira"
 summary: "Essays on the political career of the Prophet, including his diplomacy, alliances and correspondence with rulers."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

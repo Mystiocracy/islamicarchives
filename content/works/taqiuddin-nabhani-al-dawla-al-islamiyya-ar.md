@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "The Islamic State"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "Medina state"
 summary: "Describes how the Prophet founded the state in Madina and presents the Party’s account of the caliphate."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

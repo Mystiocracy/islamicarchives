@@ -9,8 +9,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Hadith Jibril"
+  - "Hadith of Gabriel"
   - "iman"
   - "ihsan"
+  - "Islam"
 summary: "A commentary on the Hadith of Gabriel treating submission, faith and excellence as three levels of religion."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

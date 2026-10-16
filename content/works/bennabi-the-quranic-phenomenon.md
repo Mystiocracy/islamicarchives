@@ -9,11 +9,12 @@ subjects:
   - quranic-studies
   - philosophy-and-theology
 keywords:
+  - "Le Phénomène coranique"
   - "al-Zahira al-Qur'aniyya"
   - "revelation"
-  - "prophecy"
-  - "tr. Abdel Sabour Shahin"
-  - "tr. Mohamed El-Tahir El-Mesawi"
+  - "prophethood"
+  - "Orientalism"
+  - "i'jaz"
 summary: "A study of the Qurʾan as a phenomenon that argues, against Orientalist and sceptical readings, for its revealed rather than human origin."
 rights: link-only
 rightsNote: "In copyright (author d. 1973)."

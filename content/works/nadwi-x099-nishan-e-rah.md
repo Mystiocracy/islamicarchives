@@ -4,8 +4,11 @@ titleOriginal: "निशाने राह"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - islam-and-modernity
 keywords:
-  - "Nishan-e-Rah"
+  - "guidance"
+  - "dawah"
 summary: "Signposts on the way. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

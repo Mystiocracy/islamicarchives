@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
+  - islam-and-modernity
   - education
+keywords:
+  - "ulama"
+  - "intellectuals"
+  - "responsibility of scholars"
+  - "Indian Muslims"
 summary: "The new turn of events and the duty of scholars and intellectuals"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

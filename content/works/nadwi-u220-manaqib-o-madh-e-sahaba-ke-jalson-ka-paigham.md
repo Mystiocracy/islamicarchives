@@ -4,6 +4,10 @@ titleOriginal: "مناقب و مدح صحابہ کے جلسوں کا پیغام"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "Sahaba"
+  - "Companions of the Prophet"
+  - "manaqib"
 summary: "Message of gatherings in praise of the Companions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

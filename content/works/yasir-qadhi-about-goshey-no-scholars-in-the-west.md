@@ -6,11 +6,14 @@ year: 2022
 language: English
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - education
+  - islam-and-modernity
 keywords:
   - "Salafism"
-  - "Madinah"
+  - "Islamic University of Madinah"
   - "networks of knowledge"
+  - "Philadelphia"
+  - "Saudi Arabia"
 summary: "A study of Salafi networks that discusses Qadhi as a graduate of the Islamic University of Madinah who rejects that stance."
 venue: "American Journal of Islam and Society 39, nos. 1–2, pp. 41–71"
 rights: link-only

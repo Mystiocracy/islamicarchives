@@ -4,8 +4,14 @@ titleOriginal: "تاریخ دعوت و اصلاح"
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - sufism
+  - political-thought
 keywords:
-  - "Tarikh-e-Da'wat-o-Azimat (Ar. Rijal al-Fikr wal-Da'wa fi al-Islam)"
+  - "Tarikh-e-Da'wat-o-Azimat"
+  - "Rijal al-Fikr wal-Da'wa fi al-Islam"
+  - "Saviours of Islamic Spirit"
+  - "tajdid"
 summary: "History of the call and reform (Saviours of the Islamic Spirit). Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

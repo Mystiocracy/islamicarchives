@@ -5,10 +5,14 @@ year: 1979
 language: "English"
 type: "Book"
 subjects:
-  - hadith-studies
+  - quranic-studies
+  - education
 keywords:
-  - "Qasas al-Nabiyyin, vol. 1 (Ar.)"
-  - "Syed Ehsanul Haque Nadwi"
+  - "Qasas al-Nabiyyin"
+  - "prophets"
+  - "anbiya"
+  - "children"
+  - "Ibrahim"
 summary: "Tales of the Prophets, Part I. Translated by Syed Ehsanul Haque Nadwi from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

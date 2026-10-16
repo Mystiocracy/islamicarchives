@@ -6,12 +6,12 @@ language: "Persian"
 type: "Book"
 subjects:
   - political-thought
-  - philosophy-and-theology
 keywords:
   - "Tashayyo'-e 'Alavi va tashayyo'-e Safavi"
   - "Alavid Shi'ism"
   - "Safavid Shi'ism"
   - "clergy"
+  - "Shi'ism"
 summary: "Contrasts the militant, justice-seeking Shiʿism of ʿAlī with the state-sponsored, ritualised Shiʿism he associated with the Safavid dynasty and its clerical establishment."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

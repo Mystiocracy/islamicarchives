@@ -7,6 +7,11 @@ language: "Turkish"
 type: "Translation"
 subjects:
   - economics
+keywords:
+  - "al-Nizam al-Iqtisadi fi al-Islam"
+  - "The Economic System of Islam"
+  - "Hizb ut-Tahrir"
+  - "ownership"
 summary: "Turkish edition of the economic system book."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

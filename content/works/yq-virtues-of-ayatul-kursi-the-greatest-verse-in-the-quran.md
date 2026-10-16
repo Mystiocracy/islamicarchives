@@ -6,11 +6,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Allah"
-  - "Quran"
+  - "Ayat al-Kursi"
+  - "Surat al-Baqara"
+  - "virtues of the Qur'an"
+  - "tawhid"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

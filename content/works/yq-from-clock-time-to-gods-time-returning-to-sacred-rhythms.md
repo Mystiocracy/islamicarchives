@@ -6,12 +6,13 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - science-and-religion
+  - sufism
 keywords:
-  - "Allah"
-  - "Nature & Science"
-  - "Technology"
+  - "time"
+  - "digital technology"
+  - "prayer times"
+  - "sacred rhythms"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

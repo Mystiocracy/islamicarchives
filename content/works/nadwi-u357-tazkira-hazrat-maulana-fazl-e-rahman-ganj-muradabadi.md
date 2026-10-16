@@ -4,6 +4,12 @@ titleOriginal: "تذکرہ حضرت مولانا فضل رحمن گنج مراد
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sufism
+keywords:
+  - "Fazl-e-Rahman Ganj Muradabadi"
+  - "Naqshbandi"
+  - "Ganj Muradabad"
 summary: "Memoir of Maulana Fazl-e-Rahman Ganj Muradabadi"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

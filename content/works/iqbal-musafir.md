@@ -11,7 +11,9 @@ keywords:
   - "The Traveller"
   - "Afghanistan"
   - "Nadir Shah"
-  - "masnavi"
+  - "Babur"
+  - "Sana'i"
+  - "Mahmud of Ghazni"
 summary: "A Persian masnavi recording his 1933 visit to Afghanistan and his reflections at the tombs of Babur, Sana'i and Mahmud of Ghazni."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

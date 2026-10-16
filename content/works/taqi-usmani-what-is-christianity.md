@@ -5,6 +5,11 @@ language: "English"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Christianity"
+  - "Trinity"
+  - "Paul"
+  - "comparative religion"
 summary: "An introduction to Christian doctrine and history from an Islamic standpoint."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

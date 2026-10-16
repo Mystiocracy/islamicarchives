@@ -11,7 +11,7 @@ keywords:
   - "covenant"
   - "mithaq"
   - "din"
-  - "late work"
+  - "prophethood"
 summary: "A discourse on two primordial covenants, that of the children of Adam acknowledging God's lordship and that of the earlier prophets to support a coming messenger, which al-Attas presents as fulfilled in the Prophet Muhammad and the Qur'an."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

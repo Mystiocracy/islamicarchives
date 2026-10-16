@@ -10,7 +10,8 @@ subjects:
 keywords:
   - "tafsir"
   - "Daura-e-Tarjuma-e-Quran"
-  - "lecture series"
+  - "Urdu tafsir"
+  - "Ramadan"
 summary: "Full video record of his 1998 Ramadan course translating and explaining the entire Qur'an."
 rights: link-only
 rightsNote: "Recorded lectures; linked, not hosted."

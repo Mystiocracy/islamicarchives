@@ -8,9 +8,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
   - "tafsir"
+  - "Qur'anic themes"
   - "Meccan suras"
+  - "Medinan suras"
 venue: "Dār al-Shurūq"
 summary: "Thematic studies of Qur'anic passages, Meccan and Medinan, aimed at spiritual and practical guidance."
 rights: link-only

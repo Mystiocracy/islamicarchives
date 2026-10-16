@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "caliphate"
-  - "Urdu"
+  - "Who Wants the Caliphate?"
+  - "khilafat"
+  - "ummatics"
 venue: "Ummatics Institute"
 summary: "Urdu translation of his essay on the caliphate."
 rights: link-only

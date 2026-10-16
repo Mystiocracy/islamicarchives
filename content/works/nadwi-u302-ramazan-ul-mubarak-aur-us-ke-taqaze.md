@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Ramadan"
+  - "fasting"
+  - "sawm"
+  - "taqwa"
 summary: "Ramadan and its demands"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

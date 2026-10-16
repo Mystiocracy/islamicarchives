@@ -5,8 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
+  - quranic-studies
   - islam-and-modernity
-  - philosophy-and-theology
+keywords:
+  - "Surat al-Kahf"
+  - "materialism"
+  - "People of the Cave"
+  - "Dajjal"
+  - "al-Sira bayn al-Iman wa al-Madiyya"
 summary: "Faith versus materialism (lessons of Surat al-Kahf). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,6 +4,14 @@ author: nadwi
 year: 1997
 language: "English"
 type: "Article"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "khatm al-nubuwwa"
+  - "finality of prophethood"
 summary: "An Overview on Qadianism. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

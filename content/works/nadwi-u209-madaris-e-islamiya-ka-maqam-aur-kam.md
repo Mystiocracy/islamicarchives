@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "madrasa"
+  - "Islamic seminaries"
+  - "ulama"
 summary: "Place and work of Islamic madrasas"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

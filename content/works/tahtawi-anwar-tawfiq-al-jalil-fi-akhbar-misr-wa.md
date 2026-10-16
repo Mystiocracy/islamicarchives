@@ -5,12 +5,11 @@ titleOriginal: "أنوار توفيق الجليل في أخبار مصر وتو
 year: 1868
 language: "Arabic"
 type: "Book"
-subjects:
-  - islam-and-modernity
 keywords:
-  - "Anwar tawfiq al-jalil"
   - "history of Egypt"
-  - "pre-Islamic and early Islamic Egypt"
+  - "Pharaonic Egypt"
+  - "Arab conquest of Egypt"
+  - "Egyptian nationalism"
 summary: "A history of Egypt from antiquity to the Arab-Islamic conquest, intended to give Egyptians a sense of continuous national history."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1873); later translations may still be in copyright."

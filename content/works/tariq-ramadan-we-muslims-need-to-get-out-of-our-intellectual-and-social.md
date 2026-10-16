@@ -8,10 +8,10 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Vallely"
-  - "London bombings"
+  - "Paul Vallely"
+  - "7/7 London bombings"
   - "integration"
-  - "Muslim communities"
+  - "intellectual ghettos"
 summary: "Paul Vallely meets Ramadan days after the 7 July London bombings, asking whether the Swiss academic is really the 'acceptable face of terror' and urging Muslims to leave intellectual ghettos."
 venue: "Paul Vallely article archive (original publication not stated on page)"
 rights: link-only

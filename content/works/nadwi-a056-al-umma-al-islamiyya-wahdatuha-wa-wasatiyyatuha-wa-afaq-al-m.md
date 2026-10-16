@@ -5,6 +5,14 @@ author: nadwi
 year: 1989
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "The Muslim Umma"
+  - "ummah"
+  - "Muslim unity"
+  - "wasatiyya"
+  - "moderation"
 summary: "The Muslim Umma: Its Unity, Moderation and Future Horizons"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

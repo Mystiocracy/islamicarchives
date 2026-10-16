@@ -8,9 +8,10 @@ subjects:
   - political-thought
 keywords:
   - "Egypt"
-  - "coup"
+  - "2013 coup"
   - "Muslim Brotherhood"
   - "media"
+  - "United States"
 summary: "Ramadan holds that Washington backed Egypt's military takeover, that officials and media spread misleading claims about protesters, and that those demonstrating are unarmed citizens from varied backgrounds."
 venue: "ABC Religion & Ethics, 16 August 2013"
 rights: link-only

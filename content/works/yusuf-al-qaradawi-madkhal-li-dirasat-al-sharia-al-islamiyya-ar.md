@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "sharia"
+  - "sources of law"
+  - "madhhab"
+  - "history of fiqh"
 summary: "Introductory study of Islamic law: its sources, characteristics, schools and development."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

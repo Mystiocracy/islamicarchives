@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "apostasy"
+  - "ridda"
+  - "Jarimat al-Ridda wa-Uqubat al-Murtadd"
+  - "hudud"
 summary: "On the ruling and rationale for apostasy in Islamic law."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

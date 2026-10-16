@@ -6,11 +6,12 @@ language: "English"
 type: "Video"
 subjects:
   - islamic-law
+  - political-thought
 keywords:
-  - "shari'a"
+  - "sharia"
   - "democracy"
-  - "constitutions"
-  - "An-Na'im"
+  - "Arab constitutions"
+  - "Abdullahi An-Na'im"
 summary: "Dialogue between two reformist thinkers on what shari'a means and how it relates to democratic principles in post-uprising Arab constitution-making."
 venue: "Reset Dialogues on Civilizations"
 rights: link-only

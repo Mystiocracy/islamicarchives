@@ -5,6 +5,13 @@ author: nadwi
 year: 1979
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Hijaz"
+  - "Arabian Peninsula"
+  - "Saudi Arabia"
+  - "Haramain"
 summary: "The sacred Hijaz and Arabia between hopes and fears"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

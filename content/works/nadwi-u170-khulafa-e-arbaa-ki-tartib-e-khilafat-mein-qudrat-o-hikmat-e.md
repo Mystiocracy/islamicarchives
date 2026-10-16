@@ -6,6 +6,13 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Khulafa al-Rashidun"
+  - "Abu Bakr"
+  - "Umar"
+  - "Uthman"
+  - "Ali"
+  - "khilafa"
 summary: "Divine wisdom in the order of the four caliphs"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

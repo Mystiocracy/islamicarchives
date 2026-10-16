@@ -9,7 +9,7 @@ subjects:
 keywords:
   - "Trinity"
   - "Christian-Muslim relations"
-  - "Oxford lecture"
+  - "Christianity"
   - "tawhid"
 summary: "A lecture given to Christians in Oxford surveying Muslim understandings and critiques of the doctrine of the Trinity."
 rights: link-only

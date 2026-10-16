@@ -6,11 +6,14 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - islam-and-modernity
   - political-thought
 keywords:
-  - "Islamophobia"
-  - "Politics & Practical Theology"
+  - "Rohingya"
+  - "genocide"
+  - "Myanmar"
+  - "Burma"
+  - "ummah"
+  - "persecution"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -5,8 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - sufism
   - education
+  - sufism
+keywords:
+  - "madrasa"
+  - "Islamic seminaries"
+  - "spiritual healing"
 summary: "Madrasas: hospitals for the human soul"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

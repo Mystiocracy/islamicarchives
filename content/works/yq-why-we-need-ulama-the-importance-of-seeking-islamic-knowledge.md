@@ -5,10 +5,13 @@ year: 2023
 language: "English"
 type: "Paper"
 subjects:
-  - islamic-law
+  - education
 keywords:
-  - "Jurisprudence (fiqh)"
-  - "Sharia"
+  - "ulama"
+  - "religious authority"
+  - "seeking knowledge"
+  - "scholars"
+  - "taqlid"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

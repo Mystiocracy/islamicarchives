@@ -4,8 +4,15 @@ author: nadwi
 year: 1995
 language: "English"
 type: "Speech"
+subjects:
+  - political-thought
 keywords:
-  - "Qazi Abdul Hameed"
+  - "violence"
+  - "tyranny"
+  - "India"
+  - "Payam-e-Insaniyat"
+  - "Babri Masjid"
+  - "communal riots"
 summary: "Violence and Tyranny. Translated by Qazi Abdul Hameed from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

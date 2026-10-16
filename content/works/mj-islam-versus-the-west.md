@@ -4,9 +4,15 @@ author: maryam-jameelah
 year: 1962
 language: English
 type: "Book"
-venue: "Sh. Muhammad Ashraf, Lahore"
 subjects:
   - islam-and-modernity
+  - colonialism-and-decolonisation
+keywords:
+  - "Western materialism"
+  - "Orientalism"
+  - "Muslim modernists"
+  - "Westernization"
+venue: "Sh. Muhammad Ashraf, Lahore"
 summary: "Her first book: eighteen essays written in America in 1954–62 against Western materialism, orientalists and Muslim modernizers."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

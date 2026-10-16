@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "The Role Required of Islamic Universities in Training Scholars"
+  - "Islamic universities"
+  - "ulama"
+  - "training scholars"
 summary: "The Role Required of Islamic Universities in Training Scholars"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

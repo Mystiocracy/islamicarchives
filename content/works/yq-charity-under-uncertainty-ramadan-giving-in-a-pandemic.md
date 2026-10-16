@@ -4,10 +4,15 @@ author: osman-umarji
 year: 2021
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - economics
 keywords:
-  - "Data"
-  - "Reports"
+  - "charity"
+  - "Ramadan giving"
+  - "sadaqa"
+  - "Covid-19"
+  - "zakat"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

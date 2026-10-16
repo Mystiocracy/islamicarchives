@@ -5,7 +5,11 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "du'a"
+  - "supplication"
+  - "prayers"
 summary: "Teaching supplication"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

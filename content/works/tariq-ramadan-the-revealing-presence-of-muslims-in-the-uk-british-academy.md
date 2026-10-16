@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "British Muslims"
   - "identity"
-  - "British Academy"
   - "belonging"
+  - "British Academy"
 summary: "British Academy talk using the presence of Muslims in Britain as a mirror for questions about identity, belonging and national self-understanding."
 venue: "British Academy"
 rights: link-only

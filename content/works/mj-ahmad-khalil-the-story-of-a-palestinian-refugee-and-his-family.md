@@ -4,10 +4,15 @@ author: maryam-jameelah
 year: 1968
 language: English
 type: "Novel"
-venue: "Mohammad Yusuf Khan"
 subjects:
-  - women-and-gender
   - colonialism-and-decolonisation
+  - political-thought
+keywords:
+  - "Palestine"
+  - "Palestinian refugees"
+  - "novel"
+  - "Nakba"
+venue: "Mohammad Yusuf Khan"
 summary: "Her only novel, begun in New York as a teenager and illustrated with her own drawings."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

@@ -6,10 +6,12 @@ year: 2017
 language: "English"
 type: "Paper"
 subjects:
+  - sufism
   - psychology-and-mental-health
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "tafakkur"
+  - "contemplation"
+  - "reflection"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

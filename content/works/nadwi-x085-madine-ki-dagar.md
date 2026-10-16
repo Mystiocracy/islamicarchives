@@ -5,7 +5,10 @@ author: nadwi
 language: "Hindi"
 type: "Speech"
 keywords:
-  - "possibly Karwan-e-Madina"
+  - "Madina"
+  - "Prophet Muhammad"
+  - "ziyara"
+  - "Karwan-e-Madina"
 summary: "The road to Madina. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

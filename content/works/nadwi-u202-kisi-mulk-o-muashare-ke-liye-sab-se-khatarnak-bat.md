@@ -4,6 +4,13 @@ titleOriginal: "کسی ملک ومعاشرہ کےلئیے سب سے خطرناک
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - family-and-society
+  - political-thought
+keywords:
+  - "social decay"
+  - "moral corruption"
+  - "society"
 summary: "The most dangerous thing for any country or society"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,8 +6,12 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Islam ke Teen Buniyadi 'Aqaid (Ur.)"
-  - "Mohammed Moidul Haque"
+  - "tawhid"
+  - "risala"
+  - "akhira"
+  - "aqida"
+  - "The Fundamental Trio"
+  - "Islam ke Teen Buniyadi 'Aqaid"
 summary: "Islam: Three Core Beliefs (Tawheed, Risalah, Aakhirah). Translated by Mohammed Moidul Haque from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

@@ -9,8 +9,8 @@ subjects:
   - islam-and-modernity
 keywords:
   - "humanities"
-  - "history"
-  - "editorial"
+  - "historical thinking"
+  - "truth"
 venue: "American Journal of Islamic Social Sciences 36, no. 2: vii-xv"
 summary: "Reflects on the decline of historical thinking and the humanities and why it matters for understanding the world."
 rights: link-only

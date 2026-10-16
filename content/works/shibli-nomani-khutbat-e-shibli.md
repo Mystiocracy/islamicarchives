@@ -9,10 +9,10 @@ subjects:
   - education
   - islam-and-modernity
 keywords:
-  - "lectures"
-  - "speeches"
   - "Nadwa"
   - "religious education"
+  - "madrasa reform"
+  - "speeches"
 summary: "A posthumous collection of his public lectures and addresses, many on the reform of Muslim religious education."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

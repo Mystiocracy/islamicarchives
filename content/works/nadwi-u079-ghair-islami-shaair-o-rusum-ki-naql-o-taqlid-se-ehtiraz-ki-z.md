@@ -4,6 +4,14 @@ titleOriginal: "غیراسلامی شعائر و رسوم کی نقل وتقلی
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islamic-law
+  - islam-and-modernity
+keywords:
+  - "tashabbuh"
+  - "imitation of non-Muslims"
+  - "customs"
+  - "bid'a"
 summary: "Need to avoid imitating non-Islamic customs"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

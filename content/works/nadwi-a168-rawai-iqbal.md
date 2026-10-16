@@ -5,6 +5,14 @@ author: nadwi
 year: 1960
 language: "Arabic"
 type: "Book"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Muhammad Iqbal"
+  - "Iqbal"
+  - "Urdu poetry"
+  - "Persian poetry"
+  - "Shaʿir al-Islam"
 summary: "Glories of Iqbal"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

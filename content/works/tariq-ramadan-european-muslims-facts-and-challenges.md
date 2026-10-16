@@ -5,11 +5,12 @@ year: 2012
 language: "English"
 type: "Paper"
 subjects:
-  - family-and-society
+  - islam-and-modernity
 keywords:
   - "European Muslims"
   - "citizenship"
   - "belonging"
+  - "Europe"
 summary: "An article by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "European Political Science 11 (published 29 June 2012)"
 rights: link-only

@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "usul al-fiqh"
   - "literalism"
-  - "book review"
+  - "Robert Gleave"
+  - "legal hermeneutics"
 venue: "Journal of Islamic Studies 25, no. 3: 384-387"
 summary: "Book review of Gleave's study of literal meaning in Islamic legal theory."
 rights: link-only

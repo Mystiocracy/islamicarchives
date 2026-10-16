@@ -6,6 +6,10 @@ language: "Arabic"
 type: "Article"
 subjects:
   - political-thought
+keywords:
+  - "ummah"
+  - "Muslim world"
+  - "contemporary conditions"
 summary: "Essay surveying the condition of the Muslim ummah in recent years."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

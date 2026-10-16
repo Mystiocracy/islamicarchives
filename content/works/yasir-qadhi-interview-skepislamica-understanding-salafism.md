@@ -6,8 +6,11 @@ language: English
 type: "Interview"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "interview"
+  - "Understanding Salafism"
+  - "Salafism"
+  - "Skepislamica"
 summary: "A conversation about his book on Salafism."
 venue: "Skepislamica"
 rights: link-only

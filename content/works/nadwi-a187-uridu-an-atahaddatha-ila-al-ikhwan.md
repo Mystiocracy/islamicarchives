@@ -4,6 +4,14 @@ titleOriginal: "أريد أن أتحدث إلى الإخوان"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Muslim Brotherhood"
+  - "Ikhwan al-Muslimin"
+  - "Islamic movements"
+  - "da'wa"
 summary: "I Wish to Speak to the (Muslim) Brotherhood"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -10,7 +10,7 @@ keywords:
   - "Asa-yi Musa"
   - "The Fruits of Belief"
   - "Risale-i Nur"
-  - "prison writings"
+  - "Denizli prison"
 summary: "A compilation of treatises from the Risale-i Nur centred on proofs of belief, including 'The Fruits of Belief' written in Denizli prison."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

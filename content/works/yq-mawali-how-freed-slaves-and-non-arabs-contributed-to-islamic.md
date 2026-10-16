@@ -4,10 +4,14 @@ author: emad-hamdeh
 year: 2021
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - slavery-and-race
+  - education
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "mawali"
+  - "freed slaves"
+  - "non-Arabs"
+  - "Islamic scholarship"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

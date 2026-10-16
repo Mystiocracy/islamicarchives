@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Lucknow"
+  - "Indian Muslims"
 summary: "Welcome address, Lucknow education conference (1-2 June 1989)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,10 +6,11 @@ language: "English"
 type: "Article"
 subjects:
   - philosophy-and-theology
-  - quranic-studies
 keywords:
-  - "Allah"
-  - "Quran"
+  - "al-Aziz"
+  - "names of Allah"
+  - "asma al-husna"
+  - "divine attributes"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

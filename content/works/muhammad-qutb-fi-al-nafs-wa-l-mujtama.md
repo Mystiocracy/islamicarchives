@@ -12,6 +12,7 @@ keywords:
   - "individual and society"
   - "civilisation"
   - "faith"
+  - "materialism"
 venue: "Dār al-Shurūq"
 summary: "Essays connecting faith, individual psychology and the organisation of society in an age of materialism."
 rights: link-only

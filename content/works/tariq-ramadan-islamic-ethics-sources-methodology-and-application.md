@@ -6,10 +6,12 @@ language: "English"
 type: "Chapter"
 subjects:
   - philosophy-and-theology
+  - islamic-law
 keywords:
   - "Islamic ethics"
   - "bioethics"
   - "methodology"
+  - "sources"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: Intercultural Dialogue in Bioethics: Islamic Bioethics, World Scientific, 2017"
 rights: link-only

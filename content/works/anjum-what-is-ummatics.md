@@ -8,8 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
-  - "Umma"
-  - "unity"
+  - "umma"
+  - "Muslim unity"
+  - "caliphate"
 venue: "Ummatics Institute (research paper)"
 summary: "Defines 'ummatics' as the study and practice of the Umma's collective affairs and argues for Muslim unity as a divine imperative."
 rights: link-only

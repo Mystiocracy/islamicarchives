@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - education
+  - islam-and-modernity
+keywords:
+  - "generation of victory"
+  - "Muslim youth"
+  - "tarbiya"
+  - "Islamic revival"
 summary: "Portrait of the generation needed to bring victory and the qualities it must have."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

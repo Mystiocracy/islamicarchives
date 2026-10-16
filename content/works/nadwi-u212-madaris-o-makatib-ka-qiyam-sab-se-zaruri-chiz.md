@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "madrasa"
+  - "maktab"
+  - "primary religious schools"
+  - "Madrasa Ziya-ul-Ulum"
 summary: "Founding madrasas and primary schools comes first"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

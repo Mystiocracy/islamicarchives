@@ -12,6 +12,7 @@ keywords:
   - "sovereignty of God"
   - "theo-democracy"
   - "khilafa"
+  - "hakimiyya"
 summary: "A lecture setting out his theory that sovereignty belongs to God, that humans act as His vicegerents, and that an Islamic state is a 'theo-democracy' bound by the shari'a."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

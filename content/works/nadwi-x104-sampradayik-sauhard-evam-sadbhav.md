@@ -4,6 +4,13 @@ titleOriginal: "साम्प्रदायिक सौहार्द ए�
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - family-and-society
+keywords:
+  - "Payam-e-Insaniyat"
+  - "communal harmony"
+  - "Hindu-Muslim relations"
+  - "India"
 summary: "Communal harmony and goodwill. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

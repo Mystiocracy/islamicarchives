@@ -8,10 +8,10 @@ type: "Speech"
 subjects:
   - political-thought
 keywords:
-  - "How an Islamic government is established"
-  - "Aligarh lecture"
+  - "How an Islamic Government Is Established"
+  - "Islamic state"
   - "Islamic revolution"
-  - "process"
+  - "Aligarh"
 summary: "A lecture arguing that an Islamic state can only emerge from a prior moral and intellectual transformation of society led by a committed movement."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

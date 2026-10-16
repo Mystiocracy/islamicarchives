@@ -5,12 +5,13 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
   - philosophy-and-theology
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "at-Tawwab"
+  - "Names of Allah"
+  - "repentance"
+  - "tawba"
+  - "divine mercy"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -4,8 +4,10 @@ titleOriginal: "متاع دین و دانش"
 author: nadwi
 language: "Urdu"
 type: "Book"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "Mata-e-Din-o-Danish"
+  - "conversations"
+  - "Islamic thought"
 summary: "Treasure of faith and wisdom (interviews)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

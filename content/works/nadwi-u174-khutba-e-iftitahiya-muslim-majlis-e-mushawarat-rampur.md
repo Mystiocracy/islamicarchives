@@ -5,6 +5,12 @@ author: nadwi
 year: 1967
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Muslim Majlis-e-Mushawarat"
+  - "Rampur"
+  - "Indian Muslims"
 summary: "Inaugural address, Rampur (9 Sept 1967)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

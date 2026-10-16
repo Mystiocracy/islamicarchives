@@ -4,6 +4,12 @@ titleOriginal: "غارة التتار على العالم الإسلامي وظ�
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+keywords:
+  - "The Tatar Onslaught on the Muslim World"
+  - "Mongols"
+  - "Tatars"
+  - "Mongol invasion"
+  - "conversion of the Mongols"
 summary: "The Tatar Onslaught on the Muslim World and the Miracle of Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

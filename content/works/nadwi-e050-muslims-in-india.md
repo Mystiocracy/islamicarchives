@@ -6,9 +6,14 @@ language: "English"
 type: "Book"
 subjects:
   - political-thought
+  - education
 keywords:
-  - "Hindustani Musalman (Ur.) / Al-Muslimun fi al-Hind (Ar.)"
-  - "Mohammad Asif Kidwai"
+  - "India"
+  - "Indian Muslims"
+  - "Hindustani Musalman"
+  - "al-Muslimun fi al-Hind"
+  - "Muslim culture"
+  - "Mughal"
 summary: "Muslims in India. Translated by Mohammad Asif Kidwai from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

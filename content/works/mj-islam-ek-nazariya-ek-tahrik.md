@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 2000
 language: Urdu
 type: "Book"
-venue: "A'la Publications, Lahore"
 subjects:
   - islam-and-modernity
+  - political-thought
+keywords:
+  - "Islamic ideology"
+  - "Islamic movement"
+  - "Islam as ideology"
+venue: "A'la Publications, Lahore"
 summary: "A collection of her essays in Urdu."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

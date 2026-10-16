@@ -4,6 +4,11 @@ titleOriginal: "پرتوی از دعوت دینی عصر حاضر"
 author: nadwi
 language: "Persian"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "dawah"
+  - "Islamic revival"
 summary: "A glimpse of the religious call of the present age. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

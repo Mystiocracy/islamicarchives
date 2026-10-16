@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+  - islam-and-modernity
+keywords:
+  - "fiqh al-aqalliyyat"
+  - "Muslim minorities"
+  - "Muslims in the West"
+  - "fiqh of minorities"
 summary: "Jurisprudence for Muslims living as minorities in non-Muslim societies."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

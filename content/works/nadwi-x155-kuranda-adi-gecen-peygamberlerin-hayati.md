@@ -4,10 +4,10 @@ author: nadwi
 language: "Turkish"
 type: "Book"
 subjects:
-  - hadith-studies
   - quranic-studies
 keywords:
-  - "probably Qasas al-Nabiyyin (Arabic)"
+  - "Qasas al-Nabiyyin"
+  - "prophets"
 summary: "Lives of the prophets named in the Quran. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

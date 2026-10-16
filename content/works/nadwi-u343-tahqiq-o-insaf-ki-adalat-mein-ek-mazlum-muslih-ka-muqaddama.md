@@ -4,6 +4,14 @@ titleOriginal: "تحقیق و انصاف کی عدالت میں ایک مظلو�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - political-thought
+keywords:
+  - "Muhammad ibn Abd al-Wahhab"
+  - "Wahhabism"
+  - "tajdid"
+  - "reformer"
 summary: "A wronged reformer's case before the court of research and justice"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

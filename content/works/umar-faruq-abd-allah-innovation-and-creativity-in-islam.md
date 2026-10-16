@@ -7,8 +7,8 @@ subjects:
   - islamic-law
   - islam-and-modernity
 keywords:
-  - "bidʿa"
-  - "ijtihād"
+  - "bid'a"
+  - "ijtihad"
   - "innovation"
   - "creativity"
 summary: "On the traditional meanings of bidʿa and ijtihād, and how rash charges of innovation and over-narrow limits on ijtihād make creativity difficult for Muslims today."

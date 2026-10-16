@@ -6,6 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - political-thought
+keywords:
+  - "humanitarianism"
+  - "violence"
+  - "Enlightenment"
+  - "sacredness of life"
+  - "military humanitarianism"
 summary: "Questions accounts that credit Enlightenment sensibility alone for modern benevolence, tracing how “humanity”, the sacredness of life and military humanitarianism are bound up with violence."
 venue: "Critical Inquiry, with responses by Gil Anidjar and Aamir Mufti"
 rights: link-only

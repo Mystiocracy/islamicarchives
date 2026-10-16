@@ -5,7 +5,7 @@ year: 1968
 language: "English"
 type: "Book"
 subjects:
-  - philosophy-and-theology
+  - science-and-religion
   - islam-and-modernity
 keywords:
   - "Man and Nature"

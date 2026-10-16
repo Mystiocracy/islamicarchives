@@ -4,9 +4,16 @@ author: yasin-dutton
 year: 1999
 language: English
 type: "Book"
-venue: "Curzon Press (2nd ed. RoutledgeCurzon, 2002)"
 subjects:
   - islamic-law
+  - quranic-studies
+keywords:
+  - "Muwatta"
+  - "Imam Malik"
+  - "Madinan amal"
+  - "Maliki school"
+  - "origins of Islamic law"
+venue: "Curzon Press (2nd ed. RoutledgeCurzon, 2002)"
 summary: "Argues that early Madinan practice, rooted in the Qur'an, underlies the Muwatta' and early Islamic law."
 rights: link-only
 added: 2026-10-15

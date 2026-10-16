@@ -7,7 +7,9 @@ type: "Translation"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
+  - "Dirasat Qur'aniyya"
+  - "Kayfa naqra' al-Qur'an"
+  - "reading the Qur'an"
 summary: "Persian abridged selection from Dirasat Qur'aniyya on how to read the Qur'an."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

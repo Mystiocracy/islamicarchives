@@ -5,10 +5,13 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - islamic-law
+  - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "qadar"
+  - "divine decree"
+  - "regret"
+  - "Satan's whispers"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

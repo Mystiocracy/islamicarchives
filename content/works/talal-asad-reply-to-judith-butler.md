@@ -6,7 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
+keywords:
+  - "Judith Butler"
+  - "Saba Mahmood"
+  - "blasphemy"
+  - "critique"
+  - "Is Critique Secular?"
 summary: "Asad’s short rejoinder to Butler’s response to his and Saba Mahmood’s essays on blasphemy and critique."
 venue: "Is Critique Secular?, Townsend Papers in the Humanities No. 2, 2009, pp. 137–145"
 rights: link-only

@@ -3,6 +3,13 @@ title: "Islam: The Perfect Religion and a Way of Life"
 author: nadwi
 language: "English"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "din"
+  - "way of life"
+  - "complete religion"
+  - "da'wa"
 summary: "Islam: The Perfect Religion and a Way of Life. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

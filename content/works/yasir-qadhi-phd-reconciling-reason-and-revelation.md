@@ -8,8 +8,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Ibn Taymiyya"
+  - "Dar' ta'arud al-'aql wa-l-naql"
   - "reason and revelation"
-  - "dissertation"
   - "Yale"
 summary: "His Yale doctoral dissertation (708 pages), catalogued under the name Yasir Kazi."
 venue: "Yale University (PhD dissertation)"

@@ -4,9 +4,13 @@ author: yasir-qadhi
 language: English
 type: "Video"
 subjects:
+  - political-thought
   - philosophy-and-theology
 keywords:
   - "Salafism"
+  - "Arab Spring"
+  - "typologies"
+  - "Salafi trends"
 summary: "An academic lecture on changes within Salafism."
 venue: "Yasir Qadhi"
 rights: link-only

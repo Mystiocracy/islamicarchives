@@ -5,7 +5,11 @@ author: nadwi
 language: "Bengali"
 type: "Book"
 keywords:
-  - "Darya-e-Kabul se Darya-e-Yarmuk tak (travelogue)"
+  - "Darya-e-Kabul se Darya-e-Yarmuk tak"
+  - "Afghanistan"
+  - "Jordan"
+  - "Kabul"
+  - "Amman"
 summary: "From Kabul to Amman. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -8,6 +8,12 @@ type: "Book"
 subjects:
   - political-thought
   - islamic-law
+keywords:
+  - "The Ruling System in Islam"
+  - "Hizb ut-Tahrir"
+  - "caliphate"
+  - "governors"
+  - "judiciary"
 summary: "Sets out the Party’s rules for the caliph, assistants, governors, the judiciary and the structure of the state."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -7,12 +7,12 @@ language: "French"
 type: "Collection"
 subjects:
   - sufism
-  - philosophy-and-theology
 keywords:
   - "Initiation et réalisation spirituelle"
-  - "posthumous"
+  - "initiation"
   - "spiritual realisation"
-  - "Sufi path"
+  - "spiritual master"
+  - "pseudo-initiation"
 summary: "A posthumous collection of articles continuing Perspectives on Initiation, on the stages of spiritual realisation, the role of the master and the dangers of pseudo-initiation."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1951); later translations may still be in copyright."

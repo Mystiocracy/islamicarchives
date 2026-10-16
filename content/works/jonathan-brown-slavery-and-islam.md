@@ -11,7 +11,7 @@ subjects:
 keywords:
   - "slavery"
   - "abolition"
-  - "Sharia"
+  - "sharia"
   - "moral relativism"
 summary: "Studies how slavery was regulated in Islamic law and practice, how Muslims responded to abolition, and the moral questions raised by judging past institutions."
 rights: link-only

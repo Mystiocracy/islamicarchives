@@ -8,7 +8,8 @@ subjects:
   - islamic-law
 keywords:
   - "zakat al-fitr"
-  - "Eid"
+  - "Eid al-Fitr"
+  - "Ramadan"
   - "charity"
 venue: "AlJumuah Magazine"
 summary: "Explains the purpose, rules and social benefits of Zakat al-Fitr."

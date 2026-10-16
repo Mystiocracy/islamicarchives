@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "Nadwat al-Ulama"
+  - "Lucknow"
+  - "managing committee"
+  - "1961"
 summary: "Proceedings of the Nadwat al-Ulama managing committee, June 1961"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

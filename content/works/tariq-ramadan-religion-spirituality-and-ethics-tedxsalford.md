@@ -5,12 +5,14 @@ year: 2014
 language: "English"
 type: "Video"
 subjects:
+  - islam-and-modernity
   - philosophy-and-theology
 keywords:
   - "TEDx"
+  - "Salford"
   - "spirituality"
   - "ethics"
-  - "Salford"
+  - "public life"
 summary: "Nineteen-minute TEDx talk on the place of religion, spirituality and ethics in modern societies and the need to rethink their relationship to public life."
 venue: "TEDxSalford"
 rights: link-only

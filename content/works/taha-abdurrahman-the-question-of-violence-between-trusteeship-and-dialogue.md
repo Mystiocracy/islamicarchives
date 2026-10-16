@@ -13,6 +13,7 @@ keywords:
   - "violence"
   - "extremism"
   - "dialogue"
+  - "trusteeship paradigm"
 summary: "Analyses religiously justified violence and argues that a trust-based ethic and genuine dialogue offer the remedy."
 rights: link-only
 rightsNote: "In copyright (living author)."

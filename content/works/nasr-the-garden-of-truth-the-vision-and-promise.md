@@ -7,7 +7,6 @@ type: "Book"
 subjects:
   - sufism
 keywords:
-  - "Sufism"
   - "love"
   - "knowledge"
   - "spiritual path"

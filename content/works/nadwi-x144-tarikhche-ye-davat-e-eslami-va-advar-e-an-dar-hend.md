@@ -6,6 +6,10 @@ language: "Persian"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "dawah"
+  - "India"
+  - "Islamic revival"
 summary: "A short history of the Islamic call and its phases in India. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

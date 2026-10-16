@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "tadwin al-fiqh"
+  - "codification of fiqh"
+  - "history of fiqh"
+  - "madhhab"
 summary: "Codification of fiqh and some legal discussions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,6 +4,12 @@ titleOriginal: "সাত যুবকের গল্প"
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
+subjects:
+  - quranic-studies
+keywords:
+  - "Ashab al-Kahf"
+  - "Companions of the Cave"
+  - "Surat al-Kahf"
 summary: "The story of the seven youths (Companions of the Cave). Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

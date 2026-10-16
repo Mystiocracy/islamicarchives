@@ -13,6 +13,8 @@ keywords:
   - "traditions"
   - "Westernisation"
   - "family"
+  - "Egypt"
+  - "customs"
 venue: "Dār al-Shurūq"
 summary: "Defends Islamic social customs, especially on gender and family, against Westernising pressures in Egyptian society."
 rights: link-only

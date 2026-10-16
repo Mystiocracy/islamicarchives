@@ -5,12 +5,13 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - political-thought
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "righteous anger"
+  - "injustice"
+  - "Gaza"
+  - "moral duty"
+  - "Islamic ethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

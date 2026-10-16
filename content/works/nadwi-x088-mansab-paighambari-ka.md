@@ -5,7 +5,11 @@ author: nadwi
 language: "Hindi"
 type: "Speech"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "nubuwwa"
+  - "prophethood"
+  - "risalat"
 summary: "The office of prophethood. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

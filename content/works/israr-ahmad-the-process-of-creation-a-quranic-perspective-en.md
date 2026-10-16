@@ -4,12 +4,13 @@ author: israr-ahmad
 language: "English"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
+  - science-and-religion
 keywords:
   - "creation"
   - "cosmology"
-  - "science"
+  - "modern science"
+  - "stages of creation"
 summary: "Offers a Qur'anic account of the stages of creation, in dialogue with modern science."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

@@ -7,9 +7,9 @@ type: "Essay"
 subjects:
   - islam-and-modernity
 keywords:
-  - "editorial"
-  - "journal renaming"
+  - "American Journal of Islam and Society"
   - "globalization"
+  - "epochal change"
 venue: "American Journal of Islam and Society 37, no. 1-2: v-xviii"
 summary: "Announces the journal's renaming to American Journal of Islam and Society and reflects on managing epochal change."
 rights: link-only

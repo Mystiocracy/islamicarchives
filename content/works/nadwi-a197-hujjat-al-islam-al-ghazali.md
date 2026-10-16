@@ -4,6 +4,15 @@ titleOriginal: "حجة الإسلام الغزالي"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - sufism
+keywords:
+  - "al-Ghazali"
+  - "Abu Hamid al-Ghazali"
+  - "Rijal al-Fikr wa-l-Da'wa"
+  - "Ihya Ulum al-Din"
+  - "philosophy"
 summary: "Hujjat al-Islam al-Ghazali"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

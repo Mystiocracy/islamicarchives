@@ -8,7 +8,10 @@ type: "Article"
 subjects:
   - hadith-studies
 keywords:
-  - "Albani"
+  - "Sahih Muslim"
+  - "hadith criticism"
+  - "isnad"
+  - "Mukhtasar Sahih Muslim"
 summary: "A study or biography of al-Albānī."
 venue: "Islamic Law and Society 11, no. 2, pp. 149–176"
 rights: link-only

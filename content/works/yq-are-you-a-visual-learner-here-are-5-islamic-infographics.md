@@ -6,10 +6,10 @@ language: "English"
 type: "Article"
 subjects:
   - education
-  - family-and-society
 keywords:
-  - "Education"
-  - "Family & Community"
+  - "infographics"
+  - "visual learning"
+  - "Islamic learning resources"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

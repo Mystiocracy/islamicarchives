@@ -10,8 +10,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "design argument"
+  - "teleological argument"
   - "Abrahamic traditions"
-  - "Routledge Science and Religion Series"
+  - "intelligent design"
 summary: "An edited volume on how arguments from design have been made and criticised in Jewish, Christian and Muslim thought."
 venue: "Routledge"
 rights: link-only

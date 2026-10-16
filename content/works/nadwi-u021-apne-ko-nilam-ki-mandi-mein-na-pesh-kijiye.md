@@ -4,6 +4,13 @@ titleOriginal: "اپنے کو نیلام کی منڈی میں نہ پیش کیج
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "self-respect"
+  - "Muslim dignity"
+  - "materialism"
+  - "Muslim identity"
 summary: "Do not put yourselves up for auction"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

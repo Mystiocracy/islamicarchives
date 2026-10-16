@@ -6,11 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+  - islam-and-modernity
 keywords:
-  - "Tafsir al-Quran al-hakim"
+  - "Tafsir al-Qur'an al-Hakim"
   - "Muhammad Abduh"
-  - "Quranic exegesis"
-  - "12 volumes"
+  - "tafsir"
+  - "al-Manar"
 summary: "A modernist commentary on the Qurʾān up to Sūrat Yūsuf, based on ʿAbduh's lectures and continued by Riḍā, stressing guidance, reason and social reform."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

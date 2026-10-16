@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+  - political-thought
+keywords:
+  - "Islamic civilisation"
+  - "Muslim unity"
+  - "ummah"
 summary: "Islamic civilisation and ideal unity"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

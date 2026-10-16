@@ -8,8 +8,9 @@ subjects:
   - islam-and-modernity
   - political-thought
 keywords:
-  - "lecture"
-  - "future"
+  - "twenty-first century"
+  - "future of Islam"
+  - "Islamic revival"
 venue: "YouTube (Najib al-Rifai)"
 summary: "Lecture (1h29) on the prospects of Islam in the twenty-first century."
 rights: link-only

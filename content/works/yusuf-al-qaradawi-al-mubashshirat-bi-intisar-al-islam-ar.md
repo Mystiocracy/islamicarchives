@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "victory of Islam"
+  - "glad tidings"
+  - "Islamic revival"
+  - "future of Islam"
 summary: "Argues from Qur'anic and historical signs that Islam will ultimately prevail."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

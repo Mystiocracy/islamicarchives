@@ -13,6 +13,7 @@ keywords:
   - "qiwamah"
   - "Musawah"
   - "male authority"
+  - "tawhid"
 summary: "Chapter in Men in Charge? Rethinking Authority in Muslim Legal Tradition arguing that the ethics of divine unity should override the doctrine of male guardianship (qiwamah)."
 rights: link-only
 rightsNote: "In copyright (living author)."

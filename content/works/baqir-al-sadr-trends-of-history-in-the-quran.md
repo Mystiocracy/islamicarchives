@@ -6,12 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
-  - philosophy-and-theology
 keywords:
   - "al-Madrasa al-Qur'aniyya"
   - "thematic exegesis"
   - "al-tafsir al-mawdu'i"
   - "laws of history"
+  - "sunan"
 summary: "His last lectures, which propose a thematic method of Qurʾanic exegesis and apply it to the Qurʾan's account of the laws governing history and society."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "aqida"
+  - "tawhid"
+  - "risala"
+  - "akhira"
 summary: "Three basic beliefs of Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,6 +4,13 @@ titleOriginal: "ইসলাম ধর্মঃ সমাজঃ সংস্ক�
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - family-and-society
+keywords:
+  - "religion"
+  - "society"
+  - "culture"
 summary: "Islam: religion, society, culture. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

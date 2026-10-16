@@ -7,9 +7,11 @@ language: "English"
 type: "Paper"
 subjects:
   - psychology-and-mental-health
+  - quranic-studies
 keywords:
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "al-Raghib al-Isfahani"
+  - "emotions"
+  - "Islamic psychology"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

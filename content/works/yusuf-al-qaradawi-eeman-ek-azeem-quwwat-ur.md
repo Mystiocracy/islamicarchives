@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "iman"
+  - "faith"
+  - "strength of faith"
 summary: "On faith as a source of strength for the believer."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

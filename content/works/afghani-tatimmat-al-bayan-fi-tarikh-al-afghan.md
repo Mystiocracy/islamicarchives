@@ -5,12 +5,10 @@ titleOriginal: "تتمة البيان في تاريخ الأفغان"
 year: 1901
 language: "Arabic"
 type: "Book"
-subjects:
-  - political-thought
 keywords:
-  - "Tatimmat al-bayan"
+  - "Afghanistan"
   - "history of Afghanistan"
-  - "Ali Yusuf al-Kiridli"
+  - "Afghan tribes"
 summary: "A short history and description of Afghanistan and its peoples, published posthumously in Cairo."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1897); later translations may still be in copyright."

@@ -4,6 +4,14 @@ titleOriginal: "القراءۃ الراشدۃ اردو ترجمہ مع حل لغ
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "al-Qira'a al-Rashida"
+  - "Arabic reader"
+  - "Arabic language"
+  - "vocabulary"
+  - "madrasa"
 summary: "Urdu translation with vocabulary of his Arabic reader al-Qira'a al-Rashida. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

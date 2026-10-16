@@ -4,6 +4,12 @@ titleOriginal: "تقریر آزادی"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Indian independence"
+  - "freedom"
+  - "India"
 summary: "Independence speech"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

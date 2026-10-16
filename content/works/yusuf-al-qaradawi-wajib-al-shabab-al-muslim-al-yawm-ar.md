@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+  - family-and-society
+keywords:
+  - "Muslim youth"
+  - "duties of youth"
+  - "young people"
 summary: "Sets out the duties of Muslim youth today."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -7,10 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - political-thought
+  - islam-and-modernity
 keywords:
   - "philosophy of history"
+  - "Islamic interpretation of history"
   - "historiography"
+  - "materialist history"
 venue: "Dār al-Shurūq"
 summary: "Proposes an Islamic philosophy of history in contrast to liberal and materialist interpretations."
 rights: link-only

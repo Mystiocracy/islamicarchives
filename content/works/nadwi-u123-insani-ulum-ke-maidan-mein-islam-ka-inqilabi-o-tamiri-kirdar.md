@@ -4,6 +4,13 @@ titleOriginal: "انسانی علوم کے میدان میں اسلام کا ا�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+  - education
+keywords:
+  - "human sciences"
+  - "Islamic civilisation"
+  - "knowledge"
 summary: "Islam's revolutionary role in the human sciences"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

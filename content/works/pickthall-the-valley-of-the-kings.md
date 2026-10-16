@@ -10,6 +10,7 @@ keywords:
   - "Syria"
   - "Lebanon"
   - "missionaries"
+  - "archaeologists"
   - "novel"
 summary: "A Syrian Christian youth is drawn to Western missionaries and archaeologists. Pickthall uses the story to look critically at European influence on the mixed Muslim and Christian society of the Levant."
 rights: link-only

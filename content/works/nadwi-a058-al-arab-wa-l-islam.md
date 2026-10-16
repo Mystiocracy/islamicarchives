@@ -5,6 +5,14 @@ author: nadwi
 year: 1969
 language: "Arabic"
 type: "Speech"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "The Arabs and Islam"
+  - "Arabs"
+  - "Arab world"
+  - "Arab nationalism"
 summary: "The Arabs and Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

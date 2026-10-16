@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an translation"
+  - "Urdu translation"
+  - "Tauzeeh-ul-Quran"
+  - "tafsir"
 summary: "His plain-Urdu translation of the whole Qurʾan with brief explanatory notes (Tauzeeh-ul-Quran), complete in one PDF."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -6,7 +6,12 @@ year: 1986
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - political-thought
+  - education
+keywords:
+  - "Islamic Da'wa in India"
+  - "da'wa"
+  - "India"
+  - "Islam in India"
 summary: "Islamic Daʿwa in India and Its Development"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

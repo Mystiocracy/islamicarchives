@@ -3,6 +3,15 @@ title: "Qadianism: Nothing but a British Conspiracy against Islam"
 author: nadwi
 language: "English"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - colonialism-and-decolonisation
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "British Raj"
+  - "Mirza Ghulam Ahmad"
+  - "khatm al-nubuwwa"
 summary: "Qadianism: Nothing but a British Conspiracy against Islam. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

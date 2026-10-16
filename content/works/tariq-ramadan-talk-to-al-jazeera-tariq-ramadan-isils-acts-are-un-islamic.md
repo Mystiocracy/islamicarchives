@@ -8,6 +8,7 @@ subjects:
   - political-thought
 keywords:
   - "ISIL"
+  - "Islamic State"
   - "extremism"
   - "Al Jazeera"
   - "scholars"

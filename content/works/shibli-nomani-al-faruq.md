@@ -11,7 +11,7 @@ keywords:
   - "'Umar ibn al-Khattab"
   - "caliphate"
   - "Al-Farooq: Life of Omar the Great"
-  - "Zafar Ali Khan (translator)"
+  - "Rashidun administration"
 summary: "His best-known work: a two-part biography of the caliph 'Umar, narrating his life and then analysing his administration, institutions and policies."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

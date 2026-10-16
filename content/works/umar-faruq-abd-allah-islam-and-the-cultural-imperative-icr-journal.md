@@ -6,10 +6,11 @@ language: English
 type: "Paper"
 subjects:
   - islam-and-modernity
+  - islamic-law
 keywords:
   - "culture"
   - "indigenous Islam"
-  - "Islamic law"
+  - "urf"
   - "ICR Journal"
 summary: "The journal version of his paper on how Islamic law lets cultures take shape and be renewed, using the image of a clear river that takes the colour of the ground it flows over."
 venue: "ICR Journal 1, no. 1"

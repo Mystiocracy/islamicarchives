@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "ummah"
+  - "twentieth century"
+  - "twenty-first century"
+  - "Muslim world"
 summary: "Reflects on the Muslim ummah between the twentieth and twenty-first centuries."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

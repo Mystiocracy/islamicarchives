@@ -6,6 +6,10 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "Fatawa Mu'asira"
+  - "contemporary issues"
 summary: "Selected contemporary fatwas."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

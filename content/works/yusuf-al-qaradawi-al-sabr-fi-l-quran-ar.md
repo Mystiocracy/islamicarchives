@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+  - sufism
+keywords:
+  - "sabr"
+  - "patience"
+  - "Patience in the Qur'an"
+  - "Qur'anic themes"
 summary: "Studies the Qur'anic teaching on patience."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

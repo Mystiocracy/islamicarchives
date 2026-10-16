@@ -4,9 +4,14 @@ author: nadwi
 year: 1973
 language: "English"
 type: "Book"
+subjects:
+  - islam-and-modernity
 keywords:
-  - "Rawa'i' Iqbal (Ar.) / Nuqoosh-e-Iqbal (Ur.)"
-  - "Mohammad Asif Kidwai"
+  - "Muhammad Iqbal"
+  - "Rawa'i' Iqbal"
+  - "Nuqoosh-e-Iqbal"
+  - "Urdu poetry"
+  - "Persian poetry"
 summary: "Glory of Iqbal. Translated by Mohammad Asif Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

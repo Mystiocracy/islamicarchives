@@ -8,10 +8,10 @@ type: "Book"
 subjects:
   - philosophy-and-theology
 keywords:
+  - "kalam"
   - "history of theology"
   - "Mu'tazila"
   - "Ash'ari"
-  - "kalam"
 summary: "A history of Islamic scholastic theology from its origins through the classical schools, intended as the groundwork for a modern kalam."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

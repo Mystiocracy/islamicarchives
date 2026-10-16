@@ -6,6 +6,12 @@ language: "English"
 type: "Article"
 subjects:
   - political-thought
+keywords:
+  - "Islamism"
+  - "political Islam"
+  - "post-Islamism"
+  - "freedom"
+  - "dignity"
 summary: "Argues that political Islam should stop defining itself by opposition and pursue intellectual renewal built on freedom, dignity, justice and exchange with other civilizations."
 venue: "Fair Observer, 27 September 2013"
 rights: link-only

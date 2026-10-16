@@ -7,8 +7,12 @@ type: "Pamphlet"
 subjects:
   - political-thought
   - economics
+  - islam-and-modernity
 keywords:
   - "communism"
+  - "Marxism"
+  - "idealism"
+  - "materialism"
 venue: "Society for Pakistan Studies"
 summary: "Short pamphlet contrasting Islam with communism."
 rights: link-only

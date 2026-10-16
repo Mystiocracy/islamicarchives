@@ -11,7 +11,6 @@ keywords:
   - "youth"
   - "Western thought"
   - "modern ideologies"
-  - "Islamic Texts Society"
 summary: "A guide for young Muslims explaining Islam's teachings and offering a critical survey of modern Western philosophy, science and art."
 rights: link-only
 rightsNote: "In copyright (living author)."

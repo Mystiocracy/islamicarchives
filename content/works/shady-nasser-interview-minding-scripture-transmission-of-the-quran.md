@@ -8,8 +8,10 @@ type: "Interview"
 subjects:
   - quranic-studies
 keywords:
-  - "podcast"
-  - "transmission"
+  - "Minding Scripture"
+  - "Gabriel Reynolds"
+  - "transmission of the Qur'an"
+  - "qira'at"
 summary: "A podcast conversation with Gabriel Reynolds, shared by IQSA on 12 October 2020."
 venue: "Minding Scripture (podcast)"
 rights: link-only

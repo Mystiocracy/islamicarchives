@@ -6,11 +6,12 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - political-thought
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "jihad"
+  - "war and peace"
+  - "conquest"
+  - "just war"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

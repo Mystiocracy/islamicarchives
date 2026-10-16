@@ -4,6 +4,15 @@ titleOriginal: "دین اسلام اور اولین مسلمانوں کی دو �
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Sahaba"
+  - "Companions"
+  - "Shi'ism"
+  - "Sunni-Shi'i"
+  - "Suratan Mutadaddatan"
+  - "Twelver Shi'a"
 summary: "Two contradictory portraits of Islam and the first Muslims (Sunni and Twelver Shi'i views). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

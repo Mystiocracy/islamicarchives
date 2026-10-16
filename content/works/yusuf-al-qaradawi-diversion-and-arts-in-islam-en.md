@@ -7,6 +7,13 @@ language: "English"
 type: "Translation"
 subjects:
   - islamic-law
+keywords:
+  - "Fiqh al-Lahw wa-l-Tarwih"
+  - "music"
+  - "singing"
+  - "art"
+  - "entertainment"
+  - "leisure"
 summary: "Discusses the Islamic rulings on leisure, music, singing, art and entertainment."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

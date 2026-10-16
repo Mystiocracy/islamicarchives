@@ -5,6 +5,14 @@ author: nadwi
 year: 1967
 language: "Arabic"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Qadiani and Qadianism"
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "finality of prophethood"
 summary: "Qadiani and Qadianism: A Study and Analysis"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

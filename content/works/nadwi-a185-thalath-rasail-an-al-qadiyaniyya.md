@@ -4,6 +4,15 @@ titleOriginal: "ثلاث رسائل عن القاديانية"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "khatm al-nubuwwa"
+  - "finality of prophethood"
+  - "Abul A'la Mawdudi"
 summary: "Three Tracts on Qadianism"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

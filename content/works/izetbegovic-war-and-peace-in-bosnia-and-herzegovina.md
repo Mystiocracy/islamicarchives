@@ -8,10 +8,10 @@ type: "Collection"
 subjects:
   - political-thought
 keywords:
-  - "Rat i mir u BiH"
-  - "Dayton"
+  - "Rat i mir u Bosni i Hercegovini"
+  - "Dayton Agreement"
   - "Bosniaks"
-  - "speeches"
+  - "Bosnian war"
 summary: "Speeches, interviews and statements from the Bosnian war and the post-Dayton period, reflecting on the fate of Bosnia's Muslims and the country's future."
 rights: link-only
 rightsNote: "In copyright (author d. 2003)."

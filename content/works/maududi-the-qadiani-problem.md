@@ -12,7 +12,8 @@ keywords:
   - "Qadiani Mas'ala"
   - "Ahmadiyya"
   - "finality of prophethood"
-  - "1953 disturbances"
+  - "khatm-e-nubuwwat"
+  - "1953 Punjab disturbances"
 summary: "The pamphlet demanding that Ahmadis be declared a non-Muslim minority, for which he was tried and sentenced to death during the 1953 disturbances in Punjab."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

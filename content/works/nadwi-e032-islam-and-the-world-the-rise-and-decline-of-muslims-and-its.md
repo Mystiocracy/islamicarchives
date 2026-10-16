@@ -4,9 +4,15 @@ author: nadwi
 year: 1961
 language: "English"
 type: "Book"
+subjects:
+  - islam-and-modernity
+  - political-thought
 keywords:
-  - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin (Ar.) / Insani Dunya par Musalmanon ke Urooj o Zawal ka Asar (Ur.)"
-  - "Mohammad Asif Kidwai"
+  - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
+  - "Insani Dunya par Musalmanon ke Urooj o Zawal ka Asar"
+  - "Muslim decline"
+  - "jahiliyya"
+  - "Western civilisation"
 summary: "Islam and the World: The Rise and Decline of Muslims and Its Effect on Mankind. Translated by Mohammad Asif Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

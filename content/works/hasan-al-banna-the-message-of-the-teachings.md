@@ -8,9 +8,9 @@ subjects:
   - political-thought
   - philosophy-and-theology
 keywords:
-  - "Risalat al-talim"
+  - "Risalat al-ta'alim"
   - "twenty principles"
-  - "pillars of allegiance"
+  - "bay'a"
   - "Muslim Brotherhood"
 summary: "A short handbook for members setting out the 'twenty principles' of the Brotherhood's understanding of Islam and the ten pillars of the pledge of allegiance."
 rights: link-only

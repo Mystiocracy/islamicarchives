@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "deep differences"
-  - "unity"
+  - "Muslim unity"
+  - "sectarianism"
+  - "ummatics"
 venue: "Ummatics Annual Conference 2026"
 summary: "Keynote arguing that managing intra-Muslim differences is the central task for Muslim unity."
 rights: link-only

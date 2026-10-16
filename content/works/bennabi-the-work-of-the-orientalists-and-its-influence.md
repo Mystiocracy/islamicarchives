@@ -6,10 +6,11 @@ year: 1965
 language: "French"
 type: "Essay"
 subjects:
-  - islam-and-modernity
   - colonialism-and-decolonisation
+  - islam-and-modernity
 keywords:
   - "L'Œuvre des orientalistes"
+  - "Intaj al-mustashriqin"
   - "Orientalism"
   - "Muslim intellectuals"
   - "apologetics"

@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin (French adaptation)"
+  - "Madha Khasira al-'Alam bi-Inhitat al-Muslimin"
+  - "Islamic civilisation"
+  - "West"
 summary: "Contributions of Muslim civilisation to the West. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

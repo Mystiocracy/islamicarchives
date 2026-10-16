@@ -4,6 +4,14 @@ titleOriginal: "اصلاحیات"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sufism
+  - family-and-society
+keywords:
+  - "islah"
+  - "reform"
+  - "akhlaq"
+  - "self-reform"
 summary: "Reform writings"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

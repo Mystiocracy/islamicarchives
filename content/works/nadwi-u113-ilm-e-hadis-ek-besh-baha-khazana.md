@@ -6,7 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - hadith-studies
-  - education
+keywords:
+  - "ilm al-hadith"
+  - "Sunnah"
+  - "hadith literature"
 summary: "Hadith scholarship: a priceless treasure"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

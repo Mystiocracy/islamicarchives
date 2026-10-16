@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Mohiuddin Ahmad"
+  - "civilisation"
+  - "Islamic civilisation"
+  - "Western civilisation"
+  - "culture"
 summary: "Islam and Civilization. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

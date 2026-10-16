@@ -7,6 +7,11 @@ language: "Bengali"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic movement"
+  - "Islamic revival"
+  - "modern age"
+  - "strategy"
 summary: "Strategy and programme for Islam in the modern age."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

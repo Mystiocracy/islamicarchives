@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "apostasy"
+  - "ridda"
+  - "murtadd"
+  - "hudud"
+  - "freedom of religion"
 summary: "Studies the crime and punishment of apostasy in light of the Qur'an and Sunna."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

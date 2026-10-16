@@ -4,8 +4,13 @@ titleOriginal: "سلطان صلاح الدین ایوبی فاتح قدس"
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - political-thought
 keywords:
-  - "عبدالقدوس دهقان"
+  - "Salah al-Din al-Ayyubi"
+  - "Saladin"
+  - "Jerusalem"
+  - "Crusades"
 summary: "Sultan Saladin, conqueror of Jerusalem. Translated by عبدالقدوس دهقان."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

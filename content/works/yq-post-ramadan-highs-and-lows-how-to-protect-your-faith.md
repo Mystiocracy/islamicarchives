@@ -6,12 +6,12 @@ year: 2026
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "Ramadan"
+  - "consistency"
+  - "post-Ramadan"
+  - "iman"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

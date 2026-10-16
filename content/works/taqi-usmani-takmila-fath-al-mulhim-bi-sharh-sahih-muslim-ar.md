@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "Sahih Muslim"
+  - "Fath al-Mulhim"
+  - "Shabbir Ahmad Usmani"
+  - "hadith commentary"
 summary: "His continuation of Shabbir Ahmad Usmani’s commentary on Sahih Muslim, from the Book of Nikah."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -13,6 +13,7 @@ keywords:
   - "Wanted: Equality and Justice in the Muslim Family"
   - "tawhid"
   - "family law"
+  - "patriarchy"
 summary: "Contribution to Musawah's founding volume arguing from the Qur'an's principle of tawhid that gender equality is integral to Islam."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -6,11 +6,12 @@ year: 2025
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
+  - philosophy-and-theology
 keywords:
-  - "Allah"
-  - "Quran"
+  - "Names of Allah"
+  - "asma al-husna"
+  - "paired divine names"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

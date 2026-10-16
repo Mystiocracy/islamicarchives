@@ -4,10 +4,11 @@ author: umar-faruq-abd-allah
 language: English
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
   - "purpose"
-  - "spirituality"
+  - "spiritual life"
+  - "faith"
 summary: "A paper on living the faith with purpose and direction."
 venue: "Nawawi Foundation (now The Oasis Initiative)"
 rights: link-only

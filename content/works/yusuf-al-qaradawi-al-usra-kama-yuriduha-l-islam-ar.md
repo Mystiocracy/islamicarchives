@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - family-and-society
+keywords:
+  - "family"
+  - "marriage"
+  - "spousal rights"
+  - "parenting"
 summary: "Presents the Islamic vision of family relations and their rules."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

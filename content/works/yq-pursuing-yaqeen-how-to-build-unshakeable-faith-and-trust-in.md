@@ -7,7 +7,10 @@ type: "Essay"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "yaqin"
+  - "certainty"
+  - "tawakkul"
+  - "faith"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

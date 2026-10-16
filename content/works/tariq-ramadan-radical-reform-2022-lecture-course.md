@@ -6,12 +6,13 @@ language: "English / French"
 type: "Video"
 subjects:
   - islam-and-modernity
+  - islamic-law
 keywords:
   - "Radical Reform"
-  - "reform"
-  - "ethics"
-  - "course"
+  - "Islamic ethics"
+  - "liberation"
   - "sources of law"
+  - "CHIFA"
 summary: "Live-streamed course sessions in which Ramadan works through Radical Reform: Islamic Ethics and Liberation chapter by chapter, from reading sources to modernity, culture and the arts, with matching French sessions."
 venue: "Tariq Ramadan Official (online course)"
 rights: link-only

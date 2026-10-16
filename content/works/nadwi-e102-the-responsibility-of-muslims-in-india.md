@@ -5,6 +5,11 @@ language: "English"
 type: "Speech"
 subjects:
   - political-thought
+keywords:
+  - "India"
+  - "Indian Muslims"
+  - "minority"
+  - "Muslim responsibility"
 summary: "The Responsibility of Muslims in India. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

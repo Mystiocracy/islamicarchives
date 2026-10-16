@@ -6,12 +6,13 @@ language: "English"
 type: "Video"
 subjects:
   - islamic-law
+  - islam-and-modernity
 keywords:
   - "CILE"
-  - "public lectures"
   - "Islamic ethics"
   - "ijtihad"
-  - "fiqh"
+  - "Yusuf al-Qaradawi"
+  - "critical thinking"
 summary: "A 57-video playlist of public lectures hosted by CILE between roughly 2012 and 2017, including Ramadan's talks on ethics and Islamic legislation, critical thinking, education and the need for intellectual and spiritual revolution."
 venue: "CILE Center (Research Center for Islamic Legislation and Ethics)"
 rights: link-only

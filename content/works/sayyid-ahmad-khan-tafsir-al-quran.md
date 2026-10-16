@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "rationalist tafsir"
   - "naturalism"
-  - "Tasanif-e-Ahmadiyya"
-  - "seven volumes"
+  - "Tafsir al-Qur'an wa huwa al-Huda wa al-Furqan"
+  - "miracles"
 summary: "His rationalist commentary on the Qur'an, published in seven volumes between 1880 and 1904 and left incomplete, which interprets miracles and the unseen in harmony with natural law."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1898); later translations may still be in copyright."

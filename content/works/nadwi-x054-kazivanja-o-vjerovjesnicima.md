@@ -5,10 +5,10 @@ year: 2002
 language: "Bosnian"
 type: "Book"
 subjects:
-  - hadith-studies
+  - quranic-studies
 keywords:
-  - "Qasas al-Nabiyyin (Arabic)"
-  - "Munir Zahirovic"
+  - "Qasas al-Nabiyyin"
+  - "prophets"
 summary: "Stories of the Prophets. Translated by Munir Zahirovic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

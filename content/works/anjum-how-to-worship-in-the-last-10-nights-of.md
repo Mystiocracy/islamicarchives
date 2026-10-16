@@ -8,8 +8,10 @@ subjects:
   - sufism
 keywords:
   - "Ramadan"
-  - "worship"
-  - "animation"
+  - "last ten nights"
+  - "Laylat al-Qadr"
+  - "The Art of Worship"
+  - "ibada"
 venue: "Yaqeen Institute"
 summary: "Animated companion to his paper 'The Art of Worship', giving practical guidance for the last ten nights of Ramadan."
 rights: link-only

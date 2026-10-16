@@ -5,7 +5,12 @@ titleOriginal: "من مقومات النفسية الإسلامية"
 language: "Urdu"
 type: "Translation"
 subjects:
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "Islamic disposition"
+  - "nafsiyya"
+  - "Hizb ut-Tahrir"
+  - "character"
 summary: "Urdu edition of the Nafsiyyah compilation."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

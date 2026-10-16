@@ -8,7 +8,10 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Angels"
+  - "angels"
+  - "unseen"
+  - "ghayb"
+  - "In Pursuit of Conviction"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

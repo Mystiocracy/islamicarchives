@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Contentions"
   - "aphorisms"
-  - "commentary"
-  - "Quilliam Press"
+  - "ecology"
+  - "spirituality"
 summary: "An extended commentary by the author on one set of his aphorisms, ranging over theology, modernity, ecology and the religious life."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -7,6 +7,11 @@ type: "Speech"
 subjects:
   - political-thought
   - islam-and-modernity
+keywords:
+  - "Muhammad Asad"
+  - "modern state"
+  - "Islamic politics"
+  - "sovereignty"
 summary: "Argues that his father Muhammad Asad was a religious rather than a political thinker, questions the modern state’s claim to absolute loyalty, and proposes an Islamic politics of public argument."
 venue: "Paper for the April 2011 Riyadh symposium “Muhammad Asad: A Life for Dialogue”"
 rights: link-only

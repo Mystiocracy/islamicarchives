@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "The Islamic Personality"
+  - "Hizb ut-Tahrir"
+  - "ahkam"
+  - "jihad"
+  - "khilafa"
 summary: "Second volume: studies of Islamic legal rulings and methodology from the Party’s viewpoint."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

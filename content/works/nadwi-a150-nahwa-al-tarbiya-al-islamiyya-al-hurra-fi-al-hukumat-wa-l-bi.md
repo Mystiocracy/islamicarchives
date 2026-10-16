@@ -8,6 +8,12 @@ type: "Book"
 subjects:
   - education
   - political-thought
+keywords:
+  - "Islamic education"
+  - "education policy"
+  - "Muslim states"
+  - "curriculum"
+  - "tarbiya"
 summary: "Towards a Free Islamic Education in Muslim States"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -7,7 +7,10 @@ type: "Paper"
 subjects:
   - hadith-studies
 keywords:
-  - "Are Hadith Necessary? An Examination of the Authority of Hadith in Islam"
+  - "authority of hadith"
+  - "Sunna"
+  - "Qur'an-only"
+  - "prophetic authority"
 summary: "A paper arguing that the Qur'an itself affirms the Prophet's authority as teacher and legislator."
 venue: "Yaqeen Institute for Islamic Research"
 rights: link-only

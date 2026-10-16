@@ -9,8 +9,8 @@ subjects:
   - political-thought
 keywords:
   - "L'Islam, morale et politique"
-  - "UNESCO"
-  - "authority"
+  - "religious authority"
+  - "ethics"
   - "power"
 summary: "Studies the relationship between religious authority, ethics and political power in Islamic history and contemporary Muslim states."
 rights: link-only

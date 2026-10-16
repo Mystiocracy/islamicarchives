@@ -6,10 +6,12 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - hadith-studies
 keywords:
-  - "Hadith"
+  - "hadith transmission"
+  - "hadith preservation"
+  - "isnad"
+  - "reliability of hadith"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

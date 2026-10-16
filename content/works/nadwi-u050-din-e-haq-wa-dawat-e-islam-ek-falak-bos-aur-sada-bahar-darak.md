@@ -4,6 +4,14 @@ titleOriginal: "دین حق و دعوت اسلام ایک فلک بوس اور �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "din"
+  - "da'wa"
+  - "Islam"
+  - "true religion"
 summary: "True religion: a sky-high evergreen tree"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

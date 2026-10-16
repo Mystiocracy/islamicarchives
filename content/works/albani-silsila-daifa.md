@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Silsilat al-Aḥādīth al-ḍaʿīfa wa-l-mawḍūʿa"
-  - "Albani"
+  - "weak hadith"
+  - "fabricated hadith"
+  - "mawdu"
+  - "da'if"
 summary: "The companion collection of weak and forged hadith and their harmful effect."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

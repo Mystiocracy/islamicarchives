@@ -6,11 +6,12 @@ language: "French"
 type: "Video"
 subjects:
   - philosophy-and-theology
+  - political-thought
 keywords:
+  - "Manifesto for an Islamic Theology of Liberation"
   - "liberation theology"
-  - "manifesto"
-  - "ethics"
-  - "course"
+  - "oppression"
+  - "resistance"
   - "CHIFA"
 summary: "Nine sessions of a year-long course on his Manifesto for an Islamic Theology of Liberation, covering the book's argument about ethics, oppression, resistance and religious responsibility."
 venue: "Tariq Ramadan Official (CHIFA, CPP 2023/2024)"

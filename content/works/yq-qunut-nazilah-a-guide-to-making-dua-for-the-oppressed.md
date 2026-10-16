@@ -6,12 +6,14 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
   - political-thought
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "qunut nazilah"
+  - "dua"
+  - "oppressed"
+  - "war"
+  - "Palestine"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

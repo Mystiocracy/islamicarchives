@@ -8,8 +8,9 @@ subjects:
   - family-and-society
 keywords:
   - "Ansar"
-  - "service"
+  - "Medina"
   - "sira"
+  - "service"
 venue: "AlJumuah Magazine"
 summary: "Holds up the Ansar of Medina as a model of sincere service to Islam."
 rights: link-only

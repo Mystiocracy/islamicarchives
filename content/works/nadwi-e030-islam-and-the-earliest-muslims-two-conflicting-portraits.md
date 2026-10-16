@@ -4,9 +4,15 @@ author: nadwi
 year: 1985
 language: "English"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
 keywords:
-  - "Suratan Mutadaddatan (Ar.) / Do Mutazad Tasweerein (Ur.)"
-  - "Mohiuddin Ahmad"
+  - "Sahaba"
+  - "Companions"
+  - "Shi'ism"
+  - "Sunni-Shi'i"
+  - "Suratan Mutadaddatan"
+  - "Do Mutazad Tasweerein"
 summary: "Islam and the Earliest Muslims: Two Conflicting Portraits. Translated by Mohiuddin Ahmad from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

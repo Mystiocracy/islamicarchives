@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "seekers of knowledge"
+  - "talib al-ilm"
+  - "students"
+  - "scholarship"
+  - "ilm"
 summary: "Signposts on the Path of Knowledge"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

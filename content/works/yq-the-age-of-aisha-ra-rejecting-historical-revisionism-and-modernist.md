@@ -6,10 +6,14 @@ year: 2018
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - hadith-studies
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "Aisha"
+  - "age of Aisha"
+  - "marriage age"
+  - "historical revisionism"
+  - "Orientalism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -8,9 +8,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
+  - "Abbasid caliph al-Ma'mun"
   - "Abbasid caliphate"
-  - "al-Ma'mun"
-  - "Islamic history"
+  - "Bayt al-Hikma"
   - "Heroes of Islam series"
 summary: "A biography of the Abbasid caliph al-Ma'mun and an account of his government and patronage of learning, the first of Shibli's historical studies of Muslim rulers."
 rights: link-only

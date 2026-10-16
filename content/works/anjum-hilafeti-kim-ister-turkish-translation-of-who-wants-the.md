@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "caliphate"
-  - "Turkish"
+  - "Who Wants the Caliphate?"
+  - "khilafa"
+  - "ummatics"
 venue: "Ummatics Institute"
 summary: "Turkish translation of his essay on the caliphate."
 rights: link-only

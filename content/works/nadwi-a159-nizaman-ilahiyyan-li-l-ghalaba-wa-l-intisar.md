@@ -4,6 +4,14 @@ titleOriginal: "نظامان إلهيان للغلبة والانتصار"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - political-thought
+keywords:
+  - "sunan Allah"
+  - "divine law"
+  - "victory"
+  - "ummah"
 summary: "Two Divine Systems for Prevailing and Victory"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

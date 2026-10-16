@@ -8,8 +8,9 @@ subjects:
   - islam-and-modernity
 keywords:
   - "globalisation"
-  - "victimhood"
-  - "education"
+  - "victim mentality"
+  - "Islamophobia"
+  - "self-criticism"
   - "dialogue"
 summary: "Ramadan says Muslims must drop a victim mentality amid campaigns portraying Islam as a threat, and respond through education, open dialogue and honest self-criticism."
 venue: "ABC Religion & Ethics, 7 August 2012"

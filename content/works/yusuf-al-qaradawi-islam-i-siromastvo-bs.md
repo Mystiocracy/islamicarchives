@@ -6,6 +6,11 @@ language: "Bosnian"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "poverty"
+  - "zakat"
+  - "Mushkilat al-Faqr wa-Kayfa Alajaha al-Islam"
+  - "social justice"
 summary: "How Islam deals with poverty."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,8 +5,12 @@ author: nadwi
 year: 1989
 language: "Arabic"
 type: "Book"
-subjects:
-  - philosophy-and-theology
+keywords:
+  - "Ali ibn Abi Talib"
+  - "al-Murtada"
+  - "caliphate"
+  - "Rashidun"
+  - "biography"
 summary: "Al-Murtada: Life of the Commander of the Faithful Ali ibn Abi Talib. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

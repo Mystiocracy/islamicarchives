@@ -5,8 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
+  - sufism
   - political-thought
-  - philosophy-and-theology
+keywords:
+  - "Ramadan"
+  - "Indian Muslims"
+  - "fasting"
 summary: "Ramadan's message to Indian Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

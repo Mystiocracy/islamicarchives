@@ -6,7 +6,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
-  - islamic-law
+  - political-thought
+keywords:
+  - "Prophet Muhammad"
+  - "humanity"
+  - "civilised world"
+  - "defamation of the Prophet"
 summary: "Humanity's greatest benefactor and the civilised world's duty"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,6 +4,13 @@ titleOriginal: "دار العلوم فرقانیہ ٹونک – ترقی کی ر
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Darul Uloom Furqaniya"
+  - "Tonk"
+  - "Rajasthan"
+  - "madrasa"
 summary: "Darul Uloom Furqaniya Tonk on the path of progress"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

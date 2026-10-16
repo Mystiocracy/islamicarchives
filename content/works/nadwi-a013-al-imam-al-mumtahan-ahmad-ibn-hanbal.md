@@ -4,6 +4,14 @@ titleOriginal: "الإمام الممتحن أحمد بن حنبل"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - hadith-studies
+keywords:
+  - "Ahmad ibn Hanbal"
+  - "mihna"
+  - "createdness of the Qur'an"
+  - "Rijal al-Fikr wa-l-Da'wa"
 summary: "Ahmad ibn Hanbal, the Tried Imam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,10 +4,13 @@ author: yaqeen-institute
 year: 2021
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - islamic-law
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "Islamic calendar"
+  - "Hijri calendar"
+  - "sacred months"
+  - "lunar months"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

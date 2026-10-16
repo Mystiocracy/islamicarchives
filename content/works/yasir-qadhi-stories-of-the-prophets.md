@@ -4,8 +4,10 @@ author: yasir-qadhi
 language: English
 type: "Video"
 subjects:
-  - education
+  - quranic-studies
 keywords:
+  - "stories of the prophets"
+  - "qasas al-anbiya"
   - "prophets"
 summary: "A lecture series on the stories of the prophets."
 venue: "Yasir Qadhi"

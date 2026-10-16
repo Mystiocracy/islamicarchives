@@ -5,7 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - sufism
+keywords:
+  - "Prophet Muhammad"
+  - "akhlaq"
+  - "character"
+  - "shama'il"
+  - "prophetic qualities"
 summary: "The Prophet's character and qualities"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -8,7 +8,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Albani"
+  - "muhaddith"
+  - "Salafism"
+  - "hadith authentication"
+  - "Damascus"
 summary: "A study or biography of al-Albānī."
 venue: "Dar-us-Salam, 134 pp."
 rights: link-only

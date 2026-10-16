@@ -8,7 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "caliphate"
-  - "podcast"
+  - "Who Wants the Caliphate?"
+  - "The Thinking Muslim"
+  - "ummatics"
 venue: "The Thinking Muslim"
 summary: "Long-form interview on his caliphate essay."
 rights: link-only

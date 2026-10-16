@@ -6,8 +6,13 @@ language: English
 type: "Paper"
 subjects:
   - hadith-studies
+  - education
 keywords:
-  - "The Formative Years of an Iconoclastic Salafi Scholar"
+  - "Albani"
+  - "Salafism"
+  - "Syria"
+  - "Damascus"
+  - "Albanian community"
 summary: "On al-Albānī's early life, his strained relations with his father and the Albanian community in Syria, and his turn to hadith."
 venue: "The Muslim World 106, no. 3, pp. 411–432"
 rights: link-only

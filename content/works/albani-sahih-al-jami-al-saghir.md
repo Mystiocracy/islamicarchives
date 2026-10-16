@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ṣaḥīḥ al-Jāmiʿ al-ṣaghīr wa-ziyādatuh"
-  - "Albani"
+  - "al-Jami al-saghir"
+  - "al-Suyuti"
+  - "sahih"
+  - "hadith grading"
 summary: "His grading of the hadith of al-Suyūṭī's *al-Jāmiʿ al-ṣaghīr*: the sound ones."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

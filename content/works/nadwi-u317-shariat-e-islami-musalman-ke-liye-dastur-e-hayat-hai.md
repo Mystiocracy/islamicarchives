@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "sharia"
+  - "code of life"
+  - "Muslim personal law"
 summary: "Islamic law is the Muslim's code of life"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Islamic movement"
+  - "persecution"
+  - "mihna"
+  - "trials"
+  - "Muslim Brotherhood"
 summary: "Reflects on persecution and trials facing the Islamic movement."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

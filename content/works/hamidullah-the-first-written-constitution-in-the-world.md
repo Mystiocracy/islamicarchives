@@ -6,7 +6,6 @@ language: "English"
 type: "Book"
 subjects:
   - political-thought
-  - islamic-law
 keywords:
   - "Constitution of Medina"
   - "Sahifat al-Madina"

@@ -6,14 +6,14 @@ year: 2026
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - science-and-religion
-  - political-thought
+  - islamic-law
 keywords:
-  - "Islamic Ethics"
-  - "Nature & Science"
-  - "Politics & Practical Theology"
-  - "Technology"
+  - "artificial intelligence"
+  - "AI"
+  - "Islamic ethics"
+  - "fiqh"
+  - "technology"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

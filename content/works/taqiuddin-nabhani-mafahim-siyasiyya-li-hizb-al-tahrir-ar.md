@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Political Concepts"
+  - "Hizb ut-Tahrir"
+  - "international affairs"
+  - "great powers"
 summary: "Political concepts used by the Party in analysing international affairs and the Muslim world."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

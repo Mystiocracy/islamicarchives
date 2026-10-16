@@ -5,6 +5,14 @@ author: nadwi
 year: 1993
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "Islamic movements"
+  - "da'wa"
 summary: "Guiding the Islamic Revival (with three other lectures)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

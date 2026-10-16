@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Article"
 subjects:
   - education
+keywords:
+  - "tarbiya"
+  - "al-Shatibi"
+  - "Islamic education"
+  - "al-Muwafaqat"
 summary: "Short study of educational ideas in the work of al-Shatibi."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

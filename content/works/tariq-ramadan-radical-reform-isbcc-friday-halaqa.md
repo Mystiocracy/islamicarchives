@@ -8,6 +8,7 @@ subjects:
   - islam-and-modernity
 keywords:
   - "radical reform"
+  - "ISBCC"
   - "Boston"
   - "ijtihad"
   - "halaqa"

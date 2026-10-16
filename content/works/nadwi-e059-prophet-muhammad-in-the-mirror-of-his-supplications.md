@@ -5,10 +5,14 @@ year: 1985
 language: "English"
 type: "Pamphlet"
 subjects:
+  - sufism
   - hadith-studies
-  - philosophy-and-theology
 keywords:
-  - "Ibadur Rahman Nishat (Shah Ebadur Rahman)"
+  - "dua"
+  - "supplication"
+  - "Prophet Muhammad"
+  - "prophetic prayers"
+  - "du'a ma'thur"
 summary: "Prophet Muhammad in the Mirror of His Supplications. Translated by Ibadur Rahman Nishat (Shah Ebadur Rahman) from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

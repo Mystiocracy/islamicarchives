@@ -13,6 +13,7 @@ keywords:
   - "Jamal al-Din al-Afghani"
   - "Paris 1884"
   - "pan-Islamism"
+  - "British imperialism"
 summary: "The Paris journal edited with al-Afghānī, which called for Islamic unity, reform and resistance to British imperialism."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1905); later translations may still be in copyright."

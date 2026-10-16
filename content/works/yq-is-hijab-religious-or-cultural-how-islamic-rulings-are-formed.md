@@ -6,9 +6,12 @@ language: "English"
 type: "Paper"
 subjects:
   - islamic-law
+  - women-and-gender
 keywords:
-  - "Methodology (usul)"
-  - "Sharia"
+  - "hijab"
+  - "usul al-fiqh"
+  - "rulings"
+  - "religion and culture"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

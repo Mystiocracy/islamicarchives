@@ -7,8 +7,13 @@ language: English
 type: "Article"
 subjects:
   - hadith-studies
+  - education
 keywords:
-  - "Albani"
+  - "Salafism"
+  - "Damascus"
+  - "iconoclasm"
+  - "Hanafi madhhab"
+  - "scholarly formation"
 summary: "A study or biography of al-Albānī."
 venue: "The Muslim World 106, no. 3, pp. 411–432"
 rights: link-only

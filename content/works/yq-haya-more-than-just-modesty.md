@@ -5,10 +5,12 @@ year: 2021
 language: "English"
 type: "Paper"
 subjects:
-  - islamic-law
+  - sufism
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "haya"
+  - "modesty"
+  - "shyness"
+  - "character"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

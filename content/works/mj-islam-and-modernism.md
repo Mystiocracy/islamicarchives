@@ -4,9 +4,16 @@ author: maryam-jameelah
 year: 1966
 language: English
 type: "Book"
-venue: "Mohammad Yusuf Khan, Lahore"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic modernism"
+  - "Muhammad Abduh"
+  - "Sayyid Ahmad Khan"
+  - "Egypt"
+  - "Turkey"
+  - "South Asia"
+venue: "Mohammad Yusuf Khan, Lahore"
 summary: "Twenty-six essays attacking modernist Muslim thinkers in Egypt, Turkey and South Asia."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

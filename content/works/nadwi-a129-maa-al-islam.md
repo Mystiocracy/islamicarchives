@@ -5,6 +5,13 @@ author: nadwi
 year: 1973
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Islam"
+  - "faith"
+  - "da'wa"
+  - "Islamic identity"
 summary: "With Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

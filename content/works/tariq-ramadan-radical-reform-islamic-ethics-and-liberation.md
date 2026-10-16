@@ -7,12 +7,13 @@ language: "English"
 type: "Book"
 subjects:
   - islamic-law
+  - islam-and-modernity
 keywords:
+  - "Islam, la réforme radicale"
   - "ijtihad"
   - "maqasid"
   - "usul al-fiqh"
-  - "reform"
-  - "ethics"
+  - "applied ethics"
 summary: "Argues that Islamic reform must go beyond adapting old methods: it should treat context and the sciences as sources alongside scripture, and re-centre law on its higher ethical objectives to meet modern challenges."
 venue: "Oxford University Press (2009); French original Presses du Châtelet (Paris) 2008"
 rights: link-only

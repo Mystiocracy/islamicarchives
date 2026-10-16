@@ -7,6 +7,10 @@ language: "Arabic"
 type: "Speech"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islam and the West"
+  - "Western civilisation"
+  - "Muslims and the West"
 summary: "Islam and the West"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

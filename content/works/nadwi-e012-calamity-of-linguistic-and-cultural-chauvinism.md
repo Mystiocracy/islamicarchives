@@ -3,8 +3,15 @@ title: "Calamity of Linguistic and Cultural Chauvinism"
 author: nadwi
 language: "English"
 type: "Speech"
+subjects:
+  - political-thought
+  - islam-and-modernity
 keywords:
-  - "Lisani wa Tahzibi Jahiliyat ka Alamiya (Ur.)"
+  - "linguistic nationalism"
+  - "cultural chauvinism"
+  - "Calcutta"
+  - "Lisani wa Tahzibi Jahiliyat ka Alamiya"
+  - "Muslim unity"
 summary: "Calamity of Linguistic and Cultural Chauvinism. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

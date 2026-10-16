@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Arab world"
+  - "Arab tragedy"
+  - "Middle East"
+  - "Arab politics"
 summary: "The Arab world's latest tragedy"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

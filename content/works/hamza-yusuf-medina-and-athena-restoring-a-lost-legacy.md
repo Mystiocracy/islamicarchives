@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "liberal arts"
   - "Islamic education"
-  - "madrasa"
-  - "Renovatio"
+  - "classical learning"
+  - "trivium"
 summary: "Defines the liberal arts and traces their place in classical Islamic learning, arguing for their recovery in Muslim education today."
 rights: link-only
 rightsNote: "In copyright (living author)."

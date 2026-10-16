@@ -9,10 +9,10 @@ subjects:
   - women-and-gender
 keywords:
   - "tafsir"
-  - "gender"
+  - "gender equality"
   - "hermeneutics"
-  - "Fajar Bakti"
-  - "Oxford University Press 1999"
+  - "creation"
+  - "Islamic feminism"
 summary: "Based on her doctoral research, a gender-inclusive reading of Qur'anic passages on creation, the afterlife and women's roles, arguing that the text affirms the equal moral worth of women and men."
 rights: link-only
 rightsNote: "In copyright (living author)."

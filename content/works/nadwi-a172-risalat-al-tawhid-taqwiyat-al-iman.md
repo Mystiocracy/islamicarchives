@@ -4,6 +4,14 @@ titleOriginal: "رسالة التوحيد (تقوية الإيمان)"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Taqwiyat al-Iman"
+  - "tawhid"
+  - "shirk"
+  - "Shah Ismail Shahid"
+  - "bid'a"
 summary: "Treatise on Monotheism. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

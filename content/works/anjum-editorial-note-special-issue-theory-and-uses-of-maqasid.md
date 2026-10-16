@@ -7,9 +7,9 @@ type: "Essay"
 subjects:
   - islamic-law
 keywords:
-  - "maqasid al-shari'a"
-  - "Kamali"
-  - "editorial"
+  - "maqasid al-sharia"
+  - "Mohammad Hashim Kamali"
+  - "AJIS symposium"
 venue: "American Journal of Islam and Society 38, no. 3-4: 2-5"
 summary: "Introduces a special issue arising from a 2021 AJIS symposium on maqasid al-shari'a, headed by Mohammad Hashim Kamali's keynote."
 rights: link-only

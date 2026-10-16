@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "Western Muslims"
   - "integration"
-  - "identity"
-  - "Europe"
+  - "isolation"
+  - "youth"
 summary: "Ramadan argues that many Western Muslim communities have retreated into self-contained circles, which fails younger generations, and he urges real engagement with wider society alongside Muslim-led alternatives."
 venue: "The Globalist, 29 July 2005"
 rights: link-only

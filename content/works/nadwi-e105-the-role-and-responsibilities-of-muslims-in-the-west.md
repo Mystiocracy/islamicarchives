@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Abdur Raheem Kidwai"
+  - "Muslims in the West"
+  - "Muslim minorities"
+  - "da'wa"
+  - "Britain"
 summary: "The Role and Responsibilities of Muslims in the West. Translated by Abdur Raheem Kidwai from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

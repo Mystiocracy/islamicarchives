@@ -8,6 +8,8 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Islam: Mukammal Din, Mustaqil Tahzib"
+  - "Islamic civilisation"
+  - "Westernisation"
 summary: "Islam: a complete religion, an independent civilisation. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

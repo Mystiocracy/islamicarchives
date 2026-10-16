@@ -5,8 +5,12 @@ language: English
 type: "Collection"
 subjects:
   - hadith-studies
+  - philosophy-and-theology
 keywords:
+  - "Where is Allaah"
+  - "This is our call"
   - "English translations"
+  - "Salafism"
 summary: "A 20 MB archive of English translations of his books and articles, listing \"Where is Allaah\", \"This is our call\" and \"The Life of Shaikh al-Albaani in his own words\". Uploaded by a private contributor; contents are not checked."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

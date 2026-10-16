@@ -6,6 +6,9 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Indian Muslims"
+  - "Muslim India"
 summary: "Historical role of Indian Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

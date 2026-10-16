@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - sufism
+keywords:
+  - "tazkiya"
+  - "ihsan"
+  - "suluk"
+  - "Rabbaniyya la Rahbaniyya"
 summary: "Purification and ihsan, or Sufism. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

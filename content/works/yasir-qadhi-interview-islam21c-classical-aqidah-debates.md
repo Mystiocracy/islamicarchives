@@ -7,7 +7,11 @@ type: "Interview"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "interview"
+  - "aqida"
+  - "creed debates"
+  - "Islam21c"
+  - "Ash'arism"
+  - "Athari"
 summary: "An Islam21c interview on creed debates."
 venue: "Islam21c"
 rights: link-only

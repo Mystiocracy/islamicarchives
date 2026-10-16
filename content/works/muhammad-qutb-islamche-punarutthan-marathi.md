@@ -6,8 +6,13 @@ language: "Marathi"
 type: "Translation"
 subjects:
   - islam-and-modernity
+  - philosophy-and-theology
 keywords:
+  - "Shubuhat hawla al-Islam"
   - "misconceptions"
+  - "capitalism"
+  - "class"
+  - "sexual ethics"
 summary: "Marathi translation covering the chapters of Shubuhat hawla al-Islam (capitalism, class, women, sexual ethics)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

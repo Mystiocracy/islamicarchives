@@ -5,10 +5,14 @@ byline: "Abdul Rahman Latif"
 year: 2018
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - political-thought
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "refugees"
+  - "asylum"
+  - "Muslim history"
+  - "hospitality"
+  - "migration"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

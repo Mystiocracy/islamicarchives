@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+  - islam-and-modernity
+keywords:
+  - "ulama"
+  - "scholars"
+  - "changing conditions"
+  - "religious leadership"
 summary: "The Responsibility of Scholars in Changing Conditions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

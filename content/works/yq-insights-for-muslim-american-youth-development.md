@@ -7,10 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - education
-  - family-and-society
+  - slavery-and-race
 keywords:
-  - "Education"
-  - "Family & Community"
+  - "Muslim youth"
+  - "Black American Muslims"
+  - "youth development"
+  - "culturally-centered approaches"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

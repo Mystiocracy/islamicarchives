@@ -6,7 +6,13 @@ year: 2019
 language: "Urdu"
 type: "Book"
 subjects:
+  - education
   - islam-and-modernity
+keywords:
+  - "ulama"
+  - "scholars"
+  - "religious authority"
+  - "Muslim society"
 summary: "On the role and standing of scholars in Muslim society."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

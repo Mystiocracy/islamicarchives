@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunnah"
+  - "role of hadith"
+  - "authority of hadith"
+  - "Islamic temperament"
 summary: "The basic role of Hadith in shaping Islamic temperament"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -9,7 +9,7 @@ subjects:
   - philosophy-and-theology
   - islam-and-modernity
 keywords:
-  - "critique of Islamic reason"
+  - "Pour une critique de la raison islamique"
   - "naqd al-'aql al-Islami"
   - "epistemology"
   - "orthodoxy"

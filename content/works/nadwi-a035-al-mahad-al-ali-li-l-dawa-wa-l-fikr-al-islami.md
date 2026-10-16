@@ -4,6 +4,13 @@ titleOriginal: "المعهد العالي للدعوة والفكر الإسلا
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Higher Institute of Da'wa and Islamic Thought"
+  - "da'wa"
+  - "Nadwat al-Ulama"
+  - "Lucknow"
 summary: "The Higher Institute of Daʿwa and Islamic Thought"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

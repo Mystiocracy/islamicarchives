@@ -5,12 +5,12 @@ year: 2014
 language: "English"
 type: "Video"
 subjects:
-  - hadith-studies
+  - sufism
 keywords:
-  - "Ramadan"
   - "fasting"
   - "Prophet Muhammad"
-  - "daily series"
+  - "Sunna"
+  - "month of Ramadan"
 summary: "Thirty short daily talks for Ramadan 2014 exploring the Prophet's practice of fasting and what it teaches about discipline, spirituality and relations with others."
 venue: "Tariq Ramadan Official"
 rights: link-only

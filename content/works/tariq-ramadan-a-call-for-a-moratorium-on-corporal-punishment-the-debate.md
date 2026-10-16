@@ -10,7 +10,7 @@ keywords:
   - "hudud"
   - "corporal punishment"
   - "moratorium"
-  - "reform"
+  - "stoning"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: Vogt, Larsen, Moe (eds), New Directions in Islamic Thought, I.B. Tauris, 2009"
 rights: link-only

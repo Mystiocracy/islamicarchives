@@ -8,10 +8,10 @@ type: "Article"
 subjects:
   - islam-and-modernity
 keywords:
+  - "American Muslims"
+  - "indigenous culture"
   - "Cornell"
   - "Islam Awareness Week"
-  - "culture"
-  - "news report"
 summary: "A Cornell Chronicle report on his keynote at Cornell's Islam Awareness Week, on shaping a shared American Muslim cultural identity."
 venue: "Cornell Chronicle"
 rights: link-only

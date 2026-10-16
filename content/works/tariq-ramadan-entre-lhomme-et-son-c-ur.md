@@ -7,10 +7,10 @@ type: "Book"
 subjects:
   - sufism
 keywords:
-  - "Between Man and His Heart (English rendering of the title)"
-  - "spirituality"
+  - "Between Man and His Heart"
   - "the heart"
   - "self-purification"
+  - "spirituality"
 summary: "A book by Ramadan listed in library catalogues; its contents have not been checked."
 venue: "Tawhid (Lyon); reissued 2005"
 rights: link-only

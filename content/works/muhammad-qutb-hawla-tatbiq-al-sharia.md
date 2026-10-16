@@ -9,8 +9,9 @@ subjects:
   - islamic-law
   - political-thought
 keywords:
-  - "Shari'a"
-  - "application of law"
+  - "sharia"
+  - "application of sharia"
+  - "Islamic state"
 venue: "Maktabat al-Sunna, Cairo"
 summary: "Discusses the obligation and practical conditions of applying the Shari'a in Muslim societies."
 rights: link-only

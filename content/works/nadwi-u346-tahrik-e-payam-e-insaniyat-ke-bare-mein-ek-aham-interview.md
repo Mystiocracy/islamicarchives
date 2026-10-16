@@ -4,6 +4,14 @@ titleOriginal: "تحریک پیام انسانیت کے بارے میں ایک �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - family-and-society
+  - political-thought
+keywords:
+  - "Payam-e-Insaniyat"
+  - "humanity"
+  - "communal harmony"
+  - "India"
 summary: "An important interview on the Payam-e-Insaniyat movement"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

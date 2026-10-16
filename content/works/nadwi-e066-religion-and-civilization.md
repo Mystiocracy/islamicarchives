@@ -6,9 +6,13 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+  - philosophy-and-theology
 keywords:
-  - "Mazhab wa Tamaddun (Ur.)"
-  - "Mohiuddin Ahmad"
+  - "religion"
+  - "civilisation"
+  - "Mazhab wa Tamaddun"
+  - "culture"
+  - "prophethood"
 summary: "Religion and Civilization. Translated by Mohiuddin Ahmad from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

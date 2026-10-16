@@ -4,6 +4,15 @@ titleOriginal: "الاعلام بمن فی تاریخ الہند من الأعل
 author: nadwi
 language: "Urdu"
 type: "Article"
+subjects:
+  - education
+keywords:
+  - "al-I'lam bi-man fi Tarikh al-Hind min al-A'lam"
+  - "Nuzhat al-Khawatir"
+  - "Hakim Abdul Hai"
+  - "biographical dictionary"
+  - "India"
+  - "ulama of India"
 summary: "Introduction to his father's biographical dictionary al-I'lam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

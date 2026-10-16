@@ -6,10 +6,13 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - family-and-society
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "fatherhood"
+  - "gender differences"
+  - "masculinity"
+  - "fathers"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

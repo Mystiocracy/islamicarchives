@@ -5,9 +5,13 @@ year: 2020
 language: English
 type: "Essay"
 subjects:
-  - family-and-society
+  - islamic-law
+  - women-and-gender
 keywords:
-  - "The Islamic Perspectives and Rulings on Rape and Sexual Assault"
+  - "rape"
+  - "sexual assault"
+  - "hudud"
+  - "MuslimMatters"
 summary: "An essay by Yasir Qadhi on MuslimMatters."
 venue: "MuslimMatters"
 rights: link-only

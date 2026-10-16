@@ -4,8 +4,14 @@ author: yaqeen-institute
 year: 2022
 language: "English"
 type: "Article"
-subjects: []
-keywords: []
+subjects:
+  - quranic-studies
+  - education
+keywords:
+  - "tafsir books"
+  - "Ramadan"
+  - "Qur'an translations"
+  - "reading list"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

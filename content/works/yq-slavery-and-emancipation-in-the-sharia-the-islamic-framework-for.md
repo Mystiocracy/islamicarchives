@@ -5,15 +5,13 @@ year: 2024
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
+  - slavery-and-race
   - islamic-law
-  - political-thought
 keywords:
-  - "History"
-  - "Islamic Civilization"
-  - "Islamic Ethics"
-  - "Jurisprudence (fiqh)"
-  - "Politics & Practical Theology"
+  - "slavery"
+  - "emancipation"
+  - "manumission"
+  - "ethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

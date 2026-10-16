@@ -6,11 +6,14 @@ year: 2000
 language: "Arabic"
 type: "Book"
 subjects:
-  - political-thought
   - education
+  - political-thought
 keywords:
   - "da'wa"
-  - "method"
+  - "method of da'wa"
+  - "calling to Islam"
+  - "creed"
+  - "tarbiya"
 venue: "Dār al-Shurūq"
 summary: "On the method and priorities of calling people to Islam, stressing creed and education before confrontation."
 rights: link-only

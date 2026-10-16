@@ -6,11 +6,11 @@ language: "English"
 type: "Article"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
   - "secularism"
   - "desire"
   - "beauty"
+  - "hashiya"
   - "ethics"
 venue: "Hashiya: Scholarship on the Edge (Yaqeen Institute), issue 1"
 summary: "An essay-length reflection on how secular culture shapes and exploits desire, written in the form of a hashiya (gloss)."

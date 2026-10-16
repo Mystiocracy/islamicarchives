@@ -5,9 +5,13 @@ year: 2019
 language: English
 type: "Book"
 subjects:
-  - education
+  - family-and-society
+  - islamic-law
 keywords:
-  - "Like a Garment"
+  - "marriage"
+  - "intimacy"
+  - "sexuality"
+  - "spouses"
 summary: "On marriage and intimacy in Islam."
 venue: "Independent"
 rights: link-only

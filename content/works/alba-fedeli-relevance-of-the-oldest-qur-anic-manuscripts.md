@@ -4,9 +4,14 @@ author: alba-fedeli
 year: 2009
 language: English
 type: "Article"
-venue: "Manuscripta Orientalia 15(1)"
 subjects:
   - quranic-studies
+keywords:
+  - "Sura Ta-Ha"
+  - "variant readings"
+  - "tafsir"
+  - "Qur'an manuscripts"
+venue: "Manuscripta Orientalia 15(1)"
 summary: "Compares readings in early manuscripts with those quoted in commentaries."
 rights: link-only
 added: 2026-10-15

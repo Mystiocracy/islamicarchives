@@ -6,10 +6,13 @@ year: 2021
 language: "English"
 type: "Paper"
 subjects:
+  - women-and-gender
   - islamic-law
 keywords:
-  - "Acts of Worship"
-  - "Sharia"
+  - "hijab"
+  - "modesty"
+  - "servitude"
+  - "ubudiyya"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

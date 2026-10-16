@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1967
 language: English
 type: "Book"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "revival movements"
+  - "complete way of life"
+venue: "Mohammad Yusuf Khan"
 summary: "Thirty-five essays on Islamic revival movements and on Islam as a complete way of life."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

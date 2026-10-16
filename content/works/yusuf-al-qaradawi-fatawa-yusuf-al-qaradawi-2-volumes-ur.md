@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "Fatawa Mu'asira"
+  - "contemporary issues"
 summary: "Urdu rendering of Qaradawi's collected fatwas, uploaded as two PDF volumes."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

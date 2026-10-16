@@ -7,6 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - sufism
+  - philosophy-and-theology
+keywords:
+  - "ilham"
+  - "kashf"
+  - "dreams"
+  - "amulets"
+  - "divination"
+  - "ruqya"
 summary: "Treats the status of inspiration, unveiling, dreams, amulets and divination in Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

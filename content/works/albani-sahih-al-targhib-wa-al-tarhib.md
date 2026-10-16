@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ṣaḥīḥ al-Targhīb wa-l-tarhīb"
-  - "Albani"
+  - "al-Targhib wa-l-tarhib"
+  - "al-Mundhiri"
+  - "sahih"
+  - "hadith grading"
 summary: "His sound grading of al-Mundhirī's collection (weak list: https://shamela.ws/book/179)."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

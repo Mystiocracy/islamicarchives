@@ -8,8 +8,10 @@ subjects:
   - hadith-studies
   - islamic-law
 keywords:
-  - "Ghāyat al-marām fī takhrīj aḥādīth al-ḥalāl wa-l-ḥarām"
-  - "Albani"
+  - "takhrij"
+  - "Yusuf al-Qaradawi"
+  - "al-Halal wa-l-haram"
+  - "halal and haram"
 summary: "His hadith-source analysis of al-Qaraḍāwī's *al-Ḥalāl wa-l-ḥarām*."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

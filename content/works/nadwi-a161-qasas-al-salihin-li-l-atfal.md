@@ -5,7 +5,13 @@ author: nadwi
 language: "Arabic"
 type: "Book"
 subjects:
-  - women-and-gender
+  - education
+  - sufism
+keywords:
+  - "children"
+  - "Arabic reader"
+  - "righteous"
+  - "salihin"
 summary: "Stories of the Righteous for Children"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

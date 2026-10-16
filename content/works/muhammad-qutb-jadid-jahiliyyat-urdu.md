@@ -7,7 +7,10 @@ type: "Translation"
 subjects:
   - islam-and-modernity
 keywords:
+  - "Jahiliyyat al-qarn al-'ishrin"
   - "jahiliyya"
+  - "modern civilisation"
+  - "critique of the West"
 summary: "Urdu translation of Jahiliyyat al-qarn al-'ishrin."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

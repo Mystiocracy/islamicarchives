@@ -5,9 +5,12 @@ year: 2012
 language: English
 type: "Video"
 subjects:
-  - education
+  - sufism
 keywords:
+  - "hard heart"
   - "khutbah"
+  - "diseases of the heart"
+  - "purification of the soul"
 summary: "A Friday sermon on the hardening of the heart."
 venue: "Yasir Qadhi"
 rights: link-only

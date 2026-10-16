@@ -6,10 +6,13 @@ language: "English"
 type: "Paper"
 subjects:
   - philosophy-and-theology
-  - political-thought
+  - sufism
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "al-Ghazali"
+  - "Golden Rule"
+  - "reciprocity"
+  - "Islamic ethics"
+  - "Ihya Ulum al-Din"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

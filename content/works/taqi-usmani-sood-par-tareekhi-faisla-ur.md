@@ -8,6 +8,12 @@ type: "Book"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "riba"
+  - "interest"
+  - "Shariat Appellate Bench"
+  - "Supreme Court of Pakistan"
+  - "The Historic Judgment on Interest"
 summary: "Urdu text of the Shariat Appellate Bench judgment declaring riba/interest un-Islamic, which he authored."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

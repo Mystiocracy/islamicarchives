@@ -10,8 +10,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Hiwarat min ajl al-mustaqbal"
-  - "interviews"
-  - "Islamic thought"
+  - "turath"
+  - "Islamic awakening"
+  - "modernity"
 summary: "Interviews in which he explains his intellectual project and his views on heritage, modernity and the Islamic awakening."
 rights: link-only
 rightsNote: "In copyright (living author)."

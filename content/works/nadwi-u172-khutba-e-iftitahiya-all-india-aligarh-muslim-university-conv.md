@@ -8,6 +8,11 @@ type: "Pamphlet"
 subjects:
   - education
   - political-thought
+keywords:
+  - "Aligarh Muslim University"
+  - "AMU"
+  - "minority character"
+  - "Delhi"
 summary: "Inaugural address, AMU convention (10-11 March 1973)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

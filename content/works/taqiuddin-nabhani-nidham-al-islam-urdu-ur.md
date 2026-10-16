@@ -7,6 +7,13 @@ language: "Urdu"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - political-thought
+keywords:
+  - "The System of Islam"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "rational belief"
+  - "ideology"
 summary: "Urdu edition of The System of Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

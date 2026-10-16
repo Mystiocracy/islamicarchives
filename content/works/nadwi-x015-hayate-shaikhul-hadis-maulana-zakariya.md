@@ -6,8 +6,12 @@ language: "Bengali"
 type: "Book"
 subjects:
   - hadith-studies
+  - sufism
 keywords:
-  - "Hazrat Shaykh al-Hadith Maulana Muhammad Zakariyya"
+  - "Muhammad Zakariyya Kandhlawi"
+  - "Shaykh al-Hadith"
+  - "Saharanpur"
+  - "Mazahir Ulum"
 summary: "Life of Shaykh al-Hadith Maulana Zakariyya. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

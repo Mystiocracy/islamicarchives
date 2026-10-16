@@ -12,6 +12,7 @@ keywords:
   - "Ideolozhi-ye sheytani"
   - "critique of Marxism"
   - "dogmatism"
+  - "materialism"
 summary: "An early polemic against Marxist and materialist ideology, written in the first years after the revolution."
 rights: link-only
 rightsNote: "In copyright (living author)."

@@ -5,9 +5,13 @@ titleOriginal: "ಇಸ್ಲಾಮ್ ಸಂಶಯಗಳ ಸುಳಿಯಲ್�
 language: "Kannada"
 type: "Translation"
 subjects:
+  - philosophy-and-theology
   - islam-and-modernity
 keywords:
+  - "Shubuhat hawla al-Islam"
+  - "Islam: The Misunderstood Religion"
   - "misconceptions"
+  - "apologetics"
 summary: "Kannada translation of Islam: The Misunderstood Religion."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

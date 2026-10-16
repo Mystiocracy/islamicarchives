@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Awlawiyyat al-Haraka al-Islamiyya"
+  - "Islamic movement"
+  - "priorities"
+  - "Muslim Brotherhood"
 summary: "Priorities for the Islamic movement in its next phase."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

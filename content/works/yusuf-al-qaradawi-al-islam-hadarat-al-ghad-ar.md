@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic civilisation"
+  - "Islam the Civilisation of Tomorrow"
+  - "Western civilisation"
+  - "future"
 summary: "Argues that Islam is the civilisation of the future."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

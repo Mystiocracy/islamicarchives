@@ -8,10 +8,10 @@ subjects:
   - islam-and-modernity
   - islamic-law
 keywords:
-  - "posthumous"
-  - "Ebrahim Moosa (editor)"
+  - "revivalism"
   - "pre-modern reform"
   - "fundamentalism"
+  - "tajdid"
 summary: "An unfinished study, edited after his death by Ebrahim Moosa, of revivalist and reform movements in pre-modern Islam and their bearing on modern fundamentalism."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

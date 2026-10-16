@@ -7,8 +7,10 @@ type: "Video"
 subjects:
   - education
 keywords:
-  - "audio"
+  - "da'wa"
   - "literature"
+  - "Islamic literature"
+  - "adab"
 venue: "Internet Archive"
 summary: "Audio lecture (56 min) on literature in the service of da'wa."
 rights: link-only

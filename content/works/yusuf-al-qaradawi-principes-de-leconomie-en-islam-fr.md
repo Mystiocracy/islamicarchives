@@ -6,6 +6,10 @@ language: "French"
 type: "Book"
 subjects:
   - economics
+keywords:
+  - "Islamic economics"
+  - "Dawr al-Qiyam wa-l-Akhlaq fi l-Iqtisad al-Islami"
+  - "economic ethics"
 summary: "Principles of economic life in Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

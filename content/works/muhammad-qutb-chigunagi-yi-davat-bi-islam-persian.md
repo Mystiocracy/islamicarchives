@@ -7,9 +7,10 @@ language: "Persian"
 type: "Translation"
 subjects:
   - education
-  - political-thought
 keywords:
   - "da'wa"
+  - "Kayfa nad'u al-nas"
+  - "calling to Islam"
 venue: "Ārās, Sanandaj"
 summary: "Persian translation of Kayfa nad'u al-nas."
 rights: link-only

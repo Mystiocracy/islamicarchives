@@ -5,13 +5,13 @@ titleOriginal: "بين الرشاد والتيه"
 language: "Arabic"
 type: "Collection"
 subjects:
-  - islam-and-modernity
   - political-thought
+  - islam-and-modernity
 keywords:
   - "Bayn al-rashad wa-l-tih"
-  - "articles"
   - "Algeria"
   - "Muslim world"
+  - "civilisation"
 summary: "A collection of his late articles on the political and intellectual situation of Algeria and the wider Muslim world."
 rights: link-only
 rightsNote: "In copyright (author d. 1973)."

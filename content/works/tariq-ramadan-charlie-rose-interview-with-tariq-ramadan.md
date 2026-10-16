@@ -8,10 +8,12 @@ type: "Interview"
 subjects:
   - political-thought
 keywords:
+  - "Charlie Rose"
   - "Egypt"
   - "Arab uprisings"
   - "Muslim Brotherhood"
-  - "television"
+  - "Mohamed Morsi"
+  - "democracy"
 summary: "Twenty-seven-minute television conversation on Egypt and the Arab uprisings, with Ramadan assessing the Muslim Brotherhood government, military power and the prospects for democracy."
 venue: "Charlie Rose (PBS/Bloomberg)"
 rights: link-only

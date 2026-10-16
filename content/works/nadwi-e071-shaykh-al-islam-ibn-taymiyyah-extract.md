@@ -3,9 +3,14 @@ title: "Shaykh al-Islam Ibn Taymiyyah (extract)"
 author: nadwi
 language: "English"
 type: "Article"
+subjects:
+  - philosophy-and-theology
+  - education
 keywords:
-  - "Tarikh-e-Da'wat-o-'Azimat, vol. 2 (extract)"
-  - "Suhail Akhubat"
+  - "Ibn Taymiyya"
+  - "Tarikh-e-Da'wat-o-'Azimat"
+  - "Islamic reformers"
+  - "tajdid"
 summary: "Shaykh al-Islam Ibn Taymiyyah (extract). Translated by Suhail Akhubat from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

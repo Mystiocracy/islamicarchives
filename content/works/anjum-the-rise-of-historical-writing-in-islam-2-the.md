@@ -7,9 +7,11 @@ type: "Essay"
 subjects:
   - hadith-studies
 keywords:
-  - "sira"
+  - "Urwa ibn al-Zubayr"
   - "maghazi"
+  - "sira"
   - "historiography"
+  - "Medina"
 venue: "AlJumuah Magazine"
 summary: "Credits 'Urwah ibn al-Zubayr with founding careful maghazi scholarship in Medina."
 rights: link-only

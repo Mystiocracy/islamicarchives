@@ -7,11 +7,13 @@ language: "English"
 type: "Essay"
 subjects:
   - science-and-religion
-  - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
-  - "Environment"
-  - "Islamic Ethics"
-  - "Nature & Science"
+  - "climate change"
+  - "eco-anxiety"
+  - "environment"
+  - "stewardship"
+  - "khilafa"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

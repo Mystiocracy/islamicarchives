@@ -4,9 +4,11 @@ author: albani
 language: Arabic
 type: "Video"
 subjects:
-  - hadith-studies
+  - islamic-law
 keywords:
-  - "recording"
+  - "fatwa"
+  - "Amman"
+  - "questions and answers"
 summary: "The recorded question-and-answer sessions held in Amman, as an Arabic audio series."
 venue: "archive.org"
 rights: link-only

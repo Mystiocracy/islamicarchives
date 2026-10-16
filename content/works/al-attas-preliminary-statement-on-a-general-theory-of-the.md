@@ -5,13 +5,13 @@ year: 1969
 language: "English"
 type: "Essay"
 subjects:
-  - islam-and-modernity
+  - philosophy-and-theology
   - sufism
 keywords:
   - "Islamization"
   - "Malay-Indonesian Archipelago"
   - "Malay history"
-  - "Dewan Bahasa dan Pustaka"
+  - "Hindu-Buddhist worldview"
 summary: "Proposes that the coming of Islam marked a decisive intellectual and spiritual transformation of the Malay world, displacing earlier Hindu-Buddhist worldviews with a rational and metaphysical one."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

@@ -6,8 +6,12 @@ year: 1988
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
-  - education
+  - philosophy-and-theology
+keywords:
+  - "prophethood"
+  - "revelation"
+  - "guidance"
+  - "epistemology"
 summary: "Prophethood Is the Only Means to True Knowledge and Complete Guidance"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

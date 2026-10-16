@@ -4,8 +4,11 @@ titleOriginal: "नौजवानों के नाम"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - islam-and-modernity
 keywords:
-  - "probably Dard-e-Dil ka Paigham Naujawanon ke Naam"
+  - "Dard-e-Dil ka Paigham Naujawanon ke Naam"
+  - "youth"
 summary: "To the young people. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

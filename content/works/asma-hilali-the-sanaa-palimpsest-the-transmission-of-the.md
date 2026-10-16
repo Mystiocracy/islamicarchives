@@ -4,9 +4,14 @@ author: asma-hilali
 year: 2017
 language: English
 type: "Book"
-venue: "Oxford University Press with the Institute of Ismaili Studies, Oxford/London (Qur'anic Studies Series)"
 subjects:
   - quranic-studies
+keywords:
+  - "Sanaa palimpsest"
+  - "Qur'an manuscripts"
+  - "transmission of the Qur'an"
+  - "codicology"
+venue: "Oxford University Press with the Institute of Ismaili Studies, Oxford/London (Qur'anic Studies Series)"
 summary: "Studies the physical and textual features of the Ṣanʿāʾ palimpsest and what they show about how the Qur'an was transmitted in its first centuries."
 rights: link-only
 infoUrl: "https://iis.ac.uk/publications-listing/2017/the-sanaa-palimpsest"

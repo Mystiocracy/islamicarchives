@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Muslim Brotherhood"
+  - "Ikhwan"
+  - "Hasan al-Banna"
+  - "dawa"
+  - "Egypt"
 summary: "Seventy years of the Brotherhood."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

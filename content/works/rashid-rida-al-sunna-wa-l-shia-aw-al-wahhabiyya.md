@@ -9,10 +9,10 @@ subjects:
   - philosophy-and-theology
   - political-thought
 keywords:
-  - "al-Sunna wa-l-Shia"
   - "Wahhabism"
-  - "Shiism"
+  - "Shi'ism"
   - "sectarian polemic"
+  - "Saudi Arabia"
 summary: "A polemical work defending the Wahhābīs and criticising Shiʿi doctrines, written in response to Shiʿi critics of the Saudi state."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

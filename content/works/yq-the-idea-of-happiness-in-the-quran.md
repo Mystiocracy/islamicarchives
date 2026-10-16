@@ -6,11 +6,12 @@ year: 2019
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
-  - political-thought
+  - quranic-studies
+  - psychology-and-mental-health
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "happiness"
+  - "sa'ada"
+  - "Qur'anic concepts"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

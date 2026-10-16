@@ -5,10 +5,11 @@ year: 2024
 language: "English"
 type: "Chapter"
 subjects:
-  - philosophy-and-theology
   - islamic-law
+  - sufism
 keywords:
   - "Ibn Muflih"
+  - "al-Adab al-shar'iyya"
   - "Hanbali"
   - "adab"
   - "ethics"

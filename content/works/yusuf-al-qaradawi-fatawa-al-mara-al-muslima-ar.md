@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Collection"
 subjects:
   - women-and-gender
+  - islamic-law
+keywords:
+  - "fatwa"
+  - "women's issues"
+  - "Muslim women"
 summary: "Selected fatwas answering questions about Muslim women."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

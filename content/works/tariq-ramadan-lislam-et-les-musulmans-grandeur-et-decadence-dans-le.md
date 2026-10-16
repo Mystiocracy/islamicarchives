@@ -7,7 +7,7 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Islam and Muslims: Greatness and Decline (English rendering of the title)"
+  - "Islam and Muslims: Greatness and Decline"
   - "decline"
   - "renewal"
   - "everyday ethics"

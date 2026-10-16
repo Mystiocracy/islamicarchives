@@ -13,7 +13,7 @@ keywords:
   - "modernity"
   - "Kali Yuga"
   - "individualism"
-  - "Azmat al-ʿalam al-hadith"
+  - "Traditionalism"
 summary: "Guénon's best-known critique of modern Western civilisation, which he describes as a deviation marked by the primacy of action over contemplation, individualism and the loss of traditional knowledge."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1951); later translations may still be in copyright."

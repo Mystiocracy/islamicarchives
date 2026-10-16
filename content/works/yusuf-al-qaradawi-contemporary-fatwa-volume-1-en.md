@@ -7,6 +7,10 @@ language: "English"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "fatwa"
+  - "Fatawa Mu'asira"
+  - "contemporary issues"
 summary: "Answers to current questions in Islamic jurisprudence on worship, society and daily life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

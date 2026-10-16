@@ -6,11 +6,12 @@ language: "English"
 type: "Essay"
 subjects:
   - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
   - "soul"
   - "nafs"
-  - "psychology"
-  - "ISTAC"
+  - "faculties of the soul"
+  - "Islamic psychology"
 summary: "Expounds the classical Islamic understanding of the human self, its faculties and its relation to knowledge, drawing on philosophers and Sufis."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

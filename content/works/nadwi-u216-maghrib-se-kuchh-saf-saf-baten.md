@@ -7,6 +7,10 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "the West"
+  - "Western civilisation"
+  - "Islam and the West"
 summary: "Some plain talk to the West"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -6,11 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - sufism
-  - philosophy-and-theology
 keywords:
   - "Ibn al-Qayyim"
   - "Madarij al-Salikin"
   - "stations of the path"
+  - "maqamat"
+  - "Manazil al-Sa'irin"
 venue: "Brill (Islamic Translation Series)"
 summary: "Second volume of Anjum's annotated parallel-text translation of Madarij al-Salikin, covering further 'stations' of the spiritual path."
 rights: link-only

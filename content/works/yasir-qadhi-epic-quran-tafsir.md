@@ -7,6 +7,9 @@ subjects:
   - quranic-studies
 keywords:
   - "tafsir"
+  - "Sajjad Gul"
+  - "East Plano Islamic Center"
+  - "EPIC"
 summary: "A tafsir series from the East Plano Islamic Center."
 venue: "EPIC Masjid"
 rights: link-only

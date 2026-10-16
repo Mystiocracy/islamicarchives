@@ -7,10 +7,11 @@ type: "Speech"
 subjects:
   - islam-and-modernity
 keywords:
-  - "cartoons"
+  - "Danish cartoons"
   - "freedom of expression"
   - "PEN"
   - "European Muslims"
+  - "blasphemy"
 summary: "Speaking in a panel on the cartoon controversy, Ramadan says it hardened divisions over values, notes mockery of religion has Western roots, and urges European Muslims to keep a critical distance."
 venue: "openDemocracy (PEN event transcript), 25 May 2006"
 rights: link-only

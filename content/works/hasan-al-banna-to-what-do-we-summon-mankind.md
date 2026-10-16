@@ -8,9 +8,10 @@ type: "Pamphlet"
 subjects:
   - political-thought
 keywords:
-  - "Ila ayy shay nadu al-nas"
-  - "dawa"
+  - "Ila ayy shay' nad'u al-nas"
+  - "da'wa"
   - "Muslim Brotherhood"
+  - "Qur'an as comprehensive guide"
 summary: "A tract explaining the aims of the Brotherhood's call, presenting the Qurʾān as a comprehensive guide for private and public life."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

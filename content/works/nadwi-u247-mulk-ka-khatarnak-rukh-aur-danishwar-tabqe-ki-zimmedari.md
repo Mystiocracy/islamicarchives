@@ -5,6 +5,12 @@ author: nadwi
 year: 1983
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "India"
+  - "intellectuals"
+  - "communalism"
 summary: "The country's dangerous turn and the duty of intellectuals"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

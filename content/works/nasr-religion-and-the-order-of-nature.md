@@ -5,12 +5,13 @@ year: 1996
 language: "English"
 type: "Book"
 subjects:
+  - science-and-religion
   - philosophy-and-theology
 keywords:
   - "Cadbury Lectures"
-  - "Birmingham"
   - "ecology"
   - "cosmology"
+  - "order of nature"
 summary: "The 1994 Cadbury Lectures, tracing how religions have understood the natural order and how modern science displaced that understanding."
 rights: link-only
 rightsNote: "In copyright (living author)."

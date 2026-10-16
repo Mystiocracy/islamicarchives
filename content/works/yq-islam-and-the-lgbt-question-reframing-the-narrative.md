@@ -6,10 +6,12 @@ language: "English"
 type: "Paper"
 subjects:
   - islam-and-modernity
-  - political-thought
+  - family-and-society
 keywords:
-  - "Contemporary Ideologies"
-  - "Politics & Practical Theology"
+  - "LGBT"
+  - "homosexuality"
+  - "sexual ethics"
+  - "liberalism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

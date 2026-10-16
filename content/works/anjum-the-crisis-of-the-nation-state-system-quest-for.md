@@ -10,6 +10,8 @@ subjects:
 keywords:
   - "nation-state"
   - "nationalism"
+  - "umma"
+  - "world order"
 venue: "Institute of Policy Studies, Islamabad (4 April 2024)"
 summary: "Lecture on the failures of the nation-state system and possible alternatives."
 rights: link-only

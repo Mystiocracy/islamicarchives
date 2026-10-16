@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Mutala'a-e-Qur'an ke Usul o Mabadi (Ur.)"
-  - "Qazi Abdul Hameed"
+  - "Qur'an study"
+  - "tafsir methodology"
+  - "Mutala'a-e-Qur'an ke Usul o Mabadi"
+  - "principles of tafsir"
 summary: "Studying the Glorious Qur'an: Principles and Methodology. Translated by Qazi Abdul Hameed from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

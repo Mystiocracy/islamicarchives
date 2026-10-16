@@ -4,6 +4,12 @@ titleOriginal: "دریائے کابل سے دریائے یرموک تک"
 author: nadwi
 language: "Urdu"
 type: "Book"
+keywords:
+  - "Darya-e-Kabul se Darya-e-Yarmuk tak"
+  - "Afghanistan"
+  - "Kabul"
+  - "Yarmuk"
+  - "Middle East"
 summary: "From the Kabul river to the Yarmuk (travelogue)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

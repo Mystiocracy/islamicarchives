@@ -6,6 +6,11 @@ type: "Pamphlet"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "debt"
+  - "loans"
+  - "creditors"
+  - "debtors"
 summary: "A short guide to the Sharia duties of those who borrow and those who lend."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

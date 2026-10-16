@@ -6,9 +6,9 @@ language: "Persian"
 type: "Book"
 subjects:
   - political-thought
-  - philosophy-and-theology
 keywords:
   - "Hamase-ye Hoseyni"
+  - "Imam Husayn"
   - "Karbala"
   - "Ashura"
   - "martyrdom"

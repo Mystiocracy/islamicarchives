@@ -7,7 +7,11 @@ type: "Paper"
 subjects:
   - islamic-law
 keywords:
-  - "What Is a Madhhab? Exploring the Role of Islamic Schools of Law"
+  - "madhhab"
+  - "schools of law"
+  - "Sunni schools"
+  - "taqlid"
+  - "legal methodology"
 summary: "Argues that the four Sunni schools are interpretive methodologies rooted in scripture, not sects."
 venue: "Yaqeen Institute for Islamic Research"
 rights: link-only

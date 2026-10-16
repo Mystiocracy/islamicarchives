@@ -7,10 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - education
-  - philosophy-and-theology
 keywords:
-  - "textbook"
   - "Islamic culture"
+  - "textbook"
+  - "King Abdulaziz University"
+  - "Muhammad al-Mubarak"
 venue: "King Abdulaziz University, Jeddah"
 summary: "University textbook on Islamic culture written for King Abdulaziz University courses."
 rights: link-only

@@ -7,8 +7,11 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Mishkāt al-maṣābīḥ (edition with al-Albānī's verification)"
-  - "Albani"
+  - "al-Tabrizi"
+  - "Mishkat al-masabih"
+  - "tahqiq"
+  - "hadith grading"
+  - "al-Maktab al-Islami"
 summary: "The Islamic Office edition of al-Tabrīzī's hadith collection with his grading, listed by the King Faisal Prize."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

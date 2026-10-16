@@ -13,6 +13,7 @@ keywords:
   - "Goethe"
   - "West-östlicher Divan"
   - "Persian poetry"
+  - "Europe"
 summary: "A Persian collection written in response to Goethe's West-östlicher Divan, addressing the East's spiritual message to a war-torn Europe."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1938); later translations may still be in copyright."

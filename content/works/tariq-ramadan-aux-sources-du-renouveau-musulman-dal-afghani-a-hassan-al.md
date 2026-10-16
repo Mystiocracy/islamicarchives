@@ -6,13 +6,14 @@ language: "French"
 type: "Book"
 subjects:
   - islam-and-modernity
+  - colonialism-and-decolonisation
 keywords:
-  - "At the Sources of Muslim Renewal: From al-Afghani to Hassan al-Banna, a Century of Islamic Reformism (English rendering of the title)"
-  - "reformism"
+  - "Islamic reformism"
   - "al-Afghani"
+  - "Muhammad Abduh"
+  - "Rashid Rida"
   - "Hasan al-Banna"
   - "Salafiyya"
-  - "Muslim Brotherhood"
 summary: "A reading of Islamic reformism from Jamal al-Din al-Afghani through Muhammad Abduh and Rashid Rida to Hasan al-Banna, presenting the movement as a rational, spiritually grounded response to colonial pressure and stagnation. Based on his doctoral work on al-Banna."
 venue: "Bayard/Centurion (Paris); 2nd ed. Tawhid (Lyon) 2001"
 rights: link-only

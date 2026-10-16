@@ -7,6 +7,12 @@ language: "Bengali"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Jerusalem"
+  - "al-Quds"
+  - "Al-Quds Qadiyyat Kull Muslim"
+  - "al-Aqsa"
+  - "Palestine"
 summary: "On Jerusalem as an issue for all Muslims."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

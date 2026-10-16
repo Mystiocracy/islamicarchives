@@ -4,8 +4,13 @@ titleOriginal: "দারুল উলূম দেওবন্দ ইতিহ�
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
+subjects:
+  - education
 keywords:
-  - "Akabir-e-Deoband (per foundation slug)"
+  - "Darul Uloom Deoband"
+  - "Akabir-e-Deoband"
+  - "Deobandi"
+  - "madrasa"
 summary: "Darul Uloom Deoband: history and heritage. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

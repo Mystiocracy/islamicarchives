@@ -4,6 +4,14 @@ titleOriginal: "دار ارقم کا احسان انسانی دنیا پر"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dar al-Arqam"
+  - "Makkan period"
+  - "Companions"
+  - "sira"
+  - "early Muslims"
 summary: "The debt humanity owes to Dar al-Arqam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

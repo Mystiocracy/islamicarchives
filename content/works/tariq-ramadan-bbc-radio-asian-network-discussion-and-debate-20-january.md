@@ -5,11 +5,13 @@ year: 2015
 language: "English"
 type: "Interview"
 subjects:
+  - islam-and-modernity
   - political-thought
 keywords:
   - "BBC Asian Network"
-  - "radio"
   - "Paris attacks"
+  - "Charlie Hebdo"
+  - "2015"
 summary: "Forty-five-minute BBC Asian Network discussion held after the January 2015 Paris attacks, in which Ramadan responds to listeners and fellow guests."
 venue: "BBC Asian Network"
 rights: link-only

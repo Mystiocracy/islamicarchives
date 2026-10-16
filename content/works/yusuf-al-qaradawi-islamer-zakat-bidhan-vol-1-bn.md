@@ -7,6 +7,12 @@ language: "Bengali"
 type: "Book"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "zakat"
+  - "Fiqh al-Zakah"
+  - "nisab"
+  - "zakatable wealth"
 summary: "First volume of the comprehensive study of zakat law."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

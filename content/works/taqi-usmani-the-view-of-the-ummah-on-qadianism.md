@@ -5,6 +5,12 @@ language: "English"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "finality of prophethood"
+  - "khatm-e-nubuwwat"
+  - "Samiul Haq"
 summary: "English version of the case against Qadianism, co-authored with Samiul Haq."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

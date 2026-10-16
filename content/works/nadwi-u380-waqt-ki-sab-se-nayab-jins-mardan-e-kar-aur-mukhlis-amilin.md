@@ -4,6 +4,12 @@ titleOriginal: "وقت کی سب سے نایاب جنس مردانِ کار او
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "ikhlas"
+  - "dawah"
+  - "leadership"
 summary: "The rarest commodity of the age: sincere men of action"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

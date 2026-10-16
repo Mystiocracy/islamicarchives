@@ -8,10 +8,11 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "kufr"
+  - "takfir"
   - "disbelief"
-  - "Ashʿari theology"
+  - "Ash'ari theology"
+  - "salvation"
   - "non-Muslims"
-  - "Seasons journal 2008"
 summary: "Surveys classical definitions of kufr in the Qur'an, Sunnah and theological literature and argues for a careful, nuanced understanding of who is to be judged a disbeliever."
 rights: link-only
 rightsNote: "In copyright (living author)."

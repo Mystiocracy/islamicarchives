@@ -6,9 +6,15 @@ year: 1967
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
-  - quranic-studies
+  - islamic-law
   - philosophy-and-theology
+keywords:
+  - "The Four Pillars"
+  - "salat"
+  - "zakat"
+  - "sawm"
+  - "hajj"
+  - "comparative religion"
 summary: "The Four Pillars (Prayer, Zakat, Fasting, Hajj) in Light of Qur'an and Sunna, Compared with Other Religions"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

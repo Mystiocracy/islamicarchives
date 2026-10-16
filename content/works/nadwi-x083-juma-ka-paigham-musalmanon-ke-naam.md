@@ -4,6 +4,13 @@ titleOriginal: "जुमा का पैगाम मुसलमानों 
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - islamic-law
+  - family-and-society
+keywords:
+  - "Jumu'a"
+  - "Friday prayer"
+  - "ummah"
 summary: "Friday's message to Muslims. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -5,12 +5,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - islamic-law
-  - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "dua for the deceased"
+  - "grief"
+  - "death"
+  - "bereavement"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

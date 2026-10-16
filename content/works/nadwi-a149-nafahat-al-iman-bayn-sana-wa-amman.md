@@ -6,7 +6,14 @@ year: 1984
 language: "Arabic"
 type: "Speech"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "Jordan"
+  - "Yemen"
+  - "Amman"
+  - "Sanaa"
+  - "da'wa"
+  - "iman"
 summary: "Breaths of Faith between Sanaa and Amman"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

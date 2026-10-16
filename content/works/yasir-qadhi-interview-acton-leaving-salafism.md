@@ -6,8 +6,11 @@ language: English
 type: "Interview"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "interview"
+  - "Salafism"
+  - "sectarianism"
+  - "Acton Institute"
 summary: "An interview on his move away from Salafism."
 venue: "Acton Institute"
 rights: link-only

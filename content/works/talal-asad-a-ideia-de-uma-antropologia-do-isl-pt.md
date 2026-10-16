@@ -8,6 +8,11 @@ type: "Paper"
 subjects:
   - islam-and-modernity
   - philosophy-and-theology
+keywords:
+  - "The Idea of an Anthropology of Islam"
+  - "anthropology of Islam"
+  - "discursive tradition"
+  - "Portuguese translation"
 summary: "Portuguese translation of the 1986 essay, translated by Brasil Fernandes de Barros."
 venue: "Horizonte 21(64), September 2023"
 rights: link-only

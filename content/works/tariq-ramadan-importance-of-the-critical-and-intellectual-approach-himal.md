@@ -7,11 +7,12 @@ language: "English"
 type: "Interview"
 subjects:
   - islam-and-modernity
+  - political-thought
 keywords:
-  - "Himal"
-  - "critical thought"
+  - "Himal Southasian"
   - "war on terror"
-  - "Muslim voices"
+  - "critical thought"
+  - "St Antony's College"
 summary: "Interview with Ramadan, then a visiting fellow at St Antony's College, on being a prominent critic of the war on terror and a voice for critical Muslim thought in the West."
 venue: "Himal Southasian"
 rights: link-only

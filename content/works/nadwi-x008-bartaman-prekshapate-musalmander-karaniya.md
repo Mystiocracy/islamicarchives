@@ -4,8 +4,11 @@ titleOriginal: "বর্তমান প্রেক্ষাপটে মু�
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
 keywords:
-  - "Maujuda Muslim Nasl ko kya karna chahiye (per foundation slug)"
+  - "Maujuda Muslim Nasl ko kya karna chahiye"
+  - "ummah"
 summary: "What Muslims should do in the present context. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

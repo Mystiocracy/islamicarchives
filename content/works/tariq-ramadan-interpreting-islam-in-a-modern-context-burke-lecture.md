@@ -10,6 +10,7 @@ keywords:
   - "modernity"
   - "Burke Lecture"
   - "UCTV"
+  - "contemporary Islamic studies"
 summary: "Burke Lecture in which Ramadan discusses how Islam can be interpreted in the modern world, drawing on his work as Oxford professor of contemporary Islamic studies."
 venue: "University of California (UCTV Burke Lecture)"
 rights: link-only

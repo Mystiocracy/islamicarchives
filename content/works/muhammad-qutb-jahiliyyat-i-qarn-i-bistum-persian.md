@@ -9,7 +9,10 @@ subjects:
   - islam-and-modernity
   - political-thought
 keywords:
+  - "Jahiliyyat al-qarn al-'ishrin"
   - "jahiliyya"
+  - "modern civilisation"
+  - "critique of the West"
 venue: "Markaz-i Nashr-i Inqilāb, Tehran"
 summary: "Persian translation of Jahiliyyat al-qarn al-'ishrin."
 rights: link-only

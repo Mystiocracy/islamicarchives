@@ -9,7 +9,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Ibn Taymiyya"
-  - "book talk"
+  - "The Taymiyyan Moment"
+  - "reason"
+  - "community"
 venue: "Shaybani Foundation"
 summary: "Extended talk presenting the arguments of his 2012 book."
 rights: link-only

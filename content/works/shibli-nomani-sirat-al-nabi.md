@@ -7,12 +7,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - hadith-studies
-  - philosophy-and-theology
 keywords:
   - "sira"
   - "Prophet Muhammad"
-  - "Sulaiman Nadvi"
   - "Seerat-un-Nabi"
+  - "source criticism"
 summary: "A critical biography of the Prophet based on a careful assessment of sources; Shibli wrote the first two volumes, published posthumously, and Sulaiman Nadvi completed the series."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

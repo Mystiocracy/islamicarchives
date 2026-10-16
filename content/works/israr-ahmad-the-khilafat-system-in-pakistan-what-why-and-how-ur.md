@@ -7,7 +7,9 @@ type: "Book"
 subjects:
   - political-thought
 keywords:
+  - "Pakistan mein Nizam-e-Khilafat"
   - "khilafah"
+  - "caliphate"
   - "Pakistan"
   - "constitution"
 summary: "Makes his case for establishing a caliphate in Pakistan and outlines how it might be achieved."

@@ -5,12 +5,14 @@ year: 1999
 language: "English"
 type: "Book"
 subjects:
+  - sufism
   - islam-and-modernity
 keywords:
   - "Zaid Shakir"
   - "self-reform"
   - "Muslim community"
-  - "Sandala"
+  - "spiritual discipline"
+  - "tazkiya"
 summary: "A short guide, written with Zaid Shakir, on personal and communal renewal for Muslims, stressing spiritual discipline, learning and service."
 rights: link-only
 rightsNote: "In copyright (living author)."

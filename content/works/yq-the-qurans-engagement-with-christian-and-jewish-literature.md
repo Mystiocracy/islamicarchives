@@ -6,10 +6,14 @@ year: 2023
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Qur'an"
+  - "Bible"
+  - "Jewish scripture"
+  - "Christian apocrypha"
+  - "intertextuality"
+  - "Orientalism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -11,7 +11,8 @@ subjects:
 keywords:
   - "Tarikhiyyat al-fikr al-'arabi al-Islami"
   - "historicity"
-  - "tr. Hashim Salih"
+  - "tradition"
+  - "turath"
 summary: "An Arabic presentation, translated and arranged by Hāshim Ṣāliḥ, of his arguments for reading the Islamic tradition as a historically conditioned body of thought."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

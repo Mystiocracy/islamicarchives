@@ -4,6 +4,12 @@ titleOriginal: "یقین مرد مسلمان کا"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "yaqin"
+  - "iman"
+  - "Muhammad Iqbal"
 summary: "The certainty of the Muslim"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

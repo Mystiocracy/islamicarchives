@@ -8,8 +8,10 @@ type: "Review"
 subjects:
   - islamic-law
 keywords:
-  - "book review"
-  - "Mālik and Medina"
+  - "Malik and Medina"
+  - "Der Islam"
+  - "Maliki school"
+  - "amal"
 summary: "A review of *Mālik and Medina* by Oßwald in *Der Islam*."
 venue: "Der Islam"
 rights: link-only

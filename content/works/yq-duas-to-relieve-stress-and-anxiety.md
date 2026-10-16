@@ -5,12 +5,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - psychology-and-mental-health
 keywords:
-  - "Allah"
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "dua"
+  - "stress"
+  - "anxiety"
+  - "supplications"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

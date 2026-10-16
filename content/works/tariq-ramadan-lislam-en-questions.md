@@ -8,10 +8,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Islam in Questions (English rendering of the title)"
-  - "debate"
+  - "Islam in Questions"
+  - "Alain Gresh"
   - "Islam in France"
-  - "dialogue"
+  - "secularism"
+  - "reform"
 summary: "A collective debate edited by Alain Gresh in which Ramadan and other voices answer questions on Islam in France and the world: authority and reform, women, secularism, violence and the place of Muslims in European public life."
 venue: "Sindbad / Actes Sud (Arles); Babel pocket ed. 2002"
 rights: link-only

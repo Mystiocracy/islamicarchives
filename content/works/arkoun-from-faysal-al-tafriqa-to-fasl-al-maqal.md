@@ -12,7 +12,7 @@ keywords:
   - "Min Faysal al-tafriqa ila Fasl al-maqal"
   - "al-Ghazali"
   - "Ibn Rushd"
-  - "tr. Hashim Salih"
+  - "faith and reason"
 summary: "Uses al-Ghazālī's and Ibn Rushd's classic treatises on faith and reason as a frame for assessing the state of contemporary Islamic thought."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

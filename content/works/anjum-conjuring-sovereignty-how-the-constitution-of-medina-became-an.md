@@ -6,14 +6,14 @@ language: "English"
 type: "Article"
 subjects:
   - political-thought
-  - islamic-law
   - islam-and-modernity
 keywords:
+  - "Constitution of Medina"
   - "Sahifa of Medina"
-  - "constitution"
-  - "Hamidullah"
+  - "Muhammad Hamidullah"
   - "Salim El-Awa"
   - "nation-state"
+  - "sovereignty"
 venue: "Journal of Islamic Law (Harvard) 5"
 summary: "Traces how the Sahifa of Medina was recast in the twentieth century as a 'constitution' legitimising the territorial nation-state and authoritarian regimes."
 rights: link-only

@@ -5,8 +5,11 @@ titleOriginal: "Devoir de vérité"
 year: 2019
 language: "French"
 type: "Book"
-subjects:
-  - islam-and-modernity
+keywords:
+  - "Duty of Truth"
+  - "accusations"
+  - "detention"
+  - "trial"
 summary: "His French-language book setting out his own account of the accusations against him and his detention."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

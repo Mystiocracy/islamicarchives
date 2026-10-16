@@ -4,11 +4,10 @@ author: ovamir-anjum
 year: 2022
 language: "English"
 type: "Video"
-subjects:
-  - education
 keywords:
-  - "conviction"
   - "Islamic history"
+  - "conviction"
+  - "faith"
 venue: "Yaqeen Institute (My Moment of Conviction)"
 summary: "Anjum recounts how studying Islamic history strengthened his conviction."
 rights: link-only

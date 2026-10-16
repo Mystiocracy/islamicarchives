@@ -5,11 +5,12 @@ year: 2015
 language: "English"
 type: "Video"
 subjects:
+  - education
   - islam-and-modernity
 keywords:
   - "Islamic studies"
-  - "revolution"
-  - "education"
+  - "training of scholars"
+  - "intellectual revolution"
   - "CILE"
 summary: "Lecture calling for an intellectual and spiritual revolution in the field of Islamic studies and in the training of scholars and students."
 venue: "CILE Center"

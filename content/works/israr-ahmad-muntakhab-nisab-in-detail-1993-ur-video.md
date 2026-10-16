@@ -7,10 +7,11 @@ language: "Urdu"
 type: "Video"
 subjects:
   - quranic-studies
-  - education
 keywords:
   - "Muntakhab Nisab"
-  - "study circle"
+  - "selected syllabus"
+  - "Qur'an study circle"
+  - "dars-e-Quran"
 summary: "Detailed 1993 lecture course on his selected syllabus of Qur'anic passages, in about 186 sessions."
 rights: link-only
 rightsNote: "Recorded lectures; linked, not hosted."

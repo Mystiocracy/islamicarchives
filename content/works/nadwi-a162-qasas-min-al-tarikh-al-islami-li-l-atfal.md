@@ -6,7 +6,12 @@ year: 1992
 language: "Arabic"
 type: "Book"
 subjects:
-  - women-and-gender
+  - education
+keywords:
+  - "children"
+  - "Islamic history"
+  - "Arabic reader"
+  - "stories"
 summary: "Stories from Islamic History for Children"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

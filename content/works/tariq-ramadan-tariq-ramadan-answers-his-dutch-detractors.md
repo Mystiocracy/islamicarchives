@@ -11,6 +11,7 @@ keywords:
   - "dismissal"
   - "Press TV"
   - "Netherlands"
+  - "Rotterdam"
 summary: "An article by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "NRC Handelsblad, 19 August 2009"
 rights: link-only

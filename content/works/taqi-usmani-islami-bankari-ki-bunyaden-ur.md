@@ -7,6 +7,12 @@ type: "Book"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "Islamic banking"
+  - "riba"
+  - "murabaha"
+  - "ijara"
+  - "musharaka"
 summary: "Explains the Sharia principles of Islamic banking: riba, murabaha, ijara, musharaka and related contracts."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

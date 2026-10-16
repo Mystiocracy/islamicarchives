@@ -7,9 +7,10 @@ type: "Essay"
 subjects:
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Qur'an"
+  - "Koran"
   - "interpretation"
-  - "reading"
+  - "New York Times"
 summary: "An essay by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "The New York Times Book Review, 6 January 2008"
 rights: link-only

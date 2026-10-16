@@ -6,6 +6,8 @@ language: "Bengali"
 type: "Pamphlet"
 keywords:
   - "Nayi Duniya ka Yaum-e-Aghaz"
+  - "Prophet Muhammad"
+  - "mawlid"
 summary: "The birthday of a new world. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

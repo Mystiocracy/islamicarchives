@@ -8,8 +8,10 @@ subjects:
   - political-thought
 keywords:
   - "Afghanistan"
-  - "jihad"
+  - "Afghan jihad"
   - "Soviet Union"
+  - "Soviet invasion"
+  - "jihad"
 venue: "Dār al-Shurūq (2nd ed.)"
 summary: "Reflections on the significance of the Afghan resistance to the Soviet occupation for Muslims."
 rights: link-only

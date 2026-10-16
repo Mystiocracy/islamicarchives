@@ -10,11 +10,11 @@ subjects:
   - economics
   - political-thought
 keywords:
-  - "Manahij al-albab"
   - "public utility"
   - "patriotism"
-  - "waṭan"
-  - "civilisation (tamaddun)"
+  - "watan"
+  - "tamaddun"
+  - "Egypt"
 summary: "A treatise on the sources of national prosperity, combining Islamic ethics and law with ideas about economic development, public works and love of the homeland."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1873); later translations may still be in copyright."

@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
+  - science-and-religion
+keywords:
+  - "science education"
+  - "technical education"
+  - "industrial studies"
 summary: "Educational value of industrial and scientific studies"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

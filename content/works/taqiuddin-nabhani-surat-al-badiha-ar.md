@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Presence of Mind"
+  - "quick-wittedness"
+  - "thinking"
+  - "debate"
+  - "Hizb ut-Tahrir"
 summary: "A short work on quick intellectual response when dealing with other people’s ideas."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

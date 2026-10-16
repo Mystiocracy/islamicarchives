@@ -10,8 +10,9 @@ subjects:
 keywords:
   - "hadith criticism"
   - "isnad"
-  - "Oneworld"
-  - "2nd edition 2017"
+  - "hadith authenticity"
+  - "Orientalism"
+  - "Shi'i hadith"
 summary: "An introduction to the transmission, criticism and use of hadith in Sunni and Shi'i traditions, and to modern Muslim and Western debates over their authenticity; an expanded edition appeared in 2017."
 rights: link-only
 rightsNote: "In copyright (living author)."

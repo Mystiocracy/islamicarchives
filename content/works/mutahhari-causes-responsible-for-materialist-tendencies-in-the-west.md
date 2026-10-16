@@ -12,6 +12,7 @@ keywords:
   - "materialism"
   - "Church"
   - "atheism"
+  - "Christian theology"
 summary: "Traces the rise of materialism in Europe to inadequate Christian theological concepts and the Church's conduct, and contrasts them with Islamic theology."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

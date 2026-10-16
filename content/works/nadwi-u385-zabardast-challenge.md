@@ -4,6 +4,11 @@ titleOriginal: "زبردست چیلنج"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "dawah"
+  - "ummah"
 summary: "A formidable challenge"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

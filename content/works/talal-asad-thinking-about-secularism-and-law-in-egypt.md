@@ -7,6 +7,12 @@ type: "Paper"
 subjects:
   - islamic-law
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "secularism"
+  - "Egypt"
+  - "personal status law"
+  - "sharia"
 summary: "A paper on how secularism and law are configured in modern Egypt."
 venue: "ISIM Papers, Leiden, 2001, pp. 1–24"
 rights: link-only

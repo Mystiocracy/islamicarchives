@@ -4,6 +4,15 @@ titleOriginal: "اسمعي يا سورية"
 author: nadwi
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "Syria"
+  - "Damascus"
+  - "Arab world"
+  - "da'wa"
+  - "Listen, O Syria"
 summary: "Listen, O Syria"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

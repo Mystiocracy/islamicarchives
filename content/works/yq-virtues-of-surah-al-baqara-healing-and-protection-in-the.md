@@ -6,10 +6,13 @@ year: 2025
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
 keywords:
-  - "Quran"
+  - "Surat al-Baqara"
+  - "ruqya"
+  - "healing"
+  - "protection"
+  - "virtues of the Qur'an"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

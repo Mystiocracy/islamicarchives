@@ -8,7 +8,8 @@ subjects:
   - political-thought
 keywords:
   - "Ibn Taymiyya"
-  - "seminar"
+  - "The Taymiyyan Moment"
+  - "Sunni political thought"
 venue: "ILEM, Istanbul"
 summary: "Seminar on his book on Ibn Taymiyya's political thought."
 rights: link-only

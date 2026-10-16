@@ -5,7 +5,11 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - islam-and-modernity
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "relevance today"
 summary: "The Sira and its relevance today"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

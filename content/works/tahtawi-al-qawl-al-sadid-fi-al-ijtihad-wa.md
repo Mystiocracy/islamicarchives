@@ -7,9 +7,9 @@ type: "Essay"
 subjects:
   - islamic-law
 keywords:
-  - "al-Qawl al-sadid"
   - "ijtihad"
   - "taqlid"
+  - "tajdid"
   - "renewal"
 summary: "A short treatise defending the continued possibility of independent legal reasoning (ijtihād) in Islamic law."
 rights: link-only

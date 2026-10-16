@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+keywords:
+  - "study of the Qur'an"
+  - "Qur'an"
+  - "personal reflection"
 summary: "The story of my study of the Quran"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

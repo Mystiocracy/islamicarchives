@@ -10,9 +10,10 @@ subjects:
 keywords:
   - "madhhab"
   - "Fazlur Rahman"
-  - "Malik"
-  - "Spain"
-  - "Tasawwuf"
+  - "Imam Malik"
+  - "amal of Medina"
+  - "al-Andalus"
+  - "ihsan"
 summary: "An interview with Biju Abdul Qadir covering his conversion, his study under Fazlur Rahman, his dissertation on Mālik's ʿamal, al-Andalus, Sufism as ihsan and American Islam."
 venue: "Young Muslim Digest"
 rights: link-only

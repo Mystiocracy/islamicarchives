@@ -5,6 +5,14 @@ author: nadwi
 year: 1992
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - hadith-studies
+keywords:
+  - "Sahih al-Bukhari"
+  - "al-Bukhari"
+  - "tarajim al-abwab"
+  - "chapter headings"
+  - "Muhammad Zakariyya Kandhlawi"
 summary: "Observations on Sahih al-Bukhari and Its Chapter Headings"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

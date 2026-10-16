@@ -6,10 +6,13 @@ year: 2017
 language: "English"
 type: "Paper"
 subjects:
+  - islamic-law
   - science-and-religion
 keywords:
-  - "Health"
-  - "Nature & Science"
+  - "end-of-life care"
+  - "medical ethics"
+  - "life support"
+  - "bioethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

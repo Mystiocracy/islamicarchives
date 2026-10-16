@@ -6,6 +6,13 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "Muslim identity"
+  - "iman"
+  - "Rae Bareli"
+  - "apostasy"
+  - "religious boundaries"
 summary: "Guarding the frontiers of faith"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

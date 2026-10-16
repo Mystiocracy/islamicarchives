@@ -8,7 +8,10 @@ type: "Review"
 subjects:
   - quranic-studies
 keywords:
-  - "review"
+  - "qira'at"
+  - "variant readings"
+  - "tawatur"
+  - "shawadhdh"
 summary: "A review of his book."
 venue: "Review of Qur'anic Research (IQSA) 1, no. 9"
 rights: link-only

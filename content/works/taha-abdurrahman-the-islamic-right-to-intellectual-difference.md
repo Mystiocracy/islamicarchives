@@ -6,8 +6,8 @@ year: 2005
 language: "Arabic"
 type: "Book"
 subjects:
-  - political-thought
   - islam-and-modernity
+  - political-thought
 keywords:
   - "al-Haqq al-Islami fi al-ikhtilaf al-fikri"
   - "globalisation"

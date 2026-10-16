@@ -6,11 +6,12 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - psychology-and-mental-health
+  - philosophy-and-theology
 keywords:
-  - "Afterlife"
-  - "Psychology & Mental Health"
+  - "death anxiety"
+  - "fear of death"
+  - "afterlife"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

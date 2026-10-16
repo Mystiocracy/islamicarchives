@@ -8,10 +8,10 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Press TV"
-  - "conversation"
   - "human rights"
-  - "science and Islam"
-  - "Islamic economy"
+  - "jihad"
+  - "capitalism"
+  - "Islamic art"
 summary: "Thirty-nine short conversation episodes covering Islam and modernity, science, human rights, jihad, economics versus capitalism, women, education and Islamic art, recorded for Press TV and gathered into one playlist."
 venue: "Press TV"
 rights: link-only

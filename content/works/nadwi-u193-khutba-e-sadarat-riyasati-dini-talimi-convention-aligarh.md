@@ -5,6 +5,12 @@ author: nadwi
 year: 1998
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+keywords:
+  - "Dini Ta'limi Council"
+  - "religious education"
+  - "Aligarh"
 summary: "Presidential address, Aligarh (26-27 April 1998)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

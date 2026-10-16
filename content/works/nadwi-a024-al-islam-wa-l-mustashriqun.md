@@ -4,6 +4,13 @@ titleOriginal: "الإسلام والمستشرقون"
 author: nadwi
 language: "Arabic"
 type: "Book"
+subjects:
+  - colonialism-and-decolonisation
+  - islam-and-modernity
+keywords:
+  - "Islam and the Orientalists"
+  - "Orientalism"
+  - "Orientalists"
 summary: "Islam and the Orientalists"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

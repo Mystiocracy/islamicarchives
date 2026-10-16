@@ -10,8 +10,8 @@ keywords:
   - "The Harem Within"
   - "Rêves de femmes"
   - "Fez"
+  - "harem"
   - "childhood"
-  - "memoir"
 summary: "A memoir of her childhood in a Fez household harem in the 1940s, told through the women around her and their dreams of freedom."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

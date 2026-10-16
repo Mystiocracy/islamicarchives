@@ -4,6 +4,12 @@ titleOriginal: "المسلمون ودورهم"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Muslims and Their Role"
+  - "Muslim ummah"
+  - "role of Muslims"
 summary: "Muslims and Their Role"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

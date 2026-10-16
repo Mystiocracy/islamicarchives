@@ -5,11 +5,13 @@ year: 2003
 language: "French"
 type: "Article"
 subjects:
+  - islam-and-modernity
   - economics
 keywords:
   - "globalisation"
+  - "mondialisation"
   - "Muslim world"
-  - "alternative project"
+  - "alternative globalisation"
 summary: "An article by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "Pouvoirs 104: 97-109"
 rights: link-only

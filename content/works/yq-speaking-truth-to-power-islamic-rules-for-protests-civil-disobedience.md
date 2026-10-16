@@ -5,12 +5,14 @@ year: 2024
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
   - political-thought
+  - islamic-law
 keywords:
-  - "Allah"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "protests"
+  - "civil disobedience"
+  - "encampments"
+  - "Gaza"
+  - "speaking truth to power"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

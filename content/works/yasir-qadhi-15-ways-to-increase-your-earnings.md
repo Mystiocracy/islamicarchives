@@ -5,9 +5,12 @@ year: 2002
 language: English
 type: "Book"
 subjects:
-  - quranic-studies
+  - sufism
 keywords:
-  - "15 Ways to Increase Your Earnings from the Quran and Sunnah"
+  - "reward"
+  - "good deeds"
+  - "Sunna"
+  - "rizq"
 summary: "Fifteen practices from the Qur'an and Sunna for gaining reward."
 venue: "Al-Hidaayah"
 rights: link-only

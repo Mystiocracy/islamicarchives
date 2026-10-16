@@ -5,12 +5,12 @@ titleOriginal: "Barla Lâhikası"
 language: "Turkish"
 type: "Letters"
 subjects:
-  - education
+  - philosophy-and-theology
   - sufism
 keywords:
   - "Barla Lahikasi"
-  - "Risale-i Nur students"
-  - "correspondence"
+  - "Risale-i Nur"
+  - "Barla"
   - "exile"
 summary: "Correspondence between Nursi and his students during his exile in Barla, documenting the early spread of the Risale-i Nur."
 rights: link-only

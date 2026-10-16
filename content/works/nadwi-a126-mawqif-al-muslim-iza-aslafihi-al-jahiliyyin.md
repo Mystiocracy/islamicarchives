@@ -4,6 +4,15 @@ titleOriginal: "موقف المسلم إزاء أسلافه الجاهليين"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "jahiliyya"
+  - "pre-Islamic ancestors"
+  - "nationalism"
+  - "pharaonism"
+  - "heritage"
 summary: "The Muslim's Attitude to His Pre-Islamic Ancestors"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

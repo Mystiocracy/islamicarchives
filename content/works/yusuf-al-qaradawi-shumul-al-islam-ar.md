@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - political-thought
+keywords:
+  - "comprehensiveness of Islam"
+  - "Hasan al-Banna"
+  - "Twenty Principles"
+  - "Muslim Brotherhood"
 summary: "Explains the comprehensiveness of Islam, commenting on Hasan al-Banna's principles."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

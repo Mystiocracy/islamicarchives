@@ -4,6 +4,14 @@ titleOriginal: "جزیرۃ العرب اور عالم انسانیت: ایک م�
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - islam-and-modernity
+keywords:
+  - "Arabian Peninsula"
+  - "Arabs"
+  - "humanity"
+  - "Arab world"
 summary: "Arabia and the human world: a dialogue, a message"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

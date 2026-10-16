@@ -6,10 +6,10 @@ language: "English"
 type: "Essay"
 subjects:
   - islam-and-modernity
-  - family-and-society
 keywords:
   - "Western Muslims"
-  - "hope"
+  - "hope and fear"
+  - "khawf and raja"
 venue: "AlJumuah Magazine"
 summary: "Urges Western Muslims to balance hope in divine help with realistic caution and effort."
 rights: link-only

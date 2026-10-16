@@ -7,9 +7,12 @@ language: "English"
 type: "Essay"
 subjects:
   - family-and-society
+  - sufism
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "parenthood"
+  - "ego"
+  - "fatherhood"
+  - "spiritual growth"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

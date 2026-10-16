@@ -5,7 +5,12 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - islamic-law
+  - economics
+keywords:
+  - "zakat"
+  - "obligatory charity"
+  - "pillars of Islam"
 summary: "Importance of zakat in Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

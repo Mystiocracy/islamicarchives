@@ -6,8 +6,11 @@ language: English
 type: "Paper"
 subjects:
   - philosophy-and-theology
+  - political-thought
 keywords:
   - "Political Theology"
+  - "Islamism"
+  - "Christianity"
 summary: "A short article in *Political Theology*."
 venue: "Political Theology 14, no. 6, pp. 803–812"
 rights: link-only

@@ -6,11 +6,11 @@ language: "English"
 type: "Essay"
 subjects:
   - political-thought
-  - quranic-studies
 keywords:
   - "ummatics"
-  - "unity"
+  - "Muslim unity"
   - "covenant"
+  - "umma"
 venue: "Ummatics Institute"
 summary: "Argues that the Umma's covenant with God means it can only flourish in this world and the next through unity."
 rights: link-only

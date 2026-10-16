@@ -6,13 +6,12 @@ year: 2025
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
-  - islamic-law
   - science-and-religion
 keywords:
-  - "Islamic Ethics"
-  - "Jurisprudence (fiqh)"
-  - "Technology"
+  - "artificial intelligence"
+  - "AI ethics"
+  - "technology"
+  - "Islamic ethics"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -5,7 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
+  - education
   - philosophy-and-theology
+keywords:
+  - "future generations"
+  - "iman"
+  - "religious education"
+  - "children"
+  - "Muslim identity"
 summary: "Securing the faith of future generations"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

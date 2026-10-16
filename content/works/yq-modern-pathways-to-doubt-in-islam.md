@@ -5,10 +5,14 @@ byline: "Youssef Chouhoud"
 year: 2016
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - islam-and-modernity
+  - psychology-and-mental-health
 keywords:
-  - "Data"
-  - "Reports"
+  - "religious doubt"
+  - "atheism"
+  - "leaving Islam"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

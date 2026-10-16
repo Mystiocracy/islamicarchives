@@ -5,9 +5,14 @@ year: 1996
 language: English
 type: "Book"
 subjects:
+  - sufism
   - philosophy-and-theology
 keywords:
-  - "Riyaa"
+  - "riya"
+  - "showing off"
+  - "hidden shirk"
+  - "sincerity"
+  - "ikhlas"
 summary: "A short work on showing off in worship."
 venue: "Dar-al-Fatah"
 rights: link-only

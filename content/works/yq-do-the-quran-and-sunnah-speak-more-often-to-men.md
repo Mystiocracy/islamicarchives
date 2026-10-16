@@ -5,10 +5,13 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
+  - women-and-gender
   - quranic-studies
 keywords:
-  - "Quran"
+  - "gender in the Qur'an"
+  - "Qur'anic address"
+  - "Sunna"
+  - "women in the Qur'an"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

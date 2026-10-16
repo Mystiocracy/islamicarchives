@@ -5,6 +5,14 @@ author: nadwi
 year: 1972
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - education
+  - sufism
+keywords:
+  - "ulama"
+  - "elite of the Ummah"
+  - "leadership"
+  - "responsibility"
 summary: "The elite of the community"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,10 +4,10 @@ author: umar-faruq-abd-allah
 language: English
 type: "Interview"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "podcast"
-  - "Reflections"
+  - "Reflections podcast"
+  - "Islam in America"
 summary: "An episode of the Reflections podcast with Umar Faruq Abd-Allah."
 venue: "Reflections (podcast)"
 rights: link-only

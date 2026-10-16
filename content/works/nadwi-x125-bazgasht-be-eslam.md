@@ -4,9 +4,12 @@ titleOriginal: "بازگشت به اسلام"
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - islam-and-modernity
 keywords:
-  - "Ila al-Islam min Jadid (Arabic)"
-  - "محمود محمودی"
+  - "Ila al-Islam min Jadid"
+  - "Islamic revival"
+  - "dawah"
 summary: "Return to Islam. Translated by محمود محمودی."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

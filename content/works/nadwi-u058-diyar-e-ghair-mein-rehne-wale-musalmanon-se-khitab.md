@@ -4,6 +4,13 @@ titleOriginal: "دیارِ غیر میں رہنے والے مسلمانوں سے
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Muslims abroad"
+  - "Muslim diaspora"
+  - "Muslim minorities"
+  - "migrants"
 summary: "Address to Muslims living abroad"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

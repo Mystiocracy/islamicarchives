@@ -5,9 +5,8 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - economics
   - political-thought
-  - islam-and-modernity
+  - economics
 keywords:
   - "deglobalization"
   - "globalization"

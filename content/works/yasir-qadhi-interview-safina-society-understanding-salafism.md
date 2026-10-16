@@ -6,8 +6,12 @@ language: English
 type: "Interview"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "interview"
+  - "Understanding Salafism"
+  - "Salafism"
+  - "Shadee Elmasry"
+  - "Safina Society"
 summary: "A conversation with Shadee Elmasry on his book *Understanding Salafism*."
 venue: "Safina Society"
 rights: link-only

@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "prophetic literature"
+  - "Prophet's eloquence"
+  - "balagha"
+  - "adab nabawi"
+  - "Arabic literature"
 summary: "Observations on Prophetic Literature"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

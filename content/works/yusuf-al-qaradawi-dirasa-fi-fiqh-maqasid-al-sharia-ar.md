@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "maqasid al-sharia"
+  - "objectives of sharia"
+  - "literalism"
+  - "wasatiyya"
 summary: "Balances the sharia's universal objectives with its particular texts."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

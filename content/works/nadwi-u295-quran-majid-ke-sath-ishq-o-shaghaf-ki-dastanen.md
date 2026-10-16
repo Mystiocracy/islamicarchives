@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+keywords:
+  - "love of the Qur'an"
+  - "Qur'an"
+  - "recitation"
 summary: "Stories of love for the Quran"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

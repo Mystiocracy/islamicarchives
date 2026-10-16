@@ -9,6 +9,8 @@ subjects:
 keywords:
   - "Islamic studies"
   - "academia"
+  - "ISRA Academy"
+  - "Western universities"
 venue: "ISRA Academy"
 summary: "Conversation on the state and future of academic Islamic studies."
 rights: link-only

@@ -6,8 +6,11 @@ language: English
 type: "Interview"
 subjects:
   - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "interview"
+  - "Salafism"
+  - "Emad Hamdeh"
+  - "controversies"
 summary: "A conversation with the historian of Salafism Emad Hamdeh."
 venue: "Emad Hamdeh (YouTube)"
 rights: link-only

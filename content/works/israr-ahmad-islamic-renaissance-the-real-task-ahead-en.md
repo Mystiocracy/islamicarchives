@@ -7,9 +7,11 @@ subjects:
   - islam-and-modernity
   - quranic-studies
 keywords:
-  - "revival"
+  - "Islam ki Nashat-e-Saniya"
+  - "Islamic revival"
   - "Islamic renaissance"
   - "intellectual renewal"
+  - "Qur'an Academy"
 summary: "English translation of his foundational essay calling for Qur'an-centred intellectual renewal as the basis of revival."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

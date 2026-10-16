@@ -4,6 +4,13 @@ titleOriginal: "دعوت کا کام ہی امت مسلمہ کی اصل قدرو
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "da'wa"
+  - "ummah"
+  - "Muslim responsibility"
+  - "Tablighi Jamaat"
 summary: "Da'wa is the community's true worth"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

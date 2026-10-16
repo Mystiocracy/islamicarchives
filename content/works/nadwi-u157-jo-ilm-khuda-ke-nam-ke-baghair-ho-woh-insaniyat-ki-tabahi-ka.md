@@ -6,7 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
-  - philosophy-and-theology
+  - islam-and-modernity
+keywords:
+  - "knowledge and faith"
+  - "secularism"
+  - "Iqra bismi rabbik"
 summary: "Knowledge without God's name will ruin humanity"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

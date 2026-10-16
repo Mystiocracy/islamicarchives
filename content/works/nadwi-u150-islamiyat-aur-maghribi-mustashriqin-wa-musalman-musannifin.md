@@ -6,7 +6,13 @@ year: 1982
 language: "Urdu"
 type: "Pamphlet"
 subjects:
+  - colonialism-and-decolonisation
   - islam-and-modernity
+keywords:
+  - "Orientalism"
+  - "orientalists"
+  - "Islamic studies"
+  - "Muslim authors"
 summary: "Islamic studies, Western orientalists and Muslim authors. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

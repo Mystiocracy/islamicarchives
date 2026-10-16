@@ -6,6 +6,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Muslim world"
+  - "islah"
+  - "reform"
+  - "ummah"
 summary: "The State of the Muslim World and the Right Way to Reform It"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

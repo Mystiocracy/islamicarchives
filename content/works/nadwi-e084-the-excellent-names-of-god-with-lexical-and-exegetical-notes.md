@@ -6,9 +6,12 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - quranic-studies
 keywords:
-  - "Asma-e-Husna (Ur.)"
-  - "S. G. Mohiuddin"
+  - "al-Asma al-Husna"
+  - "names of God"
+  - "Asma-e-Husna"
+  - "attributes of God"
 summary: "The Excellent Names of God, with Lexical and Exegetical Notes. Translated by S. G. Mohiuddin from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -6,13 +6,13 @@ language: "Persian"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - political-thought
 keywords:
   - "Introduction to the Islamic Worldview"
-  - "Man and Faith"
-  - "Society and History"
-  - "Revelation and Prophethood"
-  - "Mustajab Ahmad Ansari"
+  - "Islamic worldview"
+  - "tawhid"
+  - "revelation"
+  - "prophethood"
+  - "afterlife"
 summary: "English translation of Mutahhari's multi-part introduction to the Islamic worldview, covering faith, monotheism, revelation, the Qur'anic view of man, society and history, and the afterlife."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

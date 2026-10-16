@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "sectarianism"
   - "deep differences"
-  - "unity"
-  - "AMJA"
+  - "Muslim unity"
+  - "ikhtilaf"
 venue: "Assembly of Muslim Jurists of America (AMJA), 21st Annual Imams' Conference, Dallas, August 2025"
 summary: "Proposes that managing deep intra-Muslim differences become a recognised Islamic discipline to overcome sectarianism."
 rights: link-only

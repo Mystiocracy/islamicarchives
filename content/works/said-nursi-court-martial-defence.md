@@ -11,7 +11,8 @@ keywords:
   - "Divan-i Harb-i Orfi"
   - "31 March Incident"
   - "constitutionalism"
-  - "Ottoman"
+  - "Ottoman Empire"
+  - "freedom"
 summary: "Nursi's defence before the court martial that tried him after the 1909 counter-revolution in Istanbul, defending constitutional freedom grounded in the Shariah."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - hadith-studies
+keywords:
+  - "al-Mundhiri"
+  - "al-Targhib wa-l-Tarhib"
+  - "hope and warning"
+  - "selected hadith"
 summary: "Edited selection from al-Mundhiri's collection of hadith on hope and warning."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

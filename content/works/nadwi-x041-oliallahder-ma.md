@@ -6,6 +6,9 @@ language: "Bengali"
 type: "Pamphlet"
 subjects:
   - sufism
+keywords:
+  - "awliya"
+  - "mother"
 summary: "Mother of the saints. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

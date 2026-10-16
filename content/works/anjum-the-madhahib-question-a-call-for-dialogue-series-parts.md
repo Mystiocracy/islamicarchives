@@ -9,6 +9,7 @@ keywords:
   - "madhhab"
   - "sectarianism"
   - "dialogue"
+  - "taqlid"
 venue: "AlJumuah Magazine"
 summary: "Traces sectarian rivalry among the legal schools and argues for humble dialogue to heal divisions."
 rights: link-only

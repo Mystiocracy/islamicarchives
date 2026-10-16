@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - economics
+  - islamic-law
+keywords:
+  - "riba"
+  - "bank interest"
+  - "usury"
+  - "Islamic banking"
 summary: "Argues that bank interest is the prohibited riba."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

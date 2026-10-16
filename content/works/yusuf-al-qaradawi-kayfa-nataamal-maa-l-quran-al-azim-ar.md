@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an"
+  - "tafsir"
+  - "recitation"
+  - "understanding the Qur'an"
 summary: "Guide to reading, understanding and living with the Qur'an."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

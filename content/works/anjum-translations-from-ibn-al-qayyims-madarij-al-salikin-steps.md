@@ -9,7 +9,10 @@ subjects:
 keywords:
   - "Ibn al-Qayyim"
   - "Madarij al-Salikin"
-  - "translation"
+  - "repentance"
+  - "dhikr"
+  - "ihsan"
+  - "AlJumuah"
 venue: "AlJumuah Magazine (serialised excerpts, c. 2015-2024)"
 summary: "A long-running series of translated excerpts from Madarij al-Salikin on stations such as repentance, remembrance, gratitude, fear, ihsan, adab and faqr."
 rights: link-only

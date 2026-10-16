@@ -7,6 +7,13 @@ type: "Book"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "riba"
+  - "gharar"
+  - "musharaka"
+  - "mudaraba"
+  - "ijara"
+  - "murabaha"
 summary: "A primer on riba, gharar, musharaka, mudaraba, ijara and murabaha as used in Islamic finance."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

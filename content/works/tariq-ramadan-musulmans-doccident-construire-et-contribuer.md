@@ -7,10 +7,11 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Western Muslims: Building and Contributing (English rendering of the title)"
+  - "Western Muslims: Building and Contributing"
   - "Western Muslims"
   - "citizenship"
   - "institutions"
+  - "El Islam minoritario"
 summary: "Urges Muslims settled in Europe and North America to stop seeing themselves as temporary guests and to build institutions, culture and shared citizenship, contributing as full members of their societies."
 venue: "Tawhid poche (Lyon)"
 rights: link-only

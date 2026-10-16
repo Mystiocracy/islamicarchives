@@ -4,10 +4,13 @@ author: nadwi
 language: "English"
 type: "Pamphlet"
 subjects:
-  - quranic-studies
   - islam-and-modernity
+  - quranic-studies
 keywords:
-  - "Abdur Raheem Kidwai"
+  - "da'wa"
+  - "the West"
+  - "Muslims in the West"
+  - "Qur'anic paradigm"
 summary: "Da'wah in the West: The Qur'anic Paradigm. Translated by Abdur Raheem Kidwai from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -6,10 +6,12 @@ year: 2018
 language: English
 type: "Chapter"
 subjects:
+  - islam-and-modernity
   - philosophy-and-theology
 keywords:
   - "Salafism"
-  - "Qadhi"
+  - "reasonable Salafism"
+  - "religious authority"
   - "Modern Islamic Authority"
 summary: "A chapter on his shift towards a \"reasonable\" Salafism."
 venue: "In Modern Islamic Authority and Social Change, vol. 2, ed. Masooda Bano (Edinburgh University Press)"

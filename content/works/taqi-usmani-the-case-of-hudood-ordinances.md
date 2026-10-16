@@ -5,6 +5,13 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+  - women-and-gender
+keywords:
+  - "Hudood Ordinances"
+  - "Pakistan"
+  - "hudud"
+  - "zina"
+  - "women's rights"
 summary: "Defends Pakistan’s Hudood Ordinances against criticism from legal and women’s-rights groups."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

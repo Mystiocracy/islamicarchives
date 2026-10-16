@@ -6,8 +6,12 @@ language: "Persian"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+  - islamic-law
 keywords:
+  - "La ilaha illa Allah 'aqidatan wa-shari'atan wa-minhaj hayat"
   - "tawhid"
+  - "shahada"
+  - "hakimiyya"
 venue: "Tehran"
 summary: "Persian translation of La ilaha illa Allah 'aqidatan wa-shari'atan wa-minhaj hayat."
 rights: link-only

@@ -8,8 +8,8 @@ subjects:
   - islamic-law
 keywords:
   - "sharia"
-  - "Islamic law"
-  - "reform"
+  - "the Way"
+  - "Islamic reform"
 summary: "A chapter by Ramadan, listed in a catalogue or citation record; its text has not been read for this entry."
 venue: "In: Kamrava (ed.), The New Voices of Islam, I.B. Tauris, 2006"
 rights: link-only

@@ -6,6 +6,12 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - family-and-society
+  - sufism
+keywords:
+  - "Islamic way of life"
+  - "ethics"
+  - "practical Islam"
+  - "social conduct"
 summary: "Ten volumes of his public talks on practical Islamic living, ethics and society."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

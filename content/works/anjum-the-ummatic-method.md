@@ -8,8 +8,9 @@ subjects:
   - political-thought
 keywords:
   - "ummatics"
-  - "method"
+  - "discursive integration"
   - "institution building"
+  - "Muslim unity"
 venue: "Ummatics Institute (reflective article)"
 summary: "Outlines a method for Muslim unity built on prophetic guidance, discursive integration, institution building and readiness for political openings."
 rights: link-only

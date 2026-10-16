@@ -6,12 +6,12 @@ language: "Persian"
 type: "Speech"
 subjects:
   - political-thought
-  - philosophy-and-theology
 keywords:
   - "Shahadat"
   - "Imam Husayn"
   - "Karbala"
-  - "Ali Asghar Ghassemy"
+  - "martyrdom"
+  - "tyranny"
 summary: "Lectures interpreting Ḥusayn's death at Karbala as a deliberate act of witness against tyranny and calling on listeners to take up that witness."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

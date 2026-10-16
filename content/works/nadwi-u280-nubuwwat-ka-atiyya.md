@@ -5,7 +5,11 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "prophethood"
+  - "nubuwwa"
+  - "gifts of prophethood"
 summary: "The gift of prophethood"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

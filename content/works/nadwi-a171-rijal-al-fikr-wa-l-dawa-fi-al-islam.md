@@ -4,6 +4,16 @@ titleOriginal: "رجال الفكر والدعوة في الإسلام"
 author: nadwi
 language: "Arabic"
 type: "Book"
+subjects:
+  - sufism
+  - education
+keywords:
+  - "Saviours of the Islamic Spirit"
+  - "tajdid"
+  - "renewers"
+  - "al-Ghazali"
+  - "Ibn Taymiyya"
+  - "Islamic reformers"
 summary: "Men of Thought and Daʿwa in Islam (Saviours of the Islamic Spirit) 4 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

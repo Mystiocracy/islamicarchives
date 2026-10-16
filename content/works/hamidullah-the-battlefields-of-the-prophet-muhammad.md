@@ -4,14 +4,13 @@ author: hamidullah
 titleOriginal: "عہد نبوی کے میدان جنگ"
 language: "Urdu"
 type: "Book"
-subjects:
-  - political-thought
 keywords:
   - "Ahd-e-Nabawi ke Maidan-e-Jang"
   - "military history"
   - "Badr"
   - "Uhud"
-  - "maps"
+  - "Khandaq"
+  - "sira"
 summary: "A topographical study, with maps and sketches drawn from his own visits, of the sites of the Prophet's battles and what they reveal about his strategy."
 rights: link-only
 rightsNote: "In copyright (author d. 2002)."

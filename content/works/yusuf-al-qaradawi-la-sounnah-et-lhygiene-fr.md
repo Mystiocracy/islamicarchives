@@ -6,6 +6,12 @@ language: "French"
 type: "Pamphlet"
 subjects:
   - hadith-studies
+  - science-and-religion
+keywords:
+  - "Sunnah"
+  - "hygiene"
+  - "cleanliness"
+  - "health"
 summary: "Short text on the Sunnah and hygiene."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

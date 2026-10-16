@@ -8,8 +8,10 @@ type: "Review"
 subjects:
   - islam-and-modernity
 keywords:
-  - "book review"
   - "Alexander Russell Webb"
+  - "A Muslim in Victorian America"
+  - "Aminah McCloud"
+  - "Journal of Islamic Studies"
 summary: "A review of *A Muslim in Victorian America* by McCloud in the Journal of Islamic Studies."
 venue: "Journal of Islamic Studies"
 rights: link-only

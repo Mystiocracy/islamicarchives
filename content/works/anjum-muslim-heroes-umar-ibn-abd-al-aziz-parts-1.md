@@ -8,8 +8,10 @@ subjects:
   - political-thought
 keywords:
   - "Umar ibn Abd al-Aziz"
-  - "caliphate"
   - "Umayyads"
+  - "caliphate"
+  - "shura"
+  - "justice"
 venue: "AlJumuah Magazine"
 summary: "Portrays 'Umar ibn 'Abd al-'Aziz's turn away from hereditary rule toward consultation, modesty and justice."
 rights: link-only

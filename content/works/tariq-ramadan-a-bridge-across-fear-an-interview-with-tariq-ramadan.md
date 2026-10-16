@@ -12,6 +12,7 @@ keywords:
   - "European Muslims"
   - "identity"
   - "fear"
+  - "Rosemary Bechler"
 summary: "Wide-ranging openDemocracy interview in which Ramadan discusses European Muslim identity, difference and fear, and why he wants to move beyond a politics of separateness."
 venue: "openDemocracy"
 rights: link-only

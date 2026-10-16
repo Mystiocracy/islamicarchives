@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+keywords:
+  - "The Lawful and the Prohibited in Islam"
+  - "halal"
+  - "haram"
+  - "food"
+  - "dress"
 summary: "Classic guide to what is permitted and forbidden in Muslim daily life, from food and dress to work and family."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

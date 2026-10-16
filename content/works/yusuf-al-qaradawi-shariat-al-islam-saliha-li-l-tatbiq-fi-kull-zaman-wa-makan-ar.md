@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islamic-law
+  - islam-and-modernity
+keywords:
+  - "sharia"
+  - "universality of sharia"
+  - "flexibility"
+  - "application of sharia"
 summary: "Argues that Islamic law remains applicable in every age and place."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

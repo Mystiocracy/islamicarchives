@@ -4,9 +4,14 @@ titleOriginal: "امام سید احمد شهید در آینه تاریخ"
 author: nadwi
 language: "Persian"
 type: "Pamphlet"
+subjects:
+  - political-thought
+  - sufism
 keywords:
-  - "Sirat-e-Sayyid Ahmad Shahid (abridged)"
-  - "Muhammad Qasim Qasimi"
+  - "Sayyid Ahmad Shahid"
+  - "Sirat-e-Sayyid Ahmad Shahid"
+  - "Balakot"
+  - "mujahidin"
 summary: "Imam Sayyid Ahmad Shahid in the mirror of history. Translated by Muhammad Qasim Qasimi."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from aqeedeh.com (Kitabkhaneh-ye Qalam)"

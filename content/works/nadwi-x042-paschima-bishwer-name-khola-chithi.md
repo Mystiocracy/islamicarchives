@@ -8,6 +8,8 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Maghrib se Kuch Saaf Saaf Baaten"
+  - "Western civilisation"
+  - "America"
 summary: "An open letter to the Western world. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

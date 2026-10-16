@@ -8,10 +8,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Ibn Sina"
+  - "Avicenna"
   - "Kitab al-Najat"
   - "soul"
-  - "Oxford thesis"
-  - "translation"
+  - "faculties of the soul"
 summary: "An annotated English translation of the psychology section of Ibn Sina's Kitab al-Najat, based on his Oxford doctoral work."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

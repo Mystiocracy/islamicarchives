@@ -7,10 +7,10 @@ type: "Translation"
 subjects:
   - political-thought
 keywords:
-  - "Charles Wendell (translator)"
-  - "University of California Press"
-  - "selected epistles"
-  - "Majmuat rasail"
+  - "Majmu'at rasa'il"
+  - "Muslim Brotherhood"
+  - "Ikhwan"
+  - "Charles Wendell"
 summary: "English translation of five epistles from the Majmūʿat rasāʾil, published by the University of California Press."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

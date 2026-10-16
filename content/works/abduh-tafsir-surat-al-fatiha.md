@@ -8,9 +8,9 @@ type: "Book"
 subjects:
   - quranic-studies
 keywords:
-  - "Tafsir al-Fatiha"
-  - "Quranic exegesis"
-  - "al-Azhar lectures"
+  - "al-Fatiha"
+  - "tafsir"
+  - "al-Azhar"
   - "Rashid Rida"
 summary: "Commentary on the opening chapter of the Qurʾān, with an introduction on the aims and method of exegesis, from ʿAbduh's lectures at al-Azhar."
 rights: link-only

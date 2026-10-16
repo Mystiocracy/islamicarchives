@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an"
+  - "tadabbur"
+  - "Contemplations on the Noble Qur'an"
+  - "Qur'anic reflections"
 summary: "Reflections on the Noble Qur'an"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

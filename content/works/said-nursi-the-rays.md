@@ -7,10 +7,10 @@ type: "Collection"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Şualar"
+  - "Sualar"
   - "Risale-i Nur"
   - "The Supreme Sign"
-  - "court defences"
+  - "proofs of God"
 summary: "Later treatises of the Risale-i Nur, including 'The Supreme Sign' on the proofs of God and Nursi's defence speeches at his trials."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

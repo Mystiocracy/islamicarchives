@@ -6,12 +6,12 @@ language: "Persian"
 type: "Collection"
 subjects:
   - sufism
-  - philosophy-and-theology
 keywords:
   - "Azadi-ye ma'navi"
   - "spiritual freedom"
-  - "ethics"
-  - "Muslim Students' Association"
+  - "self-purification"
+  - "repentance"
+  - "tawba"
 summary: "Sermons on spiritual freedom, self-purification, repentance and worship, presenting inner liberation as the basis of social freedom."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Collection"
 subjects:
   - hadith-studies
+  - islamic-law
+keywords:
+  - "Jami' al-Tirmidhi"
+  - "hadith commentary"
+  - "legal rulings"
 summary: "Lecture notes on Tirmidhi’s Jami, with commentary on the hadiths and their legal rulings."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

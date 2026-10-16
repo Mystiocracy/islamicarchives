@@ -5,9 +5,14 @@ year: 2020
 language: "English"
 type: "Essay"
 subjects:
-  - philosophy-and-theology
+  - quranic-studies
+  - sufism
 keywords:
-  - "Prophets"
+  - "Adam"
+  - "Abraham"
+  - "dua"
+  - "prophets"
+  - "nearness of God"
 venue: "Yaqeen Institute (reflection)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

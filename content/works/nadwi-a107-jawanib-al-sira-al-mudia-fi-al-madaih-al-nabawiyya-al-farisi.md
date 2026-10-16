@@ -4,8 +4,12 @@ titleOriginal: "جوانب السيرة المضيئة في المدائح ال�
 author: nadwi
 language: "Arabic"
 type: "Article"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Persian poetry"
+  - "na't"
+  - "madih nabawi"
+  - "Prophet Muhammad"
 summary: "Luminous Aspects of the Sira in Persian Prophetic Panegyric"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

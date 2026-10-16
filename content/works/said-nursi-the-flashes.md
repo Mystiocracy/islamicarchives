@@ -12,7 +12,7 @@ keywords:
   - "Lem'alar"
   - "Risale-i Nur"
   - "Treatise for the Sick"
-  - "Islamic dress for women"
+  - "hijab"
 summary: "Thirty-three treatises on theology, devotion, the Sunna, illness, old age and Islamic dress, forming the third main volume of the Risale-i Nur."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

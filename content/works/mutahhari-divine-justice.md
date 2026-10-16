@@ -11,6 +11,7 @@ keywords:
   - "theodicy"
   - "problem of evil"
   - "salvation of non-Muslims"
+  - "adl"
 summary: "A treatise on theodicy addressing discrimination, evil and suffering in creation, and the fate of virtuous non-Muslims in the hereafter."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

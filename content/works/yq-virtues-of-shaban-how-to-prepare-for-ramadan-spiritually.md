@@ -5,9 +5,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - sufism
 keywords:
-  - "Allah"
+  - "Sha'ban"
+  - "Ramadan"
+  - "spiritual preparation"
+  - "voluntary fasting"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

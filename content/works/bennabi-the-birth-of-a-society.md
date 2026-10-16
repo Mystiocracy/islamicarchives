@@ -6,9 +6,10 @@ year: 1960
 language: "French"
 type: "Book"
 subjects:
+  - family-and-society
   - islam-and-modernity
-  - political-thought
 keywords:
+  - "Naissance d'une société"
   - "Milad mujtama'"
   - "network of social relations"
   - "sociology"

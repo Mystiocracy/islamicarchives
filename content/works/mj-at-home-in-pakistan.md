@@ -4,12 +4,13 @@ author: maryam-jameelah
 year: 1990
 language: English
 type: "Memoir"
-venue: "Mohammad Yusuf Khan"
-subjects:
-  - political-thought
 keywords:
   - "Maududi"
   - "Lahore"
+  - "Pakistan"
+  - "Mohammad Yusuf Khan"
+  - "autobiography"
+venue: "Mohammad Yusuf Khan"
 summary: "Her life in Lahore after emigrating, with the Maududi and Yusuf Khan households."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

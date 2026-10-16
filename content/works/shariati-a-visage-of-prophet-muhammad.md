@@ -10,7 +10,7 @@ keywords:
   - "Sima-ye Mohammad"
   - "Prophet Muhammad"
   - "sira"
-  - "A. A. Sachedina"
+  - "prophethood"
 summary: "A portrait of the Prophet emphasising his human character and social mission."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

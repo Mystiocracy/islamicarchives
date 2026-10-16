@@ -8,8 +8,9 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Silsilat al-Aḥādīth al-ṣaḥīḥa"
-  - "Albani"
+  - "sahih hadith"
+  - "hadith grading"
+  - "fiqh al-hadith"
 summary: "The collection of authentic hadith with commentary, in many volumes; the first volume appeared in 1958."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

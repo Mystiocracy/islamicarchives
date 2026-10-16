@@ -7,7 +7,10 @@ type: "Pamphlet"
 subjects:
   - islam-and-modernity
 keywords:
-  - "Mohiuddin Ahmad"
+  - "the West"
+  - "Western civilisation"
+  - "Oxford"
+  - "Europe"
 summary: "Islam and the West. Translated by Mohiuddin Ahmad from Arabic/Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

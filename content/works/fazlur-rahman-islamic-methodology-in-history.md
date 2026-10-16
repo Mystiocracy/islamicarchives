@@ -12,7 +12,7 @@ keywords:
   - "living tradition"
   - "ijtihad"
   - "ijma'"
-  - "Islamic Research Institute"
+  - "hadith criticism"
 summary: "Essays on the historical development of sunna, hadith, ijtihad and consensus, distinguishing the Prophet's living example from its later formalisation in hadith literature."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

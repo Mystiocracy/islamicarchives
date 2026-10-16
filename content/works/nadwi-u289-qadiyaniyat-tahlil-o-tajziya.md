@@ -4,6 +4,13 @@ titleOriginal: "قادیانیت: تحلیل و تجزیہ"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Qadianism"
+  - "Ahmadiyya"
+  - "Mirza Ghulam Ahmad"
+  - "finality of prophethood"
 summary: "Qadianism: analysis and study"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,8 +4,13 @@ titleOriginal: "ترجمہ نقوش اقبال"
 author: nadwi
 language: "Malayalam"
 type: "Book"
+subjects:
+  - philosophy-and-theology
+  - islam-and-modernity
 keywords:
-  - "Nuqush-e-Iqbal (Ar. Rawa'i' Iqbal)"
+  - "Muhammad Iqbal"
+  - "Rawa'i' Iqbal"
+  - "Persian poetry"
 summary: "Impressions of Iqbal. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

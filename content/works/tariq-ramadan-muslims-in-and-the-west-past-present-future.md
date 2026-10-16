@@ -9,8 +9,7 @@ subjects:
 keywords:
   - "Muslims in the West"
   - "citizenship"
-  - "history"
-  - "future"
+  - "Muslim history in Europe"
 summary: "Nearly two-hour lecture tracing the history of Muslims in the West and considering their present challenges and prospects for shared citizenship."
 venue: "Public lecture, US campus tour (March 2017)"
 rights: link-only

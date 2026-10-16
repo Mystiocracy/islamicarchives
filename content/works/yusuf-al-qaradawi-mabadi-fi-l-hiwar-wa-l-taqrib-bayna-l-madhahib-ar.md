@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - political-thought
+keywords:
+  - "taqrib"
+  - "Sunni-Shi'a relations"
+  - "dialogue"
+  - "sectarianism"
+  - "Muslim unity"
 summary: "Principles for dialogue and rapprochement among Muslim schools."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

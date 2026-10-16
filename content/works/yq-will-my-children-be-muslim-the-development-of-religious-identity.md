@@ -6,9 +6,13 @@ language: "English"
 type: "Paper"
 subjects:
   - family-and-society
+  - psychology-and-mental-health
 keywords:
-  - "Family & Community"
-  - "Parenting"
+  - "parenting"
+  - "religious identity"
+  - "youth"
+  - "children"
+  - "faith development"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

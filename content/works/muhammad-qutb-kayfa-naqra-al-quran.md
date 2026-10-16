@@ -8,8 +8,9 @@ type: "Pamphlet"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
-  - "reading"
+  - "reading the Qur'an"
+  - "understanding the Qur'an"
+  - "tadabbur"
 summary: "Short guide on how to read the Qur'an for understanding and application."
 rights: link-only
 rightsNote: "In copyright; no free copy found online."

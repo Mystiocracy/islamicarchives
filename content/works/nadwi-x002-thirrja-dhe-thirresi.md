@@ -3,6 +3,9 @@ title: "Thirrja dhe Thirresi"
 author: nadwi
 language: "Albanian"
 type: "Pamphlet"
+keywords:
+  - "dawah"
+  - "da'i"
 summary: "The call and the caller. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

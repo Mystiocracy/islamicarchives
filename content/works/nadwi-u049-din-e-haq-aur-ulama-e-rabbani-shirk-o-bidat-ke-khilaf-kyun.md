@@ -5,8 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - education
   - philosophy-and-theology
+keywords:
+  - "shirk"
+  - "bid'a"
+  - "tawhid"
+  - "ulama"
+  - "innovation"
 summary: "Why the true faith and godly scholars oppose shirk and innovation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

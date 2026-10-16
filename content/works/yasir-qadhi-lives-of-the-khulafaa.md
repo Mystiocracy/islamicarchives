@@ -4,9 +4,14 @@ author: yasir-qadhi
 language: English
 type: "Video"
 subjects:
-  - education
+  - political-thought
 keywords:
+  - "Khulafa al-Rashidun"
   - "caliphs"
+  - "Abu Bakr"
+  - "Umar ibn al-Khattab"
+  - "Uthman"
+  - "Ali"
 summary: "A series on the lives of the caliphs."
 venue: "Yasir Qadhi"
 rights: link-only

@@ -5,6 +5,14 @@ author: nadwi
 year: 1974
 language: "Urdu"
 type: "Speech"
+subjects:
+  - family-and-society
+  - political-thought
+keywords:
+  - "Payam-e-Insaniyat"
+  - "humanity"
+  - "communal harmony"
+  - "India"
 summary: "Message of humanity (five public speeches)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

@@ -4,11 +4,16 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Pamphlet"
-venue: "Mohammad Yusuf Khan"
 subjects:
+  - islam-and-modernity
   - political-thought
 keywords:
   - "Said Nursi"
+  - "Nur movement"
+  - "Risale-i Nur"
+  - "Turkey"
+  - "Kemalism"
+venue: "Mohammad Yusuf Khan"
 summary: "Said Nursi and the Nur movement."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Chughtai Library"

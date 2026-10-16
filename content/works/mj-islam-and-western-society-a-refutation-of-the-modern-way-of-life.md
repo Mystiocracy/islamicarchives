@@ -4,9 +4,14 @@ author: maryam-jameelah
 year: 1976
 language: English
 type: "Book"
-venue: "Mohammad Yusuf Khan"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Western society"
+  - "Muslim students in the West"
+  - "Westernization"
+  - "modern way of life"
+venue: "Mohammad Yusuf Khan"
 summary: "Ten essays (1971–75) warning Muslim students in the West against adopting Western ways."
 rights: link-only
 rightsNote: "© Mohammad Yusuf Khan (publisher); free scan at Internet Archive"

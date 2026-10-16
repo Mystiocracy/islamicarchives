@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Article"
 subjects:
   - political-thought
+keywords:
+  - "Umar ibn Abd al-Aziz"
+  - "Umayyad caliphate"
+  - "just ruler"
+  - "caliphate"
 summary: "Study of the reign and character of Caliph Umar ibn Abd al-Aziz."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -5,10 +5,13 @@ year: 1978
 language: "English"
 type: "Speech"
 subjects:
-  - sufism
+  - islam-and-modernity
 keywords:
-  - "Ahadith Sarihah fi Amrika (Ar.)"
-  - "Mohammad Asif Kidwai"
+  - "America"
+  - "USA"
+  - "Muslims in the West"
+  - "1977 tour"
+  - "Ahadith Sarihah fi Amrika"
 summary: "From the Depth of the Heart in America. Translated by Mohammad Asif Kidwai from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

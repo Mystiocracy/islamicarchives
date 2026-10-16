@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "wasatiyya"
+  - "moderation"
+  - "tajdid"
+  - "renewal"
 summary: "Explains the landmarks of Islamic moderation and renewal."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

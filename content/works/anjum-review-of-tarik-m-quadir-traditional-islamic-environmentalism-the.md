@@ -6,11 +6,11 @@ language: "English"
 type: "Review"
 subjects:
   - science-and-religion
-  - philosophy-and-theology
 keywords:
   - "environment"
+  - "ecology"
   - "Seyyed Hossein Nasr"
-  - "book review"
+  - "Tarik Quadir"
 venue: "American Journal of Islamic Social Sciences 32, no. 4: 123-126"
 summary: "Book review of a study of Seyyed Hossein Nasr's environmental thought."
 rights: link-only

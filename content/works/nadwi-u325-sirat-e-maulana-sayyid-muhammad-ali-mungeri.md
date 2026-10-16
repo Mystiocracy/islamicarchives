@@ -5,8 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
   - education
+  - sufism
+keywords:
+  - "Muhammad Ali Mungeri"
+  - "Nadwat al-Ulama"
+  - "founder of Nadwa"
+  - "Qadianism"
 summary: "Life of Maulana Muhammad Ali Mungeri (founder of Nadwa)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

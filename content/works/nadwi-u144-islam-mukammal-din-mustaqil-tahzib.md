@@ -7,6 +7,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic civilisation"
+  - "complete religion"
+  - "tahzib"
+  - "Westernisation"
 summary: "Islam: complete religion, independent civilisation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

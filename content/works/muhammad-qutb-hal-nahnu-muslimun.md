@@ -7,11 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
-  - political-thought
 keywords:
   - "Muslim decline"
-  - "identity"
+  - "Muslim identity"
   - "renewal"
+  - "Are We Muslims?"
 venue: "Dār al-Shurūq"
 summary: "Asks whether contemporary Muslim societies actually live by Islam and diagnoses the internal causes of decline."
 rights: link-only

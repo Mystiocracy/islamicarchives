@@ -4,8 +4,16 @@ author: nadwi
 year: 2007
 language: "English"
 type: "Pamphlet"
+subjects:
+  - quranic-studies
+  - education
 keywords:
-  - "Qasas al-Nabiyyin (Ar.)"
+  - "Isa"
+  - "Jesus"
+  - "Qur'an"
+  - "miracle"
+  - "Qasas al-Nabiyyin"
+  - "children"
 summary: "The Great Miracle. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

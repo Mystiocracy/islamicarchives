@@ -7,6 +7,12 @@ type: "Essay"
 subjects:
   - islam-and-modernity
   - philosophy-and-theology
+keywords:
+  - "critique"
+  - "secular criticism"
+  - "Kant"
+  - "Hegel"
+  - "Marx"
 summary: "Traces the shifting meanings of “critique” from Greek and juridical roots through Kant, Hegel and Marx, concluding that it is a family of practices rather than one theory."
 venue: "The Immanent Frame, 25 January 2008"
 rights: link-only

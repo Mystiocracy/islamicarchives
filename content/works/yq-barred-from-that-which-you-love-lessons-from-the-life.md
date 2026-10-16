@@ -6,10 +6,12 @@ year: 2020
 language: "English"
 type: "Paper"
 subjects:
-  - hadith-studies
+  - women-and-gender
 keywords:
-  - "History"
-  - "Life of the Prophet (seerah)"
+  - "Umm Salamah"
+  - "Mothers of the Believers"
+  - "Sahaba"
+  - "patience"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

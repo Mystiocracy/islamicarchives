@@ -7,6 +7,12 @@ language: "English"
 type: "Translation"
 subjects:
   - hadith-studies
+keywords:
+  - "Sunnah"
+  - "Kayfa Nata'amal ma'a al-Sunna al-Nabawiyya"
+  - "hadith interpretation"
+  - "literalism"
+  - "fiqh al-hadith"
 summary: "Sets principles for understanding and applying the Prophetic Sunnah, guarding against literalism and neglect."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -14,6 +14,7 @@ keywords:
   - "travel diary"
   - "Palestine"
   - "Zionism"
+  - "Arab world"
 summary: "Asad's first book, published under the name Leopold Weiss, a travel diary of his journeys in Palestine, Egypt, Transjordan and Syria in the early 1920s that portrays Arab life and criticises European and Zionist attitudes."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

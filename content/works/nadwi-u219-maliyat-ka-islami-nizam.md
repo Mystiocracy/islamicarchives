@@ -4,6 +4,13 @@ titleOriginal: "مالیات کا اسلامی نظام"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - economics
+keywords:
+  - "Islamic finance"
+  - "bayt al-mal"
+  - "zakat"
+  - "public finance"
 summary: "The Islamic financial system"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

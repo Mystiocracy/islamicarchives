@@ -10,10 +10,10 @@ subjects:
   - islam-and-modernity
 keywords:
   - "Muhawarat al-muslih wa-l-muqallid"
-  - "dialogues"
   - "taqlid"
   - "ijtihad"
   - "Muslim unity"
+  - "madhhab"
 summary: "Dialogues between a reformer and a traditional scholar on imitation (taqlīd) of the legal schools, independent reasoning and Muslim unity, first serialised in al-Manār."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1935); later translations may still be in copyright."

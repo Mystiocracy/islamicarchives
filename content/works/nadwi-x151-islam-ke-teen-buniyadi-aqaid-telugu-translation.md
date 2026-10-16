@@ -8,6 +8,9 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Islam ke Teen Buniyadi Aqaid"
+  - "tawhid"
+  - "risalat"
+  - "akhira"
 summary: "The three basic beliefs of Islam. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

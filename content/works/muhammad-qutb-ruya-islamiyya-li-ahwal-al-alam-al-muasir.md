@@ -10,7 +10,9 @@ subjects:
   - islam-and-modernity
 keywords:
   - "world affairs"
+  - "contemporary world"
   - "civilisation"
+  - "Muslim world"
 venue: "Dār al-Waṭan / Maktabat al-Sunna"
 summary: "An Islamic assessment of the state of the contemporary world and the place of Muslims in it."
 rights: link-only

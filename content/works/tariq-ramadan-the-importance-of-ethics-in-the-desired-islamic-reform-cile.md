@@ -5,12 +5,12 @@ year: 2013
 language: "English"
 type: "Video"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+  - islamic-law
 keywords:
-  - "ethics"
-  - "reform"
+  - "Islamic ethics"
+  - "Islamic reform"
   - "CILE"
-  - "conference"
 summary: "Conference address at CILE's first international conference in March 2013, arguing that any lasting Islamic reform must place ethics at its centre rather than treating it as an afterthought."
 venue: "CILE 1st International Conference"
 rights: link-only

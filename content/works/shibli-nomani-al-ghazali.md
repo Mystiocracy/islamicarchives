@@ -9,10 +9,10 @@ subjects:
   - philosophy-and-theology
   - sufism
 keywords:
-  - "al-Ghazali"
+  - "Abu Hamid al-Ghazali"
   - "kalam"
-  - "biography"
-  - "Kalam series"
+  - "Ihya' 'ulum al-din"
+  - "moral philosophy"
 summary: "A study of al-Ghazali's life and especially his writings, presenting him as a theologian and moral philosopher rather than an enemy of philosophy."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."

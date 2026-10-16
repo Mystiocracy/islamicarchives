@@ -11,7 +11,7 @@ keywords:
   - "tawhid"
   - "worldview"
   - "ethics"
-  - "IIIT"
+  - "Islamic civilisation"
 summary: "Al-Fārūqī's systematic statement of tawḥīd as the core of the Islamic worldview and its consequences for knowledge, ethics, family, politics, economics and aesthetics."
 rights: link-only
 rightsNote: "In copyright (author d. 1986)."

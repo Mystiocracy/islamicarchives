@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "aphorisms"
   - "maxims"
-  - "reflections"
+  - "Muslim politics"
+  - "spirituality"
 summary: "Series of short aphorisms on faith, modernity, Muslim politics and the spiritual life, published in numbered sets online."
 rights: link-only
 rightsNote: "In copyright (living author)."

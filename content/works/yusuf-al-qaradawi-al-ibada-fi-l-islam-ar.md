@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+  - islamic-law
+keywords:
+  - "ibadah"
+  - "worship"
+  - "Worship in Islam"
+  - "ubudiyya"
 summary: "Explains the concept and philosophy of worship in Islam."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -7,8 +7,10 @@ type: "Book"
 subjects:
   - hadith-studies
 keywords:
-  - "Ṣaḥīḥ Sunan al-Nasāʾī"
-  - "Albani"
+  - "Sunan al-Nasa'i"
+  - "al-Nasa'i"
+  - "sahih"
+  - "hadith grading"
 summary: "His list of the sound hadith in al-Nasāʾī's *Sunan* (the weak list is at https://shamela.ws/book/1148)."
 rights: link-only
 rightsNote: "Free copy hosted elsewhere; copyright stays with the author and publisher; linked, not hosted."

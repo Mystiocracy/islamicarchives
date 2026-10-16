@@ -4,6 +4,15 @@ author: nadwi
 year: 1993
 language: "English"
 type: "Speech"
+subjects:
+  - islamic-law
+  - political-thought
+keywords:
+  - "AIMPLB"
+  - "All India Muslim Personal Law Board"
+  - "Muslim Personal Law"
+  - "Jaipur"
+  - "India"
 summary: "Presidential Address, AIMPLB Conference, Jaipur, 9-10 October 1993. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

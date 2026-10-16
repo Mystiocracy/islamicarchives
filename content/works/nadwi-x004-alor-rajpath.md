@@ -4,6 +4,9 @@ titleOriginal: "আলোর রাজপথ"
 author: nadwi
 language: "Bengali"
 type: "Book"
+keywords:
+  - "guidance"
+  - "dawah"
 summary: "The highway of light. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

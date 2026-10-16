@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "Autorité spirituelle et pouvoir temporel"
   - "priesthood and kingship"
-  - "caste"
   - "sacred authority"
+  - "Traditionalism"
 summary: "Examines the traditional relationship between spiritual authority and temporal rule, arguing that political power is legitimate only when subordinated to sacred knowledge, and reads modern revolutions as a revolt against that order."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1951); later translations may still be in copyright."

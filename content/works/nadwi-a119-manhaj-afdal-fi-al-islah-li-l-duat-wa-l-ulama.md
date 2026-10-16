@@ -6,6 +6,13 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+  - islam-and-modernity
+keywords:
+  - "islah"
+  - "da'wa"
+  - "ulama"
+  - "reform methodology"
+  - "preachers"
 summary: "A Better Method of Reform for Preachers and Scholars"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

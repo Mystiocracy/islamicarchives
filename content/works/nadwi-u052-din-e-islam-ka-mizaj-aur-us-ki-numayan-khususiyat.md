@@ -4,6 +4,13 @@ titleOriginal: "دینِ اسلام کا مزاج اوراس کی نمایان �
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "nature of Islam"
+  - "characteristics of Islam"
+  - "din"
+  - "Islamic temperament"
 summary: "The temperament and distinctive features of Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

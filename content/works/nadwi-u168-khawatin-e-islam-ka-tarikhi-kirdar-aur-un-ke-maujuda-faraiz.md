@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+keywords:
+  - "Muslim women"
+  - "women in history"
+  - "women's duties"
 summary: "Historical role of Muslim women and their present duties"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

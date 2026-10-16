@@ -5,12 +5,13 @@ year: 2014
 language: "English"
 type: "Review"
 subjects:
-  - islamic-law
   - economics
+  - islamic-law
 keywords:
   - "waqf"
   - "endowments"
-  - "book review"
+  - "Pascale Ghazaleh"
+  - "Held in Trust"
 venue: "Journal of Islamic Studies 26, no. 1: 59-61"
 summary: "Book review of an edited volume on waqf (endowment) institutions."
 rights: link-only

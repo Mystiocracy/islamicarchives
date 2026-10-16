@@ -4,12 +4,13 @@ author: tariq-ramadan
 language: "English"
 type: "Video"
 subjects:
+  - islam-and-modernity
   - philosophy-and-theology
 keywords:
-  - "debate"
-  - "secularism"
   - "Cambridge Union"
-  - "religion"
+  - "secularism"
+  - "role of religion"
+  - "twenty-first century"
 summary: "Cambridge Union debate on whether religion belongs in the twenty-first century, with Ramadan among the speakers defending a role for faith."
 venue: "Cambridge Union"
 rights: link-only

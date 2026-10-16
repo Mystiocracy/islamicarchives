@@ -6,9 +6,9 @@ type: "Video"
 subjects:
   - sufism
 keywords:
-  - "Sufism"
   - "tasawwuf"
-  - "Rosales"
+  - "Alqueria de Rosales"
+  - "spirituality"
 summary: "A playlist of his lectures on Sufism, from Alqueria de Rosales."
 venue: "Alqueria de Rosales Campus"
 rights: link-only

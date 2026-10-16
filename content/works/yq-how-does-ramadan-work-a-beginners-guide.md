@@ -6,11 +6,11 @@ language: "English"
 type: "Paper"
 subjects:
   - islamic-law
-  - philosophy-and-theology
 keywords:
-  - "Acts of Worship"
-  - "Allah"
-  - "Sharia"
+  - "Ramadan"
+  - "fasting"
+  - "sawm"
+  - "beginners"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

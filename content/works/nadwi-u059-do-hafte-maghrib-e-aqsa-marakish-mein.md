@@ -5,6 +5,11 @@ author: nadwi
 year: 1976
 language: "Urdu"
 type: "Book"
+keywords:
+  - "Morocco"
+  - "Maghreb"
+  - "1976 visit"
+  - "Usbu'an fi al-Maghrib al-Aqsa"
 summary: "Two weeks in Morocco (travelogue)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

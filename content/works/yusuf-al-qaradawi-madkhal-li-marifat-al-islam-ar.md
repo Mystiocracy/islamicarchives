@@ -5,7 +5,11 @@ titleOriginal: "مدخل لمعرفة الإسلام"
 language: "Arabic"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - philosophy-and-theology
+keywords:
+  - "Introduction to Islam"
+  - "characteristics of Islam"
+  - "sources of Islam"
 summary: "Introduction to Islam's foundations, comprehensiveness and distinctive features."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

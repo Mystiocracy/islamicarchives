@@ -5,7 +5,14 @@ titleOriginal: "اصلاحی خطبات"
 language: "Urdu"
 type: "Collection"
 subjects:
+  - sufism
   - family-and-society
+keywords:
+  - "islah"
+  - "sermons"
+  - "character"
+  - "akhlaq"
+  - "Discourses on the Islamic Way of Life"
 summary: "His weekly sermons on reform of belief, conduct and character; the other volumes sit beside volume 1 as islahi_khutbaat_vol-02.pdf and so on."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

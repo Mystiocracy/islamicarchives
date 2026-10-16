@@ -5,6 +5,13 @@ author: nadwi
 year: 1969
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+  - philosophy-and-theology
+keywords:
+  - "form and reality"
+  - "inner spirit"
+  - "ikhlas"
 summary: "Form and reality"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

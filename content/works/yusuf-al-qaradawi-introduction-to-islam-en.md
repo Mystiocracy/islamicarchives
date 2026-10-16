@@ -6,6 +6,11 @@ language: "English"
 type: "Translation"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "Madkhal li-Ma'rifat al-Islam"
+  - "Islam"
+  - "characteristics of Islam"
+  - "sources of Islam"
 summary: "Presents Islam's nature, characteristics, objectives and sources for those new to it."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

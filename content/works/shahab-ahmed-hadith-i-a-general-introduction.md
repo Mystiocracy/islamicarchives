@@ -10,6 +10,7 @@ keywords:
   - "Encyclopaedia Iranica"
   - "hadith sciences"
   - "authenticity debate"
+  - "isnad"
 summary: "Encyclopaedia Iranica overview of the hadith literature, the classical hadith sciences and modern debates over authenticity."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

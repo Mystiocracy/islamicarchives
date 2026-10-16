@@ -4,6 +4,14 @@ titleOriginal: "صدر یار جنگ مولانا حبیب الرحمن خان �
 author: nadwi
 language: "Urdu"
 type: "Article"
+subjects:
+  - education
+  - political-thought
+keywords:
+  - "Habibur Rahman Khan Sherwani"
+  - "Sadr Yar Jang"
+  - "Hyderabad"
+  - "Aligarh"
 summary: "On Maulana Habibur Rahman Khan Sherwani"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

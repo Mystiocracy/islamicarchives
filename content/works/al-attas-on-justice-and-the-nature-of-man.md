@@ -9,10 +9,10 @@ subjects:
   - quranic-studies
 keywords:
   - "justice"
-  - "ʿadl"
-  - "Surat al-Nisaʾ 58"
-  - "Surat al-Muʾminun 12-14"
-  - "tafsir"
+  - "adl"
+  - "Surat al-Nisa 58"
+  - "Surat al-Muminun 12-14"
+  - "human nature"
 summary: "A commentary on Qur'an 4:58 and 23:12–14, relating the concept of justice to the creation and nature of the human being."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

@@ -7,8 +7,11 @@ type: "Paper"
 subjects:
   - quranic-studies
 keywords:
-  - "Qur'an"
-  - "qirāʾāt"
+  - "Zallat al-qari'"
+  - "Abu Hafs al-Nasafi"
+  - "lahn"
+  - "recitation errors"
+  - "tajwid"
 summary: "On a medieval work on reciters' mistakes."
 venue: "Journal of Abbasid Studies 2, pp. 1–37"
 rights: link-only

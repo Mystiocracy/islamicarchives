@@ -7,7 +7,10 @@ type: "Translation"
 subjects:
   - islam-and-modernity
 keywords:
-  - "identity"
+  - "Hal nahnu muslimun"
+  - "Are We Muslims?"
+  - "Muslim identity"
+  - "Muslim decline"
 summary: "Urdu translation of Hal nahnu muslimun."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

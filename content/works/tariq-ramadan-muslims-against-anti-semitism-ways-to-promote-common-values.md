@@ -6,6 +6,7 @@ language: "English"
 type: "Chapter"
 subjects:
   - political-thought
+  - islam-and-modernity
 keywords:
   - "antisemitism"
   - "common values"

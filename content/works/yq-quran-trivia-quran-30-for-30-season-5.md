@@ -5,10 +5,12 @@ year: 2024
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
+  - education
 keywords:
-  - "Quran"
+  - "Qur'an trivia"
+  - "Qur'an 30 for 30"
+  - "quiz"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -5,7 +5,14 @@ author: nadwi
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
+  - philosophy-and-theology
+keywords:
+  - "Sahaba"
+  - "Companions"
+  - "Shi'ism"
+  - "Sunni-Shi'i"
+  - "Imami Shi'a"
+  - "Islam and the Earliest Muslims"
 summary: "Two Contrasting Pictures (Sunni and Imami Shi'i views of the Prophet's Companions). Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

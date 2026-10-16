@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - education
+keywords:
+  - "education policy"
+  - "tarbiya"
+  - "curriculum"
+  - "Islamic education"
 summary: "A Sound Education Policy"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

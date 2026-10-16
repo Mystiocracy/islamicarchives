@@ -4,6 +4,13 @@ titleOriginal: "سوانح محبوب الہی حضرت نظام الدین او
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sufism
+keywords:
+  - "Nizamuddin Auliya"
+  - "Chishti order"
+  - "Delhi"
+  - "Mahbub-e-Ilahi"
 summary: "Life of Nizamuddin Auliya"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

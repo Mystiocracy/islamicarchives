@@ -7,8 +7,9 @@ type: "Essay"
 subjects:
   - education
 keywords:
-  - "editorial"
-  - "AJIS history"
+  - "American Journal of Islam and Society"
+  - "AJIS"
+  - "anniversary"
 venue: "American Journal of Islam and Society 40, no. 1-2: 2-4"
 summary: "Marks the journal's fortieth volume and announces anniversary initiatives."
 rights: link-only

@@ -8,8 +8,10 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "Salafi"
-  - "Ashʿarī"
+  - "Ash'ari"
+  - "Ahl al-Hadith"
   - "AMJA"
+  - "aqida"
 summary: "A conference paper (about 16 pages) on how the Salafi–Ashʿarī divide began."
 venue: "AMJA 13th Annual Imams' Conference, Chicago, 18–20 March"
 rights: link-only

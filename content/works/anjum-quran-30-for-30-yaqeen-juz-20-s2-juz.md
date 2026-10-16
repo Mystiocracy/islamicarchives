@@ -6,10 +6,14 @@ language: "English"
 type: "Video"
 subjects:
   - quranic-studies
+  - family-and-society
 keywords:
-  - "tafsir"
+  - "Yaqeen Institute"
   - "Ramadan"
-  - "Qur'an 30 for 30"
+  - "tafsir"
+  - "masculinity"
+  - "divorce"
+  - "taqwa"
 venue: "Yaqeen Institute, Qur'an 30 for 30 Ramadan series (2021-2026)"
 summary: "Annual Ramadan reflections on selected juz' of the Qur'an."
 rights: link-only

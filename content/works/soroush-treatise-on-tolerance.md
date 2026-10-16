@@ -11,7 +11,7 @@ keywords:
   - "Erasmus Prize"
   - "Praemium Erasmianum"
   - "tolerance"
-  - "Nilou Mobasser"
+  - "religious pluralism"
 summary: "Essay published on the award of the 2004 Erasmus Prize, grounding tolerance in epistemic humility and religious pluralism."
 rights: link-only
 rightsNote: "In copyright (living author)."

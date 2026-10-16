@@ -9,6 +9,8 @@ subjects:
 keywords:
   - "ISIS"
   - "caliphate"
+  - "extremism"
+  - "jihadism"
 venue: "Alwaleed Center for Muslim-Christian Understanding, Georgetown"
 summary: "Talk on ISIS's claims and the interpretation of Islam."
 rights: link-only

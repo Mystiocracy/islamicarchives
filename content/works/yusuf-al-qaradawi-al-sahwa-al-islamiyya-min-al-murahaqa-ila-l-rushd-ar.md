@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "Islamic movement"
+  - "maturity"
 summary: "Reflects on the maturation of the Islamic revival from adolescence to maturity."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

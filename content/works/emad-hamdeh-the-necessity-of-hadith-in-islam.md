@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "hadith"
   - "Sunna"
-  - "authority"
+  - "authority of hadith"
+  - "Qur'an-only"
 summary: "On why the Sunna is needed to understand the Qur'an; 225 pages."
 venue: "International Islamic Publishing House"
 rights: link-only

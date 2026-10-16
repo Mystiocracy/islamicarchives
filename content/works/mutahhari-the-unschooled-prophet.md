@@ -13,6 +13,7 @@ keywords:
   - "ummi"
   - "prophethood"
   - "literacy of the Prophet"
+  - "i'jaz"
 summary: "Examines historical and Qur'anic evidence on whether the Prophet Muhammad could read or write and what his being 'unlettered' means for the miraculous character of the Qur'an."
 rights: link-only
 rightsNote: "In copyright (author d. 1979)."

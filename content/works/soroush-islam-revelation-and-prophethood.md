@@ -5,13 +5,13 @@ year: 2002
 language: "Persian"
 type: "Interview"
 subjects:
-  - quranic-studies
   - philosophy-and-theology
+  - quranic-studies
 keywords:
   - "Aftab"
   - "Expansion of Prophetic Experience"
   - "revelation"
-  - "prophecy"
+  - "prophethood"
 summary: "A long interview explaining and defending the theory of revelation set out in The Expansion of Prophetic Experience."
 rights: link-only
 rightsNote: "In copyright (living author)."

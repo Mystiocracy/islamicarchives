@@ -9,6 +9,7 @@ subjects:
 keywords:
   - "discursive integration"
   - "ummatics"
+  - "Muslim unity"
 venue: "Ummatics Annual Conference 2024"
 summary: "Talk on integrating Muslim intellectual discourses as a path to change."
 rights: link-only

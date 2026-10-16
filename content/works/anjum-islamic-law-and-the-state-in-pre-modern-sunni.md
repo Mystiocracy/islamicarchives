@@ -11,6 +11,7 @@ keywords:
   - "state"
   - "siyasa shar'iyya"
   - "caliphate"
+  - "jurists"
 venue: "In Khaled Abou El Fadl, Ahmad Atif Ahmad and Said Fares Hassan (eds.), Routledge Handbook of Islamic Law (Routledge), 355-373"
 summary: "Surveys how pre-modern Sunni jurists theorised the relationship between law and state authority."
 rights: link-only

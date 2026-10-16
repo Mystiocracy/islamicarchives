@@ -6,11 +6,12 @@ language: "English"
 type: "Video"
 subjects:
   - political-thought
+  - sufism
 keywords:
-  - "Ramadan"
   - "Palestine"
-  - "spirituality"
-  - "daily series"
+  - "Gaza"
+  - "month of Ramadan"
+  - "spiritual lessons"
 summary: "Daily Ramadan talks for 2025 drawing spiritual and ethical lessons from the experience of Palestine, with a French twin playlist."
 venue: "Tariq Ramadan Official"
 rights: link-only

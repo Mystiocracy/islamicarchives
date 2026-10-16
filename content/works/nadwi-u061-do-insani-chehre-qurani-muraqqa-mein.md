@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an"
+  - "believer and unbeliever"
+  - "human types"
+  - "Qur'anic portraits"
 summary: "Two human faces in the Quranic portrait"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

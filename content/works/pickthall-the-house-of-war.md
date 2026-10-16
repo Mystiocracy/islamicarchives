@@ -5,8 +5,8 @@ year: 1916
 language: "English"
 type: "Novel"
 subjects:
-  - political-thought
   - colonialism-and-decolonisation
+  - political-thought
 keywords:
   - "Syria"
   - "Muslim-Christian relations"

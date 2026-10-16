@@ -9,7 +9,7 @@ subjects:
 keywords:
   - "jihad"
   - "BBC"
-  - "Amroliwala"
+  - "Matthew Amroliwala"
 summary: "BBC World interview segment in which Ramadan is questioned on the meaning of jihad and its use in contemporary politics."
 venue: "BBC World News"
 rights: link-only

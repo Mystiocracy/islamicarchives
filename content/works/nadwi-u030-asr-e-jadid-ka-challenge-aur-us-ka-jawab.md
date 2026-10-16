@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "modern challenge"
+  - "modernity"
+  - "Western thought"
+  - "Islamic response"
 summary: "The modern challenge and its answer"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

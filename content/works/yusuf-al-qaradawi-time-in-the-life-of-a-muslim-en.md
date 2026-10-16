@@ -6,6 +6,12 @@ language: "English"
 type: "Translation"
 subjects:
   - family-and-society
+  - sufism
+keywords:
+  - "Al-Waqt fi Hayat al-Muslim"
+  - "time"
+  - "time management"
+  - "accountability"
 summary: "Short work on the value of time and how a Muslim should use and account for it."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

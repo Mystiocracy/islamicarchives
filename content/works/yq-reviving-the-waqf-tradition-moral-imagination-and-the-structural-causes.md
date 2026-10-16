@@ -5,10 +5,14 @@ byline: "Zara Khan"
 year: 2020
 language: "English"
 type: "Paper"
-subjects: []
+subjects:
+  - economics
 keywords:
-  - "History"
-  - "Islamic Civilization"
+  - "waqf"
+  - "poverty"
+  - "endowments"
+  - "structural poverty"
+  - "philanthropy"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

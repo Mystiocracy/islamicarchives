@@ -7,8 +7,8 @@ type: "Book"
 subjects:
   - islam-and-modernity
 keywords:
-  - "al-Islam wa Atharuhu fi al-Hadara wa Fadluhu 'ala al-Insaniyya (Arabic)"
-  - "Abdulqayyum Abdulghaffarkhon"
+  - "al-Islam wa Atharuhu fi al-Hadara wa Fadluhu 'ala al-Insaniyya"
+  - "Islamic civilisation"
 summary: "Islam, its influence on civilisation and its grace towards humanity. Translated by Abdulqayyum Abdulghaffarkhon."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

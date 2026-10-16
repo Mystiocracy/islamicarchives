@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+  - islam-and-modernity
+keywords:
+  - "Islamic solution"
+  - "secularism"
+  - "Westernisers"
+  - "application of sharia"
 summary: "Evidence for the Islamic solution and replies to secularist and Westernizing objections."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

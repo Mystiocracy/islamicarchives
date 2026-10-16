@@ -4,8 +4,10 @@ titleOriginal: "سیرت کا پیغام موجودہ دور کے مسلمانو
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "contemporary Muslims"
 summary: "The Sira's message to today's Muslims"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

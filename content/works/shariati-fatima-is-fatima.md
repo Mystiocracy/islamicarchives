@@ -9,8 +9,8 @@ subjects:
 keywords:
   - "Fatemeh Fatemeh ast"
   - "Fatima al-Zahra"
-  - "Laleh Bakhtiar"
   - "role model"
+  - "Westernisation"
 summary: "A lecture presenting the Prophet's daughter Fāṭima as a model for Muslim women who reject both traditional passivity and Westernised consumer identity."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

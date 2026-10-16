@@ -5,12 +5,14 @@ year: 2012
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - sufism
+  - political-thought
 keywords:
-  - "Ramadan"
+  - "month of Ramadan"
   - "fasting"
   - "justice"
-  - "resistance"
+  - "oppression"
+  - "self-mastery"
 summary: "As the month ends, Ramadan argues that fasting should leave believers with self-mastery and generosity, and that this spiritual discipline must fuel opposition to injustice and oppression all year."
 venue: "ABC Religion & Ethics, 20 August 2012"
 rights: link-only

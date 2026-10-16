@@ -9,6 +9,9 @@ subjects:
 keywords:
   - "deep differences"
   - "sectarianism"
+  - "Yasmeen Daifallah"
+  - "ummatics"
+  - "Muslim unity"
 venue: "Ummatics"
 summary: "Colloquium on handling deep doctrinal and political differences within the Umma."
 rights: link-only

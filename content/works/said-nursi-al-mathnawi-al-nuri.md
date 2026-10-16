@@ -11,8 +11,8 @@ subjects:
 keywords:
   - "Mesnevi-i Nuriye"
   - "Seedbed of the Light"
-  - "divine unity"
-  - "transition to the New Said"
+  - "tawhid"
+  - "Old Said and New Said"
 summary: "A set of Arabic treatises on divine unity and the inner life written during his transition from the 'Old Said' to the 'New Said', regarded as the seedbed of the Risale-i Nur."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

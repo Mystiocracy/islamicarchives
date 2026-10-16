@@ -4,9 +4,15 @@ author: keith-small
 year: 2015
 language: English
 type: "Book"
-venue: "Bodleian Library Publishing, Oxford"
 subjects:
   - quranic-studies
+keywords:
+  - "Qur'an manuscripts"
+  - "Bodleian Library"
+  - "illumination"
+  - "calligraphy"
+  - "history of the Qur'an"
+venue: "Bodleian Library Publishing, Oxford"
 summary: "Illustrated history of the Qur'an built around fifty-five manuscripts, mostly from the Bodleian Library."
 rights: link-only
 infoUrl: "https://bodleianshop.co.uk/products/qurans"

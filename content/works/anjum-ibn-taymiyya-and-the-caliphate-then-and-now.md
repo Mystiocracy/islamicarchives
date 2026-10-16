@@ -9,6 +9,8 @@ subjects:
 keywords:
   - "Ibn Taymiyya"
   - "caliphate"
+  - "khilafa"
+  - "al-Siyasa al-shar'iyya"
 venue: "IIIT"
 summary: "Lecture on Ibn Taymiyya's political thought and its relevance to modern caliphate debates."
 rights: link-only

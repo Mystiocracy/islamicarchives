@@ -9,8 +9,9 @@ subjects:
 keywords:
   - "France"
   - "coexistence"
+  - "laïcité"
   - "integration"
-  - "secularism"
+  - "French Muslims"
 summary: "Addresses the position of France's Muslims, urging them to move from a posture of isolation or grievance to confident participation, while asking the republic to apply its principles of equality and secularism fairly to a visible religious minority."
 venue: "The Islamic Foundation (Markfield, Leicester)"
 rights: link-only

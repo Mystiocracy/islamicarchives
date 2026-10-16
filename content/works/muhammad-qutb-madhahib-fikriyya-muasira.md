@@ -8,12 +8,13 @@ type: "Book"
 subjects:
   - political-thought
   - islam-and-modernity
-  - philosophy-and-theology
 keywords:
   - "ideologies"
   - "secularism"
-  - "communism"
   - "democracy"
+  - "nationalism"
+  - "communism"
+  - "capitalism"
 venue: "Dār al-Shurūq"
 summary: "Critical survey of modern Western ideologies such as secularism, democracy, nationalism, communism and capitalism."
 rights: link-only

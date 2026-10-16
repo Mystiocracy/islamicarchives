@@ -7,10 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - philosophy-and-theology
-  - political-thought
+  - psychology-and-mental-health
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "qadar"
+  - "divine wisdom"
+  - "hikma"
+  - "trust in God"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

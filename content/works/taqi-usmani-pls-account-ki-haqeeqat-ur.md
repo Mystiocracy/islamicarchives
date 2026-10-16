@@ -7,6 +7,11 @@ type: "Pamphlet"
 subjects:
   - economics
   - islamic-law
+keywords:
+  - "PLS account"
+  - "profit and loss sharing"
+  - "Islamic banking"
+  - "riba"
 summary: "Explains how profit-and-loss-sharing bank accounts work and their Sharia status."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

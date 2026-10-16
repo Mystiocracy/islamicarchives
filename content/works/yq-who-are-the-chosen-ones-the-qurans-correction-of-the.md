@@ -6,10 +6,15 @@ year: 2024
 language: "English"
 type: "Paper"
 subjects:
-  - philosophy-and-theology
   - quranic-studies
+  - philosophy-and-theology
 keywords:
-  - "Quran"
+  - "Children of Israel"
+  - "chosen people"
+  - "election"
+  - "Bible"
+  - "Bani Isra'il"
+  - "Judaism"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

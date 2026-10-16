@@ -6,10 +6,12 @@ language: "English"
 type: "Paper"
 subjects:
   - philosophy-and-theology
-  - political-thought
+  - education
 keywords:
-  - "Epistemology"
-  - "Politics & Practical Theology"
+  - "fake news"
+  - "information literacy"
+  - "epistemology"
+  - "tabayyun"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

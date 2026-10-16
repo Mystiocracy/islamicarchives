@@ -4,8 +4,13 @@ titleOriginal: "د امام رباني ژونذ، خدمتونه اولارنب�
 author: nadwi
 language: "Pashto"
 type: "Book"
+subjects:
+  - sufism
 keywords:
-  - "probably Tarikh-e-Da'wat-o-Azimat vol. 4 (Mujaddid Alf-e-Sani)"
+  - "Shaykh Ahmad Sirhindi"
+  - "Mujaddid Alf-e-Sani"
+  - "Naqshbandi"
+  - "Tarikh-e-Da'wat-o-Azimat"
 summary: "The life, services and guidance of Imam Rabbani (Mujaddid Alf-e-Sani). Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

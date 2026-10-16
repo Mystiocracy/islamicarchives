@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "Sayyid Qutb"
   - "biography"
-  - "audio"
+  - "Muslim Brotherhood"
+  - "Egypt"
 venue: "Internet Archive"
 summary: "Audio talk (1h32) in which he narrates the life of his brother Sayyid Qutb."
 rights: link-only

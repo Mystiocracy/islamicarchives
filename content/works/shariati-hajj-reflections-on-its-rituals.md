@@ -5,14 +5,13 @@ titleOriginal: "حج"
 language: "Persian"
 type: "Book"
 subjects:
-  - philosophy-and-theology
   - sufism
+  - philosophy-and-theology
 keywords:
   - "Hajj"
   - "pilgrimage"
   - "symbolism"
-  - "Ali Behzadnia"
-  - "Laleh Bakhtiar"
+  - "rituals of Hajj"
 summary: "A symbolic and existential reading of the rites of the pilgrimage, treating each ritual as a stage in humanity's return to God and to its true self."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

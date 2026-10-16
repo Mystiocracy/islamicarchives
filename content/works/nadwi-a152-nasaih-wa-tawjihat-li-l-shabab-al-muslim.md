@@ -5,6 +5,14 @@ author: nadwi
 year: 1999
 language: "Arabic"
 type: "Speech"
+subjects:
+  - islam-and-modernity
+  - education
+keywords:
+  - "Muslim youth"
+  - "youth"
+  - "advice"
+  - "tarbiya"
 summary: "Advice and Guidance for Muslim Youth"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

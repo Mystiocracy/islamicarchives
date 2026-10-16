@@ -5,6 +5,13 @@ author: nadwi
 year: 2008
 language: "Arabic"
 type: "Book"
+subjects:
+  - political-thought
+keywords:
+  - "Muslims and the Palestine Question"
+  - "Palestine"
+  - "Zionism"
+  - "al-Aqsa"
 summary: "Muslims and the Palestine Question"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

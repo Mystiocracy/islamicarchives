@@ -5,14 +5,14 @@ year: 2021
 language: "English"
 type: "Essay"
 subjects:
-  - quranic-studies
   - philosophy-and-theology
+  - psychology-and-mental-health
 keywords:
   - "suffering"
   - "tribulation"
   - "patience"
-  - "trials"
-  - "Renovatio"
+  - "sabr"
+  - "surrender"
 summary: "A reflection on Qur'anic teaching about trials and affliction, presenting patient surrender to God as the proper response to suffering."
 rights: link-only
 rightsNote: "In copyright (living author)."

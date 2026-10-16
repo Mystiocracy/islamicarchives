@@ -6,7 +6,13 @@ language: "English"
 type: "Essay"
 subjects:
   - islam-and-modernity
-  - philosophy-and-theology
+  - political-thought
+keywords:
+  - "secularism"
+  - "Saba Mahmood"
+  - "Charles Taylor"
+  - "Habermas"
+  - "Gil Anidjar"
 summary: "Examines secularism as a form of power in response to Saba Mahmood, Gil Anidjar, Charles Taylor and Jürgen Habermas."
 venue: "The Immanent Frame, 17 November 2007"
 rights: link-only

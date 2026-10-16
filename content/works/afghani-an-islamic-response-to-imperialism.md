@@ -9,10 +9,10 @@ subjects:
   - colonialism-and-decolonisation
   - islam-and-modernity
 keywords:
-  - "Nikki R. Keddie (translator)"
-  - "selected writings"
   - "Refutation of the Materialists"
   - "Answer to Renan"
+  - "imperialism"
+  - "pan-Islamism"
 summary: "English translations of al-Afghānī's main political and religious writings with a biographical study by Nikki R. Keddie."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1897); later translations may still be in copyright."

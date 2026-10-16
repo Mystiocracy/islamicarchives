@@ -8,9 +8,10 @@ subjects:
   - quranic-studies
   - islam-and-modernity
 keywords:
-  - "Quran movement"
+  - "Dawat-e-Rujoo Ilal Quran"
+  - "Qur'an movement"
   - "Anjuman Khuddam-ul-Quran"
-  - "history"
+  - "Islamic revival"
 summary: "Explains the intellectual background and history of his movement for a return to the Qur'an."
 rights: link-only
 rightsNote: "In copyright (author d. 2010); free copy published by Tanzeem-e-Islami."

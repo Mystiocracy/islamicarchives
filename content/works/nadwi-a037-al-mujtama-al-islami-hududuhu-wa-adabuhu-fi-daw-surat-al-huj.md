@@ -4,6 +4,14 @@ titleOriginal: "المجتمع الإسلامي: حدوده وآدابه في ض
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - quranic-studies
+  - family-and-society
+keywords:
+  - "Surat al-Hujurat"
+  - "Muslim society"
+  - "adab"
+  - "social ethics"
 summary: "Muslim Society: Its Limits and Manners in Light of Surat al-Hujurat"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

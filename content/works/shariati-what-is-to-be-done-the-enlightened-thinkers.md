@@ -10,9 +10,10 @@ subjects:
   - political-thought
 keywords:
   - "Che bayad kard"
-  - "Farhang Rajaee"
-  - "John L. Esposito"
   - "Islamic Protestantism"
+  - "rawshanfekr"
+  - "Islamic renaissance"
+  - "intellectuals"
 summary: "Edited English collection of Sharīʿatī's writings on the task of Muslim intellectuals and his call for an 'Islamic Protestantism'."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

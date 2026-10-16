@@ -8,7 +8,11 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Allah"
+  - "yaqin"
+  - "certainty"
+  - "iman"
+  - "faith"
+  - "In Pursuit of Conviction"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

@@ -6,6 +6,11 @@ language: "Arabic"
 type: "Pamphlet"
 subjects:
   - islam-and-modernity
+keywords:
+  - "civilisational message"
+  - "ummah"
+  - "Western civilisation"
+  - "Islamic civilisation"
 summary: "Argues humanity needs the civilisational message of the Muslim ummah."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

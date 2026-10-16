@@ -7,12 +7,14 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
-  - islamic-law
+  - islam-and-modernity
 keywords:
   - "tawhid"
   - "worship"
   - "hakimiyya"
-  - "concepts"
+  - "la ilaha illa Allah"
+  - "iman"
+  - "civilisation"
 venue: "Dār al-Shurūq"
 summary: "Seeks to correct prevailing understandings of core concepts such as la ilaha illa Allah, worship, faith, and civilisation."
 rights: link-only

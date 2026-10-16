@@ -6,13 +6,14 @@ year: 1949
 language: "Arabic"
 type: "Book"
 subjects:
-  - political-thought
   - economics
+  - political-thought
 keywords:
   - "al-'Adala al-ijtima'iyya fi al-Islam"
   - "social justice"
-  - "tr. John B. Hardie"
-  - "Hamid Algar"
+  - "zakat"
+  - "capitalism"
+  - "communism"
 summary: "Argues that Islam contains a complete theory of social justice, covering property, zakat and government, that offers an alternative to capitalism and communism."
 rights: link-only
 rightsNote: "In copyright (author d. 1966)."

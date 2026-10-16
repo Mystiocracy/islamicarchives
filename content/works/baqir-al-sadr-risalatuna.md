@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "Our Mission"
   - "al-Adwa'"
-  - "editorials"
   - "Islamic revival"
+  - "Najaf"
 summary: "Editorial essays first written for the Najaf journal al-Aḍwāʾ on the mission of Islam and the conditions for the revival of the Muslim community."
 rights: link-only
 rightsNote: "In copyright (author d. 1980)."

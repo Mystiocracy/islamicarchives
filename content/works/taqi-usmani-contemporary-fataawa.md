@@ -5,6 +5,10 @@ language: "English"
 type: "Collection"
 subjects:
   - islamic-law
+keywords:
+  - "fatwas"
+  - "worship"
+  - "modern issues"
 summary: "Selected fatwas on worship and modern issues (a large scan, about 180 MB)."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

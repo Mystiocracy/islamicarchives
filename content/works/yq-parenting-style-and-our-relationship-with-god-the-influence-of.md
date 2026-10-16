@@ -7,11 +7,12 @@ language: "English"
 type: "Paper"
 subjects:
   - family-and-society
+  - psychology-and-mental-health
 keywords:
-  - "Data"
-  - "Family & Community"
-  - "Parenting"
-  - "Reports"
+  - "parenting style"
+  - "image of God"
+  - "parental love"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

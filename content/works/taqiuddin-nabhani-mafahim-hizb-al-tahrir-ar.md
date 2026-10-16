@@ -7,6 +7,12 @@ language: "Arabic"
 type: "Book"
 subjects:
   - political-thought
+keywords:
+  - "Concepts of Hizb ut-Tahrir"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "qadar"
+  - "method of change"
 summary: "Explains the core concepts the Party adopts, such as the creed, qadar and the method of change."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

@@ -4,7 +4,12 @@ author: taqi-usmani
 language: "English"
 type: "Book"
 subjects:
-  - islam-and-modernity
+  - education
+keywords:
+  - "Deoband"
+  - "Darul Uloom Deoband"
+  - "Akabir-e-Deoband"
+  - "ulama"
 summary: "English edition of his sketches of the leading scholars of Deoband."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

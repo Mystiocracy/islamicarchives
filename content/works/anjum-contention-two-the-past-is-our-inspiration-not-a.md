@@ -9,7 +9,8 @@ subjects:
 keywords:
   - "ummatics"
   - "Islamic history"
-  - "unity"
+  - "Muslim unity"
+  - "umma"
 venue: "Ummatics Institute"
 summary: "Rejects the view that historical disunity makes Muslim political unity futile, treating the Umma's past as inspiration."
 rights: link-only

@@ -5,8 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Book"
 subjects:
-  - hadith-studies
   - quranic-studies
+  - hadith-studies
+keywords:
+  - "Qur'an"
+  - "sunna"
+  - "guidance"
+  - "code of life"
+  - "ethics"
 summary: "Code of life (Quranic and prophetic guidance)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

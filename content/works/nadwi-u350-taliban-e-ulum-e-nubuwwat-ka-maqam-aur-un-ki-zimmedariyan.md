@@ -5,8 +5,11 @@ author: nadwi
 language: "Urdu"
 type: "Speech"
 subjects:
-  - hadith-studies
   - education
+keywords:
+  - "students of religious knowledge"
+  - "madrasa students"
+  - "ulama"
 summary: "Status and duties of students of prophetic knowledge (addresses) 2 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

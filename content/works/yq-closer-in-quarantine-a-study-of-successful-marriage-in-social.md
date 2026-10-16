@@ -8,10 +8,11 @@ type: "Paper"
 subjects:
   - family-and-society
 keywords:
-  - "Data"
-  - "Family & Community"
-  - "Marriage"
-  - "Reports"
+  - "marriage"
+  - "Covid-19"
+  - "quarantine"
+  - "marital satisfaction"
+  - "survey"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

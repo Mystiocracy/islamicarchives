@@ -7,9 +7,10 @@ type: "Pamphlet"
 subjects:
   - political-thought
 keywords:
-  - "Dawatuna"
+  - "Da'watuna"
   - "Muslim Brotherhood"
   - "nationalism"
+  - "patriotism"
 summary: "An early statement of the Brotherhood's message and its position on nationalism, patriotism and other contemporary ideologies."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1949); later translations may still be in copyright."

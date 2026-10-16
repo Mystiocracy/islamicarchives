@@ -12,7 +12,7 @@ keywords:
   - "metaphysics"
   - "intuition of existence"
   - "degrees of existence"
-  - "ISTAC"
+  - "happiness"
 summary: "Al-Attas's principal philosophical work, gathering his essays on the Islamic worldview, religion, knowledge, happiness, the soul and the metaphysics of being."
 rights: link-only
 rightsNote: "In copyright (author d. 2026)."

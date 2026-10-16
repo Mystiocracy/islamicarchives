@@ -9,6 +9,8 @@ subjects:
 keywords:
   - "ulama"
   - "political theology"
+  - "SherAli Tareen"
+  - "empire"
 venue: "Ummatics"
 summary: "Colloquium discussion with SherAli Tareen; Anjum is listed as co-presenter."
 rights: link-only

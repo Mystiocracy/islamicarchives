@@ -4,8 +4,9 @@ titleOriginal: "দাওয়াতে নববী: উসূল"
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
-subjects:
-  - hadith-studies
+keywords:
+  - "dawah"
+  - "Prophet Muhammad"
 summary: "Principles of the prophetic call. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

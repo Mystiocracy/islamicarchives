@@ -10,8 +10,10 @@ subjects:
 keywords:
   - "Arafat journal"
   - "periodical"
-  - "Lahore"
+  - "ijtihad"
   - "Islamic revival"
+  - "Islamic state"
+  - "Lahore"
 summary: "A periodical written almost entirely by Asad himself, published in 1946–47, setting out his views on Islamic renewal, ijtihad and the shape of a future Muslim state."
 rights: link-only
 rightsNote: "In copyright (author d. 1992)."

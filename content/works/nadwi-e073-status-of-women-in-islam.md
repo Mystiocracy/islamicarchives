@@ -6,6 +6,10 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+keywords:
+  - "women's rights"
+  - "status of women"
+  - "Muslim women"
 summary: "Status of Women in Islam. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

@@ -4,6 +4,9 @@ titleOriginal: "मेरे जीवन का एतिहासिक दि
 author: nadwi
 language: "Hindi"
 type: "Speech"
+keywords:
+  - "Payam-e-Insaniyat"
+  - "India"
 summary: "A historic day of my life. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

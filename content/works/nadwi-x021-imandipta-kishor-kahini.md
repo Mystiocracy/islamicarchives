@@ -4,10 +4,10 @@ titleOriginal: "ঈমীনদীপ্ত কিশোর কাহিনী"
 author: nadwi
 language: "Bengali"
 type: "Book"
-subjects:
-  - philosophy-and-theology
 keywords:
-  - "Qasas min al-Tarikh al-Islami lil-Atfal (Arabic)"
+  - "Qasas min al-Tarikh al-Islami lil-Atfal"
+  - "children"
+  - "Islamic history"
 summary: "Faith-illumined stories for young people. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

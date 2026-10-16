@@ -5,9 +5,14 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - hadith-studies
-  - sufism
-  - philosophy-and-theology
+  - quranic-studies
+  - islam-and-modernity
+keywords:
+  - "da'wa"
+  - "Yusuf"
+  - "Joseph"
+  - "Surah Yusuf"
+  - "prison"
 summary: "Calling to God in the manner of Prophet Yusuf"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

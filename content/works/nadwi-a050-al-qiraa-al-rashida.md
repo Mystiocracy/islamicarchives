@@ -4,6 +4,13 @@ titleOriginal: "القراءة الراشدة لتعليم اللغة العرب
 author: nadwi
 language: "Arabic"
 type: "Book"
+subjects:
+  - education
+keywords:
+  - "The Guided Reader"
+  - "Arabic language"
+  - "Arabic textbook"
+  - "Arabic reader"
 summary: "The Guided Reader (Arabic-language textbook) 3 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

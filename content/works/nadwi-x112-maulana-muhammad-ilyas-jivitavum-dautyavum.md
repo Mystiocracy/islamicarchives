@@ -5,9 +5,13 @@ author: nadwi
 year: 2002
 language: "Malayalam"
 type: "Book"
+subjects:
+  - sufism
 keywords:
+  - "Muhammad Ilyas Kandhlawi"
   - "Hazrat Maulana Muhammad Ilyas aur unki Dini Da'wat"
-  - "Hafiz P.P. Ishaq Maulavi al-Qasimi (per archive.org copy of same title)"
+  - "Tablighi Jamaat"
+  - "dawah"
 summary: "Maulana Muhammad Ilyas: life and mission. Translated by Hafiz P.P. Ishaq Maulavi al-Qasimi (per archive.org copy of same title)."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

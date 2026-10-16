@@ -5,8 +5,13 @@ author: nadwi
 language: "Urdu"
 type: "Pamphlet"
 subjects:
-  - sufism
   - education
+  - sufism
+keywords:
+  - "ulama"
+  - "da'wa"
+  - "broad-mindedness"
+  - "tolerance"
 summary: "Breadth of heart and vision of a scholar and preacher"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

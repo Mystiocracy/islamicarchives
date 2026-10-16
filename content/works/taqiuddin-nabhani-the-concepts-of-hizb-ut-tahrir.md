@@ -7,6 +7,11 @@ language: "English"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Mafahim Hizb al-Tahrir"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "method of change"
 summary: "English translation of the Party’s basic concepts."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

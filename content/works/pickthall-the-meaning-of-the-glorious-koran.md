@@ -7,10 +7,10 @@ type: "Translation"
 subjects:
   - quranic-studies
 keywords:
-  - "Pickthall translation"
+  - "Qur'an translation"
   - "Qur'an in English"
-  - "Holy Quran"
-  - "Glorious Koran"
+  - "Holy Qur'an"
+  - "al-Azhar"
 summary: "Marmaduke Pickthall's complete English rendering of the Qurʾān, the first by an English Muslim, prepared with the approval of scholars at al-Azhar and first published in 1930."
 rights: public-domain
 rightsNote: "Public domain in most countries (translator d. 1936)."

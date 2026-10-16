@@ -6,10 +6,12 @@ language: "English"
 type: "Paper"
 subjects:
   - philosophy-and-theology
-  - political-thought
+  - sufism
 keywords:
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
+  - "prophetic ethics"
+  - "Islamic ethics"
+  - "akhlaq"
+  - "salvation"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

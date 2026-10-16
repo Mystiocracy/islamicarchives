@@ -8,8 +8,10 @@ type: "Paper"
 subjects:
   - psychology-and-mental-health
 keywords:
-  - "Psychology & Mental Health"
-  - "Trauma"
+  - "inner critic"
+  - "guilt"
+  - "self-blame"
+  - "shame"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

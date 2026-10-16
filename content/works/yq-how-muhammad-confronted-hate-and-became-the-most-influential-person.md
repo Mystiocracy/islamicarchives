@@ -8,7 +8,11 @@ type: "Paper"
 subjects:
   - philosophy-and-theology
 keywords:
-  - "Prophets"
+  - "Prophet Muhammad"
+  - "hatred"
+  - "influence"
+  - "Michael Hart"
+  - "prophetic character"
 venue: "Yaqeen Institute"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

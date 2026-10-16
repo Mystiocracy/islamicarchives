@@ -6,8 +6,14 @@ year: 1996
 language: "Arabic"
 type: "Book"
 subjects:
-  - hadith-studies
-  - women-and-gender
+  - quranic-studies
+  - education
+keywords:
+  - "Qasas al-Nabiyyin"
+  - "Stories of the Prophets"
+  - "children"
+  - "Arabic reader"
+  - "prophets"
 summary: "Stories of the Prophets for Children 5 volumes."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from waqfeya.net"

@@ -5,12 +5,14 @@ year: 2025
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
-  - psychology-and-mental-health
+  - quranic-studies
+  - women-and-gender
 keywords:
-  - "Allah"
-  - "General Psychology"
-  - "Psychology & Mental Health"
+  - "Maryam"
+  - "Mary"
+  - "Surat Maryam"
+  - "pain"
+  - "faith"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

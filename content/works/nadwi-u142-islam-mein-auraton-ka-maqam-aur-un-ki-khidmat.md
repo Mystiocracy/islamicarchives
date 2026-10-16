@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - women-and-gender
+keywords:
+  - "status of women"
+  - "Muslim women scholars"
+  - "women's contributions"
 summary: "Women's status and contributions in Islam"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

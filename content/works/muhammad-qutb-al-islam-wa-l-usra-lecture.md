@@ -7,8 +7,10 @@ type: "Video"
 subjects:
   - family-and-society
 keywords:
-  - "lecture"
   - "family"
+  - "usra"
+  - "marriage"
+  - "Islamic family"
 venue: "YouTube (Qaradawi channel)"
 summary: "Lecture (1h22) on Islam and the family."
 rights: link-only

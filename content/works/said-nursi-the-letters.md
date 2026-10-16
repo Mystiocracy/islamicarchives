@@ -10,8 +10,7 @@ subjects:
 keywords:
   - "Mektubat"
   - "Risale-i Nur"
-  - "Miracles of Muhammad"
-  - "Sufism"
+  - "miracles of the Prophet"
 summary: "Thirty-three letters answering questions from students on theology, Sufism, the Prophet's miracles and the events of the time, written mostly in Barla."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

@@ -3,8 +3,15 @@ title: "Country on a Dangerous Turn and Responsibility of the Intellectuals"
 author: nadwi
 language: "English"
 type: "Speech"
+subjects:
+  - political-thought
+  - education
 keywords:
-  - "Mulk ka Khatarnak Rukh aur Danishwar Tabqa ki Zimmedari (Ur.)"
+  - "India"
+  - "intellectuals"
+  - "Payam-e-Insaniyat"
+  - "communalism"
+  - "Mulk ka Khatarnak Rukh aur Danishwar Tabqa ki Zimmedari"
 summary: "Country on a Dangerous Turn and Responsibility of the Intellectuals. Translated from Urdu."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

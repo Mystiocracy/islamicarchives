@@ -8,10 +8,10 @@ subjects:
   - philosophy-and-theology
   - islamic-law
 keywords:
-  - "Yossef Rapoport"
-  - "edited volume"
-  - "Mamluk"
   - "Ibn Taymiyya"
+  - "Yossef Rapoport"
+  - "Mamluk"
+  - "Salafism"
 summary: "Edited with Yossef Rapoport, a collection of studies on the life, thought and influence of Ibn Taymiyya."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

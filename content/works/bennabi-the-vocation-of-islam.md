@@ -9,6 +9,7 @@ subjects:
   - islam-and-modernity
   - colonialism-and-decolonisation
 keywords:
+  - "Vocation de l'Islam"
   - "Wijhat al-'alam al-Islami"
   - "Muslim world"
   - "post-Almohad decline"

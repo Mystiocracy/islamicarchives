@@ -9,10 +9,11 @@ subjects:
   - political-thought
   - economics
 keywords:
+  - "Abu Dharr"
   - "Abu Zarr"
-  - "ʿAbd al-Hamid Jawdat al-Sahhar"
   - "Islamic socialism"
   - "companion of the Prophet"
+  - "'Abd al-Hamid Jawdat al-Sahhar"
 summary: "Sharīʿatī's Persian rendering of an Egyptian biography of the Prophet's companion Abū Dharr, recast as a model of egalitarian, anti-tyrannical faith; later paired with his lecture 'And Once Again Abu Dharr'."
 rights: link-only
 rightsNote: "In copyright (author d. 1977)."

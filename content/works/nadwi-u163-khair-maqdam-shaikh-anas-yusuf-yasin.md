@@ -4,6 +4,13 @@ titleOriginal: "خیر مقدم"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "Anas Yusuf Yasin"
+  - "Saudi Arabia"
+  - "welcome address"
+  - "India-Saudi relations"
 summary: "Welcome address to the Saudi ambassador Shaikh Anas Yusuf Yasin"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

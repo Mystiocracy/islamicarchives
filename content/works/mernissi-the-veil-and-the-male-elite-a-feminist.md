@@ -13,7 +13,7 @@ keywords:
   - "Women and Islam"
   - "hijab"
   - "Abu Bakra hadith"
-  - "tr. Mary Jo Lakeland"
+  - "misogynistic hadith"
 summary: "Re-examines the Prophet's household and the transmission of misogynistic hadith to argue that early Islam was later reshaped by male political elites."
 rights: link-only
 rightsNote: "In copyright (author d. 2015)."

@@ -6,8 +6,11 @@ language: "Hindi"
 type: "Speech"
 subjects:
   - philosophy-and-theology
+  - quranic-studies
 keywords:
-  - "Ma Ta'buduna min Ba'di (Arabic)"
+  - "Ma Ta'buduna min Ba'di"
+  - "Prophet Yaqub"
+  - "tawhid"
 summary: "Whom will you worship after me?. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Sayyid Abul Hasan Ali Nadwi Centre / Academy of Islamic Research & Publications)"

@@ -4,6 +4,13 @@ titleOriginal: "امت مسلمہ کا فرض منصبی اور اس کے انق
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - islam-and-modernity
+  - political-thought
+keywords:
+  - "farz-e-mansabi"
+  - "ummah"
+  - "Western civilisation"
 summary: "The Muslim community's duty and its revolutionary effects"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

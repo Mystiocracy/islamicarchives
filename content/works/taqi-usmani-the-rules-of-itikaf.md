@@ -5,6 +5,11 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "i'tikaf"
+  - "Ahkam-e-Itikaf"
+  - "Ramadan"
+  - "mosque"
 summary: "English edition of his booklet on seclusion in the mosque."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

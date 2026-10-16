@@ -7,10 +7,11 @@ type: "Collection"
 subjects:
   - islamic-law
 keywords:
-  - "Variorum"
-  - "collected studies"
   - "usul al-fiqh"
+  - "ijtihad"
+  - "ijma'"
   - "fatwa"
+  - "mufti"
 summary: "A volume of Hallaq's earlier journal articles on Islamic legal theory, ijtihad, consensus and the workings of the muftis."
 rights: link-only
 rightsNote: "In copyright (living author)."

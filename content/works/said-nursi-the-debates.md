@@ -10,9 +10,9 @@ subjects:
   - education
 keywords:
   - "Munazarat"
-  - "Kurdish tribes"
+  - "Kurds"
   - "constitutionalism"
-  - "Medresetü'z-Zehra"
+  - "Medresetu'z-Zehra"
 summary: "Imagined dialogues with Kurdish tribesmen explaining constitutional government, freedom and consultation in Islamic terms, and promoting his plan for a university in eastern Anatolia."
 rights: link-only
 rightsNote: "In copyright (author d. 1960)."

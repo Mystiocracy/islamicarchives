@@ -4,6 +4,10 @@ titleOriginal: "شفاخانے رحمت کا مظاہرہ"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+keywords:
+  - "mercy"
+  - "rahma"
+  - "hospital of mercy"
 summary: "A display of the hospital of mercy"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

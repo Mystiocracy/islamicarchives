@@ -6,7 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - education
-  - philosophy-and-theology
+  - sufism
+keywords:
+  - "ulama"
+  - "rabbani"
 summary: "Godly scholars: their office and work"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

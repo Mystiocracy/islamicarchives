@@ -12,6 +12,7 @@ keywords:
   - "al-Bank al-la-ribawi fi al-Islam"
   - "interest-free banking"
   - "riba"
+  - "Islamic banking"
   - "Kuwait"
 summary: "A proposal, prepared at the request of Kuwaiti officials, for a bank that operates without interest while remaining viable within a modern financial system."
 rights: link-only

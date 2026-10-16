@@ -7,10 +7,10 @@ type: "Interview"
 subjects:
   - islam-and-modernity
 keywords:
-  - "swissinfo"
   - "European Islam"
+  - "Muslims in Europe"
   - "integration"
-  - "Switzerland"
+  - "swissinfo"
 summary: "Ramadan says Muslims in Europe should be seen as members of the societies where they live and that Islam is now a European religion, as he takes up a UK government advisory role."
 venue: "swissinfo.ch (Swiss Broadcasting)"
 rights: link-only

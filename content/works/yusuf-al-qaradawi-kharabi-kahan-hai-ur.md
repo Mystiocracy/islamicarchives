@@ -6,6 +6,11 @@ language: "Urdu"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Ayna l-Khalal"
+  - "Muslim decline"
+  - "reform"
+  - "islah"
 summary: "A diagnosis of where the problems of Muslim society lie."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

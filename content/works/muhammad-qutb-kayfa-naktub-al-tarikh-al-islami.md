@@ -6,11 +6,14 @@ year: 1992
 language: "Arabic"
 type: "Book"
 subjects:
-  - philosophy-and-theology
   - colonialism-and-decolonisation
+  - education
 keywords:
+  - "Islamic history"
   - "historiography"
   - "Orientalism"
+  - "nationalism"
+  - "rewriting history"
 venue: "Dār al-Shurūq"
 summary: "Calls for rewriting Islamic history from an Islamic perspective rather than through Orientalist or nationalist frameworks."
 rights: link-only

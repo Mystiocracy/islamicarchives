@@ -7,6 +7,11 @@ language: "English"
 type: "Translation"
 subjects:
   - political-thought
+keywords:
+  - "Afkar Siyasiyya"
+  - "Hizb ut-Tahrir"
+  - "political analysis"
+  - "Muslim world"
 summary: "English translation of Afkar Siyasiyya."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

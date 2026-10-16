@@ -8,10 +8,10 @@ subjects:
   - family-and-society
   - islam-and-modernity
 keywords:
+  - "homosexuality"
   - "Obergefell"
   - "sexuality"
   - "dissent"
-  - "editorial"
 venue: "American Journal of Islamic Social Sciences 34, no. 3: v-xxii"
 summary: "Introduces a thematic issue on Islamic views of homosexuality and reflects on a prophetic voice of dissent toward prevailing norms, including after Obergefell."
 rights: link-only

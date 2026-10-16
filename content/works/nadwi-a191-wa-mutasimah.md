@@ -4,6 +4,14 @@ titleOriginal: "وا معتصماه!"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - political-thought
+keywords:
+  - "al-Mu'tasim"
+  - "cry for help"
+  - "Muslim world"
+  - "oppression"
+  - "ummah"
 summary: "O Muʿtasim! (a cry for help)"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

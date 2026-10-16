@@ -6,16 +6,14 @@ year: 2026
 language: "English"
 type: "Article"
 subjects:
-  - education
-  - family-and-society
-  - philosophy-and-theology
   - political-thought
 keywords:
-  - "Education"
-  - "Family & Community"
-  - "Islamic Ethics"
-  - "Politics & Practical Theology"
-  - "Social Justice"
+  - "Jamil Al-Amin"
+  - "H. Rap Brown"
+  - "African American Muslims"
+  - "incarceration"
+  - "civil rights"
+  - "Black Muslims"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

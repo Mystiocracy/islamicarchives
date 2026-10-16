@@ -5,9 +5,13 @@ year: 1990
 language: "English"
 type: "Book"
 subjects:
-  - hadith-studies
+  - quranic-studies
+  - education
 keywords:
-  - "Qasas al-Nabiyyin (Ar.)"
+  - "Qasas al-Nabiyyin"
+  - "prophets"
+  - "anbiya"
+  - "children"
 summary: "Stories of the Prophets. Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org (Abul Hasan Ali Nadwi Centre)"

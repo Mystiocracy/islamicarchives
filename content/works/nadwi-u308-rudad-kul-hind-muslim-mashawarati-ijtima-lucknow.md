@@ -6,6 +6,10 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - political-thought
+keywords:
+  - "Muslim Majlis-e-Mushawarat"
+  - "Indian Muslims"
+  - "Lucknow"
 summary: "Proceedings of the All-India Muslim consultative meeting, Lucknow"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from rekhta.org"

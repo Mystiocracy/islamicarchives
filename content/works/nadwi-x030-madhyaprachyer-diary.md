@@ -5,7 +5,10 @@ author: nadwi
 language: "Bengali"
 type: "Book"
 keywords:
-  - "possibly Mashriq-e-Wusta ki Diary (travelogue)"
+  - "Mashriq-e-Wusta ki Diary"
+  - "Middle East"
+  - "Egypt"
+  - "Syria"
 summary: "Middle East diary. Translated."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

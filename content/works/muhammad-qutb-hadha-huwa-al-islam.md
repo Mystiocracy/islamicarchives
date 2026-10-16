@@ -9,6 +9,8 @@ subjects:
   - philosophy-and-theology
 keywords:
   - "introduction to Islam"
+  - "principles of Islam"
+  - "basics of Islam"
 venue: "Dār al-Shurūq"
 summary: "Concise presentation of the basic principles of Islam."
 rights: link-only

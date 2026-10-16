@@ -4,9 +4,12 @@ titleOriginal: "بچوں کے لیے سیرۃ النبی ﷺ (قصص النبی�
 author: nadwi
 language: "Urdu"
 type: "Book"
-subjects:
-  - hadith-studies
-  - women-and-gender
+keywords:
+  - "sira"
+  - "Prophet Muhammad"
+  - "Qasas al-Nabiyyin"
+  - "Sirat Khatam al-Nabiyyin"
+  - "children"
 summary: "Life of the Prophet for children (Qasas al-Nabiyyin part 5). Translated from Arabic."
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

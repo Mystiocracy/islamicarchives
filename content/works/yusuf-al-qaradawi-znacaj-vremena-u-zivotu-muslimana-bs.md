@@ -5,7 +5,12 @@ titleOriginal: "Značaj vremena u životu muslimana"
 language: "Bosnian"
 type: "Book"
 subjects:
-  - education
+  - family-and-society
+  - sufism
+keywords:
+  - "time"
+  - "Al-Waqt fi Hayat al-Muslim"
+  - "time management"
 summary: "On the value of time in a Muslim's life."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

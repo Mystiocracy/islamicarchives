@@ -12,6 +12,7 @@ keywords:
   - "Essais sur la pensée islamique"
   - "classical Islamic thought"
   - "methodology"
+  - "ethics"
 summary: "Collected studies on classical Islamic philosophy, ethics and religious thought that outline his historical and critical method."
 rights: link-only
 rightsNote: "In copyright (author d. 2010)."

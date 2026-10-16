@@ -5,7 +5,13 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - philosophy-and-theology
+  - education
+  - islam-and-modernity
+keywords:
+  - "da'wa"
+  - "jahiliyya"
+  - "tahrif"
+  - "religious distortion"
 summary: "Calling to God: Protecting Society from Jahiliyya and Religion from Distortion"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

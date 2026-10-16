@@ -4,6 +4,13 @@ titleOriginal: "الاجتهاد الجماعي"
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - islamic-law
+keywords:
+  - "collective ijtihad"
+  - "ijtihad"
+  - "fiqh academies"
+  - "shura"
 summary: "Collective Ijtihad"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

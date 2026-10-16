@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - philosophy-and-theology
+keywords:
+  - "The Islamic Personality"
+  - "Hizb ut-Tahrir"
+  - "aqida"
+  - "qada' and qadar"
 summary: "First volume of the work on the Islamic mindset and disposition: creed, sources and the rational basis of the Party’s ideas."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

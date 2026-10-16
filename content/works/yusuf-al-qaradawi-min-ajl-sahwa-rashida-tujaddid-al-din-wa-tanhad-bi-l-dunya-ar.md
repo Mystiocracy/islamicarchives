@@ -7,6 +7,11 @@ language: "Arabic"
 type: "Book"
 subjects:
   - islam-and-modernity
+keywords:
+  - "Islamic revival"
+  - "sahwa"
+  - "tajdid"
+  - "renewal"
 summary: "Sets out guidelines for a mature Islamic awakening that renews religion and builds the world."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

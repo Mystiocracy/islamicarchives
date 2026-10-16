@@ -5,7 +5,14 @@ author: nadwi
 language: "Arabic"
 type: "Pamphlet"
 subjects:
-  - political-thought
+  - hadith-studies
+keywords:
+  - "asanid"
+  - "isnad"
+  - "ijaza"
+  - "chains of transmission"
+  - "India"
+  - "Yemen"
 summary: "Breaths from India and Yemen: Shaykh Abul Hasan's Chains of Transmission"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from archive.org"

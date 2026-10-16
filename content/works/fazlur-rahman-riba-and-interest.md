@@ -10,8 +10,8 @@ subjects:
 keywords:
   - "riba"
   - "bank interest"
-  - "Islamic Studies journal"
-  - "Central Institute of Islamic Research"
+  - "usury"
+  - "Pakistan"
 summary: "An article in the journal Islamic Studies arguing that the Qur'anic prohibition of riba targeted exploitative compound usury rather than all modern bank interest."
 rights: link-only
 rightsNote: "In copyright (author d. 1988)."

@@ -7,6 +7,12 @@ language: "Urdu"
 type: "Pamphlet"
 subjects:
   - philosophy-and-theology
+  - family-and-society
+keywords:
+  - "aqida"
+  - "iman"
+  - "new generation"
+  - "children's faith"
 summary: "Care for the faith and creed of the new generation"
 rights: link-only
 rightsNote: "In copyright (author d. 1999); free download from abulhasanalinadwi.org"

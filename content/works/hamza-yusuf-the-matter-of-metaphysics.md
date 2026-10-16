@@ -10,7 +10,6 @@ keywords:
   - "metaphysics"
   - "philosophy"
   - "theology"
-  - "Renovatio"
 summary: "Argues that religious communities, Muslims included, need to recover philosophy and metaphysics in order to understand and defend their faith."
 rights: link-only
 rightsNote: "In copyright (living author)."

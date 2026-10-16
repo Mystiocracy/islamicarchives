@@ -5,6 +5,11 @@ language: "English"
 type: "Pamphlet"
 subjects:
   - islamic-law
+keywords:
+  - "Friday khutbah"
+  - "jumu'a"
+  - "Arabic"
+  - "sermon language"
 summary: "A fiqh discussion of whether the Friday sermon may be delivered in a language other than Arabic."
 rights: link-only
 rightsNote: "In copyright; linked to a free copy online, not hosted."

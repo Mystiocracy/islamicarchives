@@ -5,9 +5,14 @@ year: 2022
 language: "English"
 type: "Article"
 subjects:
-  - philosophy-and-theology
+  - islam-and-modernity
+  - family-and-society
 keywords:
-  - "Allah"
+  - "converts"
+  - "Christmas"
+  - "holidays"
+  - "new Muslims"
+  - "family relations"
 venue: "Yaqeen Institute (blog)"
 rights: link-only
 rightsNote: "© Yaqeen Institute for Islamic Research; free to read on its website."

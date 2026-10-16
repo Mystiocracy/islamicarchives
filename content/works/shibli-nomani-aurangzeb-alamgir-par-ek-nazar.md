@@ -5,13 +5,13 @@ titleOriginal: "اورنگ زیب عالمگیر پر ایک نظر"
 language: "Urdu"
 type: "Book"
 subjects:
-  - political-thought
   - colonialism-and-decolonisation
+  - political-thought
 keywords:
   - "Aurangzeb"
   - "Mughal history"
   - "Mazamin-e-Alamgir"
-  - "historiography"
+  - "colonial historiography"
 summary: "Essays defending the Mughal emperor Aurangzeb against the charges of bigotry made in colonial-era histories."
 rights: link-only
 rightsNote: "Original text in the public domain in most countries (author d. 1914); later translations may still be in copyright."
