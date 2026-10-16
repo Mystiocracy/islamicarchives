@@ -10,6 +10,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Muhammad_Hamidullah"
   - "https://www.dawn.com/news/508546"
+archived: 2026-10-14
 ---
 Muhammad Hamidullah was born in Hyderabad, then capital of the Nizam's state, in 1908, into a family of scholars. He completed the traditional course at the Jamia Nizamia and then studied law at Osmania University, where he obtained degrees in law and international law. Research in Europe followed: a doctorate at Bonn on the Islamic law of neutrality and, in 1935, a doctorate at the Sorbonne on Muslim diplomacy in the time of the Prophet and the first caliphs.
 

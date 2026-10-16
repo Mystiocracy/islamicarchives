@@ -7,6 +7,7 @@ died: 1999
 region: "South Asia"
 roles: "Scholar, historian, writer (Ali Miyan)"
 featured: true
+archived: 2026-10-14
 ---
 Sayyid Abul Ḥasan ʿAlī Ḥasanī Nadwī, widely known as Ali Miyan, was born in Rae Bareli and educated at the Nadwatul Ulama in Lucknow, which he later led as rector. Writing in Arabic and Urdu, he became one of the most widely read Muslim scholars of the twentieth century; his *Mādhā khasira al-ʿālam bi-inḥiṭāṭ al-Muslimīn* (What the World Lost by the Decline of Muslims) made his name across the Arab world.
 

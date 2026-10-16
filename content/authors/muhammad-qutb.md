@@ -14,6 +14,7 @@ sources:
   - "https://www.islam21c.com/editorials/mohammad-qutb-death-of-an-icon/"
   - "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D9%82%D8%B7%D8%A8"
   - "https://en.wikipedia.org/wiki/Muhammad_Qutb"
+archived: 2026-10-15
 ---
 Muḥammad Quṭb was born on 26 April 1919 in Mūshā, a village in Asyut province in Upper Egypt, the younger brother of Sayyid Quṭb. After their father died in 1933 the family moved to Helwan, near Cairo. He studied English language and literature at Fuad I (now Cairo) University, graduating in 1940, and took a diploma in education and psychology the following year. He taught English for about four years, then worked at the Egyptian National Library and as a translator for the Ministry of Education, later running a large translation and publishing programme for the Ministry of Higher Education.
 

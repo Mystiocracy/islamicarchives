@@ -22,6 +22,8 @@ const authors = defineCollection({
     sortAs: z.string().optional(),
     // where the biography's facts come from
     sources: z.array(z.string().url()).default([]),
+    // the date this biography was archived (shown with its sources)
+    archived: z.coerce.date().optional(),
     // hide this author (and all their works) from the site
     draft: z.boolean().default(false),
   }),

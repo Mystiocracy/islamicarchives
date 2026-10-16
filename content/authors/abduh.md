@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Muhammad_Abduh"
   - "https://sites.dlib.nyu.edu/viewer/books/nyu_aco000637"
   - "https://sites.dlib.nyu.edu/viewer/books/aub_aco001438"
+archived: 2026-10-14
 ---
 Muḥammad ʿAbduh was born in 1849 in the Nile Delta province of Buḥayra and grew up in a farming family in the village of Maḥallat Naṣr. After an unhappy start at the Aḥmadī mosque school in Ṭanṭā, he was drawn to Sufism through an older relative, Shaykh Darwīsh Khaḍr, and went on to al-Azhar. There, from the early 1870s, he joined the circle of Jamāl al-Dīn al-Afghānī, who introduced him to philosophy, theology and political journalism.
 

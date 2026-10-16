@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Rifa%27a_al-Tahtawi"
   - "https://www.britannica.com/print/article/580454"
   - "https://sites.dlib.nyu.edu/viewer/books/aub_aco001378"
+archived: 2026-10-14
 ---
 Rifāʿa Rāfiʿ al-Ṭahṭāwī was born in 1801 at Ṭahṭā in Upper Egypt, into a family of religious scholars whose fortunes had declined. He studied at al-Azhar in Cairo, where his teacher Ḥasan al-ʿAṭṭār, himself curious about European learning, encouraged his interest in subjects beyond the standard curriculum.
 

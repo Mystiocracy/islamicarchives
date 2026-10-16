@@ -9,6 +9,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Hamza_Yusuf"
   - "https://renovatio.zaytuna.edu/authors/hamza-yusuf"
+archived: 2026-10-14
 ---
 Hamza Yusuf was born Mark Hanson in Walla Walla, Washington, in 1958 and grew up in northern California, where he was raised in the Greek Orthodox Christianity of his mother's family. After a serious car accident and a period of reading on religion, he embraced Islam in 1977. He then spent about a decade studying abroad: first at the Islamic studies institute of the United Arab Emirates University, where he learned Arabic, Mālikī law and theology, and later in Algeria, Morocco and especially Mauritania, where he studied with the scholar Murabit al-Hajj in the traditional desert schools.
 

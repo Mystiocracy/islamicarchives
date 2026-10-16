@@ -8,6 +8,7 @@ sortAs: "Denffer, von"
 sources:
   - "https://dc2.philarchive.org/rec/VONUAA"
   - "https://archive.org/details/von-denffer-ulum-al-quran"
+archived: 2026-10-15
 ---
 Ahmad von Denffer was born in Germany in 1949. He studied Islamic studies and social anthropology at the University of Mainz, with additional courses in missiology, and has a particular interest in Christian–Muslim relations. In 1978 he joined The Islamic Foundation in Leicester as a research fellow, and he later worked with the Islamic Centre in Munich.
 

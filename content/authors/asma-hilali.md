@@ -6,6 +6,7 @@ featured: false
 sources:
   - "https://iis.ac.uk/publications-listing/2017/the-sanaa-palimpsest"
   - "https://beta.iqsaweb.org/?p=3115"
+archived: 2026-10-15
 ---
 Asma Hilali holds a PhD from the École Pratique des Hautes Études in Paris and has worked at research centres in Germany, France and the United Kingdom. She is a research associate at the Institute of Ismaili Studies in London and an associate professor of Islamic studies at the University of Lille, and sits on the board of the International Qur'anic Studies Association. Her research concerns how religious texts were transmitted and used in early and medieval Islam. She is best known for her study and edition work on the Ṣanʿāʾ palimpsest.
 

@@ -5,6 +5,7 @@ roles: "Scholar of Islamic law, university lecturer, Director of Expanded Learni
 featured: false
 sources:
   - "https://yaqeeninstitute.org/team/tesneem-alkiek"
+archived: 2026-10-14
 ---
 Tesneem Alkiek is an American scholar of Islamic law. She completed her undergraduate studies in Early Christianity and Islamic Studies at the University of Michigan and then earned a PhD in Islamic Studies at Georgetown University, concentrating on Islamic law.
 

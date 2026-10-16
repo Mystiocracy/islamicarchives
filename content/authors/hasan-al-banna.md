@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Hassan_al-Banna"
   - "https://library.arce.org/portal/Record/6075/Details"
   - "https://sites.dlib.nyu.edu/viewer/node/67971"
+archived: 2026-10-14
 ---
 Ḥasan al-Bannā was born in 1906 in al-Maḥmūdiyya in the Nile Delta. His father, Aḥmad ʿAbd al-Raḥmān al-Bannā, was a watch-repairer and religious scholar who arranged the ḥadīth collection of Aḥmad ibn Ḥanbal. As a boy Ḥasan joined religious societies and the Ḥaṣāfiyya Sufi order, then trained as a teacher in Damanhūr and at Dār al-ʿUlūm in Cairo, graduating in 1927. In Cairo he read *al-Manār* and attended gatherings around Rashīd Riḍā.
 

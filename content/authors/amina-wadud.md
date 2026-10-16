@@ -9,6 +9,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Amina_Wadud"
   - "https://muslimsocieties.org/Vol7_2/Amina_Wadud.pdf"
   - "https://www.musawah.org/wp-content/uploads/2018/11/MusawahWanted_En.pdf"
+archived: 2026-10-14
 ---
 Amina Wadud was born Mary Teasley on 25 September 1952 in Bethesda, Maryland, the daughter of a Methodist minister. She embraced Islam in 1972 while studying at the University of Pennsylvania, where she earned a degree in education, and later adopted the name amina wadud, often written in lower case. She took a master's degree and, in 1988, a doctorate in Arabic and Islamic studies at the University of Michigan, and studied Arabic, Qur'anic exegesis and philosophy in Cairo, including at Cairo University and al-Azhar.
 

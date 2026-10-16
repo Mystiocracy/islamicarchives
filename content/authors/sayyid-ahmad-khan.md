@@ -10,6 +10,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Syed_Ahmad_Khan"
   - "https://www.britannica.com/biography/Sayyid-Ahmad-Khan"
+archived: 2026-10-14
 ---
 Sayyid Ahmad Khan was born in Delhi in 1817 into a family of Mughal court nobility. He received a household education in the Qur'an, Persian, Arabic and some mathematics and medicine, and in 1838 entered the judicial service of the East India Company, in which he rose to the post of subordinate judge before retiring in 1876. His early writings were conventional: a devotional account of the Prophet's birth, *Jila al-Qulub bi-Dhikr al-Mahbub*, and a celebrated survey of Delhi's monuments.
 

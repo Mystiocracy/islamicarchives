@@ -10,6 +10,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Abdolkarim_Soroush"
   - "https://drsoroush.com/en/biography/"
   - "https://drsoroush.com/en/publications/"
+archived: 2026-10-14
 ---
 Abdolkarim Soroush, born Ḥusayn Ḥājj Faraj Dabbāgh in Tehran in 1945, grew up in a modest religious family and received both a modern and a traditional religious education. He studied pharmacy in Tehran and then went to London, where he took a postgraduate degree in analytical chemistry and studied the history and philosophy of science at Chelsea College, absorbing in particular the work of Karl Popper.
 

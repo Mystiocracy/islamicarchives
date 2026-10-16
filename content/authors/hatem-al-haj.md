@@ -6,6 +6,7 @@ featured: false
 sources:
   - "https://yaqeeninstitute.org/team/hatem-al-haj"
   - "https://www.amjaonline.org/scholars/dr-hatem-ahaj-m-d-ph-d"
+archived: 2026-10-14
 ---
 Hatem al-Haj is a physician and scholar of Islamic jurisprudence based in the United States. He is board-certified by the American Board of Pediatrics in pediatrics and pediatric hospital medicine and practises as a pediatric hospitalist.
 

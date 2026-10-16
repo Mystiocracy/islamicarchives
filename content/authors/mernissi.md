@@ -10,6 +10,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Fatema_Mernissi"
   - "https://archive.org/details/veilmaleelite00mern"
+archived: 2026-10-14
 ---
 Fatima (Fatema) Mernissi was born in 1940 in Fez, Morocco, into a well-to-do family, and grew up in a household where women lived in a domestic harem, an experience she later made the subject of her memoir. She belonged to one of the first generations of Moroccan girls to attend nationalist-founded schools, studied political science at Mohammed V University in Rabat, and continued in sociology at the Sorbonne and at Brandeis University in the United States, where she received her doctorate in 1973.
 

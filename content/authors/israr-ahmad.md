@@ -13,6 +13,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Tanzeem-e-Islami"
   - "https://www.salaam.co.uk/biographies/profile.php?id=3434"
   - "https://ionaonline.org/press-release/renowned-islamic-scholar-and-thinker-dr-israr-ahmed-passed-away/"
+archived: 2026-10-14
 ---
 Israr Ahmad was born on 26 April 1932 in Hisar, in the Punjab province of British India (now in Haryana, India). His family moved to Montgomery (now Sahiwal) and then to Pakistan after Partition. In 1950 he went to Lahore to study medicine at King Edward Medical College and qualified as a doctor (MBBS) in 1954. In 1965 he also completed a master's degree in Islamic Studies at the University of Karachi. He practised medicine only briefly. From early on, teaching the Qur'an became his main work.
 

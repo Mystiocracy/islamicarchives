@@ -10,6 +10,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Mohammed_Arkoun"
   - "https://archive.org/details/rethinkingislamc00arko"
+archived: 2026-10-14
 ---
 Mohammed Arkoun was born in 1928 in Taourirt Mimoun, a Berber-speaking village in Kabylia, then part of French Algeria. After secondary schooling in Oran he studied Arabic literature at the University of Algiers, and continued his studies at the Sorbonne, where he passed the *agrégation* in Arabic in 1956 and completed a doctorate in 1968 on the tenth-century philosopher and historian Miskawayh. He taught at Lyon and then for two decades at the Sorbonne Nouvelle (Paris III), and later held visiting posts in Europe and North America and was associated with the Institute of Ismaili Studies in London.
 

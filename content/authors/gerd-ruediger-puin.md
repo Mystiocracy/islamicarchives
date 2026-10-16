@@ -7,6 +7,7 @@ featured: false
 sortAs: "Puin"
 sources:
   - "https://en.wikipedia.org/wiki/Gerd_R._Puin"
+archived: 2026-10-15
 ---
 Gerd-Rüdiger Puin is a German Arabist who taught Arabic language and literature at Saarland University in Saarbrücken. He is known for directing a German restoration and cataloguing project for the Qur'anic and other fragments found in the Great Mosque of Sanaa, Yemen, in the early 1970s. His work focuses on early Qur'anic palaeography, orthography and calligraphy. He is associated with the Saarbrücken group of researchers on early Islamic history.
 

@@ -8,6 +8,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Alija_Izetbegovi%C4%87"
   - "https://www.encyclopedia.com/arts/educational-magazines/izetbegovic-alija-ali-1925-2003"
+archived: 2026-10-14
 ---
 Alija Izetbegović was born in 1925 in Bosanski Šamac, in northern Bosnia, into a Bosniak family (his grandfather had been the town's mayor) and grew up in Sarajevo. As a student during the Second World War he joined the Young Muslims (*Mladi Muslimani*), an association devoted to Islamic renewal and the defence of Bosnian Muslim identity. After the communist takeover the group was suppressed, and in 1946 Izetbegović was sentenced to three years in prison. He later studied law at the University of Sarajevo and worked for many years as a legal adviser to companies.
 

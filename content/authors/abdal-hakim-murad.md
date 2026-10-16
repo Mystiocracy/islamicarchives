@@ -10,6 +10,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Timothy_Winter"
   - "https://masud.co.uk/ISLAM/ahm/"
   - "https://www.independent.co.uk/news/people/profiles/timothy-winter-britains-most-influential-muslim-ndash-and-it-was-all-down-to-a-peach-2057400.html"
+archived: 2026-10-14
 ---
 Timothy John Winter, known in Muslim contexts as Abdal Hakim Murad, was born in London in 1960 to an architect father and a painter mother. He was educated at Westminster School and embraced Islam in 1979, while still a young man. He read Arabic at Pembroke College, Cambridge, graduating with a double first in 1983, and then spent several years studying the traditional Islamic sciences at al-Azhar in Cairo and with scholars in Saudi Arabia and Yemen, before learning Turkish and Persian in London. He later completed a doctorate at the Vrije Universiteit Amsterdam.
 

@@ -10,6 +10,7 @@ sortAs: "Taha Abdurrahman"
 sources:
   - "https://en.wikipedia.org/wiki/Taha_Abdurrahman"
   - "https://ar.wikipedia.org/wiki/طه_عبد_الرحمن"
+archived: 2026-10-14
 ---
 Ṭāhā ʿAbd al-Raḥmān was born in 1944 in El Jadida on Morocco's Atlantic coast, where he received his early schooling before attending secondary school in Casablanca. He studied philosophy at Mohammed V University in Rabat and then at the Sorbonne, where he completed a doctoral thesis in 1972 on the linguistic structures underlying ontology, published in French in 1979. A second doctorate, awarded in 1985, dealt with argumentation and natural reasoning. From 1970 until his retirement in 2005 he taught logic and the philosophy of language at Mohammed V University.
 

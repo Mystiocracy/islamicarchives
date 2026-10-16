@@ -101,6 +101,7 @@ const KINDS = {
     ['sortAs', 'Sort as (A–Z list)', 'string', { hint: 'Name to file the author under, e.g. Taha' }],
     ['featured', 'Feature on the home page', 'bool'], ['draft', 'Hide this author and all their works', 'bool'],
     ['sources', 'Biography sources (one link per line)', 'list', { wide: 1 }],
+    ['archived', 'Date this biography was archived', 'date'],
     ['@body', 'Short biography', 'body', { wide: 1 }]] },
   works: { label: 'Works', one: 'work', dir: 'content/works', title: 'title', fields: [
     ['title', 'Title', 'string', { req: 1, wide: 1 }],

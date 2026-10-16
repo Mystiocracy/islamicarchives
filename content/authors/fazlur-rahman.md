@@ -10,6 +10,7 @@ featured: true
 sources:
   - "https://en.wikipedia.org/wiki/Fazlur_Rahman_Malik"
   - "https://www.ajis.org/index.php/ajiss/article/view/2875"
+archived: 2026-10-14
 ---
 Fazlur Rahman Malik was born in 1919 in the Hazara district of the North-West Frontier Province, the son of a religious scholar who taught him the traditional Islamic disciplines at home. He studied Arabic at Punjab University in Lahore and then went to Oxford, where he wrote a doctoral thesis on Ibn Sina's psychology, published in 1952 as *Avicenna's Psychology*. He taught Persian and Islamic philosophy at Durham University and later Islamic studies at McGill University in Montreal.
 

@@ -10,6 +10,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Sayyid_Qutb"
   - "https://ar.wikisource.org/wiki/%D9%85%D8%A4%D9%84%D9%81:%D8%B3%D9%8A%D8%AF_%D9%82%D8%B7%D8%A8"
+archived: 2026-10-14
 ---
 Sayyid Quṭb was born in 1906 in the village of Mūshā in Asyut province, Upper Egypt. After village schooling he moved to Cairo and graduated from Dār al-ʿUlūm, the teacher-training college, in 1933. For most of the next two decades he worked for the Ministry of Education while making a name as a poet, novelist and literary critic in the circle of ʿAbbās Maḥmūd al-ʿAqqād. His studies *al-Taṣwīr al-fannī fī al-Qurʾān* (1945) and *Mashāhid al-qiyāma fī al-Qurʾān* approached the Qurʾan through its literary imagery, and his memoir *Ṭifl min al-qarya* (1946) described rural Egyptian childhood.
 

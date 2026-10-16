@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Muhammad_Rashid_Rida"
   - "https://sites.dlib.nyu.edu/viewer/books/nyu_aco000637"
   - "https://shamela.ws/author/482"
+archived: 2026-10-14
 ---
 Muḥammad Rashīd Riḍā was born in 1865 in al-Qalamūn, a village near Tripoli in what is now Lebanon, to a family of sayyids with Sufi connections. He studied at the National Islamic School of Ḥusayn al-Jisr in Tripoli, where Islamic subjects were taught alongside modern ones, and for a time followed the Naqshbandī path. Reading issues of *al-ʿUrwa al-wuthqā* turned him towards the reform programme of al-Afghānī and Muḥammad ʿAbduh.
 

@@ -1,7 +1,7 @@
 ---
 import { getEntry } from 'astro:content';
 import { longDate } from '../lib/quran';
-import { FORMATS, categoryOf, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, authorKey, sortName, type Work } from '../lib/site';
+import { provenance, FORMATS, categoryOf, hosted, RIGHTS_LABEL, eraOf, allEras, subjectNames, searchText, authorKey, sortName, type Work } from '../lib/site';
 interface Props { work: Work; showAuthor?: boolean; archive?: boolean }
 const { work, showAuthor = true, archive = false } = Astro.props;
 const d = work.data;
@@ -16,6 +16,7 @@ const firstWriter = d.byline?.split(/\s*(?:,|&|\band\b)\s*/)[0];
 const authorSort = (firstWriter ? sortName(firstWriter) : author ? authorKey(author) : '') + ' ' + (firstWriter || author?.data.name || '');
 const wUrl = new URL(`/works/${work.id}/`, 'https://islamicarchives.org').href;
 const lastFirst = author ? (() => { const p = (d.byline || author.data.name).split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
+const prov = provenance(work);
 const archivedOn = d.added ? d.added.toISOString().slice(0, 10) : '';
 const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isHosted && d.sourceUrl ? ' ' + (d.sourceLabel ? d.sourceLabel.replace(/[\s.]+$/, '') + ', ' : '') + d.sourceUrl + '.' : ''}${archivedOn ? ' Archived ' + longDate(archivedOn) + ' in' : ' In'} Islamic Archives: Archive of Modern Islamic Thought. ${wUrl}`;
 ---
@@ -38,7 +39,8 @@ const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isH
     {showAuthor && author && <a href={`/authors/${author.id}/`} style="font-weight:500; font-size:15px">{d.byline ? `${d.byline} · ${author.data.name}` : author.data.name}{d.coAuthors ? ` with ${d.coAuthors}` : ''}</a>}
     {!showAuthor && (d.byline || d.coAuthors) && <span style="font-weight:500; font-size:15px; color:var(--ink-2)">{d.byline || `with ${d.coAuthors}`}</span>}
     {d.summary && <p class="muted" style="margin:2px 0 0; font-size:14px">{d.summary}</p>}
-    {archive && <p class="cite-line">{archivedOn && <span>Archived {longDate(archivedOn)}. </span>}<span><strong>How to cite:</strong> {cite}</span></p>}
+    {!archive && <p class="prov-line">{prov.archived ? `Archived ${longDate(prov.archived)}` : 'Archive date not recorded'} · Source: {prov.href ? <a href={prov.href} rel="noopener" target="_blank">{prov.label}</a> : (prov.label || 'not yet recorded')}</p>}
+    {archive && <p class="cite-line">{<span>{archivedOn ? `Archived ${longDate(archivedOn)}` : 'Archive date not recorded'} · Source: {prov.href ? <a href={prov.href} rel="noopener" target="_blank">{prov.label}</a> : (prov.label || 'not yet recorded')}. </span>}<span><strong>How to cite:</strong> {cite}</span></p>}
   </div>
   <div class="side">
     {isHosted ? FORMATS.map((f) => (
@@ -55,6 +57,7 @@ const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isH
   </div>
 </article>
 <style>
+  .prov-line { margin: 2px 0 0; font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
   .cite-line { margin: 4px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); max-width: 780px; overflow-wrap: anywhere; }
   .cite-line strong { font-weight: 600; color: var(--ink-2); }
 </style>

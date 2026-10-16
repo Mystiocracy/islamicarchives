@@ -7,6 +7,7 @@ sources:
   - "https://yaqeeninstitute.org/team/emadhamdeh"
   - "https://www.cambridge.org/core/books/salafism-and-traditionalism/traditionalism-and-salafism/14E806FCEDDA386A66913D5E50715F5F"
   - "https://www.ajis.org/index.php/ajiss/article/view/986"
+archived: 2026-10-14
 ---
 Emad Hamdeh is an American academic working on Islamic law, intellectual history and modern Muslim reform movements. He has taught as an assistant professor of Arabic and Islamic studies at Embry-Riddle Aeronautical University.
 

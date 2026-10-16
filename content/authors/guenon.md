@@ -12,6 +12,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non"
   - "https://worldwisdom.com/author/rene-guenon/"
   - "https://jisarchive.cis-ca.org/voices/g/guenon-mn.htm"
+archived: 2026-10-14
 ---
 René Guénon was born in Blois, France, in 1886 into a Catholic family. He went to Paris to prepare for the entrance examinations of the grandes écoles in mathematics, but abandoned them and spent his early years in the city's occult and esoteric milieus. He soon turned against these circles and began to search instead for what he regarded as authentic, regular traditions. Around 1910 he came into contact with Islamic esotericism, and he was received into a Sufi lineage, the Shādhilī order associated with the Egyptian scholar ʿAbd al-Raḥmān ʿIllaysh, through the Swedish convert Ivan Aguéli.
 

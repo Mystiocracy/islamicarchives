@@ -8,6 +8,7 @@ featured: false
 sources:
   - "https://yaqeeninstitute.org/team/shabbir-akhtar"
   - "https://en.wikipedia.org/wiki/Shabbir_Akhtar"
+archived: 2026-10-14
 ---
 Shabbir Akhtar was a British Muslim philosopher of religion, born in Pakistan in 1960. He read philosophy at the University of Cambridge and completed a doctorate in the philosophy of religion at the University of Calgary in 1984. He taught philosophy at the International Islamic University Malaysia and later at Old Dominion University in the United States, and from 2012 was associated with the Faculty of Theology and Religions at the University of Oxford. He died in Oxford in July 2023.
 

@@ -8,6 +8,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Said_Nursi"
   - "https://www.erisale.com/en"
+archived: 2026-10-14
 ---
 Said Nursi was born in 1877 in the village of Nurs, in the Bitlis province of eastern Anatolia, to a Kurdish family. He studied in a series of local madrasas without completing a formal course, but his memory and skill in debate earned him the title *Bediüzzaman*, 'wonder of the age'. In Van, under the patronage of the provincial governor, he also read modern science, and he became convinced that religious and modern learning should be taught together; he spent years pursuing a plan for a university in the east, the Medresetü'z-Zehra.
 

@@ -8,6 +8,7 @@ featured: false
 sources:
   - "https://iqsaweb.org/tag/keith-small/"
   - "https://churchtimes.co.uk/articles/2019/11-january/gazette/obituaries/obituary-dr-keith-small"
+archived: 2026-10-15
 ---
 Keith Edward Small was born in Michigan in 1959 and trained in theology before completing a doctorate on Qur'an manuscripts and textual criticism. He worked as Qur'anic Manuscript Consultant to the Bodleian Library, Oxford, and held lecturing and research roles at the London School of Theology. He helped found the Manuscripts and Textual Criticism unit of the International Qur'anic Studies Association. He died in Oxford in December 2018 after an illness.
 

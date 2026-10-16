@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Muhammad_Asad"
   - "https://www.allamaiqbal.com/publications/journals/review/aproct09/9.htm"
   - "https://en.wikipedia.org/wiki/Arafat_(journal)"
+archived: 2026-10-14
 ---
 Muhammad Asad was born Leopold Weiss in 1900 in Lemberg (now Lviv), then part of Austria-Hungary, into a Jewish family with a rabbinical lineage, and received a grounding in Hebrew and the Hebrew Bible as a boy. After brief university studies in Vienna he turned to journalism. In 1922 he travelled to Palestine and the wider Middle East, and his reports for the *Frankfurter Zeitung*, which questioned the Zionist project and described Arab society sympathetically, became the basis of his first book, *Unromantisches Morgenland* (1924).
 

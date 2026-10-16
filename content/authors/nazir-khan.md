@@ -5,6 +5,7 @@ roles: "Physician, neuroradiologist, theologian, Senior Fellow at Yaqeen Institu
 featured: false
 sources:
   - "https://yaqeeninstitute.org/team/nazir-khan"
+archived: 2026-10-14
 ---
 Nazir Khan is a Canadian physician and Islamic theologian. After medical school he trained in diagnostic radiology at the University of Manitoba and completed a neuroradiology fellowship at the University of Calgary, holding certification in both fields. He has held an assistant professorship at McMaster University and has pursued doctoral research in Islamic theology at the University of Nottingham.
 

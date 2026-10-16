@@ -7,6 +7,7 @@ sortAs: "Yaqeen Institute"
 sources:
   - "https://yaqeeninstitute.org/about-us"
   - "https://en.wikipedia.org/wiki/Yaqeen_Institute_for_Islamic_Research"
+archived: 2026-10-14
 ---
 The Yaqeen Institute for Islamic Research is an American Muslim research organisation founded in 2016 by Omar Suleiman, who serves as its president. Its name comes from the Arabic word *yaqīn*, meaning certainty. It is based in Irving, Texas, operates as a 501(c)(3) nonprofit funded by donations, and has an affiliated Canadian branch.
 

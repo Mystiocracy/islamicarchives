@@ -6,6 +6,7 @@ featured: false
 sources:
   - "https://www.hds.harvard.edu/people/mohsen-goudarzi.md"
   - "https://en.wikipedia.org/wiki/Mohsen_Goudarzi"
+archived: 2026-10-15
 ---
 Mohsen Goudarzi grew up in Tehran and trained first in computer engineering before taking a master's in religious studies at Stanford and a PhD at Harvard (2018). He taught at the University of Minnesota and since July 2021 has been an associate professor of Islamic studies at Harvard Divinity School. His research treats the Qur'an and early Islam through literary, linguistic and comparative methods in a Late Antique setting. Early in his career he co-edited the Ṣanʿāʾ 1 palimpsest with Behnam Sadeghi.
 

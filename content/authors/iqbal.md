@@ -10,6 +10,7 @@ featured: true
 sources:
   - "https://en.wikipedia.org/wiki/Muhammad_Iqbal"
   - "https://www.britannica.com/biography/Muhammad-Iqbal"
+archived: 2026-10-14
 ---
 Muhammad Iqbal was born in Sialkot, Punjab, in 1877. After schooling at the Scotch Mission College in his home town, he studied philosophy at Government College, Lahore, where the orientalist Thomas Arnold encouraged his interests, and he taught there after taking his MA in 1899. Between 1905 and 1908 he studied in Europe, reading philosophy at Trinity College, Cambridge, qualifying as a barrister at Lincoln's Inn and earning a doctorate from Munich with a thesis on the development of metaphysics in Persia.
 

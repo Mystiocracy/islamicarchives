@@ -9,6 +9,7 @@ featured: false
 sortAs: "Asad, Talal"
 sources:
   - "https://en.wikipedia.org/wiki/Talal_Asad"
+archived: 2026-10-15
 ---
 Talal Asad was born in 1932 in Medina, the son of the writer and Qurʾan translator Muhammad Asad (Leopold Weiss), and grew up in Pakistan. He studied architecture briefly, then anthropology at Edinburgh, and took his doctorate at Oxford in 1968 under E. E. Evans-Pritchard, with a thesis on the Kababish of Sudan. He taught at Khartoum and Hull, then in the United States at the New School for Social Research, Johns Hopkins and the Graduate Center of the City University of New York, where he is Distinguished Professor Emeritus of Anthropology.
 

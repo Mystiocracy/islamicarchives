@@ -12,6 +12,7 @@ sources:
   - "https://www.aljazeera.com/news/2022/9/27/yusuf-al-qaradawi-the-muslim-scholar-who-influenced-millions"
   - "https://www.euronews.com/2022/09/27/egypt-qaradawi-obituary"
   - "https://kingfaisalprize.org/professor-yousef-a-al-qaradawi/"
+archived: 2026-10-15
 ---
 Yusuf al-Qaradawi was born in 1926 in the Nile Delta village of Safṭ Turāb in Egypt. He memorised the Qurʾan as a child and studied at al-Azhar in Cairo, graduating from the College of Uṣūl al-Dīn in 1952 and earning a diploma in Arabic language studies in 1958. Al-Jazeera dates his doctorate to 1973. As a young man he was close to the Muslim Brotherhood and was imprisoned several times in Egypt; he is reported to have declined invitations to lead the movement.
 

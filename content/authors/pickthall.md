@@ -10,6 +10,7 @@ sources:
   - "https://modjourn.org/?p=4374"
   - "https://www.wokingmuslim.org/pers/pickthall/obituary.htm"
   - "https://onlinebooks.library.upenn.edu/webbin/who/Pickthall%2c%20Marmaduke%20William%2c%201875%2d1936"
+archived: 2026-10-14
 ---
 Marmaduke William Pickthall was born in London on 7 April 1875, the son of an Anglican clergyman from Suffolk. He left Harrow early, and in 1894 he went to Palestine. Over about two years in Palestine, Syria and Egypt he learned colloquial Arabic and got to know everyday life in the Ottoman Arab provinces. That experience shaped his fiction. *Saïd the Fisherman* (1903) made his name, and he followed it with novels and stories of Muslim life in the Levant, Egypt, Yemen and Turkey, including *The House of Islam*, *The Children of the Nile*, *Veiled Women*, *Knights of Araby* and *The Early Hours*, as well as the travel memoir *Oriental Encounters* (1918).
 

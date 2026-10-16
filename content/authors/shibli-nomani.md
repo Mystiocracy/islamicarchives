@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Shibli_Nomani"
   - "https://www.rekhta.org/contributors/shibli-nomani/profile"
   - "https://en.wikipedia.org/wiki/Al-Kalam_(book)"
+archived: 2026-10-14
 ---
 Shiblī Nuʿmānī was born in 1857 at Bandwal, near Azamgarh in the North-Western Provinces, to a landed family. He received a traditional madrasa education in Arabic, Persian, logic, hadith and fiqh under several teachers, among them Muhammad Faruq Chirayakoti, and adopted the name Nuʿmānī out of devotion to Abu Hanifa (al-Nuʿman ibn Thabit).
 

@@ -131,3 +131,21 @@ export function photoCredit(a: Author) {
   }
   return a.data.photo ? undefined : credits![a.id];
 }
+
+const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+
+// "Archived <date> · Source: <where>" for a work: the date it was added, and where its text or record comes from.
+export function provenance(w: Work) {
+  const d = w.data;
+  const archived = d.added ? d.added.toISOString().slice(0, 10) : '';
+  const href = d.sourceUrl || d.infoUrl || '';
+  const label = (d.sourceLabel ? d.sourceLabel.replace(/[\s.]+$/, '') : '') || (href ? hostOf(href) : '') || d.venue || '';
+  return { archived, label, href };
+}
+
+// the same for an author's biography; `archived` falls back to the date of the earliest work added for them
+export function authorProvenance(a: Author, works: Work[] = []) {
+  const archived = a.data.archived ? a.data.archived.toISOString().slice(0, 10)
+    : works.map((w) => w.data.added?.toISOString().slice(0, 10)).filter(Boolean).sort()[0] || '';
+  return { archived, sources: a.data.sources.map((u) => ({ href: u, label: hostOf(u) })) };
+}

@@ -11,6 +11,7 @@ sortAs: "Nabhani, Taqi al-Din"
 sources:
   - "https://en.wikipedia.org/wiki/Taqiuddin_al-Nabhani"
   - "https://ar.wikipedia.org/wiki/%D8%AA%D9%82%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D9%86%D8%A8%D9%87%D8%A7%D9%86%D9%8A"
+archived: 2026-10-15
 ---
 Taqī al-Dīn al-Nabhānī was born in 1909 in Ijzim, near Haifa in Ottoman and then Mandatory Palestine, to a family of scholars. His maternal grandfather was the poet and jurist Yūsuf al-Nabhānī. He went to Cairo in 1928 and studied at al-Azhar and at Dār al-ʿUlūm, finishing in the early 1930s. He then taught in Haifa and Hebron and served as a judge in the Sharia courts of Haifa, Ramla and Jerusalem. After 1948 he lived in Jordan and Lebanon.
 

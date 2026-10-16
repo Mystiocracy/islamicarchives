@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Ali_Shariati"
   - "https://www.shariati.com/bio.html"
   - "https://www.shariati.com/translat.html"
+archived: 2026-10-14
 ---
 ʿAlī Sharīʿatī was born in 1933 in Mazinan, near Sabzevar in north-eastern Iran. His father, Muḥammad-Taqī Sharīʿatī, was a reform-minded religious teacher in Mashhad who ran a centre for propagating Islamic teachings, and the son grew up in a milieu that combined religious learning with anti-monarchist politics. He trained as a teacher, graduated from the University of Mashhad, and joined the nationalist opposition, which brought him the first of several arrests.
 

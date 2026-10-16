@@ -10,6 +10,7 @@ featured: true
 sources:
   - "https://en.wikipedia.org/wiki/Malek_Bennabi"
   - "https://fr.wikipedia.org/wiki/Malek_Bennabi"
+archived: 2026-10-14
 ---
 Malek Bennabi was born in Constantine, in French-ruled Algeria, in 1905 and grew up partly in Tébessa. He attended Qurʾanic school and then French schools before completing the *médersa* of Constantine in 1925. In 1930 he went to Paris and trained as an electrical engineer, but colonial restrictions kept him from a career in the field. He spent most of the next quarter-century in France, where he married a French convert to Islam and turned to writing on the condition of Muslim societies.
 

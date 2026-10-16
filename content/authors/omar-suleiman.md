@@ -8,6 +8,7 @@ sources:
   - "https://yaqeeninstitute.org/team/omar-suleiman"
   - "https://en.wikipedia.org/wiki/Omar_Suleiman_(imam)"
   - "https://yaqeeninstitute.org/about-us"
+archived: 2026-10-14
 ---
 Omar Suleiman is an American Muslim scholar and preacher, born in New Orleans, Louisiana, in 1986. His studies span accounting and Islamic law at undergraduate level, master's work in Islamic finance and political history, and a doctorate in Islamic thought and civilisation awarded by the International Islamic University Malaysia in 2020.
 

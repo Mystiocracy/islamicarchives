@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Jamal_al-Din_al-Afghani"
   - "https://www.britannica.com/print/article/299778"
   - "https://archive.org/details/islamicresponset0000kedd"
+archived: 2026-10-14
 ---
 Sayyid Jamāl al-Dīn al-Afghānī was born in 1838 or 1839. He presented himself as an Afghan, but most historians now accept that he came from Asadābād near Hamadan in Iran and received a Shiʿi religious and philosophical education there and in the shrine cities of Iraq. He travelled to India as a young man and then to Afghanistan, where he briefly advised the Amir.
 

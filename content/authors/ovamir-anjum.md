@@ -11,6 +11,7 @@ sources:
   - "https://www.ajis.org/index.php/ajiss/article/view/763"
   - "https://islamiclaw.blog/2024/01/04/welcome-to-our-january-guest-blogger-ovamir-anjum/"
   - "https://en.wikipedia.org/wiki/Ovamir_Anjum"
+archived: 2026-10-14
 ---
 Ovamir Anjum is a historian of Islamic thought who works on how theology, ethics, law and politics fit together in classical and medieval Islam, and on what that tradition offers Muslims today. He was born in Karachi and grew up in Pakistan, Saudi Arabia and the United States. His first religious teaching came at home, including from his grandmother. He later studied fiqh with Hanafi and Ahl-e-Hadith scholars in South Asia, and legal theory and Qur'anic recitation with teachers trained at al-Azhar and in Syria.
 

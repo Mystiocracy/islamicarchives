@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Syed_Muhammad_Naquib_al-Attas"
   - "https://www.nst.com.my/amp/news/nation/2026/03/1392862/nation-mourns-loss-syed-muhammad-naquib"
   - "https://centre.iium.edu.my/centris/wp-content/uploads/sites/4/2025/03/Dr.-Syed-Muhammad-al-Naquib-bin-Ali-al-Attas-.pdf"
+archived: 2026-10-14
 ---
 Syed Muhammad Naquib al-Attas was born in 1931 in Bogor, Java, then part of the Dutch East Indies, into a family of Hadrami sayyid descent established in the Malay world; the sociologist Syed Hussein Alatas was his elder brother. He was schooled in Johor and Java, trained as an officer at the Royal Military Academy Sandhurst, and then left the army for academic study at the University of Malaya. He took an MA at McGill University's Institute of Islamic Studies and a doctorate at the School of Oriental and African Studies in London with a thesis on the Sufi poet Hamzah Fansuri.
 

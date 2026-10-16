@@ -9,6 +9,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr"
   - "https://www.nasrfoundation.org/bios.html"
+archived: 2026-10-14
 ---
 Seyyed Hossein Nasr was born in Tehran in 1933. His father, Sayyid Valiallah Nasr, was a physician and educator from a scholarly family, and Nasr received a traditional Persian and religious grounding before being sent to school in the United States at the age of twelve. He took a degree in physics at the Massachusetts Institute of Technology and then studied geology and the history of science at Harvard, where his doctoral thesis on conceptions of nature in Islamic thought became *An Introduction to Islamic Cosmological Doctrines*. In these years he encountered the Traditionalist writers René Guénon and Frithjof Schuon, who shaped his thinking permanently.
 

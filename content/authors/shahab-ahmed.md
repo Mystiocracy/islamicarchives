@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Shahab_Ahmed"
   - "https://nes.princeton.edu/publications/ibn-taymiyya-and-his-times"
   - "https://www.iranicaonline.org/articles/hadith-i"
+archived: 2026-10-14
 ---
 Shahab Ahmed was born in Singapore in 1966 to Pakistani parents, both physicians. After schooling in Singapore and at Caterham School in England, he took a first degree at the International Islamic University Malaysia and a master's degree at the American University in Cairo, and worked for a period as a journalist in Afghanistan before completing a doctorate at Princeton.
 

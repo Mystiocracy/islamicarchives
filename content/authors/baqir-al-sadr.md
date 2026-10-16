@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Mohammad_Baqir_al-Sadr"
   - "https://ar.wikipedia.org/wiki/محمد_باقر_الصدر"
   - "https://al-islam.org/person/ayatullah-sayyid-muhammad-baqir-al-sadr"
+archived: 2026-10-14
 ---
 Muḥammad Bāqir al-Ṣadr was born in 1935 in al-Kāẓimiyya, near Baghdad, into a learned Shiʿi family with roots in Jabal ʿĀmil in Lebanon. His father died when he was a small child, and his older brother Ismāʿīl oversaw his early schooling. In 1945 the family settled in Najaf, where he studied jurisprudence and legal theory with leading teachers including Abū al-Qāsim al-Khūʾī and his maternal uncle Muḥammad Riḍā Āl Yāsīn. He began lecturing young and soon became one of the most respected teachers of *uṣūl al-fiqh* in the Najaf seminary.
 

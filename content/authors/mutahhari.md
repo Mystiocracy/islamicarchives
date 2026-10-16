@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Morteza_Motahhari"
   - "https://en.wikipedia.org/wiki/Morteza_Motahhari_bibliography"
   - "https://www.al-islam.org/person/ayatullah-murtadha-mutahhari"
+archived: 2026-10-14
 ---
 Murtaḍā Muṭahharī was born in 1919 in Fariman, a village near Mashhad in north-eastern Iran, into a clerical family. After early study in Mashhad he moved to the seminary of Qom in the 1940s, where his teachers included Ayatollah Burujirdī, Ruhollah Khomeini, and above all the philosopher ʿAllāma Muḥammad Ḥusayn Ṭabāṭabāʾī, whose lectures on realist philosophy he later published with a long commentary.
 

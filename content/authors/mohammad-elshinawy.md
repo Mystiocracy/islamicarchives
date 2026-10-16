@@ -5,6 +5,7 @@ roles: "Islamic studies instructor, religious director, translator, author"
 featured: false
 sources:
   - "https://yaqeeninstitute.org/team/mohammad-elshinawy"
+archived: 2026-10-14
 ---
 Mohammad Elshinawy is an American Muslim teacher and writer. He earned a bachelor's degree in Islamic studies through Mishkah University and a separate bachelor's in English literature from Brooklyn College in New York.
 

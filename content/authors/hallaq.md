@@ -9,6 +9,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Wael_Hallaq"
   - "https://www.aljazeera.net/culture/2019/7/15/نحو-دستورية-إسلامية-جديدة-كتاب-جديد"
+archived: 2026-10-14
 ---
 Wael B. Hallaq was born in 1955 in Nazareth to a Palestinian Christian family. He studied political science and history at the University of Haifa and then moved to the University of Washington in Seattle, where he completed his doctorate in 1983 with coursework spanning history, Near Eastern studies and law.
 

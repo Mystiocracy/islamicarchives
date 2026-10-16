@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Ali_Abdel_Raziq"
   - "https://sites.dlib.nyu.edu/viewer/node/68525"
   - "https://sites.dlib.nyu.edu/viewer/node/65188"
+archived: 2026-10-14
 ---
 ʿAlī ʿAbd al-Rāziq was born in 1888 in Minya province in Upper Egypt, into a wealthy landowning family with close ties to the liberal politics of the day. His father, Ḥasan ʿAbd al-Rāziq, was among the founders of the Umma Party in 1907, and his elder brother Muṣṭafā, a student of Muḥammad ʿAbduh, later became a philosopher and Shaykh of al-Azhar. ʿAlī received his ʿālim degree from al-Azhar in 1911 and in 1912 went to Oxford to study economics and political science. The First World War cut his stay short.
 

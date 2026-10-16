@@ -10,6 +10,7 @@ sortAs: "Usmani, Muhammad Taqi"
 sources:
   - "https://en.wikipedia.org/wiki/Muhammad_Taqi_Usmani"
   - "https://usmani.pk"
+archived: 2026-10-15
 ---
 Muhammad Taqi Usmani was born in Deoband, India, in 1943 and moved to Karachi with his family after Partition. His father was Mufti Muhammad Shafiʿ, the Grand Mufti of Pakistan, and he studied at Dar al-ʿUlum Karachi, which his father founded. He later took an MA in Arabic literature at the University of the Punjab and an LLB at Karachi, and he is vice-president of Dar al-ʿUlum Karachi, where he also teaches hadith.
 

@@ -11,6 +11,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Ismail_al-Faruqi"
   - "https://ismailfaruqi.com/?p=14"
   - "https://www.nessia.org/items/show/23"
+archived: 2026-10-14
 ---
 Ismāʿīl Rājī al-Fārūqī was born in 1921 in Jaffa, in Mandate Palestine, into a family of judges and religious scholars. He was educated at a French Catholic school and at the American University of Beirut, and served briefly as a district governor in the Mandate administration. After the war of 1948 he left for the United States, where he took graduate degrees in philosophy at Indiana University and Harvard, writing on the foundations of ethics. Feeling that he lacked a grounding in the Islamic sciences, he then spent four years at al-Azhar in Cairo.
 

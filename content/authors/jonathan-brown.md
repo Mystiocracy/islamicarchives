@@ -9,6 +9,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Jonathan_A._C._Brown"
   - "https://drjonathanbrown.com/cv/"
   - "https://sfs.georgetown.edu/profiles/jonathan-brown/"
+archived: 2026-10-14
 ---
 Jonathan A. C. Brown was born in Washington, D.C., in 1977 and raised in the Episcopal Church. He converted to Islam in 1997 while an undergraduate at Georgetown University, where he graduated in history in 2000. After a year of intensive Arabic at the Center for Arabic Study Abroad in Cairo, he completed a doctorate in Islamic thought at the University of Chicago in 2006.
 

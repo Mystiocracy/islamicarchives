@@ -7,6 +7,7 @@ died: 2012
 region: "USA, Pakistan"
 roles: "Writer, critic of Western modernity"
 featured: true
+archived: 2026-10-14
 ---
 Born Margaret Marcus in Westchester County, New York, to a secular Jewish family, she was drawn to Islam by Pickthall's translation of the Qur'an and Muhammad Asad's *The Road to Mecca*. After corresponding with Abul Aʿlā Mawdūdī she embraced Islam in Brooklyn in 1961 and moved to Lahore in 1962, where she married Muhammad Yusuf Khan, who published her books for the rest of her life.
 

@@ -10,6 +10,7 @@ sortAs: "Ramadan, Tariq"
 sources:
   - "https://en.wikipedia.org/wiki/Tariq_Ramadan"
   - "https://tariqramadan.com"
+archived: 2026-10-15
 ---
 Tariq Ramadan was born in Geneva in 1962. His father, Saʿid Ramadan, was a leader of the Muslim Brotherhood in exile, and his maternal grandfather was Hasan al-Banna, the movement's founder. He studied at the University of Geneva, taking a master’s in French literature and a doctorate in Arabic and Islamic studies, and he also studied classical Islamic sciences in Cairo.
 

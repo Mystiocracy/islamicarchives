@@ -10,6 +10,7 @@ featured: false
 sources:
   - "https://en.wikipedia.org/wiki/Abul_A%27la_Maududi"
   - "https://www.britannica.com/biography/Abul-Ala-Mawdudi"
+archived: 2026-10-14
 ---
 Abul Aʿlā Mawdūdī was born in Aurangabad, in the princely state of Hyderabad, in 1903, the son of a lawyer from a family of Chishti descent. He was educated first at home in Arabic, Persian and the religious sciences and then at a modern madrasa in Aurangabad, but his father's illness and death cut short his formal schooling. In Delhi he taught himself English and Western history and philosophy, worked as a journalist, editing the Delhi paper *al-Jam'iyyat* from 1924 to 1927, while also acquiring traditional teaching licences from Deobandi scholars.
 
