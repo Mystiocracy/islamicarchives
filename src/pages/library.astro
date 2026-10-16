@@ -47,7 +47,7 @@ const groups = [
 
     <div style="display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
       <aside aria-label="Filters" class="card filters-panel" id="subjects" style="flex:1 1 250px; max-width:300px; padding:22px 22px 0">
-        <details id="filters-details">
+        <details id="filters-details" open>
         <summary style="font-weight:600; cursor:pointer">Filters</summary>
         <div class="filters-body" style="display:flex; flex-direction:column; gap:22px; padding-bottom:22px">
         <button type="button" id="clear" style="align-self:flex-start; border:0; background:none; color:var(--green); font:inherit; font-size:14px; font-weight:500; padding:8px 0 0; cursor:pointer">Clear all</button>
@@ -84,6 +84,7 @@ const groups = [
   <script is:inline src="/pagefind/pagefind-ui.js"></script>
   <script is:inline>
     (function () {
+      if (window.matchMedia && window.matchMedia('(max-width: 820px)').matches) document.getElementById('filters-details').open = false;
       if (window.PagefindUI) new PagefindUI({ element: '#fulltext', showSubResults: true, showImages: false });
       var rows = Array.prototype.slice.call(document.querySelectorAll('[data-work]'));
       var box = document.getElementById('results');
