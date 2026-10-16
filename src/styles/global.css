@@ -176,8 +176,7 @@ dialog.send::backdrop { background: rgba(20, 32, 30, 0.55); }
   .filters-panel .filters-body { padding: 0 16px 16px; }
 }
 @media (min-width: 821px) {
-  .filters-panel > details > summary { list-style: none; pointer-events: none; }
-  .filters-panel > details > summary::-webkit-details-marker { display: none; }
+  .filters-panel > details:not([open]) > summary { padding-bottom: 22px; }
 }
 
 .orig-title { font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', var(--serif); font-size: 18px; color: var(--ink-2); line-height: 1.7; }

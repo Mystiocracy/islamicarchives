@@ -380,8 +380,8 @@ body.hide-wtl .w .t{display:none}
         <label for="r-tr">Translation <select id="r-tr"><option value="p">Pickthall</option><option value="s">Saheeh International</option><option value="both">Both</option><option value="none">None</option></select></label>
         <label><input type="checkbox" id="r-wtl" checked> Word transliteration</label>
         <label><input type="checkbox" id="r-gl" checked> Word meanings</label>
-        <label><input type="checkbox" id="r-tl"> Verse transliteration</label>
-        <label><input type="checkbox" id="r-rt"> Roots</label>
+        <label><input type="checkbox" id="r-tl" checked> Verse transliteration</label>
+        <label><input type="checkbox" id="r-rt" checked> Roots</label>
         <label><input type="checkbox" id="r-col" checked> Grammar colours</label>
         <span class="sizes" role="group" aria-label="Arabic size"><button id="r-smaller" aria-label="Smaller Arabic">A−</button><button id="r-bigger" aria-label="Larger Arabic">A+</button></span>
       </div></details>
@@ -606,11 +606,11 @@ function renderBookmarks(){
 
 // ---------------- reader ----------------
 function initRead(){
-  if(window.innerWidth>860)$('r-disp').open=true;
+  $('r-disp').open=true;
   const sel=$('r-surah');D.surahs.forEach(s=>sel.appendChild(new Option(`${s.n}. ${s.tr} — ${s.en}`,s.n)));
   const js=$('r-juz');for(let j=1;j<=30;j++)js.appendChild(new Option(j,j));
   S.page=LS.get('pos2',1);
-  const prefs=LS.get('prefs2',{tr:'p',wtl:true,gl:true,tl:false,rt:false,col:true,size:1.75});
+  const prefs=LS.get('prefs3',{tr:'both',wtl:true,gl:true,tl:true,rt:true,col:true,size:1.75});
   $('r-tr').value=prefs.tr;$('r-wtl').checked=prefs.wtl;$('r-gl').checked=prefs.gl;$('r-tl').checked=prefs.tl;$('r-rt').checked=prefs.rt;$('r-col').checked=prefs.col;S.size=prefs.size||1.75;
   applyPrefs();
   sel.addEventListener('change',()=>goVerse(+sel.value,1));
@@ -627,7 +627,7 @@ function initRead(){
 }
 function applyPrefs(){
   const p={tr:$('r-tr').value,wtl:$('r-wtl').checked,gl:$('r-gl').checked,tl:$('r-tl').checked,rt:$('r-rt').checked,col:$('r-col').checked,size:S.size};
-  LS.set('prefs2',p);
+  LS.set('prefs3',p);
   const b=document.body.classList;b.toggle('hide-gloss',!p.gl);b.toggle('hide-root',!p.rt);b.toggle('plain',!p.col);b.toggle('hide-wtl',!p.wtl);
   document.documentElement.style.setProperty('--ar-size',p.size+'rem');
   $('r-legend').hidden=!p.col;
