@@ -191,7 +191,7 @@ function shell(content) {
       h('button', { class: 'btn ' + (n ? 'btn-saffron' : 'btn-quiet'), onclick: () => go('changes') }, 'Changes ', h('span', { class: 'badge' }, String(n))),
       h('button', { class: 'btn btn-quiet', onclick: signOut }, 'Sign out'))),
     h('nav', { class: 'tabs' }, h('div', { class: 'tabs-in' },
-      [['dashboard', 'Dashboard'], ['authors', 'Authors'], ['works', 'Works'], ['subjects', 'Subjects'], ['eras', 'Eras'], ['data', 'Data files']].map(([v, l]) =>
+      [['dashboard', 'Dashboard'], ['pages', 'Pages'], ['authors', 'Authors'], ['works', 'Works'], ['subjects', 'Subjects'], ['eras', 'Eras'], ['data', 'Data files']].map(([v, l]) =>
         h('button', { class: 'tab', 'aria-current': String(S.view === v), onclick: () => go(v) }, l)))),
     h('main', {}, content));
   window.scrollTo(0, 0);
@@ -201,6 +201,7 @@ function go(view, arg) {
   if (view === 'dashboard') return viewDashboard();
   if (KINDS[view]) return viewList(view);
   if (view === 'data') return viewData();
+  if (view === 'pages') return viewPages();
   if (view === 'changes') return viewChanges();
 }
 const confirmLeave = () => true;
@@ -414,7 +415,7 @@ function photoBox(id, doc) {
 
 // ---------- data files (JSON) ----------
 async function viewData() {
-  const files = [...S.tree.keys()].filter((p) => /^src\/data\/.+\.json$/.test(p));
+  const files = [...S.tree.keys()].filter((p) => /^src\/data\/.+\.json$/.test(p) && p !== EDITS_PATH);
   shell([h('h2', { style: 'font-size:28px' }, 'Data files'),
     h('p', { class: 'muted', style: 'margin:0' }, 'The JSON tables behind the Quran section. Edit carefully: the file must stay valid JSON.'),
     h('div', { class: 'card' }, files.map((p) => h('button', { class: 'row', onclick: () => editData(p) }, h('span', { class: 't' }, h('b', {}, p.split('/').pop()), h('span', {}, p)), S.pending.has(p) ? h('span', { class: 'tag' }, 'edited') : null)))]);
@@ -428,6 +429,94 @@ async function editData(p) {
     h('div', { class: 'bar' },
       h('button', { class: 'btn', onclick: () => { try { JSON.parse(ta.value); } catch (e) { return toast('Not valid JSON: ' + e.message, true); } if (ta.value === S.texts.get(p)) S.pending.delete(p); else S.pending.set(p, { text: ta.value }); toast('Added to your changes.'); go('data'); } }, 'Add to changes'),
       h('button', { class: 'btn btn-quiet', onclick: () => go('data') }, 'Cancel'))]);
+}
+
+
+// ---------- pages: click any text on a page and change it ----------
+// Edits are saved in src/data/text-edits.json and applied to the built HTML (scripts/apply-text-edits.mjs).
+// `i` = position of the text among the page's visible body text; `find` = text as the code produces it.
+const EDITS_PATH = 'src/data/text-edits.json';
+const SKIP_TAGS = new Set(['script', 'style', 'noscript', 'textarea', 'template', 'svg', 'title']);
+function bodyTextNodes(doc) {
+  const out = [], w = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+  for (let n; (n = w.nextNode());) {
+    if (!n.nodeValue.trim()) continue;
+    let p = n.parentNode, skip = false;
+    while (p && p !== doc.body) { if (SKIP_TAGS.has(p.localName)) { skip = true; break; } p = p.parentNode; }
+    if (!skip) out.push(n);
+  }
+  return out;
+}
+async function loadEdits() { const t = await getText(EDITS_PATH); try { return t ? JSON.parse(t) : {}; } catch { return {}; } }
+function saveEdits(edits) {
+  for (const k of Object.keys(edits)) { const e = edits[k]; if (!e.nodes?.length) delete e.nodes; if (!e.title) delete e.title; if (!e.description) delete e.description; if (!Object.keys(e).length) delete edits[k]; }
+  const sorted = Object.fromEntries(Object.keys(edits).sort().map((k) => [k, edits[k]]));
+  const text = JSON.stringify(sorted, null, 1) + '\n';
+  if (S.tree.has(EDITS_PATH) && S.texts.get(EDITS_PATH) === text) S.pending.delete(EDITS_PATH); else S.pending.set(EDITS_PATH, { text });
+}
+async function viewPages() {
+  shell(h('p', { class: 'muted' }, 'Loading…'));
+  const edits = await loadEdits();
+  const pages = [...S.tree.keys()].filter((p) => /^src\/pages\/.+\.astro$/.test(p) && !p.includes('[') && !p.endsWith('404.astro'))
+    .map((p) => '/' + p.slice('src/pages/'.length, -'.astro'.length).replace(/(^|\/)index$/, '') + (p.endsWith('index.astro') && p !== 'src/pages/index.astro' ? '/' : '')).map((u) => (u === '/' || u.endsWith('/') ? u : u + '/')).sort();
+  const open = h('input', { type: 'text', placeholder: '/authors/iqbal/  (any page address)' });
+  const go1 = () => { const v = open.value.trim(); if (v) editPage(v.startsWith('/') ? (v.endsWith('/') ? v : v + '/') : '/' + v + '/'); };
+  open.addEventListener('keydown', (e) => e.key === 'Enter' && go1());
+  shell([h('h2', { style: 'font-size:28px' }, 'Pages'),
+    h('p', { class: 'muted', style: 'margin:0' }, 'Open a page, click any text on it and type. That covers headings, paragraphs, buttons, labels, the Quran Hub timeline, and the page title and description. Lists that the site builds itself in the browser (search results, random picks) and images are not editable here. For works and authors use their own tabs.'),
+    h('div', { class: 'toolbar' }, open, h('button', { class: 'btn', onclick: go1 }, 'Open page')),
+    h('div', { class: 'card' }, pages.map((u) => { const n = edits[u]?.nodes?.length || 0; return h('button', { class: 'row', onclick: () => editPage(u) }, h('span', { class: 't' }, h('b', {}, u), h('span', {}, 'Edit text on this page')), n ? h('span', { class: 'tag' }, `${n} edit${n === 1 ? '' : 's'}`) : null); }))]);
+}
+async function editPage(path) {
+  shell(h('p', { class: 'muted' }, 'Loading page…'));
+  let html; const edits = await loadEdits(); const cur = edits[path] || (edits[path] = {});
+  try { const r = await fetch(path, { cache: 'no-store' }); if (!r.ok) throw new Error('HTTP ' + r.status); html = await r.text(); }
+  catch (e) { toast(`Could not load ${path}: ${e.message}`, true); return viewPages(); }
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const nodes = bodyTextNodes(doc);
+  const byI = new Map((cur.nodes || []).map((n) => [n.i, n]));
+  const srcFind = new Map(), orig = new Map();
+  nodes.forEach((n, i) => {
+    const raw = n.nodeValue, core = raw.trim(), lead = raw.match(/^\s*/)[0], trail = raw.match(/\s*$/)[0];
+    const ed = byI.get(i); srcFind.set(i, ed && ed.replace === core ? ed.find : core); orig.set(i, core);
+    const span = doc.createElement('span'); span.setAttribute('data-i', String(i)); span.setAttribute('contenteditable', 'plaintext-only'); span.textContent = core;
+    n.replaceWith(doc.createTextNode(lead), span, doc.createTextNode(trail));
+  });
+  const srcTitle = doc.title || '', srcDesc = doc.querySelector('meta[name=description]')?.getAttribute('content') || '';
+  doc.querySelectorAll('script, meta[http-equiv], link[rel=preload], link[rel=modulepreload]').forEach((e) => e.remove());
+  const base = doc.createElement('base'); base.href = location.origin + path; doc.head.prepend(base);
+  const st = doc.createElement('style'); st.textContent = '[data-i]{outline:1px dashed transparent;border-radius:3px;cursor:text}[data-i]:hover{outline-color:#c8892b;background:#f7ebd677}[data-i]:focus{outline:2px solid #1e5a4c;background:#fffbe6}[data-i].chg{background:#dff1d8}*{scroll-behavior:auto!important}';
+  doc.head.append(st);
+  const frame = h('iframe', { sandbox: 'allow-same-origin', style: 'width:100%;height:max(560px,calc(100vh - 300px));border:1px solid var(--line);border-radius:10px;background:#fff', title: 'Page editor' });
+  frame.srcdoc = '<!doctype html>' + doc.documentElement.outerHTML;
+  frame.addEventListener('load', () => {
+    const d = frame.contentDocument;
+    d.addEventListener('click', (e) => { if (e.target.closest('a')) e.preventDefault(); }, true);
+    d.addEventListener('keydown', (e) => { if (e.key === 'Enter') e.preventDefault(); }, true);
+    d.querySelectorAll('[data-i]').forEach((sp) => sp.addEventListener('input', () => sp.classList.toggle('chg', sp.textContent !== orig.get(+sp.dataset.i))));
+  });
+  const tIn = h('input', { type: 'text', value: cur.title || srcTitle }), dIn = h('input', { type: 'text', value: cur.description || srcDesc });
+  const save = () => {
+    const d = frame.contentDocument, nodesOut = new Map((cur.nodes || []).map((n) => [n.i, n])); let changed = 0;
+    for (const sp of d.querySelectorAll('[data-i]')) {
+      const i = +sp.dataset.i; let val = sp.textContent; if (val === orig.get(i)) continue;
+      if (!orig.get(i).includes(' ')) val = val.replace(/ /g, ' ');
+      val = val.trim(); if (!val) { toast('A text block cannot be left empty. Put at least one character, or leave the original.', true); sp.focus(); return; }
+      changed++; if (val === srcFind.get(i)) nodesOut.delete(i); else nodesOut.set(i, { i, find: srcFind.get(i), replace: val });
+    }
+    cur.nodes = [...nodesOut.values()].sort((a, b) => a.i - b.i);
+    if (tIn.value.trim() !== (cur.title || srcTitle)) cur.title = tIn.value.trim();
+    if (dIn.value.trim() !== (cur.description || srcDesc)) cur.description = dIn.value.trim();
+    edits[path] = cur; saveEdits(edits); toast(changed || cur.title || cur.description ? 'Added to your changes. Publish when you are ready.' : 'No changes on this page.'); go('pages');
+  };
+  const undo = () => { if (!confirm('Remove every text edit on this page and go back to the original wording? (Applies when you publish.)')) return; delete edits[path]; saveEdits(edits); go('pages'); };
+  shell([h('div', { class: 'crumb' }, h('a', { href: '#', onclick: (e) => { e.preventDefault(); go('pages'); } }, '← Pages')),
+    h('h2', { style: 'font-size:28px' }, path),
+    h('p', { class: 'muted small', style: 'margin:0' }, 'Click any text below and type. Edited text turns green. Links do not open while you edit.'),
+    h('div', { class: 'form card pad' }, h('div', { class: 'f' }, h('label', {}, 'Page title (browser tab and search results)'), tIn), h('div', { class: 'f' }, h('label', {}, 'Page description (search results)'), dIn)),
+    frame,
+    h('div', { class: 'bar' }, h('button', { class: 'btn', onclick: save }, 'Add to changes'), h('button', { class: 'btn btn-quiet', onclick: () => go('pages') }, 'Cancel'),
+      h('a', { class: 'btn btn-quiet', href: path, target: '_blank', rel: 'noopener' }, 'View live page ↗'), cur.nodes?.length ? h('button', { class: 'btn btn-danger', style: 'margin-left:auto', onclick: undo }, 'Undo all edits on this page') : null)]);
 }
 
 // ---------- changes & publish ----------

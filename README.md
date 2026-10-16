@@ -4,7 +4,7 @@ The website for **islamicarchives.org**: a free, searchable archive of writings 
 
 ## Adding and editing content
 
-**Easiest: the built-in admin at `/admin/`** (islamicarchives.org/admin/). Sign in once with a GitHub fine-grained token (repo `Mystiocracy/islamicarchives`, permission *Contents: Read and write*), edit authors, works, subjects, eras and the Quran JSON tables, drop photos onto an author, then press **Publish** in *Changes*: everything goes online as one commit and the site rebuilds in a few minutes.
+**Easiest: the built-in admin at `/admin/`** (islamicarchives.org/admin/). Sign in once with a GitHub fine-grained token (repo `Mystiocracy/islamicarchives`, permission *Contents: Read and write*), edit authors, works, subjects, eras and the Quran JSON tables, drop photos onto an author, click any text on any page under **Pages** and retype it, then press **Publish** in *Changes*: everything goes online as one commit and the site rebuilds in a few minutes.
 
 **Alternative: the Pages CMS admin page.** Go to <https://app.pagescms.org>, sign in with GitHub and open this repository. You'll see **Works** and **Authors**.
 
