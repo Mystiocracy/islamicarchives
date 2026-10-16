@@ -5,6 +5,8 @@ titleOriginal: "تتمة البيان في تاريخ الأفغان"
 year: 1901
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Afghanistan"
   - "history of Afghanistan"

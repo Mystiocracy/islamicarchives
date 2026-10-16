@@ -4,6 +4,8 @@ titleOriginal: "ﷺترجمہ سیرت رسول اکرم"
 author: nadwi
 language: "Telugu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Prophet Muhammad"
   - "sira"

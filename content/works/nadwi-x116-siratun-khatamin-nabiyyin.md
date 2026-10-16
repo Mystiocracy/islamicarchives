@@ -4,6 +4,8 @@ titleOriginal: "السیرۃ النّبویۃ"
 author: nadwi
 language: "Malayalam"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "al-Sira al-Nabawiyya"
   - "Prophet Muhammad"

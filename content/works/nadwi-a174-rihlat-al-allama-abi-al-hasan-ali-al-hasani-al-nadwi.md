@@ -4,6 +4,8 @@ titleOriginal: "رحلات العلامة أبي الحسن علي الحسني 
 author: nadwi
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "travel"
   - "Middle East"

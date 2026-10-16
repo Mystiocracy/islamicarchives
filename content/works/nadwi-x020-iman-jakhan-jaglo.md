@@ -4,6 +4,8 @@ titleOriginal: "ঈমান যখন জাগলো"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Jab Iman ki Bahar Ayi"
   - "Idha Habbat Rih al-Iman"

@@ -3,6 +3,8 @@ title: "Son Peygamber Hz. Muhammed'in Hayati"
 author: nadwi
 language: "Turkish"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "al-Sira al-Nabawiyya"
   - "Prophet Muhammad"

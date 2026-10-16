@@ -4,6 +4,8 @@ author: maryam-jameelah
 year: 1990
 language: English
 type: "Memoir"
+subjects:
+  - sira-and-history
 keywords:
   - "Maududi"
   - "Lahore"

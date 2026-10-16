@@ -4,6 +4,8 @@ titleOriginal: "ذکر خیر (حضرت مولانا علیہ الرحمۃ کی 
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Khairunnisa Behtar"
   - "mother"

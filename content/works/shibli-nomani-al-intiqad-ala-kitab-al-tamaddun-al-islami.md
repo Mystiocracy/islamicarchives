@@ -5,6 +5,8 @@ titleOriginal: "الانتقاد علی کتاب التمدن الاسلامی"
 year: 1912
 language: "Arabic"
 type: "Review"
+subjects:
+  - sira-and-history
 keywords:
   - "Jurji Zaydan"
   - "Tarikh al-Tamaddun al-Islami"

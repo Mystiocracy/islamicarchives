@@ -4,6 +4,8 @@ titleOriginal: "কারওয়ানে মদীনা"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Madina"
   - "Prophet Muhammad"

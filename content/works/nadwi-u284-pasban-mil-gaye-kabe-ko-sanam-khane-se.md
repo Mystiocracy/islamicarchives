@@ -4,6 +4,8 @@ titleOriginal: "پاسنبان مل گئے کعبہ کو صنم خانے سے"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "converts"
   - "Islam's spread"

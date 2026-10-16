@@ -4,6 +4,8 @@ titleOriginal: "എൻറെ പ്രിയപ്പെട്ട ഉമ്മ"
 author: nadwi
 language: "Malayalam"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Zikr-e-Khair"
   - "Khairunnisa Behtar"

@@ -4,6 +4,8 @@ titleOriginal: "امت کے وفود آقا کے حضور میں"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Prophet Muhammad"
   - "Madina"

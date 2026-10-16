@@ -5,6 +5,8 @@ author: nadwi
 year: 1990
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "On Life's Journey"
   - "autobiography"

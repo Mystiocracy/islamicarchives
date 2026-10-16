@@ -4,6 +4,8 @@ titleOriginal: "मदीने की डगर"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - sira-and-history
 keywords:
   - "Madina"
   - "Prophet Muhammad"

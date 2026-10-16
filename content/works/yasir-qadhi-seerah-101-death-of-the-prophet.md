@@ -4,6 +4,8 @@ author: yasir-qadhi
 year: 2015
 language: English
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "death of the Prophet"

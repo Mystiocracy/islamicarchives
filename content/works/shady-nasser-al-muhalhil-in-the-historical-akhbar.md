@@ -4,6 +4,8 @@ author: shady-nasser
 year: 2009
 language: English
 type: "Paper"
+subjects:
+  - sira-and-history
 keywords:
   - "al-Muhalhil"
   - "pre-Islamic poetry"

@@ -5,6 +5,8 @@ titleOriginal: "Muhammad : vie du prophète : les enseignements spirituels et co
 year: 2007
 language: "English"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

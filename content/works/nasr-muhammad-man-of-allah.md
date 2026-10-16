@@ -5,6 +5,8 @@ titleOriginal: "Internet Archive (later edition 'Muhammad, Man of God', borrowab
 year: 1982
 language: "English"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Muhammad, Man of God"
   - "Prophet Muhammad"

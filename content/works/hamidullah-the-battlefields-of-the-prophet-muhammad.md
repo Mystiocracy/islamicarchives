@@ -4,6 +4,8 @@ author: hamidullah
 titleOriginal: "عہد نبوی کے میدان جنگ"
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Ahd-e-Nabawi ke Maidan-e-Jang"
   - "military history"

@@ -4,6 +4,8 @@ titleOriginal: "নতুন পৃথিবীর জন্মদিবস"
 author: nadwi
 language: "Bengali"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Nayi Duniya ka Yaum-e-Aghaz"
   - "Prophet Muhammad"

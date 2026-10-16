@@ -5,6 +5,8 @@ author: nadwi
 year: 1974
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Afghanistan"
   - "Kabul"

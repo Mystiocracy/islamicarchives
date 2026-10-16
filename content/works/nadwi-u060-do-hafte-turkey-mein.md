@@ -4,6 +4,8 @@ titleOriginal: "دو ہفتے ترکی میں"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Turkey"
   - "Istanbul"

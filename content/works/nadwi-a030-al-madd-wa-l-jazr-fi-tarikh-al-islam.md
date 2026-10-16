@@ -5,6 +5,8 @@ author: nadwi
 year: 1971
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Ebb and Flow in Islamic History"
   - "Islamic history"

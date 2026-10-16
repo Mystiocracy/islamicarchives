@@ -4,6 +4,8 @@ titleOriginal: "जग के मोहसिन"
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - sira-and-history
 keywords:
   - "Prophet Muhammad"
   - "sira"

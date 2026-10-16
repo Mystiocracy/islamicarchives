@@ -4,6 +4,8 @@ author: tariq-ramadan
 year: 2020
 language: "English"
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

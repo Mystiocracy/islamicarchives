@@ -5,6 +5,8 @@ titleOriginal: "رسائل شبلی"
 year: 1898
 language: "Urdu"
 type: "Collection"
+subjects:
+  - sira-and-history
 keywords:
   - "Silsila-e-Asifia"
   - "historical essays"

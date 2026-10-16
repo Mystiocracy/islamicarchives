@@ -5,6 +5,8 @@ author: nadwi
 year: 1976
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Morocco"
   - "Maghreb"

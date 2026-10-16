@@ -4,6 +4,8 @@ author: israr-ahmad
 titleOriginal: "عظمت مصطفیٰ ﷺ"
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Azmat-e-Mustafa"
   - "Prophet Muhammad"

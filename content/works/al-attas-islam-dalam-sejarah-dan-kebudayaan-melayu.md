@@ -4,6 +4,8 @@ author: al-attas
 year: 1972
 language: "Malay"
 type: "Speech"
+subjects:
+  - sira-and-history
 keywords:
   - "Islam in Malay history and culture"
   - "Malay civilisation"

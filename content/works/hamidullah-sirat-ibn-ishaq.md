@@ -5,6 +5,8 @@ titleOriginal: "سيرة ابن إسحاق (كتاب المبتدأ والمبع
 year: 1976
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Ibn Ishaq"
   - "sira"

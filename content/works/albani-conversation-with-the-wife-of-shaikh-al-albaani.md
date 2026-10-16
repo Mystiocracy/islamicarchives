@@ -5,6 +5,8 @@ byline: "Interview of his wife, Yusra ʿAbd al-Raḥmān ʿAbidīn"
 year: 2011
 language: English
 type: "Interview"
+subjects:
+  - sira-and-history
 keywords:
   - "Umm al-Fadl"
   - "family"

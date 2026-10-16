@@ -4,6 +4,8 @@ titleOriginal: "কাবুল থেকে আম্মান"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Darya-e-Kabul se Darya-e-Yarmuk tak"
   - "Afghanistan"

@@ -5,6 +5,8 @@ author: nadwi
 year: 1981
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Morocco"
   - "Maghreb"

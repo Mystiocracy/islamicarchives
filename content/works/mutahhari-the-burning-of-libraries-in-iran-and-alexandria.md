@@ -4,6 +4,8 @@ author: mutahhari
 titleOriginal: "کتابسوزی ایران و مصر"
 language: "Persian"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Ketab-suzi"
   - "Library of Alexandria"

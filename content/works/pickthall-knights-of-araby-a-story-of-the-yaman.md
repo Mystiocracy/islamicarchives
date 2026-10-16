@@ -4,6 +4,8 @@ author: pickthall
 year: 1917
 language: "English"
 type: "Novel"
+subjects:
+  - sira-and-history
 keywords:
   - "Yemen"
   - "Najahid dynasty"

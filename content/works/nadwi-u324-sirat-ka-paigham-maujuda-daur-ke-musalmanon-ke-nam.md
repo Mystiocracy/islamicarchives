@@ -4,6 +4,8 @@ titleOriginal: "سیرت کا پیغام موجودہ دور کے مسلمانو
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

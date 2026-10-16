@@ -4,6 +4,8 @@ titleOriginal: "नबी-ए-रहमत"
 author: nadwi
 language: "Hindi"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "al-Sira al-Nabawiyya"
   - "Prophet Muhammad"

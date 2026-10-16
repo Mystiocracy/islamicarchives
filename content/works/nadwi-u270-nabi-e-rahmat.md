@@ -4,6 +4,8 @@ titleOriginal: "نبی رحمتﷺ"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

@@ -4,6 +4,8 @@ author: ovamir-anjum
 year: 2023
 language: "English"
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "Islamic history"
   - "historiography"

@@ -4,6 +4,8 @@ titleOriginal: "মধ্যপ্রাচ্যের ডায়েরি"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Mashriq-e-Wusta ki Diary"
   - "Middle East"

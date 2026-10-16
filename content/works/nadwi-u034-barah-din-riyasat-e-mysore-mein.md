@@ -4,6 +4,8 @@ titleOriginal: "بارہ دن ریاست میسور میں"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Mysore"
   - "Karnataka"

@@ -5,6 +5,8 @@ titleOriginal: "رسولِ کامل"
 year: 1980
 language: "Urdu"
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

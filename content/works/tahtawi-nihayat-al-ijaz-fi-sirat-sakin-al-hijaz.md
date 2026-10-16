@@ -4,6 +4,8 @@ author: tahtawi
 titleOriginal: "نهاية الإيجاز في سيرة ساكن الحجاز"
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

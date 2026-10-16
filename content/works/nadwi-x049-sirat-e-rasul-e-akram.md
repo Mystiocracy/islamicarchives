@@ -4,6 +4,8 @@ titleOriginal: "সীরাতে রসূল আকরাম"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Prophet Muhammad"
   - "sira"

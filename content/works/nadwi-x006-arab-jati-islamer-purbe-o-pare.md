@@ -4,6 +4,8 @@ titleOriginal: "আরব জাতি: ইসলামের পূর্বে
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Arabs"
   - "jahiliyya"

@@ -5,6 +5,8 @@ titleOriginal: "Devoir de vérité"
 year: 2019
 language: "French"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Duty of Truth"
   - "accusations"

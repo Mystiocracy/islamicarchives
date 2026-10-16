@@ -4,6 +4,8 @@ titleOriginal: "غارة التتار على العالم الإسلامي وظ�
 author: nadwi
 language: "Arabic"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "The Tatar Onslaught on the Muslim World"
   - "Mongols"

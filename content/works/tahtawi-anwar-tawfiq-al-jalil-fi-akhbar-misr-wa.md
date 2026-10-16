@@ -5,6 +5,8 @@ titleOriginal: "أنوار توفيق الجليل في أخبار مصر وتو
 year: 1868
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "history of Egypt"
   - "Pharaonic Egypt"

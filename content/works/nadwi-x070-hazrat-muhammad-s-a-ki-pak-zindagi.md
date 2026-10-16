@@ -4,6 +4,8 @@ titleOriginal: "हज़रत मुहम्मद स0अ0 की पाक 
 author: nadwi
 language: "Hindi"
 type: "Speech"
+subjects:
+  - sira-and-history
 keywords:
   - "Prophet Muhammad"
   - "sira"

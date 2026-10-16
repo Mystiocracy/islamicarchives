@@ -5,6 +5,8 @@ author: nadwi
 year: 1989
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Ali ibn Abi Talib"
   - "al-Murtada"

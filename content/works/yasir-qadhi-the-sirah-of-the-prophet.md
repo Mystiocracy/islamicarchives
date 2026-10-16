@@ -4,6 +4,8 @@ author: yasir-qadhi
 year: 2023
 language: English
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

@@ -4,6 +4,8 @@ titleOriginal: "ترجمة سيرة خاتم النبيين"
 author: nadwi
 language: "Uyghur"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "al-Sira al-Nabawiyya"
   - "Prophet Muhammad"

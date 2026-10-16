@@ -4,6 +4,8 @@ titleOriginal: "আমার আম্মা"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Zikr-e-Khair"
   - "Khairunnisa Behtar"

@@ -5,6 +5,8 @@ author: nadwi
 year: 1980
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "The Road to Medina"
   - "Medina"

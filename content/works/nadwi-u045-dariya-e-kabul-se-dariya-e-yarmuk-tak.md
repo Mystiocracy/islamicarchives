@@ -4,6 +4,8 @@ titleOriginal: "دریائے کابل سے دریائے یرموک تک"
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Darya-e-Kabul se Darya-e-Yarmuk tak"
   - "Afghanistan"

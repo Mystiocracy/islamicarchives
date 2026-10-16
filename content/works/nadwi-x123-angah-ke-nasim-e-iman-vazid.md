@@ -4,6 +4,8 @@ titleOriginal: "آنگاه که نسیم ایمان وزید"
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Idha Habbat Rih al-Iman"
   - "Jab Iman ki Bahar Ayi"

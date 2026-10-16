@@ -3,6 +3,8 @@ title: "Seerah of Prophet Muhammad (lecture series)"
 author: yasir-qadhi
 language: English
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

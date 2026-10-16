@@ -4,6 +4,8 @@ author: taqi-usmani
 titleOriginal: "سفر در سفر"
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "travelogue"
   - "safarnama"

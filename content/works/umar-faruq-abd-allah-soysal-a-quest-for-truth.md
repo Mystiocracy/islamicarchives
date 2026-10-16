@@ -5,6 +5,8 @@ byline: "Gökhan Soysal"
 year: 2020
 language: English
 type: "Essay"
+subjects:
+  - sira-and-history
 keywords:
   - "conversion"
   - "Nebraska"

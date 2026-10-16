@@ -3,6 +3,8 @@ title: "Muhammad: The Last Prophet (Sirat; Short Biography)"
 author: nadwi
 language: "English"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

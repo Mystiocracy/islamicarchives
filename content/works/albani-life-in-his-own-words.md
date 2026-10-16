@@ -4,6 +4,8 @@ author: albani
 year: 2011
 language: English
 type: "Memoir"
+subjects:
+  - sira-and-history
 keywords:
   - "autobiography"
   - "Isam Musa Hadi"

@@ -4,6 +4,8 @@ titleOriginal: "نبیی رحمتﷺ"
 author: nadwi
 language: "Malayalam"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Nabi-e-Rahmat"
   - "al-Sira al-Nabawiyya"

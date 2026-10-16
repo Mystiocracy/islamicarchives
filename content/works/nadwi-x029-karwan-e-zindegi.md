@@ -4,6 +4,8 @@ titleOriginal: "কারওয়ানে যিন্দেগী"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Karwan-e-Zindagi"
   - "autobiography"

@@ -4,6 +4,8 @@ titleOriginal: "بچوں کے لیے سیرۃ النبی ﷺ (قصص النبی�
 author: nadwi
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

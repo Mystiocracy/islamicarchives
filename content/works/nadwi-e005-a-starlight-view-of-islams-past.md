@@ -4,6 +4,8 @@ author: nadwi
 year: 2005
 language: "English"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Islamic history"
   - "Islamic civilisation"

@@ -4,6 +4,8 @@ titleOriginal: "مذكرات سائح في الشرق العربي"
 author: nadwi
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Egypt"
   - "Sudan"

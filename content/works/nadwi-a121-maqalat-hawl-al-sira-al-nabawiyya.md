@@ -5,6 +5,8 @@ author: nadwi
 year: 2002
 language: "Arabic"
 type: "Article"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

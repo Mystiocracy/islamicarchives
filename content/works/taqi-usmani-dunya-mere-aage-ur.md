@@ -4,6 +4,8 @@ author: taqi-usmani
 titleOriginal: "دنیا مرے آگے"
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "travelogue"
   - "travel accounts"

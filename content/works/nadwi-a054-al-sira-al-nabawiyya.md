@@ -5,6 +5,8 @@ author: nadwi
 year: 1977
 language: "Arabic"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

@@ -4,6 +4,8 @@ author: albani
 byline: "Reminders From Al Albani"
 language: English
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "biography"
   - "Salafism"

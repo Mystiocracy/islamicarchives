@@ -4,6 +4,8 @@ titleOriginal: "زندگانی پیغمبر اسلام صلی الله علیه 
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "al-Sira al-Nabawiyya"
   - "Prophet Muhammad"

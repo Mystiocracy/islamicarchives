@@ -4,6 +4,8 @@ author: ovamir-anjum
 year: 2022
 language: "English"
 type: "Video"
+subjects:
+  - sira-and-history
 keywords:
   - "Islamic history"
   - "conviction"

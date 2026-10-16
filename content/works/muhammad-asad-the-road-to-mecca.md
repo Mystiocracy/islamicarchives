@@ -4,6 +4,8 @@ author: muhammad-asad
 year: 1954
 language: "English"
 type: "Memoir"
+subjects:
+  - sira-and-history
 keywords:
   - "autobiography"
   - "conversion to Islam"

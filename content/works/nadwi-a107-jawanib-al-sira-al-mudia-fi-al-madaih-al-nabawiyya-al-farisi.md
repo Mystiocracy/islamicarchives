@@ -4,6 +4,8 @@ titleOriginal: "جوانب السيرة المضيئة في المدائح ال�
 author: nadwi
 language: "Arabic"
 type: "Article"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Persian poetry"

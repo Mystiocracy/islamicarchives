@@ -5,6 +5,8 @@ titleOriginal: "حياة محمد"
 year: 1976
 language: "Arabic"
 type: "Translation"
+subjects:
+  - sira-and-history
 keywords:
   - "Hayat Muhammad"
   - "Muhammad Husayn Haykal"

@@ -5,6 +5,8 @@ author: nadwi
 year: 1983
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "autobiography"
   - "Nadwat al-Ulama"

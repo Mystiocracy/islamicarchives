@@ -4,6 +4,8 @@ titleOriginal: "به سوی مدینه"
 author: nadwi
 language: "Persian"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Madina"
   - "Prophet Muhammad"

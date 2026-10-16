@@ -5,6 +5,8 @@ titleOriginal: "جلاء القلوب بذکر المحبوب"
 year: 1843
 language: "Urdu"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "mawlid"
   - "Prophet Muhammad"

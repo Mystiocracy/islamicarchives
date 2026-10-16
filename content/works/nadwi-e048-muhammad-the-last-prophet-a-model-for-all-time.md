@@ -4,6 +4,8 @@ author: nadwi
 year: 1993
 language: "English"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

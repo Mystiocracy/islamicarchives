@@ -4,6 +4,8 @@ titleOriginal: "سیرت رسول اکرمﷺ"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "sira"
   - "Prophet Muhammad"

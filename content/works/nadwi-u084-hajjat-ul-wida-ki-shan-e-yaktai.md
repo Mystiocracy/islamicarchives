@@ -4,6 +4,8 @@ titleOriginal: "حجۃ الوداع کی شان یکتائی"
 author: nadwi
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "Hajjat al-Wida"
   - "Farewell Pilgrimage"

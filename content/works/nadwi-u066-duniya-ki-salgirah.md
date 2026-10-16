@@ -5,6 +5,8 @@ author: nadwi
 year: 1956
 language: "Urdu"
 type: "Pamphlet"
+subjects:
+  - sira-and-history
 keywords:
   - "mawlid"
   - "birth of the Prophet"

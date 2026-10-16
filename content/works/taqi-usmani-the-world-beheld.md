@@ -4,6 +4,8 @@ author: taqi-usmani
 titleOriginal: "جہانِ دیدہ"
 language: "English"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Jahan-e-Deedah"
   - "travelogue"

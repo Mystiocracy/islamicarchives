@@ -4,6 +4,8 @@ titleOriginal: "নবীয়ে রহমত"
 author: nadwi
 language: "Bengali"
 type: "Book"
+subjects:
+  - sira-and-history
 keywords:
   - "Nabi-e-Rahmat"
   - "al-Sira al-Nabawiyya"
