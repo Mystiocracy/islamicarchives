@@ -1,0 +1,11 @@
+{
+  "title": "Quran Hub",
+  "description": "The Quran section of Islamic Archives: tafseer, the word-by-word corpus, a catalogue of early manuscripts and the scholars who study them.",
+  "intro": "Tools and references for studying the Qur'an. Everything here is searchable from the search box at the top of any page, and each catalogue entry carries an archived date and a note on how to cite it.",
+  "tiles": [
+    { "href": "/quran/corpus/", "ar": "المعجم", "heading": "Quran Word Corpus", "text": "Read the Qur'an word by word, with the grammar and root of every word, a dictionary of roots, a table of verbs and a concordance.", "note": "Word-by-word tool" },
+    { "href": "/quran/tafsir/", "ar": "تفسير", "heading": "Tafseer", "text": "Commentaries on the Qur'an, translations with commentary and writings on interpretation, from the library.", "note": "{n} works" },
+    { "href": "/quran/manuscripts/", "ar": "مخطوطات", "heading": "Manuscript catalogue", "text": "Early Qur'an manuscripts, studies of their script and dating, and the libraries and databases that hold them.", "note": "{n} resources" },
+    { "href": "/quran/scholars/", "ar": "علماء", "heading": "Manuscript scholars", "text": "Scholars and research projects working on early Qur'an manuscripts: palaeography, codicology and textual variants.", "note": "{n} entries" }
+  ]
+}

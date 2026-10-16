@@ -2,24 +2,23 @@
 import Base from '../../layouts/Base.astro';
 import manuscripts from '../../data/manuscripts.json';
 import scholars from '../../data/scholars.json';
+import hub from '../../data/quran-hub.json';
 import { allWorks } from '../../lib/site';
 import CompilationTimeline from '../../components/CompilationTimeline.astro';
 
 const RX = /tafs[iīi]r|tafseer|commentary|exegesis|exegetical|interpretation of the (qur|kor)|message of the qur|towards understanding the qur|zilal|ẓilāl|translation of the (meanings|qur)/i;
 const tafsir = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies') &&
   (RX.test([w.data.title, w.data.titleOriginal, w.data.summary, w.data.keywords.join(' ')].filter(Boolean).join(' ')) || w.data.type === 'Translation')).length;
-const tiles = [
-  { href: '/quran/corpus/', ar: 'المعجم', h: 'Quran Word Corpus', p: 'Read the Qur\'an word by word, with the grammar and root of every word, a dictionary of roots, a table of verbs and a concordance.', n: 'Word-by-word tool' },
-  { href: '/quran/tafsir/', ar: 'تفسير', h: 'Tafseer', p: 'Commentaries on the Qur\'an, translations with commentary and writings on interpretation, from the library.', n: `${tafsir} works` },
-  { href: '/quran/manuscripts/', ar: 'مخطوطات', h: 'Manuscript catalogue', p: 'Early Qur\'an manuscripts, studies of their script and dating, and the libraries and databases that hold them.', n: `${manuscripts.length} resources` },
-  { href: '/quran/scholars/', ar: 'علماء', h: 'Manuscript scholars', p: 'Scholars and research projects working on early Qur\'an manuscripts: palaeography, codicology and textual variants.', n: `${scholars.length} entries` },
-];
+// the page text lives in src/data/quran-hub.json (editable in /admin/ -> Data files); "{n}" in a note becomes the live count
+const counts: Record<string, number> = { '/quran/tafsir/': tafsir, '/quran/manuscripts/': manuscripts.length, '/quran/scholars/': scholars.length };
+const tiles = hub.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', String(counts[t.href] ?? '')) }));
+
 ---
-<Base title="Quran Hub" description="The Quran section of Islamic Archives: tafseer, the word-by-word corpus, a catalogue of early manuscripts and the scholars who study them." current="quran">
+<Base title={hub.title} description={hub.description} current="quran">
   <div class="wrap" style="padding-top:40px; padding-bottom:48px; display:flex; flex-direction:column; gap:28px">
     <div>
-      <h1 style="font-size:40px; margin:0 0 0.3em">Quran Hub</h1>
-      <p class="muted" style="margin:0; font-size:17px">Tools and references for studying the Qur'an. Everything here is searchable from the search box at the top of any page, and each catalogue entry carries an archived date and a note on how to cite it.</p>
+      <h1 style="font-size:40px; margin:0 0 0.3em">{hub.title}</h1>
+      <p class="muted" style="margin:0; font-size:17px">{hub.intro}</p>
     </div>
     <div class="grid-auto" style="--min:250px">
       {tiles.map((t) => (
