@@ -11,6 +11,19 @@ for (const w of works) { const e = eraOf(w.data.year, eras); if (e) perEra.set(e
 const groups: Record<string, string> = hist.groups;
 const groupKeys = Object.keys(groups);
 const entries = [...hist.entries].sort((a, b) => a.from - b.from || a.to - b.to);
+const slug = (n: string) => 'h-' + n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+type TNode = { n: string; kids?: TNode[] };
+const treeDef: TNode = { n: 'Muhammad and the first community', kids: [{ n: 'Rashidun Caliphate', kids: [{ n: 'Umayyad Caliphate', kids: [
+  { n: 'Umayyads of al-Andalus', kids: [{ n: 'Almoravids and Almohads', kids: [{ n: 'Nasrid Emirate of Granada' }] }] },
+  { n: 'Abbasid Caliphate', kids: [
+    { n: 'Fatimid Caliphate', kids: [{ n: 'Ayyubid Sultanate', kids: [{ n: 'Mamluk Sultanate' }] }] },
+    { n: 'Ghaznavids', kids: [{ n: 'Delhi Sultanate' }] },
+    { n: 'Great Seljuk Empire', kids: [{ n: 'Ottoman Empire', kids: [
+      { n: 'Saudi states' },
+      { n: 'European colonial rule and the Nahḍa', kids: [{ n: 'End of empire', kids: [{ n: 'New states and revival', kids: [{ n: 'Revolution and renewal', kids: [{ n: 'Contemporary voices' }] }] }] }] } ] }] },
+    { n: 'Ilkhanate', kids: [{ n: 'Timurid Empire', kids: [{ n: 'Mughal Empire' }, { n: 'Safavid Empire' }] }] },
+  ] } ] }] }] };
+const byName = new Map(hist.entries.map((e) => [e.name, e]));
 ---
 <Base title={hist.title} description={hist.intro} current="history">
   <div class="wrap" style="padding-top:40px; padding-bottom:56px; display:flex; flex-direction:column; gap:26px">
@@ -20,11 +33,26 @@ const entries = [...hist.entries].sort((a, b) => a.from - b.from || a.to - b.to)
     </div>
     <div class="h-legend" aria-label="Key">{groupKeys.map((k) => <span><i class={`hd g-${k}`}></i>{groups[k]}</span>)}</div>
 
-    <ol class="h-line">
+    <div class="h-tabs" role="tablist"><button type="button" class="on" data-v="line">Timeline</button><button type="button" data-v="tree">Tree</button></div>
+
+    <section id="h-tree" class="h-tree-wrap" hidden aria-label="Family tree of states">
+      <p class="muted" style="margin:0 0 14px; font-size:14px">Each state sits below the one it grew out of, or the power it replaced or succeeded. The lines show lineage, not a strict chain of inheritance. Tap a box to jump to its entry. Scroll sideways on small screens.</p>
+      <div class="h-tree-scroll">
+        <ul class="tree">
+          <Fragment set:html={(function render(nd: TNode): string {
+            const e: any = byName.get(nd.n);
+            const box = `<a class="tn g-${e.group}" href="#${slug(e.name)}"><b>${e.name}</b><small>${e.when}</small></a>`;
+            return `<li>${box}${nd.kids ? '<ul>' + nd.kids.map(render).join('') + '</ul>' : ''}</li>`;
+          })(treeDef)} />
+        </ul>
+      </div>
+    </section>
+
+    <ol class="h-line" id="h-timeline">
       {entries.map((e) => {
         const n = e.era ? perEra.get(e.era) : 0;
         return (
-          <li class={`h-ev g-${e.group}`}>
+          <li class={`h-ev g-${e.group}`} id={slug(e.name)}>
             <div class="h-date">{e.when}</div>
             <article class="h-card">
               <h2>{e.name}</h2>
@@ -87,4 +115,44 @@ const entries = [...hist.entries].sort((a, b) => a.from - b.from || a.to - b.to)
   .r-when { color: var(--muted); font-variant-numeric: tabular-nums; }
   .r-name em { color: var(--muted); font-style: normal; font-size: 13px; }
   @media (max-width: 700px) { .h-rulers li { grid-template-columns: 1fr; gap: 0; } }
+  .h-tabs { display: inline-flex; gap: 0; align-self: flex-start; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .h-tabs button { font: inherit; font-size: 14px; padding: 6px 20px; background: var(--surface); color: inherit; border: 0; cursor: pointer; }
+  .h-tabs button.on { background: var(--c-green, #1f5a47); color: #fff; }
+  .h-ev { scroll-margin-top: 90px; }
 </style>
+<style is:global>
+  .h-tree-scroll { overflow-x: auto; padding-bottom: 12px; }
+  .tree, .tree ul { list-style: none; margin: 0; padding: 0; }
+  .tree { display: flex; justify-content: center; min-width: max-content; }
+  .tree ul { display: flex; justify-content: center; padding-top: 22px; position: relative; }
+  .tree li { display: flex; flex-direction: column; align-items: center; position: relative; padding: 22px 8px 0; }
+  .tree > li { padding-top: 0; }
+  .tree li::before, .tree li::after { content: ''; position: absolute; top: 0; width: 50%; height: 22px; border-top: 2px solid var(--line-strong, #b9c6c1); }
+  .tree li::before { right: 50%; } .tree li::after { left: 50%; border-left: 2px solid var(--line-strong, #b9c6c1); }
+  .tree > li::before, .tree > li::after { display: none; }
+  .tree li:only-child::before, .tree li:only-child::after { display: none; }
+  .tree li:only-child { padding-top: 0; }
+  .tree li:first-child::before, .tree li:last-child::after { border: 0; }
+  .tree li:last-child::before { border-right: 2px solid var(--line-strong, #b9c6c1); border-radius: 0 6px 0 0; }
+  .tree li:first-child::after { border-radius: 6px 0 0 0; }
+  .tree ul::before { content: ''; position: absolute; top: 0; left: 50%; height: 22px; border-left: 2px solid var(--line-strong, #b9c6c1); }
+  .tn { display: block; text-align: center; width: 150px; padding: 8px 10px; border: 1px solid var(--line); border-top: 4px solid var(--c); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: inherit; line-height: 1.25; }
+  .tn b { display: block; font-size: 13.5px; } .tn small { color: var(--muted); font-size: 12px; }
+  .tn:hover { box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+  .tn.g-c { --c: #2f6f56; } .tn.g-p { --c: #c58a1f; } .tn.g-d { --c: #3b7f9a; } .tn.g-e { --c: #7a4a8a; } .tn.g-m { --c: #55605D; }
+</style>
+<script is:inline>
+  document.querySelectorAll('.h-tabs button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var tree = b.dataset.v === 'tree';
+      document.getElementById('h-tree').hidden = !tree;
+      document.getElementById('h-timeline').hidden = tree;
+      document.querySelectorAll('.h-tabs button').forEach(function (x) { x.classList.toggle('on', x === b); });
+    });
+  });
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('.tn'); if (!a) return;
+    document.getElementById('h-tree').hidden = true; document.getElementById('h-timeline').hidden = false;
+    document.querySelectorAll('.h-tabs button').forEach(function (x) { x.classList.toggle('on', x.dataset.v === 'line'); });
+  });
+</script>
