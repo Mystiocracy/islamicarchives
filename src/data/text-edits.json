@@ -1,1 +1,16 @@
-{}
+{
+ "/quran/": {
+  "nodes": [
+   {
+    "i": 38,
+    "find": "Dates are given in AH / CE as he gives them; where he gives no date the card says so.",
+    "replace": "From: Ulum al Qur'an by Ahmad Von Denffer. [Dates are given in AH / CE as he gives them; where he gives no date the card says so.]"
+   },
+   {
+    "i": 40,
+    "find": "Scroll sideways. Cards run from the first revelation to print, following the order of von Denffer's account.",
+    "replace": "Scroll sideways. Cards run from the first revelation to print."
+   }
+  ]
+ }
+}
