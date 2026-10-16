@@ -1,6 +1,6 @@
 // Islamic Archives admin: edits the site's content files in GitHub and publishes them as one commit.
 // No server: the browser talks to the GitHub API with a fine-grained token you paste in once.
-import * as YAML from './yaml.js';
+import * as YAML from './yaml.js?v=3';
 
 const REPO = 'Mystiocracy/islamicarchives';
 const BRANCH = 'main';

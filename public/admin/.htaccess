@@ -1,0 +1,7 @@
+# The admin page changes often: never let browsers keep an old copy (the site-wide rule caches .js and .css for 7 days).
+<IfModule mod_expires.c>
+  ExpiresActive Off
+</IfModule>
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-cache, must-revalidate"
+</IfModule>
