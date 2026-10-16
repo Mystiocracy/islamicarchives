@@ -1,4 +1,14 @@
 {
+ "/": {
+  "nodes": [
+   {
+    "i": 1,
+    "find": "Islamic Archives",
+    "replace": "Islamic Internet Archives"
+   }
+  ],
+  "description": "Writings of modern Muslim thinkers, from the 19th century to today: searchable, readable online and downloadable."
+ },
  "/quran/": {
   "nodes": [
    {
