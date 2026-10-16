@@ -1,0 +1,7 @@
+[
+  { "key": "home", "href": "/quran/", "label": "Quran Hub" },
+  { "key": "corpus", "href": "/quran/corpus/", "label": "Word Corpus" },
+  { "key": "tafsir", "href": "/quran/tafsir/", "label": "Tafseer" },
+  { "key": "manuscripts", "href": "/quran/manuscripts/", "label": "Manuscript catalogue" },
+  { "key": "scholars", "href": "/quran/scholars/", "label": "Manuscript scholars" }
+]
