@@ -1,0 +1,279 @@
+{
+ "title": "History of the Muslim world",
+ "intro": "A timeline of the caliphates, dynasties and empires from the Prophet Muhammad to today. Where the archive has writings from a period, the entry links to them.",
+ "archived": "2026-10-16",
+ "source_note": "Compiled by Islamic Archives from standard reference chronologies. Dates are the commonly cited years, rounded, and each entry links to a Wikipedia article for further reading.",
+ "groups": {
+  "p": "The Prophet and the first community",
+  "c": "Caliphates",
+  "d": "Dynasties and sultanates",
+  "e": "Early modern empires",
+  "m": "Colonial and modern era"
+ },
+ "entries": [
+  {
+   "group": "p",
+   "from": 570,
+   "to": 632,
+   "when": "c. 570–632",
+   "name": "Muhammad and the first community",
+   "place": "Mecca and Medina",
+   "text": "The Prophet Muhammad was born in Mecca around 570. Revelation began around 610. The Hijra, the move to Medina in 622, marks year 1 of the Islamic calendar. He died in 632 after the whole of Arabia had come under the new community.",
+   "wiki": "https://en.wikipedia.org/wiki/Muhammad",
+   "era": ""
+  },
+  {
+   "group": "c",
+   "from": 632,
+   "to": 661,
+   "when": "632–661",
+   "name": "Rashidun Caliphate",
+   "place": "Medina, then Kufa",
+   "text": "The first four caliphs, Abū Bakr, ʿUmar, ʿUthmān and ʿAlī, led the community. Syria, Iraq, Egypt and Iran came under Muslim rule. The Qurʾān was compiled in written form and the first civil wars began.",
+   "wiki": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+   "era": ""
+  },
+  {
+   "group": "c",
+   "from": 661,
+   "to": 750,
+   "when": "661–750",
+   "name": "Umayyad Caliphate",
+   "place": "Damascus",
+   "text": "The first hereditary dynasty. Its rule stretched from Spain and North Africa to Sindh and Central Asia. Arabic became the language of administration and the Dome of the Rock was built.",
+   "wiki": "https://en.wikipedia.org/wiki/Umayyad_Caliphate",
+   "era": ""
+  },
+  {
+   "group": "c",
+   "from": 750,
+   "to": 1258,
+   "when": "750–1258",
+   "name": "Abbasid Caliphate",
+   "place": "Baghdad",
+   "text": "The caliphate of the great age of translation, law, theology and science. Real power passed to regional sultans from the ninth century. The Mongols sacked Baghdad in 1258 and killed the last caliph there.",
+   "wiki": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 756,
+   "to": 1031,
+   "when": "756–1031",
+   "name": "Umayyads of al-Andalus",
+   "place": "Córdoba",
+   "text": "A branch of the Umayyads escaped to Spain and founded an emirate in 756. ʿAbd al-Raḥmān III declared a caliphate in 929. Córdoba became a centre of learning until the state broke into small kingdoms.",
+   "wiki": "https://en.wikipedia.org/wiki/Caliphate_of_C%C3%B3rdoba",
+   "era": ""
+  },
+  {
+   "group": "c",
+   "from": 909,
+   "to": 1171,
+   "when": "909–1171",
+   "name": "Fatimid Caliphate",
+   "place": "Mahdia, then Cairo",
+   "text": "An Ismāʿīlī Shiʿi caliphate that claimed descent from Fāṭima. It ruled North Africa, Egypt and parts of Syria and Arabia. Cairo was founded in 969 and al-Azhar around 970.",
+   "wiki": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 977,
+   "to": 1186,
+   "when": "977–1186",
+   "name": "Ghaznavids",
+   "place": "Ghazna",
+   "text": "A Turkic dynasty in what is now Afghanistan. It ruled Khurasan and raided into northern India, which carried Islam deeper into the subcontinent.",
+   "wiki": "https://en.wikipedia.org/wiki/Ghaznavids",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1037,
+   "to": 1194,
+   "when": "1037–1194",
+   "name": "Great Seljuk Empire",
+   "place": "Nishapur, Isfahan, Baghdad",
+   "text": "Sunni Turkic sultans who took Baghdad in 1055 and ruled in the caliph’s name. Their vizier Niẓām al-Mulk founded the Niẓāmiyya madrasas.",
+   "wiki": "https://en.wikipedia.org/wiki/Great_Seljuk_Empire",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1040,
+   "to": 1269,
+   "when": "1040–1269",
+   "name": "Almoravids and Almohads",
+   "place": "Marrakesh, Seville",
+   "text": "Two Berber reform movements ruled Morocco and Muslim Spain in succession. The Almoravids held power from 1040 to 1147 and the Almohads from 1121 to 1269. Ibn Rushd and Ibn Ṭufayl lived under the Almohads.",
+   "wiki": "https://en.wikipedia.org/wiki/Almoravid_dynasty",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1171,
+   "to": 1250,
+   "when": "1171–1250",
+   "name": "Ayyubid Sultanate",
+   "place": "Cairo and Damascus",
+   "text": "Founded by Saladin, who ended Fatimid rule and recaptured Jerusalem in 1187. The Ayyubids built many madrasas and restored Sunni teaching in Egypt and Syria.",
+   "wiki": "https://en.wikipedia.org/wiki/Ayyubid_dynasty",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1206,
+   "to": 1526,
+   "when": "1206–1526",
+   "name": "Delhi Sultanate",
+   "place": "Delhi",
+   "text": "A series of Turkic and Afghan dynasties that ruled northern India for over three centuries. Sufi orders such as the Chishtiyya spread widely in this period.",
+   "wiki": "https://en.wikipedia.org/wiki/Delhi_Sultanate",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1230,
+   "to": 1492,
+   "when": "1230–1492",
+   "name": "Nasrid Emirate of Granada",
+   "place": "Granada",
+   "text": "The last Muslim state in Spain. It built the Alhambra and fell to Castile and Aragon in January 1492.",
+   "wiki": "https://en.wikipedia.org/wiki/Emirate_of_Granada",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1250,
+   "to": 1517,
+   "when": "1250–1517",
+   "name": "Mamluk Sultanate",
+   "place": "Cairo",
+   "text": "Slave-soldier sultans who defeated the Mongols at ʿAyn Jālūt in 1260. They sheltered an Abbasid caliph in Cairo as a figurehead. Ibn Taymiyya, Ibn Khaldūn and al-Suyūṭī lived under their rule.",
+   "wiki": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1256,
+   "to": 1335,
+   "when": "1256–1335",
+   "name": "Ilkhanate",
+   "place": "Tabriz",
+   "text": "Mongol rulers of Iran and Iraq. Ghazan converted to Islam in 1295, and the dynasty became Muslim.",
+   "wiki": "https://en.wikipedia.org/wiki/Ilkhanate",
+   "era": ""
+  },
+  {
+   "group": "d",
+   "from": 1370,
+   "to": 1507,
+   "when": "1370–1507",
+   "name": "Timurid Empire",
+   "place": "Samarkand, Herat",
+   "text": "Founded by Tīmūr. Its courts were centres of Persian art, astronomy and poetry, and its descendants founded the Mughal dynasty.",
+   "wiki": "https://en.wikipedia.org/wiki/Timurid_Empire",
+   "era": ""
+  },
+  {
+   "group": "e",
+   "from": 1299,
+   "to": 1922,
+   "when": "c. 1299–1922",
+   "name": "Ottoman Empire",
+   "place": "Bursa, Edirne, Istanbul",
+   "text": "Began as a small principality in Anatolia and conquered Constantinople in 1453. After taking Syria and Egypt in 1516–17 it ruled most of the Arab world and the Balkans. The sultanate was abolished in 1922 and the caliphate on 3 March 1924.",
+   "wiki": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+   "era": ""
+  },
+  {
+   "group": "e",
+   "from": 1501,
+   "to": 1736,
+   "when": "1501–1736",
+   "name": "Safavid Empire",
+   "place": "Tabriz, Qazvin, Isfahan",
+   "text": "Made Twelver Shiʿism the state religion of Iran. Its rule saw great philosophy, architecture and art in Isfahan.",
+   "wiki": "https://en.wikipedia.org/wiki/Safavid_Iran",
+   "era": ""
+  },
+  {
+   "group": "e",
+   "from": 1526,
+   "to": 1857,
+   "when": "1526–1857",
+   "name": "Mughal Empire",
+   "place": "Delhi, Agra",
+   "text": "Founded by Bābur. It ruled most of the Indian subcontinent and reached its height under Akbar and Shāh Jahān. Britain deposed the last emperor after the 1857 rebellion.",
+   "wiki": "https://en.wikipedia.org/wiki/Mughal_Empire",
+   "era": ""
+  },
+  {
+   "group": "m",
+   "from": 1744,
+   "to": 1932,
+   "when": "1744–1932",
+   "name": "Saudi states",
+   "place": "Dirʿiyya, Riyadh",
+   "text": "The alliance between Muḥammad ibn Saʿūd and Muḥammad ibn ʿAbd al-Wahhāb founded the first Saudi state in 1744. A second state followed from 1824 and the modern kingdom was proclaimed in 1932.",
+   "wiki": "https://en.wikipedia.org/wiki/History_of_Saudi_Arabia",
+   "era": ""
+  },
+  {
+   "group": "m",
+   "from": 1830,
+   "to": 1913,
+   "when": "1830–1913",
+   "name": "European colonial rule and the Nahḍa",
+   "place": "Algiers, Cairo, Delhi",
+   "text": "France took Algeria in 1830, Britain took over India in 1858 and occupied Egypt in 1882. Reformers such as al-Afghānī and ʿAbduh responded with the Nahḍa and new Islamic thought.",
+   "wiki": "https://en.wikipedia.org/wiki/Nahda",
+   "era": "1850-1914"
+  },
+  {
+   "group": "m",
+   "from": 1914,
+   "to": 1946,
+   "when": "1914–1946",
+   "name": "End of empire",
+   "place": "Istanbul, Ankara, Cairo",
+   "text": "The Ottoman Empire fell after the First World War. Britain and France took mandates over Arab lands. Turkey abolished the caliphate in 1924, and independence movements grew.",
+   "wiki": "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_Caliphate",
+   "era": "1914-1947"
+  },
+  {
+   "group": "m",
+   "from": 1947,
+   "to": 1978,
+   "when": "1947–1978",
+   "name": "New states and revival",
+   "place": "Karachi, Cairo, Jakarta",
+   "text": "Pakistan and Indonesia and most Arab and African states won independence. Islamic revival movements such as the Muslim Brotherhood and Jamāʿat-i Islāmī grew. The Organisation of Islamic Cooperation was founded in 1969.",
+   "wiki": "https://en.wikipedia.org/wiki/Islamic_revival",
+   "era": "1947-1979"
+  },
+  {
+   "group": "m",
+   "from": 1979,
+   "to": 1999,
+   "when": "1979–1999",
+   "name": "Revolution and renewal",
+   "place": "Tehran, Kabul, Sarajevo",
+   "text": "The Iranian revolution of 1979 founded the Islamic Republic. The Soviet war in Afghanistan, Islamisation programmes and new Muslim scholarship marked the period.",
+   "wiki": "https://en.wikipedia.org/wiki/Iranian_Revolution",
+   "era": "1979-2000"
+  },
+  {
+   "group": "m",
+   "from": 2000,
+   "to": 9999,
+   "when": "2000–today",
+   "name": "Contemporary voices",
+   "place": "Worldwide",
+   "text": "Writing in the age of globalisation and the internet. The Arab uprisings began in 2010–11, and Muslim intellectuals now write for global audiences in many languages.",
+   "wiki": "",
+   "era": "2000-today"
+  }
+ ]
+}
