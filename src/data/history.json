@@ -2,7 +2,7 @@
  "title": "History Hub",
  "intro": "A timeline of the caliphates, dynasties and empires from the Prophet Muhammad to today. Where the archive has writings from a period, the entry links to them.",
  "archived": "2026-10-16",
- "source_note": "Compiled by Islamic Archives from standard reference chronologies. Dates are the commonly cited years, rounded, and each entry links to a Wikipedia article for further reading.",
+ "source_note": "Compiled by Islamic Archives from standard reference chronologies. Dates are the commonly cited years, rounded; ruler dates were checked against Wikipedia where the page gave them, and each entry links to a Wikipedia article for further reading. Countries are the modern states that now cover the territory at its greatest extent.",
  "groups": {
   "p": "The Prophet and the first community",
   "c": "Caliphates",
@@ -20,7 +20,17 @@
    "place": "Mecca and Medina",
    "text": "The Prophet Muhammad was born in Mecca around 570. Revelation began around 610. The Hijra, the move to Medina in 622, marks year 1 of the Islamic calendar. He died in 632 after the whole of Arabia had come under the new community.",
    "wiki": "https://en.wikipedia.org/wiki/Muhammad",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Saudi Arabia"
+   ],
+   "rulers": [
+    {
+     "name": "Muḥammad",
+     "role": "Prophet",
+     "when": "c. 570–632"
+    }
+   ]
   },
   {
    "group": "c",
@@ -31,7 +41,41 @@
    "place": "Medina, then Kufa",
    "text": "The first four caliphs, Abū Bakr, ʿUmar, ʿUthmān and ʿAlī, led the community. Syria, Iraq, Egypt and Iran came under Muslim rule. The Qurʾān was compiled in written form and the first civil wars began.",
    "wiki": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Saudi Arabia",
+    "Yemen",
+    "Iraq",
+    "Syria",
+    "Lebanon",
+    "Jordan",
+    "Palestine and Israel",
+    "Egypt",
+    "Libya",
+    "Iran"
+   ],
+   "rulers": [
+    {
+     "name": "Abū Bakr",
+     "role": "Caliph",
+     "when": "632–634"
+    },
+    {
+     "name": "ʿUmar ibn al-Khaṭṭāb",
+     "role": "Caliph",
+     "when": "634–644"
+    },
+    {
+     "name": "ʿUthmān ibn ʿAffān",
+     "role": "Caliph",
+     "when": "644–656"
+    },
+    {
+     "name": "ʿAlī ibn Abī Ṭālib",
+     "role": "Caliph",
+     "when": "656–661"
+    }
+   ]
   },
   {
    "group": "c",
@@ -42,7 +86,54 @@
    "place": "Damascus",
    "text": "The first hereditary dynasty. Its rule stretched from Spain and North Africa to Sindh and Central Asia. Arabic became the language of administration and the Dome of the Rock was built.",
    "wiki": "https://en.wikipedia.org/wiki/Umayyad_Caliphate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Syria",
+    "Iraq",
+    "Iran",
+    "Egypt",
+    "Libya",
+    "Tunisia",
+    "Algeria",
+    "Morocco",
+    "Spain",
+    "Portugal",
+    "Afghanistan",
+    "Uzbekistan",
+    "Pakistan (Sindh)"
+   ],
+   "rulers": [
+    {
+     "name": "Muʿāwiya I",
+     "role": "Caliph",
+     "when": "661–680"
+    },
+    {
+     "name": "ʿAbd al-Malik",
+     "role": "Caliph",
+     "when": "685–705"
+    },
+    {
+     "name": "al-Walīd I",
+     "role": "Caliph",
+     "when": "705–715"
+    },
+    {
+     "name": "ʿUmar ibn ʿAbd al-ʿAzīz",
+     "role": "Caliph",
+     "when": "717–720"
+    },
+    {
+     "name": "Hishām",
+     "role": "Caliph",
+     "when": "724–743"
+    },
+    {
+     "name": "Marwān II",
+     "role": "Caliph",
+     "when": "744–750"
+    }
+   ]
   },
   {
    "group": "c",
@@ -53,7 +144,54 @@
    "place": "Baghdad",
    "text": "The caliphate of the great age of translation, law, theology and science. Real power passed to regional sultans from the ninth century. The Mongols sacked Baghdad in 1258 and killed the last caliph there.",
    "wiki": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Iraq",
+    "Iran",
+    "Syria",
+    "Saudi Arabia",
+    "Egypt",
+    "Tunisia",
+    "Uzbekistan",
+    "Afghanistan"
+   ],
+   "rulers": [
+    {
+     "name": "al-Saffāḥ",
+     "role": "Caliph",
+     "when": "750–754"
+    },
+    {
+     "name": "al-Manṣūr",
+     "role": "Caliph",
+     "when": "754–775"
+    },
+    {
+     "name": "Hārūn al-Rashīd",
+     "role": "Caliph",
+     "when": "786–809"
+    },
+    {
+     "name": "al-Maʾmūn",
+     "role": "Caliph",
+     "when": "813–833"
+    },
+    {
+     "name": "al-Muʿtaṣim",
+     "role": "Caliph",
+     "when": "833–842"
+    },
+    {
+     "name": "al-Mutawakkil",
+     "role": "Caliph",
+     "when": "847–861"
+    },
+    {
+     "name": "al-Mustaʿṣim",
+     "role": "Last caliph in Baghdad",
+     "when": "1242–1258"
+    }
+   ]
   },
   {
    "group": "d",
@@ -64,7 +202,28 @@
    "place": "Córdoba",
    "text": "A branch of the Umayyads escaped to Spain and founded an emirate in 756. ʿAbd al-Raḥmān III declared a caliphate in 929. Córdoba became a centre of learning until the state broke into small kingdoms.",
    "wiki": "https://en.wikipedia.org/wiki/Caliphate_of_C%C3%B3rdoba",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Spain",
+    "Portugal"
+   ],
+   "rulers": [
+    {
+     "name": "ʿAbd al-Raḥmān I",
+     "role": "Emir",
+     "when": "756–788"
+    },
+    {
+     "name": "ʿAbd al-Raḥmān III",
+     "role": "Emir, then caliph from 929",
+     "when": "912–961"
+    },
+    {
+     "name": "al-Ḥakam II",
+     "role": "Caliph",
+     "when": "961–976"
+    }
+   ]
   },
   {
    "group": "c",
@@ -75,7 +234,49 @@
    "place": "Mahdia, then Cairo",
    "text": "An Ismāʿīlī Shiʿi caliphate that claimed descent from Fāṭima. It ruled North Africa, Egypt and parts of Syria and Arabia. Cairo was founded in 969 and al-Azhar around 970.",
    "wiki": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Tunisia",
+    "Egypt",
+    "Libya",
+    "Algeria",
+    "Morocco",
+    "Italy (Sicily)",
+    "Syria",
+    "Saudi Arabia (Hejaz)"
+   ],
+   "rulers": [
+    {
+     "name": "ʿUbayd Allāh al-Mahdī",
+     "role": "Caliph, founder",
+     "when": "909–934"
+    },
+    {
+     "name": "al-Muʿizz",
+     "role": "Caliph",
+     "when": "953–975"
+    },
+    {
+     "name": "al-ʿAzīz",
+     "role": "Caliph",
+     "when": "975–996"
+    },
+    {
+     "name": "al-Ḥākim",
+     "role": "Caliph",
+     "when": "996–1021"
+    },
+    {
+     "name": "al-Mustanṣir",
+     "role": "Caliph",
+     "when": "1036–1094"
+    },
+    {
+     "name": "al-ʿĀḍid",
+     "role": "Last caliph",
+     "when": "1160–1171"
+    }
+   ]
   },
   {
    "group": "d",
@@ -86,7 +287,27 @@
    "place": "Ghazna",
    "text": "A Turkic dynasty in what is now Afghanistan. It ruled Khurasan and raided into northern India, which carried Islam deeper into the subcontinent.",
    "wiki": "https://en.wikipedia.org/wiki/Ghaznavids",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Afghanistan",
+    "Pakistan",
+    "Iran",
+    "Turkmenistan",
+    "Tajikistan",
+    "India (Punjab)"
+   ],
+   "rulers": [
+    {
+     "name": "Sebüktigin",
+     "role": "Founder",
+     "when": "977–997"
+    },
+    {
+     "name": "Maḥmūd of Ghazna",
+     "role": "Sultan",
+     "when": "998–1030"
+    }
+   ]
   },
   {
    "group": "d",
@@ -97,7 +318,33 @@
    "place": "Nishapur, Isfahan, Baghdad",
    "text": "Sunni Turkic sultans who took Baghdad in 1055 and ruled in the caliph’s name. Their vizier Niẓām al-Mulk founded the Niẓāmiyya madrasas.",
    "wiki": "https://en.wikipedia.org/wiki/Great_Seljuk_Empire",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Iran",
+    "Iraq",
+    "Turkey",
+    "Syria",
+    "Afghanistan",
+    "Turkmenistan",
+    "Uzbekistan"
+   ],
+   "rulers": [
+    {
+     "name": "Ṭughril Beg",
+     "role": "Sultan",
+     "when": "1037–1063"
+    },
+    {
+     "name": "Alp Arslān",
+     "role": "Sultan",
+     "when": "1063–1072"
+    },
+    {
+     "name": "Malik-Shāh I",
+     "role": "Sultan",
+     "when": "1072–1092"
+    }
+   ]
   },
   {
    "group": "d",
@@ -108,7 +355,32 @@
    "place": "Marrakesh, Seville",
    "text": "Two Berber reform movements ruled Morocco and Muslim Spain in succession. The Almoravids held power from 1040 to 1147 and the Almohads from 1121 to 1269. Ibn Rushd and Ibn Ṭufayl lived under the Almohads.",
    "wiki": "https://en.wikipedia.org/wiki/Almoravid_dynasty",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Morocco",
+    "Algeria",
+    "Tunisia",
+    "Mauritania",
+    "Spain",
+    "Portugal"
+   ],
+   "rulers": [
+    {
+     "name": "Yūsuf ibn Tāshfīn",
+     "role": "Almoravid emir",
+     "when": "1061–1106"
+    },
+    {
+     "name": "ʿAbd al-Muʾmin",
+     "role": "Almohad caliph",
+     "when": "1130–1163"
+    },
+    {
+     "name": "Yaʿqūb al-Manṣūr",
+     "role": "Almohad caliph",
+     "when": "1184–1199"
+    }
+   ]
   },
   {
    "group": "d",
@@ -119,7 +391,32 @@
    "place": "Cairo and Damascus",
    "text": "Founded by Saladin, who ended Fatimid rule and recaptured Jerusalem in 1187. The Ayyubids built many madrasas and restored Sunni teaching in Egypt and Syria.",
    "wiki": "https://en.wikipedia.org/wiki/Ayyubid_dynasty",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Egypt",
+    "Syria",
+    "Palestine and Israel",
+    "Jordan",
+    "Yemen",
+    "Iraq (north)"
+   ],
+   "rulers": [
+    {
+     "name": "Ṣalāḥ al-Dīn (Saladin)",
+     "role": "Sultan",
+     "when": "1174–1193"
+    },
+    {
+     "name": "al-ʿĀdil I",
+     "role": "Sultan",
+     "when": "1200–1218"
+    },
+    {
+     "name": "al-Kāmil",
+     "role": "Sultan",
+     "when": "1218–1238"
+    }
+   ]
   },
   {
    "group": "d",
@@ -130,7 +427,44 @@
    "place": "Delhi",
    "text": "A series of Turkic and Afghan dynasties that ruled northern India for over three centuries. Sufi orders such as the Chishtiyya spread widely in this period.",
    "wiki": "https://en.wikipedia.org/wiki/Delhi_Sultanate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh"
+   ],
+   "rulers": [
+    {
+     "name": "Quṭb al-Dīn Aybak",
+     "role": "Sultan",
+     "when": "1206–1210"
+    },
+    {
+     "name": "Iltutmish",
+     "role": "Sultan",
+     "when": "1211–1236"
+    },
+    {
+     "name": "Raḍiyya",
+     "role": "Sultana",
+     "when": "1236–1240"
+    },
+    {
+     "name": "ʿAlāʾ al-Dīn Khaljī",
+     "role": "Sultan",
+     "when": "1296–1316"
+    },
+    {
+     "name": "Muḥammad ibn Tughluq",
+     "role": "Sultan",
+     "when": "1325–1351"
+    },
+    {
+     "name": "Ibrāhīm Lodī",
+     "role": "Last sultan",
+     "when": "1517–1526"
+    }
+   ]
   },
   {
    "group": "d",
@@ -141,7 +475,32 @@
    "place": "Granada",
    "text": "The last Muslim state in Spain. It built the Alhambra and fell to Castile and Aragon in January 1492.",
    "wiki": "https://en.wikipedia.org/wiki/Emirate_of_Granada",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Spain"
+   ],
+   "rulers": [
+    {
+     "name": "Muḥammad I ibn Naṣr",
+     "role": "Founder",
+     "when": "1232–1273"
+    },
+    {
+     "name": "Yūsuf I",
+     "role": "Emir",
+     "when": "1333–1354"
+    },
+    {
+     "name": "Muḥammad V",
+     "role": "Emir",
+     "when": "1354–1359, 1362–1391"
+    },
+    {
+     "name": "Boabdil (Muḥammad XI)",
+     "role": "Last emir",
+     "when": "1482, 1486–1492"
+    }
+   ]
   },
   {
    "group": "d",
@@ -152,7 +511,42 @@
    "place": "Cairo",
    "text": "Slave-soldier sultans who defeated the Mongols at ʿAyn Jālūt in 1260. They sheltered an Abbasid caliph in Cairo as a figurehead. Ibn Taymiyya, Ibn Khaldūn and al-Suyūṭī lived under their rule.",
    "wiki": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Egypt",
+    "Syria",
+    "Palestine and Israel",
+    "Lebanon",
+    "Jordan",
+    "Saudi Arabia (Hejaz)"
+   ],
+   "rulers": [
+    {
+     "name": "Baybars",
+     "role": "Sultan",
+     "when": "1260–1277"
+    },
+    {
+     "name": "Qalāwūn",
+     "role": "Sultan",
+     "when": "1279–1290"
+    },
+    {
+     "name": "al-Nāṣir Muḥammad",
+     "role": "Sultan, three reigns",
+     "when": "1293–1341"
+    },
+    {
+     "name": "Qāytbāy",
+     "role": "Sultan",
+     "when": "1468–1496"
+    },
+    {
+     "name": "Qānṣūh al-Ghawrī",
+     "role": "Sultan",
+     "when": "1501–1516"
+    }
+   ]
   },
   {
    "group": "d",
@@ -163,7 +557,27 @@
    "place": "Tabriz",
    "text": "Mongol rulers of Iran and Iraq. Ghazan converted to Islam in 1295, and the dynasty became Muslim.",
    "wiki": "https://en.wikipedia.org/wiki/Ilkhanate",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Iran",
+    "Iraq",
+    "Azerbaijan",
+    "Armenia",
+    "Turkey (east)",
+    "Turkmenistan"
+   ],
+   "rulers": [
+    {
+     "name": "Hülegü",
+     "role": "Founder",
+     "when": "1256–1265"
+    },
+    {
+     "name": "Ghazan",
+     "role": "Khan, converted to Islam in 1295",
+     "when": "1295–1304"
+    }
+   ]
   },
   {
    "group": "d",
@@ -174,7 +588,36 @@
    "place": "Samarkand, Herat",
    "text": "Founded by Tīmūr. Its courts were centres of Persian art, astronomy and poetry, and its descendants founded the Mughal dynasty.",
    "wiki": "https://en.wikipedia.org/wiki/Timurid_Empire",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Uzbekistan",
+    "Iran",
+    "Afghanistan",
+    "Tajikistan",
+    "Turkmenistan"
+   ],
+   "rulers": [
+    {
+     "name": "Tīmūr",
+     "role": "Founder",
+     "when": "1370–1405"
+    },
+    {
+     "name": "Shāh Rukh",
+     "role": "Ruler",
+     "when": "1405–1447"
+    },
+    {
+     "name": "Ulugh Beg",
+     "role": "Ruler and astronomer",
+     "when": "1447–1449"
+    },
+    {
+     "name": "Ḥusayn Bayqara",
+     "role": "Ruler of Herat",
+     "when": "1469–1506"
+    }
+   ]
   },
   {
    "group": "e",
@@ -185,7 +628,64 @@
    "place": "Bursa, Edirne, Istanbul",
    "text": "Began as a small principality in Anatolia and conquered Constantinople in 1453. After taking Syria and Egypt in 1516–17 it ruled most of the Arab world and the Balkans. The sultanate was abolished in 1922 and the caliphate on 3 March 1924.",
    "wiki": "https://en.wikipedia.org/wiki/Ottoman_Empire",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Turkey",
+    "Greece",
+    "Bulgaria",
+    "Serbia",
+    "Bosnia and Herzegovina",
+    "Hungary",
+    "Syria",
+    "Iraq",
+    "Egypt",
+    "Saudi Arabia",
+    "Libya",
+    "Tunisia",
+    "Algeria"
+   ],
+   "rulers": [
+    {
+     "name": "Osman I",
+     "role": "Founder",
+     "when": "c. 1299–1324"
+    },
+    {
+     "name": "Mehmed II",
+     "role": "Sultan, conqueror of Constantinople",
+     "when": "1444–1446, 1451–1481"
+    },
+    {
+     "name": "Selim I",
+     "role": "Sultan",
+     "when": "1512–1520"
+    },
+    {
+     "name": "Suleiman the Magnificent",
+     "role": "Sultan",
+     "when": "1520–1566"
+    },
+    {
+     "name": "Abdulmejid I",
+     "role": "Sultan",
+     "when": "1839–1861"
+    },
+    {
+     "name": "Abdulhamid II",
+     "role": "Sultan",
+     "when": "1876–1909"
+    },
+    {
+     "name": "Mehmed VI",
+     "role": "Last sultan",
+     "when": "1918–1922"
+    },
+    {
+     "name": "Abdulmejid II",
+     "role": "Last caliph",
+     "when": "1922–1924"
+    }
+   ]
   },
   {
    "group": "e",
@@ -196,7 +696,36 @@
    "place": "Tabriz, Qazvin, Isfahan",
    "text": "Made Twelver Shiʿism the state religion of Iran. Its rule saw great philosophy, architecture and art in Isfahan.",
    "wiki": "https://en.wikipedia.org/wiki/Safavid_Iran",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Iran",
+    "Azerbaijan",
+    "Armenia",
+    "Iraq (parts)",
+    "Afghanistan (west)"
+   ],
+   "rulers": [
+    {
+     "name": "Ismāʿīl I",
+     "role": "Shah, founder",
+     "when": "1501–1524"
+    },
+    {
+     "name": "Ṭahmāsp I",
+     "role": "Shah",
+     "when": "1524–1576"
+    },
+    {
+     "name": "ʿAbbās I the Great",
+     "role": "Shah",
+     "when": "1588–1629"
+    },
+    {
+     "name": "Sulṭān Ḥusayn",
+     "role": "Last effective shah",
+     "when": "1694–1722"
+    }
+   ]
   },
   {
    "group": "e",
@@ -207,7 +736,50 @@
    "place": "Delhi, Agra",
    "text": "Founded by Bābur. It ruled most of the Indian subcontinent and reached its height under Akbar and Shāh Jahān. Britain deposed the last emperor after the 1857 rebellion.",
    "wiki": "https://en.wikipedia.org/wiki/Mughal_Empire",
-   "era": ""
+   "era": "",
+   "countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh",
+    "Afghanistan (parts)"
+   ],
+   "rulers": [
+    {
+     "name": "Bābur",
+     "role": "Emperor, founder",
+     "when": "1526–1530"
+    },
+    {
+     "name": "Humāyūn",
+     "role": "Emperor",
+     "when": "1530–1556"
+    },
+    {
+     "name": "Akbar",
+     "role": "Emperor",
+     "when": "1556–1605"
+    },
+    {
+     "name": "Jahāngīr",
+     "role": "Emperor",
+     "when": "1605–1627"
+    },
+    {
+     "name": "Shāh Jahān",
+     "role": "Emperor",
+     "when": "1628–1658"
+    },
+    {
+     "name": "Awrangzīb",
+     "role": "Emperor",
+     "when": "1658–1707"
+    },
+    {
+     "name": "Bahādur Shāh II",
+     "role": "Last emperor",
+     "when": "1837–1857"
+    }
+   ]
   },
   {
    "group": "m",
@@ -218,7 +790,22 @@
    "place": "Dirʿiyya, Riyadh",
    "text": "The alliance between Muḥammad ibn Saʿūd and Muḥammad ibn ʿAbd al-Wahhāb founded the first Saudi state in 1744. A second state followed from 1824 and the modern kingdom was proclaimed in 1932.",
    "wiki": "https://en.wikipedia.org/wiki/History_of_Saudi_Arabia",
-   "era": ""
+   "era": "",
+   "countries": [
+    "Saudi Arabia"
+   ],
+   "rulers": [
+    {
+     "name": "Muḥammad ibn Saʿūd",
+     "role": "Founder of the first Saudi state",
+     "when": "1744–1765"
+    },
+    {
+     "name": "ʿAbd al-ʿAzīz ibn Saʿūd",
+     "role": "First king of Saudi Arabia",
+     "when": "1932–1953"
+    }
+   ]
   },
   {
    "group": "m",
@@ -229,7 +816,33 @@
    "place": "Algiers, Cairo, Delhi",
    "text": "France took Algeria in 1830, Britain took over India in 1858 and occupied Egypt in 1882. Reformers such as al-Afghānī and ʿAbduh responded with the Nahḍa and new Islamic thought.",
    "wiki": "https://en.wikipedia.org/wiki/Nahda",
-   "era": "1850-1914"
+   "era": "1850-1914",
+   "countries": [
+    "Algeria",
+    "Egypt",
+    "Tunisia",
+    "Morocco",
+    "Sudan",
+    "India",
+    "Indonesia"
+   ],
+   "rulers": [
+    {
+     "name": "Muḥammad ʿAlī Pasha",
+     "role": "Ruler of Egypt",
+     "when": "1805–1848"
+    },
+    {
+     "name": "Emir ʿAbd al-Qādir",
+     "role": "Leader of the Algerian resistance",
+     "when": "1832–1847"
+    },
+    {
+     "name": "Abdulhamid II",
+     "role": "Ottoman sultan",
+     "when": "1876–1909"
+    }
+   ]
   },
   {
    "group": "m",
@@ -240,7 +853,35 @@
    "place": "Istanbul, Ankara, Cairo",
    "text": "The Ottoman Empire fell after the First World War. Britain and France took mandates over Arab lands. Turkey abolished the caliphate in 1924, and independence movements grew.",
    "wiki": "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_Caliphate",
-   "era": "1914-1947"
+   "era": "1914-1947",
+   "countries": [
+    "Turkey",
+    "Iraq",
+    "Syria",
+    "Lebanon",
+    "Palestine and Israel",
+    "Jordan",
+    "Egypt",
+    "Iran",
+    "Saudi Arabia"
+   ],
+   "rulers": [
+    {
+     "name": "Mustafa Kemal Atatürk",
+     "role": "President of Turkey",
+     "when": "1923–1938"
+    },
+    {
+     "name": "Reza Shah Pahlavi",
+     "role": "Shah of Iran",
+     "when": "1925–1941"
+    },
+    {
+     "name": "ʿAbd al-ʿAzīz ibn Saʿūd",
+     "role": "King of Saudi Arabia",
+     "when": "1932–1953"
+    }
+   ]
   },
   {
    "group": "m",
@@ -251,7 +892,41 @@
    "place": "Karachi, Cairo, Jakarta",
    "text": "Pakistan and Indonesia and most Arab and African states won independence. Islamic revival movements such as the Muslim Brotherhood and Jamāʿat-i Islāmī grew. The Organisation of Islamic Cooperation was founded in 1969.",
    "wiki": "https://en.wikipedia.org/wiki/Islamic_revival",
-   "era": "1947-1979"
+   "era": "1947-1979",
+   "countries": [
+    "Pakistan",
+    "Indonesia",
+    "Egypt",
+    "Algeria",
+    "Morocco",
+    "Tunisia",
+    "Libya",
+    "Malaysia",
+    "Bangladesh",
+    "Saudi Arabia"
+   ],
+   "rulers": [
+    {
+     "name": "Muhammad Ali Jinnah",
+     "role": "Governor-General of Pakistan",
+     "when": "1947–1948"
+    },
+    {
+     "name": "Sukarno",
+     "role": "President of Indonesia",
+     "when": "1945–1967"
+    },
+    {
+     "name": "Gamal Abdel Nasser",
+     "role": "President of Egypt",
+     "when": "1956–1970"
+    },
+    {
+     "name": "Faisal ibn ʿAbd al-ʿAzīz",
+     "role": "King of Saudi Arabia",
+     "when": "1964–1975"
+    }
+   ]
   },
   {
    "group": "m",
@@ -262,7 +937,23 @@
    "place": "Tehran, Kabul, Sarajevo",
    "text": "The Iranian revolution of 1979 founded the Islamic Republic. The Soviet war in Afghanistan, Islamisation programmes and new Muslim scholarship marked the period.",
    "wiki": "https://en.wikipedia.org/wiki/Iranian_Revolution",
-   "era": "1979-2000"
+   "era": "1979-2000",
+   "countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Bosnia and Herzegovina",
+    "Algeria",
+    "Sudan",
+    "Kuwait"
+   ],
+   "rulers": [
+    {
+     "name": "Ruhollah Khomeini",
+     "role": "Supreme Leader of Iran",
+     "when": "1979–1989"
+    }
+   ]
   },
   {
    "group": "m",
@@ -273,7 +964,12 @@
    "place": "Worldwide",
    "text": "Writing in the age of globalisation and the internet. The Arab uprisings began in 2010–11, and Muslim intellectuals now write for global audiences in many languages.",
    "wiki": "",
-   "era": "2000-today"
+   "era": "2000-today",
+   "countries": [
+    "About 50 Muslim-majority countries",
+    "57 member states of the Organisation of Islamic Cooperation"
+   ],
+   "rulers": []
   }
  ]
 }

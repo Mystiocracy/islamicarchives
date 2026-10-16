@@ -30,6 +30,14 @@ const entries = [...hist.entries].sort((a, b) => a.from - b.from || a.to - b.to)
               <h2>{e.name}</h2>
               <p class="h-place">{e.place}</p>
               <p>{e.text}</p>
+              {e.countries && e.countries.length > 0 && (
+                <div class="h-countries"><span class="h-sub">Today's countries</span>
+                  <ul>{e.countries.map((c: string) => <li>{c}</li>)}</ul></div>
+              )}
+              {e.rulers && e.rulers.length > 0 && (
+                <div class="h-rulers"><span class="h-sub">Major rulers</span>
+                  <ol>{e.rulers.map((r: any) => <li><span class="r-when">{r.when}</span><span class="r-name"><b>{r.name}</b> <em>{r.role}</em></span></li>)}</ol></div>
+              )}
               <p class="h-links">
                 {e.era && n ? <a href={`/library/?era=${e.era}`}>{n} writings from this period →</a> : null}
                 {e.wiki ? <a href={e.wiki} rel="noopener" target="_blank">Further reading ↗</a> : null}
@@ -70,4 +78,13 @@ const entries = [...hist.entries].sort((a, b) => a.from - b.from || a.to - b.to)
     .h-ev:before { left: 8px; top: 4px; }
     .h-date { text-align: left; padding: 0 0 6px; font-size: 14px; }
   }
+  .h-sub { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 10px 0 6px; }
+  .h-countries ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .h-countries li { font-size: 13px; padding: 2px 10px; border: 1px solid var(--line); border-radius: 999px; }
+  .h-rulers ol { list-style: none; margin: 0; padding: 0 0 0 14px; border-left: 2px solid var(--c); }
+  .h-rulers li { position: relative; display: grid; grid-template-columns: 150px 1fr; gap: 10px; font-size: 14.5px; padding: 3px 0; }
+  .h-rulers li::before { content: ''; position: absolute; left: -19px; top: 11px; width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+  .r-when { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .r-name em { color: var(--muted); font-style: normal; font-size: 13px; }
+  @media (max-width: 700px) { .h-rulers li { grid-template-columns: 1fr; gap: 0; } }
 </style>
