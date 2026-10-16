@@ -31,7 +31,7 @@ const firstScan = body.match(/<a class="pg" href="([^"]+)"/)?.[1];
 const url = new URL(href(chapter), Astro.site).href;
 const lastFirst = author ? (() => { const p = author.data.name.split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
 const pp = c.pages ? (c.pages.includes('–') ? ` pp. ${c.pages}.` : ` p. ${c.pages}.`) : '';
-const cite = `${lastFirst}. “${c.title}.” In ${d.title}${d.sourceEdition ? ', ' + d.sourceEdition.replace(/\.$/, '') : ''}.${pp} Scan: ${d.sourceLabel ? d.sourceLabel.split(',')[0] : 'source'}${d.sourceUrl ? ', ' + decodeURI(d.sourceUrl) : ''}. Online text: Islamic Archives, ${url}`;
+const cite = `${lastFirst}. “${c.title}.” In ${d.title}${d.sourceEdition ? ', ' + d.sourceEdition.replace(/\.$/, '') : ''}.${pp} Scan: ${d.sourceLabel ? d.sourceLabel.split(',')[0] : 'source'}${d.sourceUrl ? ', ' + decodeURI(d.sourceUrl) : ''}. Online text: Islamic Internet Archives, ${url}`;
 ---
 <Base title={`${c.title} – ${d.title}`} description={`${c.title}, from ${d.title} by ${author?.data.name}.`}>
   <div class="wrap reader-page" data-pagefind-body>

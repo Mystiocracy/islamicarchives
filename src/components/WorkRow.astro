@@ -18,7 +18,7 @@ const wUrl = new URL(`/works/${work.id}/`, 'https://islamicarchives.org').href;
 const lastFirst = author ? (() => { const p = (d.byline || author.data.name).split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
 const prov = provenance(work);
 const archivedOn = d.added ? d.added.toISOString().slice(0, 10) : '';
-const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isHosted && d.sourceUrl ? ' ' + (d.sourceLabel ? d.sourceLabel.replace(/[\s.]+$/, '') + ', ' : '') + d.sourceUrl + '.' : ''}${archivedOn ? ' Archived ' + longDate(archivedOn) + ' in' : ' In'} Islamic Archives: Archive of Modern Islamic Thought. ${wUrl}`;
+const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isHosted && d.sourceUrl ? ' ' + (d.sourceLabel ? d.sourceLabel.replace(/[\s.]+$/, '') + ', ' : '') + d.sourceUrl + '.' : ''}${archivedOn ? ' Archived ' + longDate(archivedOn) + ' in' : ' In'} Islamic Internet Archives: Archive of Modern Islamic Thought. ${wUrl}`;
 ---
 <article class="work-row"
   data-work

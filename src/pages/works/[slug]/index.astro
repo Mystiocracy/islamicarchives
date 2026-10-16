@@ -19,7 +19,7 @@ const toc = d.contents.length ? d.contents : headings.filter((h) => h.depth === 
 const url = new URL(`/works/${work.id}/`, Astro.site).href;
 const lastFirst = author ? (() => { const p = (d.byline || author.data.name).split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
 const prov = provenance(work);
-const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${prov.archived ? ' Archived ' + longDate(prov.archived) + ' in' : ''} Islamic Archives: Archive of Modern Islamic Thought. ${url}`;
+const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${prov.archived ? ' Archived ' + longDate(prov.archived) + ' in' : ''} Islamic Internet Archives: Archive of Modern Islamic Thought. ${url}`;
 const eras = await allEras();
 const era = eraOf(d.year, eras);
 const names = await subjectNames();

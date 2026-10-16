@@ -1,4 +1,4 @@
-# Islamic Archives – Archive of Modern Islamic Thought
+# Islamic Internet Archives – Archive of Modern Islamic Thought
 
 The website for **islamicarchives.org**: a free, searchable archive of writings by modern Muslim thinkers, with downloads in EPUB, PDF, Word and plain text, and Send to Kindle / email delivery.
 
@@ -48,7 +48,7 @@ return [
   "smtp_port" => 465,
   "smtp_user" => "books@islamicarchives.org",
   "smtp_password" => "THE MAILBOX PASSWORD",
-  "from_name" => "Islamic Archives",
+  "from_name" => "Islamic Internet Archives",
 ];
 ```
 

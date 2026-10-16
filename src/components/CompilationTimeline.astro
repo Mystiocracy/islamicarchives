@@ -3,7 +3,7 @@ import data from '../data/compilation.json';
 import { longDate, SITE } from '../lib/quran';
 const s = data.source;
 const groups = [...new Set(data.timeline.map((t) => t.group))];
-const cite = `${s.author}. ${s.title}. ${s.publisher}, ${s.year}. ${s.chapters}. ${s.url}. Archived ${longDate(s.archived)} in Islamic Archives, “Quran Hub”, ${SITE}/quran/#compilation.`;
+const cite = `${s.author}. ${s.title}. ${s.publisher}, ${s.year}. ${s.chapters}. ${s.url}. Archived ${longDate(s.archived)} in Islamic Internet Archives, “Quran Hub”, ${SITE}/quran/#compilation.`;
 ---
 <section id="compilation" aria-labelledby="comp-h">
   <h2 id="comp-h" style="font-size:30px; margin:0 0 0.5em">How the Qur'an was compiled</h2>

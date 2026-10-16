@@ -1,4 +1,4 @@
-/* Islamic Archives – searchable, filterable lists inside the Quran section
+/* Islamic Internet Archives – searchable, filterable lists inside the Quran section
    (manuscript catalogue, scholars, tafseer). Same behaviour as the Library:
    type to search (accents and spelling variants tolerated), tick filters, sort, show more. */
 (function () {

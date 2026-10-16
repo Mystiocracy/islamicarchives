@@ -3,7 +3,7 @@
   "nodes": [
    {
     "i": 1,
-    "find": "Islamic Archives",
+    "find": "Islamic Internet Archives",
     "replace": "Islamic Internet Archives"
    }
   ],

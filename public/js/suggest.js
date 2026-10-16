@@ -1,4 +1,4 @@
-/* Islamic Archives – search as you type.
+/* Islamic Internet Archives – search as you type.
    Any <input data-suggest> gets a drop-down of the nearest authors, subjects and works.
    Matching ignores accents and ʿ/ʾ, matches the start of any word ("t" finds Taha),
    and tolerates small spelling mistakes ("abdurahman", "qutub", "mawdudi"/"maududi"). */

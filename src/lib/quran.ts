@@ -18,11 +18,11 @@ export type CatalogueEntry = {
 export function citeManuscript(e: CatalogueEntry) {
   const who = e.source || 'Unknown source';
   const where = e.institution || e.location;
-  return `${stop(who)}. “${stop(e.name)}.”${where ? ' ' + stop(where) + '.' : ''} ${e.url}. Archived ${longDate(e.archived)} in Islamic Archives, “Quranic manuscript catalogue”, ${SITE}/quran/manuscripts/#${e.id}.`;
+  return `${stop(who)}. “${stop(e.name)}.”${where ? ' ' + stop(where) + '.' : ''} ${e.url}. Archived ${longDate(e.archived)} in Islamic Internet Archives, “Quranic manuscript catalogue”, ${SITE}/quran/manuscripts/#${e.id}.`;
 }
 
 export function citeScholar(e: CatalogueEntry) {
-  return `“${stop(e.name)}.”${e.affiliation ? ' ' + stop(e.affiliation) + '.' : ''} ${e.url}. Archived ${longDate(e.archived)} in Islamic Archives, “Scholars of Quranic manuscripts”, ${SITE}/quran/scholars/#${e.id}.`;
+  return `“${stop(e.name)}.”${e.affiliation ? ' ' + stop(e.affiliation) + '.' : ''} ${e.url}. Archived ${longDate(e.archived)} in Islamic Internet Archives, “Scholars of Quranic manuscripts”, ${SITE}/quran/scholars/#${e.id}.`;
 }
 
 /** Order used when sorting by period. */

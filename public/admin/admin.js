@@ -1,4 +1,4 @@
-// Islamic Archives admin: edits the site's content files in GitHub and publishes them as one commit.
+// Islamic Internet Archives admin: edits the site's content files in GitHub and publishes them as one commit.
 // No server: the browser talks to the GitHub API with a fine-grained token you paste in once.
 import * as YAML from './yaml.js?v=3';
 
@@ -187,7 +187,7 @@ function shell(content) {
   const n = S.pending.size;
   app.replaceChildren(
     h('header', { class: 'top' }, h('div', { class: 'top-in' },
-      h('h1', {}, 'Islamic Archives · Admin'),
+      h('h1', {}, 'Islamic Internet Archives · Admin'),
       h('a', { href: '/', target: '_blank', rel: 'noopener' }, 'View site ↗'),
       h('button', { class: 'btn ' + (n ? 'btn-saffron' : 'btn-quiet'), onclick: () => go('changes') }, 'Changes ', h('span', { class: 'badge' }, String(n))),
       h('button', { class: 'btn btn-quiet', onclick: signOut }, 'Sign out'))),
@@ -212,7 +212,7 @@ function viewLogin(err) {
   const inp = h('input', { type: 'password', id: 'tok', placeholder: 'github_pat_…', autocomplete: 'off' });
   const rem = h('input', { type: 'checkbox', id: 'rem' }); rem.checked = true;
   app.replaceChildren(h('div', { class: 'login' },
-    h('h1', {}, 'Islamic Archives admin'),
+    h('h1', {}, 'Islamic Internet Archives admin'),
     h('p', { class: 'muted', style: 'margin:0' }, 'Edit authors, works, subjects and photos here, then publish. Changes go to your GitHub repository and the site rebuilds by itself.'),
     h('div', { class: 'card pad', style: 'display:flex;flex-direction:column;gap:14px' },
       h('b', {}, 'One-time setup: create an access token'),

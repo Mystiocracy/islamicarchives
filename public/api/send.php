@@ -65,9 +65,9 @@ try {
     $mail->Username = $cfg['smtp_user'];
     $mail->Password = $cfg['smtp_password'];
     $mail->CharSet = 'UTF-8';
-    $mail->setFrom($cfg['smtp_user'], $cfg['from_name'] ?? 'Islamic Archives');
+    $mail->setFrom($cfg['smtp_user'], $cfg['from_name'] ?? 'Islamic Internet Archives');
     $mail->addAddress($to);
-    $mail->Subject = $kindle ? 'Islamic Archives delivery' : 'Your book from Islamic Archives';
+    $mail->Subject = $kindle ? 'Islamic Internet Archives delivery' : 'Your book from Islamic Internet Archives';
     $mail->Body = "Attached is the " . strtoupper($format) . " you asked for.\n\nWork page: $pageUrl\n\n"
         . "You received this because someone entered this address at islamicarchives.org. If that wasn't you, you can ignore this message.";
     $mail->addAttachment($file, $slug . '.' . $format, 'base64', $types[$format]);
