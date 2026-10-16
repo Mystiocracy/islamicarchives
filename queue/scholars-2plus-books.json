@@ -1,0 +1,4661 @@
+[
+ {
+  "name": "Abdul Baqi Miftah",
+  "years": "born 1952",
+  "region": "Africa",
+  "country": "Algeria",
+  "books": 47,
+  "titles": [
+   "al-Mafatih al-Wujudiyya wa al-Qur'aniyya li-Fusus al-Hikam",
+   "Khatm al-Qur'an Muhyi al-Din Ibn al-Arabi",
+   "Adwa' ala al-Shaykh Ahmad al-Tijani"
+  ],
+  "knownFor": "Ibn Arabi studies, Sufism; 47+ books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abu Bakr al-Jazaeri",
+  "years": "1921–2018",
+  "region": "Africa",
+  "country": "Algeria",
+  "books": 30,
+  "titles": [
+   "Aysar al-Tafasir",
+   "Minhaj al-Muslim",
+   "Aqidat al-Mu'min"
+  ],
+  "knownFor": "Medina Salafi teacher; tafsir, creed, manners",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad al-'Arabi al-Tabbani",
+  "years": "1897/1898-1970",
+  "region": "Africa",
+  "country": "Algeria",
+  "books": 3,
+  "titles": [
+   "Bara'at al-Ash'ariyyin min 'Aqa'id al-Mukhalifin",
+   "al-Ta'aqqub al-Mufid",
+   "Tahzir al-'Abqari min Muhadarat al-Khudari"
+  ],
+  "knownFor": "Algerian-born Meccan scholar; polemics, Ash'ari creed",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad al-Hashimi al-Tilimsani",
+  "years": "1881–1961",
+  "region": "Africa",
+  "country": "Algeria",
+  "books": 9,
+  "titles": [
+   "A Creed of the People of the Sunnah",
+   "The Key to Paradise",
+   "The Path of Felicity",
+   "Commentary on the Chess of the Gnostics"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Abd al-Hamid Kishk",
+  "years": "1933–1996",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 30,
+  "titles": [
+   "Fi Rihab al-Tafsir",
+   "Qasas al-Anbiya'"
+  ],
+  "knownFor": "Egyptian preacher and author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmad Muhammad Shakir",
+  "years": "1892–1958",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 10,
+  "titles": [
+   "al-Ba'ith al-Hathith",
+   "Umdat al-Tafsir",
+   "Nizam al-Talaq fi al-Islam"
+  ],
+  "knownFor": "Egyptian hadith scholar and editor",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmad al-Tayyeb",
+  "years": "born 1946",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 10,
+  "titles": [
+   "al-Turath wa al-Tajdid",
+   "Mabahith fi Ilm al-Kalam"
+  ],
+  "knownFor": "Grand Imam of al-Azhar; theology, philosophy",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali Gomaa",
+  "years": "born 1952",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 50,
+  "titles": [
+   "al-Tariq ila al-Turath",
+   "Bayan li-l-Nas",
+   "al-Kalim al-Tayyib"
+  ],
+  "knownFor": "Former Grand Mufti of Egypt; usul, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Metwalli al-Sha'rawi",
+  "years": "1911–1998",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 20,
+  "titles": [
+   "Khawatir Sha'rawi hawla al-Qur'an",
+   "Mu'jizat al-Qur'an"
+  ],
+  "knownFor": "Egyptian tafsir preacher; books transcribed from lectures",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Sayyid Tantawy",
+  "years": "1928–2010",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 10,
+  "titles": [
+   "al-Tafsir al-Wasit li-l-Qur'an",
+   "Bani Isra'il fi al-Qur'an wa al-Sunna"
+  ],
+  "knownFor": "Grand Imam of al-Azhar; tafsir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yusuf al-Qaradawi",
+  "years": "1926–2022",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 100,
+  "titles": [
+   "Fiqh al-Zakah",
+   "al-Halal wa al-Haram fi al-Islam",
+   "Fiqh al-Jihad"
+  ],
+  "knownFor": "Egyptian-Qatari jurist; fiqh, Muslim Brotherhood-aligned",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Zainab al Ghazali",
+  "years": "1917–2005",
+  "region": "Africa",
+  "country": "Egypt",
+  "books": 2,
+  "titles": [
+   "Ayyam min Hayati (Return of the Pharaoh)",
+   "Nahwa Ba'th Jadid"
+  ],
+  "knownFor": "Egyptian Muslim Sisters leader; memoir and tracts",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmad Bamba",
+  "years": "1940–2022",
+  "region": "Africa",
+  "country": "Ghana",
+  "books": null,
+  "titles": [
+   "Masalik al-Jinan",
+   "Matlab al-Fawzayn",
+   "Mawahib al-Quddus"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Yusuf Soalih Ajura",
+  "years": "1890–2004",
+  "region": "Africa",
+  "country": "Ghana",
+  "books": null,
+  "titles": [
+   "Collected works of Afa Ajura (Islamic Thought in Africa)"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Sadiq Al-Ghariani",
+  "years": "born 1942",
+  "region": "Africa",
+  "country": "Libya",
+  "books": 10,
+  "titles": [
+   "Mudawwanat al-Fiqh al-Maliki wa Adillatuha",
+   "Fatawa"
+  ],
+  "knownFor": "Libyan Grand Mufti; Maliki fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hammad al Ansari",
+  "years": "1925-1997",
+  "region": "Africa",
+  "country": "Mali",
+  "books": null,
+  "titles": [
+   "Rasail al-Fiqhiyyah",
+   "Rasail al-Aqidah"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Abdallah Bin Bayyah",
+  "years": "born 1935",
+  "region": "Africa",
+  "country": "Mauritania",
+  "books": 10,
+  "titles": [
+   "Sina'at al-Fatwa",
+   "Amali al-Dalalat",
+   "Tanbih al-Marajih"
+  ],
+  "knownFor": "Mauritanian Maliki jurist; fiqh al-aqalliyyat",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abd al-Aziz al-Ghumari",
+  "years": "1920–1997",
+  "region": "Africa",
+  "country": "Morocco",
+  "books": 5,
+  "titles": [
+   "al-Tahqiq...",
+   "Fath al-Mu'in"
+  ],
+  "knownFor": "Moroccan hadith scholar and Sufi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdullah al-Ghumari",
+  "years": "1910–1993",
+  "region": "Africa",
+  "country": "Morocco",
+  "books": 100,
+  "titles": [
+   "Siddiq al-Mughir",
+   "Fath al-Wahhab"
+  ],
+  "knownFor": "Moroccan hadith scholar; over 100 works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmad al-Ghumari",
+  "years": "1902–1961",
+  "region": "Africa",
+  "country": "Morocco",
+  "books": 100,
+  "titles": [
+   "al-Mughir ala al-Ahadith al-Mawdu'a fi al-Jami' al-Saghir",
+   "Husn al-Tafahhum wa al-Dark"
+  ],
+  "knownFor": "Moroccan hadith scholar; over 100 books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Allal al-Fassi",
+  "years": "1910–1974",
+  "region": "Africa",
+  "country": "Morocco",
+  "books": 8,
+  "titles": [
+   "al-Naqd al-Dhati",
+   "Maqasid al-Shari'a al-Islamiyya wa Makarimuha",
+   "Independence Movements in Arab North Africa"
+  ],
+  "knownFor": "Moroccan nationalist, Salafi jurist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Asma Lamrabet",
+  "years": "born 1951",
+  "region": "Africa",
+  "country": "Morocco",
+  "books": 5,
+  "titles": [
+   "Musulmane tout simplement",
+   "Epouse du Prophete ou l'Islam au feminin",
+   "Le Coran et les femmes",
+   "Femmes. Islam. Occident"
+  ],
+  "knownFor": "Moroccan Muslim feminist theologian",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Taqi-ud-Din al-Hilali",
+  "years": "1893–1987",
+  "region": "Africa",
+  "country": "Morocco",
+  "books": null,
+  "titles": [
+   "Al-Husam al-Mahiq li Kulli Mushrik wa Munafiq",
+   "Sabil ar-Rashad fi Hady Khayr al-Ibad",
+   "Hashiyah ala Kashf ash-Shubuhat"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Adam Abdullah Al-Ilory",
+  "years": "1917-1992",
+  "region": "Africa",
+  "country": "Nigeria",
+  "books": 100,
+  "titles": [
+   "Nizam al-Ta'lim al-Arabi",
+   "Misbah al-Dalam"
+  ],
+  "knownFor": "Nigerian Arabic scholar; over 100 works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Isa Ali Pantami",
+  "years": null,
+  "region": "Africa",
+  "country": "Nigeria",
+  "books": 3,
+  "titles": [
+   "Counter-Terrorism Through Cybersecurity and Emerging Technologies",
+   "Building a Digital Economy for a Digital Africa"
+  ],
+  "knownFor": "Nigerian cleric and ICT minister; authored academic books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nasiru Kabara",
+  "years": null,
+  "region": "Africa",
+  "country": "Nigeria",
+  "books": 300,
+  "titles": [
+   "Tafsir and hadith works (Arabic)"
+  ],
+  "knownFor": "Nigerian Qadiriyya scholar; claimed 300+ books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Usman dan Fodio",
+  "years": "born 1754",
+  "region": "Africa",
+  "country": "Nigeria",
+  "books": 100,
+  "titles": [
+   "Ihya al-Sunna wa Ikhmad al-Bid'a",
+   "Bayan Wujub al-Hijra",
+   "Kitab al-Farq",
+   "Najm al-Ikhwan"
+  ],
+  "knownFor": "Founder of Sokoto Caliphate; many treatises",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ibrahim Niass",
+  "years": "1900–1975",
+  "region": "Africa",
+  "country": "Senegal",
+  "books": 10,
+  "titles": [
+   "Kashif al-Ilbas",
+   "Ruh al-Adab",
+   "Jawahir al-Rasa'il"
+  ],
+  "knownFor": "Tijani Sufi shaykh; Fayda Tijaniyya",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdalqadir as-Sufi",
+  "years": "1930–2021",
+  "region": "Africa",
+  "country": "South Africa",
+  "books": 20,
+  "titles": [
+   "The Way of Muhammad",
+   "Root Islamic Education",
+   "The Hundred Steps",
+   "Esoteric Deviation in Islam"
+  ],
+  "knownFor": "Darqawi Sufi shaykh; 20+ books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmed Deedat",
+  "years": "1918 - 2005",
+  "region": "Africa",
+  "country": "South Africa",
+  "books": 12,
+  "titles": [
+   "Christ in Islam",
+   "Is the Bible God's Word?",
+   "Crucifixion or Cruci-fiction?",
+   "Muhammad the Greatest"
+  ],
+  "knownFor": "Comparative religion debater; booklets",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ebrahim Desai",
+  "years": "1963–2021",
+  "region": "Africa",
+  "country": "South Africa",
+  "books": null,
+  "titles": [
+   "Contemporary Fatawa (4 vols)",
+   "Al-Mahmood",
+   "Introduction to Hadith",
+   "Introduction to Islamic Commerce"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Abdul Ali Deobandi",
+  "years": "1938–2009",
+  "region": "Asia",
+  "country": "Afghanistan",
+  "books": 6,
+  "titles": [
+   "Pashto and Farsi works (six books)"
+  ],
+  "knownFor": "Afghan Deobandi scholar; ~700 fatwas, six books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Hakim Haqqani",
+  "years": "born 1967",
+  "region": "Asia",
+  "country": "Afghanistan",
+  "books": 3,
+  "titles": [
+   "al-Imarat al-Islamiyya wa Nizam al-Hukm",
+   "Islamic system works"
+  ],
+  "knownFor": "Taliban chief justice; fiqh books on Islamic government",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Asif Mohseni",
+  "years": "1935–2009",
+  "region": "Asia",
+  "country": "Afghanistan",
+  "books": 8,
+  "titles": [
+   "Mu'jam al-Ahadith al-Mu'tabara",
+   "Buhuth fi 'ilm al-rijal",
+   "Mashra'a bihar al-anwar",
+   "Aqa'id baray-i hami"
+  ],
+  "knownFor": "No evidence of authored books found; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Abdul Amir al-Jamri",
+  "years": "1938-2006",
+  "region": "Asia",
+  "country": "Bahrain",
+  "books": 4,
+  "titles": [
+   "Women in Islam",
+   "Islamic Duties",
+   "Islamic Teachings",
+   "The Story of My Life"
+  ],
+  "knownFor": "Bahraini Shia cleric and opposition leader",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "A F M Khalid Hossain",
+  "years": "born 1959",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 20,
+  "titles": [
+   "Islamic Regulations",
+   "Nive Jawa Dipshikha",
+   "Selected Essays-1"
+  ],
+  "knownFor": "Patiya scholar, editor, adviser; books unclear",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Abdul Latif Chowdhury Fultali",
+  "years": "1913–2008",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 8,
+  "titles": [
+   "Al-Qawl as-Sadeed",
+   "At-Tanweer ala at-Tafsir",
+   "Muntakhab-us Siyar",
+   "Anwar as-Salikeen"
+  ],
+  "knownFor": "Fultali Sufi pir, Sylhet; Urdu/Arabic works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdur Rahim",
+  "years": "1918–1987",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 8,
+  "titles": [
+   "Al-Qurane'r Aloke Unnoto Jiboner Adorsho",
+   "Ajker Chintadhara",
+   "Pashchatto Shobbhotar Darshonik Bhitti",
+   "Al-Quraner Rashtro O Shorkar"
+  ],
+  "knownFor": "Jamaat-e-Islami thinker, Bengali Islamic writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdur Rahman Kashgarhi",
+  "years": "1912–1971",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 6,
+  "titles": [
+   "Diwan az-Zahrat",
+   "Al-Mufid liman yastafid",
+   "Al-Hadiqa",
+   "Mahak an-Naqd"
+  ],
+  "knownFor": "Arabic lexicographer and poet",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdus Salam Chatgami",
+  "years": "1943–2021",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 14,
+  "titles": [
+   "Zawahirul Fatwa",
+   "Makalat-e Chatgami",
+   "Tawheed O Resalat in Ahkam"
+  ],
+  "knownFor": "Chittagong Hanafi mufti",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ashraf Ali Bishwanathi",
+  "years": "1928–2005",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 7,
+  "titles": [
+   "Islam vs Socialism and Democracy",
+   "Iraq in the Mirror of Memory",
+   "Musafir's Prayers"
+  ],
+  "knownFor": "Deobandi writer, Jamiat Ulama Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Athar Ali Bengali",
+  "years": "1891–1976",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 5,
+  "titles": [
+   "Purdah and Islam",
+   "Islami Shashon Keno Chai",
+   "Islame Orthobontan Bebostha"
+  ],
+  "knownFor": "Jamiat Ulama Islam leader, Bengali writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Azizul Haque",
+  "years": "1919–2012",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 3,
+  "titles": [
+   "Fazl al-Bari Sharh Sahih al-Bukhari",
+   "Capitalism, Socialism and Islam",
+   "Refutation of Qadianism"
+  ],
+  "knownFor": "Bukhari commentator, Dhaka",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Delwar Hossain Sayeedi",
+  "years": "born 1940",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 15,
+  "titles": [
+   "Biography of the Hereafter",
+   "Why Qadianis are not Muslims",
+   "Miracle of the Holy Quran"
+  ],
+  "knownFor": "Waz preacher, Jamaat leader",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Farid Uddin Masood",
+  "years": "born 1950",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 19,
+  "titles": [
+   "Workers' Rights in Islam"
+  ],
+  "knownFor": "Imam, madrasa board chair; one book named",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Izharul Islam",
+  "years": null,
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 2,
+  "titles": [
+   "Hayat-e Mufti-e Azam",
+   "Fathul Maraam sharhe Faizul Kalam"
+  ],
+  "knownFor": "Biographer of Mufti Faizullah; authorship unclear",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Khandaker Abdullah Jahangir",
+  "years": "1961–2016",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 30,
+  "titles": [
+   "Hadiser Name Jaliyat",
+   "Rahe Belayat",
+   "Quran Sunnar Aloke Islami Aqidah",
+   "Buhuth fi Ulum al-Hadith"
+  ],
+  "knownFor": "Ahl-e-Hadith hadith scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Khwaja Yunus Ali",
+  "years": "1886–1951",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 2,
+  "titles": [
+   "Shariyater Alo",
+   "Ganj-e-Asrar"
+  ],
+  "knownFor": "Enayetpuri Sufi order founder; books unverified",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Mahmudul Hasan",
+  "years": "born 1950",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 3,
+  "titles": [
+   "Burhan al-Quran",
+   "Imam Abu Yusuf: Hadith and Legal Scholarship"
+  ],
+  "knownFor": "Qawmi board chair, Quran commentary",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Akram Khan",
+  "years": "1868–1969",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 5,
+  "titles": [
+   "Mostafa Charit",
+   "Samasya O Samadhan",
+   "Tafser-a-Quran",
+   "Muslim Banglar Samajik Itihas"
+  ],
+  "knownFor": "Journalist, politician, Quran commentator",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Asadullah Al-Ghalib",
+  "years": "born 1948",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 15,
+  "titles": [
+   "Tarjamatul Quran",
+   "Tafsirul Quran"
+  ],
+  "knownFor": "Ahl-e-Hadith leader, Rajshahi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Shahidullah",
+  "years": "1885–1969",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 10,
+  "titles": [
+   "Bangala Byakaran",
+   "Bhasa O Sahitya",
+   "Bangala Sahityer Itihas",
+   "Bangala Bhasar Itibritta"
+  ],
+  "knownFor": "Linguist and Bengali philologist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhiuddin Khan",
+  "years": "1935–2016",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 5,
+  "titles": [
+   "Islam and Our Life",
+   "Sirat al-Mustaqim",
+   "Azadi Andolon 1857"
+  ],
+  "knownFor": "Bengali Islamic writer and translator",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mushahid Ahmad Bayampuri",
+  "years": "1907–1971",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 12,
+  "titles": [
+   "Al-Fath al-Karim fi Siyasat an-Nabi",
+   "Al-Furqan bayna Awliya ar-Rahman",
+   "Sotter Alo"
+  ],
+  "knownFor": "Sylheti Sufi and Arabic writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nurul Islam Jihadi",
+  "years": "1948–2021",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 10,
+  "titles": [
+   "Akhlak-e Rasul",
+   "Tazkera-e Khatib-e Azam",
+   "Qadiani Fitna"
+  ],
+  "knownFor": "Jamiat leader, Bengali/Urdu writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nurul Islam Olipuri",
+  "years": "born 1955",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 10,
+  "titles": [
+   "Mawayez-e Olipuri",
+   "Behind the Sunni Name",
+   "Bibhrantir Obosan",
+   "Noor-e Madina"
+  ],
+  "knownFor": "Preacher, anti-Qadiani writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Obaidullah Hamzah",
+  "years": "born 1972",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 18,
+  "titles": [
+   "Quran and Modern Science",
+   "Islam vs Terrorism",
+   "Endangered Women"
+  ],
+  "knownFor": "Patiya scholar, At-Tawhid editor",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sayed Muhammad Amimul Ehasan Barkati",
+  "years": "1911–1974",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 21,
+  "titles": [
+   "Fiqhus-Sunan wal-Athar",
+   "Qawa'idul-Fiqh",
+   "Fatwae Barkati",
+   "Adabul Mufti"
+  ],
+  "knownFor": "Fiqh and hadith scholar, Barkati",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shah Ahmad Shafi",
+  "years": "1916–2020",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 16,
+  "titles": [
+   "Faizu-l-Jaari",
+   "Islam o Siyaasat",
+   "Takfeer-e-Muslim",
+   "Islami Ortho Bebostha"
+  ],
+  "knownFor": "Deobandi Hanafi, Bukhari commentary, polemics",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shamsul Haque Faridpuri",
+  "years": "1896–1969",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 12,
+  "titles": [
+   "Choritro Gothon",
+   "Tafsire Sura Fateha",
+   "Hoqqani Tafsir",
+   "Matri Jatir Morjada"
+  ],
+  "knownFor": "Bengali Deobandi pir, Sufi reformer, tafsir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sheikh Ahmadullah",
+  "years": "born 1981",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 4,
+  "titles": [
+   "Morning and Evening Dua and Zikr",
+   "How to do Umrah?"
+  ],
+  "knownFor": "YouTube preacher, dua books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Syed Rashid Ahmed Jaunpuri",
+  "years": "1889–2001",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 4,
+  "titles": [
+   "Sattyer Prokash",
+   "Istafsar wa Jawaab",
+   "Tariq Al-Haq"
+  ],
+  "knownFor": "Sufi philosopher, Dhaka",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ubaidul Haq",
+  "years": "1928–2007",
+  "region": "Asia",
+  "country": "Bangladesh",
+  "books": 8,
+  "titles": [
+   "Seerat-e-Mustafa",
+   "Tarikh-e-Islam",
+   "Shia Sunni Ikhtilaf",
+   "Quran Bujhibar Poth"
+  ],
+  "knownFor": "Bangladeshi Deobandi scholar, usul al-fiqh and sira",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Sadik Muhammad Yusuf",
+  "years": "1952–2015",
+  "region": "Asia",
+  "country": "Central Asia / Uzbekistan",
+  "books": 30,
+  "titles": [
+   "Tafsir Hilal",
+   "Hadith ilmi",
+   "Imon Haqida"
+  ],
+  "knownFor": "Uzbek scholar and mufti, translator of Quran",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Ghani Azhari",
+  "years": "1922 - 2023",
+  "region": "Asia",
+  "country": "India",
+  "books": 3,
+  "titles": [
+   "Noor-i-Irfan",
+   "Qadim Tarikh-i-Gujjar",
+   "Maktubat-i-Naqshbandiyyah"
+  ],
+  "knownFor": "Kashmiri Gujjar scholar, Naqshbandi, Gojri literature",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Hakkim Azhari",
+  "years": "born 1971",
+  "region": "Asia",
+  "country": "India",
+  "books": 3,
+  "titles": [
+   "Shama'il-u-Nabi - Anudhavanathinte Anandam",
+   "Vismaya Vilasam",
+   "Bosfarasinte Bagyam"
+  ],
+  "knownFor": "Markaz Knowledge City director; no book evidence found",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Abdul Hamid Qadri Badayuni",
+  "years": "1898–1970",
+  "region": "Asia",
+  "country": "India",
+  "books": 2,
+  "titles": [
+   "Jamʿ al-Fatawa",
+   "Dawat-e-Amal"
+  ],
+  "knownFor": "Barelvi scholar, Sufi, politician, anti-Ahmadiyya",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmed Ali Badarpuri",
+  "years": "1915–2000",
+  "region": "Asia",
+  "country": "India",
+  "books": 9,
+  "titles": [
+   "Alam-e-Barzakh",
+   "Pabitra Haram Trayer Itihas",
+   "Jamiat-er Mul Katha",
+   "Zuhur-e-Mahdi O Nuzool-e-Isa"
+  ],
+  "knownFor": "Assam Deobandi scholar; Bengali, Assamese, Urdu works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmed Raza Khan Barelvi",
+  "years": "1856 - 1921",
+  "region": "Asia",
+  "country": "India",
+  "books": 100,
+  "titles": [
+   "Fatawa Razawiyya",
+   "Hadaiq-e-Bakhshish",
+   "Husam al-Haramain",
+   "Al-Dawla al-Makkiyya"
+  ],
+  "knownFor": "Founder of Barelvi movement; fatawa, poetry, polemics",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Anzar Shah Kashmiri",
+  "years": "1927–2008",
+  "region": "Asia",
+  "country": "India",
+  "books": 8,
+  "titles": [
+   "Taqreer-e-Shahi",
+   "Asma-e-Husna Ki Barkaat",
+   "Nawaderat Imam Kashmiri",
+   "Tadhkira-tul-Izaz"
+  ],
+  "knownFor": "Deobandi, son of Anwar Shah Kashmiri, tafsir and biography",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Bashir al-Najafi",
+  "years": "born 1942",
+  "region": "Asia",
+  "country": "India",
+  "books": 15,
+  "titles": [
+   "Al-Deen Al-Qayim",
+   "Laws of Hajj",
+   "100 Questions Regarding Khums",
+   "Murqat al-Usool"
+  ],
+  "knownFor": "Shia marja in Najaf, fiqh and usul",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Faizul Waheed",
+  "years": "1966–2021",
+  "region": "Asia",
+  "country": "India",
+  "books": 4,
+  "titles": [
+   "Faiz al-Mannan (Gojri Quran)",
+   "Sirajum Muneera",
+   "Pakiza ke Masail",
+   "Mareez-o-Mayyit awr Warasat"
+  ],
+  "knownFor": "Gojri Quran translator, Deobandi, Kashmir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Fuzail Ahmad Nasiri",
+  "years": "born 1978",
+  "region": "Asia",
+  "country": "India",
+  "books": 4,
+  "titles": [
+   "Hadith-e-Ambar",
+   "Tafhim-e-Ilhami",
+   "Tafhim-ul-Maybzi",
+   "Pachasi Saala Funkaar"
+  ],
+  "knownFor": "Deobandi, logic commentaries, critic of Wahiduddin Khan",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Habibur Rahman Khairabadi",
+  "years": "born 1933",
+  "region": "Asia",
+  "country": "India",
+  "books": 6,
+  "titles": [
+   "Masail-e-Qurbani",
+   "Ramadan awr Uske Roze",
+   "Zakat ki Ahmiyyat",
+   "Sharah Mufid-ut-talibin"
+  ],
+  "knownFor": "Deobandi hadith and fiqh writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hafizur Rahman Wasif Dehlavi",
+  "years": "1910–1987",
+  "region": "Asia",
+  "country": "India",
+  "books": 6,
+  "titles": [
+   "Kifayat al-Mufti (compiled)",
+   "Adabi Bhool Bhulayyan",
+   "Sih Lisani Masdar Nama",
+   "Urdu Masdar Nama"
+  ],
+  "knownFor": "Urdu writer, lexicographer, Jamiat historian",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hamid al-Ansari Ghazi",
+  "years": "1909–1992",
+  "region": "Asia",
+  "country": "India",
+  "books": 3,
+  "titles": [
+   "Islam ka Nizam-e-Hukumat",
+   "Khulq-e-Azeem",
+   "Sad Salah Yadgar"
+  ],
+  "knownFor": "Deobandi Jamiat Ulama writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hashmi Miya",
+  "years": "born 1947",
+  "region": "Asia",
+  "country": "India",
+  "books": 4,
+  "titles": [
+   "Lataif e Deoband",
+   "Rusumaat o Moharram o Taaziya",
+   "Hazrat Amir e Muawiya",
+   "Khutbaat e Hashmi Miyan"
+  ],
+  "knownFor": "Deoband scholar and orator",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hassan Raza Khan",
+  "years": "1859–1908",
+  "region": "Asia",
+  "country": "India",
+  "books": 9,
+  "titles": [
+   "Zauq-e-Naat",
+   "Ayina-e-Qayamat",
+   "Rasayel-e-Hassan",
+   "Samar-e-Fasahat"
+  ],
+  "knownFor": "Barelvi poet-scholar, naat verse and prose",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Kafilur Rahman Nishat Usmani",
+  "years": "1942–2006",
+  "region": "Asia",
+  "country": "India",
+  "books": 4,
+  "titles": [
+   "Shanasa",
+   "Ziyarat-e-Quboor",
+   "Hayat Ibn Abbas"
+  ],
+  "knownFor": "Deobandi poet-scholar, Urdu writings",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Kanthapuram A. P. Aboobacker Musliyar",
+  "years": "born 1939",
+  "region": "Asia",
+  "country": "India",
+  "books": 3,
+  "titles": [
+   "Muhammad: The Messenger",
+   "Religion, Polity and Nationalism",
+   "The Mind of Islam"
+  ],
+  "knownFor": "Sunni grand mufti of India; works listed unverified as own",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Khalid Saifullah Rahmani",
+  "years": "born 1956",
+  "region": "Asia",
+  "country": "India",
+  "books": 8,
+  "titles": [
+   "Qamus al-Fiqh",
+   "Kitab al-Fatawa",
+   "Aasaan Tafsir-e-Quran Majid",
+   "Fiqh-e-Islami: Tadwin-o-Taaruf"
+  ],
+  "knownFor": "Hanafi jurist, AIMPLB, Islamic Fiqh Academy",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Najeeb Qasmi",
+  "years": null,
+  "region": "Asia",
+  "country": "India",
+  "books": 6,
+  "titles": [
+   "Dars-e-Hadith",
+   "Dars-e-Quran",
+   "Islahi Mazameen",
+   "Umrah Ka Tariqah"
+  ],
+  "knownFor": "Deobandi preacher, Darul Uloom Deoband",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Madni Ashraf Ashrafi Al-Jilani",
+  "years": "born 1938",
+  "region": "Asia",
+  "country": "India",
+  "books": 13,
+  "titles": [
+   "Islam Ka Tassawur-e-Ilah aur Maududi Sahib",
+   "Deen aur Aqamat-e-Deen",
+   "Al-Arba'in Al-Ashrafi",
+   "Muslim Personal Law or Islamic Law?"
+  ],
+  "knownFor": "Ashrafiya Mubarakpur, Barelvi polemicist and jurist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Salim Qasmi",
+  "years": "1926–2018",
+  "region": "Asia",
+  "country": "India",
+  "books": 7,
+  "titles": [
+   "Mabaadi al-Tarbiyat al-Islami",
+   "Taajdar e Arze Haram ka Paigham",
+   "Mardaan-e-Ghaazi",
+   "Khutbat e Khatibul Islam"
+  ],
+  "knownFor": "Deoband rector, orator, Urdu writings",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Taqi Amini",
+  "years": "1926–1991",
+  "region": "Asia",
+  "country": "India",
+  "books": 10,
+  "titles": [
+   "Fiqh-e-Islami ka Tareekhi Pas-e-Manzar",
+   "Hikmatul Quran",
+   "Ijtehad ka Tareekhi Pas-e-Manzar",
+   "Islam ka Zar'i Nizam"
+  ],
+  "knownFor": "Deoband hadith teacher, Urdu fiqh writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Yunus Jaunpuri",
+  "years": "1937–2017",
+  "region": "Asia",
+  "country": "India",
+  "books": 2,
+  "titles": [
+   "Nibras al-Sari ila Riyad al-Bukhari",
+   "Al-Yawaqit al-Ghaliyah al-Ahadith al-'Aliyah"
+  ],
+  "knownFor": "Saharanpur hadith teacher; no evidence in article",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Mujahidul Islam Qasmi",
+  "years": "1936–2002",
+  "region": "Asia",
+  "country": "India",
+  "books": 40,
+  "titles": [
+   "Al-Waqf",
+   "Al-Nizam al-Qadai",
+   "The Islamic Concept of Animal Slaughter",
+   "Contemporary Medical Issues in Islamic Jurisprudence"
+  ],
+  "knownFor": "Hanafi jurist, Islamic Fiqh Academy founder",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mustafa Raza Khan Qadri",
+  "years": "1892–1981",
+  "region": "Asia",
+  "country": "India",
+  "books": 9,
+  "titles": [
+   "Fatawa-e-Mustafawia",
+   "Saman-e-Bakhshish",
+   "Taqiya Baazi",
+   "Al Malfoozat"
+  ],
+  "knownFor": "Barelvi Grand Mufti of India, fatawa",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nazir Ahmad Qasmi",
+  "years": "born 20 June 1964",
+  "region": "Asia",
+  "country": "India",
+  "books": 4,
+  "titles": [
+   "Mirza Qadiyani ke Jhoot",
+   "Mirzaiyat ka Radd",
+   "Islam awr AIDS se Tahaffuz",
+   "Mirza Qadiyani na Mehdi na Masih"
+  ],
+  "knownFor": "Deobandi anti-Ahmadiyya debater",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nizamuddin Asir Adrawi",
+  "years": "1926–2021",
+  "region": "Asia",
+  "country": "India",
+  "books": 9,
+  "titles": [
+   "Mas'ir-i Shaykhul Islam",
+   "Tarikh Jamiat Ulema-e-Hind",
+   "Dabistan-i Deoband ki Ilmi Khidmat",
+   "Tarikh-e-Tabri ka Tehqiqi Jayzah"
+  ],
+  "knownFor": "Deoband hadith teacher, biographer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Noor Alam Khalil Amini",
+  "years": "1952–2021",
+  "region": "Asia",
+  "country": "India",
+  "books": 12,
+  "titles": [
+   "Falastin Fi Intezari Salahidin",
+   "Al-Sahabatu wa Makanatuhum fi al-Islam",
+   "Al-Muslimoona fi al-Hind",
+   "Pas-e-Marg-e-Zindah"
+  ],
+  "knownFor": "Deoband Arabic literature professor",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rafiq Ahmad Pampori",
+  "years": "born 1956",
+  "region": "Asia",
+  "country": "India",
+  "books": 3,
+  "titles": [
+   "Aijazul Quran",
+   "Instrument for Understanding Quran",
+   "Ra'fatul Bari"
+  ],
+  "knownFor": "Kashmiri ENT surgeon and Quran scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rahmatullah Mir Qasmi",
+  "years": "born 1956",
+  "region": "Asia",
+  "country": "India",
+  "books": 9,
+  "titles": [
+   "Immodesty in Islamic Perspective",
+   "Sailab! Aazmaish ya Azab",
+   "Khutbat-e-Iman",
+   "Ulama-e-Deoband and Love for Rasulullah"
+  ],
+  "knownFor": "Kashmiri Deobandi preacher, English and Urdu works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sa'id Akhtar Rizvi",
+  "years": "1927–2002",
+  "region": "Asia",
+  "country": "India",
+  "books": 20,
+  "titles": [
+   "A Restatement of the History of Islam and Muslims",
+   "Islam in Africa",
+   "Slavery in Islam",
+   "Elements of Islamic Culture"
+  ],
+  "knownFor": "Khoja Shia scholar, English-language writer, Tanzania/India",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Saeed Ahmad Akbarabadi",
+  "years": "1908–1985",
+  "region": "Asia",
+  "country": "India",
+  "books": 11,
+  "titles": [
+   "Fehm-e-Quran",
+   "Siddiq-e-Akbar",
+   "Uthman Zinnurayn",
+   "Musalmano ka Urooj-o-Zawal"
+  ],
+  "knownFor": "Deobandi historian and Quran scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Safi-Ur-Rahman Mubarakpuri",
+  "years": null,
+  "region": "Asia",
+  "country": "India",
+  "books": 10,
+  "titles": [
+   "Ar-Raheeq Al-Makhtum",
+   "Rawdat al-Anwar",
+   "Minnat al-Mun'im",
+   "Ithaf al-Kiram"
+  ],
+  "knownFor": "Salafi hadith scholar and sira author, Medina",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sayyid Abdurahman Imbichikoya Thangal Al-Aydarusi Al-Azhari",
+  "years": "1922–2015",
+  "region": "Asia",
+  "country": "India",
+  "books": 5,
+  "titles": [
+   "Al Arab wal Arabiyya",
+   "Min Nawabigi Ulemai Malaibar",
+   "Abu Nawas wa Hayathuhu",
+   "Thariq an-Nahvi wa Thathawwuruhu"
+  ],
+  "knownFor": "Kerala scholar; no evidence found",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Syed Aqeel-ul-Gharavi",
+  "years": "born 1964",
+  "region": "Asia",
+  "country": "India",
+  "books": 22,
+  "titles": [
+   "Ilm-o-Irada",
+   "Chiragh-e-Rah",
+   "Aiyna-e-Qaza-o-Qadr",
+   "Falsafa-e-Meraj"
+  ],
+  "knownFor": "Shia philosopher-writer, Urdu",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Wahiduddin Khan",
+  "years": "1925–2021",
+  "region": "Asia",
+  "country": "India",
+  "books": 200,
+  "titles": [
+   "Tazkirul Quran",
+   "Islam Yaa Challenges Modern Age",
+   "Maulana Wahiduddin Khan Quran Translation",
+   "Paighambar-e-Inqilab"
+  ],
+  "knownFor": "Prolific Indian writer on Islam, peace, spirituality",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Wasiullah Abbas",
+  "years": "born 1948",
+  "region": "Asia",
+  "country": "India",
+  "books": 8,
+  "titles": [
+   "Following and the Principles of Jurisprudence of the Salaf",
+   "Imitation and Its Ruling",
+   "Science of Hadith Defects",
+   "Virtues of the Companions"
+  ],
+  "knownFor": "Ahl-i Hadith scholar, hadith criticism",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yasin Mazhar Siddiqi",
+  "years": "1944–2020",
+  "region": "Asia",
+  "country": "India",
+  "books": 10,
+  "titles": [
+   "Rasul-e-Akram ki Siyasi Zindagi",
+   "Muhaddithin-e-Azam",
+   "Asr-e-Nabawi ka Nizam-e-Hukumat",
+   "Nigarishat-e-Seerat"
+  ],
+  "knownFor": "Historian of the Prophetic era, Aligarh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Zayn al-Abidin Sajjad Meerthi",
+  "years": "1910–1991",
+  "region": "Asia",
+  "country": "India",
+  "books": 8,
+  "titles": [
+   "Tarikh-e-Millat",
+   "Qamoos al-Quran",
+   "Sirat-e-Tayyibah",
+   "Shaheed-e-Karbala"
+  ],
+  "knownFor": "Deobandi historian and Arabic educator",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Zeeshan Haider Jawadi",
+  "years": "1938–2000",
+  "region": "Asia",
+  "country": "India",
+  "books": 8,
+  "titles": [
+   "Anwar al-Quran",
+   "Women and Shariat",
+   "Imam Jafer Sadiq aur Mazahib-e-Arba'a",
+   "Nuqoosh-e-Ismat"
+  ],
+  "knownFor": "Shia scholar, Quran and Nahj al-Balagha commentary",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "hah Alam Gorakhpuri",
+  "years": "born 1969",
+  "region": "Asia",
+  "country": "India",
+  "books": 5,
+  "titles": [
+   "Tafaseer Quran aur Mirzai Shubhat",
+   "Mirzaiyat aur Adalati Faislay",
+   "Fitna Qadianiyat aur Islami Istilahaat",
+   "Urdu Zaban o Adab ki Tareeje"
+  ],
+  "knownFor": "Deoband researcher, anti-Ahmadiyya, manuscript editor",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Qadir Djaelani",
+  "years": "1938–2021",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 5,
+  "titles": [
+   "Hukum Syariah dan Hak Asasi Manusia"
+  ],
+  "knownFor": "Indonesian activist-preacher, political Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Somad",
+  "years": "born 1977",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 3,
+  "titles": [
+   "37 Masalah Populer",
+   "Tafsir Surah al-Fatihah",
+   "Tarikh Islam di Indonesia"
+  ],
+  "knownFor": "Indonesian Salafi-leaning preacher, popular Q&A books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdullah Gymnastiar",
+  "years": "born 1962",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 8,
+  "titles": [
+   "Manajemen Qolbu",
+   "Aa Gym Apa Adanya",
+   "Menggapai Hati",
+   "Kiat Sukses Berumah Tangga"
+  ],
+  "knownFor": "Indonesian preacher, self-development books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdurrahman Wahid",
+  "years": "1940–2009",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 20,
+  "titles": [
+   "Muslim di Tengah Pergumulan",
+   "Pribumisasi Islam",
+   "Tuhan Tidak Perlu Dibela",
+   "Islamku, Islam Anda, Islam Kita"
+  ],
+  "knownFor": "NU leader, Indonesian president, essayist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Adian Husaini",
+  "years": "born 1965",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 30,
+  "titles": [
+   "Wajah Peradaban Barat",
+   "Islamisasi Pemikiran"
+  ],
+  "knownFor": "Indonesian; Islamization of knowledge, critic of liberalism",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali Yafie",
+  "years": "1926–2023",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 10,
+  "titles": [
+   "Menggagas Fiqih Sosial",
+   "Merintis Fiqih Lingkungan Hidup"
+  ],
+  "knownFor": "Indonesian fiqh scholar, MUI leader",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Budhy Munawar Rachman",
+  "years": "born 1963",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 10,
+  "titles": [
+   "Islam Pluralis",
+   "Membaca Nurcholish Madjid"
+  ],
+  "knownFor": "Indonesian liberal Muslim thinker",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Felix Siauw",
+  "years": "born 1984",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 10,
+  "titles": [
+   "Muhammad Al-Fatih 1453",
+   "Beyond the Inspiration"
+  ],
+  "knownFor": "Hizbut Tahrir-linked popular preacher-author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hamka",
+  "years": "1908–1981",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 100,
+  "titles": [
+   "Tafsir Al-Azhar",
+   "Tasauf Modern",
+   "Falsafah Hidup"
+  ],
+  "knownFor": "Muhammadiyah scholar, novelist, Quran exegete",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hasyim Muzadi",
+  "years": "1944–2017",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 3,
+  "titles": [
+   "Membangun NU Pasca-Gus Dur",
+   "NU di Tengah Agenda Persoalan Bangsa"
+  ],
+  "knownFor": "NU leader, authored some books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mas Mansoer",
+  "years": "1896–1946",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 5,
+  "titles": [
+   "Risalah Tauhid dan Sjirik",
+   "Hukum Faraidh"
+  ],
+  "knownFor": "Muhammadiyah leader, reformist author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Natsir",
+  "years": "1908–1993",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 10,
+  "titles": [
+   "Capita Selecta",
+   "Fiqhud Da'wah",
+   "Islam sebagai Dasar Negara"
+  ],
+  "knownFor": "Masyumi leader, Islamic politics thinker",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mustofa Bisri",
+  "years": "born 1944",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 15,
+  "titles": [
+   "Saleh Ritual Saleh Sosial",
+   "Fikih Keseharian Gus Mus",
+   "Pesan Islam Sehari-hari"
+  ],
+  "knownFor": "NU cleric, poet, essayist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Quraish Shihab",
+  "years": "born 1944",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 60,
+  "titles": [
+   "Tafsir Al-Misbah",
+   "Wawasan Al-Quran",
+   "Membumikan Al-Quran"
+  ],
+  "knownFor": "Indonesian Quran exegete",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rizieq Shihab",
+  "years": "born 1965",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 5,
+  "titles": [
+   "Wawasan Kebangsaan Menuju NKRI Bersyariah",
+   "Dialog FPI Amar Ma'ruf Nahi Munkar"
+  ],
+  "knownFor": "FPI founder, preacher",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sahal Mahfudh",
+  "years": "1937–2014",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 5,
+  "titles": [
+   "Nuansa Fiqih Sosial",
+   "Dialog Problematika Umat",
+   "Thariqat al-Hushul"
+  ],
+  "knownFor": "NU fiqh scholar, MUI chair",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Said Aqil Siradj",
+  "years": "born 1953",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 8,
+  "titles": [
+   "Tasawuf sebagai Kritik Sosial",
+   "Islam Kebangsaan"
+  ],
+  "knownFor": "NU chair, Sufism scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shamsi Ali",
+  "years": "born 1967",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 4,
+  "titles": [
+   "Dai muda di New York City",
+   "The True Love in America",
+   "Menebar Damai di Bumi Barat",
+   "Sons of Abraham"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Syafiq Riza Basalamah",
+  "years": "born 1977",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 5,
+  "titles": [
+   "Andai Aku Tidak Menikah Dengannya",
+   "Rumahku Masih Ngontrak",
+   "Mimpi Bertemu Nabi",
+   "Bersama Keluarga Masuk Surga"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Yahya Cholil Staquf",
+  "years": "born 1966",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 3,
+  "titles": [
+   "The Terong Gosong",
+   "Terong Gosong Reloaded",
+   "PBNU: Perjuangan Besar Nahdlatul Ulama"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Yazid bin Abdul Qadir Jawas",
+  "years": "1963–2024",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 10,
+  "titles": [
+   "Syarah Aqidah Ahlus Sunnah wal Jama'ah",
+   "Mulia dengan Manhaj Salaf"
+  ],
+  "knownFor": "Indonesian Salafi author, Pustaka At-Taqwa",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yusuf Mansur",
+  "years": "born 1976",
+  "region": "Asia",
+  "country": "Indonesia",
+  "books": 10,
+  "titles": [
+   "Mencari Tuhan yang Hilang",
+   "Kun Fayakun",
+   "Secret of Sedekah"
+  ],
+  "knownFor": "Popular preacher, author, entrepreneur",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abd al-A'la al-Sabziwari",
+  "years": "1910–1993",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 2,
+  "titles": [
+   "Muhadhdhab al-Ahkam",
+   "Mawahib al-Rahman (tafsir)"
+  ],
+  "knownFor": "Shia marja, fiqh and tafsir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdollah Javadi-Amoli",
+  "years": "born 1933",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 100,
+  "titles": [
+   "Tasnim (tafsir)",
+   "Rahiq-e Makhtum",
+   "Zan dar Ayeneh-ye Jalal va Jamal"
+  ],
+  "knownFor": "Shia philosopher, mufassir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali Akbar Ghoreishi",
+  "years": "born 1928",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 5,
+  "titles": [
+   "Tafsir Ahsan al-Hadith",
+   "Qamus Qur'an"
+  ],
+  "knownFor": "Quran lexicographer and mufassir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali Khamenei",
+  "years": "1939–2026",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Tarh-e Kolli-ye Andishe-ye Islami dar Qur'an",
+   "Talks on Ramadan"
+  ],
+  "knownFor": "Supreme Leader of Iran",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali Mohammad Dastgheib Shirazi",
+  "years": "born 1935",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Gunah-ha-ye Kabirah",
+   "Qalb-e Salim",
+   "Ma'ad"
+  ],
+  "knownFor": "Shiraz ethics scholar and cleric",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hassan Hassanzadeh Amoli",
+  "years": "1928–2021",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 100,
+  "titles": [
+   "Mamidd al-Himam",
+   "Nusus al-Hikam",
+   "Hazar va Yek Kalameh"
+  ],
+  "knownFor": "Shia philosopher, mystic, mufassir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hossein Mazaheri",
+  "years": "born 1933",
+  "region": "Asia",
+  "country": "Iran",
+  "books": null,
+  "titles": [
+   "al-Hashiya 'ala al-Urwa al-Wuthqa",
+   "Fiqh al-Wilaya wa al-Hukuma al-Islamiyya",
+   "Jihad ba Nafs",
+   "Danesh-e Akhlaq-e Islami"
+  ],
+  "knownFor": "Iranian ethics teacher; books unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Hossein Wahid Khorasani",
+  "years": "born 1921",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Minhaj al-Salihin",
+   "Tawdih al-Masa'il"
+  ],
+  "knownFor": "Shia marja, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hussein-Ali Montazeri",
+  "years": "1922–2009",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Dirasat fi Wilayat al-Faqih",
+   "Memoirs",
+   "Risalat Huquq"
+  ],
+  "knownFor": "Shia marja and dissident",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ja'far Sobhani",
+  "years": "born 1929",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 100,
+  "titles": [
+   "al-Ilahiyyat",
+   "Furugh-e Abadiyyat",
+   "Mafahim al-Qur'an"
+  ],
+  "knownFor": "Shia theologian, prolific author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Jawad Tabrizi",
+  "years": "1926–2006",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 8,
+  "titles": [
+   "Sirat al-Najat",
+   "Irshad al-Talib",
+   "Tanqih Mabani al-Urwa"
+  ],
+  "knownFor": "Shia marja, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Lotfollah Safi Golpaygani",
+  "years": "1919–2022",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Muntakhab al-Athar",
+   "Hidayat al-Ummah",
+   "Jami' al-Ahkam"
+  ],
+  "knownFor": "Shia marja, hadith on Mahdi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Ali Mousavi Jazayeri",
+  "years": "born 1941",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 2,
+  "titles": [
+   "Theses on Justice",
+   "Al-Sawm"
+  ],
+  "knownFor": "Iranian cleric; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Mohammad Ebrahim Jannaati",
+  "years": "born 1933",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 40,
+  "titles": [
+   "Kitab al-Hajj",
+   "Durus fi al-Fiqh al-Muqaran",
+   "Sources of Ijtihad According to Islamic Schools of Thought",
+   "Quranic Sciences According to Islamic Schools of Thought"
+  ],
+  "knownFor": "Iranian jurist and cleric; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Mohammad Sadeq Rouhani",
+  "years": "1926–2022",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Fiqh al-Sadiq",
+   "Minhaj al-Salihin"
+  ],
+  "knownFor": "Shia marja, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Sadeqi Tehrani",
+  "years": "1926–2011",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 5,
+  "titles": [
+   "al-Furqan fi Tafsir al-Qur'an bil-Qur'an",
+   "Tawzih al-Masa'il"
+  ],
+  "knownFor": "Quran-by-Quran mufassir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Taghi Mesbah Yazdi",
+  "years": "1935–2021",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 50,
+  "titles": [
+   "Amuzesh-e Falsafeh",
+   "Amuzesh-e Aqa'id",
+   "Philosophical Instructions"
+  ],
+  "knownFor": "Shia philosopher, theologian",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad-Taqi Bahjat Foumani",
+  "years": "1916–2009",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 2,
+  "titles": [
+   "Tawdih al-Masa'il",
+   "Jami' al-Masa'il"
+  ],
+  "knownFor": "Shia marja, mystic",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mousa Shubairi Zanjani",
+  "years": "born 1928",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Kitab al-Nikah",
+   "Jami' al-Masa'il"
+  ],
+  "knownFor": "Shia marja, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Husayn Tabatabai",
+  "years": "1903–1981",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "al-Mizan fi Tafsir al-Qur'an",
+   "Usul-e Falsafeh va Ravesh-e Realism",
+   "Shi'a dar Islam"
+  ],
+  "knownFor": "Tafsir al-Mizan author, philosopher",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Naser Makarem Shirazi",
+  "years": "born 1927",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 100,
+  "titles": [
+   "Tafsir-e Nemuneh",
+   "Payam-e Qur'an",
+   "Ahkam-e Banovan"
+  ],
+  "knownFor": "Shia marja, mufassir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ruhollah Khomeini",
+  "years": "1900–1989",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 20,
+  "titles": [
+   "Wilayat al-Faqih",
+   "Tahrir al-Wasilah",
+   "Kashf al-Asrar"
+  ],
+  "knownFor": "Founder of Islamic Republic",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Taqi Tabatabaei Qomi",
+  "years": "1923–2016",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Mabani Minhaj al-Salihin",
+   "Dirasat fi Usul al-Fiqh"
+  ],
+  "knownFor": "Shia marja, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yousef Saanei",
+  "years": "1937–2020",
+  "region": "Asia",
+  "country": "Iran",
+  "books": 10,
+  "titles": [
+   "Mujaz al-Ahkam",
+   "Fiqh and Women"
+  ],
+  "knownFor": "Reformist Shia marja",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abbas Modaresi Yazdi",
+  "years": "1943–2020",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 6,
+  "titles": [
+   "Namadhij al-Usul fi Sharh Maqalat al-Usul",
+   "Namudhaj al-Urwa wa Takmilatuha",
+   "Namudhaj al-Fiqh al-Ja'fari",
+   "Risala fi Jawa'iz al-Sultan"
+  ],
+  "knownFor": "Iraqi-Iranian cleric; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Abu al-Qasim al-Khoei",
+  "years": "1899–1992",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Mu'jam Rijal al-Hadith",
+   "al-Bayan fi Tafsir al-Qur'an",
+   "Minhaj al-Salihin"
+  ],
+  "knownFor": "Shia marja, rijal, tafsir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali al-Milani",
+  "years": "born 1948",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Tahqiq al-Usul",
+   "Muhadarat fi Fiqh al-Imamiyya"
+  ],
+  "knownFor": "Shia marja, usul",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali al-Sistani",
+  "years": "born 1930",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Minhaj al-Salihin",
+   "Manasik al-Hajj",
+   "al-Fatawa al-Muyassara"
+  ],
+  "knownFor": "Shia grand ayatollah",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hassan al-Shirazi",
+  "years": "1935–1980",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Kalimat al-Islam",
+   "al-Shura fi Zill Nizam al-Islam"
+  ],
+  "knownFor": "Shia jurist, Karbala",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Kamal al-Haydari",
+  "years": "born 1956",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 30,
+  "titles": [
+   "Sharh Dars Usul",
+   "Wilayat al-Faqih",
+   "al-Fiqh al-Istidlali"
+  ],
+  "knownFor": "Shia marja, usul",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Kazem al-Haeri",
+  "years": "born 1938",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Mabani Takmilat al-Minhaj",
+   "Wilayat al-Faqih",
+   "Fiqh al-Ahkam"
+  ],
+  "knownFor": "Shia marja, Qom",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Taqi al-Modarresi",
+  "years": "born 1945",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 50,
+  "titles": [
+   "Min Huda al-Qur'an",
+   "al-Fiqh al-Islami",
+   "Qasas al-Qur'an"
+  ],
+  "knownFor": "Karbala marja, Quran commentary",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Yaqoobi",
+  "years": "born 1960",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 15,
+  "titles": [
+   "Fiqh al-Khilaf",
+   "Subul al-Salam",
+   "Manasik al-Hajj",
+   "al-Fiqh al-Ijtima'i"
+  ],
+  "knownFor": "Najaf marja; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Mohammad al-Sadr",
+  "years": "1943–1999",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Ma Wara' al-Fiqh",
+   "Mawsu'at al-Imam al-Mahdi"
+  ],
+  "knownFor": "Shia marja, Sadrist movement",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad al-Shirazi",
+  "years": "1928–2001",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 100,
+  "titles": [
+   "al-Fiqh",
+   "Tawdih al-Masa'il",
+   "Tafsir Taqrib al-Qur'an"
+  ],
+  "knownFor": "Shia marja, prolific",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Baqir al-Sadr",
+  "years": "1935–1980",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Falsafatuna",
+   "Iqtisaduna",
+   "Durus fi Ilm al-Usul"
+  ],
+  "knownFor": "Shia thinker, philosopher, jurist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sadiq al-Shirazi",
+  "years": "born 1942",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Bayan al-Ahkam",
+   "al-Fiqh",
+   "Tawdih al-Masa'il"
+  ],
+  "knownFor": "Shia marja, Qom",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shahab ud-Din Mar'ashi Najafi",
+  "years": "1897–1990",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 10,
+  "titles": [
+   "Sharh Ihqaq al-Haqq",
+   "Mantiq"
+  ],
+  "knownFor": "Shia marja, Qom",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shamsodin Vaezi",
+  "years": "born 1936",
+  "region": "Asia",
+  "country": "Iraq",
+  "books": 13,
+  "titles": [
+   "Minhaj al-Salihin",
+   "Risala fi al-Khums",
+   "Risala fi al-Riba",
+   "Manasik al-Hajj"
+  ],
+  "knownFor": "Iraqi-Iranian cleric; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Nuh Ha Mim Keller",
+  "years": "born 1954",
+  "region": "Asia",
+  "country": "Jordan",
+  "books": 7,
+  "titles": [
+   "Sea Without Shore",
+   "Becoming Muslim",
+   "Sufism and Islam",
+   "Port in a Storm"
+  ],
+  "knownFor": "Western Shadhili Sufi, Hanafi/Shafi'i",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Sa'id Foudah",
+  "years": "born 1967",
+  "region": "Asia",
+  "country": "Jordan",
+  "books": 20,
+  "titles": [
+   "Tahdhib Sharh al-Sa'd",
+   "al-Burhan"
+  ],
+  "knownFor": "Ash'ari theologian, anti-Salafi writer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Umar Sulayman al-Ashqar",
+  "years": "1930–2012",
+  "region": "Asia",
+  "country": "Jordan",
+  "books": 10,
+  "titles": [
+   "Afal al-Rusul",
+   "Al-Wadih fi Usul al-Fiqh",
+   "Aqidat al-Islam"
+  ],
+  "knownFor": "Salafi scholar, Kuwaiti-Jordanian",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Hisham at-Tahiri",
+  "years": "born 1969",
+  "region": "Asia",
+  "country": "Kuwait",
+  "books": null,
+  "titles": [
+   "This is Islam",
+   "Memorizing the Qur'an is a Dream that has Steps",
+   "The Reading Schedule of the Salaf in Ramadan"
+  ],
+  "knownFor": "Kuwaiti Shia cleric; unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Yasser Al-Habib",
+  "years": "born 1979",
+  "region": "Asia",
+  "country": "Kuwait",
+  "books": 5,
+  "titles": [
+   "Al-Fadaih (The Scandals)",
+   "Fadak"
+  ],
+  "knownFor": "Kuwaiti Shia cleric; polemical works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdullah al-Harari",
+  "years": "1910–2008",
+  "region": "Asia",
+  "country": "Lebanon",
+  "books": 10,
+  "titles": [
+   "Al-Sirat al-Mustaqim",
+   "Sarih al-Bayan",
+   "Al-Dalil al-Qawim"
+  ],
+  "knownFor": "Ahbash founder; hadith, aqida, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Gibril Haddad",
+  "years": "born 1960",
+  "region": "Asia",
+  "country": "Lebanon",
+  "books": 6,
+  "titles": [
+   "The Four Imams and Their Schools",
+   "Albani and His Friends"
+  ],
+  "knownFor": "Sunni Sufi scholar; hadith, creed",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hisham Kabbani",
+  "years": "born 1945",
+  "region": "Asia",
+  "country": "Lebanon",
+  "books": 10,
+  "titles": [
+   "The Naqshbandi Sufi Way",
+   "Encyclopedia of Islamic Doctrine",
+   "Angels Unveiled"
+  ],
+  "knownFor": "Naqshbandi-Haqqani shaykh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Hussein Fadlallah",
+  "years": "1935–2010",
+  "region": "Asia",
+  "country": "Lebanon",
+  "books": 30,
+  "titles": [
+   "Min wahy al-Qur'an",
+   "Fiqh al-Shari'a",
+   "Al-Hiwar fi al-Qur'an"
+  ],
+  "knownFor": "Shia marja; tafsir, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sobhi Mahmassani",
+  "years": "1909–1986",
+  "region": "Asia",
+  "country": "Lebanon",
+  "books": 8,
+  "titles": [
+   "Falsafat al-Tashri' fi al-Islam",
+   "Arkan Huquq al-Insan"
+  ],
+  "knownFor": "Lebanese jurist; Islamic law, human rights",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Hadi Awang",
+  "years": "born 1947",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 10,
+  "titles": [
+   "Muqaddimah Aqidah Muslimin",
+   "Islam: Fikrah, Harakah dan Daulah"
+  ],
+  "knownFor": "PAS president, Malaysian cleric-politician",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Asri Zainul Abidin",
+  "years": "born 1971",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 8,
+  "titles": [
+   "Mengemudi Bahtera Perubahan",
+   "Fiqh Perubatan"
+  ],
+  "knownFor": "Malaysian mufti and preacher (Maza)",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Asyraf Wajdi Dusuki",
+  "years": "born 1976",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 2,
+  "titles": [
+   "Banking for the Poor: The Role of Islamic Banking in Microfinance Initiatives",
+   "Fundamentals of Islamic Banking"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Burhanuddin al-Helmy",
+  "years": "1911–1969",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": null,
+  "titles": [
+   "Falsafah Kebangsaan Melayu"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Haron Din",
+  "years": "1940–2016",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 10,
+  "titles": [
+   "Manusia dan Islam",
+   "Tasawwur Rabbani",
+   "Islam dan Perubatan"
+  ],
+  "knownFor": "Malaysian PAS scholar, Islamic healing",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Nur Manuty",
+  "years": "1949–2025",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 4,
+  "titles": [
+   "Islam dan Demokrasi",
+   "Keprihatinan Umat dan Tranformasi Sosial",
+   "Polemik Isu Kalimah Allah",
+   "Politik dan Kesederhanaan"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Osman Bakar",
+  "years": "born 1946",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 15,
+  "titles": [
+   "Tawhid and Science",
+   "Classification of Knowledge in Islam",
+   "Islam and Civilizational Dialogue"
+  ],
+  "knownFor": "Malaysian philosopher of Islamic science",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rusni Hassan",
+  "years": "born 1968",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 6,
+  "titles": [
+   "Islamic Banking and Takaful",
+   "Islamic Banking under the Malaysia Law",
+   "Islamic Banking in Malaysia: Cases and Commentaries",
+   "Remedies for default in Islamic banking"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Syed Muhammad Naquib al-Attas",
+  "years": "born 1931",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 30,
+  "titles": [
+   "Prolegomena to the Metaphysics of Islam",
+   "Islam and Secularism",
+   "Concept of Education in Islam"
+  ],
+  "knownFor": "Malay Islamic philosopher, ISTAC founder",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Zailan Morris",
+  "years": "died 2021",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 4,
+  "titles": [
+   "Al-Ghazali's Theory of Happiness",
+   "God and His Attributes",
+   "The Islamisation of the Malays",
+   "Revelation, Intellectual Intuition and Reason in the Philosophy of Mulla Sadra"
+  ],
+  "knownFor": "Perennialist; co-edited/translated works, authorship unclear",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Zulkifli Mohamad Al-Bakri",
+  "years": "born 1969",
+  "region": "Asia",
+  "country": "Malaysia",
+  "books": 20,
+  "titles": [
+   "Irsyad al-Fatwa series",
+   "Irsyad Usul al-Fiqh"
+  ],
+  "knownFor": "Malaysian mufti, fatwa collections",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmed bin Hamad al-Khalili",
+  "years": "born 1942",
+  "region": "Asia",
+  "country": "Oman",
+  "books": 5,
+  "titles": [
+   "Al-Haqq al-Damigh",
+   "Fatawa"
+  ],
+  "knownFor": "Grand Mufti of Oman; Ibadi fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abu Salman Shahjahanpuri",
+  "years": "1940–2021",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 50,
+  "titles": [
+   "Hindustan mein Ahl-e-Hadith",
+   "Islam mein Khidmat-e-Khalq"
+  ],
+  "knownFor": "Urdu scholar, Ahl-e-Hadith",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abu Yahya",
+  "years": "born 1969",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Jab Zindagi Shuru Hogi",
+   "Qasas-ul-Quran"
+  ],
+  "knownFor": "Urdu Islamic novelist-author, Al-Mawrid",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abul A'la Maududi",
+  "years": "1903–1979",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 120,
+  "titles": [
+   "Tafhim al-Qur'an",
+   "Al-Khilafah wa al-Mulukiyyah",
+   "Towards Understanding Islam",
+   "Islamic Law and Constitution"
+  ],
+  "knownFor": "Jamaat-e-Islami founder, Quran commentator",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Adil Khan",
+  "years": "1957–2020",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Knowledge and Civilization in Islam",
+   "Ethic and Fiqh for Everybody",
+   "The Islamic Worldview",
+   "Islam awr Ikhlaqiyat"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Ahmad Nurani",
+  "years": "1926–2003",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": null,
+  "titles": [
+   "Azmat-e-Mustafa"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Ameer Muhammad Akram Awan",
+  "years": "1934–2017",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 9,
+  "titles": [
+   "Akram ut Tafaseer",
+   "Asrar ut Tanzil",
+   "Sharah Masail us Suluk",
+   "Kanooz-e-Dil"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Amin Ahsan Islahi",
+  "years": "1904–1997",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Tadabbur-i-Qur'an",
+   "Mabadi Tadabbur-i-Hadith",
+   "Islami Riyasat"
+  ],
+  "knownFor": "Farahi school Quran exegete",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Badi' ud-Din Shah",
+  "years": "Born 1936",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 50,
+  "titles": [
+   "Sindhi/Urdu Ahl-e-Hadith works"
+  ],
+  "knownFor": "Sindhi Ahl-e-Hadith scholar, prolific author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ehsan Elahi Zaheer",
+  "years": "1945–1987",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 15,
+  "titles": [
+   "Al-Shi'ah wa al-Sunnah",
+   "Al-Qadianiyyah",
+   "Al-Babiyyah"
+  ],
+  "knownFor": "Ahl-e-Hadith polemicist on sects",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Fateh Muhammad Panipati",
+  "years": "1905–1987",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 17,
+  "titles": [
+   "Inayate Rahmani",
+   "Al-Qurrah al-Mardiyyah",
+   "Miftah al-Kamal",
+   "Nurani Qaidah"
+  ],
+  "knownFor": "No confirmed evidence of books; not verified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Ghulam Ahmed Perwez",
+  "years": "1903–1985",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 20,
+  "titles": [
+   "Lughat-ul-Quran",
+   "Mafhoom-ul-Quran",
+   "Islam: A Challenge to Religion"
+  ],
+  "knownFor": "Quranist thinker, Tolu-e-Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ghulam Ali Okarvi",
+  "years": "1919–2000",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Tazkira-e-Sahaba",
+   "Khutbat-e-Okarvi"
+  ],
+  "knownFor": "Barelvi preacher, Pakistan; sermons and Seerah works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ghulam Mohi-ud-Din Ghaznavi",
+  "years": "1902–1975",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 3,
+  "titles": [
+   "Hayat-e-Ghaznavi"
+  ],
+  "knownFor": "Ahl-e-Hadith scholar, Ghaznavi family; limited evidence of titles",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ghulam Rasul Sa'idi",
+  "years": "1937–2016",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 50,
+  "titles": [
+   "Sharh Sahih Muslim (Ni'mat al-Bari)",
+   "Tibyan al-Quran",
+   "Sharh Sahih al-Bukhari (Ni'mat al-Bari)"
+  ],
+  "knownFor": "Barelvi hadith commentator and Quran exegete",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hakeem Muhammad Akhtar",
+  "years": "1928–2013",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 20,
+  "titles": [
+   "Ma'arif-e-Mathnavi",
+   "Ma'arif-e-Rabbani"
+  ],
+  "knownFor": "Sufi shaykh of Chishti-Sabiri order, Deobandi circle",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ilyas Qadri",
+  "years": "born 1950",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Faizan-e-Sunnat",
+   "Namaz ke Ahkam"
+  ],
+  "knownFor": "Founder of Dawat-e-Islami, Barelvi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Israr Ahmed",
+  "years": "1932–2010",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Islam Ki Nashat-e-Sania",
+   "Tanzeem-e-Islami ka Qiyam",
+   "Istahkam-e-Pakistan"
+  ],
+  "knownFor": "Founder Tanzeem-e-Islami, Quran Academy",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Javed Ahmad Ghamidi",
+  "years": "born 1952",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Mizan",
+   "Burhan",
+   "Maqamat"
+  ],
+  "knownFor": "Quran-centred reformer, Al-Mawrid",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Khalid Masud",
+  "years": "1935–2003",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": null,
+  "titles": [
+   "Hayat-e-Rasul-e-Ummi",
+   "Qur'an e Hakim",
+   "Hikmat e Qur'an"
+  ],
+  "knownFor": "Islamic law scholar; possibly confused with Muhammad Khalid Masud",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Khurshid Ahmad",
+  "years": "born 1932",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 30,
+  "titles": [
+   "Islamic Perspectives",
+   "Islam: Basic Principles and Characteristics",
+   "Studies in Islamic Economics"
+  ],
+  "knownFor": "Jamaat-e-Islami, Islamic economics",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Manzur Ahmad Chinioti",
+  "years": "1931-2004",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 4,
+  "titles": [
+   "Khasuf o Kasuf",
+   "Paighām-e-Hidāyat",
+   "Maqalat-e-Khatm-e-Nubuwwat",
+   "Munazra-e-Norway"
+  ],
+  "knownFor": "Barelvi scholar, Pakistan; authorship unverified",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Muhammad Abdullah",
+  "years": "1935-1998",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 30,
+  "titles": [
+   "Tarikh-e-Islam",
+   "Islam aur Jadid Science"
+  ],
+  "knownFor": "Lal Masjid founder; Deobandi; limited evidence",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Alauddin Siddiqui",
+  "years": "1936–2017",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Quranic Concept of Human Life",
+   "Teaching of Quran about Man"
+  ],
+  "knownFor": "Islamic philosopher, Dean Punjab University",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Ali Mirza",
+  "years": "1977",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Tafseer",
+   "Fatawa"
+  ],
+  "knownFor": "Founder Jhelum Academy; mostly lecture-based",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Hanif Nadvi",
+  "years": "1908–1987",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 30,
+  "titles": [
+   "Muslim Thought and Its Source",
+   "Sufi Thought",
+   "Tarikh-e-Islam"
+  ],
+  "knownFor": "Salafi scholar, philosophy and Islamic thought",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Raza Saqib Mustafai",
+  "years": "born 1972",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 15,
+  "titles": [
+   "Sirat-e-Mustafa"
+  ],
+  "knownFor": "Barelvi preacher; limited evidence of authored titles",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muneeb-ur-Rehman",
+  "years": "born 1945",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Tafseer Jawahir"
+  ],
+  "knownFor": "Deobandi scholar, Pakistan; limited evidence",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nasir al-Din Nasir Hunzai",
+  "years": "1917–2017",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 100,
+  "titles": [
+   "Kalam-e-Maula",
+   "Wajh-e-Din",
+   "Shanakht"
+  ],
+  "knownFor": "Ismaili scholar, Burushaski linguist, Hunza",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rafi Usmani",
+  "years": "1936–2022",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 30,
+  "titles": [
+   "Aalaat-e-Jadeedah ke Shari Ahkam",
+   "Dars-e-Tirmidhi",
+   "Islam and Evolution"
+  ],
+  "knownFor": "Deobandi mufti, Darul Uloom Karachi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rasheed Turabi",
+  "years": "1908–1973",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Tazkirat-ul-Awliya"
+  ],
+  "knownFor": "Shia orator and writer; limited evidence",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sanaullah Amritsari",
+  "years": "1868-1948",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 30,
+  "titles": [
+   "Tafsir Sanai",
+   "Haq Prakash",
+   "Islam aur Masihiyat"
+  ],
+  "knownFor": "Ahl-e-Hadith polemicist, Punjab",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shah Turab-ul-Haq",
+  "years": "1944–2016",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 10,
+  "titles": [
+   "Tazkirah Sufia"
+  ],
+  "knownFor": "Sufi scholar; limited evidence",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Talib Jauhari",
+  "years": "1939–2020",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 50,
+  "titles": [
+   "Tafsir Ahsan-ul-Bayan",
+   "Hadiths"
+  ],
+  "knownFor": "Shia scholar; many Urdu works",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Taqi Usmani",
+  "years": "born 1949",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 100,
+  "titles": [
+   "Takmilah Fath al-Mulhim",
+   "Islam and Modernism",
+   "An Introduction to Islamic Finance",
+   "Inam al-Bari"
+  ],
+  "knownFor": "Deobandi jurist, Islamic finance",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Zubayr 'Ali Za'i",
+  "years": "1957–2013",
+  "region": "Asia",
+  "country": "Pakistan",
+  "books": 15,
+  "titles": [
+   "Tahqiq Sunan Ibn Majah",
+   "Nur al-Ainain"
+  ],
+  "knownFor": "Ahl-e-Hadith hadith scholar and muhaqqiq",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdel Latif Moussa",
+  "years": "1959–2009",
+  "region": "Asia",
+  "country": "Palestine",
+  "books": 3,
+  "titles": [
+   "Al-Yaqut wa al-Marjan fi Aqidat Ahl al-Iman",
+   "Al-Tariq al-Sawi",
+   "As'ila wa Ajwiba Shar'iyya hawl al-Qadiyya al-Filastiniyya"
+  ],
+  "knownFor": "Gaza Salafi-jihadi cleric",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdullah Yusuf Azzam",
+  "years": "1941–1989",
+  "region": "Asia",
+  "country": "Palestine",
+  "books": 25,
+  "titles": [
+   "Defence of the Muslim Lands",
+   "Join the Caravan",
+   "Ayat al-Rahman fi Jihad al-Afghan"
+  ],
+  "knownFor": "Jihad theorist; Afghan jihad",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Amin al-Husseini",
+  "years": "1897–1974",
+  "region": "Asia",
+  "country": "Palestine",
+  "books": 3,
+  "titles": [
+   "The Causes of the Palestine Catastrophe",
+   "The Lie of the Palestinians' Sale of their Land",
+   "Facts about the Palestinian Matter"
+  ],
+  "knownFor": "Grand Mufti of Jerusalem; memoirs, few works",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Taqiuddin al-Nabhani",
+  "years": "1909–1977",
+  "region": "Asia",
+  "country": "Palestine",
+  "books": 12,
+  "titles": [
+   "Nizam al-Islam",
+   "Al-Shakhsiyya al-Islamiyya",
+   "Nizam al-Hukm fi al-Islam"
+  ],
+  "knownFor": "Hizb ut-Tahrir founder",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abd al-Aziz ibn Abd Allah ibn Baaz",
+  "years": "1910–1999",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 40,
+  "titles": [
+   "Majmu' Fatawa Ibn Baz",
+   "Al-Aqida al-Sahiha",
+   "Wujub Tahkim al-Shari'a"
+  ],
+  "knownFor": "Grand Mufti of Saudi Arabia; fatwas, creed",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul Aziz al-Harbi",
+  "years": "born 1965",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 10,
+  "titles": [
+   "Al-Tariq al-Ghaimi (inheritance)",
+   "Orientalist's Commentary on Bukhari's Small Weak Hadith"
+  ],
+  "knownFor": "Quran reciter and scholar; hadith, fiqh, tafsir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdul-Rahman al-Barrak",
+  "years": "born 1933 or 1934",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 15,
+  "titles": [
+   "Sharh al-Tahawiyya",
+   "Sharh Kitab al-Tawhid"
+  ],
+  "knownFor": "Salafi scholar; creed commentaries",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abdulmohsen Al-Qasim",
+  "years": "born 1967",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 10,
+  "titles": [
+   "Mutun Talib al-Ilm",
+   "Tariqa li-Tark al-Tadkhin"
+  ],
+  "knownFor": "Imam of Prophet's Mosque; texts, guides",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abu Abd al-Rahman Ibn Aqil al-Zahiri",
+  "years": "born 1938",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 30,
+  "titles": [
+   "Ibn Hazm studies"
+  ],
+  "knownFor": "Zahiri scholar; literature and fiqh; prolific",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Al-Uthaymin",
+  "years": "1925–2001",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 60,
+  "titles": [
+   "Al-Sharh al-Mumti'",
+   "Majmu' Fatawa",
+   "Sharh Kitab al-Tawhid"
+  ],
+  "knownFor": "Salafi jurist; fiqh, creed",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali al-Khudair",
+  "years": null,
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 8,
+  "titles": [
+   "Al-Tibyan fi Kufr man A'an al-Amrikan"
+  ],
+  "knownFor": "Takfiri-leaning Saudi scholar; creed, jihad",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Bakr Abu Zayd",
+  "years": "1944–2008",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 60,
+  "titles": [
+   "Hilyat Talib al-Ilm",
+   "Tasnif al-Nas",
+   "Mu'jam al-Manahi al-Lafziyya"
+  ],
+  "knownFor": "Hanbali jurist; etiquette, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hatim al-Awni",
+  "years": "born 1966",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 10,
+  "titles": [
+   "Takhrij al-Ahadith wa'l-Athar",
+   "Al-Takhrij wa Dirasat al-Asanid"
+  ],
+  "knownFor": "Hadith scholar, takhrij",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ibn Jibrin",
+  "years": "1933–2009",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 30,
+  "titles": [
+   "Fatawa Ibn Jibrin",
+   "Sharh Akhsar al-Mukhtasarat",
+   "Ta'liq on Zad al-Mustaqni"
+  ],
+  "knownFor": "Salafi jurist; fatwas and commentaries",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohamad al-Arefe",
+  "years": "born 1970",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 5,
+  "titles": [
+   "Istamti' bi Hayatik (Enjoy Your Life)",
+   "Bashair"
+  ],
+  "knownFor": "Popular preacher; self-help and devotional books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Al-Munajid",
+  "years": "born 1960",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 20,
+  "titles": [
+   "Al-Asiyya"
+  ],
+  "knownFor": "Salafi author, IslamQA founder",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad ibn Alawi al-Maliki",
+  "years": "1944–2004",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 60,
+  "titles": [
+   "Mafahim Yajib an Tusahhah",
+   "Adh-Dhakhair al-Muhammadiyya"
+  ],
+  "knownFor": "Meccan Maliki-Ash'ari scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nasir al-Fahd",
+  "years": "born 1968",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 85,
+  "titles": [
+   "Al-Dawla al-Uthmaniyya wa Mawqif Da'wat al-Shaykh",
+   "Haqiqat al-Hadara al-Islamiyya",
+   "Fatawa al-Ha'iriyya"
+  ],
+  "knownFor": "Salafi-jihadi scholar; prolific",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Rabee al-Madkhali",
+  "years": "1931–2025",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 30,
+  "titles": [
+   "Manhaj al-Anbiya",
+   "Al-Hadd al-Fasil"
+  ],
+  "knownFor": "Madkhali Salafism leader",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Safar al-Hawali",
+  "years": "born 1950",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 10,
+  "titles": [
+   "Dhahirat al-Irja'",
+   "Al-Ilmaniyya",
+   "Kashf al-Ghumma"
+  ],
+  "knownFor": "Sahwa leader; creed, politics",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Saleh Al-Fawzan",
+  "years": "born 1933",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 40,
+  "titles": [
+   "Kitab al-Tawhid",
+   "Al-Irshad ila Sahih al-I'tiqad",
+   "Al-Mulakhkhas al-Fiqhi"
+  ],
+  "knownFor": "Salafi jurist; creed, fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Salih al Sheikh",
+  "years": "Born 1959",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 15,
+  "titles": [
+   "Hadhihi Mafahimuna",
+   "Sharh Aqidat al-Wasitiyya"
+  ],
+  "knownFor": "Saudi Minister of Islamic Affairs; creed",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sulayman al-Ruhayli",
+  "years": "born 1966",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 6,
+  "titles": [
+   "Sharh al-Usul al-Thalatha",
+   "Min Fiqh al-Fitan",
+   "Al-Qawa'id al-Mushtaraka bayn Usul al-Fiqh wa'l-Qawa'id"
+  ],
+  "knownFor": "Prophet's Mosque teacher; fiqh, usul",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ziya-ur-Rahman Azmi",
+  "years": "1943–2020",
+  "region": "Asia",
+  "country": "Saudi Arabia",
+  "books": 5,
+  "titles": [
+   "Al-Jami' al-Kamil fi'l-Hadith al-Sahih al-Shamil",
+   "Dirasat fi'l-Yahudiyya wa'l-Masihiyya"
+  ],
+  "knownFor": "Indian-born hadith scholar in Medina",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abd al-Fattah Abu Ghudda",
+  "years": "1917–1997",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 40,
+  "titles": [
+   "Qimat al-Zaman 'ind al-'Ulama",
+   "Safahat min Sabr al-'Ulama"
+  ],
+  "knownFor": "Hanafi hadith scholar; editor and author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ali Al-Tantawi",
+  "years": "1909–1999",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 15,
+  "titles": [
+   "Dhikrayat",
+   "Rijal min al-Tarikh",
+   "Abu Bakr al-Siddiq"
+  ],
+  "knownFor": "Syrian judge and writer; history, memoir",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammed Rateb al-Nabulsi",
+  "years": "born 1939",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 40,
+  "titles": [
+   "Mawsu'at Nabulsi lil-'Ulum al-Islamiyya",
+   "Rahmat al-Islam"
+  ],
+  "knownFor": "Prolific Syrian Islamic thinker",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad 'Awwamah",
+  "years": "born 1940",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 15,
+  "titles": [
+   "Athar al-Hadith al-Sharif",
+   "Adab al-Ikhtilaf"
+  ],
+  "knownFor": "Hadith scholar and editor",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Ajaj Al-Khatib",
+  "years": "1932–2021",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 15,
+  "titles": [
+   "Usul al-Hadith",
+   "Al-Sunna qabl al-Tadwin"
+  ],
+  "knownFor": "Hadith studies scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Ali al-Sabuni",
+  "years": "1930–2021",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 30,
+  "titles": [
+   "Safwat al-Tafasir",
+   "Rawai' al-Bayan",
+   "Al-Nubuwwa wa'l-Anbiya"
+  ],
+  "knownFor": "Tafsir scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Nasiruddin al-Albani",
+  "years": "1914–1999",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 100,
+  "titles": [
+   "Silsilat al-Ahadith al-Sahiha",
+   "Sahih al-Jami'",
+   "Irwa' al-Ghalil"
+  ],
+  "knownFor": "Salafi hadith scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Said Ramadan al-Bouti",
+  "years": "1929–2013",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 60,
+  "titles": [
+   "Fiqh al-Sira",
+   "Kubra al-Yaqiniyyat al-Kawniyya",
+   "Dawabit al-Maslaha"
+  ],
+  "knownFor": "Syrian Ash'ari-Shafi'i scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad al-Yaqoubi",
+  "years": "born 1963",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 10,
+  "titles": [
+   "Refuting ISIS",
+   "Maqasid al-Shari'a"
+  ],
+  "knownFor": "Syrian Sufi scholar; creed and fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad bin Yahya al-Ninowy",
+  "years": "born 1966",
+  "region": "Asia",
+  "country": "Syria",
+  "books": 4,
+  "titles": [
+   "Non-violence: a Fundamental Islamic Principle",
+   "Expressing Delight in the Birth of the Light",
+   "The Book of Love",
+   "The Forty Hadith on Mercy"
+  ],
+  "knownFor": "Syrian-American imam; books unverified",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Cemalnur Sargut",
+  "years": "born 1962",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 20,
+  "titles": [
+   "Mülk Suresi",
+   "Ey İnsan (Yasin Şerhi)",
+   "Hz. Âdem (Füsus Şerhi)",
+   "Kâbe'nin Hakîkati"
+  ],
+  "knownFor": "Female Sufi teacher, Ibn Arabi/Rifai commentary",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hidayet Şefkatli Tuksal",
+  "years": "born 1963",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 4,
+  "titles": [
+   "Kadın Karşıtı Söylemin İslam Geleneğindeki İzdüşümleri",
+   "Müslüman Kadın Kimliği"
+  ],
+  "knownFor": "Feminist Islamic theology, women and hadith",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hüseyin Hilmi Işık",
+  "years": "1911–2001",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 30,
+  "titles": [
+   "Tam İlmihâl Seadet-i Ebediyye",
+   "Islam and Christianity"
+  ],
+  "knownFor": "Hanafi Naqshbandi, Hakikat Kitabevi; Ahl al-Sunna books",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mahmud Esad Coşan",
+  "years": "1938–2001",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 20,
+  "titles": [
+   "Hatiboğlu Muhammed ve Eserleri",
+   "Hacı Bektaş Veli ve Makalât"
+  ],
+  "knownFor": "Iskenderpasa Naqshbandi shaykh, academic author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mahmut Ustaosmanoğlu",
+  "years": "1929–2022",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 15,
+  "titles": [
+   "Tafsir Ruhul Furqan",
+   "Sohbetler",
+   "Irşadü'l-Müridin",
+   "Mektubat-ı Mahmudiyye"
+  ],
+  "knownFor": "Naqshbandi-Khalidi Ismailaga shaykh, Quran commentary",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mehmet Görmez",
+  "years": "born 1959",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 8,
+  "titles": [
+   "Sünnet ve Hadisin Anlaşılmasında Metodoloji Sorunu"
+  ],
+  "knownFor": "Former Diyanet head, hadith scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muzaffer Ozak",
+  "years": "1916–1985",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 7,
+  "titles": [
+   "Irşad",
+   "Aşk Yolu Vuslat Tarikı",
+   "Envar-ül-Kulub",
+   "Ziynet-ül-Kulub"
+  ],
+  "knownFor": "Jerrahi Sufi shaykh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Osman Nuri Topbaş",
+  "years": "born 1942",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 40,
+  "titles": [
+   "Kalbin Zühdü",
+   "Tasavvufi Ahlak",
+   "Kur'an-ı Kerim ve Sünnet'te Muhabbet"
+  ],
+  "knownFor": "Naqshbandi Sufi master; prolific author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Said Nursi",
+  "years": "1877-1960",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 5,
+  "titles": [
+   "Sözler",
+   "Mektubat",
+   "Lem'alar",
+   "Şualar"
+  ],
+  "knownFor": "Risale-i Nur Quran commentary, Nur movement",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Süleyman Ateş",
+  "years": "born 1933",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 107,
+  "titles": [
+   "Kur'an-ı Hakim ve Yüce Meali",
+   "Kur'an'ı Kerim'in Ana Konuları"
+  ],
+  "knownFor": "Quran exegete, Turkish rationalist reformer",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yaşar Nuri Öztürk",
+  "years": "1951–2016",
+  "region": "Asia",
+  "country": "Turkey",
+  "books": 30,
+  "titles": [
+   "Kur'an'daki İslam",
+   "Tarih Boyunca İslam"
+  ],
+  "knownFor": "Theologian and Quran translator, reformist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmed al Haddad",
+  "years": null,
+  "region": "Asia",
+  "country": "United Arab Emirates",
+  "books": 3,
+  "titles": [
+   "Awqaf Fiqh",
+   "Fatwa is Judgments and Disciplines",
+   "Shares & Bonds and Envisagement and Provisions"
+  ],
+  "knownFor": "UAE mufti; books unverified",
+  "basis": "Web search (partial)"
+ },
+ {
+  "name": "Abdul Majeed al-Zindani",
+  "years": "born 1942",
+  "region": "Asia",
+  "country": "Yemen",
+  "books": 5,
+  "titles": [
+   "Tawhid: Fundamental Concept",
+   "Miracles of Quran and Sunnah"
+  ],
+  "knownFor": "Yemeni Islah leader, Quran and science",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Habib Ali al-Jifri",
+  "years": "born 1971",
+  "region": "Asia",
+  "country": "Yemen",
+  "books": 5,
+  "titles": [
+   "The Concept of Faith in Islam"
+  ],
+  "knownFor": "Hadrami Sufi preacher, Ba'Alawi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Habib Umar bin Hafiz",
+  "years": "born 1963",
+  "region": "Asia",
+  "country": "Yemen",
+  "books": 10,
+  "titles": [
+   "Mukhtar al-Hadith",
+   "Khuluquna",
+   "Is'af Talibi Rida al-Khallaq",
+   "Tawjih al-Nabih"
+  ],
+  "knownFor": "Ba'Alawi Hadrami Sufi, Dar al-Mustafa",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muqbil bin Hadi al-Wadi'i",
+  "years": "1933–2001",
+  "region": "Asia",
+  "country": "Yemen",
+  "books": 25,
+  "titles": [
+   "Al-Jami' al-Sahih",
+   "Ilhad al-Khumayni fi Ard al-Haramayn"
+  ],
+  "knownFor": "Salafi hadith scholar, Dammaj",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Al-Albani",
+  "years": "1914–1999",
+  "region": "Europe",
+  "country": "Albania",
+  "books": 100,
+  "titles": [
+   "Silsilat al-Ahadith al-Sahiha",
+   "Sifat Salat al-Nabi",
+   "Irwa al-Ghalil",
+   "Sahih al-Jami"
+  ],
+  "knownFor": "Salafi hadith scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Vehbi Sulejman Gavoçi",
+  "years": "1923–2013",
+  "region": "Europe",
+  "country": "Albania",
+  "books": 10,
+  "titles": [
+   "Komentim i Kuranit"
+  ],
+  "knownFor": "Albanian Quran translator and scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mustafa Cerić",
+  "years": "born 1952",
+  "region": "Europe",
+  "country": "Bosnia",
+  "books": 5,
+  "titles": [
+   "Roots of Bosnian Tolerance",
+   "Challenges of a Muslim Leader"
+  ],
+  "knownFor": "Former grand mufti of Bosnia",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Nexhat Ibrahimi",
+  "years": "born 1959",
+  "region": "Europe",
+  "country": "Kosovo",
+  "books": 36,
+  "titles": [
+   "Kontaktet e para të Islamit me popujt ballkanikë",
+   "Shkolla juridike hanefite",
+   "Islami në trojet iliro-shqiptare",
+   "Islami dhe muslimanët në tokat shqiptare"
+  ],
+  "knownFor": "Kosovo mufti; limited evidence",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Sherif Ahmeti",
+  "years": "1920–1998",
+  "region": "Europe",
+  "country": "Kosovo",
+  "books": 2,
+  "titles": [
+   "Komente dhe mendime islame",
+   "Albanian Quran with commentary"
+  ],
+  "knownFor": "Kosovo scholar; limited evidence",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Taxhedin Bislimi",
+  "years": "1961",
+  "region": "Europe",
+  "country": "North Macedonia",
+  "books": 5,
+  "titles": [
+   "Hyrje në shkencën e Usuli Fikhut",
+   "Edukata Islame pjesë përbërëse e besimit",
+   "Tre vendet e shenjta",
+   "Vakfi në Maqedoni, 1391–2001"
+  ],
+  "knownFor": "Macedonian Albanian scholar; limited evidence",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Said Afandi al-Chirkawi",
+  "years": "1937–2012",
+  "region": "Europe",
+  "country": "Russia",
+  "books": 10,
+  "titles": [
+   "Sufi works in Avar/Arabic"
+  ],
+  "knownFor": "Dagestani Naqshbandi-Shadhili sheikh; limited evidence",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad Asad",
+  "years": "1900–1992",
+  "region": "Europe",
+  "country": "Western Europe / Austria",
+  "books": 5,
+  "titles": [
+   "The Road to Mecca",
+   "Islam at the Crossroads",
+   "The Message of the Qur'an",
+   "The Principles of State and Government in Islam"
+  ],
+  "knownFor": "Convert, Quran translator and thinker",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Frithjof Schuon",
+  "years": "1907–1998",
+  "region": "Europe",
+  "country": "Western Europe / Switzerland",
+  "books": 25,
+  "titles": [
+   "Understanding Islam",
+   "Esoterism as Principle and as Way",
+   "Transcendent Unity of Religions",
+   "Sufism: Veil and Quintessence"
+  ],
+  "knownFor": "Perennialist, Maryamiyya Sufi order founder",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Tariq Ramadan",
+  "years": "born 1962",
+  "region": "Europe",
+  "country": "Western Europe / Switzerland",
+  "books": 20,
+  "titles": [
+   "Western Muslims and the Future of Islam",
+   "Radical Reform",
+   "In the Footsteps of the Prophet",
+   "Islam, the West and Challenges of Modernity"
+  ],
+  "knownFor": "Swiss reformist thinker; Islamic ethics, Western Muslims",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Abd al-Haqq Turkmani",
+  "years": null,
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": null,
+  "titles": [
+   "Muqaddimah fi Tafsir al-Islam",
+   "Hal Ataka Naba' al-Dustur?",
+   "Al-Tafsir al-Siyasi li al-Din fi Fikr Muhammad Shahrur",
+   "Haqiqat Tawhid al-Ibadah"
+  ],
+  "knownFor": "UK scholar; no evidence found",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Abu Yusuf Riyadh ul Haq",
+  "years": "born 1971",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 2,
+  "titles": [
+   "The Salah of a Believer in the Qur'an and Sunnah",
+   "Causes of Disunity"
+  ],
+  "knownFor": "UK scholar; limited evidence",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Ahmed Saad Al-Azhari",
+  "years": "born 1978",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 4,
+  "titles": [
+   "Contemplating the Quran",
+   "Al-Badiah: Nazm al-Awamil al-Mi'ah",
+   "Forty Parables of the Qur'an",
+   "Lamlamaat min nafahaat ahl Al-Iraadaat"
+  ],
+  "knownFor": "UK scholar; no evidence found",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Haifaa Jawad",
+  "years": null,
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 3,
+  "titles": [
+   "The Rise of Classical Islam"
+  ],
+  "knownFor": "Birmingham academic; Islamic studies, women, Shia/Sufi topics",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Joel Hayward",
+  "years": "born 1964",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 4,
+  "titles": [
+   "Warfare in the Qur'an",
+   "Islamic Militarism"
+  ],
+  "knownFor": "Military historian, Muslim convert, Islamic thought",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Martin Lings",
+  "years": "1909–2005",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 10,
+  "titles": [
+   "Muhammad: His Life Based on the Earliest Sources",
+   "A Sufi Saint of the Twentieth Century",
+   "The Book of Certainty",
+   "What is Sufism?"
+  ],
+  "knownFor": "Traditionalist Sufi, Shadhili; Shakespeare scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Akram Nadwi",
+  "years": "born 1964",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 10,
+  "titles": [
+   "Al-Muhaddithat: The Women Scholars in Islam",
+   "Abu Hanifa: His Life, Legal Method",
+   "Ibn Taymiyya's Mahatma",
+   "Fiqh al-Zakah"
+  ],
+  "knownFor": "Hadith, Hanafi fiqh, women hadith scholars",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muhammad ibn Adam Al-Kawthari",
+  "years": null,
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 4,
+  "titles": [
+   "Absolute Essentials of Islam",
+   "Dars-e-Nizami explanations"
+  ],
+  "knownFor": "Hanafi mufti, fatwas, Darul Iftaa Leicester",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Musharraf Hussain",
+  "years": "born 1962",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 10,
+  "titles": [
+   "Inspirations from the Quran",
+   "The Five Pillars of Islam",
+   "Meeting Muhammad",
+   "Hadith for Teens"
+  ],
+  "knownFor": "Sufi Barelvi, Karimia Institute, prolific author",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ruqaiyyah Waris Maqsood",
+  "years": "born 1942",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 10,
+  "titles": [
+   "The Muslim Marriage Guide",
+   "Teach Yourself Islam",
+   "Muslim Women's Rights",
+   "Islam in Britain"
+  ],
+  "knownFor": "Convert writer on Islam, women, education",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shabbir Akhtar",
+  "years": "born 1960",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 4,
+  "titles": [
+   "A Faith for All Seasons",
+   "Islam as Political Religion",
+   "The Quran and the Secular Mind",
+   "Islam, Philosophy of Religion"
+  ],
+  "knownFor": "Philosopher, Muslim theology, philosophy of religion",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Timothy Winter",
+  "years": "born 1960",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 8,
+  "titles": [
+   "Sufism: Pilgrim of Love",
+   "The Cambridge Companion to Classical Islamic Theology",
+   "Faith and Knowledge",
+   "Anglo-Muslim translations"
+  ],
+  "knownFor": "Cambridge scholar of Islamic studies, Sufism",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yusuf Motala",
+  "years": "1946–2019",
+  "region": "Europe",
+  "country": "Western Europe / United Kingdom",
+  "books": 5,
+  "titles": [
+   "Dars-e-Tirmidhi",
+   "Muhaddith Abdul Majeed"
+  ],
+  "knownFor": "Hadith scholar, Darul Uloom Bury founder",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ahmad Kutty",
+  "years": "born 1946",
+  "region": "North America",
+  "country": "Canada",
+  "books": null,
+  "titles": [
+   "Fatwa compilations"
+  ],
+  "knownFor": "Toronto mufti; fatwa answers, uncertain book count",
+  "basis": "Wikipedia article text"
+ },
+ {
+  "name": "Ingrid Mattson",
+  "years": "born 1963",
+  "region": "North America",
+  "country": "Canada",
+  "books": 3,
+  "titles": [
+   "The Story of the Qur'an",
+   "Women, Islam and Authority"
+  ],
+  "knownFor": "Islamic studies academic, ISNA president",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Jamal Badawi",
+  "years": null,
+  "region": "North America",
+  "country": "Canada",
+  "books": 5,
+  "titles": [
+   "Gender Equity in Islam",
+   "Muslim Women's Rights"
+  ],
+  "knownFor": "Islam in West, gender equity, Saint Mary's Univ.",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Muzaffar Iqbal",
+  "years": "born 1954",
+  "region": "North America",
+  "country": "Canada",
+  "books": 10,
+  "titles": [
+   "Light upon Light",
+   "Science and Islam",
+   "Islam and Science",
+   "Making Sense of Islam"
+  ],
+  "knownFor": "Quran/hadith scholar, Islam and science, Canada",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Shabir Ally",
+  "years": "born 1953",
+  "region": "North America",
+  "country": "Canada",
+  "books": 9,
+  "titles": [
+   "Is Jesus God? The Bible Says No!",
+   "101 Clear Contradictions in the Bible",
+   "Science in the Qur'an",
+   "Common Questions People Ask About Islam"
+  ],
+  "knownFor": "Comparative religion, Toronto; few written books",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Bilal Philips",
+  "years": "born 1947",
+  "region": "North America",
+  "country": "Jamaica",
+  "books": 25,
+  "titles": [
+   "The Fundamentals of Tawheed",
+   "Usool at-Tafseer",
+   "Islamic Studies",
+   "Evolution of Fiqh"
+  ],
+  "knownFor": "Salafi, prolific author and teacher",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Imran N. Hosein",
+  "years": "born 1942",
+  "region": "North America",
+  "country": "Trinidad",
+  "books": 15,
+  "titles": [
+   "Jerusalem in the Qur'an",
+   "Dajjal, the Qur'an and the End of Times",
+   "Gold Dinar and Silver Dirham",
+   "The Religion of Abraham"
+  ],
+  "knownFor": "Eschatology, Islamic economics, Quranic futurist",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Amina Wadud",
+  "years": "born 1952",
+  "region": "North America",
+  "country": "United States",
+  "books": 4,
+  "titles": [
+   "Qur'an and Woman",
+   "Inside the Gender Jihad",
+   "Quran and Woman"
+  ],
+  "knownFor": "Feminist Islamic scholar",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Aminah McCloud",
+  "years": "born 1958",
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "African-American Islam",
+   "Muslim Women"
+  ],
+  "knownFor": "Black Islam, Christian-Muslim relations academic",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Amir Hussain",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "Oil and Water: Two Faiths, One God",
+   "Islam: A Short History"
+  ],
+  "knownFor": "Islamic studies and interfaith",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Asma Barlas",
+  "years": "born 1950",
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "Believing Women in Islam",
+   "Islam, Muslims and the US",
+   "Democracy, Authoritarianism and Islam"
+  ],
+  "knownFor": "Quranic hermeneutics and feminism",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Caner Dagli",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "The Ground of Being",
+   "The Study Quran (ed.)",
+   "Ibn al-Arabi and Islamic Intellectual Culture"
+  ],
+  "knownFor": "Islamic philosophy, Sufism, Study Quran",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Dalia Mogahed",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 2,
+  "titles": [
+   "Who Speaks for Islam?",
+   "Islamic world poll researcher"
+  ],
+  "knownFor": "Gallup Muslim researcher, Muslim public opinion",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Fazlur Rahman Malik",
+  "years": "1919–1988",
+  "region": "North America",
+  "country": "United States",
+  "books": 10,
+  "titles": [
+   "Islam",
+   "Major Themes of the Qur'an",
+   "Prophecy in Islam",
+   "Islam and Modernity"
+  ],
+  "knownFor": "Modernist Islamic thinker, Chicago professor",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Fethullah Gulen",
+  "years": "born 1941",
+  "region": "North America",
+  "country": "United States",
+  "books": 30,
+  "titles": [
+   "Sufism and Muslim Spirituality",
+   "Questions and Answers about Faith",
+   "Essentials of the Islamic Faith",
+   "The Emerald Hills of the Heart"
+  ],
+  "knownFor": "Hizmet movement founder, Turkish preacher",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hamid Algar",
+  "years": "born 1940",
+  "region": "North America",
+  "country": "United States",
+  "books": 10,
+  "titles": [
+   "Wahhabism: A Critical Essay",
+   "Religion and State in Iran",
+   "Mirza Malkum Khan",
+   "Islam and Revolution"
+  ],
+  "knownFor": "Persian studies, Islamic Revolution, Sufi",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hamza Yusuf",
+  "years": "born 1958",
+  "region": "North America",
+  "country": "United States",
+  "books": 4,
+  "titles": [
+   "Purification of the Heart",
+   "Agenda to Change Our Condition",
+   "The Content of Character",
+   "Caliphate, the Hijaz"
+  ],
+  "knownFor": "Zaytuna College founder, traditional Sufi education",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Hassan Hathout",
+  "years": "1924–2009",
+  "region": "North America",
+  "country": "United States",
+  "books": 5,
+  "titles": [
+   "Reflections of a Muslim Doctor",
+   "Islam in a Changing World",
+   "Muslim Medical Ethics"
+  ],
+  "knownFor": "Doctor, Islam and ethics, Pasadena",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ismail al-Faruqi",
+  "years": "1921–1986",
+  "region": "North America",
+  "country": "United States",
+  "books": 10,
+  "titles": [
+   "Al Tawhid: Its Implications for Thought and Life",
+   "Islam and Zionism",
+   "Islam and Culture",
+   "The Cultural Atlas of Islam"
+  ],
+  "knownFor": "Comparative religion; Islamization of knowledge",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Jonathan A.C. Brown",
+  "years": "born 1977",
+  "region": "North America",
+  "country": "United States",
+  "books": 6,
+  "titles": [
+   "Hadith: Muhammad's Legacy",
+   "Misquoting Muhammad",
+   "Slavery and Islam",
+   "The Canonization of al-Bukhari and Muslim"
+  ],
+  "knownFor": "Hadith, Islamic law, modern Islamic thought",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Kecia Ali",
+  "years": "born 1972",
+  "region": "North America",
+  "country": "United States",
+  "books": 5,
+  "titles": [
+   "Sexual Ethics and Islam",
+   "Marriage and Slavery in Early Islam",
+   "The Lives of Muhammad",
+   "Imam Shafi'i"
+  ],
+  "knownFor": "Islamic law, gender, early Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Khaled Abou El Fadl",
+  "years": "born 1963",
+  "region": "North America",
+  "country": "United States",
+  "books": 10,
+  "titles": [
+   "Speaking in God's Name",
+   "Rebellion and Violence in Islamic Law",
+   "The Great Theft",
+   "Islam and the Challenge of Democracy"
+  ],
+  "knownFor": "Usuli UCLA law professor, Islamic jurisprudence",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Khalid Yahya Blankinship",
+  "years": "born 1949",
+  "region": "North America",
+  "country": "United States",
+  "books": 6,
+  "titles": [
+   "The End of the Jihad State",
+   "Early Islamic history",
+   "The Hugh of Caliph Hisham",
+   "Early Islamic Conquests"
+  ],
+  "knownFor": "Early Islamic history, Philadelphia",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Laleh Bakhtiar",
+  "years": "1938–2020",
+  "region": "North America",
+  "country": "United States",
+  "books": 15,
+  "titles": [
+   "Sufi: Expressions of the Mystic Quest",
+   "Encyclopedia of Islamic Law",
+   "Concise Encyclopedia of Islamic Law",
+   "The Sublime Quran (translation)"
+  ],
+  "knownFor": "Translator of Quran, Islamic law, psychology",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Louay Safi",
+  "years": "born 1955",
+  "region": "North America",
+  "country": "United States",
+  "books": 5,
+  "titles": [
+   "Peace and the Limits of War",
+   "The Foundation of Knowledge",
+   "Islam, Democracy",
+   "Tolerance"
+  ],
+  "knownFor": "Islamic political thought, usul al-fiqh",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Mohammad Hassan Khalil",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "Islam and the Fate of Others",
+   "Jihad, Radicalism, and the New Atheism",
+   "Muslims and US Politics Today"
+  ],
+  "knownFor": "Salvation in Islam, Islamic theology",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Muqtedar Khan",
+  "years": "born 1966",
+  "region": "North America",
+  "country": "United States",
+  "books": 5,
+  "titles": [
+   "American Islam",
+   "Islamic Yoga",
+   "Jihad for Jerusalem",
+   "Debating Moderate Islam"
+  ],
+  "knownFor": "Political theory, Islamic politics",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Omar Khalidi",
+  "years": "1953–2010",
+  "region": "North America",
+  "country": "United States",
+  "books": 10,
+  "titles": [
+   "Hyderabad: After the Fall",
+   "Muslim Heritage in America",
+   "Guide to Architecture of Hyderabad",
+   "Muslims in Indian Economy"
+  ],
+  "knownFor": "Hyderabad history, Muslim architecture",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Omar Suleiman",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 4,
+  "titles": [
+   "Allah Loves It When You",
+   "Muslim Experience in Ramadan"
+  ],
+  "knownFor": "Shaykh, Yaqeen Institute, preacher",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Omid Safi",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 7,
+  "titles": [
+   "Memories of Muhammad",
+   "Politics of Islamic Identity",
+   "Progressive Muslims (ed)",
+   "The Politics of Islamic Identity"
+  ],
+  "knownFor": "Sufi studies, Muhammad, progressive Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Ovamir Anjum",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "The Politics of Islamic Reform",
+   "Islamic reform"
+  ],
+  "knownFor": "Islamic reform, Ibn Taymiyya, political theory",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Seyyed Hossein Nasr",
+  "years": "born 1933",
+  "region": "North America",
+  "country": "United States",
+  "books": 40,
+  "titles": [
+   "Ideals and Realities of Islam",
+   "The Study Quran",
+   "Islamic Science",
+   "Knowledge and the Sacred"
+  ],
+  "knownFor": "Perennial philosopher, Islamic science and spirituality",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Sherman Jackson",
+  "years": null,
+  "region": "North America",
+  "country": "United States",
+  "books": 5,
+  "titles": [
+   "Islamic Law and the State",
+   "Islam and the Blackamerican",
+   "On the Boundaries of Theological Tolerance",
+   "Sufism for Non-Sufis?"
+  ],
+  "knownFor": "Islamic law, theology, African American Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Umar Faruq Abd-Allah",
+  "years": "born 1948",
+  "region": "North America",
+  "country": "United States",
+  "books": 2,
+  "titles": [
+   "Mālik and Medina",
+   "A Muslim in Victorian America"
+  ],
+  "knownFor": "Maliki fiqh, Imam Malik studies, Chicago",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Wael Hallaq",
+  "years": "born 1955",
+  "region": "North America",
+  "country": "United States",
+  "books": 15,
+  "titles": [
+   "The Origins and Evolution of Islamic Law",
+   "Sharia: Theory, Practice, Transformations",
+   "The Impossible State",
+   "Authority, Continuity and Change"
+  ],
+  "knownFor": "Islamic law, legal theory, critic of modernity",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Warith Deen Mohammed",
+  "years": "1933–2008",
+  "region": "North America",
+  "country": "United States",
+  "books": 8,
+  "titles": [
+   "As the Light Shineth from the East",
+   "Al-Islam, Unity and Leadership"
+  ],
+  "knownFor": "Nation of Islam leader, African-American Islam",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Yasir Nadeem al Wajidi",
+  "years": "born 1982",
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "Qamus al-Asri",
+   "Islam and Globalization",
+   "Tajdid-i din"
+  ],
+  "knownFor": "Hanafi scholar, translated works; few books",
+  "basis": "Wikipedia works list"
+ },
+ {
+  "name": "Yasir Qadhi",
+  "years": "born 1975",
+  "region": "North America",
+  "country": "United States",
+  "books": 10,
+  "titles": [
+   "Riyadh al-Salihin",
+   "The Tafsir of Surat al-Kahf",
+   "The Reliance on Good",
+   "Heavenly Promises"
+  ],
+  "knownFor": "Salafi hadith scholar, Dallas",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Zaid Shakir",
+  "years": "born 1956",
+  "region": "North America",
+  "country": "United States",
+  "books": 3,
+  "titles": [
+   "Commentary on Hadith Arbaeen",
+   "Commentary on the Eleventh Day"
+  ],
+  "knownFor": "Zaytuna College, traditional spirituality",
+  "basis": "Reviewer knowledge (first pass)"
+ },
+ {
+  "name": "Charis Waddy",
+  "years": "1909–2004",
+  "region": "Oceania",
+  "country": "Australia",
+  "books": 5,
+  "titles": [
+   "The Muslim Mind",
+   "Women in Muslim History",
+   "Muslim Mind",
+   "Tent Pegs"
+  ],
+  "knownFor": "Muslim Mind author, Moral Re-Armament",
+  "basis": "Reviewer knowledge (first pass)"
+ }
+]
