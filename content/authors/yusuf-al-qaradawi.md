@@ -1,13 +1,13 @@
 ---
 name: "Yusuf al-Qaradawi"
 nameNative: "يوسف القرضاوي"
-nativeLang: ar
+nativeLang: "ar"
 born: 1926
 died: 2022
 region: "Egypt / Qatar"
 roles: "Islamic jurist, scholar and author, preacher, television presenter, chairman of the International Union of Muslim Scholars, president of the European Council for Fatwa and Research"
-featured: false
 sortAs: "Qaradawi"
+featured: true
 sources:
   - "https://www.aljazeera.com/news/2022/9/27/yusuf-al-qaradawi-the-muslim-scholar-who-influenced-millions"
   - "https://www.euronews.com/2022/09/27/egypt-qaradawi-obituary"
