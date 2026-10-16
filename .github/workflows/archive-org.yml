@@ -1,0 +1,35 @@
+name: Save to the Internet Archive
+
+# After each successful deploy (and weekly), asks the Wayback Machine to take a fresh copy of the
+# main pages. Best effort: a failure here never affects the site.
+
+on:
+  workflow_run:
+    workflows: ["Build and deploy"]
+    types: [completed]
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  save:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit pages to Save Page Now
+        continue-on-error: true
+        run: |
+          {
+            echo "https://islamicarchives.org/"
+            for p in library authors quran quran/corpus/ quran/manuscripts quran/scholars quran/tafsir about permissions delivery; do
+              echo "https://islamicarchives.org/$p/"
+            done
+            for f in content/authors/*.md; do echo "https://islamicarchives.org/authors/$(basename "$f" .md)/"; done
+          } | sed 's|//$|/|' | sort -u > urls.txt
+          wc -l urls.txt
+          while read -r u; do
+            code=$(curl -s -m 60 -o /dev/null -w "%{http_code}" -A "islamicarchives-saver" "https://web.archive.org/save/$u" || true)
+            echo "$code $u"
+            sleep 8
+          done < urls.txt

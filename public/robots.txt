@@ -1,0 +1,3 @@
+# Everyone, including the Internet Archive (ia_archiver / archive.org_bot), may crawl and archive this site.
+User-agent: *
+Allow: /
