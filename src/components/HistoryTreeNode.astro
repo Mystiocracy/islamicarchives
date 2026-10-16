@@ -1,0 +1,48 @@
+---
+import { byName, entryId, slug, splitCountry, isCountryLike, type TNode } from '../lib/history';
+interface Props { node: TNode; perEra: Map<string, number> }
+const { node, perEra } = Astro.props;
+const e = byName.get(node.n)!;
+const id = entryId(e.name);
+const n = e.era ? perEra.get(e.era) || 0 : 0;
+const rulers = e.rulers || [];
+const countries = (e.countries || []).map((raw) => ({ raw, ...splitCountry(raw), linkable: isCountryLike(raw) }));
+---
+<li>
+  <div class={`tnode g-${e.group}`}>
+    <button type="button" class="tn" aria-expanded="false" aria-controls={`tb-${id}`} data-id={id}>
+      <b>{e.name}</b><small>{e.when}</small>
+      <i class="tn-plus" aria-hidden="true"></i>
+    </button>
+    <div class="tb" id={`tb-${id}`} hidden>
+      <div class="tb-in">
+        <p class="tb-place">{e.place}</p>
+        <p class="tb-text">{e.text}</p>
+        {rulers.length > 0 && (
+          <div class="tb-rulers">
+            <span class="h-sub">Major rulers</span>
+            <ol class="rtree">{rulers.map((r) => (
+              <li><span class="rt-when">{r.when}</span><span class="rt-name">{r.name}</span><span class="rt-role">{r.role}</span></li>
+            ))}</ol>
+          </div>
+        )}
+        {countries.length > 0 && (
+          <div class="tb-countries">
+            <span class="h-sub">Today's countries</span>
+            <div class="chips">{countries.map((c) => c.linkable
+              ? <button type="button" class="chip" data-country={slug(c.name)}>{c.name}{c.note ? <small> · {c.note}</small> : null}</button>
+              : <span class="chip chip-note">{c.raw}</span>)}</div>
+          </div>
+        )}
+        <p class="tb-links">
+          {e.era && n ? <a href={`/library/?era=${e.era}`}>{n} writings →</a> : null}
+          {e.wiki ? <a href={e.wiki} rel="noopener" target="_blank">Further reading ↗</a> : null}
+          <a href={`#${id}`} class="tb-tl" data-goto={id}>Show in timeline ↓</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  {node.kids && node.kids.length > 0 && (
+    <ul>{node.kids.map((k) => <Astro.self node={k} perEra={perEra} />)}</ul>
+  )}
+</li>

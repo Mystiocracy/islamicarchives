@@ -1,0 +1,22 @@
+---
+import Base from '../../../layouts/Base.astro';
+import hist from '../../../data/history.json';
+import { longDate } from '../../../lib/quran';
+import { countryIndex } from '../../../lib/history';
+const countries = countryIndex();
+---
+<Base title="Countries · History Hub" description="The modern states that stand on the ground of the Muslim empires and caliphates, each with its own history through every period." current="history">
+  <div class="wrap" style="padding-top:40px; padding-bottom:56px">
+    <p class="muted" style="margin:0 0 6px; font-size:14px"><a href="/history/">History Hub</a> › Countries</p>
+    <h1 style="font-size:40px; margin:0 0 0.3em">Countries</h1>
+    <p class="muted" style="margin:0 0 24px; font-size:17px; max-width:760px">The modern states that stand on the ground of these empires and caliphates. Open a country to follow its story through every period, from the first community to today.</p>
+    <ul class="cl">{countries.map((c) => <li><a href={`/history/countries/${c.slug}/`}><b>{c.name}</b><span>{c.periods.length} periods</span></a></li>)}</ul>
+    <p class="cite-line" style="margin-top:32px"><span>Archived {longDate(hist.archived)} · Source: {hist.source_note}</span></p>
+  </div>
+</Base>
+<style>
+  .cl { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+  .cl a { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 12px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
+  .cl a:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(20,32,30,.10); color: var(--green); }
+  .cl b { font-family: var(--serif); font-size: 17px; } .cl span { font-size: 12.5px; color: var(--muted); }
+</style>
