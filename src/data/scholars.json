@@ -156,6 +156,18 @@
   "archived": "2026-10-15"
  },
  {
+  "name": "Shady Hekmat Nasser",
+  "nameNative": "شادي حكمت ناصر",
+  "affiliation": "Harvard University (Associate Professor of Near Eastern Languages and Civilizations; on leave); previously University Lecturer in Classical Arabic Studies, Cambridge, 2013",
+  "description": "Nasser studies the Qur'an's transmission history through the variant readings (qirāʾāt) and the sources about them, more than through manuscripts themselves. His books are The Transmission of the Variant Readings of the Qurʾān (Brill, 2012/13) and The Second Canonization of the Qurʾān (324/936): Ibn Mujāhid and the Founding of the Seven Readings (Brill). He convened the Harvard workshop \"Qur'an\" (7 December 2019), whose participants included Déroche, Fedeli and Sadeghi, and he released the Encyclopedia of the (Variant) Readings of the Qur'an website (erquran.org) in 2022.",
+  "url": "https://nelc.fas.harvard.edu/people/shady-h-nasser",
+  "urlLabel": "Harvard NELC faculty page",
+  "group": "Scholars",
+  "id": "s-shady-nasser",
+  "kind": "Scholar",
+  "archived": "2026-10-16"
+ },
+ {
   "name": "Corpus Coranicum",
   "nameNative": "",
   "affiliation": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",

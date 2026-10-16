@@ -7,7 +7,7 @@ import items from '../../../data/scholars.json';
 import { citeScholar, longDate } from '../../../lib/quran';
 import { getCollection } from 'astro:content';
 
-const AUTHOR: Record<string, string> = { 's-francois-deroche': 'francois-deroche', 's-alba-fedeli': 'alba-fedeli', 's-behnam-sadeghi': 'behnam-sadeghi', 's-mohsen-goudarzi': 'mohsen-goudarzi', 's-asma-hilali': 'asma-hilali', 's-marijn-van-putten': 'marijn-van-putten', 's-hythem-sidky': 'hythem-sidky', 's-michael-marx': 'michael-marx', 's-gerd-rudiger-puin': 'gerd-ruediger-puin', 's-keith-small': 'keith-small', 's-alain-george': 'alain-george', 's-yasin-dutton': 'yasin-dutton', 's-muhammad-mustafa-al-azami': 'muhammad-mustafa-al-azami' };
+const AUTHOR: Record<string, string> = { 's-francois-deroche': 'francois-deroche', 's-alba-fedeli': 'alba-fedeli', 's-behnam-sadeghi': 'behnam-sadeghi', 's-mohsen-goudarzi': 'mohsen-goudarzi', 's-asma-hilali': 'asma-hilali', 's-marijn-van-putten': 'marijn-van-putten', 's-hythem-sidky': 'hythem-sidky', 's-michael-marx': 'michael-marx', 's-gerd-rudiger-puin': 'gerd-ruediger-puin', 's-keith-small': 'keith-small', 's-alain-george': 'alain-george', 's-yasin-dutton': 'yasin-dutton', 's-muhammad-mustafa-al-azami': 'muhammad-mustafa-al-azami', 's-shady-nasser': 'shady-nasser' };
 const works = await getCollection('works');
 const nWorks = (id: string) => works.filter((w) => w.data.author.id === id && !w.data.draft).length;
 
