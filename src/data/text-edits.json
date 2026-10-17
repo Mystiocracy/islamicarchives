@@ -5,6 +5,11 @@
     "i": 1,
     "find": "Islamic Internet Archives",
     "replace": "Islamic Internet Archives"
+   },
+   {
+    "i": 11,
+    "find": "The writings of modern Muslim thinkers.",
+    "replace": "The writings of contemporary Muslim thinkers."
    }
   ],
   "description": "Writings of modern Muslim thinkers, from the 19th century to today: searchable, readable online and downloadable."
