@@ -5,13 +5,14 @@ import { longDate, SITE } from '../../../../lib/quran';
 import articleHtml from '../../../../data/first-century-article.html?raw';
 
 const ARCHIVED = '2026-10-16';
+const REVISED = '2026-10-18';
 const TITLE = 'Manuscripts of the Qur’an Attributable to the First Century of the Hijra';
 const SOURCE_TITLE = 'Concise List Of Arabic Manuscripts Of The Qur’ān Attributable To The First Century Hijra';
 const SOURCE_URL = 'https://www.islamic-awareness.org/quran/text/mss/hijazi';
 const HERE = `${SITE}/quran/manuscripts/first-century-manuscripts/`;
-const cite = `Islamic Awareness. “${SOURCE_TITLE}.” First composed 14 June 2008, last updated 3 April 2019. ${SOURCE_URL}. Summary and study guide archived ${longDate(ARCHIVED)} in Islamic Internet Archives, “Quranic manuscript catalogue”, ${HERE}.`;
+const cite = `Islamic Awareness. “${SOURCE_TITLE}.” First composed 14 June 2008, last updated 3 April 2019. ${SOURCE_URL}. Study notes archived ${longDate(ARCHIVED)}, revised ${longDate(REVISED)}, in Islamic Internet Archives, “Quranic manuscript catalogue”, ${HERE}.`;
 ---
-<Base title={TITLE} description="A study guide to the Islamic Awareness article on Qur'an manuscripts attributable to the first century of the hijra: dating methods, radiocarbon results, discoveries, an annotated index of key manuscripts and a reading list." current="quran">
+<Base title={TITLE} description="Study notes on the Islamic Awareness article on Qur'an manuscripts from the first century of the hijra: how they are dated, radiocarbon results, how much of the text survives, key manuscripts and further reading." current="quran">
   <div class="wrap" style="padding-top:28px; padding-bottom:0">
     <QuranSubnav current="manuscripts" />
     <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 14px"><a href="/quran/manuscripts/">Quranic manuscript catalogue</a> › Article</nav>
@@ -20,11 +21,11 @@ const cite = `Islamic Awareness. “${SOURCE_TITLE}.” First composed 14 June 2
     <main class="ap">
       <p class="sub">Qur'anic Manuscripts</p>
       <h1 data-pagefind-meta="title">Manuscripts of the Qur'an Attributable to the First Century of the Hijra</h1>
-      <p class="sub">A study guide and annotated index, based on the article by Islamic Awareness. Archived {longDate(ARCHIVED)}.</p>
+      <p class="sub">Study notes and an index of key manuscripts, from the article by Islamic Awareness. Archived {longDate(ARCHIVED)}; revised {longDate(REVISED)}.</p>
       <div class="article" set:html={articleHtml} />
       <footer class="ap-foot">
         <p><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite}</p>
-        <p>Summary and index prepared from <em>{SOURCE_TITLE}</em>, © Islamic Awareness. All credit for the underlying research and data belongs to them. Figures here were drawn from a text copy that ended partway through the article; check everything against the original before relying on it.</p>
+        <p>Summary and index prepared from <em>{SOURCE_TITLE}</em>, © Islamic Awareness. All credit for the underlying research and data belongs to them. Figures were checked against the original on {longDate(REVISED)}; please consult it before relying on them.</p>
       </footer>
     </main>
   </div>
