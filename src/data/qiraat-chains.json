@@ -1,0 +1,20 @@
+{
+  "people": {
+    "P": ["The Prophet ﷺ", "11", "n"],
+    "UB": ["Ubayy b. Kaʿb", "c. 30", "s"], "ZY": ["Zayd b. Thābit", "45", "s"], "UM": ["ʿUmar b. al-Khaṭṭāb", "23", "s"], "UT": ["ʿUthmān b. ʿAffān", "35", "s"], "AL": ["ʿAlī b. Abī Ṭālib", "40", "s"], "IM": ["ʿAbdallāh b. Masʿūd", "32", "s"], "AD": ["Abū al-Dardāʾ", "32", "s"], "AMU": ["Abū Mūsā al-Ashʿarī", "44", "s"], "IA": ["ʿAbdallāh b. ʿAbbās", "68", "s"], "AH": ["Abū Hurayra", "59", "s"], "IAY": ["ʿAbdallāh b. ʿAyyāsh", "c. 78", "s"], "ISB": ["ʿAbdallāh b. al-Sāʾib", "c. 70", "s"], "HUS": ["al-Ḥusayn b. ʿAlī", "61", "s"],
+    "SH": ["Shayba b. Niṣāḥ", "130", "t"], "AR": ["ʿAbd al-Raḥmān al-Aʿraj", "117", "t"], "MJ": ["Mujāhid b. Jabr", "104", "t"], "DB": ["Dirbās", "unknown", "t"], "SJ": ["Saʿīd b. Jubayr", "95", "t"], "AAL": ["Abū al-ʿĀliya", "93", "t"], "HT": ["Ḥiṭṭān al-Raqāshī", "c. 73", "t"], "HB": ["al-Ḥasan al-Baṣrī", "110", "t"], "MG": ["al-Mughīra b. Abī Shihāb", "91", "t"], "SL": ["Abū ʿAbd al-Raḥmān al-Sulamī", "74", "t"], "ZR": ["Zirr b. Ḥubaysh", "82", "t"], "ASH": ["Abū ʿAmr al-Shaybānī", "c. 96", "t"], "AQ": ["ʿAlqama b. Qays", "62", "t"], "YW": ["Yaḥyā b. Waththāb", "103", "t"], "AMS": ["al-Aʿmash", "148", "t"], "ADU": ["Abū al-Aswad al-Duʾalī", "69", "t"], "HMR": ["Ḥumrān b. Aʿyan", "c. 130", "t"], "AIS": ["Abū Isḥāq al-Sabīʿī", "127", "t"], "MNH": ["al-Minhāl b. ʿAmr", "c. 110 ◇", "t"], "ILL": ["Ibn Abī Laylā", "148", "t"], "ZAB": ["Zayn al-ʿĀbidīn", "94", "t"], "BQR": ["Muḥammad al-Bāqir", "114", "t"], "JS": ["Jaʿfar al-Ṣādiq", "148", "t"], "SLT": ["Sallām al-Ṭawīl", "171", "t"], "SLY": ["Sulaym b. ʿĪsā", "188", "t"], "ASHA": ["Abū Yūsuf al-Aʿshā", "c. 200", "t"],
+    "NF": ["1 · Nāfiʿ", "169", "i"], "IK": ["2 · Ibn Kathīr", "120", "i"], "AAM": ["3 · Abū ʿAmr", "154", "i"], "IAM": ["4 · Ibn ʿĀmir", "118", "i"], "ASM": ["5 · ʿĀṣim", "127", "i"], "HZ": ["6 · Ḥamza", "156", "i"], "KS": ["7 · al-Kisāʾī", "189", "i"], "AJ": ["8 · Abū Jaʿfar", "130", "i"], "YQ": ["9 · Yaʿqūb", "205", "i"], "KH": ["10 · Khalaf al-ʿĀshir", "229", "i"], "SHU": ["Shuʿba", "193", "r"]
+  },
+  "imams": [
+    { "id": "NF", "no": 1, "node": "1 · Nāfiʿ", "paths": [["UB","IAY","AJ"],["UB","IA","AJ"],["UB","AH","AJ"],["UB","IAY","SH"],["UB","IAY","AR"],["UB","IA","AR"],["UB","AH","AR"]] },
+    { "id": "IK", "no": 2, "node": "2 · Ibn Kathīr", "paths": [["UB","ISB"],["UM","ISB"],["UB","IA","MJ"],["ZY","IA","MJ"],["UB","IA","DB"]] },
+    { "id": "AAM", "no": 3, "node": "3 · Abū ʿAmr", "paths": [["UB","IA","MJ"],["UB","IA","SJ"],["UM","AAL","HB"],["UB","AAL","HB"],["ZY","AAL","HB"],["AMU","HT","HB"],["UB","IAY","AJ"],["UB","ISB","IK"]] },
+    { "id": "IAM", "no": 4, "node": "4 · Ibn ʿĀmir", "paths": [["UT","MG"],{"p":["AD"],"dis":1}] },
+    { "id": "ASM", "no": 5, "node": "5 · ʿĀṣim", "paths": [["UT","SL"],["AL","SL"],["IM","SL"],["UB","SL"],["ZY","SL"],["UT","ZR"],["IM","ZR"],["IM","ASH"]] },
+    { "id": "HZ", "no": 6, "node": "6 · Ḥamza", "paths": [["IM","AQ","YW","AMS"],["IM","ZR","YW","AMS"],["AL","SL","YW","AMS"],["UT","ADU","HMR"],["AL","ADU","HMR"],["AL","SL","AIS"],["IM","ZR","AIS"],["AL","IA","SJ","MNH","ILL"],["AL","HUS","ZAB","BQR","JS"]] },
+    { "id": "KS", "no": 7, "node": "7 · al-Kisāʾī", "paths": [["IM","AQ","YW","AMS","HZ"],["AL","HUS","ZAB","BQR","JS","HZ"],["AL","IA","SJ","MNH","ILL"],["IM","ZR","ASM","SHU"]] },
+    { "id": "AJ", "no": 8, "node": "8 · Abū Jaʿfar", "paths": [["UB","IAY"],["UB","IA"],["UB","AH"]] },
+    { "id": "YQ", "no": 9, "node": "9 · Yaʿqūb", "paths": [["AL","SL","ASM","SLT"],["UB","IA","MJ","AAM","SLT"]] },
+    { "id": "KH", "no": 10, "node": "Khalaf b. Hishām", "paths": [["IM","AQ","YW","AMS","HZ","SLY"],["IM","ZR","ASM","SHU","ASHA"],["IM","AQ","YW","AMS","HZ","KS"]] }
+  ]
+}

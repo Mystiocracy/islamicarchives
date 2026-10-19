@@ -3,36 +3,75 @@ import Base from '../../../../layouts/Base.astro';
 import QuranSubnav from '../../../../components/QuranSubnav.astro';
 import { longDate, SITE } from '../../../../lib/quran';
 import tree from '../../../../data/qiraat-isnad.json';
+import chains from '../../../../data/qiraat-chains.json';
 
 const ARCHIVED = '2026-10-19';
 const TITLE = 'Isnād of the Ten Qirāʾāt';
 const HERE = `${SITE}/quran/manuscripts/qiraat-isnad/`;
 const NASHR = 'https://www.islamweb.net/ar/library/content/70/31/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%AE%D9%84%D9%81';
-const cite = `Islamic Internet Archives. “${TITLE}: A Tree of the Ten Readings, Their Twenty Rāwīs and Their Ṭuruq.” AI-generated reference chart based on Ibn al-Jazarī, al-Nashr fī al-qirāʾāt al-ʿashr. Archived ${longDate(ARCHIVED)}. ${HERE}.`;
+const cite = `Islamic Internet Archives. “${TITLE}: The Ten Readings, Their Twenty Rāwīs and Their Ṭuruq.” AI-generated reference chart based on Ibn al-Jazarī, al-Nashr fī al-qirāʾāt al-ʿashr. Archived ${longDate(ARCHIVED)}. ${HERE}.`;
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 const wiki = (q: string) => `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(q)}`;
 const KIND: Record<string, string> = { n: 'The Prophet', s: 'Companion', t: 'Successor or teacher', i: 'Imam', r: 'Rāwī', q: 'Ṭarīq' };
-
 type Node = { n: string; d: string; k: string; q?: string; also?: string; c?: Node[] };
-const people: Node[] = [];
-function render(x: Node): string {
-  const kids = x.c || [];
-  if (x.k !== 'q' || x.q) people.push(x);
+const T = tree as Node;
+
+// 1. inverted tree (server-rendered, opened and closed by the script)
+function box(x: Node, toggle: boolean) {
   const date = x.d ? `<span class="iq-d">d. ${esc(x.d)}</span>` : '';
   const also = x.also ? `<span class="iq-also">${esc(x.also)}</span>` : '';
   const inner = `<b>${esc(x.n)}</b>${date}${also}`;
-  const head = kids.length
-    ? `<button type="button" class="iq-h" aria-expanded="true">${inner}<span class="iq-cnt" aria-hidden="true">–</span></button>`
-    : `<span class="iq-h">${inner}</span>`;
-  const link = x.q ? `<a class="iq-wk" href="${wiki(x.q)}" rel="noopener" target="_blank" title="Look up ${esc(x.n)} on Wikipedia">Wikipedia ↗</a>` : '';
-  return `<li data-k="${x.k}"><div class="iq-box iq-${x.k}">${head}${link}</div>${kids.length ? '<ul>' + kids.map(render).join('') + '</ul>' : ''}</li>`;
+  const head = toggle ? `<button type="button" class="iq-h" aria-expanded="true">${inner}<span class="iq-cnt" aria-hidden="true">–</span></button>` : `<span class="iq-h">${inner}</span>`;
+  const link = x.q ? `<a class="iq-wk" href="${wiki(x.q)}" rel="noopener" target="_blank">Wikipedia ↗</a>` : '';
+  return `<div class="iq-box iq-${x.k}">${head}${link}</div>`;
 }
-const treeHtml = '<ul>' + render(tree as Node) + '</ul>';
+function org(x: Node): string {
+  const kids = x.c || [];
+  return `<li data-k="${x.k}">${box(x, kids.length > 0)}${kids.length ? '<ul>' + kids.map(org).join('') + '</ul>' : ''}</li>`;
+}
+const orgHtml = '<ul>' + org(T) + '</ul>';
+
+// 2. outline (nested folding list)
+function outline(x: Node, depth: number): string {
+  const kids = x.c || [];
+  const date = x.d ? ` <span class="ol-d">d. ${esc(x.d)}</span>` : '';
+  const also = x.also ? ` <span class="ol-also">${esc(x.also)}</span>` : '';
+  const link = x.q ? ` <a class="ol-wk" href="${wiki(x.q)}" rel="noopener" target="_blank">↗</a>` : '';
+  const label = `<span class="ol-k ol-${x.k}"></span><span class="ol-nm ol-nm-${x.k}">${esc(x.n)}</span>${date}${also}${link}`;
+  if (!kids.length) return `<li>${label}</li>`;
+  const open = x.k !== 'r' && x.k !== 'q' ? ' open' : '';
+  return `<li><details data-k="${x.k}"${open}><summary>${label}</summary><ul>${kids.map((c) => outline(c, depth + 1)).join('')}</ul></details></li>`;
+}
+const outlineHtml = '<ul class="ol-root">' + outline(T, 0) + '</ul>';
+
+// 3. table: one row per ṭarīq
+type Row = { imam: string; rawi: string; rd: string; tariq: string; td: string; sub: string; sd: string };
+const rows: Row[] = [];
+function walk(x: Node, imam: string, rawi: Node | null, tariq: Node | null) {
+  if (x.k === 'i') imam = x.n === 'Khalaf b. Hishām' ? '10 · Khalaf al-ʿĀshir' : x.n;
+  if (x.n === 'As rāwī of Ḥamza') { imam = '6 · Ḥamza'; rawi = { n: 'Khalaf b. Hishām', d: '229', k: 'r' }; (x.c || []).forEach((c) => walk(c, imam, rawi, null)); return; }
+  if (x.k === 'r') rawi = x;
+  if (x.k === 'q' && rawi) {
+    if (x.c && x.c.length) { x.c.forEach((c) => walk(c, imam, rawi, x)); return; }
+    const t = tariq || x, s = tariq ? x : null;
+    rows.push({ imam, rawi: rawi.n, rd: rawi.d, tariq: t.n, td: t.d, sub: s ? s.n : '', sd: s ? s.d : '' });
+    return;
+  }
+  (x.c || []).forEach((c) => walk(c, imam, rawi, tariq));
+}
+walk(T, '', null, null);
+const order = (s: string) => parseInt(s, 10) || 99;
+rows.sort((a, b) => order(a.imam) - order(b.imam));
+
+// people index
 const seen = new Set<string>();
-const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true)));
+const people: Node[] = [];
+(function collect(x: Node) { if ((x.k !== 'q' || x.q) && !seen.has(x.n)) { seen.add(x.n); people.push(x); } (x.c || []).forEach(collect); })(T);
+
+const data = JSON.stringify({ tree: T, chains });
 ---
-<Base title={TITLE} description="An inverted tree of the ten canonical Qur'an readings: from the Prophet through the Companions and Successors to the ten Imams, their twenty rāwīs and the rāwīs' ṭuruq, with death dates and links." current="quran">
+<Base title={TITLE} description="The ten canonical Qur'an readings from the Prophet through the Companions and Successors to the ten Imams, their twenty rāwīs and the rāwīs' ṭuruq, shown five ways: inverted tree, outline, radial chart, Imam by Imam and a table." current="quran">
   <div class="wrap" style="padding-top:28px; padding-bottom:0">
     <QuranSubnav current="manuscripts" />
     <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 14px"><a href="/quran/manuscripts/">Quranic manuscript catalogue</a> › Isnād of the ten qirāʾāt</nav>
@@ -41,24 +80,90 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
     <main class="ap">
       <p class="sub">Qirāʾāt and their transmission</p>
       <h1 data-pagefind-meta="title">Isnād of the Ten Qirāʾāt</h1>
-      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards. Archived {longDate(ARCHIVED)}.</p>
+      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards, shown five ways. Archived {longDate(ARCHIVED)}.</p>
 
       <div class="iq-warn" role="note">
-        <p><strong>AI-generated chart: it may contain mistakes.</strong> This tree was compiled with an AI assistant (Claude, by Anthropic) from the standard chains given by Ibn al-Jazarī in <em>al-Nashr fī al-qirāʾāt al-ʿashr</em>. The names, links and dates were not checked line by line against the printed sources. Entries marked ◇ are the least certain. Please verify anything you rely on against <em>al-Nashr</em>, <em>Ghāyat al-nihāya</em> or a qualified teacher with ijāza.</p>
+        <p><strong>AI-generated chart: it may contain mistakes.</strong> This chart was compiled with an AI assistant (Claude, by Anthropic) from the standard chains given by Ibn al-Jazarī in <em>al-Nashr fī al-qirāʾāt al-ʿashr</em>. The names, links and dates were not checked line by line against the printed sources, and entries marked ◇ are the least certain. Please verify anything you rely on against <em>al-Nashr</em>, <em>Ghāyat al-nihāya</em> or a qualified teacher with ijāza.</p>
       </div>
 
-      <h2>How to read the tree</h2>
-      <p>The Prophet ﷺ is at the top. Each row below is a later generation: Companions, Successors, the ten Imams, their twenty rāwīs, and at the bottom the ṭuruq through which each rāwī's reading was passed on. Tap a name with a −/+ badge to close or open its branch, or use the buttons to open the tree to a set depth. On a phone, drag the frame sideways to move along the tree. Dates are death dates in hijri years; “c.” marks an approximate date.</p>
-      <p>The real network is a web, since most Imams read with several teachers. A tree can show each person only once, so each Imam sits under his best-known line and his other teachers are named in italics inside his box. Some Imams sit under another Imam they read with: Nāfiʿ under Abū Jaʿfar, Yaʿqūb under Sallām (a student of Abū ʿAmr), and al-Kisāʾī under Ḥamza. Khalaf b. Hishām appears once, both as Ḥamza's rāwī and as the tenth Imam, Khalaf al-ʿĀshir.</p>
+      <p>Every view below shows the same people, down to the ṭuruq of each rāwī. Dates are death dates in hijri years; “c.” marks an approximate date. Choose the view that suits the question you have:</p>
+      <ul class="iq-views-help">
+        <li><strong>Inverted tree:</strong> the whole transmission at once, the Prophet ﷺ at the top.</li>
+        <li><strong>Outline:</strong> the same tree as an indented list that folds open, easiest on a phone.</li>
+        <li><strong>Radial:</strong> the Prophet ﷺ at the centre and each generation as a ring. Tap a name to light up its chain back to the centre.</li>
+        <li><strong>Imam by Imam:</strong> one reading at a time, with all of that Imam's chains (not only his best-known line) and his rāwīs and ṭuruq.</li>
+        <li><strong>Table:</strong> every ṭarīq in one searchable list.</li>
+      </ul>
 
-      <div class="iq-bar" role="group" aria-label="How far to open the tree">
-        <button type="button" data-lvl="i">Down to the Imams</button>
-        <button type="button" data-lvl="r" aria-pressed="true">Down to the rāwīs</button>
-        <button type="button" data-lvl="all">Everything, with ṭuruq</button>
+      <div class="iq-tabs" role="tablist" aria-label="Views">
+        <button type="button" role="tab" id="t-tree" aria-controls="v-tree" aria-selected="true" data-v="tree">Inverted tree</button>
+        <button type="button" role="tab" id="t-outline" aria-controls="v-outline" aria-selected="false" data-v="outline">Outline</button>
+        <button type="button" role="tab" id="t-radial" aria-controls="v-radial" aria-selected="false" data-v="radial">Radial</button>
+        <button type="button" role="tab" id="t-imam" aria-controls="v-imam" aria-selected="false" data-v="imam">Imam by Imam</button>
+        <button type="button" role="tab" id="t-table" aria-controls="v-table" aria-selected="false" data-v="table">Table</button>
       </div>
       <p class="iq-legend"><span><i class="iq-dot iq-n"></i>The Prophet ﷺ</span><span><i class="iq-dot iq-s"></i>Companion</span><span><i class="iq-dot iq-t"></i>Successor or teacher</span><span><i class="iq-dot iq-i"></i>Imam</span><span><i class="iq-dot iq-r"></i>Rāwī</span><span><i class="iq-dot iq-q"></i>Ṭarīq</span><span>◇ least certain</span></p>
     </main>
-    <div class="iq-frame" id="iq-frame"><div class="iq-org" id="iq-org" set:html={treeHtml} /></div>
+
+    <section id="v-tree" role="tabpanel" aria-labelledby="t-tree" class="iq-panel">
+      <div class="iq-panel-head">
+        <p>Each Imam hangs under his best-known line; his other teachers are named in italics in his box. Tap a name with a –/+ badge to close or open its branch. Drag the frame to move around.</p>
+        <div class="iq-bar" role="group" aria-label="How far to open the tree">
+          <button type="button" data-lvl="i">Down to the Imams</button>
+          <button type="button" data-lvl="r" aria-pressed="true">Down to the rāwīs</button>
+          <button type="button" data-lvl="all">Everything, with ṭuruq</button>
+        </div>
+      </div>
+      <div class="iq-frame" id="iq-frame"><div class="iq-org" id="iq-org" set:html={orgHtml} /></div>
+    </section>
+
+    <section id="v-outline" role="tabpanel" aria-labelledby="t-outline" class="iq-panel" hidden>
+      <div class="iq-panel-head">
+        <p>An indented list: each step to the right is one generation later. Tap a name to fold it open or shut.</p>
+        <div class="iq-bar">
+          <button type="button" id="ol-open">Open everything</button>
+          <button type="button" id="ol-close">Down to the Imams</button>
+        </div>
+      </div>
+      <div class="ol-wrap" set:html={outlineHtml} />
+    </section>
+
+    <section id="v-radial" role="tabpanel" aria-labelledby="t-radial" class="iq-panel" hidden>
+      <div class="iq-panel-head">
+        <p>The Prophet ﷺ is at the centre and each ring outward is one generation later; the ṭuruq sit around the outer edge. Companions, Imams and rāwīs are labelled; the teachers between them are the unlabelled dots, named when you tap or hover. Tap any dot or name to light up its chain back to the centre and spell it out above the chart.</p>
+        <div class="iq-bar">
+          <button type="button" id="rd-in" aria-label="Zoom in">Zoom in</button>
+          <button type="button" id="rd-out" aria-label="Zoom out">Zoom out</button>
+          <button type="button" id="rd-fit">Fit</button>
+          <button type="button" id="rd-clear">Clear highlight</button>
+        </div>
+        <p class="iq-sel" id="rd-sel" aria-live="polite"></p>
+      </div>
+      <div class="iq-frame rd-frame" id="rd-frame"><div id="rd"></div></div>
+    </section>
+
+    <section id="v-imam" role="tabpanel" aria-labelledby="t-imam" class="iq-panel" hidden>
+      <div class="iq-panel-head">
+        <p>Choose a reading. The top half shows every chain from the Prophet ﷺ to that Imam, with shared teachers merged; the bottom half shows his rāwīs, any teachers between them, and their ṭuruq.</p>
+        <div class="iq-bar" id="im-pick" role="group" aria-label="Choose an Imam"></div>
+      </div>
+      <div class="iq-frame" id="im-frame"><div class="iq-org" id="im-org"></div></div>
+    </section>
+
+    <section id="v-table" role="tabpanel" aria-labelledby="t-table" class="iq-panel" hidden>
+      <div class="iq-panel-head">
+        <label for="tb-q" class="tb-lab">Search the table</label>
+        <input id="tb-q" type="search" placeholder="Type a name, e.g. Ḥafṣ, Azraq, Kufa" autocomplete="off" />
+        <p class="iq-sel" id="tb-count" aria-live="polite">{rows.length} ṭuruq</p>
+      </div>
+      <div class="ap"><div class="a-scroll"><table id="tb">
+        <thead><tr><th>Imam</th><th>Rāwī</th><th>Ṭarīq</th><th>Branch of the ṭarīq</th></tr></thead>
+        <tbody>
+          {rows.map((r) => <tr><td>{r.imam}</td><td>{r.rawi} <span class="tb-d">d. {r.rd}</span></td><td>{r.tariq} <span class="tb-d">d. {r.td}</span></td><td>{r.sub ? <>{r.sub} <span class="tb-d">d. {r.sd}</span></> : '—'}</td></tr>)}
+        </tbody>
+      </table></div></div>
+    </section>
+
     <main class="ap">
       <h2>The ten readings at a glance</h2>
       <div class="a-scroll"><table>
@@ -76,14 +181,14 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
           <tr><td>10. Khalaf al-ʿĀshir</td><td>229</td><td>Baghdad</td><td>Isḥāq al-Warrāq, Idrīs al-Ḥaddād</td><td>Durra</td></tr>
         </tbody>
       </table></div>
-      <p>The first seven were fixed as a group by Ibn Mujāhid (d. 324) and versified by al-Shāṭibī (d. 590) in the <em>Shāṭibiyya</em>; Ibn al-Jazarī (d. 833) added the last three in <em>al-Durra al-muḍiyya</em> and set out all ten, with their ṭuruq, in <em>al-Nashr</em> and the <em>Ṭayyibat al-Nashr</em>. Below the ṭuruq shown here, al-Nashr branches into about 980 paths through particular books and teachers, which this chart does not attempt.</p>
+      <p>The first seven were grouped by Ibn Mujāhid (d. 324) and versified by al-Shāṭibī (d. 590) in the <em>Shāṭibiyya</em>. Ibn al-Jazarī (d. 833) added the last three in <em>al-Durra al-muḍiyya</em> and set out all ten, with their ṭuruq, in <em>al-Nashr</em> and the <em>Ṭayyibat al-Nashr</em>. Below the ṭuruq shown here, al-Nashr branches into about 980 paths through particular books and teachers, which this chart does not attempt. Two people appear in two roles: Khalaf b. Hishām is Ḥamza's rāwī and the tenth Imam, and al-Dūrī narrates both Abū ʿAmr and al-Kisāʾī.</p>
 
-      <h2>People in the tree</h2>
-      <p>Each link opens a Wikipedia search for the name, since spellings of these names vary between articles.</p>
-      <div class="a-scroll"><table class="iq-people">
+      <h2>People in the chart</h2>
+      <p>Each link opens a Wikipedia search for the name, since these names are spelled differently from one article to the next.</p>
+      <div class="a-scroll"><table>
         <thead><tr><th>Name</th><th>Role</th><th>Died (AH)</th><th>Look up</th></tr></thead>
         <tbody>
-          {index.map((p) => <tr><td>{p.n.replace(/^\d+ · /, '')}</td><td>{KIND[p.k]}</td><td>{p.d ? p.d.split(' · ')[0] : ''}</td><td>{p.q ? <a href={wiki(p.q)} rel="noopener" target="_blank">Wikipedia ↗</a> : '—'}</td></tr>)}
+          {people.map((p) => <tr><td>{p.n.replace(/^\d+ · /, '')}</td><td>{KIND[p.k]}</td><td>{p.d ? p.d.split(' · ')[0] : ''}</td><td>{p.q ? <a href={wiki(p.q)} rel="noopener" target="_blank">Wikipedia ↗</a> : '—'}</td></tr>)}
         </tbody>
       </table></div>
 
@@ -114,10 +219,11 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
       </footer>
     </main>
   </div>
+  <script type="application/json" id="iq-data" set:html={data.replace(/</g, '\\u003c')} />
 </Base>
 <style is:global>
   .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-  .ap { max-width: 880px; margin: 0 auto; padding: 24px 18px 40px; color: #222; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
+  .ap { max-width: 880px; margin: 0 auto; padding: 24px 18px 30px; color: #222; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
   .ap h1 { font: 700 1.9rem/1.25 Georgia, 'Times New Roman', serif; margin: 0.3em 0 0.2em; color: #222; }
   .ap .sub { color: #666; font-style: italic; margin: 0 0 1em; }
   .ap h2 { font: 700 1.3rem/1.3 Georgia, 'Times New Roman', serif; margin: 2em 0 0.5em; border-bottom: 1px solid #d8d2c2; padding-bottom: 0.2em; color: #1d5c4a; }
@@ -133,9 +239,18 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
   .ap-foot strong { color: #222; }
   .iq-warn { background: #fff4e5; border: 1px solid #e3b977; padding: 12px 16px; margin: 18px 0; font-size: 0.95rem; }
   .iq-warn p { margin: 0; }
-  .iq-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 8px; }
+  .iq-views-help { font-size: 0.95rem; }
+  .iq-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 22px 0 10px; border-bottom: 2px solid #1d5c4a; padding-bottom: 0; }
+  .iq-tabs button { font: 600 14px/1.2 var(--sans, system-ui), sans-serif; padding: 10px 16px; border: 1px solid #d8d2c2; border-bottom: 0; border-radius: 8px 8px 0 0; background: #fff; color: #333; cursor: pointer; margin-bottom: -2px; }
+  .iq-tabs button[aria-selected="true"] { background: #1d5c4a; color: #fff; border-color: #1d5c4a; }
+  .iq-tabs button:focus-visible, .iq-bar button:focus-visible, button.iq-h:focus-visible, .rd-node:focus-visible { outline: 2px solid #b86b00; outline-offset: 2px; }
+  .iq-panel { padding: 0 0 26px; }
+  .iq-panel-head { max-width: 880px; margin: 0 auto; padding: 4px 18px 12px; font: 15px/1.55 var(--sans, system-ui), sans-serif; color: #333; }
+  .iq-panel-head p { margin: 6px 0 10px; }
+  .iq-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
   .iq-bar button { font: 14px/1.2 var(--sans, system-ui), sans-serif; padding: 7px 14px; border-radius: 999px; border: 1px solid #d8d2c2; background: #fff; color: #222; cursor: pointer; }
   .iq-bar button[aria-pressed="true"] { background: #1d5c4a; color: #fff; border-color: #1d5c4a; }
+  .iq-sel { font-size: 14px; color: #1d5c4a; min-height: 1.4em; margin: 4px 0 0 !important; }
   .iq-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 13px/1.5 var(--sans, system-ui), sans-serif; color: #555; margin: 0; }
   .iq-legend span { display: inline-flex; align-items: center; gap: 6px; }
   .iq-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
@@ -160,7 +275,6 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
   .iq-box { position: relative; border: 1px solid #d8d2c2; background: #fff; border-radius: 8px; min-width: 100px; max-width: 160px; text-align: center; font-size: 12.5px; line-height: 1.3; color: #222; }
   .iq-h { display: block; width: 100%; font: inherit; color: inherit; background: none; border: 0; padding: 7px 9px 6px; text-align: center; }
   button.iq-h { cursor: pointer; }
-  button.iq-h:focus-visible, .iq-bar button:focus-visible { outline: 2px solid #1d5c4a; outline-offset: 2px; }
   .iq-h b { display: block; font-weight: 600; }
   .iq-d { display: block; color: #666; font-size: 11.5px; font-variant-numeric: tabular-nums; }
   .iq-also { display: block; color: #666; font-size: 11px; font-style: italic; margin-top: 3px; }
@@ -172,28 +286,75 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
   .iq-box.iq-i { border: 2px solid #1d5c4a; background: #f1f7f4; } .iq-box.iq-i b { color: #1d5c4a; font-family: Georgia, serif; font-size: 13.5px; }
   .iq-box.iq-r { border-color: #a07a22; background: #fdf8ec; } .iq-box.iq-r b { color: #7d5e14; }
   .iq-box.iq-q { border-style: dashed; border-color: #3d6f99; } .iq-box.iq-q b { color: #2f5a80; }
+  .im-cap { text-align: center; font: 600 13px/1.4 var(--sans, system-ui), sans-serif; color: #1d5c4a; letter-spacing: .04em; text-transform: uppercase; margin: 6px 0 14px; }
+  .im-cap + ul { margin-bottom: 28px !important; }
+  .iq-box .dis { display: inline-block; margin-top: 3px; font-size: 10.5px; color: #a0522d; border: 1px dashed #a0522d; border-radius: 4px; padding: 0 4px; }
+  /* outline */
+  .ol-wrap { max-width: 880px; margin: 0 auto; padding: 8px 18px 10px; font: 15px/1.5 var(--sans, system-ui), sans-serif; }
+  .ol-wrap ul { list-style: none; margin: 0; padding-left: 18px; border-left: 1px solid #c9cfd8; margin-left: 6px; }
+  .ol-wrap ul.ol-root { border-left: 0; padding-left: 0; margin-left: 0; }
+  .ol-wrap li { margin: 3px 0; position: relative; }
+  .ol-wrap ul:not(.ol-root) > li::before { content: ""; position: absolute; left: -18px; top: 0.8em; width: 13px; border-top: 1px solid #c9cfd8; }
+  .ol-wrap summary { cursor: pointer; list-style: none; }
+  .ol-wrap summary::-webkit-details-marker { display: none; }
+  .ol-wrap summary::before { content: "▸"; display: inline-block; width: 14px; color: #888; font-size: 12px; transition: transform .15s; }
+  .ol-wrap details[open] > summary::before { transform: rotate(90deg); }
+  .ol-wrap li > .ol-k:first-child { margin-left: 14px; }
+  .ol-k { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+  .ol-n { background: #7a2a24; } .ol-s { background: #4b3f72; } .ol-t { background: #6b7c8f; } .ol-i { background: #1d5c4a; } .ol-r { background: #a07a22; } .ol-q { background: #3d6f99; }
+  .ol-nm-i { font-weight: 700; color: #1d5c4a; font-family: Georgia, serif; } .ol-nm-r { font-weight: 600; color: #7d5e14; } .ol-nm-n { font-weight: 700; color: #7a2a24; } .ol-nm-s { color: #4b3f72; font-weight: 600; } .ol-nm-q { color: #2f5a80; }
+  .ol-d { color: #666; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .ol-also { color: #777; font-size: 12.5px; font-style: italic; }
+  .ol-wk { color: #1d5c4a; text-decoration: none; font-size: 13px; }
+  @media (prefers-reduced-motion: reduce) { .ol-wrap summary::before { transition: none; } }
+  /* radial */
+  .rd-frame { max-height: 90vh; }
+  #rd svg { display: block; }
+  .rd-link { fill: none; stroke: #c3cad3; stroke-width: 1; }
+  .rd-link.on { stroke: #b86b00; stroke-width: 2.5; }
+  .rd-node circle { stroke: #fff; stroke-width: 1.5; }
+  .rd-node text { font: 14px var(--sans, system-ui), sans-serif; fill: #333; paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }
+  .rd-node.k-i text { font-weight: 700; fill: #1d5c4a; font-size: 16px; }
+  .rd-node.k-n text { font-weight: 700; fill: #7a2a24; font-size: 18px; }
+  .rd-node { cursor: pointer; }
+  .rd-node.on text { fill: #b86b00; font-weight: 700; }
+  .rd-node.on circle { stroke: #b86b00; stroke-width: 2; }
+  /* table */
+  .tb-lab { display: block; font-weight: 600; margin: 6px 0 4px; }
+  #tb-q { width: 100%; max-width: 420px; font: 16px var(--sans, system-ui), sans-serif; padding: 9px 12px; border: 1px solid #c9c2ae; border-radius: 8px; background: #fff; }
+  .tb-d { color: #777; font-size: 0.9em; white-space: nowrap; }
 </style>
 <script is:inline>
 (() => {
-  const org = document.getElementById('iq-org'), fr = document.getElementById('iq-frame');
-  if (!org || !fr) return;
-  const count = (li) => li.querySelectorAll(':scope > ul li').length;
+  const D = JSON.parse(document.getElementById('iq-data').textContent);
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  const wiki = (q) => 'https://en.wikipedia.org/w/index.php?search=' + encodeURIComponent(q);
+
+  /* folding org charts (inverted tree and Imam view) */
   function setOpen(li, open) {
     li.classList.toggle('closed', !open);
     const b = li.querySelector(':scope > .iq-box > button.iq-h');
     if (!b) return;
     b.setAttribute('aria-expanded', String(open));
     const c = b.querySelector('.iq-cnt');
-    if (c) c.textContent = open ? '–' : '+' + count(li);
+    if (c) c.textContent = open ? '–' : '+' + li.querySelectorAll(':scope > ul li').length;
   }
-  let moved = false;
-  org.addEventListener('click', (e) => {
-    const b = e.target.closest('button.iq-h');
-    if (!b || moved) return;
-    const li = b.closest('li');
-    setOpen(li, li.classList.contains('closed'));
-  });
-  function center() { fr.scrollLeft = (fr.scrollWidth - fr.clientWidth) / 2; }
+  function draggable(fr) {
+    let down = false, moved = false, sx = 0, sy = 0, sl = 0, st = 0;
+    fr.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse' || e.target.closest('a')) return; down = true; moved = false; sx = e.clientX; sy = e.clientY; sl = fr.scrollLeft; st = fr.scrollTop; });
+    window.addEventListener('pointermove', (e) => { if (!down) return; const dx = e.clientX - sx, dy = e.clientY - sy; if (Math.abs(dx) + Math.abs(dy) > 4) { moved = true; fr.classList.add('drag'); } fr.scrollLeft = sl - dx; fr.scrollTop = st - dy; });
+    window.addEventListener('pointerup', () => { down = false; fr.classList.remove('drag'); setTimeout(() => { moved = false; }, 0); });
+    fr.addEventListener('click', (e) => {
+      const b = e.target.closest('button.iq-h');
+      if (!b || moved) return;
+      const li = b.closest('li');
+      setOpen(li, li.classList.contains('closed'));
+    });
+  }
+  const center = (fr) => { fr.scrollLeft = (fr.scrollWidth - fr.clientWidth) / 2; };
+
+  const org = document.getElementById('iq-org'), fr = document.getElementById('iq-frame');
+  draggable(fr);
   function level(l) {
     org.querySelectorAll('li').forEach((li) => {
       const k = li.dataset.k;
@@ -202,14 +363,152 @@ const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true
       if (l === 'i') open = !!li.querySelector(":scope > ul li[data-k='i']");
       setOpen(li, open);
     });
-    document.querySelectorAll('.iq-bar button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lvl === l)));
-    requestAnimationFrame(center);
+    document.querySelectorAll('#v-tree .iq-bar button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lvl === l)));
+    requestAnimationFrame(() => center(fr));
   }
-  document.querySelectorAll('.iq-bar button').forEach((b) => b.addEventListener('click', () => level(b.dataset.lvl)));
-  let down = false, sx = 0, sy = 0, sl = 0, st = 0;
-  fr.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse' || e.target.closest('a')) return; down = true; moved = false; sx = e.clientX; sy = e.clientY; sl = fr.scrollLeft; st = fr.scrollTop; });
-  window.addEventListener('pointermove', (e) => { if (!down) return; const dx = e.clientX - sx, dy = e.clientY - sy; if (Math.abs(dx) + Math.abs(dy) > 4) { moved = true; fr.classList.add('drag'); } fr.scrollLeft = sl - dx; fr.scrollTop = st - dy; });
-  window.addEventListener('pointerup', () => { down = false; fr.classList.remove('drag'); setTimeout(() => { moved = false; }, 0); });
+  document.querySelectorAll('#v-tree .iq-bar button').forEach((b) => b.addEventListener('click', () => level(b.dataset.lvl)));
   level('r');
+
+  /* outline */
+  document.getElementById('ol-open').addEventListener('click', () => document.querySelectorAll('.ol-wrap details').forEach((d) => { d.open = true; }));
+  document.getElementById('ol-close').addEventListener('click', () => document.querySelectorAll('.ol-wrap details').forEach((d) => { d.open = d.dataset.k !== 'i' && d.dataset.k !== 'r' && d.dataset.k !== 'q'; }));
+
+  /* radial */
+  let rdScale = 1, rdBuilt = false, rdSize = 0;
+  function buildRadial() {
+    rdBuilt = true;
+    const nodes = [], links = [];
+    let leaf = 0;
+    (function lay(x, depth, parent) {
+      const me = { x, depth, parent, kids: [] };
+      nodes.push(me);
+      if (parent) parent.kids.push(me);
+      const c = x.c || [];
+      if (!c.length) { me.pos = leaf++; } else { c.forEach((y) => lay(y, depth + 1, me)); me.pos = (me.kids[0].pos + me.kids[me.kids.length - 1].pos) / 2; }
+    })(D.tree, 0, null);
+    const maxD = Math.max(...nodes.map((n) => n.depth));
+    const ring = 110, R = ring * maxD, pad = 230;
+    rdSize = 2 * (R + pad);
+    const cx = rdSize / 2;
+    nodes.forEach((n) => { n.a = (n.pos / leaf) * 2 * Math.PI - Math.PI / 2; n.r = (n.kids.length ? n.depth : maxD) * ring; n.px = cx + n.r * Math.cos(n.a); n.py = cx + n.r * Math.sin(n.a); });
+    const col = { n: '#7a2a24', s: '#4b3f72', t: '#6b7c8f', i: '#1d5c4a', r: '#a07a22', q: '#3d6f99' };
+    let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${rdSize} ${rdSize}" width="${rdSize}" height="${rdSize}" role="img" aria-label="Radial chart of the isnād of the ten qirāʾāt">`;
+    for (let d = 1; d <= maxD; d++) s += `<circle cx="${cx}" cy="${cx}" r="${d * ring}" fill="none" stroke="#efe9dc" stroke-width="1"/>`;
+    nodes.forEach((n, i) => {
+      if (!n.parent) return;
+      const p = n.parent, mr = (p.r + n.r) / 2;
+      const m1x = cx + mr * Math.cos(p.a), m1y = cx + mr * Math.sin(p.a), m2x = cx + mr * Math.cos(n.a), m2y = cx + mr * Math.sin(n.a);
+      s += `<path class="rd-link" data-i="${i}" d="M${p.px.toFixed(1)},${p.py.toFixed(1)} C${m1x.toFixed(1)},${m1y.toFixed(1)} ${m2x.toFixed(1)},${m2y.toFixed(1)} ${n.px.toFixed(1)},${n.py.toFixed(1)}"/>`;
+    });
+    nodes.forEach((n, i) => {
+      const x = n.x, deg = n.a * 180 / Math.PI, left = Math.cos(n.a) < 0;
+      const name = x.n.replace(/^\d+ · /, (m) => m), label = esc(name) + (x.d ? ` · ${esc(x.d.split(' · ')[0])}` : '');
+      const r = x.k === 'n' ? 9 : x.k === 'i' ? 7 : 5;
+      let t;
+      if (!n.parent) t = `<text x="${n.px}" y="${n.py + 30}" text-anchor="middle">${esc(name)}</text>`;
+      else if (n.kids.length && x.k === 't') t = '';
+      else if (n.kids.length) t = `<text x="${n.px.toFixed(1)}" y="${(n.py - r - 6).toFixed(1)}" text-anchor="middle">${label}</text>`;
+      else t = `<text transform="translate(${n.px.toFixed(1)},${n.py.toFixed(1)}) rotate(${(left ? deg + 180 : deg).toFixed(1)})" x="${left ? -10 : 10}" dy="0.32em" text-anchor="${left ? 'end' : 'start'}">${label}</text>`;
+      s += `<g class="rd-node k-${x.k}" data-i="${i}" tabindex="0" role="button" aria-label="${esc(name)}, ${x.d ? 'died ' + esc(x.d) : ''}"><circle cx="${n.px.toFixed(1)}" cy="${n.py.toFixed(1)}" r="${r}" fill="${col[x.k]}"/>${t}<title>${esc(name)}${x.d ? ' (d. ' + esc(x.d) + ')' : ''}</title></g>`;
+    });
+    s += '</svg>';
+    const host = document.getElementById('rd');
+    host.innerHTML = s;
+    const svg = host.querySelector('svg');
+    const sel = document.getElementById('rd-sel');
+    function pick(i) {
+      host.querySelectorAll('.on').forEach((e) => e.classList.remove('on'));
+      let n = nodes[i];
+      const chain = [];
+      while (n) { chain.unshift(n.x.n.replace(/^\d+ · /, '')); host.querySelector(`.rd-node[data-i="${nodes.indexOf(n)}"]`).classList.add('on'); const l = host.querySelector(`.rd-link[data-i="${nodes.indexOf(n)}"]`); if (l) l.classList.add('on'); n = n.parent; }
+      sel.textContent = 'Chain: ' + chain.join(' → ');
+    }
+    host.addEventListener('click', (e) => { const g = e.target.closest('.rd-node'); if (g) pick(+g.dataset.i); });
+    host.addEventListener('keydown', (e) => { const g = e.target.closest('.rd-node'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pick(+g.dataset.i); } });
+    document.getElementById('rd-clear').addEventListener('click', () => { host.querySelectorAll('.on').forEach((e) => e.classList.remove('on')); sel.textContent = ''; });
+    const frame = document.getElementById('rd-frame');
+    draggable(frame);
+    const apply = () => { svg.setAttribute('width', String(rdSize * rdScale)); svg.setAttribute('height', String(rdSize * rdScale)); };
+    const fit = () => { rdScale = Math.min(1, (frame.clientWidth - 4) / rdSize); apply(); frame.scrollLeft = (frame.scrollWidth - frame.clientWidth) / 2; frame.scrollTop = 0; };
+    document.getElementById('rd-in').addEventListener('click', () => { const cxp = (frame.scrollLeft + frame.clientWidth / 2) / (rdSize * rdScale), cyp = (frame.scrollTop + frame.clientHeight / 2) / (rdSize * rdScale); rdScale = Math.min(2, rdScale * 1.4); apply(); frame.scrollLeft = cxp * rdSize * rdScale - frame.clientWidth / 2; frame.scrollTop = cyp * rdSize * rdScale - frame.clientHeight / 2; });
+    document.getElementById('rd-out').addEventListener('click', () => { rdScale = Math.max(0.2, rdScale / 1.4); apply(); });
+    document.getElementById('rd-fit').addEventListener('click', fit);
+    fit();
+  }
+
+  /* Imam by Imam */
+  const P = D.chains.people;
+  function findNode(x, name) { if (x.n === name) return x; for (const c of x.c || []) { const f = findNode(c, name); if (f) return f; } return null; }
+  function strip(x, imamNo) {
+    const c = (x.c || []).flatMap((y) => {
+      if (y.k === 'i' && y.n === 'Khalaf b. Hishām' && imamNo === 6) return [{ ...y, also: 'rāwī of Ḥamza (also the 10th Imam)', c: (y.c || []).filter((z) => z.n === 'As rāwī of Ḥamza').flatMap((z) => z.c) }];
+      if (y.k === 'i') return [];
+      if (imamNo === 10 && y.n === 'As rāwī of Ḥamza') return [];
+      return [strip(y, imamNo)];
+    });
+    return { ...x, c };
+  }
+  function boxHtml(x, toggle, extra) {
+    const date = x.d ? `<span class="iq-d">${x.d === 'unknown' ? 'date unknown' : 'd. ' + esc(x.d)}</span>` : '';
+    const also = x.also ? `<span class="iq-also">${esc(x.also)}</span>` : '';
+    const inner = `<b>${esc(x.n)}</b>${date}${also}${extra || ''}`;
+    const head = toggle ? `<button type="button" class="iq-h" aria-expanded="true">${inner}<span class="iq-cnt" aria-hidden="true">–</span></button>` : `<span class="iq-h">${inner}</span>`;
+    const link = x.q ? `<a class="iq-wk" href="${wiki(x.q)}" rel="noopener" target="_blank">Wikipedia ↗</a>` : '';
+    return `<div class="iq-box iq-${x.k}">${head}${link}</div>`;
+  }
+  function orgHtml(x) { const k = x.c || []; return `<li data-k="${x.k}">${boxHtml(x, k.length > 0, x.dis ? '<span class="dis">disputed</span>' : '')}${k.length ? '<ul>' + k.map(orgHtml).join('') + '</ul>' : ''}</li>`; }
+  function showImam(no) {
+    const im = D.chains.imams.find((m) => m.no === no);
+    const node = findNode(D.tree, im.node);
+    const below = strip(node, no);
+    const root = {};
+    im.paths.forEach((x) => {
+      const path = Array.isArray(x) ? x : x.p;
+      let t = root;
+      ['P', ...path].forEach((id) => { t[id] = t[id] || {}; t = t[id]; });
+      const key = Array.isArray(x) ? 'IMAM' : 'IMAM_DIS';
+      t[key] = {};
+    });
+    const name = im.no === 10 ? '10 · Khalaf al-ʿĀshir' : below.n;
+    const people = (id) => { const p = P[id]; return { n: p[0], d: p[1], k: p[2] }; };
+    function build(t) {
+      return Object.entries(t).map(([id, sub]) => {
+        if (id === 'IMAM' || id === 'IMAM_DIS') return { n: name, d: below.d, k: 'i', dis: id === 'IMAM_DIS' ? 1 : 0, c: [] };
+        return { ...people(id), c: build(sub) };
+      });
+    }
+    const tree = build(root)[0];
+    const down = { ...below, n: name, also: undefined };
+    document.getElementById('im-org').innerHTML = `<p class="im-cap">Every chain from the Prophet ﷺ to ${esc(name.replace(/^\d+ · /, ''))}</p><ul>` + orgHtml(tree) + `</ul><p class="im-cap">From ${esc(name.replace(/^\d+ · /, ''))} to the rāwīs and their ṭuruq</p><ul>` + orgHtml(down) + '</ul>';
+    document.querySelectorAll('#im-pick button').forEach((b) => b.setAttribute('aria-pressed', String(+b.dataset.no === no)));
+    requestAnimationFrame(() => center(document.getElementById('im-frame')));
+  }
+  const pick = document.getElementById('im-pick');
+  pick.innerHTML = D.chains.imams.map((m) => `<button type="button" data-no="${m.no}">${esc(P[m.id][0])}</button>`).join('');
+  pick.addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) showImam(+b.dataset.no); });
+  draggable(document.getElementById('im-frame'));
+  showImam(5);
+
+  /* table search */
+  const q = document.getElementById('tb-q'), rows = [...document.querySelectorAll('#tb tbody tr')], cnt = document.getElementById('tb-count');
+  const fold = (s) => s.normalize('NFD').replace(/[̀-ͯʿʾ‘’'ʿʾ]/g, '').toLowerCase();
+  const txt = rows.map((r) => fold(r.textContent));
+  q.addEventListener('input', () => { const v = fold(q.value.trim()); let n = 0; rows.forEach((r, i) => { const ok = !v || txt[i].includes(v); r.hidden = !ok; if (ok) n++; }); cnt.textContent = n + (n === 1 ? ' ṭarīq' : ' ṭuruq'); });
+
+  /* tabs */
+  const tabs = [...document.querySelectorAll('.iq-tabs [role=tab]')];
+  function show(v, focus) {
+    tabs.forEach((t) => { const on = t.dataset.v === v; t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1; document.getElementById(t.getAttribute('aria-controls')).hidden = !on; if (on && focus) t.focus(); });
+    if (v === 'radial' && !rdBuilt) buildRadial();
+    if (v === 'tree') requestAnimationFrame(() => center(fr));
+    if (v === 'imam') requestAnimationFrame(() => center(document.getElementById('im-frame')));
+    try { history.replaceState(null, '', '#' + v); } catch (e) {}
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => show(t.dataset.v));
+    t.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { const j = (i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length; show(tabs[j].dataset.v, true); } });
+  });
+  const h = location.hash.slice(1);
+  if (tabs.some((t) => t.dataset.v === h)) show(h);
 })();
 </script>
