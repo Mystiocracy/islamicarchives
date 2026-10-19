@@ -104,7 +104,14 @@
         render(false, anchor); return;
       }
       if (d.data.children) { d.data.children = null; d.data.shown = 0; } else expand(d.data);
-      selected = d.data.id; render(false, anchor); select(d.data.id);
+      selected = d.data.id; render(false, anchor);
+      var par = d.parent && d.parent.data, key = null, nm = '';
+      if (par && !par.more) {
+        key = mode === 'down' ? par.id + '_' + d.data.id : d.data.id + '_' + par.id;
+        var T = P[mode === 'down' ? par.id : d.data.id], S = P[mode === 'down' ? d.data.id : par.id];
+        nm = 'Ḥadīth ' + (T ? T.n : '') + ' passed to ' + (S ? S.n : '');
+      }
+      select(d.data.id, key, nm);
     }
     function drawCrumb() {
       var p = P[rootId] || {};
@@ -117,6 +124,26 @@
     $('btlegend').innerHTML = leg.map(function (k) { return '<span><i style="background:var(' + (typeof k[0] === 'string' ? '--' + k[0] : gvar(k[0])) + ')"></i>' + k[1] + '</span>'; }).join('') +
       '<span>· generation (ṭabaqa) · number = ḥadīth along that link · dashed ring = more to open</span>';
 
+    /* ---------- ḥadīth along a link ---------- */
+    var snips = null, snipLoad = null;
+    function getSnips() { return snips ? Promise.resolve(snips) : (snipLoad = snipLoad || fetch('/hadith/bukhari-snips.json').then(function (r) { return r.json(); }).then(function (j) { snips = j; return j; })); }
+    function hadithItems(key, from, to) {
+      var ns = DATA.x[key] || [];
+      return ns.slice(from, to).map(function (n) {
+        var sn = snips && snips[n];
+        return '<li class="hl"><a href="/hadith/bukhari/' + n + '/"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></a></li>';
+      }).join('');
+    }
+    function openLink(holder, key) {
+      var ns = DATA.x[key] || [];
+      holder.innerHTML = '<p class="hl-load">Loading…</p>';
+      getSnips().then(function () {
+        holder.innerHTML = '<ol class="hlist">' + hadithItems(key, 0, 10) + '</ol>' + (ns.length > 10 ? '<button type="button" class="showall hl-more">Show all ' + ns.length + ' ḥadīth</button>' : '');
+        var b = holder.querySelector('.hl-more');
+        if (b) b.onclick = function () { holder.querySelector('.hlist').insertAdjacentHTML('beforeend', hadithItems(key, 10, ns.length)); b.remove(); };
+      }).catch(function () { holder.innerHTML = '<p class="hl-load">The ḥadīth list could not be loaded.</p>'; });
+    }
+
     /* ---------- narrator card ---------- */
     var card = $('btcard');
     function list(arr, label, key) {
@@ -124,17 +151,18 @@
       var lim = 8;
       var li = arr.map(function (a, i) {
         var q = P[a[0]] || {};
-        return '<li' + (i >= lim ? ' data-extra hidden' : '') + '><button type="button" data-id="' + a[0] + '">' + esc(q.n) + (q.d != null ? ' <span class="yr">d. ' + yr(q.d) + '</span>' : '') + '</button><span class="num">' + a[1] + '</span></li>';
+        var ek = key === 't' ? a[0] + '_' + curId : curId + '_' + a[0];
+        return '<li' + (i >= lim ? ' data-extra hidden' : '') + '><div class="row"><button type="button" data-id="' + a[0] + '">' + esc(q.n) + (q.d != null ? ' <span class="yr">d. ' + yr(q.d) + '</span>' : '') + '</button><button type="button" class="cnt" data-link="' + ek + '" aria-expanded="false" title="Show the ḥadīth along this link">' + a[1] + ' ḥadīth</button></div><div class="links-here"></div></li>';
       }).join('');
       return '<h3><span>' + label + '</span><span>' + arr.length + '</span></h3><ul data-list="' + key + '">' + li + '</ul>' + (arr.length > lim ? '<button type="button" class="showall" data-for="' + key + '">Show all ' + arr.length + '</button>' : '');
     }
-    function select(id) {
-      selected = id;
+    var curId = null;
+    function select(id, viaKey, viaName) {
+      selected = id; curId = id;
       vp.selectAll('g.node').classed('sel', function (d) { return !d.data.more && d.data.id === id; });
       var p = P[id]; if (!p) return;
       card.hidden = false;
       var life = [p.b != null ? 'b. ' + yr(p.b) : '', p.d != null ? 'd. ' + yr(p.d) + ' <span class="yr">(c. ' + ce(p.d) + ' CE)</span>' : ''].filter(Boolean).join(' – ');
-      var fromHim = (teachers[0] || []).some(function (t) { return t[0] == id; }) ? DATA.x[id + '_0'] : null;
       var what = id == 0 ? 'ḥadīth with a chain' : id == -1 ? 'ḥadīth reaching him' : 'ḥadīth pass through him';
       card.innerHTML = '<button type="button" class="close" aria-label="Close">×</button>' +
         '<div class="eyebrow"><i style="background:' + gcol(id) + '"></i>' + esc(genLabel(id)) + '</div>' +
@@ -144,12 +172,18 @@
         '<dt>In al-Bukhārī</dt><dd>' + p.h.toLocaleString('en-GB') + ' ' + what + '</dd></dl>' +
         '<div class="actions">' + ((teachers[id] || []).length ? '<button type="button" class="primary" data-root="' + id + '" data-dir="up">Tree of his teachers</button>' : '') +
         ((students[id] || []).length ? '<button type="button" data-root="' + id + '" data-dir="down">Tree of his students</button>' : '') + '</div>' +
+        (viaKey && DATA.x[viaKey] ? '<h3><span>' + esc(viaName) + '</span><span>' + DATA.x[viaKey].length + '</span></h3><div class="links-here" id="btvia"></div>' : '') +
         list(teachers[id], id == 0 ? 'His teachers in the Ṣaḥīḥ' : 'Narrates from', 't') + list(students[id], 'Narrated by', 's') +
-        (fromHim ? '<p class="ext">Al-Bukhārī heard from him, for example, ḥadīth ' + fromHim.map(function (n) { return '<a href="https://sunnah.com/bukhari:' + n + '" rel="noopener" target="_blank">no. ' + n + '</a>'; }).join(', ') + '.</p>' : '') +
         (id > 0 ? '<p class="ext"><a href="https://muslimscholars.info/manage.php?submit=scholar&amp;ID=' + id + '" rel="noopener" target="_blank">Full entry on muslimscholars.info ↗</a></p>' : '');
       card.querySelector('.close').onclick = function () { card.hidden = true; };
       card.querySelectorAll('[data-root]').forEach(function (b) { b.onclick = function () { showView('tree'); setRoot(+b.dataset.root, b.dataset.dir); }; });
-      card.querySelectorAll('li button').forEach(function (b) { b.onclick = function () { select(+b.dataset.id); }; });
+      card.querySelectorAll('li button[data-id]').forEach(function (b) { b.onclick = function () { select(+b.dataset.id); }; });
+      card.querySelectorAll('button.cnt').forEach(function (b) { b.onclick = function () {
+        var holder = b.closest('li').querySelector('.links-here'), open = b.getAttribute('aria-expanded') === 'true';
+        b.setAttribute('aria-expanded', String(!open));
+        if (open) holder.innerHTML = ''; else openLink(holder, b.dataset.link);
+      }; });
+      if (viaKey && $('btvia')) openLink($('btvia'), viaKey);
       card.querySelectorAll('.showall').forEach(function (b) { b.onclick = function () { card.querySelectorAll('ul[data-list="' + b.dataset.for + '"] [data-extra]').forEach(function (li) { li.hidden = false; }); b.remove(); }; });
       card.scrollTop = 0;
     }
@@ -207,8 +241,10 @@
     $('vIndex').onclick = function () { showView('index'); };
     $('dDown').onclick = function () { showView('tree'); setRoot(-1, 'down'); };
     $('dUp').onclick = function () { showView('tree'); setRoot(0, 'up'); };
-    setRoot(-1, 'down');
-    if (window.innerWidth <= 860) card.hidden = true;
+    var m = /^#n(-?\d+)$/.exec(location.hash);
+    if (m && P[m[1]]) { setRoot(+m[1], (teachers[m[1]] || []).length ? 'up' : 'down'); }
+    else { setRoot(-1, 'down'); if (window.innerWidth <= 860) card.hidden = true; }
+    window.addEventListener('hashchange', function () { var h = /^#n(-?\d+)$/.exec(location.hash); if (h && P[h[1]]) { showView('tree'); setRoot(+h[1], (teachers[h[1]] || []).length ? 'up' : 'down'); } });
     if (location.hash === '#index') showView('index');
   }
 })();

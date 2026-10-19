@@ -38,6 +38,7 @@ export async function GET() {
     ['Isnād of the Ten Qirāʾāt', '/quran/manuscripts/qiraat-isnad/', 'qiraat qirat readings isnad tree turuq tariq riwayat rawi hafs warsh qalun nafi asim hamza kisai ibn kathir abu amr ibn amir abu jafar yaqub khalaf ibn al-jazari nashr', 'Manuscript catalogue · Chart'],
     ['Manuscript scholars', '/quran/scholars/', 'quranic manuscripts researchers palaeography', 'Quran section'],
     ['Hadith Hub', '/hadith/', 'hadith sunnah isnad narrators rijal', 'Hadith section'],
+    ['Ṣaḥīḥ al-Bukhārī', '/hadith/bukhari/', 'sahih bukhari hadith text arabic english search books', 'Hadith Hub · Text'],
     ['Narrators of Ṣaḥīḥ al-Bukhārī', '/hadith/bukhari-narrators/', 'bukhari sahih rijal narrators isnad chain tree tabaqat generations grades thiqah ruwat', 'Hadith Hub · Chart'],
     ...manuscripts.map((m: any) => [m.name, `/quran/manuscripts/#${m.id}`, [m.institution, m.location, m.period, m.kind, m.source].filter(Boolean).join(' '), `Manuscript catalogue · ${m.kind}`]),
     ...scholars.map((m: any) => [m.name, `/quran/scholars/#${m.id}`, [m.nameNative, m.affiliation, m.kind].filter(Boolean).join(' '), `Manuscript scholars · ${m.kind}`]),

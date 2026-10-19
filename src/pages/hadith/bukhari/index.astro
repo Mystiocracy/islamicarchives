@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/hadith.css';
+import { bukhari, ARCHIVED } from '../../../lib/hadith';
+import { longDate } from '../../../lib/quran';
+
+const { books, hadiths } = bukhari();
+const fmt = (n: number) => n.toLocaleString('en-GB');
+---
+<Base title="Ṣaḥīḥ al-Bukhārī" description={`The full text of Ṣaḥīḥ al-Bukhārī, ${fmt(hadiths.length)} ḥadīth in Arabic and English, searchable, with each chain of narrators linked to the narrator tree.`} current="hadith">
+  <div class="hd" style="max-width:1100px">
+    <nav class="hd-crumb" aria-label="Breadcrumb"><a href="/hadith/">Hadith Hub</a> › Ṣaḥīḥ al-Bukhārī</nav>
+    <header class="hd-head" data-pagefind-body>
+      <span class="eyebrow">al-Jāmiʿ al-Ṣaḥīḥ · <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic',serif; text-transform:none">صحيح البخاري</span></span>
+      <h1 data-pagefind-meta="title">Ṣaḥīḥ al-Bukhārī</h1>
+      <p class="muted" style="margin:0; font-size:17px; max-width:760px">The collection of Muḥammad b. Ismāʿīl al-Bukhārī (d. 256 AH): {fmt(hadiths.length)} ḥadīth in {books.length} books, in Arabic and in Muhammad Muhsin Khan's English translation. Each ḥadīth has its own page with its chain of narrators, and every name in a chain opens that narrator in the <a href="/hadith/bukhari-narrators/">narrator tree</a>.</p>
+    </header>
+
+    <section id="search" aria-labelledby="sh" style="display:flex; flex-direction:column; gap:12px">
+      <h2 id="sh">Search the text</h2>
+      <form class="hd-search" role="search" id="hsform">
+        <label for="hsq" class="sr-only">Words to find</label>
+        <input id="hsq" type="search" placeholder="English or Arabic, e.g. intentions, النيات, Ramadan" autocomplete="off">
+        <label for="hsb" class="sr-only">Book</label>
+        <select id="hsb"><option value="">All books</option>{books.map((b) => <option value={b.name}>{b.k}. {b.name}</option>)}</select>
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <p class="hd-note" id="hsstat" aria-live="polite">Arabic can be typed with or without vowel marks. To find a ḥadīth by number, type the number.</p>
+      <ol class="hd-list" id="hsres" hidden></ol>
+      <button class="btn btn-quiet" id="hsmore" type="button" hidden style="align-self:flex-start">Show more results</button>
+    </section>
+
+    <section aria-labelledby="bh" style="display:flex; flex-direction:column; gap:12px">
+      <h2 id="bh">The books</h2>
+      <div class="hd-books">
+        {books.map((b) => <a href={`/hadith/bukhari/book/${b.k}/`}><span><span class="k">{b.k}</span>{b.name}</span><span class="c">{b.first}–{b.last}</span></a>)}
+      </div>
+    </section>
+
+    <p class="hd-cite"><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>Sources:</strong> Arabic text, English translation (Muhammad Muhsin Khan) and sunnah.com numbering from the open <a href="https://github.com/fawazahmed0/hadith-api" rel="noopener" target="_blank">hadith-api</a> collection; chains of narrators from the Hadith Narrators dataset and muslimscholars.info, matched automatically. Read alongside <a href="https://sunnah.com/bukhari" rel="noopener" target="_blank">sunnah.com</a> for the established reference numbers of other editions.</p>
+  </div>
+  <script is:inline>
+  (function () {
+    var form = document.getElementById('hsform'), q = document.getElementById('hsq'), bk = document.getElementById('hsb');
+    var out = document.getElementById('hsres'), stat = document.getElementById('hsstat'), more = document.getElementById('hsmore');
+    var pf = null, results = [], shown = 0, PAGE = 20, token = 0;
+    function plain(s) { return s.replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g, '').replace(/[إأآٱ]/g, 'ا'); }
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+    function load() { return pf ? Promise.resolve(pf) : import('/pagefind/pagefind.js').then(function (m) { pf = m; return m; }); }
+    function draw() {
+      var slice = results.slice(shown, shown + PAGE); shown += slice.length;
+      return Promise.all(slice.map(function (r) { return r.data(); })).then(function (ds) {
+        out.insertAdjacentHTML('beforeend', ds.map(function (d) {
+          var no = (d.meta.title || '').replace('Ṣaḥīḥ al-Bukhārī ', '');
+          return '<li><a href="' + esc(d.url) + '"><span class="no">' + esc(no) + '</span><span class="tx">' + d.excerpt + '</span><span class="bk">' + esc((d.filters.book || [''])[0]) + '</span></a></li>';
+        }).join(''));
+        out.hidden = !shown; more.hidden = shown >= results.length;
+      });
+    }
+    function run(e) {
+      if (e) e.preventDefault();
+      var term = q.value.trim(), my = ++token;
+      try { history.replaceState(null, '', term ? '?q=' + encodeURIComponent(term) + (bk.value ? '&book=' + encodeURIComponent(bk.value) : '') + '#search' : location.pathname + '#search'); } catch (x) {}
+      out.innerHTML = ''; out.hidden = true; more.hidden = true; shown = 0;
+      if (!term) { stat.textContent = 'Type a word or phrase to search.'; return; }
+      if (/^\d{1,4}[a-z]?$/i.test(term)) { location.href = '/hadith/bukhari/' + term.toLowerCase() + '/'; return; }
+      stat.textContent = 'Searching…';
+      load().then(function (m) {
+        var filters = { collection: 'Ṣaḥīḥ al-Bukhārī' }; if (bk.value) filters.book = bk.value;
+        return m.search(plain(term), { filters: filters });
+      }).then(function (res) {
+        if (my !== token) return;
+        results = res.results;
+        stat.textContent = results.length ? results.length.toLocaleString('en-GB') + ' ḥadīth found' + (bk.value ? ' in ' + bk.value : '') + '.' : 'Nothing found. Try another spelling or fewer words.';
+        return draw();
+      }).catch(function () { stat.textContent = 'Search is not available in this preview. It works on the live site.'; });
+    }
+    form.addEventListener('submit', run);
+    more.addEventListener('click', draw);
+    var p = new URLSearchParams(location.search);
+    if (p.get('book')) bk.value = p.get('book');
+    if (p.get('q')) { q.value = p.get('q'); run(); }
+  })();
+  </script>
+</Base>

@@ -1,0 +1,47 @@
+/* Ṣaḥīḥ al-Bukhārī text pages (/hadith/bukhari/...) */
+.hd { max-width: 900px; margin: 0 auto; padding: 24px clamp(16px, 3vw, 24px) 48px; display: flex; flex-direction: column; gap: 22px; }
+.hd-crumb { font-size: 14px; color: var(--muted); }
+.hd-crumb a { color: var(--green); }
+.hd-head { display: flex; flex-direction: column; gap: 6px; }
+.hd-head .eyebrow { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--saffron-text); font-weight: 600; }
+.hd-head h1 { font-size: 34px; }
+.hd-head .book { color: var(--muted); font-size: 16px; }
+.hd-head .book [lang='ar'] { font-family: 'Noto Naskh Arabic', serif; }
+.hd-ar { font-family: 'Noto Naskh Arabic', serif; font-size: 25px; line-height: 2.05; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin: 0; }
+.hd-en { font-family: var(--serif); font-size: 19px; line-height: 1.7; color: var(--ink-2); margin: 0; white-space: pre-line; }
+.hd-credit { font-size: 13px; color: var(--muted); margin: -12px 0 0; }
+.hd-plain { display: none; }
+.hd h2 { font-size: 22px; margin: 6px 0 0; }
+.hd-chain { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 4px; margin: 0; padding: 0; list-style: none; }
+.hd-chain li { display: flex; align-items: center; gap: 4px; }
+.hd-chain li + li::before { content: '→'; color: var(--muted); margin: 0 4px; }
+.hd-chain a, .hd-chain span.pr { display: inline-flex; flex-direction: column; text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; line-height: 1.25; }
+.hd-chain a:hover { border-color: var(--green); color: var(--green); }
+.hd-chain small { color: var(--muted); font-size: 12px; }
+.hd-chain .pr { background: var(--green-tint) !important; border-color: var(--green-line) !important; }
+.hd-chain .bk { background: var(--saffron-tint) !important; border-color: #E7CFA4 !important; }
+.hd-note { font-size: 14px; color: var(--muted); margin: 0; }
+.hd-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.hd-nav { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 16px; }
+.hd-cite { font-size: 13px; line-height: 1.55; color: var(--muted); overflow-wrap: anywhere; margin: 0; }
+.hd-cite strong { color: var(--ink-2); font-weight: 600; }
+
+/* lists of ḥadīth (book pages, search results) */
+.hd-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.hd-list li { border-bottom: 1px solid var(--line-2); }
+.hd-list li:last-child { border-bottom: 0; }
+.hd-list a { display: grid; grid-template-columns: 4.5em 1fr; gap: 4px 14px; padding: 12px 18px; text-decoration: none; color: var(--ink); }
+.hd-list a:hover { background: var(--green-tint); }
+.hd-list .no { font-weight: 600; color: var(--green); font-variant-numeric: tabular-nums; }
+.hd-list .tx { min-width: 0; font-size: 15px; line-height: 1.5; color: var(--ink-2); }
+.hd-list .tx mark { background: var(--saffron-tint); color: inherit; padding: 0 1px; }
+.hd-list .bk { grid-column: 2; font-size: 13px; color: var(--muted); }
+.hd-books { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.hd-books a { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--ink); }
+.hd-books a:hover { border-color: var(--green); }
+.hd-books .k { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; margin-right: 6px; }
+.hd-books .c { color: var(--muted); font-size: 13px; white-space: nowrap; }
+.hd-search { display: flex; gap: 10px; flex-wrap: wrap; }
+.hd-search input { flex: 1 1 320px; min-width: 0; }
+.hd-search select { flex: 0 1 260px; min-width: 0; }
+@media (max-width: 600px) { .hd-ar { font-size: 22px; padding: 16px; } .hd-head h1 { font-size: 28px; } }

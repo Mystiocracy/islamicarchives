@@ -8,7 +8,8 @@ import fs from 'node:fs';
 const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'hadith-studies')).length;
 const narr = JSON.parse(fs.readFileSync('public/hadith/bukhari-narrators.json', 'utf8'));
 const narrators = Object.keys(narr.p).filter((k) => +k > 0).length;
-const counts: Record<string, string> = { '/subjects/hadith-studies/': String(works), '/hadith/bukhari-narrators/': narrators.toLocaleString('en-GB') };
+const texts = JSON.parse(fs.readFileSync('content/hadith/bukhari.json', 'utf8')).hadiths.length;
+const counts: Record<string, string> = { '/subjects/hadith-studies/': String(works), '/hadith/bukhari-narrators/': narrators.toLocaleString('en-GB'), '/hadith/bukhari/': texts.toLocaleString('en-GB') };
 const tiles = hub.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', counts[t.href] ?? '') }));
 ---
 <Base title={hub.title} description={hub.description} current="hadith">

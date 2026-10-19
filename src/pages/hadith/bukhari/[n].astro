@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/hadith.css';
+import { bukhari, searchArabic, sunnahUrl, ARCHIVED, type Hadith } from '../../../lib/hadith';
+import { longDate, SITE } from '../../../lib/quran';
+
+export function getStaticPaths() {
+  const { hadiths } = bukhari();
+  return hadiths.map((h, i) => ({ params: { n: h.n }, props: { i } }));
+}
+const { i } = Astro.props as { i: number };
+const { hadiths, books, people } = bukhari();
+const h: Hadith = hadiths[i];
+const prev = hadiths[i - 1], next = hadiths[i + 1];
+const book = books.find((b) => b.k === h.book);
+const here = `${SITE}/hadith/bukhari/${h.n}/`;
+const yr = (y?: number) => (y == null ? '' : y < 0 ? `${-y} BH` : `d. ${y}`);
+const person = (id: number) => people[String(id)] || { n: `Narrator #${id}`, h: 0 };
+// each chain runs from al-Bukhārī's teacher back to the earliest narrator; show it from the Prophet ﷺ forward
+const chains = h.chains.map((ch) => {
+  const ids = [...ch].reverse();
+  const toProphet = person(ch[ch.length - 1]).g === 1;
+  return { ids, toProphet };
+});
+const cite = `al-Bukhārī, Ṣaḥīḥ al-Bukhārī, ḥadīth ${h.n}${book ? ` (Book ${book.k}, ${book.name}, no. ${h.inbook})` : ''}. English translation by Muhammad Muhsin Khan. In Islamic Internet Archives, archived ${longDate(ARCHIVED)}. ${here}.`;
+const title = `Ṣaḥīḥ al-Bukhārī ${h.n}`;
+const lead = h.en.replace(/\s+/g, ' ').replace(/^Narrated [^:]{1,80}:\s*/, '').slice(0, 150);
+---
+<Base title={title} description={lead || `Ḥadīth ${h.n} of Ṣaḥīḥ al-Bukhārī in Arabic and English, with its chain of narrators.`} current="hadith">
+  <article class="hd" data-pagefind-body>
+    <nav class="hd-crumb" aria-label="Breadcrumb" data-pagefind-ignore><a href="/hadith/">Hadith Hub</a> › <a href="/hadith/bukhari/">Ṣaḥīḥ al-Bukhārī</a> › {book && <a href={`/hadith/bukhari/book/${book.k}/`}>Book {book.k}: {book.name}</a>}</nav>
+    <header class="hd-head">
+      <span class="eyebrow" data-pagefind-filter="collection">Ṣaḥīḥ al-Bukhārī</span>
+      <h1 data-pagefind-meta="title">{title}</h1>
+      {book && <span class="book">Book {book.k}, <span data-pagefind-filter="book">{book.name}</span> · <span lang="ar" dir="rtl">{book.ar}</span> · no. {h.inbook} in the book</span>}
+    </header>
+
+    {h.ar && <p class="hd-ar" lang="ar" dir="rtl">{h.ar}</p>}
+    {h.ar && <p class="hd-plain" lang="ar" aria-hidden="true">{searchArabic(h.ar)}</p>}
+    {h.en && <p class="hd-en">{h.en}</p>}
+    {h.en && <p class="hd-credit" data-pagefind-ignore>English translation by Muhammad Muhsin Khan.</p>}
+
+    <section data-pagefind-ignore>
+      <h2>{chains.length > 1 ? 'Chains of narrators' : 'Chain of narrators'}</h2>
+      {chains.length === 0 && <p class="hd-note">The narrator dataset used here has no chain for this ḥadīth. The chain can be read at the start of the Arabic text.</p>}
+      {chains.map((c, k) => (
+        <>
+          {chains.length > 1 && <p class="hd-note" style="margin-top:12px">Chain {k + 1}</p>}
+          <ol class="hd-chain">
+            {c.toProphet && <li><span class="pr">The Prophet ﷺ<small>d. 11</small></span></li>}
+            {c.ids.map((id) => { const p = person(id); return <li><a href={`/hadith/bukhari-narrators/#n${id}`}>{p.n}<small>{yr(p.d) || (p.g === 1 ? 'Companion' : '')}</small></a></li>; })}
+            <li><a class="bk" href="/hadith/bukhari-narrators/#n0">al-Bukhārī<small>d. 256</small></a></li>
+          </ol>
+        </>
+      ))}
+      <p class="hd-note" style="margin-top:10px">Each name opens that narrator in the <a href="/hadith/bukhari-narrators/">tree of al-Bukhārī's narrators</a>. Chains come from an automatically matched dataset and may contain mistakes.</p>
+    </section>
+
+    <div class="hd-links" data-pagefind-ignore>
+      <a class="btn btn-quiet" href={sunnahUrl(h)} rel="noopener" target="_blank">Read on sunnah.com ↗</a>
+      {book && <a class="btn btn-quiet" href={`/hadith/bukhari/book/${book.k}/`}>All of Book {book.k}</a>}
+      <a class="btn btn-quiet" href="/hadith/bukhari/#search">Search the Ṣaḥīḥ</a>
+    </div>
+
+    <nav class="hd-nav" aria-label="Neighbouring ḥadīth" data-pagefind-ignore>
+      {prev ? <a href={`/hadith/bukhari/${prev.n}/`}>← Ḥadīth {prev.n}</a> : <span></span>}
+      {next ? <a href={`/hadith/bukhari/${next.n}/`}>Ḥadīth {next.n} →</a> : <span></span>}
+    </nav>
+    <p class="hd-cite" data-pagefind-ignore><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite} Arabic text and numbering as on sunnah.com, from the open hadith-api collection.</p>
+  </article>
+</Base>

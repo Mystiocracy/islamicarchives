@@ -22,7 +22,7 @@ jobs:
         run: |
           {
             echo "https://islamicarchives.org/"
-            for p in library authors quran quran/corpus/ quran/manuscripts quran/scholars quran/tafsir hadith hadith/bukhari-narrators about permissions delivery; do
+            for p in library authors quran quran/corpus/ quran/manuscripts quran/scholars quran/tafsir hadith hadith/bukhari hadith/bukhari-narrators about permissions delivery; do
               echo "https://islamicarchives.org/$p/"
             done
             for f in content/authors/*.md; do echo "https://islamicarchives.org/authors/$(basename "$f" .md)/"; done

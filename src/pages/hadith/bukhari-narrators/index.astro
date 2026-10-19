@@ -22,13 +22,13 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
     <div class="ap">
       <p class="sub">Rijāl al-Bukhārī</p>
       <h1 data-pagefind-meta="title">Narrators of Ṣaḥīḥ al-Bukhārī</h1>
-      <p class="sub">{fmt(N)} narrators in {fmt(D.nh)} chains, from the Prophet ﷺ to al-Bukhārī. Archived {longDate(ARCHIVED)}.</p>
+      <p class="sub">{fmt(N)} narrators in the chains of {fmt(D.nh)} ḥadīth, from the Prophet ﷺ to al-Bukhārī. Archived {longDate(ARCHIVED)}.</p>
 
       <div class="iq-warn" role="note">
         <p><strong>Compiled automatically: it may contain mistakes.</strong> The chains and names were put together with an AI assistant (Claude, by Anthropic) from two public databases, listed at the foot of the page, and were not checked chain by chain against the printed Ṣaḥīḥ. Treat it as a map for finding your way, and check anything you rely on against al-Bukhārī's text and the books of rijāl.</p>
       </div>
 
-      <p>Start from the Prophet ﷺ and follow each narrator to the people who took ḥadīth from him, or start from al-Bukhārī and go back through his teachers. Tap a name to open the next generation and to see that narrator's details: his dates, where he lived and died, his grade, and everyone he narrates from and to in the Ṣaḥīḥ. Any narrator can become the start of a new tree.</p>
+      <p>Start from the Prophet ﷺ and follow each narrator to the people who took ḥadīth from him, or start from al-Bukhārī and go back through his teachers. Tap a name to open the next generation and to see that narrator's details: his dates, where he lived and died, his grade, and everyone he narrates from and to in the Ṣaḥīḥ. Any narrator can become the start of a new tree. The green count beside each teacher or student lists the ḥadīth that passed between them; each opens the ḥadīth in Arabic and English in <a href="/hadith/bukhari/">the full text of the Ṣaḥīḥ</a>.</p>
     </div>
   </div>
 
@@ -77,14 +77,14 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
       <h2>Reading the tree</h2>
       <ul>
         <li><strong>Colours</strong> show the generation (ṭabaqa) in Ibn Ḥajar's scheme in <em>Taqrīb al-Tahdhīb</em>: 1 for the Companions, 2 to 6 for the Successors from senior to junior, 7 to 9 for their followers, and 10 to 12 for the generations al-Bukhārī studied with.</li>
-        <li><strong>The number</strong> after a name is how many of al-Bukhārī's ḥadīth pass along that link. Thicker lines carry more ḥadīth.</li>
+        <li><strong>The number</strong> after a name is how many of al-Bukhārī's ḥadīth pass along that link. Thicker lines carry more ḥadīth. Tap the name and the card lists those ḥadīth.</li>
         <li><strong>A dashed ring</strong> means the name has a further generation to open. Long lists open twelve at a time; tap “more” for the rest.</li>
         <li><strong>Dates</strong> are death years in hijri; the narrator card adds the Common Era year.</li>
         <li><strong>Grades</strong> follow muslimscholars.info's summary of Ibn Ḥajar's verdicts: <em>thiqa</em> (trustworthy), <em>thiqa thiqa</em> (doubly so), <em>ṣadūq</em> (truthful), <em>maqbūl</em> (acceptable when supported) and so on.</li>
       </ul>
 
       <h2>About the data</h2>
-      <p>The chains come from the Hadith Narrators dataset, which gives the narrators of each ḥadīth in the Six Books as numbered entries from muslimscholars.info. For al-Bukhārī it covers {fmt(D.nh)} ḥadīth. The names, dates, generations and grades were then taken from each narrator's page on muslimscholars.info. A link between two people means one received a ḥadīth from the other in at least one of al-Bukhārī's chains.</p>
+      <p>The chains come from the Hadith Narrators dataset, which gives the narrators of each ḥadīth in the Six Books as numbered entries from muslimscholars.info. For al-Bukhārī it gives chains for {fmt(D.nh)} of the {fmt(D.nt)} ḥadīth, which were matched to the sunnah.com numbering by comparing their Arabic text. The names, dates, generations and grades were then taken from each narrator's page on muslimscholars.info. A link between two people means one received a ḥadīth from the other in at least one of al-Bukhārī's chains.</p>
       <p>Some limits follow from this. The dataset keeps one chain per ḥadīth, so many of al-Bukhārī's second and third chains for the same text are missing, as are most of his suspended reports (<em>taʿlīq</em>). Al-Bukhārī repeats ḥadīth under several chapters, and the counts include the repeats. Names in the chains were matched to people automatically, and a few links look doubtful (a Companion shown narrating from a later figure, for instance). Chains that end at a Companion are joined to the Prophet ﷺ; those that end at a later narrator are left as they are. Sixteen narrators have no generation recorded and about 330 have no death date.</p>
 
       <h2>The most-cited narrators</h2>
@@ -100,7 +100,7 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
         <li>Hadith Narrators dataset (Kaggle), mirrored on Hugging Face as <a href="https://huggingface.co/datasets/Almoooo/dataset_hadith" rel="noopener" target="_blank">Almoooo/dataset_hadith</a>: the chains</li>
         <li><a href="https://muslimscholars.info/" rel="noopener" target="_blank">muslimscholars.info</a>: names, dates, generations, places and grades; each narrator card links to the full entry</li>
         <li>Ibn Ḥajar al-ʿAsqalānī, <em>Taqrīb al-Tahdhīb</em> and <em>Tahdhīb al-Tahdhīb</em>; al-Mizzī, <em>Tahdhīb al-Kamāl</em> (the printed sources for the generations and grades)</li>
-        <li><a href="https://sunnah.com/bukhari" rel="noopener" target="_blank">Ṣaḥīḥ al-Bukhārī on sunnah.com</a>, to read any ḥadīth by its number</li>
+        <li><a href="/hadith/bukhari/">Ṣaḥīḥ al-Bukhārī</a> on this site, searchable in Arabic and English (text from the open <a href="https://github.com/fawazahmed0/hadith-api" rel="noopener" target="_blank">hadith-api</a> collection), and on <a href="https://sunnah.com/bukhari" rel="noopener" target="_blank">sunnah.com</a></li>
         <li><a href="/subjects/hadith-studies/">Hadith studies</a> in this library</li>
       </ul>
 
@@ -178,11 +178,22 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
   .bt-card .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
   .bt-card .actions button { font: 600 14px var(--sans); border: 1px solid var(--green); color: var(--green); background: var(--surface); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
   .bt-card .actions button.primary { background: var(--green); color: #fff; }
-  .bt-card h3 { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 16px 0 4px; display: flex; justify-content: space-between; }
+  .bt-card h3 { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 16px 0 4px; display: flex; justify-content: space-between; gap: 12px; }
   .bt-card ul { list-style: none; padding: 0; margin: 0; }
-  .bt-card li { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px solid var(--line-2); font-size: 14.5px; }
-  .bt-card li button { border: 0; background: none; padding: 0; cursor: pointer; text-align: left; color: var(--ink); font: inherit; min-width: 0; }
-  .bt-card li button:hover { color: var(--green); text-decoration: underline; }
+  .bt-card li { padding: 5px 0; border-bottom: 1px solid var(--line-2); font-size: 14.5px; }
+  .bt-card li .row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .bt-card button.cnt { flex: none; border: 1px solid var(--green-line); background: var(--green-tint); color: var(--green); border-radius: 999px; padding: 1px 8px; font: 600 12px var(--sans); cursor: pointer; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .bt-card button.cnt[aria-expanded="true"] { background: var(--green); color: #fff; border-color: var(--green); }
+  .bt-card .links-here:empty { display: none; }
+  .bt-card .links-here { margin: 6px 0 4px; }
+  .bt-card ol.hlist { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--green-line); }
+  .bt-card li.hl { border: 0; padding: 0; }
+  .bt-card li.hl a { display: grid; grid-template-columns: 3.4em 1fr; gap: 8px; padding: 5px 8px; text-decoration: none; color: var(--ink-2); font-size: 13.5px; line-height: 1.45; }
+  .bt-card li.hl a:hover { background: var(--green-tint); }
+  .bt-card li.hl b { color: var(--green); font-variant-numeric: tabular-nums; }
+  .bt-card .hl-load { font-size: 13px; color: var(--muted); margin: 4px 0; }
+  .bt-card li .row button[data-id] { border: 0; background: none; padding: 0; cursor: pointer; text-align: left; color: var(--ink); font: inherit; min-width: 0; }
+  .bt-card li .row button[data-id]:hover { color: var(--green); text-decoration: underline; }
   .bt-card .yr, .bt-card .num { color: var(--muted); font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
   .bt-card .showall { border: 0; background: none; color: var(--green); cursor: pointer; padding: 6px 0; font: 600 14px var(--sans); }
   .bt-card .ext { font-size: 13.5px; color: var(--muted); margin: 14px 0 0; }
