@@ -1,0 +1,9 @@
+{
+  "title": "Hadith Hub",
+  "description": "The hadith section of Islamic Internet Archives: a tree of the narrators of Ṣaḥīḥ al-Bukhārī and the library's writings on hadith.",
+  "intro": "Tools and references for studying the Prophet's sayings and the chains that carried them. Everything here is searchable from the search box at the top of any page, and each chart carries an archived date and a note on how to cite it.",
+  "tiles": [
+    { "href": "/hadith/bukhari-narrators/", "ar": "رجال البخاري", "heading": "Narrators of Ṣaḥīḥ al-Bukhārī", "text": "Every narrator in al-Bukhārī's chains as a tree you can open branch by branch, from the Prophet ﷺ to al-Bukhārī, with dates, generations and Ibn Ḥajar's grades.", "note": "{n} narrators" },
+    { "href": "/subjects/hadith-studies/", "ar": "علوم الحديث", "heading": "Hadith studies in the library", "text": "Books, papers and essays on the transmission, criticism and authority of hadith, from the library.", "note": "{n} works" }
+  ]
+}

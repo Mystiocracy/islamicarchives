@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import hub from '../../data/hadith-hub.json';
+import { allWorks } from '../../lib/site';
+import fs from 'node:fs';
+
+// the page text lives in src/data/hadith-hub.json (editable in /admin/ -> Data files); "{n}" in a note becomes the live count
+const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'hadith-studies')).length;
+const narr = JSON.parse(fs.readFileSync('public/hadith/bukhari-narrators.json', 'utf8'));
+const narrators = Object.keys(narr.p).filter((k) => +k > 0).length;
+const counts: Record<string, string> = { '/subjects/hadith-studies/': String(works), '/hadith/bukhari-narrators/': narrators.toLocaleString('en-GB') };
+const tiles = hub.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', counts[t.href] ?? '') }));
+---
+<Base title={hub.title} description={hub.description} current="hadith">
+  <div class="wrap" style="padding-top:40px; padding-bottom:48px; display:flex; flex-direction:column; gap:28px" data-pagefind-body>
+    <div>
+      <h1 style="font-size:40px; margin:0 0 0.3em">{hub.title}</h1>
+      <p class="muted" style="margin:0; font-size:17px; max-width:760px">{hub.intro}</p>
+    </div>
+    <div class="grid-auto" style="--min:250px">
+      {tiles.map((t) => (
+        <a href={t.href} class="card" style="text-decoration:none; color:var(--ink); padding:26px 26px 22px; display:flex; flex-direction:column; gap:10px; min-height:230px">
+          <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">{t.ar}</span>
+          <span style="font-family:var(--serif); font-weight:600; font-size:24px">{t.h}</span>
+          <span class="muted" style="font-size:15px; line-height:1.55; flex:1">{t.p}</span>
+          <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:14px"><span class="tag tag-green">{t.n}</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
