@@ -14,8 +14,12 @@ const cite = `Islamic Internet Archives. “${TITLE}: The Ten Readings, Their Tw
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 const wiki = (q: string) => `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(q)}`;
 const KIND: Record<string, string> = { n: 'The Prophet', s: 'Companion', t: 'Successor or teacher', i: 'Imam', r: 'Rāwī', q: 'Ṭarīq' };
-type Node = { n: string; d: string; k: string; q?: string; also?: string; c?: Node[] };
+type Node = { n: string; d: string; k: string; q?: string; also?: string; ref?: string; dis?: number; c?: Node[] };
 const T = tree as Node;
+const parentOf: Record<string, string> = {};
+(function pm(x: Node) { for (const c of x.c || []) { if (c.k !== 'x' && !parentOf[c.n]) parentOf[c.n] = x.n; pm(c); } })(T);
+const plain = (n: string) => n.replace(/^\d+ · /, '');
+const where = (ref: string) => parentOf[ref] ? `full branch under ${plain(parentOf[ref])}` : 'full branch elsewhere in the tree';
 
 // 1. inverted tree (server-rendered, opened and closed by the script)
 function box(x: Node, toggle: boolean) {
@@ -27,21 +31,23 @@ function box(x: Node, toggle: boolean) {
   return `<div class="iq-box iq-${x.k}">${head}${link}</div>`;
 }
 function org(x: Node): string {
+  if (x.k === 'x') return `<li data-k="x"><div class="iq-box iq-x"><button type="button" class="iq-h iq-jump" data-ref="${esc(x.ref!)}"><b>→ ${esc(plain(x.ref!))}</b><span class="iq-d">${esc(where(x.ref!))}</span>${x.dis ? '<span class="dis">disputed</span>' : ''}</button></div></li>`;
   const kids = x.c || [];
-  return `<li data-k="${x.k}">${box(x, kids.length > 0)}${kids.length ? '<ul>' + kids.map(org).join('') + '</ul>' : ''}</li>`;
+  return `<li data-k="${x.k}" data-name="${esc(x.n)}">${box(x, kids.length > 0)}${kids.length ? '<ul>' + kids.map(org).join('') + '</ul>' : ''}</li>`;
 }
 const orgHtml = '<ul>' + org(T) + '</ul>';
 
 // 2. outline (nested folding list)
 function outline(x: Node, depth: number): string {
+  if (x.k === 'x') return `<li><span class="ol-k ol-x"></span><button type="button" class="ol-jump" data-ref="${esc(x.ref!)}">→ ${esc(plain(x.ref!))}</button> <span class="ol-also">${esc(where(x.ref!))}${x.dis ? ', disputed' : ''}</span></li>`;
   const kids = x.c || [];
   const date = x.d ? ` <span class="ol-d">d. ${esc(x.d)}</span>` : '';
   const also = x.also ? ` <span class="ol-also">${esc(x.also)}</span>` : '';
   const link = x.q ? ` <a class="ol-wk" href="${wiki(x.q)}" rel="noopener" target="_blank">↗</a>` : '';
   const label = `<span class="ol-k ol-${x.k}"></span><span class="ol-nm ol-nm-${x.k}">${esc(x.n)}</span>${date}${also}${link}`;
-  if (!kids.length) return `<li>${label}</li>`;
+  if (!kids.length) return `<li data-name="${esc(x.n)}">${label}</li>`;
   const open = x.k !== 'r' && x.k !== 'q' ? ' open' : '';
-  return `<li><details data-k="${x.k}"${open}><summary>${label}</summary><ul>${kids.map((c) => outline(c, depth + 1)).join('')}</ul></details></li>`;
+  return `<li data-name="${esc(x.n)}"><details data-k="${x.k}"${open}><summary>${label}</summary><ul>${kids.map((c) => outline(c, depth + 1)).join('')}</ul></details></li>`;
 }
 const outlineHtml = '<ul class="ol-root">' + outline(T, 0) + '</ul>';
 
@@ -67,7 +73,7 @@ rows.sort((a, b) => order(a.imam) - order(b.imam));
 // people index
 const seen = new Set<string>();
 const people: Node[] = [];
-(function collect(x: Node) { if ((x.k !== 'q' || x.q) && !seen.has(x.n)) { seen.add(x.n); people.push(x); } (x.c || []).forEach(collect); })(T);
+(function collect(x: Node) { if (x.k !== 'x' && (x.k !== 'q' || x.q) && !seen.has(x.n)) { seen.add(x.n); people.push(x); } (x.c || []).forEach(collect); })(T);
 
 const data = JSON.stringify({ tree: T, chains });
 ---
@@ -102,12 +108,12 @@ const data = JSON.stringify({ tree: T, chains });
         <button type="button" role="tab" id="t-imam" aria-controls="v-imam" aria-selected="false" data-v="imam">Imam by Imam</button>
         <button type="button" role="tab" id="t-table" aria-controls="v-table" aria-selected="false" data-v="table">Table</button>
       </div>
-      <p class="iq-legend"><span><i class="iq-dot iq-n"></i>The Prophet ﷺ</span><span><i class="iq-dot iq-s"></i>Companion</span><span><i class="iq-dot iq-t"></i>Successor or teacher</span><span><i class="iq-dot iq-i"></i>Imam</span><span><i class="iq-dot iq-r"></i>Rāwī</span><span><i class="iq-dot iq-q"></i>Ṭarīq</span><span>◇ least certain</span></p>
+      <p class="iq-legend"><span><i class="iq-dot iq-n"></i>The Prophet ﷺ</span><span><i class="iq-dot iq-s"></i>Companion</span><span><i class="iq-dot iq-t"></i>Successor or teacher</span><span><i class="iq-dot iq-i"></i>Imam</span><span><i class="iq-dot iq-r"></i>Rāwī</span><span><i class="iq-dot iq-q"></i>Ṭarīq</span><span><i class="iq-dot iq-x"></i>Link to a branch shown elsewhere</span><span>◇ least certain</span></p>
     </main>
 
     <section id="v-tree" role="tabpanel" aria-labelledby="t-tree" class="iq-panel">
       <div class="iq-panel-head">
-        <p>Each Imam hangs under his best-known line; his other teachers are named in italics in his box. Tap a name with a –/+ badge to close or open its branch. Drag the frame to move around.</p>
+        <p>Each Imam hangs under his best-known line; his other teachers are named in italics in his box. Every Companion in the chains has a box of his own: where his students' branches are drawn under another teacher, dashed boxes link to them. Tap a dashed box to jump to that branch, or a name with a –/+ badge to close or open it. Drag the frame to move around.</p>
         <div class="iq-bar" role="group" aria-label="How far to open the tree">
           <button type="button" data-lvl="i">Down to the Imams</button>
           <button type="button" data-lvl="r" aria-pressed="true">Down to the rāwīs</button>
@@ -183,6 +189,9 @@ const data = JSON.stringify({ tree: T, chains });
       </table></div>
       <p>The first seven were grouped by Ibn Mujāhid (d. 324) and versified by al-Shāṭibī (d. 590) in the <em>Shāṭibiyya</em>. Ibn al-Jazarī (d. 833) added the last three in <em>al-Durra al-muḍiyya</em> and set out all ten, with their ṭuruq, in <em>al-Nashr</em> and the <em>Ṭayyibat al-Nashr</em>. Below the ṭuruq shown here, al-Nashr branches into about 980 paths through particular books and teachers, which this chart does not attempt. Two people appear in two roles: Khalaf b. Hishām is Ḥamza's rāwī and the tenth Imam, and al-Dūrī narrates both Abū ʿAmr and al-Kisāʾī.</p>
 
+      <h2>The Companions behind the readings</h2>
+      <p>Most chains of the ten readings run back to a small group of Companions. Ubayy b. Kaʿb, Zayd b. Thābit, ʿUthmān, ʿAlī and Ibn Masʿūd stand behind almost all of them, with ʿUmar, Abū al-Dardāʾ and Abū Mūsā al-Ashʿarī in some chains. Zayd b. Thābit (d. 45) wrote down the revelation for the Prophet ﷺ, gathered the Qurʾān into one collection under Abū Bakr and led the committee that made ʿUthmān's copies; his students include Ibn ʿAbbās, Abū ʿAbd al-Raḥmān al-Sulamī and Abū al-ʿĀliya, through whom his reading reaches Ibn Kathīr, Abū ʿAmr, ʿĀṣim and the readings that descend from them.</p>
+
       <h2>People in the chart</h2>
       <p>Each link opens a Wikipedia search for the name, since these names are spelled differently from one article to the next.</p>
       <div class="a-scroll"><table>
@@ -254,6 +263,7 @@ const data = JSON.stringify({ tree: T, chains });
   .iq-legend span { display: inline-flex; align-items: center; gap: 6px; }
   .iq-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
   .iq-dot.iq-n { background: #7a2a24; } .iq-dot.iq-s { background: #4b3f72; } .iq-dot.iq-t { background: #6b7c8f; }
+  .iq-dot.iq-x { background: #fff; border: 1px dashed #6b7c8f; box-sizing: border-box; }
   .iq-dot.iq-i { background: #1d5c4a; } .iq-dot.iq-r { background: #a07a22; } .iq-dot.iq-q { background: #3d6f99; }
   .iq-frame { margin: 0 auto; max-width: min(1400px, calc(100% - 24px)); overflow: auto; max-height: 85vh; border: 1px solid #d8d2c2; border-radius: 12px; background: #fff; cursor: grab; }
   .iq-frame.drag { cursor: grabbing; user-select: none; }
@@ -287,6 +297,13 @@ const data = JSON.stringify({ tree: T, chains });
   .iq-box.iq-q { border-style: dashed; border-color: #3d6f99; } .iq-box.iq-q b { color: #2f5a80; }
   .im-cap { text-align: center; font: 600 13px/1.4 var(--sans, system-ui), sans-serif; color: #1d5c4a; letter-spacing: .04em; text-transform: uppercase; margin: 6px 0 14px; }
   .im-cap + ul { margin-bottom: 28px !important; }
+  .iq-box.iq-x { border-style: dashed; border-color: #9aa5b3; background: #f6f7f8; } .iq-box.iq-x b { color: #3d4a5a; font-weight: 600; }
+  button.iq-jump { cursor: pointer; }
+  .iq-box.flash, .ol-wrap li.flash > details > summary, .ol-wrap li.flash { animation: iqflash 2s ease-out; }
+  @keyframes iqflash { 0%, 40% { box-shadow: 0 0 0 4px #f0b55a; background: #fff3dc; } 100% { box-shadow: 0 0 0 0 transparent; } }
+  @media (prefers-reduced-motion: reduce) { .iq-box.flash, .ol-wrap li.flash { animation: none; outline: 3px solid #f0b55a; } }
+  .ol-x { background: #fff; border: 1px dashed #6b7c8f; }
+  .ol-jump { font: inherit; background: none; border: 0; padding: 0; color: #1d5c4a; text-decoration: underline; cursor: pointer; }
   .iq-box .dis { display: inline-block; margin-top: 3px; font-size: 10.5px; color: #a0522d; border: 1px dashed #a0522d; border-radius: 4px; padding: 0 4px; }
   /* outline */
   .ol-wrap { max-width: 880px; margin: 0 auto; padding: 8px 18px 10px; font: 15px/1.5 var(--sans, system-ui), sans-serif; }
@@ -344,6 +361,18 @@ const data = JSON.stringify({ tree: T, chains });
     window.addEventListener('pointermove', (e) => { if (!down) return; const dx = e.clientX - sx, dy = e.clientY - sy; if (Math.abs(dx) + Math.abs(dy) > 4) { moved = true; fr.classList.add('drag'); } fr.scrollLeft = sl - dx; fr.scrollTop = st - dy; });
     window.addEventListener('pointerup', () => { down = false; fr.classList.remove('drag'); setTimeout(() => { moved = false; }, 0); });
     fr.addEventListener('click', (e) => {
+      const j = e.target.closest('button.iq-jump');
+      if (j && !moved) {
+        const t = [...fr.querySelectorAll('li[data-name]')].find((li) => li.dataset.name === j.dataset.ref);
+        if (!t) return;
+        let a = t; while (a && a !== fr) { if (a.tagName === 'LI') setOpen(a, true); a = a.parentElement; }
+        const box = t.querySelector(':scope > .iq-box'), fb = fr.getBoundingClientRect(), bb = box.getBoundingClientRect();
+        fr.scrollLeft += bb.left - fb.left - fr.clientWidth / 2 + bb.width / 2;
+        fr.scrollTop += bb.top - fb.top - 40;
+        box.classList.remove('flash'); void box.offsetWidth; box.classList.add('flash');
+        if (fr.getBoundingClientRect().top < 0) fr.scrollIntoView({ block: 'start' });
+        return;
+      }
       const b = e.target.closest('button.iq-h');
       if (!b || moved) return;
       const li = b.closest('li');
@@ -359,7 +388,7 @@ const data = JSON.stringify({ tree: T, chains });
       const k = li.dataset.k;
       let open = true;
       if (l === 'r' && (k === 'r' || k === 'q')) open = false;
-      if (l === 'i') open = !!li.querySelector(":scope > ul li[data-k='i']");
+      if (l === 'i') open = !!li.querySelector(":scope > ul li[data-k='i']") || !!li.querySelector(":scope > ul > li[data-k='x']") || !!li.querySelector(":scope > ul li[data-k='x']");
       setOpen(li, open);
     });
     document.querySelectorAll('#v-tree .iq-bar button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lvl === l)));
@@ -371,6 +400,15 @@ const data = JSON.stringify({ tree: T, chains });
   /* outline */
   document.getElementById('ol-open').addEventListener('click', () => document.querySelectorAll('.ol-wrap details').forEach((d) => { d.open = true; }));
   document.getElementById('ol-close').addEventListener('click', () => document.querySelectorAll('.ol-wrap details').forEach((d) => { d.open = d.dataset.k !== 'i' && d.dataset.k !== 'r' && d.dataset.k !== 'q'; }));
+
+  document.querySelector('.ol-wrap').addEventListener('click', (e) => {
+    const j = e.target.closest('.ol-jump'); if (!j) return;
+    const t = [...document.querySelectorAll('.ol-wrap li[data-name]')].find((li) => li.dataset.name === j.dataset.ref);
+    if (!t) return;
+    let a = t; while (a) { if (a.tagName === 'DETAILS') a.open = true; a = a.parentElement; }
+    t.scrollIntoView({ block: 'center' });
+    t.classList.remove('flash'); void t.offsetWidth; t.classList.add('flash');
+  });
 
   /* radial */
   let rdScale = 1, rdBuilt = false, rdSize = 0;
@@ -389,8 +427,8 @@ const data = JSON.stringify({ tree: T, chains });
     const ring = 110, R = ring * maxD, pad = 230;
     rdSize = 2 * (R + pad);
     const cx = rdSize / 2;
-    nodes.forEach((n) => { n.a = (n.pos / leaf) * 2 * Math.PI - Math.PI / 2; n.r = (n.kids.length ? n.depth : maxD) * ring; n.px = cx + n.r * Math.cos(n.a); n.py = cx + n.r * Math.sin(n.a); });
-    const col = { n: '#7a2a24', s: '#4b3f72', t: '#6b7c8f', i: '#1d5c4a', r: '#a07a22', q: '#3d6f99' };
+    nodes.forEach((n) => { n.a = (n.pos / leaf) * 2 * Math.PI - Math.PI / 2; n.r = (n.kids.length || n.x.k === 'x' ? n.depth : maxD) * ring; n.px = cx + n.r * Math.cos(n.a); n.py = cx + n.r * Math.sin(n.a); });
+    const col = { n: '#7a2a24', s: '#4b3f72', t: '#6b7c8f', i: '#1d5c4a', r: '#a07a22', q: '#3d6f99', x: '#ffffff' };
     let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${rdSize} ${rdSize}" width="${rdSize}" height="${rdSize}" role="img" aria-label="Radial chart of the isnād of the ten qirāʾāt">`;
     for (let d = 1; d <= maxD; d++) s += `<circle cx="${cx}" cy="${cx}" r="${d * ring}" fill="none" stroke="#efe9dc" stroke-width="1"/>`;
     nodes.forEach((n, i) => {
@@ -401,14 +439,14 @@ const data = JSON.stringify({ tree: T, chains });
     });
     nodes.forEach((n, i) => {
       const x = n.x, deg = n.a * 180 / Math.PI, left = Math.cos(n.a) < 0;
-      const name = x.n.replace(/^\d+ · /, (m) => m), label = esc(name) + (x.d ? ` · ${esc(x.d.split(' · ')[0])}` : '');
-      const r = x.k === 'n' ? 9 : x.k === 'i' ? 7 : 5;
+      const name = x.k === 'x' ? '→ ' + x.ref.replace(/^\d+ · /, '') : x.n, label = esc(name) + (x.d ? ` · ${esc(x.d.split(' · ')[0])}` : '');
+      const r = x.k === 'n' ? 9 : x.k === 'i' ? 7 : x.k === 'x' ? 4 : 5;
       let t;
       if (!n.parent) t = `<text x="${n.px}" y="${n.py + 30}" text-anchor="middle">${esc(name)}</text>`;
       else if (n.kids.length && x.k === 't') t = '';
       else if (n.kids.length) t = `<text x="${n.px.toFixed(1)}" y="${(n.py - r - 6).toFixed(1)}" text-anchor="middle">${label}</text>`;
       else t = `<text transform="translate(${n.px.toFixed(1)},${n.py.toFixed(1)}) rotate(${(left ? deg + 180 : deg).toFixed(1)})" x="${left ? -10 : 10}" dy="0.32em" text-anchor="${left ? 'end' : 'start'}">${label}</text>`;
-      s += `<g class="rd-node k-${x.k}" data-i="${i}" tabindex="0" role="button" aria-label="${esc(name)}, ${x.d ? 'died ' + esc(x.d) : ''}"><circle cx="${n.px.toFixed(1)}" cy="${n.py.toFixed(1)}" r="${r}" fill="${col[x.k]}"/>${t}<title>${esc(name)}${x.d ? ' (d. ' + esc(x.d) + ')' : ''}</title></g>`;
+      s += `<g class="rd-node k-${x.k}" data-i="${i}" tabindex="0" role="button" aria-label="${esc(name)}, ${x.d ? 'died ' + esc(x.d) : ''}"><circle cx="${n.px.toFixed(1)}" cy="${n.py.toFixed(1)}" r="${r}" fill="${col[x.k]}"${x.k === 'x' ? ' style="stroke:#6b7c8f;stroke-dasharray:2 2"' : ''}/>${t}<title>${esc(name)}${x.d ? ' (d. ' + esc(x.d) + ')' : ''}</title></g>`;
     });
     s += '</svg>';
     const host = document.getElementById('rd');
@@ -422,8 +460,9 @@ const data = JSON.stringify({ tree: T, chains });
       while (n) { chain.unshift(n.x.n.replace(/^\d+ · /, '')); host.querySelector(`.rd-node[data-i="${nodes.indexOf(n)}"]`).classList.add('on'); const l = host.querySelector(`.rd-link[data-i="${nodes.indexOf(n)}"]`); if (l) l.classList.add('on'); n = n.parent; }
       sel.textContent = 'Chain: ' + chain.join(' → ');
     }
-    host.addEventListener('click', (e) => { const g = e.target.closest('.rd-node'); if (g) pick(+g.dataset.i); });
-    host.addEventListener('keydown', (e) => { const g = e.target.closest('.rd-node'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pick(+g.dataset.i); } });
+    const target = (i) => { const x = nodes[i].x; if (x.k !== 'x') return i; const j = nodes.findIndex((m) => m.x.n === x.ref && m.x.k !== 'x'); return j < 0 ? i : j; };
+    host.addEventListener('click', (e) => { const g = e.target.closest('.rd-node'); if (g) pick(target(+g.dataset.i)); });
+    host.addEventListener('keydown', (e) => { const g = e.target.closest('.rd-node'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pick(target(+g.dataset.i)); } });
     document.getElementById('rd-clear').addEventListener('click', () => { host.querySelectorAll('.on').forEach((e) => e.classList.remove('on')); sel.textContent = ''; });
     const frame = document.getElementById('rd-frame');
     draggable(frame);
