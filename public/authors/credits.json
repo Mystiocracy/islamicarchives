@@ -11,6 +11,12 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Dr_Timothy_Winter_(3x4_cropped).jpg"
  },
+ "abdallah-bin-bayyah": {
+  "author": "Web2man (Arabic Wikipedia)",
+  "file": "BinBayyah.jpg",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:BinBayyah.jpg"
+ },
  "abduh": {
   "author": "Unknown authorUnknown author",
   "file": "The_late_Grand_Moufti.png",
@@ -23,6 +29,12 @@
   "license": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Al_afghani.jpg"
  },
+ "ahmed-deedat": {
+  "author": "Zubair Majeedi",
+  "file": "AhmedDeedat(Image).jpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:AhmedDeedat(Image).jpg"
+ },
  "al-attas": {
   "author": "AnonymousUnknown author",
   "file": "Prof_Syed_M._Naquib_al-Attas.jpg",
@@ -34,6 +46,24 @@
   "file": "Ismail_al-Faruqi_in_Kenosha_News_May_28_1986_p._3.jpg",
   "license": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Ismail_al-Faruqi_in_Kenosha_News_May_28_1986_p._3.jpg"
+ },
+ "ali-gomaa": {
+  "author": "Lucia Luna (English Wikipedia)",
+  "file": "Ali_Gomaa.JPG",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Ali_Gomaa.JPG"
+ },
+ "allal-al-fassi": {
+  "author": "Unknown author (Narodowe Archiwum Cyfrowe, c. 1937)",
+  "file": "Allal al-Fassi.jpg",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Allal_al-Fassi.jpg"
+ },
+ "amin-ahsan-islahi": {
+  "author": "Rajaprince",
+  "file": "Amin_Ahsan_Islahi.jpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Amin_Ahsan_Islahi.jpg"
  },
  "amina-wadud": {
   "author": "Oregon State University",
@@ -53,6 +83,12 @@
   "license": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:Muhammad_Baqir_al-Sadr.jpg"
  },
+ "frithjof-schuon": {
+  "author": "Unknown author",
+  "file": "Frithjof-Schuon-circa-1980.jpg",
+  "license": "CC0 1.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Frithjof-Schuon-circa-1980.jpg"
+ },
  "guenon": {
   "author": "Unknown authorUnknown author",
   "file": "Rene-guenon-1925.jpg",
@@ -64,6 +100,12 @@
   "file": "Wael_hallaq_headshot.jpg",
   "license": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:Wael_hallaq_headshot.jpg"
+ },
+ "hamka": {
+  "author": "Vedolique",
+  "file": "Buya_hamka.jpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Buya_hamka.jpg"
  },
  "hamza-yusuf": {
   "author": "Unknown authorUnknown author",
@@ -89,11 +131,23 @@
   "license": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Alija_Izetbegovic_(cropped).jpg"
  },
+ "javed-ahmad-ghamidi": {
+  "author": "CR Guru PK",
+  "file": "Javed_Ahmed_Ghamidi.jpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Javed_Ahmed_Ghamidi.jpg"
+ },
  "jonathan-brown": {
   "author": "Ben P L",
   "file": "Jonathan_Brown_(41555692432).jpg",
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Brown_(41555692432).jpg"
+ },
+ "martin-lings": {
+  "author": "Pakboy26",
+  "file": "Lings2.jpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lings2.jpg"
  },
  "mernissi": {
   "author": "Praemium Erasmianum Foundation",
@@ -101,11 +155,29 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Fatima_Mernissi_2004_Al_Azm_Mernissi_Soroush_Mernissi_cropped.tiff"
  },
+ "muhammad-al-yaqoubi": {
+  "author": "Qk69",
+  "file": "Shaykh_Muhammad_Al-Yaqoubi_(cropped).JPG",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Shaykh_Muhammad_Al-Yaqoubi_(cropped).JPG"
+ },
+ "mustafa-ceric": {
+  "author": "Georges Boulougouris",
+  "file": "Mustafa_Cerić_2011.jpg",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mustafa_Cerić_2011.jpg"
+ },
  "mutahhari": {
   "author": "varesoon.ir",
   "file": "Morteza_Motahhari_(1659).jpg",
   "license": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Morteza_Motahhari_(1659).jpg"
+ },
+ "muzaffar-iqbal": {
+  "author": "Saleemurahman",
+  "file": "Muzaffar-3.png",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Muzaffar-3.png"
  },
  "nadwi": {
   "author": "Abul Hasan Ali Nadwi, digitalization by Hindustanilanguage",
@@ -124,6 +196,12 @@
   "file": "ImamOmarSuleiman2.jpg",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:ImamOmarSuleiman2.jpg"
+ },
+ "quraish-shihab": {
+  "author": "Ministry of Religious Affairs of the Republic of Indonesia",
+  "file": "Muhammad_Quraish_Shihab.jpg",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Muhammad_Quraish_Shihab.jpg"
  },
  "rashid-rida": {
   "author": "Unknown authorUnknown author",
@@ -203,16 +281,28 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Tariq_Ramadan,_2017_(cropped).jpg"
  },
+ "umar-faruq-abd-allah": {
+  "author": "Renovatio: The Journal of Zaytuna College",
+  "file": "Umar_Faruq_Abd-Allah.png",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Umar_Faruq_Abd-Allah.png"
+ },
+ "wahiduddin-khan": {
+  "author": "Goodword1 (Goodword Books)",
+  "file": "Maulanawahiduddin.jpg",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Maulanawahiduddin.jpg"
+ },
  "yasir-qadhi": {
   "author": "Muslim Community Center - MCC East Bay",
   "file": "Yasir_Qadhi_MCC_East_Bay_2018_(cropped).png",
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Yasir_Qadhi_MCC_East_Bay_2018_(cropped).png"
  },
- "umar-faruq-abd-allah": {
-  "author": "Renovatio: The Journal of Zaytuna College",
-  "file": "Umar_Faruq_Abd-Allah.png",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Umar_Faruq_Abd-Allah.png"
+ "zaid-shakir": {
+  "author": "Imzaid",
+  "file": "Imam Zaid Shakir.jpg",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Imam_Zaid_Shakir.jpg"
  }
 }
