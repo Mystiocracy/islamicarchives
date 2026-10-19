@@ -1,0 +1,215 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import QuranSubnav from '../../../../components/QuranSubnav.astro';
+import { longDate, SITE } from '../../../../lib/quran';
+import tree from '../../../../data/qiraat-isnad.json';
+
+const ARCHIVED = '2026-10-19';
+const TITLE = 'Isnād of the Ten Qirāʾāt';
+const HERE = `${SITE}/quran/manuscripts/qiraat-isnad/`;
+const NASHR = 'https://www.islamweb.net/ar/library/content/70/31/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%AE%D9%84%D9%81';
+const cite = `Islamic Internet Archives. “${TITLE}: A Tree of the Ten Readings, Their Twenty Rāwīs and Their Ṭuruq.” AI-generated reference chart based on Ibn al-Jazarī, al-Nashr fī al-qirāʾāt al-ʿashr. Archived ${longDate(ARCHIVED)}. ${HERE}.`;
+
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+const wiki = (q: string) => `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(q)}`;
+const KIND: Record<string, string> = { n: 'The Prophet', s: 'Companion', t: 'Successor or teacher', i: 'Imam', r: 'Rāwī', q: 'Ṭarīq' };
+
+type Node = { n: string; d: string; k: string; q?: string; also?: string; c?: Node[] };
+const people: Node[] = [];
+function render(x: Node): string {
+  const kids = x.c || [];
+  if (x.k !== 'q' || x.q) people.push(x);
+  const date = x.d ? `<span class="iq-d">d. ${esc(x.d)}</span>` : '';
+  const also = x.also ? `<span class="iq-also">${esc(x.also)}</span>` : '';
+  const inner = `<b>${esc(x.n)}</b>${date}${also}`;
+  const head = kids.length
+    ? `<button type="button" class="iq-h" aria-expanded="true">${inner}<span class="iq-cnt" aria-hidden="true">–</span></button>`
+    : `<span class="iq-h">${inner}</span>`;
+  const link = x.q ? `<a class="iq-wk" href="${wiki(x.q)}" rel="noopener" target="_blank" title="Look up ${esc(x.n)} on Wikipedia">Wikipedia ↗</a>` : '';
+  return `<li data-k="${x.k}"><div class="iq-box iq-${x.k}">${head}${link}</div>${kids.length ? '<ul>' + kids.map(render).join('') + '</ul>' : ''}</li>`;
+}
+const treeHtml = '<ul>' + render(tree as Node) + '</ul>';
+const seen = new Set<string>();
+const index = people.filter((p) => (seen.has(p.n) ? false : (seen.add(p.n), true)));
+---
+<Base title={TITLE} description="An inverted tree of the ten canonical Qur'an readings: from the Prophet through the Companions and Successors to the ten Imams, their twenty rāwīs and the rāwīs' ṭuruq, with death dates and links." current="quran">
+  <div class="wrap" style="padding-top:28px; padding-bottom:0">
+    <QuranSubnav current="manuscripts" />
+    <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 14px"><a href="/quran/manuscripts/">Quranic manuscript catalogue</a> › Isnād of the ten qirāʾāt</nav>
+  </div>
+  <div class="ap-band" data-pagefind-body>
+    <main class="ap">
+      <p class="sub">Qirāʾāt and their transmission</p>
+      <h1 data-pagefind-meta="title">Isnād of the Ten Qirāʾāt</h1>
+      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards. Archived {longDate(ARCHIVED)}.</p>
+
+      <div class="iq-warn" role="note">
+        <p><strong>AI-generated chart: it may contain mistakes.</strong> This tree was compiled with an AI assistant (Claude, by Anthropic) from the standard chains given by Ibn al-Jazarī in <em>al-Nashr fī al-qirāʾāt al-ʿashr</em>. The names, links and dates were not checked line by line against the printed sources. Entries marked ◇ are the least certain. Please verify anything you rely on against <em>al-Nashr</em>, <em>Ghāyat al-nihāya</em> or a qualified teacher with ijāza.</p>
+      </div>
+
+      <h2>How to read the tree</h2>
+      <p>The Prophet ﷺ is at the top. Each row below is a later generation: Companions, Successors, the ten Imams, their twenty rāwīs, and at the bottom the ṭuruq through which each rāwī's reading was passed on. Tap a name with a −/+ badge to close or open its branch, or use the buttons to open the tree to a set depth. On a phone, drag the frame sideways to move along the tree. Dates are death dates in hijri years; “c.” marks an approximate date.</p>
+      <p>The real network is a web, since most Imams read with several teachers. A tree can show each person only once, so each Imam sits under his best-known line and his other teachers are named in italics inside his box. Some Imams sit under another Imam they read with: Nāfiʿ under Abū Jaʿfar, Yaʿqūb under Sallām (a student of Abū ʿAmr), and al-Kisāʾī under Ḥamza. Khalaf b. Hishām appears once, both as Ḥamza's rāwī and as the tenth Imam, Khalaf al-ʿĀshir.</p>
+
+      <div class="iq-bar" role="group" aria-label="How far to open the tree">
+        <button type="button" data-lvl="i">Down to the Imams</button>
+        <button type="button" data-lvl="r" aria-pressed="true">Down to the rāwīs</button>
+        <button type="button" data-lvl="all">Everything, with ṭuruq</button>
+      </div>
+      <p class="iq-legend"><span><i class="iq-dot iq-n"></i>The Prophet ﷺ</span><span><i class="iq-dot iq-s"></i>Companion</span><span><i class="iq-dot iq-t"></i>Successor or teacher</span><span><i class="iq-dot iq-i"></i>Imam</span><span><i class="iq-dot iq-r"></i>Rāwī</span><span><i class="iq-dot iq-q"></i>Ṭarīq</span><span>◇ least certain</span></p>
+    </main>
+    <div class="iq-frame" id="iq-frame"><div class="iq-org" id="iq-org" set:html={treeHtml} /></div>
+    <main class="ap">
+      <h2>The ten readings at a glance</h2>
+      <div class="a-scroll"><table>
+        <thead><tr><th>Imam</th><th>Died</th><th>City</th><th>Rāwīs</th><th>In</th></tr></thead>
+        <tbody>
+          <tr><td>1. Nāfiʿ</td><td>169</td><td>Medina</td><td>Qālūn, Warsh</td><td>Shāṭibiyya</td></tr>
+          <tr><td>2. Ibn Kathīr</td><td>120</td><td>Mecca</td><td>al-Bazzī, Qunbul</td><td>Shāṭibiyya</td></tr>
+          <tr><td>3. Abū ʿAmr</td><td>154</td><td>Basra</td><td>al-Dūrī, al-Sūsī</td><td>Shāṭibiyya</td></tr>
+          <tr><td>4. Ibn ʿĀmir</td><td>118</td><td>Damascus</td><td>Hishām, Ibn Dhakwān</td><td>Shāṭibiyya</td></tr>
+          <tr><td>5. ʿĀṣim</td><td>127</td><td>Kufa</td><td>Shuʿba, Ḥafṣ</td><td>Shāṭibiyya</td></tr>
+          <tr><td>6. Ḥamza</td><td>156</td><td>Kufa</td><td>Khalaf, Khallād</td><td>Shāṭibiyya</td></tr>
+          <tr><td>7. al-Kisāʾī</td><td>189</td><td>Kufa</td><td>Abū al-Ḥārith, al-Dūrī</td><td>Shāṭibiyya</td></tr>
+          <tr><td>8. Abū Jaʿfar</td><td>130</td><td>Medina</td><td>Ibn Wardān, Ibn Jammāz</td><td>Durra</td></tr>
+          <tr><td>9. Yaʿqūb</td><td>205</td><td>Basra</td><td>Ruways, Rawḥ</td><td>Durra</td></tr>
+          <tr><td>10. Khalaf al-ʿĀshir</td><td>229</td><td>Baghdad</td><td>Isḥāq al-Warrāq, Idrīs al-Ḥaddād</td><td>Durra</td></tr>
+        </tbody>
+      </table></div>
+      <p>The first seven were fixed as a group by Ibn Mujāhid (d. 324) and versified by al-Shāṭibī (d. 590) in the <em>Shāṭibiyya</em>; Ibn al-Jazarī (d. 833) added the last three in <em>al-Durra al-muḍiyya</em> and set out all ten, with their ṭuruq, in <em>al-Nashr</em> and the <em>Ṭayyibat al-Nashr</em>. Below the ṭuruq shown here, al-Nashr branches into about 980 paths through particular books and teachers, which this chart does not attempt.</p>
+
+      <h2>People in the tree</h2>
+      <p>Each link opens a Wikipedia search for the name, since spellings of these names vary between articles.</p>
+      <div class="a-scroll"><table class="iq-people">
+        <thead><tr><th>Name</th><th>Role</th><th>Died (AH)</th><th>Look up</th></tr></thead>
+        <tbody>
+          {index.map((p) => <tr><td>{p.n.replace(/^\d+ · /, '')}</td><td>{KIND[p.k]}</td><td>{p.d ? p.d.split(' · ')[0] : ''}</td><td>{p.q ? <a href={wiki(p.q)} rel="noopener" target="_blank">Wikipedia ↗</a> : '—'}</td></tr>)}
+        </tbody>
+      </table></div>
+
+      <h2>Related on this site</h2>
+      <ul>
+        <li><a href="/quran/manuscripts/#ia-qirmans">The Qira'at Identified in the Qur'anic Manuscripts</a> (Islamic Awareness), in the manuscript catalogue</li>
+        <li><a href="/quran/manuscripts/first-century-manuscripts/">Manuscripts of the Qur'an Attributable to the First Century of the Hijra</a>, study notes</li>
+        <li><a href="/quran/scholars/#s-shady-nasser">Shady Hekmat Nasser</a>, who studies the transmission of the variant readings and Ibn Mujāhid's canon of seven</li>
+        <li><a href="/quran/scholars/#s-marijn-van-putten">Marijn van Putten</a> and the <a href="/quran/scholars/#s-qurcan-canonization-of-the-quranic-reading-traditions">QurCan project</a>, on the reading traditions before the canon</li>
+        <li><a href="/quran/scholars/#s-corpus-coranicum">Corpus Coranicum</a>, which records variant readings alongside the manuscripts</li>
+        <li><a href="/quran/">Quran Hub</a>, with the timeline of the Qur'an's compilation</li>
+      </ul>
+
+      <h2>Sources and further reading</h2>
+      <ul>
+        <li>Ibn al-Jazarī, <em>al-Nashr fī al-qirāʾāt al-ʿashr</em>, chapter on the isnāds of the ten readings: <a href={NASHR} rel="noopener" target="_blank">text on IslamWeb</a></li>
+        <li>Ibn al-Jazarī, <em>Ghāyat al-nihāya fī ṭabaqāt al-qurrāʾ</em> (biographies and death dates of the readers)</li>
+        <li>Ibn al-Jazarī, <em>Ṭayyibat al-Nashr</em> and <em>al-Durra al-muḍiyya</em>; al-Shāṭibī, <em>Ḥirz al-amānī</em> (the <em>Shāṭibiyya</em>)</li>
+        <li><a href="https://en.wikipedia.org/wiki/Ten_readers_and_transmitters" rel="noopener" target="_blank">Ten readers and transmitters</a> and <a href="https://en.wikipedia.org/wiki/Seven_readers" rel="noopener" target="_blank">Seven readers</a>, Wikipedia</li>
+        <li><a href="https://qaloun.app/ar/blog/turuq-riwayat-qalun" rel="noopener" target="_blank">طرق رواية قالون عن نافع: أبو نشيط والحلواني</a>, on the two ṭuruq of Qālūn</li>
+        <li><a href="https://www.nquran.com/ar/index.php?group=tb8&printAll=1&tpath=1" rel="noopener" target="_blank">Ṭayyibat al-Nashr: tree of the rāwīs</a>, nquran.com</li>
+        <li><a href="https://erquran.org" rel="noopener" target="_blank">Encyclopedia of the (Variant) Readings of the Qur'an</a> (Shady Nasser)</li>
+      </ul>
+
+      <footer class="ap-foot">
+        <p><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite}</p>
+        <p>This chart was generated with AI assistance and may contain mistakes in names, dates or links. Corrections are welcome; please check it against the sources above before relying on it.</p>
+      </footer>
+    </main>
+  </div>
+</Base>
+<style is:global>
+  .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .ap { max-width: 880px; margin: 0 auto; padding: 24px 18px 40px; color: #222; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
+  .ap h1 { font: 700 1.9rem/1.25 Georgia, 'Times New Roman', serif; margin: 0.3em 0 0.2em; color: #222; }
+  .ap .sub { color: #666; font-style: italic; margin: 0 0 1em; }
+  .ap h2 { font: 700 1.3rem/1.3 Georgia, 'Times New Roman', serif; margin: 2em 0 0.5em; border-bottom: 1px solid #d8d2c2; padding-bottom: 0.2em; color: #1d5c4a; }
+  .ap p { margin: 1em 0; }
+  .ap a { color: #1d5c4a; }
+  .ap ul { padding-left: 1.2em; }
+  .ap li { margin: 0.3em 0; }
+  .ap .a-scroll { overflow-x: auto; }
+  .ap table { border-collapse: collapse; width: 100%; font-size: 0.88rem; background: #fff; }
+  .ap th, .ap td { border: 1px solid #d8d2c2; padding: 6px 8px; vertical-align: top; text-align: left; }
+  .ap th { background: rgba(29, 92, 74, 0.12); }
+  .ap-foot { margin-top: 3em; font-size: 0.88rem; color: #666; border-top: 1px solid #d8d2c2; padding-top: 1em; overflow-wrap: anywhere; }
+  .ap-foot strong { color: #222; }
+  .iq-warn { background: #fff4e5; border: 1px solid #e3b977; padding: 12px 16px; margin: 18px 0; font-size: 0.95rem; }
+  .iq-warn p { margin: 0; }
+  .iq-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 8px; }
+  .iq-bar button { font: 14px/1.2 var(--sans, system-ui), sans-serif; padding: 7px 14px; border-radius: 999px; border: 1px solid #d8d2c2; background: #fff; color: #222; cursor: pointer; }
+  .iq-bar button[aria-pressed="true"] { background: #1d5c4a; color: #fff; border-color: #1d5c4a; }
+  .iq-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 13px/1.5 var(--sans, system-ui), sans-serif; color: #555; margin: 0; }
+  .iq-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .iq-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .iq-dot.iq-n { background: #7a2a24; } .iq-dot.iq-s { background: #4b3f72; } .iq-dot.iq-t { background: #6b7c8f; }
+  .iq-dot.iq-i { background: #1d5c4a; } .iq-dot.iq-r { background: #a07a22; } .iq-dot.iq-q { background: #3d6f99; }
+  .iq-frame { margin: 0 auto; max-width: min(1400px, calc(100% - 24px)); overflow: auto; max-height: 85vh; border: 1px solid #d8d2c2; border-radius: 12px; background: #fff; cursor: grab; }
+  .iq-frame.drag { cursor: grabbing; user-select: none; }
+  .iq-org { display: inline-block; min-width: 100%; padding: 20px 24px 32px; box-sizing: border-box; font-family: var(--sans, system-ui), sans-serif; }
+  .iq-org ul { display: flex; justify-content: center; align-items: flex-start; margin: 0; padding: 18px 0 0; position: relative; }
+  .iq-org > ul { padding-top: 0; }
+  .iq-org li { list-style: none; position: relative; padding: 18px 5px 0; display: flex; flex-direction: column; align-items: center; margin: 0; }
+  .iq-org li::before, .iq-org li::after { content: ""; position: absolute; top: 0; right: 50%; width: 50%; height: 18px; border-top: 1px solid #9aa5b3; }
+  .iq-org li::after { right: auto; left: 50%; border-left: 1px solid #9aa5b3; }
+  .iq-org li:only-child::before, .iq-org li:only-child::after { display: none; }
+  .iq-org li:only-child { padding-top: 0; }
+  .iq-org li:first-child::before, .iq-org li:last-child::after { border: 0 none; }
+  .iq-org li:last-child::before { border-right: 1px solid #9aa5b3; border-radius: 0 6px 0 0; }
+  .iq-org li:first-child::after { border-radius: 6px 0 0 0; }
+  .iq-org ul ul::before { content: ""; position: absolute; top: 0; left: 50%; height: 18px; border-left: 1px solid #9aa5b3; }
+  .iq-org > ul > li::before, .iq-org > ul > li::after { display: none; }
+  .iq-org li.closed > ul { display: none; }
+  .iq-box { position: relative; border: 1px solid #d8d2c2; background: #fff; border-radius: 8px; min-width: 100px; max-width: 160px; text-align: center; font-size: 12.5px; line-height: 1.3; color: #222; }
+  .iq-h { display: block; width: 100%; font: inherit; color: inherit; background: none; border: 0; padding: 7px 9px 6px; text-align: center; }
+  button.iq-h { cursor: pointer; }
+  button.iq-h:focus-visible, .iq-bar button:focus-visible { outline: 2px solid #1d5c4a; outline-offset: 2px; }
+  .iq-h b { display: block; font-weight: 600; }
+  .iq-d { display: block; color: #666; font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .iq-also { display: block; color: #666; font-size: 11px; font-style: italic; margin-top: 3px; }
+  .iq-wk { display: block; font-size: 10.5px; padding: 0 6px 8px; color: #1d5c4a; text-decoration: none; }
+  .iq-wk:hover { text-decoration: underline; }
+  .iq-cnt { position: absolute; bottom: -9px; left: 50%; transform: translateX(-50%); font-size: 10.5px; line-height: 1; background: #fff; border: 1px solid #9aa5b3; border-radius: 999px; padding: 2px 6px; color: #555; white-space: nowrap; }
+  .iq-box.iq-n { border: 2px solid #7a2a24; } .iq-box.iq-n b { color: #7a2a24; }
+  .iq-box.iq-s { border-color: #4b3f72; } .iq-box.iq-s b { color: #4b3f72; }
+  .iq-box.iq-i { border: 2px solid #1d5c4a; background: #f1f7f4; } .iq-box.iq-i b { color: #1d5c4a; font-family: Georgia, serif; font-size: 13.5px; }
+  .iq-box.iq-r { border-color: #a07a22; background: #fdf8ec; } .iq-box.iq-r b { color: #7d5e14; }
+  .iq-box.iq-q { border-style: dashed; border-color: #3d6f99; } .iq-box.iq-q b { color: #2f5a80; }
+</style>
+<script is:inline>
+(() => {
+  const org = document.getElementById('iq-org'), fr = document.getElementById('iq-frame');
+  if (!org || !fr) return;
+  const count = (li) => li.querySelectorAll(':scope > ul li').length;
+  function setOpen(li, open) {
+    li.classList.toggle('closed', !open);
+    const b = li.querySelector(':scope > .iq-box > button.iq-h');
+    if (!b) return;
+    b.setAttribute('aria-expanded', String(open));
+    const c = b.querySelector('.iq-cnt');
+    if (c) c.textContent = open ? '–' : '+' + count(li);
+  }
+  let moved = false;
+  org.addEventListener('click', (e) => {
+    const b = e.target.closest('button.iq-h');
+    if (!b || moved) return;
+    const li = b.closest('li');
+    setOpen(li, li.classList.contains('closed'));
+  });
+  function center() { fr.scrollLeft = (fr.scrollWidth - fr.clientWidth) / 2; }
+  function level(l) {
+    org.querySelectorAll('li').forEach((li) => {
+      const k = li.dataset.k;
+      let open = true;
+      if (l === 'r' && (k === 'r' || k === 'q')) open = false;
+      if (l === 'i') open = !!li.querySelector(":scope > ul li[data-k='i']");
+      setOpen(li, open);
+    });
+    document.querySelectorAll('.iq-bar button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lvl === l)));
+    requestAnimationFrame(center);
+  }
+  document.querySelectorAll('.iq-bar button').forEach((b) => b.addEventListener('click', () => level(b.dataset.lvl)));
+  let down = false, sx = 0, sy = 0, sl = 0, st = 0;
+  fr.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse' || e.target.closest('a')) return; down = true; moved = false; sx = e.clientX; sy = e.clientY; sl = fr.scrollLeft; st = fr.scrollTop; });
+  window.addEventListener('pointermove', (e) => { if (!down) return; const dx = e.clientX - sx, dy = e.clientY - sy; if (Math.abs(dx) + Math.abs(dy) > 4) { moved = true; fr.classList.add('drag'); } fr.scrollLeft = sl - dx; fr.scrollTop = st - dy; });
+  window.addEventListener('pointerup', () => { down = false; fr.classList.remove('drag'); setTimeout(() => { moved = false; }, 0); });
+  level('r');
+})();
+</script>
