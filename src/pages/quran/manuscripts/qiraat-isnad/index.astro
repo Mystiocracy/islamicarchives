@@ -6,6 +6,7 @@ import tree from '../../../../data/qiraat-isnad.json';
 import chains from '../../../../data/qiraat-chains.json';
 
 const ARCHIVED = '2026-10-19';
+const REVISED = '2026-10-20';
 const TITLE = 'Isnād of the Ten Qirāʾāt';
 const HERE = `${SITE}/quran/manuscripts/qiraat-isnad/`;
 const NASHR = 'https://www.islamweb.net/ar/library/content/70/31/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%AE%D9%84%D9%81';
@@ -86,10 +87,10 @@ const data = JSON.stringify({ tree: T, chains });
     <main class="ap">
       <p class="sub">Qirāʾāt and their transmission</p>
       <h1 data-pagefind-meta="title">Isnād of the Ten Qirāʾāt</h1>
-      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards, shown five ways. Archived {longDate(ARCHIVED)}.</p>
+      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards, shown five ways. Archived {longDate(ARCHIVED)}; checked against the sources and revised {longDate(REVISED)}.</p>
 
       <div class="iq-warn" role="note">
-        <p><strong>AI-generated chart: it may contain mistakes.</strong> This chart was compiled with an AI assistant (Claude, by Anthropic) from the standard chains given by Ibn al-Jazarī in <em>al-Nashr fī al-qirāʾāt al-ʿashr</em>. The names, links and dates were not checked line by line against the printed sources, and entries marked ◇ are the least certain. Please verify anything you rely on against <em>al-Nashr</em>, <em>Ghāyat al-nihāya</em> or a qualified teacher with ijāza.</p>
+        <p><strong>AI-generated chart: it may contain mistakes.</strong> This chart was compiled with an AI assistant (Claude, by Anthropic). On {longDate(REVISED)} every person, link, ṭarīq and date was checked by the same assistant against Ibn al-Jazarī's <em>al-Nashr fī al-qirāʾāt al-ʿashr</em> (vol. 1) and <em>Ghāyat al-nihāya fī ṭabaqāt al-qurrāʾ</em>, and the errors found were corrected; the page references are listed under “How this chart was checked”. Entries marked ◇ could not be confirmed in those sources. Please verify anything you rely on against the books themselves or a qualified teacher with ijāza.</p>
       </div>
 
       <p>Every view below shows the same people, down to the ṭuruq of each rāwī. Dates are death dates in hijri years; “c.” marks an approximate date. Choose the view that suits the question you have:</p>
@@ -108,7 +109,7 @@ const data = JSON.stringify({ tree: T, chains });
         <button type="button" role="tab" id="t-imam" aria-controls="v-imam" aria-selected="false" data-v="imam">Imam by Imam</button>
         <button type="button" role="tab" id="t-table" aria-controls="v-table" aria-selected="false" data-v="table">Table</button>
       </div>
-      <p class="iq-legend"><span><i class="iq-dot iq-n"></i>The Prophet ﷺ</span><span><i class="iq-dot iq-s"></i>Companion</span><span><i class="iq-dot iq-t"></i>Successor or teacher</span><span><i class="iq-dot iq-i"></i>Imam</span><span><i class="iq-dot iq-r"></i>Rāwī</span><span><i class="iq-dot iq-q"></i>Ṭarīq</span><span><i class="iq-dot iq-x"></i>Link to a branch shown elsewhere</span><span>◇ least certain</span></p>
+      <p class="iq-legend"><span><i class="iq-dot iq-n"></i>The Prophet ﷺ</span><span><i class="iq-dot iq-s"></i>Companion</span><span><i class="iq-dot iq-t"></i>Successor or teacher</span><span><i class="iq-dot iq-i"></i>Imam</span><span><i class="iq-dot iq-r"></i>Rāwī</span><span><i class="iq-dot iq-q"></i>Ṭarīq</span><span><i class="iq-dot iq-x"></i>Link to a branch shown elsewhere</span><span>◇ not confirmed in the sources checked</span></p>
     </main>
 
     <section id="v-tree" role="tabpanel" aria-labelledby="t-tree" class="iq-panel">
@@ -191,6 +192,26 @@ const data = JSON.stringify({ tree: T, chains });
 
       <h2>The Companions behind the readings</h2>
       <p>Most chains of the ten readings run back to a small group of Companions. Ubayy b. Kaʿb, Zayd b. Thābit, ʿUthmān, ʿAlī and Ibn Masʿūd stand behind almost all of them, with ʿUmar, Abū al-Dardāʾ and Abū Mūsā al-Ashʿarī in some chains. Zayd b. Thābit (d. 45) wrote down the revelation for the Prophet ﷺ, gathered the Qurʾān into one collection under Abū Bakr and led the committee that made ʿUthmān's copies; his students include Ibn ʿAbbās, Abū ʿAbd al-Raḥmān al-Sulamī and Abū al-ʿĀliya, through whom his reading reaches Ibn Kathīr, Abū ʿAmr, ʿĀṣim and the readings that descend from them.</p>
+
+      <h2>How this chart was checked</h2>
+      <p>Each reading was checked against its section of <em>al-Nashr</em> (Dār al-Kutub al-ʿIlmiyya edition, vol. 1, read on <a href="https://www.islamweb.net/ar/library/content/70/16/" rel="noopener" target="_blank">IslamWeb</a>) and, for teachers, students and death dates, against <em>Ghāyat al-nihāya</em> (Bergsträsser's edition, cited as GN volume/page). Where the two disagree on a date, the chart gives the date Ibn al-Jazarī prefers and notes the alternative.</p>
+      <div class="a-scroll"><table>
+        <thead><tr><th>Reading</th><th>al-Nashr, vol. 1</th></tr></thead>
+        <tbody>
+          <tr><td>1. Nāfiʿ: Qālūn, Warsh</td><td>pp. 99–115 (ṭuruq 99–111; teachers 112)</td></tr>
+          <tr><td>2. Ibn Kathīr: al-Bazzī, Qunbul</td><td>pp. 116–123 (teachers and intermediaries 120)</td></tr>
+          <tr><td>3. Abū ʿAmr: al-Dūrī, al-Sūsī</td><td>pp. 124–135 (teachers 133)</td></tr>
+          <tr><td>4. Ibn ʿĀmir: Hishām, Ibn Dhakwān</td><td>pp. 136–146 (teachers 144)</td></tr>
+          <tr><td>5. ʿĀṣim: Shuʿba, Ḥafṣ</td><td><a href="https://www.islamweb.net/ar/library/content/70/30/" rel="noopener" target="_blank">IslamWeb §30</a> (Shuʿba's ṭuruq p. 150)</td></tr>
+          <tr><td>6. Ḥamza: Khalaf, Khallād</td><td><a href="https://www.islamweb.net/ar/library/content/70/31/" rel="noopener" target="_blank">IslamWeb §31</a> (pp. 159–167)</td></tr>
+          <tr><td>7. al-Kisāʾī: Abū al-Ḥārith, al-Dūrī</td><td><a href="https://www.islamweb.net/ar/library/content/70/32/" rel="noopener" target="_blank">IslamWeb §32</a> (pp. 171–173)</td></tr>
+          <tr><td>8. Abū Jaʿfar: Ibn Wardān, Ibn Jammāz</td><td>pp. 174–180</td></tr>
+          <tr><td>9. Yaʿqūb: Ruways, Rawḥ</td><td>pp. 180–188</td></tr>
+          <tr><td>10. Khalaf al-ʿĀshir: Isḥāq, Idrīs</td><td>pp. 188–192</td></tr>
+          <tr><td>The Companions</td><td>GN: Ubayy 1/31, Zayd 1/296, ʿUmar 1/591, ʿUthmān 1/507, Abū al-Dardāʾ 1/606, Abū Mūsā 1/442, Ibn ʿAbbās 1/425, Abū Hurayra 1/370, Ibn al-Sāʾib 1/419, Ibn ʿAyyāsh 1/439</td></tr>
+        </tbody>
+      </table></div>
+      <p>The check changed the chart in these ways: corrected death dates for ʿUbayd b. al-Ṣabbāḥ (235), al-Ṭalḥī (252), the younger Ibn Miqsam under Ruways (380), Ibn Abī ʿUmar (352), Abū Hurayra (57/58), Abū al-ʿĀliya (90) and al-Qawwās (240, or 245); restored intermediaries that had been left out (Ismāʿīl b. Jaʿfar between Ibn Jammāz and his ṭuruq; Qālūn and al-Ḥulwānī behind Ibn Wardān's; the order Ibn Kathīr → Ismāʿīl al-Qisṭ → ʿIkrima, Wahb and others → al-Bazzī); gave Isḥāq al-Warrāq his three ṭuruq; added principal teachers the first version lacked (Ṭalḥa b. Muṣarrif for Ḥamza, ʿĪsā b. ʿUmar for al-Kisāʾī, Abū Zayd Saʿīd b. Aws for Khalaf, Abū al-Ashhab for Yaʿqūb, Naṣr b. ʿĀṣim for Abū ʿAmr, Abū Hurayra among Zayd's students); removed two links al-Nashr does not support (al-Sulamī as a teacher of Yaḥyā b. Waththāb, and ʿAlī as Ibn ʿAbbās's teacher, which is Ubayy and Zayd); marked Khalaf's link to al-Kisāʾī as the variants only; and dropped “disputed” from Ibn ʿĀmir's reading with Abū al-Dardāʾ, which Ibn al-Jazarī accepts.</p>
 
       <h2>People in the chart</h2>
       <p>Each link opens a Wikipedia search for the name, since these names are spelled differently from one article to the next.</p>
@@ -494,7 +515,7 @@ const data = JSON.stringify({ tree: T, chains });
     const link = x.q ? `<a class="iq-wk" href="${wiki(x.q)}" rel="noopener" target="_blank">Wikipedia ↗</a>` : '';
     return `<div class="iq-box iq-${x.k}">${head}${link}</div>`;
   }
-  function orgHtml(x) { const k = x.c || []; return `<li data-k="${x.k}">${boxHtml(x, k.length > 0, x.dis ? '<span class="dis">disputed</span>' : '')}${k.length ? '<ul>' + k.map(orgHtml).join('') + '</ul>' : ''}</li>`; }
+  function orgHtml(x) { const k = x.c || []; return `<li data-k="${x.k}">${boxHtml(x, k.length > 0, x.tag ? `<span class="dis">${esc(x.tag)}</span>` : '')}${k.length ? '<ul>' + k.map(orgHtml).join('') + '</ul>' : ''}</li>`; }
   function showImam(no) {
     const im = D.chains.imams.find((m) => m.no === no);
     const node = findNode(D.tree, im.node);
@@ -504,14 +525,14 @@ const data = JSON.stringify({ tree: T, chains });
       const path = Array.isArray(x) ? x : x.p;
       let t = root;
       ['P', ...path].forEach((id) => { t[id] = t[id] || {}; t = t[id]; });
-      const key = Array.isArray(x) ? 'IMAM' : 'IMAM_DIS';
+      const key = Array.isArray(x) ? 'IMAM' : 'IMAM:' + (x.tag || 'disputed');
       t[key] = {};
     });
     const name = im.no === 10 ? '10 · Khalaf al-ʿĀshir' : below.n;
     const people = (id) => { const p = P[id]; return { n: p[0], d: p[1], k: p[2] }; };
     function build(t) {
       return Object.entries(t).map(([id, sub]) => {
-        if (id === 'IMAM' || id === 'IMAM_DIS') return { n: name, d: below.d, k: 'i', dis: id === 'IMAM_DIS' ? 1 : 0, c: [] };
+        if (id === 'IMAM' || id.startsWith('IMAM:')) return { n: name, d: below.d, k: 'i', tag: id.startsWith('IMAM:') ? id.slice(5) : '', c: [] };
         return { ...people(id), c: build(sub) };
       });
     }

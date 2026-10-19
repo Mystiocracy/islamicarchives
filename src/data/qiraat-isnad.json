@@ -6,13 +6,13 @@
  "c": [
   {
    "n": "Ubayy b. Kaʿb",
-   "d": "c. 30",
+   "d": "c. 30–35",
    "k": "s",
    "q": "Ubayy ibn Ka'b",
    "c": [
     {
      "n": "ʿAbdallāh b. ʿAyyāsh",
-     "d": "c. 78",
+     "d": "after 70",
      "k": "s",
      "q": "Abd Allah ibn Ayyash ibn Abi Rabi'a",
      "c": [
@@ -21,7 +21,7 @@
        "d": "130 · Medina",
        "k": "i",
        "q": "Abu Ja'far al-Madani",
-       "also": "also: Ibn ʿAbbās, Abū Hurayra (59)",
+       "also": "also: Ibn ʿAbbās and Abū Hurayra, who read with Ubayy and Zayd",
        "c": [
         {
          "n": "Ibn Wardān",
@@ -32,12 +32,14 @@
           {
            "n": "al-Faḍl b. Shādhān",
            "d": "c. 290",
-           "k": "q"
+           "k": "q",
+           "also": "through Qālūn → al-Ḥulwānī"
           },
           {
            "n": "Hibatullāh b. Jaʿfar",
            "d": "c. 350",
-           "k": "q"
+           "k": "q",
+           "also": "through Qālūn → al-Ḥulwānī → his father Jaʿfar"
           }
          ]
         },
@@ -48,14 +50,21 @@
          "q": "Ibn Jammaz",
          "c": [
           {
-           "n": "Abū Ayyūb al-Hāshimī",
-           "d": "219",
-           "k": "q"
-          },
-          {
-           "n": "Abū ʿUmar al-Dūrī",
-           "d": "246",
-           "k": "q"
+           "n": "Ismāʿīl b. Jaʿfar",
+           "d": "180",
+           "k": "t",
+           "c": [
+            {
+             "n": "Abū Ayyūb al-Hāshimī",
+             "d": "219",
+             "k": "q"
+            },
+            {
+             "n": "Abū ʿUmar al-Dūrī",
+             "d": "246",
+             "k": "q"
+            }
+           ]
           }
          ]
         },
@@ -64,7 +73,7 @@
          "d": "169 · Medina",
          "k": "i",
          "q": "Nafi' al-Madani",
-         "also": "also: Shayba b. Niṣāḥ (130), al-Aʿraj (117)",
+         "also": "also: Shayba b. Niṣāḥ (130; also heard ʿUmar), al-Aʿraj (117), Muslim b. Jundab, Yazīd b. Rūmān",
          "c": [
           {
            "n": "Qālūn",
@@ -79,7 +88,7 @@
             },
             {
              "n": "Aḥmad al-Ḥulwānī",
-             "d": "c. 250",
+             "d": "250",
              "k": "q"
             }
            ]
@@ -98,7 +107,8 @@
             {
              "n": "al-Aṣbahānī",
              "d": "296",
-             "k": "q"
+             "k": "q",
+             "also": "read with Warsh’s students, not with Warsh himself"
             }
            ]
           }
@@ -120,7 +130,7 @@
        "d": "120 · Mecca",
        "k": "i",
        "q": "Ibn Kathir al-Makki",
-       "also": "also: Mujāhid, Dirbās",
+       "also": "also: Mujāhid (who also read with Ibn al-Sāʾib), Dirbās",
        "c": [
         {
          "n": "Ismāʿīl al-Qisṭ",
@@ -131,7 +141,7 @@
            "n": "ʿIkrima b. Sulaymān",
            "d": "c. 200 ◇",
            "k": "t",
-           "also": "also: Shibl b. ʿAbbād (c. 148)",
+           "also": "also: Wahb b. Wāḍiḥ, ʿAbdallāh b. Ziyād",
            "c": [
             {
              "n": "al-Bazzī",
@@ -149,7 +159,8 @@
                "d": "301",
                "k": "q"
               }
-             ]
+             ],
+             "also": "also read with al-Qawwās"
             }
            ]
           },
@@ -160,7 +171,7 @@
            "c": [
             {
              "n": "Aḥmad al-Qawwās",
-             "d": "245",
+             "d": "240 (or 245)",
              "k": "t",
              "c": [
               {
@@ -182,14 +193,39 @@
                  "q": "Ibn Shanabudh"
                 }
                ]
+              },
+              {
+               "n": "→ al-Bazzī",
+               "k": "x",
+               "ref": "al-Bazzī"
               }
              ]
             }
            ]
           }
-         ]
+         ],
+         "also": "also through Shibl b. ʿAbbād (150s ◇) and Maʿrūf b. Mishkān"
         }
        ]
+      }
+     ]
+    },
+    {
+     "n": "Abū Hurayra",
+     "d": "57/58",
+     "k": "s",
+     "q": "Abu Hurayra",
+     "also": "also read with Zayd b. Thābit",
+     "c": [
+      {
+       "n": "→ 8 · Abū Jaʿfar",
+       "k": "x",
+       "ref": "8 · Abū Jaʿfar"
+      },
+      {
+       "n": "→ 1 · Nāfiʿ",
+       "k": "x",
+       "ref": "1 · Nāfiʿ"
       }
      ]
     },
@@ -211,7 +247,7 @@
          "d": "154 · Basra",
          "k": "i",
          "q": "Abu 'Amr ibn al-'Ala'",
-         "also": "also: Saʿīd b. Jubayr (95), al-Ḥasan al-Baṣrī (110), Abū Jaʿfar, Ibn Kathīr",
+         "also": "also: Abū al-ʿĀliya, al-Ḥasan al-Baṣrī (110), Abū Jaʿfar, Ibn Kathīr, Naṣr b. ʿĀṣim and Yaḥyā b. Yaʿmar (← Abū al-Aswad ← ʿUthmān, ʿAlī)",
          "c": [
           {
            "n": "Yaḥyā al-Yazīdī",
@@ -227,7 +263,7 @@
              "c": [
               {
                "n": "Abū al-Zaʿrāʾ",
-               "d": "c. 280",
+               "d": "280s",
                "k": "q"
               },
               {
@@ -287,17 +323,17 @@
                   },
                   {
                    "n": "Abū al-Ṭayyib",
-                   "d": "c. 350 ◇",
+                   "d": "350s",
                    "k": "q"
                   },
                   {
-                   "n": "Ibn Miqsam",
-                   "d": "354",
+                   "n": "Aḥmad b. Abī Bakr b. Miqsam",
+                   "d": "380",
                    "k": "q"
                   },
                   {
                    "n": "al-Jawharī",
-                   "d": "c. 340 ◇",
+                   "d": "c. 340",
                    "k": "q"
                   }
                  ]
@@ -317,12 +353,13 @@
                 },
                 {
                  "n": "al-Zubayrī",
-                 "d": "308",
+                 "d": "after 300 (c. 317)",
                  "k": "q"
                 }
                ]
               }
-             ]
+             ],
+             "also": "also: Abū al-Ashhab al-ʿUṭāridī, Shihāb b. Shurnufa, Mahdī b. Maymūn"
             }
            ]
           }
@@ -347,16 +384,21 @@
      "ref": "Ibn ʿAbbās"
     },
     {
+     "n": "→ Abū Hurayra",
+     "k": "x",
+     "ref": "Abū Hurayra"
+    },
+    {
      "n": "→ Abū ʿAbd al-Raḥmān al-Sulamī",
      "k": "x",
      "ref": "Abū ʿAbd al-Raḥmān al-Sulamī"
     },
     {
      "n": "Abū al-ʿĀliya al-Riyāḥī",
-     "d": "93",
+     "d": "90",
      "k": "t",
      "q": "Abu al-Aliya",
-     "also": "also: Ubayy, ʿUmar",
+     "also": "also: Ubayy, ʿUmar, Ibn ʿAbbās",
      "c": [
       {
        "n": "al-Ḥasan al-Baṣrī",
@@ -370,6 +412,11 @@
          "ref": "3 · Abū ʿAmr"
         }
        ]
+      },
+      {
+       "n": "→ 3 · Abū ʿAmr",
+       "k": "x",
+       "ref": "3 · Abū ʿAmr"
       }
      ]
     }
@@ -409,7 +456,7 @@
        "d": "118 · Damascus",
        "k": "i",
        "q": "Ibn Amir al-Dimashqi",
-       "also": "also: Abū al-Dardāʾ (32), disputed",
+       "also": "also: Abū al-Dardāʾ (32), accepted by al-Dānī and Ibn al-Jazarī; also reported from ʿUthmān directly",
        "c": [
         {
          "n": "Yaḥyā al-Dhimārī",
@@ -426,17 +473,18 @@
              "d": "245",
              "k": "r",
              "q": "Hisham ibn Ammar",
-             "also": "also: ʿIrāk al-Murrī (c. 200)",
+             "also": "also: ʿIrāk al-Murrī (c. 200 ◇), Suwayd b. ʿAbd al-ʿAzīz, Ṣadaqa b. Khālid",
              "c": [
               {
                "n": "Aḥmad al-Ḥulwānī",
-               "d": "c. 250",
+               "d": "250",
                "k": "q"
               },
               {
                "n": "al-Dājūnī",
                "d": "324",
-               "k": "q"
+               "k": "q",
+               "also": "through Hishām’s students"
               }
              ]
             },
@@ -514,7 +562,7 @@
          "c": [
           {
            "n": "ʿUbayd b. al-Ṣabbāḥ",
-           "d": "219",
+           "d": "235",
            "k": "q"
           },
           {
@@ -547,7 +595,7 @@
        "n": "Yaḥyā b. Waththāb",
        "d": "103",
        "k": "t",
-       "also": "also: from Zirr and al-Sulamī",
+       "also": "also: from Zirr, al-Aswad, Masrūq",
        "c": [
         {
          "n": "al-Aʿmash",
@@ -560,7 +608,7 @@
            "d": "156 · Kufa",
            "k": "i",
            "q": "Hamzah az-Zayyat",
-           "also": "also: Ḥumrān b. Aʿyan, Abū Isḥāq al-Sabīʿī, Ibn Abī Laylā, Jaʿfar al-Ṣādiq (148)",
+           "also": "also: Ṭalḥa b. Muṣarrif, Ḥumrān b. Aʿyan, Abū Isḥāq al-Sabīʿī, Ibn Abī Laylā, Jaʿfar al-Ṣādiq (148)",
            "c": [
             {
              "n": "Sulaym b. ʿĪsā",
@@ -572,7 +620,7 @@
                "d": "229 · Baghdad",
                "k": "i",
                "q": "Khalaf al-Bazzar",
-               "also": "rāwī of Ḥamza and 10th Imam (Khalaf al-ʿĀshir); also: al-Aʿshā ← Shuʿba, al-Kisāʾī",
+               "also": "rāwī of Ḥamza and 10th Imam (Khalaf al-ʿĀshir); also: al-Aʿshā ← Shuʿba, Abū Zayd Saʿīd b. Aws; heard only the variants from al-Kisāʾī",
                "c": [
                 {
                  "n": "As rāwī of Ḥamza",
@@ -585,8 +633,8 @@
                    "k": "q",
                    "c": [
                     {
-                     "n": "Ibn ʿUthmān",
-                     "d": "344 ◇",
+                     "n": "Ibn ʿUthmān (Ibn Buwayān)",
+                     "d": "344",
                      "k": "q"
                     },
                     {
@@ -596,7 +644,7 @@
                     },
                     {
                      "n": "Ibn Ṣāliḥ",
-                     "d": "c. 340 ◇",
+                     "d": "c. 340",
                      "k": "q"
                     },
                     {
@@ -615,12 +663,29 @@
                  "c": [
                   {
                    "n": "Ibn Abī ʿUmar",
-                   "d": "c. 344 ◇",
+                   "d": "352",
+                   "k": "q",
+                   "c": [
+                    {
+                     "n": "al-Sūsanjirdī",
+                     "d": "402",
+                     "k": "q"
+                    },
+                    {
+                     "n": "Bakr b. Shādhān",
+                     "d": "",
+                     "k": "q"
+                    }
+                   ]
+                  },
+                  {
+                   "n": "Muḥammad b. Isḥāq (his son)",
+                   "d": "",
                    "k": "q"
                   },
                   {
-                   "n": "al-Sūsanjirdī",
-                   "d": "402 ◇",
+                   "n": "al-Burṣāṭī",
+                   "d": "",
                    "k": "q"
                   }
                  ]
@@ -677,7 +742,7 @@
                 },
                 {
                  "n": "al-Ṭalḥī",
-                 "d": "280",
+                 "d": "252",
                  "k": "q"
                 }
                ]
@@ -689,7 +754,7 @@
              "d": "189 · Kufa",
              "k": "i",
              "q": "Al-Kisa'i",
-             "also": "also: Ibn Abī Laylā (148), Shuʿba",
+             "also": "also: ʿĪsā b. ʿUmar al-Hamdānī, Ibn Abī Laylā (148); the variants only from Shuʿba",
              "c": [
               {
                "n": "Abū al-Ḥārith",
@@ -704,7 +769,7 @@
                 },
                 {
                  "n": "Salama b. ʿĀṣim",
-                 "d": "c. 270",
+                 "d": "c. 270 ◇",
                  "k": "q"
                 }
                ]
@@ -748,8 +813,7 @@
     {
      "n": "→ 4 · Ibn ʿĀmir",
      "k": "x",
-     "ref": "4 · Ibn ʿĀmir",
-     "dis": 1
+     "ref": "4 · Ibn ʿĀmir"
     }
    ]
   },
@@ -761,13 +825,33 @@
    "c": [
     {
      "n": "Ḥiṭṭān b. ʿAbdallāh al-Raqāshī",
-     "d": "c. 73",
+     "d": "c. 70s",
      "k": "t",
      "c": [
       {
        "n": "→ al-Ḥasan al-Baṣrī",
        "k": "x",
        "ref": "al-Ḥasan al-Baṣrī"
+      }
+     ]
+    },
+    {
+     "n": "Abū Rajāʾ al-ʿUṭāridī",
+     "d": "c. 105 ◇",
+     "k": "t",
+     "c": [
+      {
+       "n": "Abū al-Ashhab al-ʿUṭāridī",
+       "d": "165 ◇",
+       "k": "t",
+       "also": "Ibn al-Jazarī calls this chain very sound and very short",
+       "c": [
+        {
+         "n": "→ 9 · Yaʿqūb",
+         "k": "x",
+         "ref": "9 · Yaʿqūb"
+        }
+       ]
       }
      ]
     }
