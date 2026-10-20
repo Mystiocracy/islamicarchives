@@ -99,7 +99,7 @@
         if (pn.length) {
           var x0 = d3.min(pn, function (x) { return x.x; }), x1 = d3.max(pn, function (x) { return x.x; });
           var y0 = d3.min(pn, function (x) { return x.y; }), y1 = d3.max(pn, function (x) { return x.y; });
-          var k = Math.max(0.3, Math.min(1, (box.width - 260) / (y1 - y0 + 40), (box.height - 120) / (x1 - x0 + 60)));
+          var k = Math.max(0.6, Math.min(1, (box.width - 260) / (y1 - y0 + 40), (box.height - 120) / (x1 - x0 + 60)));
           svg.call(zoom.transform, d3.zoomIdentity.translate(40 - y0 * k, box.height / 2 - ((x0 + x1) / 2) * k).scale(k));
         }
       } else if (reset) {
@@ -134,7 +134,8 @@
       $('btcrumb').innerHTML = '<span>Showing the <strong>' + (mode === 'down' ? 'students' : 'teachers') + '</strong> of <strong>' + esc(p.n) + '</strong> in al-Bukhārī’s chains.</span>' +
         '<button type="button" class="bt-tool" id="btcollapse">Close all branches</button><button type="button" class="bt-tool" id="btfit">Back to the start</button>' +
         (hlNum ? '<span class="bt-hlnote">Chain of ḥadīth <strong>' + esc(hlNum) + '</strong> lit up' + (hlOf > 1 ? ' (chain ' + (hlIdx + 1) + ' of ' + hlOf + ' <button type="button" class="bt-tool" id="btnextchain">Next chain</button>)' : '') +
-          ' · <a href="/hadith/bukhari/' + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' : '');
+          ' · <a href="/hadith/bukhari/' + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
+          '<span class="bt-hlpath">' + hlSeq.map(function (id) { var q = P[id] || {}; return '<b>' + esc(short(q.n || ('#' + id), 26)) + '</b>'; }).join(' → ') + '</span>' : '');
       $('btcollapse').onclick = function () { clearHl(); setRoot(rootId); };
       if ($('btclearhl')) $('btclearhl').onclick = function () { clearHl(); render(false); };
       if ($('btnextchain')) $('btnextchain').onclick = function () { showChain(hlNum, hlIdx + 1); };
@@ -165,9 +166,9 @@
     }
 
     /* ---------- light up one ḥadīth's chain ---------- */
-    var hl = new Set(), hlNum = null, hlIdx = 0, hlOf = 0, fitPath = false;
+    var hl = new Set(), hlNum = null, hlIdx = 0, hlOf = 0, fitPath = false, hlSeq = [];
     function clearHl() {
-      hl = new Set(); hlNum = null; hlOf = 0;
+      hl = new Set(); hlNum = null; hlOf = 0; hlSeq = [];
       card.querySelectorAll('li.hl.on').forEach(function (li) { li.classList.remove('on'); });
       try { if (/^#h/.test(location.hash)) history.replaceState(null, '', location.pathname); } catch (e) {}
     }
@@ -204,7 +205,7 @@
         hl = new Set([root.uid]);
         var n = root;
         for (var i = seq.indexOf(rootId) + 1; i < seq.length && n; i++) { n = ensureChild(n, seq[i]); if (n) hl.add(n.uid); }
-        hlNum = num; hlIdx = idx; hlOf = chains.length; fitPath = true;
+        hlNum = num; hlIdx = idx; hlOf = chains.length; fitPath = true; hlSeq = seq.slice();
         showView('tree');
         card.querySelectorAll('li.hl').forEach(function (li) { li.classList.toggle('on', li.dataset.n === String(num)); });
         if (window.innerWidth <= 860) card.hidden = true;
