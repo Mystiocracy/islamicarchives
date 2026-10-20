@@ -40,11 +40,13 @@
       if (!n.children) { n.children = []; n.shown = 0; }
       n.children = n.children.filter(function (c) { return !c.more; });
       var next = list.slice(n.shown, n.shown + (more ? PAGE * 2 : PAGE));
-      next.forEach(function (k) { n.children.push(makeNode(k[0], k[1], anc)); });
+      var have = new Set(n.children.map(function (c) { return c.id; }));
+      next.forEach(function (k) { if (!have.has(k[0])) n.children.push(makeNode(k[0], k[1], anc)); });
       n.shown += next.length;
       if (n.shown < list.length) n.children.push({ uid: ++uid, more: true, parentNode: n, left: list.length - n.shown });
     }
     function setRoot(id, dir) {
+      clearHl();
       if (dir) mode = dir; rootId = id;
       $('dDown').setAttribute('aria-pressed', String(mode === 'down' && id == -1));
       $('dUp').setAttribute('aria-pressed', String(mode === 'up' && id == 0));
@@ -56,11 +58,15 @@
       d3.tree().nodeSize([24, 290]).separation(function (a, b) { return a.parent === b.parent ? 1 : 1.25; })(h);
       var nodes = h.descendants(), links = h.links();
       var maxC = Math.max.apply(null, [1].concat(links.map(function (l) { return l.target.data.count || 1; })));
+      host.classList.toggle('hl-on', hl.size > 0);
+      var onPath = function (d) { return hl.has(d.source.data.uid) && hl.has(d.target.data.uid); };
       var lk = vp.select('.links').selectAll('path').data(links, function (d) { return d.target.data.uid; });
       lk.exit().remove();
       lk.enter().append('path').merge(lk)
         .attr('d', d3.linkHorizontal().x(function (d) { return d.y; }).y(function (d) { return d.x; }))
-        .attr('stroke-width', function (d) { return d.target.data.more ? 1 : 0.8 + 4.2 * Math.sqrt((d.target.data.count || 1) / maxC); });
+        .attr('stroke-width', function (d) { var w = d.target.data.more ? 1 : 0.8 + 4.2 * Math.sqrt((d.target.data.count || 1) / maxC); return onPath(d) ? Math.max(w, 3.5) : w; })
+        .classed('hl', onPath);
+      vp.select('.links').selectAll('path.hl').raise();
       var nd = vp.select('.nodes').selectAll('g.node').data(nodes, function (d) { return d.data.uid; });
       nd.exit().remove();
       var en = nd.enter().append('g').attr('class', 'node').attr('tabindex', 0).attr('role', 'button');
@@ -69,6 +75,7 @@
       all.attr('transform', function (d) { return 'translate(' + d.y + ',' + d.x + ')'; })
         .classed('more', function (d) { return !!d.data.more; }).classed('cyc', function (d) { return !!d.data.cyc; })
         .classed('sel', function (d) { return !d.data.more && d.data.id === selected; })
+        .classed('onpath', function (d) { return hl.has(d.data.uid); })
         .attr('aria-label', function (d) { return d.data.more ? 'Show ' + d.data.left + ' more' : (P[d.data.id] || {}).n; });
       all.select('circle')
         .attr('r', function (d) { return d.data.more ? 3 : (d.data.id <= 0 ? 7 : 5); })
@@ -86,7 +93,16 @@
       });
       all.on('click', function (e, d) { onNode(d); }).on('keydown', function (e, d) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onNode(d); } });
       var box = svg.node().getBoundingClientRect();
-      if (reset) {
+      if (fitPath) {
+        fitPath = false;
+        var pn = nodes.filter(function (x) { return hl.has(x.data.uid); });
+        if (pn.length) {
+          var x0 = d3.min(pn, function (x) { return x.x; }), x1 = d3.max(pn, function (x) { return x.x; });
+          var y0 = d3.min(pn, function (x) { return x.y; }), y1 = d3.max(pn, function (x) { return x.y; });
+          var k = Math.max(0.3, Math.min(1, (box.width - 260) / (y1 - y0 + 40), (box.height - 120) / (x1 - x0 + 60)));
+          svg.call(zoom.transform, d3.zoomIdentity.translate(40 - y0 * k, box.height / 2 - ((x0 + x1) / 2) * k).scale(k));
+        }
+      } else if (reset) {
         svg.call(zoom.transform, d3.zoomIdentity.translate(Math.min(150, box.width * 0.12), box.height / 2).scale(box.width < 600 ? 0.8 : 1));
       } else if (anchor) {
         var tr = d3.zoomTransform(svg.node());
@@ -116,8 +132,12 @@
     function drawCrumb() {
       var p = P[rootId] || {};
       $('btcrumb').innerHTML = '<span>Showing the <strong>' + (mode === 'down' ? 'students' : 'teachers') + '</strong> of <strong>' + esc(p.n) + '</strong> in al-Bukhārī’s chains.</span>' +
-        '<button type="button" class="bt-tool" id="btcollapse">Close all branches</button><button type="button" class="bt-tool" id="btfit">Back to the start</button>';
-      $('btcollapse').onclick = function () { setRoot(rootId); };
+        '<button type="button" class="bt-tool" id="btcollapse">Close all branches</button><button type="button" class="bt-tool" id="btfit">Back to the start</button>' +
+        (hlNum ? '<span class="bt-hlnote">Chain of ḥadīth <strong>' + esc(hlNum) + '</strong> lit up' + (hlOf > 1 ? ' (chain ' + (hlIdx + 1) + ' of ' + hlOf + ' <button type="button" class="bt-tool" id="btnextchain">Next chain</button>)' : '') +
+          ' · <a href="/hadith/bukhari/' + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' : '');
+      $('btcollapse').onclick = function () { clearHl(); setRoot(rootId); };
+      if ($('btclearhl')) $('btclearhl').onclick = function () { clearHl(); render(false); };
+      if ($('btnextchain')) $('btnextchain').onclick = function () { showChain(hlNum, hlIdx + 1); };
       $('btfit').onclick = function () { render(true); };
     }
     var leg = [[-1, 'The Prophet ﷺ']].concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map(function (g) { return ['g' + g, g === 1 ? '1 Companions' : String(g)]; })).concat([[0, 'al-Bukhārī']]);
@@ -131,7 +151,7 @@
       var ns = DATA.x[key] || [];
       return ns.slice(from, to).map(function (n) {
         var sn = snips && snips[n];
-        return '<li class="hl"><a href="/hadith/bukhari/' + n + '/"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></a></li>';
+        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="/hadith/bukhari/' + n + '/" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
       }).join('');
     }
     function openLink(holder, key) {
@@ -142,6 +162,53 @@
         var b = holder.querySelector('.hl-more');
         if (b) b.onclick = function () { holder.querySelector('.hlist').insertAdjacentHTML('beforeend', hadithItems(key, 10, ns.length)); b.remove(); };
       }).catch(function () { holder.innerHTML = '<p class="hl-load">The ḥadīth list could not be loaded.</p>'; });
+    }
+
+    /* ---------- light up one ḥadīth's chain ---------- */
+    var hl = new Set(), hlNum = null, hlIdx = 0, hlOf = 0, fitPath = false;
+    function clearHl() {
+      hl = new Set(); hlNum = null; hlOf = 0;
+      card.querySelectorAll('li.hl.on').forEach(function (li) { li.classList.remove('on'); });
+      try { if (/^#h/.test(location.hash)) history.replaceState(null, '', location.pathname); } catch (e) {}
+    }
+    function ensureChild(n, id) {
+      if (n.cyc) return null;
+      if (!n.children) expand(n);
+      if (!n.children) return null;
+      var c = n.children.find(function (x) { return !x.more && x.id === id; });
+      if (c) return c;
+      var k = kids(n.id).find(function (x) { return x[0] === id; });
+      var anc = new Set(n.anc); anc.add(n.id);
+      c = makeNode(id, k ? k[1] : null, anc);
+      var mi = n.children.findIndex(function (x) { return x.more; });
+      if (mi < 0) n.children.push(c); else n.children.splice(mi, 0, c);
+      return c;
+    }
+    function showChain(num, which) {
+      getSnips().then(function () {
+        var sn = snips[num], chains = sn && sn[2];
+        if (!chains || !chains.length) { $('btcrumb').insertAdjacentHTML('beforeend', '<span class="bt-hlnote">Ḥadīth ' + esc(num) + ' has no chain in this dataset.</span>'); return; }
+        // prefer a chain through the narrator whose card is open
+        var idx = which != null ? which % chains.length : Math.max(0, chains.findIndex(function (c) { return c.indexOf(curId) >= 0; }));
+        var ch = chains[idx];
+        var toProphet = (P[ch[ch.length - 1]] || {}).g === 1;
+        var seqFor = function (m) { return m === 'down' ? (toProphet ? [-1] : []).concat(ch.slice().reverse(), [0]) : [0].concat(ch, toProphet ? [-1] : []); };
+        var seq = seqFor(mode);
+        if (seq.indexOf(rootId) < 0) {
+          if (toProphet) { mode = 'down'; rootId = -1; } else { mode = 'up'; rootId = 0; }
+          seq = seqFor(mode);
+          $('dDown').setAttribute('aria-pressed', String(mode === 'down' && rootId == -1));
+          $('dUp').setAttribute('aria-pressed', String(mode === 'up' && rootId == 0));
+          root = makeNode(rootId, null, new Set()); expand(root);
+        }
+        hl = new Set([root.uid]);
+        var n = root;
+        for (var i = seq.indexOf(rootId) + 1; i < seq.length && n; i++) { n = ensureChild(n, seq[i]); if (n) hl.add(n.uid); }
+        hlNum = num; hlIdx = idx; hlOf = chains.length; fitPath = true;
+        showView('tree');
+        card.querySelectorAll('li.hl').forEach(function (li) { li.classList.toggle('on', li.dataset.n === String(num)); });
+        if (window.innerWidth <= 860) card.hidden = true;
+      });
     }
 
     /* ---------- narrator card ---------- */
@@ -157,6 +224,7 @@
       return '<h3><span>' + label + '</span><span>' + arr.length + '</span></h3><ul data-list="' + key + '">' + li + '</ul>' + (arr.length > lim ? '<button type="button" class="showall" data-for="' + key + '">Show all ' + arr.length + '</button>' : '');
     }
     var curId = null;
+    card.addEventListener('click', function (e) { var b = e.target.closest('button.hlb'); if (b) showChain(b.dataset.n); });
     function select(id, viaKey, viaName) {
       selected = id; curId = id;
       vp.selectAll('g.node').classed('sel', function (d) { return !d.data.more && d.data.id === id; });
@@ -241,10 +309,12 @@
     $('vIndex').onclick = function () { showView('index'); };
     $('dDown').onclick = function () { showView('tree'); setRoot(-1, 'down'); };
     $('dUp').onclick = function () { showView('tree'); setRoot(0, 'up'); };
+    var hm = /^#h(\d+[a-z]?)$/.exec(location.hash);
     var m = /^#n(-?\d+)$/.exec(location.hash);
     if (m && P[m[1]]) { setRoot(+m[1], (teachers[m[1]] || []).length ? 'up' : 'down'); }
     else { setRoot(-1, 'down'); if (window.innerWidth <= 860) card.hidden = true; }
-    window.addEventListener('hashchange', function () { var h = /^#n(-?\d+)$/.exec(location.hash); if (h && P[h[1]]) { showView('tree'); setRoot(+h[1], (teachers[h[1]] || []).length ? 'up' : 'down'); } });
+    if (hm) showChain(hm[1]);
+    window.addEventListener('hashchange', function () { var c = /^#h(\d+[a-z]?)$/.exec(location.hash); if (c) { showChain(c[1]); return; } var h = /^#n(-?\d+)$/.exec(location.hash); if (h && P[h[1]]) { showView('tree'); setRoot(+h[1], (teachers[h[1]] || []).length ? 'up' : 'down'); } });
     if (location.hash === '#index') showView('index');
   }
 })();

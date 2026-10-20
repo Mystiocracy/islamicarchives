@@ -112,14 +112,14 @@ narr['nh'] = sum(1 for h in hadiths if h['chains'])
 narr['nt'] = len(hadiths)
 json.dump(narr, open(REPO + 'public/hadith/bukhari-narrators.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 
-# --- short lines for the lists in the narrator card
+# --- short lines (and chains) for the lists in the narrator card
 def snip(h):
     t = re.sub(r'\s+', ' ', h['en'])
     t = re.sub(r'^Narrated [^:]{1,80}:\s*', '', t)
     if not t:
         t = re.sub(r'\s+', ' ', plain_ar(h['ar']))
     return t[:120] + ('…' if len(t) > 120 else '')
-json.dump({h['n']: [h['book'], snip(h)] for h in hadiths}, open(REPO + 'public/hadith/bukhari-snips.json', 'w'), ensure_ascii=False, separators=(',', ':'))
+json.dump({h['n']: [h['book'], snip(h)] + ([h['chains']] if h['chains'] else []) for h in hadiths}, open(REPO + 'public/hadith/bukhari-snips.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 
 print('hadiths', len(hadiths), 'with chains', narr['nh'], 'books', len(books), 'edges', len(narr['e']))
 print('no-chain', sum(1 for h in hadiths if not h['chains']), 'multi-chain', sum(1 for h in hadiths if len(h['chains']) > 1))

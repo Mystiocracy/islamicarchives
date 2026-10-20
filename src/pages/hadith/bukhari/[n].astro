@@ -57,6 +57,7 @@ const lead = h.en.replace(/\s+/g, ' ').replace(/^Narrated [^:]{1,80}:\s*/, '').s
     </section>
 
     <div class="hd-links" data-pagefind-ignore>
+      {h.chains.length > 0 && <a class="btn btn-outline" href={`/hadith/bukhari-narrators/#h${h.n}`}>Show this chain in the tree</a>}
       <a class="btn btn-quiet" href={sunnahUrl(h)} rel="noopener" target="_blank">Read on sunnah.com ↗</a>
       {book && <a class="btn btn-quiet" href={`/hadith/bukhari/book/${book.k}/`}>All of Book {book.k}</a>}
       <a class="btn btn-quiet" href="/hadith/bukhari/#search">Search the Ṣaḥīḥ</a>

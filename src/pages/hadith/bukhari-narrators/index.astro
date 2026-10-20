@@ -28,7 +28,7 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
         <p><strong>Compiled automatically: it may contain mistakes.</strong> The chains and names were put together with an AI assistant (Claude, by Anthropic) from two public databases, listed at the foot of the page, and were not checked chain by chain against the printed Ṣaḥīḥ. Treat it as a map for finding your way, and check anything you rely on against al-Bukhārī's text and the books of rijāl.</p>
       </div>
 
-      <p>Start from the Prophet ﷺ and follow each narrator to the people who took ḥadīth from him, or start from al-Bukhārī and go back through his teachers. Tap a name to open the next generation and to see that narrator's details: his dates, where he lived and died, his grade, and everyone he narrates from and to in the Ṣaḥīḥ. Any narrator can become the start of a new tree. The green count beside each teacher or student lists the ḥadīth that passed between them; each opens the ḥadīth in Arabic and English in <a href="/hadith/bukhari/">the full text of the Ṣaḥīḥ</a>.</p>
+      <p>Start from the Prophet ﷺ and follow each narrator to the people who took ḥadīth from him, or start from al-Bukhārī and go back through his teachers. Tap a name to open the next generation and to see that narrator's details: his dates, where he lived and died, his grade, and everyone he narrates from and to in the Ṣaḥīḥ. Any narrator can become the start of a new tree. The green count beside each teacher or student lists the ḥadīth that passed between them. Tap a ḥadīth in a list to light up its whole chain in the tree, or tap <em>Read</em> to open it in Arabic and English in <a href="/hadith/bukhari/">the full text of the Ṣaḥīḥ</a>.</p>
     </div>
   </div>
 
@@ -77,7 +77,7 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
       <h2>Reading the tree</h2>
       <ul>
         <li><strong>Colours</strong> show the generation (ṭabaqa) in Ibn Ḥajar's scheme in <em>Taqrīb al-Tahdhīb</em>: 1 for the Companions, 2 to 6 for the Successors from senior to junior, 7 to 9 for their followers, and 10 to 12 for the generations al-Bukhārī studied with.</li>
-        <li><strong>The number</strong> after a name is how many of al-Bukhārī's ḥadīth pass along that link. Thicker lines carry more ḥadīth. Tap the name and the card lists those ḥadīth.</li>
+        <li><strong>The number</strong> after a name is how many of al-Bukhārī's ḥadīth pass along that link. Thicker lines carry more ḥadīth. Tap the name and the card lists those ḥadīth; tap one of them to light up its full chain in gold.</li>
         <li><strong>A dashed ring</strong> means the name has a further generation to open. Long lists open twelve at a time; tap “more” for the rest.</li>
         <li><strong>Dates</strong> are death years in hijri; the narrator card adds the Common Era year.</li>
         <li><strong>Grades</strong> follow muslimscholars.info's summary of Ibn Ḥajar's verdicts: <em>thiqa</em> (trustworthy), <em>thiqa thiqa</em> (doubly so), <em>ṣadūq</em> (truthful), <em>maqbūl</em> (acceptable when supported) and so on.</li>
@@ -188,8 +188,19 @@ const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).s
   .bt-card .links-here { margin: 6px 0 4px; }
   .bt-card ol.hlist { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--green-line); }
   .bt-card li.hl { border: 0; padding: 0; }
-  .bt-card li.hl a { display: grid; grid-template-columns: 3.4em 1fr; gap: 8px; padding: 5px 8px; text-decoration: none; color: var(--ink-2); font-size: 13.5px; line-height: 1.45; }
-  .bt-card li.hl a:hover { background: var(--green-tint); }
+  .bt-card li.hl { display: flex; align-items: flex-start; gap: 4px; }
+  .bt-card li.hl button.hlb { flex: 1; min-width: 0; display: grid; grid-template-columns: 3.4em 1fr; gap: 8px; padding: 5px 8px; border: 0; background: none; text-align: left; cursor: pointer; color: var(--ink-2); font: 13.5px/1.45 var(--sans); border-radius: 6px; }
+  .bt-card li.hl button.hlb:hover { background: var(--green-tint); }
+  .bt-card li.hl.on button.hlb { background: var(--saffron-tint); box-shadow: inset 3px 0 0 var(--saffron); }
+  .bt-card li.hl a.rd { flex: none; font: 600 12px var(--sans); color: var(--green); padding: 6px 6px 0; text-decoration: none; }
+  .bt-card li.hl a.rd:hover { text-decoration: underline; }
+  .bt .links path.hl { stroke: var(--saffron); stroke-opacity: 1; }
+  .bt.hl-on .links path:not(.hl) { stroke-opacity: .3; }
+  .bt.hl-on .node:not(.onpath) text { opacity: .5; }
+  .bt .node.onpath text { font-weight: 600; opacity: 1; }
+  .bt .node.onpath circle { stroke: var(--saffron); stroke-width: 2.5; stroke-dasharray: none; }
+  .bt-hlnote { background: var(--saffron-tint); color: var(--ink); border: 1px solid #E7CFA4; border-radius: 6px; padding: 3px 8px; }
+  .bt-hlnote a { color: var(--green); font-weight: 600; }
   .bt-card li.hl b { color: var(--green); font-variant-numeric: tabular-nums; }
   .bt-card .hl-load { font-size: 13px; color: var(--muted); margin: 4px 0; }
   .bt-card li .row button[data-id] { border: 0; background: none; padding: 0; cursor: pointer; text-align: left; color: var(--ink); font: inherit; min-width: 0; }
