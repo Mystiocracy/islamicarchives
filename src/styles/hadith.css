@@ -45,3 +45,14 @@
 .hd-search input { flex: 1 1 320px; min-width: 0; }
 .hd-search select { flex: 0 1 260px; min-width: 0; }
 @media (max-width: 600px) { .hd-ar { font-size: 22px; padding: 16px; } .hd-head h1 { font-size: 28px; } }
+/* one book per page: each ḥadīth is a card with its chain folded away */
+.hd-item { border-top: 1px solid var(--line-2); padding-top: 18px; display: flex; flex-direction: column; gap: 12px; scroll-margin-top: 70px; }
+.hd-item h2 { margin: 0; font-size: 18px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.hd-item h2 a { color: var(--green); text-decoration: none; }
+.hd-item h2 small { font-size: 13px; color: var(--muted); font-weight: 400; }
+.hd-item:target { background: var(--green-tint); margin: 0 -12px; padding: 18px 12px 12px; border-radius: 8px; }
+.hd-ch summary { cursor: pointer; color: var(--green); font-size: 15px; }
+.hd-itemlinks { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; }
+.hd-parts { display: flex; flex-wrap: wrap; gap: 6px; }
+.hd-parts a, .hd-parts span { min-width: 2.2em; text-align: center; padding: 4px 10px; border: 1px solid var(--line); border-radius: 6px; text-decoration: none; }
+.hd-parts span { background: var(--green); color: #fff; border-color: var(--green); }

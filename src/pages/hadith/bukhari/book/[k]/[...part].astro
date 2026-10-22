@@ -1,0 +1,86 @@
+---
+import Base from '../../../../../layouts/Base.astro';
+import '../../../../../styles/hadith.css';
+import { bukhari, sunnahUrl, ARCHIVED, type Hadith } from '../../../../../lib/hadith';
+import { longDate, SITE } from '../../../../../lib/quran';
+
+// Each book is read on one page (long books are cut into parts of PER ḥadīth): the whole collection is about 120 pages
+// instead of one page per ḥadīth, and the ḥadīth stay reachable by anchor (#h123) and by search.
+export function getStaticPaths() {
+  const PER = 100;
+  const { books, hadiths } = bukhari();
+  const out: any[] = [];
+  for (const b of books) {
+    const list = hadiths.filter((h) => h.book === b.k);
+    const parts = Math.max(1, Math.ceil(list.length / PER));
+    for (let p = 1; p <= parts; p++) out.push({ params: { k: String(b.k), part: p === 1 ? undefined : `p${p}` }, props: { p, parts } });
+  }
+  return out;
+}
+const PER = 100;
+const { p, parts } = Astro.props as { p: number; parts: number };
+const k = Number(Astro.params.k);
+const { books, hadiths, people } = bukhari();
+const book = books.find((b) => b.k === k)!;
+const bi = books.indexOf(book);
+const all = hadiths.filter((h) => h.book === k);
+const list: Hadith[] = all.slice((p - 1) * PER, p * PER);
+const base = `/hadith/bukhari/book/${k}/`;
+const href = (q: number) => (q === 1 ? base : `${base}p${q}/`);
+const here = `${SITE}${href(p)}`;
+const yr = (y?: number) => (y == null ? '' : y < 0 ? `${-y} BH` : `d. ${y}`);
+const person = (id: number) => people[String(id)] || { n: `Narrator #${id}`, h: 0 };
+const chainsOf = (h: Hadith) => h.chains.map((ch) => ({ ids: [...ch].reverse(), toProphet: person(ch[ch.length - 1]).g === 1 }));
+const first = list[0].n, last = list[list.length - 1].n;
+const cite = `al-Bukhārī, Ṣaḥīḥ al-Bukhārī, Book ${book.k}, ${book.name}, ḥadīth ${first}–${last}. English translation by Muhammad Muhsin Khan. In Islamic Internet Archives, archived ${longDate(ARCHIVED)}. ${here}#h${first} (replace the number after # with the ḥadīth you cite).`;
+const title = `${book.name} – Ṣaḥīḥ al-Bukhārī${parts > 1 ? ` (part ${p})` : ''}`;
+---
+<Base title={title} description={`Book ${book.k} of Ṣaḥīḥ al-Bukhārī, ${book.name}: ḥadīth ${first}–${last} in Arabic and English, with chains of narrators.`} current="hadith">
+  <div class="hd">
+    <nav class="hd-crumb" aria-label="Breadcrumb"><a href="/hadith/">Hadith Hub</a> › <a href="/hadith/bukhari/">Ṣaḥīḥ al-Bukhārī</a> › Book {book.k}{parts > 1 && ` › part ${p}`}</nav>
+    <header class="hd-head">
+      <span class="eyebrow">Ṣaḥīḥ al-Bukhārī · Book {book.k}</span>
+      <h1>{book.name}</h1>
+      <span class="book"><span lang="ar" dir="rtl" style="font-size:22px">{book.ar}</span> · ḥadīth {first}–{last}{parts > 1 ? ` (part ${p} of ${parts}; the book has ${book.count})` : ` · ${book.count} in all`}</span>
+    </header>
+
+    {parts > 1 && <nav class="hd-parts" aria-label="Parts of this book">{Array.from({ length: parts }, (_, i) => i + 1).map((q) => q === p ? <span aria-current="page">{q}</span> : <a href={href(q)}>{q}</a>)}</nav>}
+
+    {list.map((h) => {
+      const chains = chainsOf(h);
+      return (
+        <article class="hd-item" id={`h${h.n}`}>
+          <h2><a href={`#h${h.n}`} aria-label={`Link to ḥadīth ${h.n}`}>Ṣaḥīḥ al-Bukhārī {h.n}</a>{h.inbook > 0 && <small>no. {h.inbook} in the book</small>}</h2>
+          {h.ar && <p class="hd-ar" lang="ar" dir="rtl">{h.ar}</p>}
+          {h.en && <p class="hd-en">{h.en}</p>}
+          <details class="hd-ch">
+            <summary>{chains.length > 1 ? 'Chains of narrators' : 'Chain of narrators'}</summary>
+            {chains.length === 0 && <p class="hd-note">The narrator dataset used here has no chain for this ḥadīth. The chain can be read at the start of the Arabic text.</p>}
+            {chains.map((c, i) => (
+              <>
+                {chains.length > 1 && <p class="hd-note" style="margin-top:8px">Chain {i + 1}</p>}
+                <ol class="hd-chain">
+                  {c.toProphet && <li><span class="pr">The Prophet ﷺ<small>d. 11</small></span></li>}
+                  {c.ids.map((id) => { const q = person(id); return <li><a href={`/hadith/bukhari-narrators/#n${id}`}>{q.n}<small>{yr(q.d) || (q.g === 1 ? 'Companion' : '')}</small></a></li>; })}
+                  <li><a class="bk" href="/hadith/bukhari-narrators/#n0">al-Bukhārī<small>d. 256</small></a></li>
+                </ol>
+              </>
+            ))}
+          </details>
+          <p class="hd-itemlinks">
+            {h.chains.length > 0 && <a href={`/hadith/bukhari-narrators/#h${h.n}`}>Show this chain in the tree</a>}
+            <a href={sunnahUrl(h)} rel="noopener" target="_blank">sunnah.com ↗</a>
+          </p>
+        </article>
+      );
+    })}
+
+    <p class="hd-note">Each name in a chain opens that narrator in the <a href="/hadith/bukhari-narrators/">tree of al-Bukhārī's narrators</a>. Chains come from an automatically matched dataset and may contain mistakes.</p>
+
+    <nav class="hd-nav" aria-label="Neighbouring pages">
+      {p > 1 ? <a href={href(p - 1)}>← Part {p - 1}</a> : books[bi - 1] ? <a href={`/hadith/bukhari/book/${books[bi - 1].k}/`}>← Book {books[bi - 1].k}: {books[bi - 1].name}</a> : <span></span>}
+      {p < parts ? <a href={href(p + 1)}>Part {p + 1} →</a> : books[bi + 1] ? <a href={`/hadith/bukhari/book/${books[bi + 1].k}/`}>Book {books[bi + 1].k}: {books[bi + 1].name} →</a> : <span></span>}
+    </nav>
+    <p class="hd-cite"><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite} Arabic text and numbering as on sunnah.com, from the open hadith-api collection.</p>
+  </div>
+</Base>

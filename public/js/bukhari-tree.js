@@ -134,7 +134,7 @@
       $('btcrumb').innerHTML = '<span>Showing the <strong>' + (mode === 'down' ? 'students' : 'teachers') + '</strong> of <strong>' + esc(p.n) + '</strong> in al-Bukhārī’s chains.</span>' +
         '<button type="button" class="bt-tool" id="btcollapse">Close all branches</button><button type="button" class="bt-tool" id="btfit">Back to the start</button>' +
         (hlNum ? '<span class="bt-hlnote">Chain of ḥadīth <strong>' + esc(hlNum) + '</strong> lit up' + (hlOf > 1 ? ' (chain ' + (hlIdx + 1) + ' of ' + hlOf + ' <button type="button" class="bt-tool" id="btnextchain">Next chain</button>)' : '') +
-          ' · <a href="/hadith/bukhari/' + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
+          ' · <a href="/hadith/bukhari/go/?n=' + esc(hlNum) + '">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
           '<span class="bt-hlpath">' + hlSeq.map(function (id) { var q = P[id] || {}; return '<b>' + esc(short(q.n || ('#' + id), 26)) + '</b>'; }).join(' → ') + '</span>' : '');
       $('btcollapse').onclick = function () { clearHl(); setRoot(rootId); };
       if ($('btclearhl')) $('btclearhl').onclick = function () { clearHl(); render(false); };
