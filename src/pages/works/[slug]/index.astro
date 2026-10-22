@@ -6,7 +6,8 @@ import { longDate } from '../../../lib/quran';
 import { allWorks, provenance, FORMATS, hosted, RIGHTS_LABEL, eraOf, eraSpan, allEras, subjectNames, chaptersOf, type Work } from '../../../lib/site';
 
 export async function getStaticPaths() {
-  const works = await allWorks();
+  // link-only entries have no page of their own: they are listed on author, subject and library pages with their own Cite button
+  const works = (await allWorks()).filter((w) => w.data.rights !== 'link-only');
   return works.map((w) => ({ params: { slug: w.id }, props: { work: w } }));
 }
 const { work } = Astro.props as { work: Work };

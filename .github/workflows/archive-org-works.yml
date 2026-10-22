@@ -24,7 +24,7 @@ jobs:
           PART_IN: ${{ github.event.inputs.part }}
         run: |
           part="${PART_IN:-$(( $(date -u +%j | sed 's/^0*//') % 7 ))}"
-          ls content/works/*.md | sort | awk -v p="$part" 'NR % 7 == p' \
+          grep -L '^rights: link-only' content/works/*.md | sort | awk -v p="$part" 'NR % 7 == p' \
             | while read -r f; do echo "https://islamicarchives.org/works/$(basename "$f" .md)/"; done > urls.txt
           echo "part $part: $(wc -l < urls.txt) pages"
           while read -r u; do

@@ -28,6 +28,3 @@ RewriteRule ^api/(config\.php|vendor/|composer\.(json|lock)) - [F,L]
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript application/json image/svg+xml
 </IfModule>
-
-# Old per-ḥadīth addresses (/hadith/bukhari/123/) now open that ḥadīth inside its book page
-RewriteRule ^hadith/bukhari/([0-9]+[a-z]?)/?$ /hadith/bukhari/go/?n=$1 [R=302,L]
