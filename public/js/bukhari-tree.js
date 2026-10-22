@@ -209,6 +209,9 @@
         showView('tree');
         card.querySelectorAll('li.hl').forEach(function (li) { li.classList.toggle('on', li.dataset.n === String(num)); });
         if (window.innerWidth <= 860) card.hidden = true;
+        // the tree sits below the page's introduction: bring it into view so the lit-up chain is seen at once
+        var sec = document.querySelector('section.bt');
+        if (sec) setTimeout(function () { sec.scrollIntoView({ block: 'start' }); }, 60);
       });
     }
 
