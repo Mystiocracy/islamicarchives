@@ -1,0 +1,241 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { longDate, SITE } from '../../../lib/quran';
+import fs from 'node:fs';
+
+const ARCHIVED = '2026-10-24';
+const TITLE = 'Narrators of the Ḥadīth';
+const HERE = `${SITE}/hadith/narrators/`;
+const D = JSON.parse(fs.readFileSync('public/hadith/narrators/index.json', 'utf8'));
+const N: any[] = D.n;
+const M = D.meta;
+const fmt = (n: number) => n.toLocaleString('en-GB');
+const withBio = N.filter((n) => n[6]).length;
+const start = Math.max(0, N.findIndex((n) => n[1] === 'al-Zuhri'));
+const top = N.slice(1, 41);
+const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of Transmission.” Interactive chart compiled from Sanadset 650K (Mghari, Bouras and El Hibaoui, 2022) and muslimscholars.info. Archived ${longDate(ARCHIVED)}. ${HERE}.`;
+---
+<Base title={TITLE} description={`${fmt(N.length)} narrators in ${fmt(M.chains)} chains from ${fmt(M.books.length)} books of ḥadīth, with each narrator's teachers and students, the books they appear in, and the busiest route back to the Prophet ﷺ.`} current="hadith">
+  <div class="wrap" style="padding-top:28px; padding-bottom:0">
+    <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 14px"><a href="/hadith/">Hadith Hub</a> › Narrators of the Ḥadīth</nav>
+  </div>
+  <div class="ap-band" data-pagefind-body>
+    <div class="ap">
+      <p class="sub">Rijāl al-ḥadīth · <span lang="ar" dir="rtl">أطلس الأسانيد</span></p>
+      <h1 data-pagefind-meta="title">Narrators of the Ḥadīth</h1>
+      <p class="sub">{fmt(N.length)} narrators in {fmt(M.chains)} chains from {fmt(M.books.length)} books, from the Six Books to the Musnad of Aḥmad, the Muṣannafs, the Muʿjams and the histories. Archived {longDate(ARCHIVED)}.</p>
+
+      <div class="iq-warn" role="note">
+        <p><strong>Compiled automatically: it may contain mistakes.</strong> The chains come from a public research dataset, and the names in them were matched to people by a program written with an AI assistant (Claude, by Anthropic). In a test on books held back from the matching, about 96 to 99 in every 100 matched names were right. Treat this as a map for finding your way, and check anything you rely on against the books of rijāl.</p>
+      </div>
+
+      <p>Search for any narrator, in Arabic or English. The middle of the chart shows who that narrator took ḥadīth from, on the left, and who took from him or her, on the right. The bars and ribbons are as wide as the number of chains that pass along each link. Tap any name to move to that narrator. Above the chart is the busiest route from the narrator back to the Prophet ﷺ, made by following the most-used teacher at each step. Switch to <em>Six Books</em> to count only al-Bukhārī, Muslim, Abū Dāwūd, al-Tirmidhī, al-Nasāʾī and Ibn Māja.</p>
+      <p>For al-Bukhārī alone, with every chain and ḥadīth listed, see the <a href="/hadith/bukhari-narrators/">tree of al-Bukhārī's narrators</a>.</p>
+    </div>
+  </div>
+
+  <section class="ia" id="ia" data-start={start} aria-label="Narrator atlas">
+    <div class="ia-bar">
+      <div class="bt-seg" role="group" aria-label="View">
+        <button type="button" id="vFlow" aria-pressed="true">Narrator</button>
+        <button type="button" id="vIndex" aria-pressed="false">All narrators</button>
+      </div>
+      <div class="bt-seg" role="group" aria-label="Which books to count">
+        <button type="button" id="sAll" aria-pressed="true">All {fmt(M.books.length)} books</button>
+        <button type="button" id="sSix" aria-pressed="false">Six Books</button>
+      </div>
+      <button type="button" id="iaback" class="ia-back" disabled>‹ Back</button>
+      <div class="ia-search">
+        <label for="iaq" class="sr-only">Find a narrator</label>
+        <input id="iaq" type="search" placeholder="Find a narrator: الزهري, Malik, Aisha…" autocomplete="off">
+        <div class="ia-res" id="iares" hidden></div>
+      </div>
+    </div>
+    <p class="ia-loading" id="iaload">Loading the narrators…</p>
+    <div id="iaFlowView">
+      <div class="ia-route" id="iaroute"></div>
+      <div class="ia-main">
+        <div class="ia-flow" id="iaflow"></div>
+        <aside class="ia-card" id="iacard" aria-live="polite"></aside>
+      </div>
+    </div>
+    <div id="iaIndexView" hidden>
+      <div class="bt-ixtools">
+        <label for="ixq" class="sr-only">Filter narrators</label>
+        <input id="ixq" type="search" placeholder="Filter by name, Arabic or English">
+        <label class="ia-chk"><input type="checkbox" id="ixonly"> Only narrators with a biography</label>
+        <span id="ixn" class="muted"></span>
+      </div>
+      <div class="ia-tablewrap"><table>
+        <thead><tr><th class="r">#</th><th>Name in the chains</th><th>Name in English</th><th data-k="tier" class="r">Link from the Prophet ﷺ</th><th data-k="h" class="r" aria-sort="descending">Chains</th><th data-k="h6" class="r">In the Six Books</th></tr></thead>
+        <tbody id="ixb"></tbody>
+      </table></div>
+      <div class="ia-pg" id="ixpg"></div>
+    </div>
+  </section>
+
+  <div class="ap-band" style="border-bottom:0">
+    <div class="ap">
+      <h2>Reading the atlas</h2>
+      <ul>
+        <li><strong>Teachers and students</strong> are counted in the headings only when the link appears in two chains or more; a link seen once is more often a slip in the data. Such links still appear in the lists.</li>
+        <li><strong>Chains</strong> are counted once for every time a narrator appears in a recorded chain. A ḥadīth repeated under several chapters, or in several books, is counted each time.</li>
+        <li><strong>Link from the Prophet ﷺ</strong> is the narrator's usual place in the chains that reach the Prophet: 1 for the Companions, 2 for those who heard them, and so on. It is worked out from the chains, so it is a rough guide, not a ṭabaqa.</li>
+        <li><strong>Generation, dates and grade</strong> appear for the {fmt(withBio)} narrators matched to muslimscholars.info, which follows Ibn Ḥajar's <em>Taqrīb al-Tahdhīb</em>. Dates are hijri, with the Common Era year beside them.</li>
+        <li><strong>A question mark</strong> beside a name means it is a short name, such as “Sufyān” or “ʿAbd Allāh”, that could not be pinned to one person. Its teachers and students may belong to several people.</li>
+        <li><strong>“His father” and “his grandfather”</strong>, which the chains often use instead of a name, are kept as the father or grandfather of the narrator before them, so ʿUrwa can appear as the father of Hishām when the chain says only “from his father”.</li>
+        <li>Unnamed people (“a man”, “one of our companions”) are left out, and the chain is broken at that point.</li>
+      </ul>
+
+      <h2>How this was made, and how it improves on the al-Bukhārī tree</h2>
+      <p>The <a href="/hadith/bukhari-narrators/">al-Bukhārī tree</a> uses a dataset in which every narrator already has a number, but only for the Six Books. Sanadset 650K covers {fmt(M.books.length)} books and {fmt(M.rec)} reports, but it gives each narrator only as the name written in the chain, so the same person appears under many spellings and different people share one name. The names were joined up in four steps.</p>
+      <ol>
+        <li>About 11,700 chains in the Six Books were found in both datasets by comparing their Arabic text. Where both gave the same number of narrators, each written name was paired with its numbered person.</li>
+        <li>Those pairs were used to recognise names in all {fmt(M.books.length)} books, first by looking at the name together with the narrator before or after it (so “Sufyān” after al-Zuhrī is Ibn ʿUyayna, while “Sufyān” after al-Aʿmash is al-Thawrī), then by the name alone where it almost always means one person.</li>
+        <li>Two more rounds used the people already recognised on either side to place names the first round had left open.</li>
+        <li>Names that still could not be matched are kept as written, if they appear at least five times, so later scholars such as al-Ḥākim (“Abū ʿAbd Allāh al-Ḥāfiẓ”, al-Bayhaqī's teacher) are still in the atlas, just without a biography.</li>
+      </ol>
+      <p>To test the matching, each of three books was held back in turn and its chains matched using only the other five. The matches were right 98.8% of the time for Ibn Māja, 98.7% for al-Tirmidhī and 96.2% for Muslim, and a name was placed in 85 to 89% of cases. Books further from the Six Books will do worse, since their later narrators were never in the matching data. Across all the books, about 61% of the names written in the chains were matched to a numbered person.</p>
+
+      <h2>The most-cited narrators</h2>
+      <div class="a-scroll"><table>
+        <thead><tr><th>#</th><th>Narrator</th><th>Name in the chains</th><th>Chains</th><th>In the Six Books</th></tr></thead>
+        <tbody>
+          {top.map((n, i) => <tr><td>{i + 1}</td><td>{n[1] || '–'}</td><td lang="ar" dir="rtl">{n[0]}</td><td>{fmt(n[2])}</td><td>{fmt(n[3])}</td></tr>)}
+        </tbody>
+      </table></div>
+
+      <h2>Sources and further reading</h2>
+      <ul>
+        <li>Mohammed Mghari, Omar Bouras and Abdelaaziz El Hibaoui, “<a href="https://www.sciencedirect.com/science/article/pii/S2352340922007478" rel="noopener" target="_blank">Sanadset 650K: Data on Hadith narrators</a>”, <em>Data in Brief</em> 44 (2022), 108540; data on <a href="https://data.mendeley.com/datasets/5xth87zwb5" rel="noopener" target="_blank">Mendeley Data</a> (version 5, CC BY 4.0): the chains</li>
+        <li>Hadith Narrators dataset (Kaggle), mirrored on Hugging Face as <a href="https://huggingface.co/datasets/Almoooo/dataset_hadith" rel="noopener" target="_blank">Almoooo/dataset_hadith</a>: the numbered chains of the Six Books used to recognise names</li>
+        <li><a href="https://muslimscholars.info/" rel="noopener" target="_blank">muslimscholars.info</a>: names, dates, generations, places and grades; each narrator card links to the full entry</li>
+        <li>Ibn Ḥajar al-ʿAsqalānī, <em>Taqrīb al-Tahdhīb</em>; al-Mizzī, <em>Tahdhīb al-Kamāl</em> (the printed sources for generations and grades)</li>
+        <li><a href="/hadith/bukhari-narrators/">Narrators of Ṣaḥīḥ al-Bukhārī</a> and <a href="/hadith/bukhari/">Ṣaḥīḥ al-Bukhārī</a> on this site; <a href="/subjects/hadith-studies/">Hadith studies</a> in this library</li>
+      </ul>
+
+      <footer class="ap-foot">
+        <p><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite}</p>
+        <p>Compiled with AI assistance from the sources above; it may contain mistakes in names, dates or links. Corrections are welcome.</p>
+      </footer>
+    </div>
+  </div>
+  <script is:inline src="/js/isnad-atlas.js?v=3" defer></script>
+</Base>
+<style is:global>
+  .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .ap { max-width: 880px; margin: 0 auto; padding: 24px 18px 30px; color: #222; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
+  .ap h1 { font: 700 1.9rem/1.25 Georgia, 'Times New Roman', serif; margin: 0.3em 0 0.2em; color: #222; }
+  .ap .sub { color: #666; font-style: italic; margin: 0 0 1em; }
+  .ap h2 { font: 700 1.3rem/1.3 Georgia, 'Times New Roman', serif; margin: 2em 0 0.5em; border-bottom: 1px solid #d8d2c2; padding-bottom: 0.2em; color: #1d5c4a; }
+  .ap p { margin: 1em 0; } .ap a { color: #1d5c4a; } .ap ul, .ap ol { padding-left: 1.2em; } .ap li { margin: 0.4em 0; }
+  .ap .a-scroll { overflow-x: auto; }
+  .ap table { border-collapse: collapse; width: 100%; font-size: 0.88rem; background: #fff; }
+  .ap th, .ap td { border: 1px solid #d8d2c2; padding: 6px 8px; vertical-align: top; text-align: left; }
+  .ap td[lang="ar"] { text-align: right; font-family: 'Noto Naskh Arabic', serif; font-size: 1.05rem; }
+  .ap th { background: rgba(29, 92, 74, 0.12); }
+  .ap-foot { margin-top: 3em; font-size: 0.88rem; color: #666; border-top: 1px solid #d8d2c2; padding-top: 1em; overflow-wrap: anywhere; }
+  .ap-foot strong { color: #222; }
+  .iq-warn { background: #fff4e5; border: 1px solid #e3b977; padding: 12px 16px; margin: 18px 0; font-size: 0.95rem; }
+  .iq-warn p { margin: 0; }
+
+  .ia { max-width: min(1500px, 100%); margin: 0 auto; padding: 18px clamp(12px, 2vw, 32px) 34px; font-family: var(--sans); }
+  .ia .ar { font-family: 'Noto Naskh Arabic', serif; }
+  .ia-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-bottom: 12px; }
+  .bt-seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
+  .bt-seg button { font: 500 14px/1.2 var(--sans); border: 0; background: transparent; padding: 9px 16px; cursor: pointer; color: var(--ink-2); }
+  .bt-seg button + button { border-left: 1px solid var(--line); }
+  .bt-seg button[aria-pressed="true"] { background: var(--green); color: #fff; }
+  .ia-back { font: 500 14px var(--sans); border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 9px 14px; cursor: pointer; color: var(--ink-2); }
+  .ia-back:disabled { opacity: .45; cursor: default; }
+  .ia-search { position: relative; flex: 1 1 260px; max-width: 440px; margin-left: auto; }
+  .ia-search input { width: 100%; padding: 9px 12px; font-size: 15px; }
+  .ia-res { position: absolute; z-index: 40; top: calc(100% + 4px); left: 0; right: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; max-height: 60vh; overflow: auto; box-shadow: 0 10px 28px rgba(20,32,30,.14); }
+  .ia-res button { display: flex; width: 100%; justify-content: space-between; align-items: center; gap: 8px; text-align: left; border: 0; background: transparent; padding: 7px 12px; cursor: pointer; font: 15px/1.3 var(--sans); color: var(--ink); }
+  .ia-res button .ar { font-size: 17px; } .ia-res button .en { color: var(--muted); font-size: 13.5px; }
+  .ia-res button:hover, .ia-res button.on { background: var(--green-tint); }
+  .ia-res small { color: var(--muted); font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .ia-none { color: var(--muted); padding: 8px 12px; margin: 0; font-size: 14px; }
+  .ia-loading { color: var(--muted); padding: 40px 0; text-align: center; }
+
+  .ia-route { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--green-dark); color: #fff; border-radius: 12px; padding: 12px 16px; margin-bottom: 12px; min-height: 52px; }
+  .ia-route .lab { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: #E9C78D; }
+  .ia-route ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .ia-route li { display: flex; align-items: center; gap: 6px; }
+  .ia-route li + li::before { content: '›'; color: #7FC0AE; font-size: 18px; }
+  .ia-route button { display: inline-flex; flex-direction: column; align-items: center; border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.07); color: #fff; border-radius: 10px; padding: 4px 10px; cursor: pointer; line-height: 1.25; }
+  .ia-route button:hover { background: rgba(255,255,255,.16); }
+  .ia-route button.here { background: var(--saffron); border-color: var(--saffron); }
+  .ia-route .ar { font-size: 16px; } .ia-route .en { font-size: 11.5px; color: #C9DAD4; } .ia-route button.here .en { color: #fff; }
+
+  .ia-main { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 14px; align-items: start; }
+  .ia-flow { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 300px) minmax(0, 1fr); border: 1px solid var(--line); border-radius: 12px; background: #fdfcf9; min-height: 380px; padding: 14px 0; transition: opacity .2s; }
+  .ia-flow.busy { opacity: .55; }
+  .ia-col { padding: 0 14px; min-width: 0; position: relative; z-index: 1; }
+  .ia-col .ia-p { background: #fdfcf9; }
+  .ia-col h3 { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 8px; display: flex; justify-content: space-between; }
+  .ia-col h3 span { font-variant-numeric: tabular-nums; }
+  .ia-col ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .ia-p { width: 100%; display: flex; align-items: center; gap: 10px; border: 1px solid transparent; background: transparent; border-radius: 8px; padding: 4px 6px; cursor: pointer; text-align: left; color: var(--ink); font: 14px/1.25 var(--sans); }
+  .ia-col .ia-p:hover { background: var(--green-tint); border-color: var(--green-line); }
+  .ia-p .nm { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+  .ia-p .nm .ar { font-size: 17px; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ia-p .nm .en { font-size: 12.5px; color: var(--muted); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ia-t .ia-p { flex-direction: row-reverse; } .ia-t .ia-p .nm .ar, .ia-t .ia-p .nm .en { text-align: left; }
+  .ia-p .bar { flex: none; width: 74px; height: 22px; position: relative; display: flex; align-items: center; }
+  .ia-p .bar::before { content: ''; position: absolute; top: 3px; bottom: 3px; width: var(--w); background: color-mix(in srgb, var(--green) 30%, transparent); border-radius: 4px; }
+  .ia-t .ia-p .bar { justify-content: flex-end; } .ia-t .ia-p .bar::before { right: 0; background: color-mix(in srgb, #a8730f 32%, transparent); }
+  .ia-s .ia-p .bar::before { left: 0; }
+  .ia-p .bar b { position: relative; font: 600 12px var(--sans); color: var(--ink-2); padding: 0 5px; font-variant-numeric: tabular-nums; }
+  .amb { display: inline-block; font: 700 11px var(--sans); color: #8a5a00; background: #fff1d6; border: 1px solid #e3b977; border-radius: 999px; padding: 0 5px; vertical-align: 2px; }
+  .ia-more { margin-top: 8px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font: 500 13px var(--sans); color: var(--green); cursor: pointer; }
+  .ia-note { font-size: 12.5px; color: var(--muted); margin: 6px 0 0; }
+  .ia-mid { position: relative; display: flex; align-items: center; justify-content: center; }
+  .ia-svg { position: absolute; top: 0; left: 0; pointer-events: none; z-index: 0; }
+  .ia-svg path { fill: none; stroke-linecap: round; }
+  .ia-svg path.t { stroke: #a8730f; stroke-opacity: .28; } .ia-svg path.s { stroke: var(--green); stroke-opacity: .26; }
+  .ia-me { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px; background: var(--green-dark); color: #fff; border-radius: 14px; padding: 14px 12px; width: 170px; box-shadow: 0 0 0 4px #E9C78D55, 0 8px 22px rgba(20,32,30,.2); }
+  .ia-me .ar { font-size: 22px; line-height: 1.35; } .ia-me .en { font-size: 13px; color: #C9DAD4; } .ia-me .h { font-size: 12px; color: #E9C78D; margin-top: 4px; }
+
+  .ia-card { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: 18px 20px 22px; font-size: 15px; position: sticky; top: 80px; max-height: calc(100vh - 100px); overflow-y: auto; }
+  .ia-card .eyebrow { text-transform: uppercase; letter-spacing: .07em; font-size: 12px; color: var(--muted); margin: 0; }
+  .ia-card h2 { font-size: 30px; line-height: 1.4; margin: 6px 0 0; text-align: right; color: var(--ink); }
+  .ia-card .en-name { font: 600 19px/1.3 var(--serif); margin: 2px 0 6px; }
+  .ia-card .full { font-size: 13.5px; color: var(--muted); margin: 0 0 10px; }
+  .ia-card .warn { background: #fff4e5; border: 1px solid #e3b977; border-radius: 8px; padding: 8px 10px; font-size: 13.5px; }
+  .ia-card .note { font-size: 13.5px; color: var(--muted); }
+  .ia-card dl { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; margin: 10px 0 12px; font-size: 14.5px; }
+  .ia-card dt { color: var(--muted); } .ia-card dd { margin: 0; min-width: 0; }
+  .ia-card h3 { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 16px 0 6px; }
+  .ia-card .books { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+  .ia-card .books li { display: grid; grid-template-columns: minmax(0, 1fr) 70px 46px; gap: 8px; align-items: center; font-size: 13.5px; }
+  .ia-card .bn { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ia-card .bb { height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--green) var(--w), var(--line-2) var(--w)); }
+  .ia-card .bc { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+  .ia-card .forms { font-family: 'Noto Naskh Arabic', serif; font-size: 16px; text-align: right; margin: 0; }
+  .ia-card .src { margin: 14px 0 0; font-size: 14px; }
+  .ia-l { border: 0; background: none; padding: 0; color: var(--green); cursor: pointer; font: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+  .bt-ixtools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 10px; }
+  .bt-ixtools input[type="search"] { flex: 1 1 260px; max-width: 420px; padding: 9px 12px; font-size: 15px; }
+  .ia-chk { font-size: 14px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
+  .ia-tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  .ia-tablewrap table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  .ia-tablewrap th, .ia-tablewrap td { padding: 7px 12px; border-bottom: 1px solid var(--line-2); text-align: left; }
+  .ia-tablewrap th { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: #faf7f0; position: sticky; top: 0; }
+  .ia-tablewrap th[data-k] { cursor: pointer; } .ia-tablewrap th[aria-sort] { color: var(--green); }
+  .ia-tablewrap .r { text-align: right; font-variant-numeric: tabular-nums; }
+  .ia-tablewrap .ar { font-size: 17px; }
+  .ia-pg { display: flex; gap: 10px; justify-content: center; margin-top: 12px; }
+  .ia-pg button { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 7px 16px; cursor: pointer; font: 500 14px var(--sans); color: var(--green); }
+
+  @media (max-width: 1100px) { .ia-main { grid-template-columns: 1fr; } .ia-card { position: static; max-height: none; } }
+  @media (max-width: 760px) {
+    .ia-flow { grid-template-columns: 1fr; padding: 10px 0; }
+    .ia-mid { order: -1; padding: 0 12px 10px; } .ia-me { position: static; margin-top: 0; width: 100%; }
+    .ia-svg { display: none; }
+    .ia-t { order: 0; margin-bottom: 14px; } .ia-s { order: 1; }
+    .ia-t .ia-p { flex-direction: row; } .ia-t .ia-p .nm .ar, .ia-t .ia-p .nm .en { text-align: right; }
+    .ia-search { margin-left: 0; max-width: none; }
+  }
+</style>

@@ -15,3 +15,11 @@ The paths at the top of each script point to the folder where the downloads were
 ## Ṣaḥīḥ Muslim
 
 `build-muslim-data.py` writes `content/hadith/muslim.json` from the hadith-api editions `ara-muslim` and `eng-muslim` (English by Abdul Hamid Siddiqui). Then `match-muslim.py` matches the dataset's Muslim rows to those numbers by Arabic text, and `build-muslim-chains.py` adds the chains (several isnads in one row are split where a name comes back) and writes `public/hadith/muslim-narrators.json` and `muslim-snips.json`.
+
+## Narrators of the Ḥadīth (all books)
+
+`atlas/` made `public/hadith/narrators/` from Sanadset 650K (Mendeley Data 10.17632/5xth87zwb5.5, CC BY 4.0, saved as `sanadset.csv`)
+and the numbered Six-Books chains (`hadith.json` from Almoooo/dataset_hadith). Run in order:
+`load.py` (parse chains) → `align.py` (pair written names with numbered narrators in the Six Books) → `evalr.py` (hold-out accuracy) →
+`resolve.py` (match names in all books, three rounds) → `scrape.py` (muslimscholars.info pages for new numbers) → `disp.py` (display forms)
+→ `build.py out` (index.json and the 100-narrator shards in `n/`). Copy `out/*` to `public/hadith/narrators/`.
