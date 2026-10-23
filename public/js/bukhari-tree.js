@@ -152,7 +152,7 @@
       var ns = DATA.x[key] || [];
       return ns.slice(from, to).map(function (n) {
         var sn = snips && snips[n];
-        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="/hadith/bukhari/' + n + '/" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
+        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="/hadith/bukhari/go/?n=' + n + '" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
       }).join('');
     }
     function openLink(holder, key) {
