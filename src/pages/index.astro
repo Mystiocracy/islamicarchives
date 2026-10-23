@@ -1,8 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import { website } from '../lib/schema';
+import influences from '../data/influences.json';
 import { updatesByDay } from '../lib/updates';
-import { allWorks, allAuthors, allSubjects, allEras, eraSpan, authorPhoto, initials } from '../lib/site';
+import { allWorks, allAuthors, allSubjects, allEras, eraSpan, authorPhoto, initials, years } from '../lib/site';
 
 const works = await allWorks();
 const authors = await allAuthors();
@@ -11,7 +12,12 @@ const eras = await allEras();
 const recent = (await updatesByDay()).slice(0, 1).flatMap((d) => d.batches.map((b) => ({ ...b, date: d.date }))).slice(0, 6);
 const count = new Map<string, number>();
 for (const w of works) count.set(w.data.author.id, (count.get(w.data.author.id) || 0) + 1);
-const tickerAuthors = authors.filter((a) => (count.get(a.id) || 0) > 0);
+// Thinkers timeline: every author, in order of birth (those without dates by the year of their first work)
+const firstWork = new Map<string, number>();
+for (const w of works) if (w.data.year) firstWork.set(w.data.author.id, Math.min(firstWork.get(w.data.author.id) ?? 9999, w.data.year));
+const orderYear = (a: (typeof authors)[number]) => a.data.born ?? (influences.sortYear as Record<string, number>)[a.id] ?? firstWork.get(a.id) ?? 9999;
+const stops = [...authors].sort((x, y) => orderYear(x) - orderYear(y) || x.data.name.localeCompare(y.data.name));
+const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
 ---
 <Base current="home" jsonld={website}>
   <section style="background: var(--green-dark); color: #fff">
@@ -53,17 +59,60 @@ const tickerAuthors = authors.filter((a) => (count.get(a.id) || 0) > 0);
       </a>
     </section>
 
-    <section class="section">
-      <div class="section-head"><h2>Featured authors</h2><a href="/authors/" style="font-weight:500">All authors A–Z →</a></div>
-      <div class="ticker" data-ticker data-speed="40">
-        <div class="ticker-track">
-          {tickerAuthors.map((a) => {
-            const photo = authorPhoto(a);
-            return <a class="chip chip-author" href={`/authors/${a.id}/`}>{photo ? <img class="avatar" src={photo} alt="" width="40" height="40" loading="lazy" decoding="async" /> : <span class="avatar avatar-mono" aria-hidden="true">{initials(a.data.name)}</span>}{a.data.name}</a>;
-          })}
-        </div>
+  </div>
+
+  <section class="tl-band" aria-labelledby="tl-h">
+    <div class="wrap tl-head">
+      <div>
+        <span lang="ar" dir="rtl" class="tl-ar">الأعلام</span>
+        <h2 id="tl-h">Thinkers through time</h2>
+        <p>All {stops.length} authors in the archive, in order of birth. They surface one at a time as the line moves on.</p>
       </div>
-    </section>
+      <div class="tl-links">
+        <a href="/timeline/">Full timeline →</a>
+        <a href="/authors/">All authors A–Z →</a>
+      </div>
+    </div>
+    <div class="tl-frame">
+      <button type="button" class="tl-btn tl-prev" aria-label="Earlier thinkers">‹</button>
+      <div class="tl-scroll" tabindex="0" role="region" aria-label="Timeline of thinkers, earliest first">
+        <ol class="tl-track">
+          {stops.map((a, i) => {
+            const up = i % 2 === 0;
+            const role = (a.data.roles || '').split(/[,;]/)[0].trim();
+            return (
+              <li class={`tl-item ${up ? 'up' : 'down'} ${i % 2 ? 'c2' : 'c1'}`}>
+                <span class="tl-seg" aria-hidden="true"></span>
+                <span class="tl-node" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1l2.6 6.4L21 4.5l-2.9 6.4L24.5 12l-6.4 2.6L21 19.5l-6.4-2.9L12 23l-2.6-6.4L3 19.5l2.9-6.4L-.5 12l6.4-2.6L3 4.5l6.4 2.9z" fill="currentColor"/></svg></span>
+                <a class="tl-card" href={`/authors/${a.id}/`}>
+                  <span class="tl-medal">
+                    <svg class="tl-ring" viewBox="0 0 120 120" aria-hidden="true">
+                      <g fill="none" stroke="currentColor" stroke-width="1.6">
+                        <rect x="21" y="21" width="78" height="78"/>
+                        <rect x="21" y="21" width="78" height="78" transform="rotate(45 60 60)"/>
+                      </g>
+                      <circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="1 5.9" opacity=".7"/>
+                    </svg>
+                    {authorPhoto(a) ? <img src={authorPhoto(a)} alt="" width="76" height="76" loading="lazy" decoding="async" /> : <span class="tl-mono" aria-hidden="true">{initials(a.data.name)}</span>}
+                  </span>
+                  <span class="tl-stem" aria-hidden="true"></span>
+                  <span class="tl-year">{orderYear(a) < 9999 ? orderYear(a) : ''}</span>
+                  <span class="tl-info">
+                    <strong>{shortName(a.data.name)}</strong>
+                    <small>{[years(a.data) || (firstWork.has(a.id) ? `first work ${firstWork.get(a.id)}` : ''), (a.data.region || '').split(/[;(,]/)[0].trim()].filter(Boolean).join(' · ')}</small>
+                    {role && <em>{role}</em>}
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
+      <button type="button" class="tl-btn tl-next" aria-label="Later thinkers">›</button>
+    </div>
+  </section>
+
+  <div class="wrap">
 
     {recent.length > 0 && (
       <section class="section">
@@ -110,6 +159,63 @@ const tickerAuthors = authors.filter((a) => (count.get(a.id) || 0) > 0);
   (function () {
     function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
     var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Thinkers timeline: the line carries on from left to right; of the authors on screen, one at a time rises out of it every so often.
+    // An author who has scrolled well out of view sinks back, so they surface again on the next pass.
+    (function () {
+      var sc = document.querySelector('.tl-scroll'); if (!sc) return;
+      var band = sc.closest('.tl-band'), items = Array.prototype.slice.call(sc.querySelectorAll('.tl-item'));
+      if (still || !('IntersectionObserver' in window)) { items.forEach(function (i) { i.classList.add('in'); }); }
+      else {
+        band.classList.add('tl-js');
+        var waiting = [], onScreen = false;
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) {
+            var el = e.target, k = waiting.indexOf(el);
+            if (e.isIntersecting) { if (!el.classList.contains('in') && k < 0) waiting.push(el); }
+            else { if (k >= 0) waiting.splice(k, 1); el.classList.remove('in'); }
+          });
+        }, { root: sc, rootMargin: '0px 260px 0px 260px', threshold: 0 });
+        items.forEach(function (i) { io.observe(i); });
+        new IntersectionObserver(function (es) { onScreen = es[0].isIntersecting; }, { threshold: 0.3 }).observe(sc);
+        (function pop() {
+          if (onScreen && !document.hidden && waiting.length) {
+            // prefer authors actually in the visible window over the margin
+            var box = sc.getBoundingClientRect();
+            var seen = waiting.filter(function (el) { var r = el.getBoundingClientRect(); return r.right > box.left + 20 && r.left < box.right - 20; });
+            var pool = seen.length ? seen : waiting;
+            var el = pool[Math.floor(Math.random() * pool.length)];
+            waiting.splice(waiting.indexOf(el), 1); el.classList.add('in');
+          }
+          setTimeout(pop, 900 + Math.random() * 1700);
+        })();
+      }
+      function by(dir) { sc.scrollBy({ left: dir * Math.max(240, sc.clientWidth * 0.7), behavior: still ? 'auto' : 'smooth' }); stopDrift(); }
+      document.querySelector('.tl-prev').addEventListener('click', function () { by(-1); });
+      document.querySelector('.tl-next').addEventListener('click', function () { by(1); });
+      // drag to scroll with the mouse
+      var down = false, sx = 0, sl = 0, moved = false;
+      sc.addEventListener('mousedown', function (e) { down = true; moved = false; sx = e.pageX; sl = sc.scrollLeft; stopDrift(); });
+      window.addEventListener('mouseup', function () { down = false; sc.classList.remove('drag'); });
+      window.addEventListener('mousemove', function (e) { if (!down) return; var dx = e.pageX - sx; if (Math.abs(dx) > 4) { moved = true; sc.classList.add('drag'); } sc.scrollLeft = sl - dx; });
+      sc.addEventListener('click', function (e) { if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; } }, true);
+      // slow drift through time; at the far end it starts over from the Nahda; the visitor's touch ends it
+      var drifting = !still, pos = 0, last = 0, visible = false, wait = 3, pause = 0;
+      function stopDrift() { drifting = false; }
+      ['wheel', 'touchstart', 'keydown', 'focusin', 'mouseenter'].forEach(function (ev) { sc.addEventListener(ev, stopDrift, { passive: true }); });
+      new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }).observe(sc);
+      function tick(t) {
+        var dt = last ? Math.min(t - last, 100) / 1000 : 0; last = t;
+        if (drifting && visible && !document.hidden && (wait -= dt) < 0) {
+          var max = sc.scrollWidth - sc.clientWidth;
+          if (Math.abs(sc.scrollLeft - pos) > 2) pos = sc.scrollLeft;
+          if (pos >= max - 1) { if ((pause += dt) > 4) { pos = 0; pause = 0; sc.scrollLeft = 0; } }
+          else { pos = Math.min(pos + 46 * dt, max); sc.scrollLeft = pos; }
+        }
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    })();
 
     // Tickers: names in random order, scrolling for ever; each name that leaves on the left
     // is replaced on the right by a random name not already showing, so there is never a fixed sequence.
@@ -172,3 +278,73 @@ const tickerAuthors = authors.filter((a) => (count.get(a.id) || 0) > 0);
   })();
 </script>
 </Base>
+<style is:global>
+  .tl-band { position: relative; margin-top: 56px; background: var(--green-dark); color: #fff; padding: 44px 0 36px; overflow: hidden;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.05' stroke-width='1'%3E%3Crect x='20' y='20' width='40' height='40'/%3E%3Crect x='20' y='20' width='40' height='40' transform='rotate(45 40 40)'/%3E%3C/g%3E%3C/svg%3E"); }
+  .tl-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px 24px; margin-bottom: 8px; }
+  .tl-head h2 { color: #fff; font-size: 34px; margin: 0; }
+  .tl-head p { margin: 6px 0 0; color: #C9DAD4; font-size: 16px; }
+  .tl-ar { display: block; text-align: left; font-family: 'Noto Naskh Arabic', serif; font-size: 26px; color: #E9C78D; margin-bottom: 2px; }
+  .tl-links { display: flex; gap: 20px; font-weight: 500; }
+  .tl-links a { color: #E9C78D; }
+  .tl-frame { position: relative; }
+  .tl-scroll { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; padding: 0 max(16px, calc((100vw - 1200px) / 2)); outline-offset: -3px; cursor: grab; }
+  .tl-scroll::-webkit-scrollbar { display: none; }
+  .tl-scroll.drag { cursor: grabbing; user-select: none; }
+  .tl-track { list-style: none; margin: 0; padding: 0; display: flex; width: max-content; height: 560px; }
+  .tl-item { position: relative; width: 210px; flex: none; content-visibility: auto; contain-intrinsic-size: 210px 560px; --c: #E9C78D; }
+  .tl-item.c1 { --c: #E9C78D; } .tl-item.c2 { --c: #7FC0AE; }
+  .tl-seg { position: absolute; left: 0; right: 0; top: 278px; height: 5px; border-radius: 3px; background: var(--c); transform-origin: left; transition: transform .7s cubic-bezier(.3,.7,.2,1); box-shadow: 0 0 14px color-mix(in srgb, var(--c) 55%, transparent); }
+  .tl-node { position: absolute; left: 50%; top: 280px; width: 22px; height: 22px; margin: -11px 0 0 -11px; color: var(--c); transition: transform .5s .35s cubic-bezier(.3,1.5,.4,1); }
+  .tl-card { position: absolute; inset: 0; color: #fff; text-decoration: none; }
+  .tl-medal { position: absolute; left: 50%; width: 120px; height: 120px; margin-left: -60px; display: block; color: var(--c); transition: transform .6s .2s cubic-bezier(.3,1.4,.4,1), opacity .4s .2s; }
+  .tl-medal img { position: absolute; inset: 22px; width: 76px; height: 76px; border-radius: 50%; object-fit: cover; object-position: top; border: 3px solid var(--c); background: var(--green); }
+  .tl-ring { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .tl-item.in .tl-ring { animation: tlspin 80s linear infinite; }
+  .tl-mono { position: absolute; inset: 22px; border-radius: 50%; border: 3px solid var(--c); background: var(--green); color: var(--c); display: flex; align-items: center; justify-content: center; font: 700 24px var(--serif); }
+  .tl-stem { position: absolute; left: 50%; width: 6px; margin-left: -3px; background: linear-gradient(var(--c), var(--c)); border-radius: 3px; transition: transform .5s .1s ease-out; }
+  .tl-year { position: absolute; left: 50%; margin-left: 12px; writing-mode: vertical-rl; transform: rotate(180deg); font: 300 28px/1 var(--sans); letter-spacing: .04em; color: var(--c); transition: opacity .5s .5s; }
+  .tl-info { position: absolute; left: 12px; right: 12px; display: flex; flex-direction: column; gap: 3px; text-align: center; align-items: center; transition: opacity .5s .55s, transform .5s .55s; }
+  .tl-info strong { font: 600 18px/1.2 var(--serif); }
+  .tl-info small { font-size: 13px; color: #C9DAD4; }
+  .tl-info em { font-style: normal; font-size: 12px; color: var(--c); border: 1px solid color-mix(in srgb, var(--c) 55%, transparent); border-radius: 999px; padding: 3px 11px; margin-top: 4px; }
+  .tl-card:hover strong, .tl-card:focus-visible strong { text-decoration: underline; text-underline-offset: 3px; }
+  .tl-card:focus-visible { outline: 2px solid #E9C78D; outline-offset: -6px; border-radius: 12px; }
+  .tl-card:hover .tl-medal { transform: scale(1.06); }
+  /* above the line: medallion on top, text below */
+  .up .tl-medal { top: 22px; transform-origin: 50% 100%; }
+  .up .tl-stem { top: 142px; height: 138px; transform-origin: 50% 0; }
+  .up .tl-year { top: 160px; }
+  .up .tl-info { top: 306px; }
+  /* below the line: text above, medallion underneath */
+  .down .tl-medal { top: 418px; transform-origin: 50% 0; }
+  .down .tl-stem { top: 280px; height: 140px; transform-origin: 50% 100%; }
+  .down .tl-year { top: 302px; }
+  .down .tl-info { bottom: 296px; }
+  .tl-js .tl-item:not(.in) .tl-seg { transform: scaleX(0); }
+  .tl-js .tl-item:not(.in) .tl-node { transform: scale(0) rotate(-90deg); }
+  .tl-js .tl-item:not(.in) .tl-medal { transform: scale(.2); opacity: 0; }
+  .tl-js .tl-item:not(.in) .tl-stem { transform: scaleY(0); }
+  .tl-js .tl-item:not(.in) .tl-year { opacity: 0; }
+  .tl-js .tl-item:not(.in) .tl-info { opacity: 0; transform: translateY(10px); }
+  .tl-item.in .tl-seg { transform: scaleX(1); }
+  .tl-item.in .tl-node { transform: scale(1) rotate(0); }
+  .tl-item.in .tl-medal { transform: scale(1); opacity: 1; }
+  .tl-item.in .tl-stem { transform: scaleY(1); }
+  .tl-item.in .tl-year { opacity: .95; }
+  .tl-item.in .tl-info { opacity: 1; transform: none; }
+  .tl-btn { position: absolute; top: 280px; z-index: 2; width: 44px; height: 44px; margin-top: -22px; border-radius: 50%; border: 1px solid rgba(255,255,255,.35); background: rgba(20,63,53,.9); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0 0 3px; }
+  .tl-btn:hover { background: var(--saffron); border-color: var(--saffron); }
+  .tl-prev { left: 10px; } .tl-next { right: 10px; }
+  @keyframes tlspin { to { transform: rotate(360deg); } }
+  @media (max-width: 700px) {
+    .tl-band { margin-top: 32px; padding-top: 28px; }
+    .tl-head h2 { font-size: 24px; }
+    .tl-item { width: 180px; }
+    .tl-btn { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .tl-ring { animation: none; }
+    .tl-seg, .tl-node, .tl-medal, .tl-stem, .tl-year, .tl-info { transition: none; }
+  }
+</style>
