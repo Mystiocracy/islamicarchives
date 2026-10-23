@@ -1,16 +1,16 @@
 ---
 name: "Abdallah Bin Bayyah"
 nameNative: "عبد الله بن بيه"
-nativeLang: ar
+nativeLang: "ar"
 born: 1935
 region: "Mauritania and United Arab Emirates"
 roles: "Mālikī jurist, chairman of the UAE Council for Fatwa, president of the Forum for Promoting Peace in Muslim Societies"
-featured: false
 sortAs: "Bin Bayyah"
+featured: true
 sources:
   - "https://en.wikipedia.org/wiki/Abdallah_bin_Bayyah"
   - "https://openlibrary.org/works/OL12694787W"
-archived: 2026-10-19
+archived: "2026-10-19"
 ---
 Abdallah bin Mahfuz bin Bayyah was born in 1935 in Timbédra, in what was then French Mauritania, into a family of scholars. He began his studies with his father, Mahfuz, and learned Arabic and the Qur'an with local teachers before pursuing the full range of the Islamic sciences, with a particular focus on Mālikī law. As a young man he went to Tunis to study legal rulings.
 
