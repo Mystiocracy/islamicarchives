@@ -1,17 +1,17 @@
 ---
 name: "Safiur Rahman Mubarakpuri"
 nameNative: "صفی الرحمن مبارکفوری"
-nativeLang: ar
+nativeLang: "ar"
 born: 1942
 died: 2006
 region: "India; Saudi Arabia"
 roles: "Ahl-i Hadith scholar, teacher and biographer of the Prophet"
-featured: false
 sortAs: "Mubarakpuri"
+featured: true
 sources:
   - "https://en.wikipedia.org/wiki/Safi_al-Rahman_al-Mubarakpuri"
   - "https://openlibrary.org/search?author=Safiur+Rahman+Mubarakpuri"
-archived: 2026-10-19
+archived: "2026-10-19"
 ---
 Safiur Rahman Mubarakpuri was born in 1942 near Mubarakpur in the Azamgarh district of Uttar Pradesh and studied at a series of madrasas in eastern Uttar Pradesh, finishing at Jamia Faiz-e-Aam in Mau in the early 1960s. He belonged to the Ahl-i Hadith current. For nearly three decades he taught in Indian schools and was principal of two madrasas. From 1974 to 1988 he was a teacher at Jamia Salafiyya in Varanasi, where he also edited its Urdu monthly Muhaddith.
 

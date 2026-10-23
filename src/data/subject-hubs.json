@@ -1,0 +1,606 @@
+{
+  "hadith-studies": {
+    "intro": [
+      "Modern writing on hadith keeps returning to two questions: how reliable are the reports attributed to the Prophet, and who has the right to say so. Muslim scholars answered through the long tradition of isnād criticism, and many of the authors here defend, refine or update it. Western scholars from Ignaz Goldziher and Joseph Schacht onward argued that a good part of the corpus arose in later generations, and a large share of the modern literature is a reply to them.",
+      "The section also covers the practical questions: how to read a report in its context (al-Qaradawi), how hadith grading became a dispute between Salafi and traditional scholars (al-Albani, Abu Ghudda, Emad Hamdeh), and how the Qur'an-only position has been answered."
+    ],
+    "related": [
+      "quranic-studies",
+      "islamic-law",
+      "sira-and-history"
+    ],
+    "path": [
+      {
+        "work": "abd-al-fattah-abu-ghudda-lamahat-min-tarikh-al-sunna-wa-ulum-al-hadith",
+        "note": "A short Arabic history of the hadith sciences by a Syrian scholar, a good place to see how the tradition describes itself."
+      },
+      {
+        "work": "yusuf-al-qaradawi-approaching-the-sunnah-comprehension-and-controversy-en",
+        "note": "Al-Qaradawi on reading reports in their setting, and on when a sound report should and should not settle a question."
+      },
+      {
+        "work": "jonathan-brown-hadith-muhammads-legacy-in-the-medieval-and-modern",
+        "note": "A history of the hadith tradition from the first generations to the present, aimed at readers coming to it for the first time."
+      },
+      {
+        "work": "jonathan-brown-misquoting-muhammad-the-challenge-and-choices-of-interpreting",
+        "note": "Brown on the problems of interpreting the Prophet's legacy today."
+      },
+      {
+        "work": "yq-blind-spots-the-origins-of-the-western-method-of-critiquing",
+        "note": "On the origins of the Western method of criticising hadith, and what it took for granted."
+      },
+      {
+        "work": "emad-hamdeh-salafism-and-traditionalism",
+        "note": "Follows the arguments between Salafi and traditional scholars over authority, with al-Albani at the centre."
+      }
+    ]
+  },
+  "islamic-law": {
+    "intro": [
+      "This section collects what modern authors say about fiqh and its sources: how the schools worked, what happened to Islamic law under colonial rule and state codification, and whether it can be revived, reformed or has to be rethought. Wael Hallaq argues that the modern state cannot house the sharia at all. Tariq Ramadan and Khaled Abou El Fadl argue for reform from within the tradition, and Yusuf al-Qaradawi and Taqi Usmani write as practising jurists answering questions of finance, family and worship.",
+      "Fatwa collections and manuals are here too, but most of those entries point to free copies hosted elsewhere."
+    ],
+    "related": [
+      "hadith-studies",
+      "economics",
+      "women-and-gender",
+      "political-thought"
+    ],
+    "path": [
+      {
+        "work": "shibli-nomani-sirat-al-numan",
+        "note": "A biography of Abu Hanifa, and a nineteenth-century Indian view of what a school of law is for."
+      },
+      {
+        "work": "hallaq-authority-continuity-and-change-in-islamic-law",
+        "note": "How legal authority worked in the classical schools, and how it was reshaped later."
+      },
+      {
+        "work": "khaled-abou-el-fadl-speaking-in-god-s-name-islamic-law-authority-and-women",
+        "note": "Examines who speaks for God in legal opinions, and when authority becomes authoritarianism."
+      },
+      {
+        "work": "kecia-ali-sexual-ethics-and-islam-feminist-reflections-on-qur-an",
+        "note": "A study of the legal tradition on sexual ethics, read by a historian and a feminist."
+      },
+      {
+        "work": "tariq-ramadan-radical-reform-islamic-ethics-and-liberation",
+        "note": "Argues for a reform of Islamic legal method that starts from ethics."
+      },
+      {
+        "work": "hallaq-the-impossible-state-islam-politics-and-modernitys-moral",
+        "note": "Hallaq's case that the modern state and the sharia cannot be combined."
+      }
+    ]
+  },
+  "islam-and-modernity": {
+    "intro": [
+      "This is the question that most of the archive is about. From the mid-nineteenth century Muslim writers asked how to respond to European power, new sciences, the nation-state and secular ideas: take them in selectively, as Sayyid Ahmad Khan and Muhammad Abduh did, set them aside in the name of a purer Islam, or build a modern of their own, as Iqbal, Malek Bennabi and Fazlur Rahman each argued in different ways.",
+      "With close to eight hundred entries, the path below picks one work from each stage of the argument. For the full range, filter the library by era."
+    ],
+    "related": [
+      "colonialism-and-decolonisation",
+      "science-and-religion",
+      "political-thought",
+      "education"
+    ],
+    "path": [
+      {
+        "work": "sayyid-ahmad-khan-a-series-of-essays-on-the-life-of",
+        "note": "Sir Syed answers a hostile English biography of the Prophet, and sets out the modernist case in the process."
+      },
+      {
+        "work": "abduh-islam-and-christianity-in-relation-to-science-and",
+        "note": "Abduh on whether Islam or Christianity has been the better friend of science and civilisation."
+      },
+      {
+        "work": "reconstruction-of-religious-thought-in-islam",
+        "note": "Iqbal's lectures, the most cited modern statement on rebuilding Muslim thought."
+      },
+      {
+        "work": "bennabi-the-conditions-of-renaissance",
+        "note": "Bennabi on what a society needs before it can renew itself."
+      },
+      {
+        "work": "al-attas-islam-and-secularism",
+        "note": "Al-Attas on secularisation as a problem of knowledge, not only of politics."
+      },
+      {
+        "work": "fazlur-rahman-islam-and-modernity-transformation-of-an-intellectual-tradition",
+        "note": "Rahman's account of what happened to Muslim intellectual life and how education might repair it."
+      },
+      {
+        "work": "tariq-ramadan-western-muslims-and-the-future-of-islam",
+        "note": "Ramadan's argument for a European Muslim identity built on citizenship and ethics."
+      }
+    ]
+  },
+  "colonialism-and-decolonisation": {
+    "intro": [
+      "Writing under empire often begins by trying to explain defeat: Sayyid Ahmad Khan on the 1857 revolt in India, al-Afghani and Abduh from Paris. Later authors turn to what colonial rule did to Muslim ways of thinking. Malek Bennabi used the word 'colonisability' for the inner condition that lets a society be ruled, and Muhammad Asad, Maryam Jameelah and Wael Hallaq take on the West's picture of Islam and its education and legal systems.",
+      "Papers from the Yaqeen and Ummatics institutes carry the discussion to the present, with colonial law, digital colonialism and the afterlife of imperial categories."
+    ],
+    "related": [
+      "islam-and-modernity",
+      "political-thought",
+      "education"
+    ],
+    "path": [
+      {
+        "work": "sayyid-ahmad-khan-the-causes-of-the-indian-revolt",
+        "note": "A loyal Indian Muslim's analysis of 1857 that places much of the blame on British misgovernment."
+      },
+      {
+        "work": "afghani-the-firmest-bond",
+        "note": "The Paris weekly of al-Afghani and Abduh, calling for Muslim unity and resistance to European control."
+      },
+      {
+        "work": "pickthall-with-the-turk-in-wartime",
+        "note": "An English convert's account of Istanbul in 1913, sympathetic to the Ottomans."
+      },
+      {
+        "work": "muhammad-asad-islam-at-the-crossroads",
+        "note": "Asad's early critique of Western civilisation and of Muslim imitation of it."
+      },
+      {
+        "work": "bennabi-the-ideological-struggle-in-colonised-countries",
+        "note": "Bennabi on how the colonial period shaped ideas as well as institutions."
+      },
+      {
+        "work": "mj-islam-versus-the-west",
+        "note": "Maryam Jameelah's argument against Westernisation, written from experience of both worlds."
+      },
+      {
+        "work": "hallaq-restating-orientalism-a-critique-of-modern-knowledge",
+        "note": "Hallaq on how the modern academy inherited the assumptions of Orientalism."
+      }
+    ]
+  },
+  "women-and-gender": {
+    "intro": [
+      "Writing on women ranges from handbooks on rights and dress to historical studies of how patriarchal readings settled and new readings of the Qur'an itself. Fatema Mernissi looked at gender relations in Muslim societies and at hadith; Amina Wadud and Asma Barlas read scripture against the patriarchal interpretations they had inherited; Kecia Ali and Khaled Abou El Fadl write on the law of marriage and sexual ethics.",
+      "Other authors, among them Jamal Badawi and Murtada Mutahhari, set out the case for the traditional structure of rights and duties. The archive includes both lines of argument."
+    ],
+    "related": [
+      "islamic-law",
+      "family-and-society",
+      "quranic-studies"
+    ],
+    "path": [
+      {
+        "work": "mernissi-beyond-the-veil-male-female-dynamics-in-modern",
+        "note": "A sociological study of sexuality and gender in Muslim societies."
+      },
+      {
+        "work": "mutahhari-the-rights-of-women-in-islam",
+        "note": "The Iranian scholar's defence of a distinct system of rights for men and women."
+      },
+      {
+        "work": "amina-wadud-quran-and-woman-rereading-the-sacred-text-from",
+        "note": "A rereading of the Qur'an's verses on women, written from a woman's perspective."
+      },
+      {
+        "work": "khaled-abou-el-fadl-speaking-in-god-s-name-islamic-law-authority-and-women",
+        "note": "On how authoritarian readings of the law have shaped what is said about women."
+      },
+      {
+        "work": "asma-barlas-believing-women-in-islam-unreading-patriarchal",
+        "note": "Barlas argues the Qur'an itself does not teach patriarchy."
+      },
+      {
+        "work": "yq-do-the-quran-and-sunnah-speak-more-often-to-men",
+        "note": "Brown asks whether scripture addresses men more than women, with the evidence."
+      }
+    ]
+  },
+  "philosophy-and-theology": {
+    "intro": [
+      "Theology here means kalām, doctrine (ʿaqīda) and metaphysics as modern authors reread them. Some defend a classical creed, as Ali Gomaa does for the Ashʿari-Māturīdī position. Some rebuild metaphysics for the present: al-Attas, Seyyed Hossein Nasr and Frithjof Schuon. Fazlur Rahman started from what the Qur'an itself says about God, humanity and society.",
+      "A large number of entries are short Urdu and Arabic works by Abul Hasan Ali Nadwi, and Yaqeen Institute papers on belief and prophethood."
+    ],
+    "related": [
+      "quranic-studies",
+      "sufism",
+      "science-and-religion"
+    ],
+    "path": [
+      {
+        "work": "fazlur-rahman-major-themes-of-the-quran",
+        "note": "Rahman's overview of the Qur'an's teaching on God, man and society."
+      },
+      {
+        "work": "nasr-knowledge-and-the-sacred",
+        "note": "Nasr's Gifford Lectures on the loss of sacred knowledge in modern thought."
+      },
+      {
+        "work": "al-attas-prolegomena-to-the-metaphysics-of-islam-an-exposition",
+        "note": "Al-Attas on the metaphysical vision at the root of Muslim thought."
+      },
+      {
+        "work": "ali-gomaa-aqidat-ahl-al-sunna-wa-al-jamaa",
+        "note": "A concise statement of the creed of the Sunni majority tradition by the former Mufti of Egypt."
+      },
+      {
+        "work": "yq-the-case-for-allahs-existence-in-the-quran-and-sunnah",
+        "note": "Yaqeen's argument for the existence of God from the Qur'an and Sunna."
+      }
+    ]
+  },
+  "political-thought": {
+    "intro": [
+      "For most of this section the starting point is the end of the caliphate, abolished in 1924. Rashid Rida's The Caliphate or the Supreme Imamate (1922) argued for renewing it. After it went, Hasan al-Banna, Maududi, Sayyid Qutb and Taqi al-Din al-Nabhani each built a programme on what followed. Later authors compare these movements and criticise them (Wael Hallaq, Ovamir Anjum), or ask what the state means for Muslim ethics at all.",
+      "Papers from the Yaqeen and Ummatics institutes take up the caliphate and Islamism as present-day questions."
+    ],
+    "related": [
+      "islam-and-modernity",
+      "islamic-law",
+      "colonialism-and-decolonisation"
+    ],
+    "path": [
+      {
+        "work": "rashid-rida-the-caliphate-or-the-supreme-imamate",
+        "note": "Rida's case for a reformed caliphate, written as the Ottoman state was ending."
+      },
+      {
+        "work": "sayyid-qutb-social-justice-in-islam",
+        "note": "Qutb's first major statement of a social programme drawn from Islam."
+      },
+      {
+        "work": "taqiuddin-nabhani-the-islamic-state",
+        "note": "The Hizb ut-Tahrir founder's account of the structure of an Islamic state."
+      },
+      {
+        "work": "sayyid-qutb-milestones",
+        "note": "Qutb's call for a vanguard, one of the most discussed Islamist texts of the century."
+      },
+      {
+        "work": "hallaq-the-impossible-state-islam-politics-and-modernitys-moral",
+        "note": "Hallaq's argument that the modern state is a poor fit for Islamic governance."
+      },
+      {
+        "work": "yq-who-wants-the-caliphate",
+        "note": "Ovamir Anjum on what Muslims mean when they speak of a caliphate."
+      }
+    ]
+  },
+  "sufism": {
+    "intro": [
+      "Authors come to Sufism from several directions. Traditionalist writers such as Martin Lings, Frithjof Schuon and Seyyed Hossein Nasr present it as the inner dimension of Islam. Hamid Algar and Nuh Ha Mim Keller describe it as a path anchored in law and practice, and Fethullah Gülen presents its teaching to a modern audience.",
+      "Reformist and Salafi writers criticise parts of Sufi practice, and their work is here as well."
+    ],
+    "related": [
+      "philosophy-and-theology",
+      "psychology-and-mental-health",
+      "quranic-studies"
+    ],
+    "path": [
+      {
+        "work": "al-attas-some-aspects-of-sufism-as-understood-and-practised",
+        "note": "A study of Sufism as practised in the Malay world, from al-Attas's early scholarship."
+      },
+      {
+        "work": "martin-lings-what-is-sufism",
+        "note": "A short introduction by one of the best-known English writers on the subject."
+      },
+      {
+        "work": "frithjof-schuon-sufism-veil-and-quintessence",
+        "note": "Schuon's account of Sufism as the quintessence of Islam."
+      },
+      {
+        "work": "hamid-algar-sufism-principles-and-practice",
+        "note": "Algar on the principles and the discipline of the Sufi path."
+      },
+      {
+        "work": "nuh-ha-mim-keller-sufism-and-islam",
+        "note": "Keller on the place of Sufism within the Sunni tradition."
+      },
+      {
+        "work": "nasr-the-garden-of-truth-the-vision-and-promise",
+        "note": "A popular statement of the vision and promise of Sufism."
+      }
+    ]
+  },
+  "economics": {
+    "intro": [
+      "Islamic economics took shape as a discipline in the 1940s, partly as an answer to socialism and capitalism. Maududi and Sayyid Qutb set out the principles, and Muhammad Baqir al-Sadr's Our Economics (1961) tried to work out a whole system. From the 1970s attention moved to practice: zakat, interest-free banking and sukuk. Taqi Usmani, a jurist long involved in the sharia supervision of Islamic banks, is the central figure there.",
+      "Recent Yaqeen and Ummatics papers deal with waqf, charity and the effects of neoliberalism."
+    ],
+    "related": [
+      "islamic-law",
+      "political-thought",
+      "family-and-society"
+    ],
+    "path": [
+      {
+        "work": "sayyid-qutb-social-justice-in-islam",
+        "note": "Qutb's argument that social justice is part of the Qur'an's message."
+      },
+      {
+        "work": "baqir-al-sadr-our-economics",
+        "note": "A systematic attempt to set out an Islamic economic order, by a Najaf jurist."
+      },
+      {
+        "work": "fazlur-rahman-riba-and-interest",
+        "note": "Rahman on whether the Qur'anic prohibition covers modern bank interest."
+      },
+      {
+        "work": "yusuf-al-qaradawi-economic-security-in-islam-en",
+        "note": "Al-Qaradawi on poverty, zakat and the duties of the state."
+      },
+      {
+        "work": "taqi-usmani-an-introduction-to-islamic-finance",
+        "note": "A jurist's guide to how Islamic financial contracts work."
+      },
+      {
+        "work": "yq-a-sacred-duty-islam-and-social-justice",
+        "note": "A Yaqeen paper on the Islamic basis of social justice."
+      }
+    ]
+  },
+  "slavery-and-race": {
+    "intro": [
+      "This section follows how Muslim scholars have dealt with slavery in law and history and with race and anti-Blackness in the community. Jonathan Brown's Slavery and Islam and Islam and Blackness are the main books. Kecia Ali looks at the legal link between marriage and slavery, and Sherman Jackson writes about Black Muslims in America and the problem of Black suffering.",
+      "Yaqeen Institute papers cover Black Muslim history in the United States, from Malcolm X to chaplaincy, and the role of freed slaves (mawālī) in early Islam."
+    ],
+    "related": [
+      "islamic-law",
+      "sira-and-history",
+      "women-and-gender"
+    ],
+    "path": [
+      {
+        "work": "sherman-jackson-islam-and-the-blackamerican-looking-toward-the-third",
+        "note": "Jackson on how Black Muslims in America have defined themselves."
+      },
+      {
+        "work": "kecia-ali-marriage-and-slavery-in-early-islam",
+        "note": "How marriage and slave ownership were entangled in early Muslim law."
+      },
+      {
+        "work": "yq-slavery-and-islam-what-is-slavery",
+        "note": "A Yaqeen paper setting out what slavery was in the Islamic legal tradition."
+      },
+      {
+        "work": "jonathan-brown-slavery-and-islam",
+        "note": "A book-length treatment of slavery in Islamic scripture, law and history."
+      },
+      {
+        "work": "emad-hamdeh-mawali-freed-slaves-and-non-arabs",
+        "note": "How freed slaves and non-Arabs shaped Islamic scholarship."
+      },
+      {
+        "work": "jonathan-brown-islam-and-blackness",
+        "note": "Brown on the history of ideas about Blackness in Muslim societies."
+      }
+    ]
+  },
+  "education": {
+    "intro": [
+      "From al-Tahtawi's mission to Paris in the 1820s to the madrasa reforms of the late nineteenth century, Muslim writers have returned to schools: what to teach, in what language, and who should run them. Sayyid Ahmad Khan's college at Aligarh and Shibli Nomani's Nadwat al-ʿUlamaʾ gave different answers in India. Muhammad Qutb wrote on Islamic upbringing, and Bakr Abu Zayd on the manners of the student of knowledge.",
+      "Many of the entries are short talks and pamphlets by Abul Hasan Ali Nadwi on school curricula and on teachers."
+    ],
+    "related": [
+      "islam-and-modernity",
+      "colonialism-and-decolonisation",
+      "family-and-society"
+    ],
+    "path": [
+      {
+        "work": "tahtawi-the-extraction-of-gold-or-an-overview-of",
+        "note": "Al-Tahtawi's account of five years in Paris, with a plea for Egypt to learn from it."
+      },
+      {
+        "work": "sayyid-ahmad-khan-tahzib-al-akhlaq",
+        "note": "The journal in which Sir Syed argued for a modern education for Indian Muslims."
+      },
+      {
+        "work": "muhammad-qutb-manhaj-al-tarbiya-al-islamiyya",
+        "note": "Muhammad Qutb on how an Islamic upbringing should be organised."
+      },
+      {
+        "work": "nadwi-a150-nahwa-al-tarbiya-al-islamiyya-al-hurra-fi-al-hukumat-wa-l-bi",
+        "note": "Nadwi on freeing Islamic education in state and private schools."
+      },
+      {
+        "work": "bakr-abu-zayd-hilyat-talib-al-ilm",
+        "note": "A classic guide to the manners of a student of religious knowledge."
+      },
+      {
+        "work": "yq-the-colonized-mind-and-the-decline-of-the-islamic-education",
+        "note": "A Yaqeen paper on what colonialism did to Islamic education."
+      }
+    ]
+  },
+  "quranic-studies": {
+    "intro": [
+      "Three kinds of work sit here. There are English translations made for readers who do not know Arabic (Pickthall, Muhammad Asad), large modern commentaries in the major Muslim languages (Tabatabai's al-Mīzān, Hamka's Tafsir al-Azhar, Quraish Shihab's Tafsir al-Mishbah, Makarem Shirazi's Tafsir Nemuneh), and studies of how the text should be read, such as Fazlur Rahman's Major Themes of the Qur'an and Amina Wadud's work.",
+      "The Quran Hub carries the Arabic text, the word corpus and the manuscript catalogue."
+    ],
+    "related": [
+      "hadith-studies",
+      "philosophy-and-theology",
+      "women-and-gender"
+    ],
+    "path": [
+      {
+        "work": "pickthall-the-meaning-of-the-glorious-koran",
+        "note": "The classic English translation by a British convert, first published in 1930."
+      },
+      {
+        "work": "muhammad-asad-the-message-of-the-quran",
+        "note": "Asad's translation with extensive notes, first published in 1980."
+      },
+      {
+        "work": "fazlur-rahman-major-themes-of-the-quran",
+        "note": "A thematic study of what the Qur'an teaches."
+      },
+      {
+        "work": "muhammad-husayn-tabatabai-tafsir-al-mizan",
+        "note": "The Shia commentary of Allameh Tabatabai, a major work of modern Qur'anic exegesis."
+      },
+      {
+        "work": "hamka-tafsir-al-azhar",
+        "note": "The leading Malay-Indonesian commentary of the twentieth century."
+      },
+      {
+        "work": "quraish-shihab-tafsir-al-mishbah",
+        "note": "A modern Indonesian commentary on the whole Qur'an."
+      }
+    ]
+  },
+  "psychology-and-mental-health": {
+    "intro": [
+      "Most of the entries are papers on mental health from the Yaqeen Institute, dealing with anxiety, shame, doubt and trauma. The older authors write about the soul: Hamka's Tasawuf Modern, Muhammad Qutb on the human psyche, al-Attas on the nature of man and Laleh Bakhtiar's handbook of spiritual chivalry."
+    ],
+    "related": [
+      "sufism",
+      "family-and-society",
+      "philosophy-and-theology"
+    ],
+    "path": [
+      {
+        "work": "hamka-tasawuf-modern",
+        "note": "Hamka's widely read book on happiness and the spiritual life."
+      },
+      {
+        "work": "muhammad-qutb-dirasat-fi-al-nafs-al-insaniyya",
+        "note": "Muhammad Qutb on the human psyche from an Islamic point of view."
+      },
+      {
+        "work": "amin-ahsan-islahi-tazkiyah-i-nafs",
+        "note": "Islahi on purifying the self."
+      },
+      {
+        "work": "al-attas-the-nature-of-man-and-the-psychology-of",
+        "note": "Al-Attas on the nature of the human soul."
+      },
+      {
+        "work": "laleh-bakhtiar-moral-healers-handbook-the-psychology-of-spiritual-chivalry",
+        "note": "A handbook of moral psychology drawn from the Sufi tradition of futuwwa."
+      },
+      {
+        "work": "yq-islamic-spirituality-and-mental-well-being",
+        "note": "A Yaqeen paper on spirituality and wellbeing."
+      },
+      {
+        "work": "yq-clinicians-imams-and-the-whisperings-of-satan",
+        "note": "On how clinicians and imams can work together on cases of intrusive thoughts."
+      }
+    ]
+  },
+  "science-and-religion": {
+    "intro": [
+      "Early authors such as al-Afghani, Abduh and Sayyid Ahmad Khan argued over whether Islam is compatible with modern science and how far the Qur'an should be read in its light. From the 1960s Seyyed Hossein Nasr and others turned the question round and asked what modern science leaves out.",
+      "Today the debate is largely about evolution (Shoaib Ahmed Malik, Yasir Qadhi, Yaqeen Institute), the environment and, more recently, artificial intelligence."
+    ],
+    "related": [
+      "philosophy-and-theology",
+      "islam-and-modernity",
+      "education"
+    ],
+    "path": [
+      {
+        "work": "afghani-answer-to-renan",
+        "note": "Al-Afghani replies to Ernest Renan's claim that Islam is hostile to science."
+      },
+      {
+        "work": "abduh-islam-and-christianity-in-relation-to-science-and",
+        "note": "Abduh on Islam, Christianity and the sciences."
+      },
+      {
+        "work": "nasr-science-and-civilization-in-islam",
+        "note": "Nasr's survey of the Islamic sciences and their philosophical background."
+      },
+      {
+        "work": "wahiduddin-khan-religion-and-science",
+        "note": "Wahiduddin Khan on why religion and science are not at odds."
+      },
+      {
+        "work": "muzaffar-iqbal-science-and-islam",
+        "note": "An overview of the relationship from the early centuries to the present."
+      },
+      {
+        "work": "shoaib-ahmed-malik-islam-and-evolution",
+        "note": "Malik on how al-Ghazali's thought bears on modern evolutionary theory."
+      },
+      {
+        "work": "yq-human-origins-part-1-theological-conclusions-and-empirical-limitations",
+        "note": "Yasir Qadhi on human origins, with the theological conclusions and the scientific evidence."
+      }
+    ]
+  },
+  "family-and-society": {
+    "intro": [
+      "Family law is covered under Islamic law and gender under women and gender. This section holds writing on community life: upbringing, marriage guidance, memoirs and the shape of a Muslim society. Malek Bennabi's Birth of a Society asks what makes a society from the inside. Al-Tahtawi's Faithful Guide for Girls and Boys is a nineteenth-century Egyptian primer, and Sayyid Qutb's A Child from the Village is a memoir of childhood in an Egyptian village.",
+      "Later entries are mostly fatwa collections and guidance literature, from Ali Gomaa and Yusuf al-Qaradawi to the Yaqeen Institute."
+    ],
+    "related": [
+      "women-and-gender",
+      "education",
+      "psychology-and-mental-health"
+    ],
+    "path": [
+      {
+        "work": "tahtawi-the-faithful-guide-for-girls-and-boys",
+        "note": "An Egyptian primer for the education of girls and boys, from 1872."
+      },
+      {
+        "work": "sayyid-qutb-a-child-from-the-village",
+        "note": "Qutb's memoir of childhood in an Egyptian village."
+      },
+      {
+        "work": "taqiuddin-nabhani-the-social-system-in-islam",
+        "note": "The Hizb ut-Tahrir founder on the rules governing relations between men and women."
+      },
+      {
+        "work": "bennabi-the-birth-of-a-society",
+        "note": "Bennabi on what holds a society together."
+      },
+      {
+        "work": "mutahhari-the-rights-of-women-in-islam",
+        "note": "Mutahhari on rights and duties within the family."
+      },
+      {
+        "work": "jamal-badawi-gender-equity-in-islam-basic-principles",
+        "note": "A short introduction to gender relations from a Muslim perspective."
+      }
+    ]
+  },
+  "sira-and-history": {
+    "intro": [
+      "Biographies of the Prophet are the biggest part of this section, written for different audiences: Shibli Nomani's Sirat al-Nabi (completed after his death by Sulayman Nadwi), Martin Lings's Muhammad, Hamidullah's edition of Ibn Ishaq, and Nasr's Muhammad: Man of Allah. Then come histories of Muslim societies, and memoir and travel writing such as Shibli's travelogue of Istanbul, Cairo and Syria."
+    ],
+    "related": [
+      "hadith-studies",
+      "quranic-studies",
+      "slavery-and-race"
+    ],
+    "path": [
+      {
+        "work": "shibli-nomani-sirat-al-nabi",
+        "note": "The Indian scholar's critical biography, finished after his death by his student Sulayman Nadwi."
+      },
+      {
+        "work": "hamidullah-sirat-ibn-ishaq",
+        "note": "Hamidullah's edition of Ibn Ishaq's early biography of the Prophet."
+      },
+      {
+        "work": "al-faruqi-the-life-of-muhammad",
+        "note": "An English version of Haykal's biography, translated by Ismail al-Faruqi."
+      },
+      {
+        "work": "martin-lings-muhammad-his-life-based-on-the-earliest-sources",
+        "note": "A narrative life of the Prophet drawn from the earliest sources."
+      },
+      {
+        "work": "nasr-muhammad-man-of-allah",
+        "note": "Nasr's short account of the Prophet's life and of his place in Muslim devotion."
+      },
+      {
+        "work": "tariq-ramadan-in-the-footsteps-of-the-prophet-lessons-from-the-life-of",
+        "note": "Ramadan reads the life of the Prophet for ethical lessons today."
+      }
+    ]
+  }
+}

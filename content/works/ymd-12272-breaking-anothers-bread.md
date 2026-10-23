@@ -1,0 +1,66 @@
+---
+title: "Breaking Another’s Bread"
+author: young-muslim-digest
+year: 2023
+language: "English"
+type: "Essay"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Editorial"
+venue: "Young Muslim Digest, February 2023"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2023/02/editorial/breaking-anothers-bread-2/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+***Unemployment is a product of modern politico-socio-economic system, and its material culture. It will remain so long as they remain. It will remain in such Muslim societies as only pay lip-service to Islam. True Muslims rarely encounter it. Indeed, we can add that practising Muslims are rarely found unemployed for long, writes SYED IQBAL ZAHEER.***
+
+ 
+
+Religion is generally understood as a system that consists of a set of dogmas, rituals, a few moral precepts and taboos. Islam is not a religion in this restricted sense. It is a complete, revealed, hence authentic, and God-approved religion.
+
+To explain, it is a comprehensive, practical and pragmatic system for the organization of human life on earth at individual, societal, national and international levels. But most important of all, the revelation having remained uncorrupted through the ages, it is a sure means of winning God's approval and, consequently, salvation in the Hereafter.
+
+Yet, and although it is true that Islam is a comprehensive religion, which means it is a complete agenda of life on this earth, it lays greater emphasis on salvation in the World Next. It could also be stated that the attention it gives to this-worldly affairs is only incidental, and primarily designed to make the passage from this world to the Next easy. In short, this world is, to Islamic perspective, only secondary. Those who miss to see this, get the shell and miss the core.
+
+The above means that Islamic laws and instructions should not be looked upon as those that will help unleash material progress at a terrific pace. Islam promises no such thing. In a world of limited resources, promises of unlimited growth are for the deceitful politicians to make. Far from complete ease and comfort, Islam promises some difficulties in this life. This is in the nature of things. After all, man is on trial, has been given free will, and is endowed with some powers. He is very likely, therefore, to use his free will wrongly, causing inconvenience to others of God's creations. This puts them on trial.
+
+Also, the trial would lose its meaning and relevance if there was overproduction of everything, to everyone's desire, in a world filled with peace and comforts. Troubles, therefore, will be there as the basic ingredient of life. Some people will always face the problems of unemployment, corruption, loss in business, sickness, divorce, wars, death etc. If these things are found among a people, (but within manageable limits), then it is right in keeping with the scheme of trial.
+
+Also, it is in keeping with the scheme of trial that problems are left to the humans to solve. Islam helps in finding solutions when such attempts are made. Its rules are not so much designed to promote say, economic activities, manufacture, employment, business,*et al*, as they are designed to ensure that everyone gets his due, less or more, in accordance with his efforts; that injustice is not followed as a rule; and that kindness, sympathy and sacrifice play their roles in mitigating the difficulties of life and fighting the evils of those who use the power of their free-will wrongly. All that, of course, is if Islam is accepted as a way of life, and not treated merely as a dogma.
+
+The problem of unemployment is one of those that every society faces. How does Islam deal with it? In answer, we might first point out that in modern times unemployment is a phenomenon which is designed to be there by the capitalistic socio-economic systems. Without unemployment, to some degree, the kind of skill required to keep the materialistic civilisation going, cannot be made available in the labour market.
+
+In the West, 5-6% of unemployment is considered a requisite. It is the fear of unemployment that keeps the labour working harder and harder and to greater and greater efficiency. This, of course, is unjustified. Humans should not be coerced into doing anything, far less for the satisfaction of the greedy ones leading the rest of the humanity by the nose.
+
+That apart, in some countries we do experience unemployment not to the calculated degree, but to a great degree. For example, in many Asian countries, unemployment is very high. This, however, is self-created at the national level, and self-inflicted at the individual level.It is self-created because the government does not promote such economic schemes as can absorb all the manpower available. Further, its placement of industries follows political contingencies. That is, they are done with an eye on the vote bank rather than following the true needs of the people or even the nation. For example, industries are concentrated in large cities (as against those in Western Europe, where they are scattered all over the landscape). The placement of industries in cities attracts large number of countrymen to the towns in search of jobs. They add up to the already available manpower at the town level. Normally, especially in low-skilled jobs, it is the immigrant who wins the jobs. This is because, he is used to a frugal life, can accept very poor living conditions, live in crowded neighbourhoods, and can work for longer hours and for lower wages than the locals. He wins the jobs, but his employment is at the expense of the local who has the choice of either accepting under-employment (in a city too expensive for his style of life), or remain unemployed altogether.
+
+The salary and working conditions that suit the fresh immigrant, do not suit the older population. This is why we see a lot of people unemployed in large cities. And this is why we see slums on the growth in every large city of the world, whether it is Delhi, Tokyo, London, New York or Mexico City. In some cities, three fourth of the population lives in slums.
+
+Unemployment is self-inflicted at the individual level because a great number of youths fail to respond to the challenge by acquiring educational skills that can fetch them well-paying jobs either within the country or outside it. A casual analysis tells us that a great majority of the unemployed are those who dropped out after school or obtained a third-rate degree, from a third-rate college, which is worth nothing in the job market, while thousands of vacancies go abegging because properly educated and trained manpower is not available. In fact, there is such a shortage of skilled manpower in every field of activity, that most projects (that create jobs) are delayed by several years in completion.
+
+Unemployment is also self-inflicted at the individual level because although a large number of people migrate to the large cities from the countryside, the town's people refuse to migrate to the villages where employment is available. So that, when the time comes for seeding, or pollinating, or harvesting, there is a severe shortage of labour in the countryside, resulting in poor harvests. The young unemployed men in cities prefer to remain unemployed rather than move out to smaller places even as seasonal workers. Although, the fact is, today, income at the farm level can be no less than the income of a semi-skilled labourer in cities, with the additional perks of free accommodation and food. And, if one is in a permanent type of job in the countryside, then, the low earnings match with the low cost of living there.
+
+The above then, are some of the reasons why we observe high unemployment rates within the cities.What can Islam do about it? We are sure it will be said, "Very little." But here is the surprise. Islam can do a lot to improve the situation if it is treated seriously: i.e., taken as a religion and not as a dogma. Hereunder a few points.
+
+Islam instils honesty in its followers. If some of the Muslims are poor in any given society, others are sure that it is absolutely because of circumstances beyond their power and control that they are poor. That belief, added to the belief that their own wealth is entirely by Allah's grace, makes them feel that they need to help the poor ones out and -- moved by another of Islam's powerful characteristics, brotherhood -- actually do it. With the strong Islamic warning that a man is no believer at all if his neighbour goes hungry, nobody ever face hunger in an Islamic society. In one of his grandest of ever statements, the Prophet said, "Food for one is enough for two and food for two is enough for four." No single formula for a peaceful life on earth can do better than these terse few words.
+
+Islam also instils the quality of self-respect and self-reliance in its followers. If some Muslims happen to be poor, because of adverse circumstances, they do not show it, and when offered help, avoid taking it. They wish Allah (*swt*) to open a door for them, rather than some of His slaves do it. This kind of attitude helps the poor bear their poverty with fortitude and cheerfulness, keeps them in good spirits, fresh for action, and, in the meantime, press the free hours at hand into some good service.
+
+On the other hand, because of the qualities of self-respect and self-reliance, the unemployed in Islam will do any work, for any number of years, but will not sit idle. A Muslim's faith revolts against breaking bread that he didn't earn, even if it is his father's.
+
+Further, in Islam, there is no prejudice against professions. There have been renowned scholars who were bakers, confectioners, bookbinders, smiths, and so on. When Islam is the way of life of a people, these professions are adopted with ease and unemployment disappears. Actually, where Muslims are Muslims, they have a thriving market economy and are the envy of others. This is because it seems Muslims are more successful as small entrepreneurs, than as insignificant and invisible accessories of a corporate business.
+
+And small entrepreneurship is big business. Food business, for example, is small entrepreneurship. But it is big business. And a thriving one too. For, at the end of the day, men want to eat. A man therefore, serving out of the window of his house food cooked by his wife can make a comfortable source of income for the family. If made delicious, customers will line up before time. Of bread, there are dozens of types. But in a country like India, it is hard to find more than two or three varieties at any place. Anyone who offered other varieties would win his own butter. And all he will need is an oven to start off. Those who do, end up in a decade as big bakers. Muslim women, for example, who waste their dear lives before the TV, could knit a neat 10,000 a year with two needles and some wool. There are hundreds of such small businesses and ways of making money but in which Indian Muslims take no interest, preferring to stay idle for years on, breaking the bread of someone in the family.
+
+Finally, Islam frees a man from the love of cities. Its adherents, in fact, prefer country life over the apparently bright, but, in truth, dark, city life. An unemployed in Islam will have no problem shifting from a city to a smaller town, or even to a village to find means of livelihood. Indeed, great scholars have always preferred to live in villages where life is cheap, healthy, quiet, peaceful, and intellectually more productive than life in large cities.
+
+MawlanaThanwi -- who produced some of the finest works of the century -- lived in a small place way off the large cities. To reach Abdul MajidDaryabadi -- the writer of two commentaries: in English and Urdu -- one had to take a bullock cart from the nearest railway station. Ali Miyan produced his masterpieces from a village that had no electricity.
+
+Thus, unemployment is a product of modern politico-socio-economic system, and its material culture. It will remain so long as they remain. It will remain in such Muslim societies as only pay lip service to Islam. True Muslims rarely encounter it. Indeed, we can add that practising Muslims are rarely found unemployed for long.
+
+A quick scan finds the irreligious idling about their time complaining of Hindu prejudices and partiality, while the religious make their modest earning and cheerfully report at the mosque with the call. And that's where you get ideas about brotherhood, honesty, self-reliance, hard work and self-respect. That's where Islam tackles the problem of unemployment.
+
+The Qur'an says (65: 2-3): *"And he who feared Allah, He makes a way out for him, and feeds him from where he didn't reckon."*

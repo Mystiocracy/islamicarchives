@@ -6,10 +6,6 @@ import { longDate } from '../../../lib/quran';
 
 const { books, hadiths } = muslim();
 const fmt = (n: number) => n.toLocaleString('en-GB');
-// a bare number such as 1907 is stored as 1907a, 1907b …; send it to the first of them
-const first: Record<string, string> = {};
-for (const h of hadiths) { const b = String(h.num); if (!(b in first)) first[b] = h.n; }
-const plainNo = new Set(hadiths.map((h) => h.n));
 ---
 <Base title="Ṣaḥīḥ Muslim" description={`The full text of Ṣaḥīḥ Muslim, ${fmt(hadiths.length)} ḥadīth in Arabic and English, searchable, book by book.`} current="hadith">
   <div class="hd" style="max-width:1100px">
@@ -43,10 +39,8 @@ const plainNo = new Set(hadiths.map((h) => h.n));
 
     <p class="hd-cite"><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>Sources:</strong> Arabic text, English translation (Abdul Hamid Siddiqui) and sunnah.com numbering from the open <a href="https://github.com/fawazahmed0/hadith-api" rel="noopener" target="_blank">hadith-api</a> collection; Read alongside <a href="https://sunnah.com/muslim" rel="noopener" target="_blank">sunnah.com</a> for the established reference numbers of other editions.</p>
   </div>
-  <script type="application/json" id="hsnums" set:html={JSON.stringify(Object.fromEntries(Object.entries(first).filter(([k]) => !plainNo.has(k))))}></script>
   <script is:inline>
   (function () {
-    var NUMS = {}; try { NUMS = JSON.parse(document.getElementById('hsnums').textContent); } catch (x) {}
     var form = document.getElementById('hsform'), q = document.getElementById('hsq'), bk = document.getElementById('hsb');
     var out = document.getElementById('hsres'), stat = document.getElementById('hsstat'), more = document.getElementById('hsmore');
     var pf = null, results = [], shown = 0, PAGE = 20, token = 0;
@@ -69,7 +63,7 @@ const plainNo = new Set(hadiths.map((h) => h.n));
       try { history.replaceState(null, '', term ? '?q=' + encodeURIComponent(term) + (bk.value ? '&book=' + encodeURIComponent(bk.value) : '') + '#search' : location.pathname + '#search'); } catch (x) {}
       out.innerHTML = ''; out.hidden = true; more.hidden = true; shown = 0;
       if (!term) { stat.textContent = 'Type a word or phrase to search.'; return; }
-      if (/^\d{1,4}[a-z]?$/i.test(term)) { var t = term.toLowerCase(); location.href = '/hadith/muslim/' + (NUMS[t] || t) + '/'; return; }
+      if (/^\d{1,4}[a-z]?$/i.test(term)) { location.href = '/hadith/muslim/go/?n=' + term.toLowerCase(); return; }
       stat.textContent = 'Searching…';
       load().then(function (m) {
         var filters = { collection: 'Ṣaḥīḥ Muslim' }; if (bk.value) filters.book = bk.value;

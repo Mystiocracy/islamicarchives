@@ -1,0 +1,48 @@
+---
+title: "The Quarantine of Islam"
+author: young-muslim-digest
+year: 2020
+language: "English"
+type: "Article"
+subjects:
+  - philosophy-and-theology
+keywords:
+  - "Morality"
+venue: "Young Muslim Digest, November 2020"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2020/11/morality/the-quarantine-of-islam/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+***We live in unprecedented times in relation to the crises facing the*** **Ummah*. These crises cannot simply be a series of random calamities. Perhaps, we need to take a look at the neglect and indifference towards our collective duties as prescribed by Allah (*swt*), writes IBRAR QASIM.***Pakistan recently declared a national emergency after its worst locust plague in 27 years. A similar plague of locusts has hit East Africa threatening hunger to millions. "There is a link between climate change and the unprecedented locust crisis plaguing Ethiopia and East Africa," UN Secretary General Antonio Guterres said. "Warmer seas mean more cyclones generating the perfect breeding ground for locusts. Today the swarms are as big as major cities and it is getting worse by the day."
+
+The locust is a recurring insect in a number of idioms from different cultures used to represent the collective. A year which has "gone to the locusts" means a year that was wasted and unproductive. The Chinese idiom "like locusts tied to one rope" refers to being in the same boat or to sink, or swim, together. This particular idiom reminds us of the current crisis gripping the Han Chinese in the mainland. The actions of a few can have consequences for all.
+
+The Chinese authorities are now gaining valuable experience in quarantining entire cities, including the city of Wuhan, where the corona virus is thought to have originated. This quarantine lock down pertains to a physical virus of course and not a thought, an idea or a belief as is the case in the quarantined region of Xinjiang province. The corona virus is thought to have spread from an infected animal species to humans through illegally-trafficked pangolins, which are prized in Asia for food and medicine. Scientists have pointed to either snakes or bats as the source of the virus.
+
+Prince Metternich's famous metaphor for the power and influence of France in the first period of the 19^(th) century was modified in the 20^(th) century to highlight the economic importance of Germany. The metaphor states that when Germany sneezes, the rest of Europe catches a cold. In the 21^(st) century, when China sneezes, the rest of the world catches a cold. These days, both literally and metaphorically. The corona virus may turn out to be one Chinese export immune from any tariff, Trump engineered or otherwise.
+
+The manner in which the Chinese authorities have dealt with the corona virus emergency is analogous to the detainment of Muslims in Xinjiang province. With regard to the corona virus outbreak, the Chinese authorities silenced locals who initially warned of the potential danger, have consistently lied about the numbers infected and botched up the attempts to contain it. China's only real fear is over the significant economic impact the virus outbreak will have especially coupled with the fallout with the ongoing trade war with the US. The truth of the size of this economic fallout will need to be repressed. At the time of writing, three reporters from the Wall Street Journal were being expelled for an opinion piece which called China "the real sick man of Asia."
+
+Muslims around the globe have been pointing to the corona virus outbreak in China as divine retribution for the Chinese state's ethnic cleansing of Muslims, most of them Uighurs, in Xinjiang province. *The New York Times* printed an expose last year based upon hundreds of pages of leaked Communist Party documents detailing the planning and deliberations behind the mass detention of these Muslims in re-education camps. The article by Austin Ramzy and Chris Buckley documented President Xi Jinping's belief that Islamic radicalism (code for Islam) is akin to a "virus" that could only be cured through "a period of painful, interventionary treatment." Xi Jinping may have been thinking of the SARS outbreak in 2002 when using this particular trope to describe Islam. In an ironic twist of fate, it appears that Xi Jinping and the Chinese nation as a whole are now getting a taste of their own medicine like "locusts tied to one rope."
+
+The expulsion of the reporters from the *Wall Street Journal* is interesting. The Chinese state's official reason for the expulsion was that the opinion piece pampered to old racist tropes about the Chinese. The real reason was the Chinese state's anger over the anxiety the article would cause in the financial markets given the prestige of the WSJ. This is not to say that old racist tropes about the Chinese are not rearing their ugly heads again. In the current climate of fear, Chinese expats have reported a significant spike in racist incidents, attacks, slights and slurs from school playgrounds to supermarkets.
+
+Asians in France recently created a Twitter hashtag \#Jenesuispasunvirus ("I am not a virus") to highlight the hostile environment. Perhaps it was not the best idea then to label the practice of Islam in Xinjiang as a virus. After all, Islam is not a virus but simply a faith. Old tropes indeed.
+
+We live in an age where Muslims are firmly disunited and, consequently, powerless in the face of a myriad of disasters such as civil war, displacement, hunger and exploitation. It is entirely understandable therefore that any difficulty experienced by the oppressor is seen as a victory by Muslims albeit a minor one in the grand scheme of things. The joy in these small victories, however, is most certainly misplaced.
+
+As Muslims, we must examine our own culpability with regard to the condition we find ourselves in. Our current condition is primarily caused by heedlessness (*ghaflah*; verb: *gha/fa/la*), a disposition very similar to indifference. Allah (SWT) is absent from our minds and hearts due to arrogant self-absorption and a lack of concern and care usually as a result of decadence (Q:25:18).
+
+The Quran's parables and punishment narratives are a cure for *ghaflah* for those who choose to listen to Allah's (SWT) words above the noise of 21^(st) century distractions. The conclusion of the punishment narratives in the Quran warned Muhammad's (PBUH) contemporaries that they could meet a similar fate in this world unless they reflected upon the scripture's insistent demand (Q:3:190-1; 34:46; 35:28). Allah's (SWT) destruction of these communities was not simply punitive however. The punishment also served as a reminder for the heedless who had temporarily escaped Allah's (SWT) wrath on that particular occasion. Finally, it would stand as testimony for those who would argue on the Day of Judgement that no warnings or reminders were given to direct their attention towards Allah (SWT).
+
+It would be too hopeful to believe that the Chinese authorities will learn the real lesson from the corona virus outbreak. Despite the uncanny similarities between the quarantine in re-education camps for the Muslims of Xinjiang province and the quarantined cities of China desperate to contain COVID-19, no link will be drawn. This will simply be a black swan moment for the Chinese. The black swan theory or the theory of black swan events formulated by Nassim Nicholas Taleb is a metaphor that describes an unpredictable event (to the observer) which has widespread ramifications and which after the event has occurred, will be interpreted by people as indeed explainable and predictable (hindsight bias).
+
+The Chinese state have quarantined Xinjiang province and cities such as Wuhan for two different types of virus both of which are deemed highly dangerous. The virus which spread through Xinjiang province is one which also seems to be of concern to states throughout the rest of the world. In the Muslim world, Islam as a comprehensive way of life, as opposed to the private rituals of worship, is a contagion kept in check through the use of the same procedures and protocols used by the Chinese state in Xinjiang province. Orthodox voices espousing the liberation theology of Islam are silenced through the use of fear, censorship and re-education. In many cases, infected individuals are incarcerated or simply disappear.
+
+The punishment narratives in the Qur'an are, of course, just a selection from the history of mankind. In this regard, analysing a particular crisis in our own times and ascribing to it a particular cause is an exercise fraught with danger. Without doubt, we live in unprecedented times in relation to the crises facing the *Ummah.* These crises cannot simply be a series of random calamities or black swan events. Perhaps, we need to take a look at the neglect and indifference towards our collective duties as prescribed by Allah (SWT).
+
+To end with the Chinese locust idiom that we began with, individuals are tied to each other in society as a collective like "locusts tied to one rope" and will sink or swim together whether they like it or not. What we can control is which rope we are bound by.
+
+Neglect of our collective Islamic duties will leave us to hang from the rope that is tied by the oppressor. We should take heed and hold onto the only rope which will provide eternal salvation. "And hold firmly to the rope of Allah (SWT) all together and do not become divided." (Q:3:103).

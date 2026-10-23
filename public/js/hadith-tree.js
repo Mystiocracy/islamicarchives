@@ -5,7 +5,7 @@
   'use strict';
   var GEN = { 0: 'The Prophet ﷺ', 1: 'Companions', 2: 'Senior Successors', 3: 'Middle Successors', 4: 'Successors of the fourth generation', 5: 'Junior Successors', 6: 'Contemporaries of the junior Successors', 7: 'Senior followers of the Successors', 8: 'Middle followers of the Successors', 9: 'Junior followers of the Successors', 10: 'Senior students of the followers', 11: 'Middle students of the followers', 12: 'Junior students of the followers' };
   // The page sets window.BT_CFG for other books; the defaults are al-Bukhārī
-  var CFG = Object.assign({ data: '/hadith/bukhari-narrators.json', snips: '/hadith/bukhari-snips.json', text: '/hadith/bukhari/', who: 'al-Bukhārī' }, window.BT_CFG || {});
+  var CFG = Object.assign({ data: '/hadith/bukhari-narrators.json', snips: '/hadith/bukhari-snips.json', go: '/hadith/bukhari/go/?n=', who: 'al-Bukhārī' }, window.BT_CFG || {});
   var PAGE = 12;
   var $ = function (id) { return document.getElementById(id); };
   var host = document.querySelector('.bt');
@@ -136,7 +136,7 @@
       $('btcrumb').innerHTML = '<span>Showing the <strong>' + (mode === 'down' ? 'students' : 'teachers') + '</strong> of <strong>' + esc(p.n) + '</strong> in ' + CFG.who + '’s chains.</span>' +
         '<button type="button" class="bt-tool" id="btcollapse">Close all branches</button><button type="button" class="bt-tool" id="btfit">Back to the start</button>' +
         (hlNum ? '<span class="bt-hlnote">Chain of ḥadīth <strong>' + esc(hlNum) + '</strong> lit up' + (hlOf > 1 ? ' (chain ' + (hlIdx + 1) + ' of ' + hlOf + ' <button type="button" class="bt-tool" id="btnextchain">Next chain</button>)' : '') +
-          ' · <a href="' + CFG.text + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
+          ' · <a href="' + CFG.go + esc(hlNum) + '">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
           '<span class="bt-hlpath">' + hlSeq.map(function (id) { var q = P[id] || {}; return '<b>' + esc(short(q.n || ('#' + id), 26)) + '</b>'; }).join(' → ') + '</span>' : '');
       $('btcollapse').onclick = function () { clearHl(); setRoot(rootId); };
       if ($('btclearhl')) $('btclearhl').onclick = function () { clearHl(); render(false); };
@@ -154,7 +154,7 @@
       var ns = DATA.x[key] || [];
       return ns.slice(from, to).map(function (n) {
         var sn = snips && snips[n];
-        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="' + CFG.text + n + '/" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
+        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="' + CFG.go + n + '" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
       }).join('');
     }
     function openLink(holder, key) {
@@ -211,6 +211,9 @@
         showView('tree');
         card.querySelectorAll('li.hl').forEach(function (li) { li.classList.toggle('on', li.dataset.n === String(num)); });
         if (window.innerWidth <= 860) card.hidden = true;
+        // the tree sits below the page's introduction: bring it into view so the lit-up chain is seen at once
+        var sec = document.querySelector('section.bt');
+        if (sec) setTimeout(function () { sec.scrollIntoView({ block: 'start' }); }, 60);
       });
     }
 

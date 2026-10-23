@@ -37,7 +37,7 @@ const run = (args) => execFileSync('pandoc', args, { stdio: ['ignore', 'ignore',
 function meta(w) {
   const a = authors[idOf(w.data.author)];
   const name = a ? a.data.name : w.data.author;
-  const rights = w.data.rights === 'public-domain' ? 'Public domain' : 'Published with permission of the rights holder';
+  const rights = w.data.rights === 'public-domain' ? 'Public domain' : w.data.rights === 'archival' ? 'Archival copy; copyright remains with the publisher' : 'Published with permission of the rights holder';
   const url = `https://islamicarchives.org/works/${w.id}/`;
   return { title: w.data.title, author: name + (w.data.coAuthors ? ` and ${w.data.coAuthors}` : ''), date: w.data.year ? String(w.data.year) : undefined, lang: 'en',
     rights: `${rights}. ${w.data.sourceEdition ? 'Source: ' + w.data.sourceEdition + '. ' : ''}From Islamic Archives, ${url}` };
@@ -64,6 +64,7 @@ for (const w of works) {
     n++;
     continue;
   }
+  if (w.data.rights === 'archival') continue; // text stays on the page and in the author's collected EPUB; no four extra files per article
   const m = meta(w);
   const src = join(TMP, `${w.id}.md`);
   writeSource(src, m, w.body);

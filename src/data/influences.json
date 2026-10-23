@@ -1,0 +1,1033 @@
+{
+ "title": "Connections",
+ "intro": "Who taught whom, who was shaped by whom, and where authors in the archive argued with each other. Each link carries a short note on what it rests on. This is a first, partial map: it only joins authors who both have pages here.",
+ "archived": "2026-10-23",
+ "source_note": "Links come from the biographies on this site and from the English Wikipedia article of each author. Each link names its source.",
+ "kinds": {
+  "teacher": {
+   "label": "Teacher and student",
+   "out": "Taught",
+   "in": "Studied with"
+  },
+  "influence": {
+   "label": "Influence",
+   "out": "Shaped the thinking of",
+   "in": "Influenced by"
+  },
+  "family": {
+   "label": "Family",
+   "out": "Related to",
+   "in": "Related to"
+  },
+  "colleague": {
+   "label": "Worked together",
+   "out": "Worked with",
+   "in": "Worked with"
+  },
+  "debate": {
+   "label": "Argued with",
+   "out": "In disagreement with",
+   "in": "In disagreement with"
+  },
+  "parallel": {
+   "label": "Parallel projects",
+   "out": "Parallel project to",
+   "in": "Parallel project to"
+  }
+ },
+ "edges": [
+  {
+   "from": "afghani",
+   "to": "abduh",
+   "kind": "teacher",
+   "note": "Abduh was Afghani's closest disciple; they edited al-ʿUrwa al-wuthqā together in Paris in 1884.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "abduh",
+   "to": "rashid-rida",
+   "kind": "teacher",
+   "note": "Rida became Abduh's student and biographer, and put Abduh's Qurʾān lessons into Tafsīr al-Manār.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "abduh",
+   "to": "hamka",
+   "kind": "influence",
+   "note": "Hamka read the Cairo reformists through al-Manār; his Tafsīr al-Azhar draws on it.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "hasan-al-banna",
+   "kind": "influence",
+   "note": "Al-Banna read Rida's journal al-Manār as a young man and took its reformist programme into the Muslim Brotherhood.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "hasan-al-banna",
+   "to": "yusuf-al-qaradawi",
+   "kind": "influence",
+   "note": "Al-Qaradawi joined the Brotherhood as a student and counted al-Banna among his formative influences.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "hasan-al-banna",
+   "to": "tariq-ramadan",
+   "kind": "family",
+   "note": "Tariq Ramadan is al-Banna's grandson and has written on his legacy.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "sayyid-ahmad-khan",
+   "to": "shibli-nomani",
+   "kind": "colleague",
+   "note": "Shibli taught at Sir Syed's Aligarh college, then broke with its modernist line and helped build the Nadwa alternative.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "iqbal",
+   "to": "maududi",
+   "kind": "influence",
+   "note": "Iqbal's invitation brought Maududi to the Punjab in 1938, where he began building Jamaat-e-Islami.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "maududi",
+   "to": "sayyid-qutb",
+   "kind": "influence",
+   "note": "Qutb took the language of divine sovereignty (ḥākimiyya) and jāhiliyya from Maududi's writings.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "maududi",
+   "to": "amin-ahsan-islahi",
+   "kind": "colleague",
+   "note": "Islahi was among the founders of Jamaat-e-Islami and left it in 1958 over its direction.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "amin-ahsan-islahi",
+   "to": "javed-ahmad-ghamidi",
+   "kind": "teacher",
+   "note": "Ghamidi studied under Islahi and carried his Qurʾānic-coherence method into his own work.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "maududi",
+   "to": "javed-ahmad-ghamidi",
+   "kind": "colleague",
+   "note": "Ghamidi was a member of Jamaat-e-Islami until he left in the late 1970s.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "maududi",
+   "to": "wahiduddin-khan",
+   "kind": "debate",
+   "note": "Wahiduddin Khan was in the Jamaat and later wrote against Maududi's political reading of Islam.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "maududi",
+   "to": "khurshid-ahmad",
+   "kind": "colleague",
+   "note": "Khurshid Ahmad worked with Maududi in Jamaat-e-Islami and later published his writings in English through the Islamic Foundation.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "sayyid-qutb",
+   "to": "muhammad-qutb",
+   "kind": "family",
+   "note": "Brothers. Muhammad Qutb edited, defended and republished Sayyid's writings.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "muhammad-qutb",
+   "to": "safar-al-hawali",
+   "kind": "teacher",
+   "note": "Al-Hawali wrote his Umm al-Qurā thesis under Muhammad Qutb's supervision.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "guenon",
+   "to": "frithjof-schuon",
+   "kind": "influence",
+   "note": "Schuon corresponded with Guénon and began from his Traditionalist perspective, later founding his own order.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "guenon",
+   "to": "martin-lings",
+   "kind": "teacher",
+   "note": "Lings went to Cairo in 1939, met Guénon, and worked as his secretary before following Schuon.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "martin-lings",
+   "kind": "teacher",
+   "note": "After Guénon's death in 1951 Lings became a close follower of Schuon.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "nasr",
+   "kind": "influence",
+   "note": "Nasr's Traditionalism comes chiefly from Schuon, whose work he read as a student.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "nasr",
+   "to": "caner-dagli",
+   "kind": "teacher",
+   "note": "Dagli did his doctorate at George Washington University under Nasr.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "ruhollah-khomeini",
+   "to": "mutahhari",
+   "kind": "teacher",
+   "note": "Mutahhari studied under Khomeini in Qom and was among his closest allies.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "muhammad-husayn-tabatabai",
+   "to": "mutahhari",
+   "kind": "teacher",
+   "note": "Mutahhari attended Tabatabai's philosophy lessons in Qom.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "muhammad-husayn-tabatabai",
+   "to": "abdollah-javadi-amoli",
+   "kind": "teacher",
+   "note": "Javadi Amoli studied philosophy and exegesis with Tabatabai.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "ruhollah-khomeini",
+   "to": "hussein-ali-montazeri",
+   "kind": "teacher",
+   "note": "Montazeri was Khomeini's student, and was later his designated successor until their break in 1989.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "ruhollah-khomeini",
+   "to": "mohammad-taqi-mesbah-yazdi",
+   "kind": "teacher",
+   "note": "Mesbah Yazdi studied with Khomeini in Qom.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "mutahhari",
+   "to": "shariati",
+   "kind": "debate",
+   "note": "Mutahhari criticised Shariati's approach to religion and sociology in the early 1970s.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "said-nursi",
+   "to": "fethullah-gulen",
+   "kind": "influence",
+   "note": "Gülen's movement grew out of the Nurcu circles that followed Nursi's Risale-i Nur.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "abdallah-bin-bayyah",
+   "to": "hamza-yusuf",
+   "kind": "teacher",
+   "note": "Hamza Yusuf studied with Bin Bayyah and works with him on the Forum for Promoting Peace in Muslim Societies.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "hamza-yusuf",
+   "to": "zaid-shakir",
+   "kind": "colleague",
+   "note": "Co-founders of Zaytuna College in California.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "abd-al-fattah-abu-ghudda",
+   "to": "taqi-usmani",
+   "kind": "teacher",
+   "note": "Taqi Usmani called Abu Ghudda his teacher and wrote his obituary.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "abd-al-fattah-abu-ghudda",
+   "to": "albani",
+   "kind": "debate",
+   "note": "Abu Ghudda was a leading critic of al-Albani's independent hadith grading and his attitude to the madhhabs.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "rafi-usmani",
+   "to": "taqi-usmani",
+   "kind": "family",
+   "note": "Brothers; both are sons of Mufti Muhammad Shafi.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "fazlur-rahman",
+   "to": "amina-wadud",
+   "kind": "influence",
+   "note": "Wadud's Qur'an and Woman builds on Rahman's method of reading the Qurʾān as a coherent ethical whole.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "al-attas",
+   "to": "al-faruqi",
+   "kind": "parallel",
+   "note": "Both launched an 'Islamisation of knowledge' in the late 1970s: al-Attas through language and metaphysics, al-Faruqi through the IIIT's methods.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "ahmed-deedat",
+   "to": "shabir-ally",
+   "kind": "influence",
+   "note": "Ally has said that Deedat's lectures led him into the study of the Bible and comparative religion.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "muhammad-mustafa-al-azami",
+   "to": "jonathan-brown",
+   "kind": "debate",
+   "note": "Brown's writing on hadith engages Azami's replies to Western scholarship on early hadith.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "maududi",
+   "to": "maryam-jameelah",
+   "kind": "influence",
+   "note": "She embraced Islam in 1961 after corresponding with Mawdūdī, and moved to Lahore the next year.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "muhammad-alawi-al-maliki",
+   "to": "ali-gomaa",
+   "kind": "teacher",
+   "note": "The biography of al-Mālikī names Ali Gomaa among the students who came to him in Mecca.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "afghani",
+   "to": "sayyid-ahmad-khan",
+   "kind": "debate",
+   "note": "Afghānī wrote a Persian treatise against the Indian \"naturalists\" associated with Sayyid Aḥmad Khān.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "abd-al-raziq",
+   "kind": "debate",
+   "note": "Riḍā was among those who wrote refutations of al-Islām wa-uṣūl al-ḥukm after the Azhar condemned it.",
+   "source": "archive-bio"
+  },
+  {
+   "from": "sayyid-qutb",
+   "to": "ruhollah-khomeini",
+   "kind": "influence",
+   "note": "The Sayyid Qutb article says Qutb was an important source of influence on Khomeini and the Iranian revolution.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "mutahhari",
+   "to": "sayyid-qutb",
+   "kind": "debate",
+   "note": "The Sayyid Qutb article says Mutahhari wrote several treatises opposing Qutb's ideas.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "hasan-al-banna",
+   "to": "sayyid-qutb",
+   "kind": "influence",
+   "note": "The Sayyid Qutb article lists Hasan al-Banna among Qutb's influences and describes Qutb as fusing Banna's political activism with other elements.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "abduh",
+   "to": "sayyid-qutb",
+   "kind": "influence",
+   "note": "The Sayyid Qutb article lists Muhammad Abduh among Qutb's influences and says Qutb announced admiration for him in nearly all his books.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "sayyid-qutb",
+   "kind": "influence",
+   "note": "The Sayyid Qutb article lists Rashid Rida among Qutb's influences and names Rida's salafism as one of his sources.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "sayyid-qutb",
+   "to": "abdullah-azzam",
+   "kind": "influence",
+   "note": "The Sayyid Qutb article infobox lists Abdullah Azzam among those influenced by Qutb.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "yusuf-al-qaradawi",
+   "to": "sayyid-qutb",
+   "kind": "debate",
+   "note": "The Sayyid Qutb article's criticism section says Qaradawi staunchly critiqued Qutb's ideas on jahiliyya.",
+   "source": "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+  },
+  {
+   "from": "shariati",
+   "to": "sayyid-qutb",
+   "kind": "parallel",
+   "note": "The Shariati article cites scholars comparing Shariati's role in the Iranian revolution with Qutb's role, noting Shariati was a leftist and Qutb a conservative.",
+   "source": "https://en.wikipedia.org/wiki/Ali_Shariati"
+  },
+  {
+   "from": "afghani",
+   "to": "shariati",
+   "kind": "influence",
+   "note": "The Shariati article says his early writing showed acquaintance with the ideas of modernist thinkers including al-Afghani.",
+   "source": "https://en.wikipedia.org/wiki/Ali_Shariati"
+  },
+  {
+   "from": "iqbal",
+   "to": "shariati",
+   "kind": "influence",
+   "note": "The Shariati article says his early writing showed acquaintance with the ideas of modernist thinkers including Muhammad Iqbal.",
+   "source": "https://en.wikipedia.org/wiki/Ali_Shariati"
+  },
+  {
+   "from": "muhammad-asad",
+   "to": "talal-asad",
+   "kind": "family",
+   "note": "The Talal Asad article names Muhammad Asad as his father, an Austrian-born convert to Islam.",
+   "source": "https://en.wikipedia.org/wiki/Talal_Asad"
+  },
+  {
+   "from": "muhammad-asad",
+   "to": "talal-asad",
+   "kind": "influence",
+   "note": "The Talal Asad article infobox lists Muhammad Asad under his influences.",
+   "source": "https://en.wikipedia.org/wiki/Talal_Asad"
+  },
+  {
+   "from": "omar-suleiman",
+   "to": "yaqeen-institute",
+   "kind": "colleague",
+   "note": "The Yaqeen Institute article says Omar Suleiman founded the institute and serves as its president.",
+   "source": "https://en.wikipedia.org/wiki/Yaqeen_Institute_for_Islamic_Research"
+  },
+  {
+   "from": "wahiduddin-khan",
+   "to": "afghani",
+   "kind": "debate",
+   "note": "The Wahiduddin Khan article says Khan disagrees with many of al-Afghani's ideas.",
+   "source": "https://en.wikipedia.org/wiki/Wahiduddin_Khan"
+  },
+  {
+   "from": "sayyid-ahmad-khan",
+   "to": "shibli-nomani",
+   "kind": "influence",
+   "note": "The Shibli article lists him as influenced by Sayyid Ahmad Khan and later opposing Aligarh ideology; Khan's article lists Shibli among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Shibli_Nomani"
+  },
+  {
+   "from": "sayyid-ahmad-khan",
+   "to": "iqbal",
+   "kind": "influence",
+   "note": "The Sayyid Ahmad Khan article names Muhammad Iqbal among thinkers and writers whom Khan influenced.",
+   "source": "https://en.wikipedia.org/wiki/Syed_Ahmad_Khan"
+  },
+  {
+   "from": "shibli-nomani",
+   "to": "iqbal",
+   "kind": "influence",
+   "note": "The Shibli Nomani article infobox lists Muhammad Iqbal among those Shibli influenced.",
+   "source": "https://en.wikipedia.org/wiki/Shibli_Nomani"
+  },
+  {
+   "from": "shibli-nomani",
+   "to": "nadwi",
+   "kind": "influence",
+   "note": "The Shibli Nomani article infobox lists Abul Hasan Ali Nadwi among those Shibli influenced.",
+   "source": "https://en.wikipedia.org/wiki/Shibli_Nomani"
+  },
+  {
+   "from": "shibli-nomani",
+   "to": "amin-ahsan-islahi",
+   "kind": "influence",
+   "note": "The Shibli Nomani article infobox lists Amin Ahsan Islahi among those Shibli influenced.",
+   "source": "https://en.wikipedia.org/wiki/Shibli_Nomani"
+  },
+  {
+   "from": "abdollah-javadi-amoli",
+   "to": "soroush",
+   "kind": "debate",
+   "note": "The Soroush article says Javadi-Amoli criticised Soroush's ideas from a traditional Shi'i standpoint.",
+   "source": "https://en.wikipedia.org/wiki/Abdolkarim_Soroush"
+  },
+  {
+   "from": "tahtawi",
+   "to": "abduh",
+   "kind": "influence",
+   "note": "The Tahtawi article says his works influenced later scholars such as Muhammad Abduh.",
+   "source": "https://en.wikipedia.org/wiki/Rifa%27a_at-Tahtawi"
+  },
+  {
+   "from": "hatim-al-awni",
+   "to": "yasir-qadhi",
+   "kind": "influence",
+   "note": "The Yasir Qadhi article infobox lists Hatim al-Awni among his influences.",
+   "source": "https://en.wikipedia.org/wiki/Yasir_Qadhi"
+  },
+  {
+   "from": "afghani",
+   "to": "rashid-rida",
+   "kind": "influence",
+   "note": "Al-Afghani's infobox lists Rashid Rida among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Jamal_al-Din_al-Afghani"
+  },
+  {
+   "from": "abduh",
+   "to": "hasan-al-banna",
+   "kind": "influence",
+   "note": "Abduh's infobox lists Hassan al-Banna among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Abduh"
+  },
+  {
+   "from": "abduh",
+   "to": "muhammad-asad",
+   "kind": "influence",
+   "note": "Abduh's infobox lists Muhammad Asad among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Abduh"
+  },
+  {
+   "from": "abduh",
+   "to": "yusuf-al-qaradawi",
+   "kind": "influence",
+   "note": "Abduh's infobox lists Yusuf al-Qaradawi among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Abduh"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "albani",
+   "kind": "influence",
+   "note": "Al-Albani became interested in hadith around age twenty, influenced by Rashid Rida, who is also listed in his infobox.",
+   "source": "https://en.wikipedia.org/wiki/Al-Albani"
+  },
+  {
+   "from": "muhammad-said-ramadan-al-bouti",
+   "to": "albani",
+   "kind": "debate",
+   "note": "Al-Bouti criticised al-Albani's anti-madhhab stance and wrote two rebuttals of his positions.",
+   "source": "https://en.wikipedia.org/wiki/Al-Albani"
+  },
+  {
+   "from": "albani",
+   "to": "sayyid-qutb",
+   "kind": "debate",
+   "note": "Al-Albani criticised Sayyid Qutb, accusing him of theological deviation for holding the belief in the Oneness of Being.",
+   "source": "https://en.wikipedia.org/wiki/Al-Albani"
+  },
+  {
+   "from": "albani",
+   "to": "hasan-al-banna",
+   "kind": "debate",
+   "note": "Al-Albani accused Hassan al-Banna of not being a religious scholar and of holding positions contrary to the Salafi creed.",
+   "source": "https://en.wikipedia.org/wiki/Al-Albani"
+  },
+  {
+   "from": "abd-al-fattah-abu-ghudda",
+   "to": "hasan-al-banna",
+   "kind": "colleague",
+   "note": "Abu Ghudda met Hassan al-Banna in Cairo and joined the Muslim Brotherhood under his auspices.",
+   "source": "https://en.wikipedia.org/wiki/Abd_al-Fattah_Abu_Ghudda"
+  },
+  {
+   "from": "hasan-al-banna",
+   "to": "abdullah-azzam",
+   "kind": "influence",
+   "note": "Azzam's views were influenced by reading Hasan al-Banna and other Muslim Brotherhood writings.",
+   "source": "https://en.wikipedia.org/wiki/Abdullah_Yusuf_Azzam"
+  },
+  {
+   "from": "abdallah-bin-bayyah",
+   "to": "yusuf-al-qaradawi",
+   "kind": "colleague",
+   "note": "Bin Bayyah worked closely with Yusuf al-Qaradawi for over two decades in two institutions, then distanced himself after the Arab Spring.",
+   "source": "https://en.wikipedia.org/wiki/Abdallah_bin_Bayyah"
+  },
+  {
+   "from": "ruhollah-khomeini",
+   "to": "abdollah-javadi-amoli",
+   "kind": "teacher",
+   "note": "Javadi-Amoli studied advanced disciplines under scholars including Ruhollah Khomeini.",
+   "source": "https://en.wikipedia.org/wiki/Abdollah_Javadi_Amoli"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "allal-al-fassi",
+   "kind": "influence",
+   "note": "Allal al-Fassi's infobox lists Rashid Rida among his influences.",
+   "source": "https://en.wikipedia.org/wiki/Allal_al-Fassi"
+  },
+  {
+   "from": "abduh",
+   "to": "allal-al-fassi",
+   "kind": "influence",
+   "note": "Allal al-Fassi's infobox lists Muhammad Abduh among his influences.",
+   "source": "https://en.wikipedia.org/wiki/Allal_al-Fassi"
+  },
+  {
+   "from": "afghani",
+   "to": "allal-al-fassi",
+   "kind": "influence",
+   "note": "Allal al-Fassi's infobox lists Jamal al-Din al-Afghani among his influences.",
+   "source": "https://en.wikipedia.org/wiki/Allal_al-Fassi"
+  },
+  {
+   "from": "allal-al-fassi",
+   "to": "taha-abdurrahman",
+   "kind": "influence",
+   "note": "Allal al-Fassi's infobox lists Taha Abdurrahman as influenced by him.",
+   "source": "https://en.wikipedia.org/wiki/Allal_al-Fassi"
+  },
+  {
+   "from": "amin-ahsan-islahi",
+   "to": "israr-ahmad",
+   "kind": "influence",
+   "note": "Islahi's infobox lists Israr Ahmed among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Amin_Ahsan_Islahi"
+  },
+  {
+   "from": "amin-ahsan-islahi",
+   "to": "wahiduddin-khan",
+   "kind": "influence",
+   "note": "Islahi's infobox lists Wahiduddin Khan among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Amin_Ahsan_Islahi"
+  },
+  {
+   "from": "nadwi",
+   "to": "amin-ahsan-islahi",
+   "kind": "colleague",
+   "note": "Islahi and Abul Hasan Ali Nadwi are named together as founder members of Jamaat-e-Islami.",
+   "source": "https://en.wikipedia.org/wiki/Amin_Ahsan_Islahi"
+  },
+  {
+   "from": "amina-wadud",
+   "to": "asma-lamrabet",
+   "kind": "parallel",
+   "note": "Asma Lamrabet's article compares her with Amina Wadud for a shared belief about interpretations underlying Islamic law.",
+   "source": "https://en.wikipedia.org/wiki/Asma_Lamrabet"
+  },
+  {
+   "from": "yusuf-al-qaradawi",
+   "to": "amina-wadud",
+   "kind": "debate",
+   "note": "Qaradawi responded to Wadud's leading of mixed Friday prayers, saying a woman could not lead men in prayer.",
+   "source": "https://en.wikipedia.org/wiki/Amina_Wadud"
+  },
+  {
+   "from": "fazlur-rahman",
+   "to": "al-faruqi",
+   "kind": "colleague",
+   "note": "Fazlur Rahman formed a close friendship with Ismail al-Faruqi at McGill and arranged his appointment at the Central Institute of Islamic Research.",
+   "source": "https://en.wikipedia.org/wiki/Ismail_al-Faruqi"
+  },
+  {
+   "from": "fazlur-rahman",
+   "to": "maududi",
+   "kind": "debate",
+   "note": "Fazlur Rahman's view on interest in modern banking is described as directly opposed to Maududi, who advocated a total ban.",
+   "source": "https://en.wikipedia.org/wiki/Fazlur_Rahman_Malik"
+  },
+  {
+   "from": "martin-lings",
+   "to": "al-attas",
+   "kind": "teacher",
+   "note": "Al-Attas's infobox lists Martin Lings as an academic advisor, and he worked with Lings at SOAS.",
+   "source": "https://en.wikipedia.org/wiki/Syed_Muhammad_Naquib_al-Attas"
+  },
+  {
+   "from": "muhammad-alawi-al-maliki",
+   "to": "gibril-haddad",
+   "kind": "teacher",
+   "note": "The article says Haddad studied under Muhammad Alawi al-Maliki in Mecca.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "muhammad-al-yaqoubi",
+   "to": "gibril-haddad",
+   "kind": "teacher",
+   "note": "Muhammad al-Yaqoubi is named among the Damascus scholars under whom Haddad studied for about ten years.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "hisham-kabbani",
+   "to": "gibril-haddad",
+   "kind": "teacher",
+   "note": "Hisham Kabbani is described as having introduced Haddad to the ways of the Naqshbandi Spiritual Order in Tripoli.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "nuh-ha-mim-keller",
+   "to": "gibril-haddad",
+   "kind": "influence",
+   "note": "The article says Haddad found the Shafi'i school easier to study because of Keller's Reliance of the Traveler.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "muhammad-said-ramadan-al-bouti",
+   "to": "gibril-haddad",
+   "kind": "colleague",
+   "note": "Al-Bouti wrote the introduction to Haddad's bilingual translation of Yusuf Hashim al-Rifa'i's Nasiha li-Ikhwaninia Ulama' Najd.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "gibril-haddad",
+   "to": "albani",
+   "kind": "debate",
+   "note": "Haddad wrote a primer on contemporary Salafism titled Albani and His Friends, which is critical of al-Albani.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "gibril-haddad",
+   "to": "taqi-usmani",
+   "kind": "debate",
+   "note": "Haddad wrote a critique of Taqi Usmani's fatwa against celebrating the Mawlid.",
+   "source": "https://en.wikipedia.org/wiki/Gibril_Haddad"
+  },
+  {
+   "from": "frithjof-schuon",
+   "to": "guenon",
+   "kind": "debate",
+   "note": "The article states that the rupture between Guénon and Schuon followed Schuon's criticism of Guénon's views on Christian esotericism and mysticism.",
+   "source": "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non"
+  },
+  {
+   "from": "hasan-al-banna",
+   "to": "taqiuddin-nabhani",
+   "kind": "influence",
+   "note": "The infobox of al-Banna's article lists Taqi al-Din al-Nabhani among the people he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Hassan_al-Banna"
+  },
+  {
+   "from": "albani",
+   "to": "hatim-al-awni",
+   "kind": "teacher",
+   "note": "The article describes al-Awni as a student of al-Albani and lists al-Albani among his influences.",
+   "source": "https://en.wikipedia.org/wiki/Hatim_al-Awni"
+  },
+  {
+   "from": "hussein-ali-montazeri",
+   "to": "soroush",
+   "kind": "teacher",
+   "note": "The infobox of Montazeri's article lists Abdolkarim Soroush among his students.",
+   "source": "https://en.wikipedia.org/wiki/Hussein-Ali_Montazeri"
+  },
+  {
+   "from": "iqbal",
+   "to": "imran-n-hosein",
+   "kind": "influence",
+   "note": "The infobox of Hosein's article lists Allama Iqbal among those who influenced him.",
+   "source": "https://en.wikipedia.org/wiki/Imran_N._Hosein"
+  },
+  {
+   "from": "israr-ahmad",
+   "to": "imran-n-hosein",
+   "kind": "influence",
+   "note": "The infobox of Hosein's article lists Israr Ahmed among those who influenced him.",
+   "source": "https://en.wikipedia.org/wiki/Imran_N._Hosein"
+  },
+  {
+   "from": "iqbal",
+   "to": "soroush",
+   "kind": "influence",
+   "note": "Abdulkarim Soroush is named among the intellectuals whom Iqbal inspired.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Iqbal"
+  },
+  {
+   "from": "maududi",
+   "to": "israr-ahmad",
+   "kind": "influence",
+   "note": "Israr Ahmed considers himself a product of Maududi's teachings, though he later opposed Jamaat-e-Islami's entry into power politics.",
+   "source": "https://en.wikipedia.org/wiki/Israr_Ahmed"
+  },
+  {
+   "from": "iqbal",
+   "to": "israr-ahmad",
+   "kind": "influence",
+   "note": "The infobox of Israr Ahmed's article lists Muhammad Iqbal among those who influenced him.",
+   "source": "https://en.wikipedia.org/wiki/Israr_Ahmed"
+  },
+  {
+   "from": "ruhollah-khomeini",
+   "to": "jafar-sobhani",
+   "kind": "teacher",
+   "note": "Sobhani is said to have learned under Khomeini, among other eminent scholars, for about fifteen years.",
+   "source": "https://en.wikipedia.org/wiki/Ja'far_Sobhani"
+  },
+  {
+   "from": "muhammad-husayn-tabatabai",
+   "to": "jafar-sobhani",
+   "kind": "teacher",
+   "note": "Sobhani is said to have learned under Sayid Muhammad Tabataba'i, among other eminent scholars, for about fifteen years.",
+   "source": "https://en.wikipedia.org/wiki/Ja'far_Sobhani"
+  },
+  {
+   "from": "hasan-al-banna",
+   "to": "jamal-badawi",
+   "kind": "influence",
+   "note": "The article says Badawi cites Hassan al-Banna as an influence.",
+   "source": "https://en.wikipedia.org/wiki/Jamal_Badawi"
+  },
+  {
+   "from": "javed-ahmad-ghamidi",
+   "to": "maududi",
+   "kind": "debate",
+   "note": "Ghamidi worked closely with Maududi for about nine years, then differed with him, was expelled from Jamaat-e-Islami in 1977 and critiqued his political Islam.",
+   "source": "https://en.wikipedia.org/wiki/Javed_Ahmad_Ghamidi"
+  },
+  {
+   "from": "shibli-nomani",
+   "to": "javed-ahmad-ghamidi",
+   "kind": "influence",
+   "note": "The infobox of Ghamidi's article lists Shibli Nomani among those who influenced him.",
+   "source": "https://en.wikipedia.org/wiki/Javed_Ahmad_Ghamidi"
+  },
+  {
+   "from": "iqbal",
+   "to": "javed-ahmad-ghamidi",
+   "kind": "influence",
+   "note": "The infobox of Ghamidi's article lists Allama Iqbal among those who influenced him.",
+   "source": "https://en.wikipedia.org/wiki/Javed_Ahmad_Ghamidi"
+  },
+  {
+   "from": "wahiduddin-khan",
+   "to": "javed-ahmad-ghamidi",
+   "kind": "influence",
+   "note": "The infobox of Ghamidi's article lists Wahiduddin Khan among those who influenced him, and his critique of Maududi extends Khan's.",
+   "source": "https://en.wikipedia.org/wiki/Javed_Ahmad_Ghamidi"
+  },
+  {
+   "from": "khaled-abou-el-fadl",
+   "to": "laleh-bakhtiar",
+   "kind": "debate",
+   "note": "Abou El Fadl said Bakhtiar had a reputation as an editor, not as an Islamic scholar, in response to her Quran translation.",
+   "source": "https://en.wikipedia.org/wiki/Laleh_Bakhtiar"
+  },
+  {
+   "from": "nasr",
+   "to": "laleh-bakhtiar",
+   "kind": "teacher",
+   "note": "Bakhtiar studied Sufism and Quranic Arabic under Nasr at the University of Tehran, and he mentored her for thirty years.",
+   "source": "https://en.wikipedia.org/wiki/Laleh_Bakhtiar"
+  },
+  {
+   "from": "maududi",
+   "to": "khurshid-ahmad",
+   "kind": "influence",
+   "note": "Khurshid Ahmad began reading Maududi's philosophical work and became a worker of Maududi's party, Jamaat-e-Islami.",
+   "source": "https://en.wikipedia.org/wiki/Khurshid_Ahmad_(scholar)"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "maududi",
+   "kind": "influence",
+   "note": "Rida's infobox lists Maududi among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Rashid_Rida"
+  },
+  {
+   "from": "sayyid-ahmad-khan",
+   "to": "maududi",
+   "kind": "family",
+   "note": "The article describes Sayyid Ahmad Khan as a distant relative of Maududi.",
+   "source": "https://en.wikipedia.org/wiki/Abul_A%27la_Maududi"
+  },
+  {
+   "from": "nadwi",
+   "to": "maududi",
+   "kind": "colleague",
+   "note": "Abul Hassan Ali Nadvi is named among those who supported Maududi's mission at the founding of Jamaat-e-Islami.",
+   "source": "https://en.wikipedia.org/wiki/Abul_A%27la_Maududi"
+  },
+  {
+   "from": "nadwi",
+   "to": "mohammad-akram-nadwi",
+   "kind": "teacher",
+   "note": "The infobox of Akram Nadwi's article names Abul Hasan Ali Hasani Nadwi as his teacher.",
+   "source": "https://en.wikipedia.org/wiki/Akram_Nadwi"
+  },
+  {
+   "from": "muhammad-husayn-tabatabai",
+   "to": "mohammad-taqi-mesbah-yazdi",
+   "kind": "teacher",
+   "note": "Mesbah-Yazdi took courses taught by Tabataba'i in Qom between 1952 and 1960.",
+   "source": "https://en.wikipedia.org/wiki/Taqi_Yazdi"
+  },
+  {
+   "from": "mohammad-taqi-mesbah-yazdi",
+   "to": "shariati",
+   "kind": "debate",
+   "note": "Mesbah-Yazdi wrote works denying that Shariati's ideas contributed to the 1979 revolution.",
+   "source": "https://en.wikipedia.org/wiki/Taqi_Yazdi"
+  },
+  {
+   "from": "behnam-sadeghi",
+   "to": "mohsen-goudarzi",
+   "kind": "colleague",
+   "note": "Goudarzi co-authored the 2012 study of the Sana 1 manuscript with Behnam Sadeghi.",
+   "source": "https://en.wikipedia.org/wiki/Mohsen_Goudarzi"
+  },
+  {
+   "from": "asma-hilali",
+   "to": "mohsen-goudarzi",
+   "kind": "debate",
+   "note": "The article points to Asma Hilali's 2015 critical review of the work of Sadeghi and Goudarzi.",
+   "source": "https://en.wikipedia.org/wiki/Mohsen_Goudarzi"
+  },
+  {
+   "from": "muhammad-al-yaqoubi",
+   "to": "muhammad-said-ramadan-al-bouti",
+   "kind": "debate",
+   "note": "Al-Yaqoubi criticised al-Bouti's support for the Syrian government, though he later called him a martyr.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_al-Yaqoubi"
+  },
+  {
+   "from": "iqbal",
+   "to": "muhammad-asad",
+   "kind": "influence",
+   "note": "Iqbal is listed in Asad's infobox as an influence, and the text says Iqbal persuaded him to stay in British India.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Asad"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "muhammad-asad",
+   "kind": "influence",
+   "note": "Rida is listed in Asad's infobox as an influence, and Rida's own infobox lists Asad as influenced.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Asad"
+  },
+  {
+   "from": "muhammad-asad",
+   "to": "tariq-ramadan",
+   "kind": "influence",
+   "note": "Asad's infobox lists Tariq Ramadan among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Asad"
+  },
+  {
+   "from": "muhammad-asad",
+   "to": "maryam-jameelah",
+   "kind": "influence",
+   "note": "Asad's infobox lists Maryam Jameelah among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Asad"
+  },
+  {
+   "from": "muhammad-said-ramadan-al-bouti",
+   "to": "abduh",
+   "kind": "debate",
+   "note": "Al-Bouti criticised the modernist Muhammad Abduh among proponents of Islamic reform.",
+   "source": "https://en.wikipedia.org/wiki/Muhammad_Said_Ramadan_al-Bouti"
+  },
+  {
+   "from": "albani",
+   "to": "muqbil-bin-hadi-al-wadii",
+   "kind": "teacher",
+   "note": "Muqbil attended halaqas led by al-Albani at the Islamic University of Madinah.",
+   "source": "https://en.wikipedia.org/wiki/Muqbil_bin_Hadi_al-Wadi'i"
+  },
+  {
+   "from": "muqbil-bin-hadi-al-wadii",
+   "to": "hasan-al-banna",
+   "kind": "debate",
+   "note": "Muqbil opposed the Muslim Brotherhood in Yemen and criticised its founder, Hasan al-Banna.",
+   "source": "https://en.wikipedia.org/wiki/Muqbil_bin_Hadi_al-Wadi'i"
+  },
+  {
+   "from": "muqbil-bin-hadi-al-wadii",
+   "to": "ruhollah-khomeini",
+   "kind": "debate",
+   "note": "A book by Muqbil criticised the Iranian Revolution and Khomeini.",
+   "source": "https://en.wikipedia.org/wiki/Muqbil_bin_Hadi_al-Wadi'i"
+  },
+  {
+   "from": "nasr",
+   "to": "muzaffar-iqbal",
+   "kind": "influence",
+   "note": "Muzaffar Iqbal's infobox lists Seyyed Hossein Nasr as an influence.",
+   "source": "https://en.wikipedia.org/wiki/Muzaffar_Iqbal"
+  },
+  {
+   "from": "muhammad-husayn-tabatabai",
+   "to": "nasr",
+   "kind": "teacher",
+   "note": "Nasr continued his study of Islamic sciences with Tabataba'i and other traditional Iranian masters.",
+   "source": "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr"
+  },
+  {
+   "from": "guenon",
+   "to": "nasr",
+   "kind": "influence",
+   "note": "Nasr discovered Guenon's writings and aligned himself with the perennialist perspective.",
+   "source": "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr"
+  },
+  {
+   "from": "martin-lings",
+   "to": "nasr",
+   "kind": "influence",
+   "note": "Nasr discovered Lings's writings and aligned himself with their perennialist perspective.",
+   "source": "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr"
+  },
+  {
+   "from": "al-faruqi",
+   "to": "nasr",
+   "kind": "colleague",
+   "note": "Ismail al-Faruqi was Nasr's colleague at Temple University.",
+   "source": "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr"
+  },
+  {
+   "from": "nasr",
+   "to": "nuh-ha-mim-keller",
+   "kind": "influence",
+   "note": "Keller has cited Nasr's writings as one of the reasons for his conversion to Islam.",
+   "source": "https://en.wikipedia.org/wiki/Nuh_Ha_Mim_Keller"
+  },
+  {
+   "from": "ovamir-anjum",
+   "to": "yaqeen-institute",
+   "kind": "colleague",
+   "note": "Anjum is editor-in-chief at the Yaqeen Institute for Islamic Research.",
+   "source": "https://en.wikipedia.org/wiki/Ovamir_Anjum"
+  },
+  {
+   "from": "ovamir-anjum",
+   "to": "ummatics-institute",
+   "kind": "colleague",
+   "note": "Anjum is the founder of the Ummatics Institute.",
+   "source": "https://en.wikipedia.org/wiki/Ovamir_Anjum"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "nadwi",
+   "kind": "influence",
+   "note": "Rida's infobox lists Abul Hasan Ali Hasani Nadwi among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Rashid_Rida"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "yusuf-al-qaradawi",
+   "kind": "influence",
+   "note": "Rida's infobox lists Yusuf al-Qaradawi among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Rashid_Rida"
+  },
+  {
+   "from": "rashid-rida",
+   "to": "yasir-qadhi",
+   "kind": "influence",
+   "note": "Rida's infobox lists Yasir Qadhi among those he influenced.",
+   "source": "https://en.wikipedia.org/wiki/Rashid_Rida"
+  }
+ ],
+ "sortYear": {
+  "ruhollah-khomeini": 1902,
+  "zaid-shakir": 1956,
+  "shabir-ally": 1955,
+  "caner-dagli": 1976
+ }
+}

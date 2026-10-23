@@ -2,21 +2,116 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import WorkRow from '../../components/WorkRow.astro';
-import { allSubjects, allWorks, type Subject } from '../../lib/site';
+import { allSubjects, allWorks, allAuthors, allEras, eraOf, eraSpan, hosted, type Subject } from '../../lib/site';
+import { breadcrumbs, publisher } from '../../lib/schema';
+import { hubOf } from '../../lib/hubs';
 
 export async function getStaticPaths() {
   const subjects = await allSubjects();
   return subjects.map((s) => ({ params: { slug: s.id }, props: { subject: s } }));
 }
 const { subject } = Astro.props as { subject: Subject };
-const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === subject.id));
+const everything = await allWorks();
+const works = everything.filter((w) => w.data.subjects.some((s) => s.id === subject.id));
 const { Content } = await render(subject);
+const hub = hubOf(subject.id);
+const subjects = await allSubjects();
+const authors = new Map((await allAuthors()).map((a) => [a.id, a]));
+const eras = await allEras();
+const byId = new Map(everything.map((w) => [w.id, w]));
+
+// reading path: link to our own page when the text is hosted, otherwise to the free copy elsewhere
+const path = (hub?.path || []).map((p) => {
+  const w = byId.get(p.work);
+  if (!w) return null;
+  const d = w.data;
+  const a = authors.get(d.author.id);
+  const own = hosted(w);
+  const href = own ? `/works/${w.id}/` : (d.sourceUrl || d.infoUrl || `/authors/${d.author.id}/#${w.id}`);
+  return { w, d, a, href, external: !own && /^https?:/.test(href), note: p.note };
+}).filter(Boolean) as { w: any; d: any; a: any; href: string; external: boolean; note: string }[];
+
+// main voices
+const counts = new Map<string, number>();
+for (const w of works) counts.set(w.data.author.id, (counts.get(w.data.author.id) || 0) + 1);
+const voices = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([id, n]) => ({ a: authors.get(id), n })).filter((v) => v.a);
+
+// by period
+const perEra = eras.map((e) => ({ e, n: works.filter((w) => eraOf(w.data.year, eras)?.id === e.id).length }));
+const undated = works.filter((w) => w.data.year == null).length;
+const maxEra = Math.max(1, ...perEra.map((p) => p.n));
+
+const related = (hub?.related || []).map((id) => subjects.find((s) => s.id === id)).filter(Boolean) as Subject[];
+const desc = hub ? hub.intro[0].slice(0, 200).replace(/\s+\S*$/, '') + '…' : undefined;
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', name: subject.data.name, url: `https://islamicarchives.org/subjects/${subject.id}/`, ...(desc ? { description: desc } : {}), isPartOf: publisher },
+  breadcrumbs([{ name: 'Subjects', href: '/subjects/' }, { name: subject.data.name }]),
+];
 ---
-<Base title={subject.data.name} current="subjects">
-  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:20px">
+<Base title={subject.data.name} description={desc} current="subjects" jsonld={ld}>
+  <div class="wrap" style="padding-top:32px; display:flex; flex-direction:column; gap:22px">
     <nav aria-label="Breadcrumb" class="muted" style="font-size:14px"><a href="/subjects/">Subjects</a></nav>
     <h1 style="font-size:40px">{subject.data.name}</h1>
     <div style="font-size:17px; line-height:1.6; color:var(--ink-2); max-width:760px"><Content /></div>
+    {hub && (
+      <div class="hub-intro">
+        {hub.intro.map((p) => <p>{p}</p>)}
+      </div>
+    )}
+
+    {path.length > 0 && (
+      <section aria-labelledby="path-h" style="display:flex; flex-direction:column; gap:12px">
+        <h2 id="path-h" style="font-size:26px">Where to begin</h2>
+        <p class="muted" style="margin:0; font-size:15px; max-width:760px">A reading order, earliest first. Each title opens the text or the free copy.</p>
+        <ol class="hub-path">
+          {path.map((p) => (
+            <li>
+              <div class="hp-top">
+                <span class="muted">{[p.d.year, p.d.type].filter(Boolean).join(' · ')}</span>
+                {!hosted(p.w) ? null : <span class="tag tag-green">Read here</span>}
+              </div>
+              <a class="hp-title" href={p.href} {...(p.external ? { rel: 'noopener', target: '_blank' } : {})}>{p.d.title}{p.external ? ' ↗' : ''}</a>
+              <a class="hp-author" href={`/authors/${p.d.author.id}/`}>{p.d.byline ? `${p.d.byline} · ${p.a?.data.name}` : p.a?.data.name}</a>
+              <p class="hp-note">{p.note}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    {voices.length > 0 && (
+      <section aria-labelledby="voices-h" style="display:flex; flex-direction:column; gap:12px">
+        <h2 id="voices-h" style="font-size:26px">Main voices</h2>
+        <div style="display:flex; flex-wrap:wrap; gap:8px">
+          {voices.map(({ a, n }) => <a class="chip" style="padding:8px 14px; font-size:15px" href={`/authors/${a!.id}/`}>{a!.data.name} <span class="muted" style="margin-left:8px; font-weight:400">{n}</span></a>)}
+        </div>
+      </section>
+    )}
+
+    {works.length > 0 && (
+      <section aria-labelledby="era-h" style="display:flex; flex-direction:column; gap:12px">
+        <h2 id="era-h" style="font-size:26px">Through the periods</h2>
+        <div class="hub-eras">
+          {perEra.filter((p) => p.n > 0).map(({ e, n }) => (
+            <a href={`/library/?subject=${subject.id}&era=${e.id}`} class="he-row">
+              <span class="he-name">{e.data.name}<small class="muted"> · {eraSpan(e.data)}</small></span>
+              <span class="he-bar"><i style={`width:${Math.max(2, (n / maxEra) * 100)}%`}></i></span>
+              <span class="he-n">{n}</span>
+            </a>
+          ))}
+        </div>
+        {undated > 0 && <p class="muted" style="margin:0; font-size:13px">{undated} {undated === 1 ? 'work has' : 'works have'} no recorded year.</p>}
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section aria-labelledby="rel-h" style="display:flex; flex-direction:column; gap:10px">
+        <h2 id="rel-h" style="font-size:22px">Related subjects</h2>
+        <div style="display:flex; flex-wrap:wrap; gap:8px">{related.map((s) => <a class="chip" style="padding:8px 14px; font-size:15px" href={`/subjects/${s.id}/`}>{s.data.name}</a>)}</div>
+      </section>
+    )}
+
+    <h2 style="font-size:26px; margin-top:8px">All works on this subject</h2>
     <p class="muted" style="margin:0">{works.length} {works.length === 1 ? 'work' : 'works'} · <a href={`/library/?subject=${subject.id}`}>Filter further in the library</a></p>
     {works.length ? <div class="card">{works.map((w) => <WorkRow work={w} />)}</div> : <p class="card muted" style="padding:32px; margin:0">No works have been tagged with this subject yet.</p>}
     <button type="button" class="btn btn-outline load-more" id="more" hidden>Show more</button>
@@ -34,3 +129,21 @@ const { Content } = await render(subject);
     })();
   </script>
 </Base>
+<style is:global>
+  .hub-intro { max-width: 760px; font-size: 17.5px; line-height: 1.7; color: var(--ink-2); }
+  .hub-intro p { margin: 0 0 1em; }
+  .hub-path { list-style: none; counter-reset: hp; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .hub-path li { counter-increment: hp; position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px 16px 58px; display: flex; flex-direction: column; gap: 4px; }
+  .hub-path li::before { content: counter(hp); position: absolute; left: 16px; top: 16px; width: 28px; height: 28px; border-radius: 50%; background: var(--green-tint); color: var(--green); font: 600 14px/28px var(--sans); text-align: center; }
+  .hp-top { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+  .hp-title { font-family: var(--serif); font-weight: 600; font-size: 18px; line-height: 1.3; }
+  .hp-author { font-size: 14.5px; font-weight: 500; }
+  .hp-note { margin: 4px 0 0; font-size: 14.5px; line-height: 1.5; color: var(--muted); }
+  .hub-eras { display: flex; flex-direction: column; gap: 6px; max-width: 760px; }
+  .he-row { display: grid; grid-template-columns: minmax(150px, 260px) 1fr 52px; gap: 12px; align-items: center; text-decoration: none; color: var(--ink); padding: 6px 10px; border-radius: 8px; font-size: 15px; }
+  .he-row:hover { background: var(--green-tint); }
+  .he-bar { height: 10px; background: #ECEAE2; border-radius: 5px; overflow: hidden; }
+  .he-bar i { display: block; height: 100%; background: var(--green); border-radius: 5px; }
+  .he-n { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+  @media (max-width: 560px) { .he-row { grid-template-columns: 1fr 52px; } .he-bar { grid-column: 1 / -1; order: 3; } }
+</style>

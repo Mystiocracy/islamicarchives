@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import { longDate } from '../../lib/quran';
+import { updatesByDay } from '../../lib/updates';
+const days = await updatesByDay();
+const n = (x: number, one: string, many: string) => `${x.toLocaleString('en-GB')} ${x === 1 ? one : many}`;
+---
+<Base title="Recently added" description="New authors and works added to the archive, newest first." current="new">
+  <div class="wrap" style="padding-top:36px; padding-bottom:56px; display:flex; flex-direction:column; gap:22px">
+    <div>
+      <h1 style="font-size:40px; margin:0 0 0.3em">Recently added</h1>
+      <p class="muted" style="margin:0; font-size:17px; max-width:760px">New authors and works, newest first, grouped by the day they were archived. To follow the archive, subscribe to the <a href="/feed.xml">RSS feed</a> in any feed reader.</p>
+    </div>
+    {days.length === 0 && <p class="card muted" style="padding:28px; margin:0">Nothing has been dated yet.</p>}
+    {days.map((d) => (
+      <section class="card nw-day" aria-labelledby={`d-${d.date}`}>
+        <header>
+          <h2 id={`d-${d.date}`} style="font-size:24px; margin:0">{longDate(d.date)}</h2>
+          <span class="muted">{[d.total > 0 ? n(d.total, 'work', 'works') : '', d.newAuthors > 0 ? n(d.newAuthors, 'new author', 'new authors') : ''].filter(Boolean).join(' · ')}</span>
+        </header>
+        <ul class="nw-list">
+          {d.batches.map((b) => (
+            <li>
+              <div class="nw-head">
+                <a href={`/authors/${b.author.id}/`} class="nw-name">{b.author.data.name}</a>
+                {b.newAuthor && <span class="tag tag-green">New author</span>}
+                {b.works.length > 0 && <span class="muted" style="font-size:14px">{n(b.works.length, 'work', 'works')}</span>}
+              </div>
+              {b.works.length > 0 && (
+                <p class="nw-titles muted">{b.works.slice(0, 4).map((w, i) => <>{i > 0 && ' · '}<a href={w.data.rights === 'link-only' ? `/authors/${b.author.id}/#${w.id}` : `/works/${w.id}/`}>{w.data.title}</a></>)}{b.works.length > 4 && <> · <a href={`/authors/${b.author.id}/`}>and {b.works.length - 4} more</a></>}</p>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
+<style is:global>
+  .nw-day { padding: 20px 24px; }
+  .nw-day header { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; margin-bottom: 12px; }
+  .nw-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .nw-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+  .nw-name { font-weight: 600; font-size: 16.5px; }
+  .nw-titles { margin: 2px 0 0; font-size: 14px; line-height: 1.55; overflow-wrap: anywhere; }
+</style>

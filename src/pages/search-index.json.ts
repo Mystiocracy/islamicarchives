@@ -52,7 +52,7 @@ export async function GET() {
     a: authors.map((a) => [a.data.name, `/authors/${a.id}/`, [a.data.nameNative, a.data.sortAs, a.id.replace(/-/g, ' ')].filter(Boolean).join(' '), [a.data.born && (a.data.died ? `${a.data.born}–${a.data.died}` : `b. ${a.data.born}`), `${count.get(a.id) || 0} works`].filter(Boolean).join(' · ')])
       .concat([...writers].map(([n, c]) => [n, `/library/?q=${encodeURIComponent(n)}`, '', `${c} ${c === 1 ? 'work' : 'works'}`])),
     s: subjects.map((s) => [s.data.name, `/subjects/${s.id}/`, '', `${subjCount.get(s.id) || 0} works`]),
-    w: works.map((w) => [w.data.title, `/works/${w.id}/`, [w.data.titleOriginal, w.data.byline, w.data.coAuthors, w.data.keywords.join(' ')].filter(Boolean).join(' '), [names.get(w.data.author.id), w.data.year].filter(Boolean).join(' · '), w.data.type, w.data.language || '']),
+    w: works.map((w) => [w.data.title, w.data.rights === 'link-only' ? `/authors/${w.data.author.id}/#${w.id}` : `/works/${w.id}/`, [w.data.titleOriginal, w.data.byline, w.data.coAuthors, w.data.keywords.join(' ')].filter(Boolean).join(' '), [names.get(w.data.author.id), w.data.year].filter(Boolean).join(' · '), w.data.type, w.data.language || '']),
   };
   return new Response(JSON.stringify(out), { headers: { 'Content-Type': 'application/json' } });
 }

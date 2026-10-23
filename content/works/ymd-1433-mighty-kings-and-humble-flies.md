@@ -1,0 +1,40 @@
+---
+title: "Mighty Kings and Humble Flies"
+author: young-muslim-digest
+year: 2007
+language: "English"
+type: "Essay"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Editorial"
+venue: "Young Muslim Digest, August 2007"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2007/08/editorial/mighty-kings-and-humble-flies/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+It is reported that a mighty king sat, surrounded by, as usual, officials in due submission, or rather, in abject humbleness, speaking out in all decorum when asked, but wishing not to speak, in fear that an inadvertent word, slipping out unintentionally, could receive disapproval of His Highness, and cause his head presented on a platter as a lesson for others to know how to choose their words. (Thus had ended Ibn Muqaffa'). Those days of mighty kings, (when secret agencies did not do the kidnapping and killing), each flying head added a word to the list of disapproved vocabulary in the private dictionaries of the courtiers.
+
+It were such days when a fly buzzed around His Majesty's majestic head. These flies have the habit of perching upon the highest point, the peak and the apex of any landscape they choose to land on. Are human faces anything more for the flies than a landscape oozing a variety of juices through sweat and other glands?
+
+So, after teasingly buzzing around the head, with an occasional saunter covering a larger area of the glittering court, when the fly came back, it chose to sit on the face of the His Highness. A few waving of the mighty hand were not enough to convince the fly that it was so annoying to the Highness, and far from welcome especially on the nose. The repeated buzzing and perching did provoke the king. "Why did God create the fly?" he asked in arrogance.
+
+Someone, perhaps quite sure of his own standing, or ready maybe to risk his head for a truthful word, gave a reply that stunned the king and the courtiers: "To cure the arrogant of their arrogance."
+
+This creature of God, this humble, busy, buzzy, little thing, serves the same functions today when it flies around the heads of the scientists, except that they are a bit in love with it, or, to be precise, one of its kind. There can be no biological laboratory anywhere in the world, of any worth, but which does not boast of flies entrapped in glass flasks abundantly supplied with fruit juice and carefully nurtured by the geneticists. When the proud scientists discovered the chromosomes, the humble fly entered into their labs. But, humble though it maybe, it has remained serving the functions of a humbling agent for some although an elevating agent for others.
+
+And, as if the fly itself is not enough of a little thing, the one most useful for research was found to be the littlest among thousands of species (some 90,000 of its various kinds live on the earth): the Drosophila. Strangely, while its sister-species can be as large as 2 cm long, the common house fly 1 cm long, the one which is essential to the scientists is a mere 2 mm-long thing. You might not have noticed the pore at one end of a fig fruit. The Drosophila variety can pass through the little pore to gather juice and pollinate the fruits. It is ubiquitous around garden fruits and hence its other name, the fruit fly.
+
+It is a humbling thing because, out of the millions of animal species, including whales in the sea and elephants on the land, this 2 mm long insect has sperms that, when opened up, are, amazingly, 6 mm long. Its giant sized-sperm is the largest known compared with those of any other animal. (Its testes take up 50% of its abdominal cavity). The sperm is thus 1,200 times larger than that of the mighty His Highness who had belittled this little creation of God. This amazing characteristics, (along with ease of breed, a new generation every 15 days, the possibility to breed a colony in a test tube), has made it an all-time "hit" with those interested in genetics. Being so large, its DNA strand (just 4 as against 23 of the human beings) is almost visible to the human eye. All that a geneticist needs is a standard lab microscope to conduct research in DNA and unravel the marvels of genetic code, the code of life.
+
+The humble fly has remained the pet animal for the biologists for a hundred years, (for no substitute could be found in insects, reptiles or mammals), and takes the credit for the award of Nobel Prizes to several top-notch scientists (e.g., Thomas Hunt Morgan, Edward B Lewis, Eric F. Wieschaus, Christiane Nüsslein-Volhard). It has also the honor of being the first creation of God, whose entire genome sequence was produced before it could be produced for any other animal, including man! What with thousands of scientists going hand in hand with the little fly, in search of the code of life, "More data have been collected," says an article in the Encyclopaedia Britannica, (ref., Vinegar Fly), "concerning the genetics of the vinegar fly than have been obtained for any other animal. Drosophila chromosomes, especially the giant ones in the salivary glands of mature larvae, are used in studies involving heritable characteristics and are the basis for gene action."
+
+The flies helped Thomas Hunt Morgan to win the Nobel Prize in 1993 for his discovery of "hereditary transmission mechanisms in Drosophila;" while they helped others to share Nobel Prizes in 1995 for research into the "genetic basis of embryonic development in the fruit fly." There can be no serious book in biology but which takes pride in mentioning the tremendous advances made in genetic studies, while mentioning the little fly for the credit it deserves. They serve other functions too. For instance, apart from an essential unit in the ecosystem of the world, they are useful, as says the Grzimek's Animal Encyclopedia, "in forensic investigations to establish the time of death, whether the corpse has been moved after death, and the cause of death... E.g., several larvae of the flies feed on carrion and flesh in different degrees of decomposition, in different situations, and at different times of the year." But, mainly they have been the prime agents for decoding the secrets of life.
+
+Someone said that as a tourist in Morocco when he waved his hand against a fly seated on the forehead of a companion, hundreds flew away from the head. Their color merged with the color of the hair, they were invisible. In many parts of the world, these little creatures are, with due respect to them, and apology to the scientists, a nuisance. A single buzzing fly can take away the much needed siesta. In the open they can be in millions. Even in scorching hot deserts they can appear in thousands within minutes of camping.
+
+Although ubiquitous, few know that every fly flies a challenge into the face of the humans. The challenge is from God. Since George Mendel's times, it is more than two hundred years now that humans have been studying the code of life. Are they any nearer to creating life? Far from that, they are still light years away from understating the nature of life, not to speak of creating it. (Scientists differ over how life should be defined). Alright, humans are complicated beings. How about creating a fly? It is the most studied animal. Its genetic code was unraveled before that of any other animal. It has chromosomes as large as almost visible to the eye. Do the scientists think that it was mere co-incidence (like a dozen other coincidences) that the Qur'an challenged the humans to create a biological organism studied most by them: the enfeebling, ennobling, feeble fly?
+
+*"O people! A similitude is struck, so listen to it carefully. Surely, those you call upon other than Allah shall never create a fly, even if they were to join forces to that end. Indeed, if the fly should snatch away something from them, they will never be able to retrieve it from it. Feeble indeed: the seeker and the sought (after)." (The Qur'an, 22: 73)#*

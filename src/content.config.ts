@@ -69,7 +69,7 @@ const works = defineCollection({
     venue: z.string().optional(),
     summary: z.string().optional(),
     // public-domain: we host the text; permission: hosted with written permission; link-only: we point to the free copy elsewhere
-    rights: z.enum(['public-domain', 'permission', 'link-only']),
+    rights: z.enum(['public-domain', 'permission', 'archival', 'link-only']),
     rightsNote: z.string().optional(),
     sourceUrl: z.string().url().optional(),
     // name of the website that hosts the free copy, shown as "Source: …"

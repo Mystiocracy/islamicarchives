@@ -1,0 +1,94 @@
+---
+title: "These Flying Machines"
+author: young-muslim-digest
+year: 2023
+language: "English"
+type: "Essay"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Editorial"
+venue: "Young Muslim Digest, September 2023"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2023/09/editorial/these-flying-machines-2/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+***Impressed by the aerial locomotion of birds, man has been, since known times, trying to fly. He tried artificial wings, with feathers from the birds. But the intricate force-and-motion patterns associated with flight and feathers are far too complex for imitation. All attempts ended in failure, writes SYED IQBAL ZAHEER.***
+
+ 
+
+Ever since man took birth on this planet he has been staring at the birds in wonder and longing. How lucky of them to be able to fly? What joy to be floating like that on the airwaves? How beautiful the world for them from a height so convenient? And how envious the freedom to travel beyond the boundaries: man-made, or nature's?!
+
+Freedom, thy name is bird.
+
+Neither man on the surface of the earth, animals in the forests, nor fish in the seas can boast of the freedom, the ease of life and the supreme pleasure that the birds' ability to fly affords them. Everybody sees them flying. But how many know that a Dipper bird walks and feeds under water, gripping the floor with its strong claws against strong currents. In contrast, what fish can fly? While it took man centuries to reach the high mountains of Himalayas, birds routinely fly over it.
+
+It were a couple of birds that took Abu Talha's eyes off his Prayers. In wonderment he stared at them in his orchard, overwhelmed by their playful frolicking between the branches, chirping, chattering, puttering, twiddling, fidgeting with each other, betraying a bliss that doesn't exist, to that supreme degree, except perhaps in their airy-fairy world. Abu Talha forgot that he was in Prayers, standing before his Lord. (In penitence, the Prophet's Companion decided to give away the orchard in charity).
+
+Birds. Our own Prophet (*saws*) did not fail to notice their carefree mornings and more carefree evenings. He said, "If you trusted in Allah (*swt*) the way He should be trusted, you would be fed the way birds are fed: they go out (flying) in the morning empty-stomached and return by the evening, well-fed."
+
+If it is at the birds that a child looks at with wonder, longing, and envy, perhaps the very first true object of wonder in his life, then it is at them that the same child in the last years of his matured life looks at -- again with wonder and amazement, longing, and envy. Abu Bakr said, "Oh that I was a bird!"
+
+Isn't it with the help of birds that men, before the modern developments, communicated with each other over long distances? And, wasn't it a tiny bird invested with a common sense that most men lack even in this age of intellectualism -- that told Sulayman (*asws*) about the Queen of Sheba, "I saw them prostrating themselves to other than Allah (*swt*)?" What a remark for those heads a hundred times larger than a bird's, but brains a hundred times smaller?!
+
+If you opened your arms, you will feel strained by the fourth minute. You want to fold them back to their natural position. But birds seem not to be tired by their wings opened out. In natural comfort, they fly across the sky for hours. Yet, to fold the wings also seems to be natural to them. They rest in their nests for 12 hours at night -- their arms folded.
+
+They vary in size and weight from the heavy eagles whose wings can span to 620 mm, to the Rhinoceros hornbill who is 1.2 meters from beak to tail, to the Crowned crane which stands 1 meter tall, to the tiny 2-inch hummingbird which weighs just about 3 gm. (Perhaps less than the weight of your pen!) But, whether light or heavy, it is obvious that they love to fly.
+
+They fly all over the globe, and not always in search of food. If you fed them in your garden to their fill, they would still fly away to other places, leaving the grains behind. They like to be in places. And, why not? Isn't that what most humans would like to do, except that they are imprisoned by circumstances, by systems, by borders, by mean men of their kind acting as their masters.
+
+And the eyes they have! An eagle can spot a rat on the ground from two kilometer up in the skies. It can dive down, pick up a 5 feet long snake by its tail and fly back into the skies. Doesn't the snake bite? No chance. If it won't die easily, the eagle smashes its head against rocks.
+
+Normally birds do not rise much above 10,000 to 15,000 feet (3-4.5 km). But occasional ones go to amazing heights. Some birds fly at altitudes of 9 kilometers! In level flight, the top speed of most large birds such as ducks, geese, and swans (during comfortable migration flights) is between 95 and 115 km per hour.
+
+The highest speed ever reported for a bird in level flight was some 333-kmph, recorded for an Indian chimney swift. But in dives from high distances with wings closed, hawks can approach 800 km per hour. That's when it snatches its prey from the ground. Wanna talk of control and precision?
+
+And they can go some long distance too. During their winter breeding season the North Pacific albatrosses fly round-trip distances of several thousand miles between the Hawaiian Islands and Japan in little over a month. The Arctic tern flies 18,000 km. twice in a year. That's about a 100-km a day, for every day of the year! Don't ask for more feats. The tiny sparrow flies nonstop 4000 km.
+
+When the sun shines, the scientist knows that the bird uses it for orientation. But, with its movement during the day, things get complicated. Yet, somehow, birds can compensate and still maintain their orientation during their migratory flights across thousands of miles.
+
+What about at nights? Many species prefer to fly between 10 p.m. and 2 a.m. How do they manage? Research suggests they use stars for navigation. But, in a cloudy night, they should get lost. Do they? It is only the researcher who feels lost. How should he explain their correct orientation? It is thought that they are sensitive to the earth's magnetic field by which they navigate. And, of course, they don't bump into each other during cloudy night-flights, although a flock of migratory birds can consist of millions of them.
+
+It has been suggested that flocks flying in V-formation, may be using signals in order to inform each other of their position in the night sky. And, when they reach their destiny, thousands of miles away, they can locate the nest they built, last year, in the same location, on the same tree.
+
+Given an airplane, with the compass removed, a pilot will get lost in an hour, never to return. It is not at all clear how birds can find their way. And their unmatched homing ability? Released 1100 km. away, swallows have returned to their nests in a few days. Another species, when displaced, returned from a distance of 4,900 km. across the Atlantic in twelve and a half days.
+
+Although most live a short life, some live pretty long. While albatrosses normally live for 40 years, in captivity, a pet parrot has lived up to 70 years. And they eat well. Some of them a third of their body weight every day. But while a man who hasn't eaten for 24 hours can hardly walk, large birds can remain without food for several days -- and, of course, still fly about. Yet with drinks they are very sparing, although, who knows better about the sources of water than the birds? (Are you reminded of evolutionists? Poor chaps. Don't taunt them). Birds are so sparing in their drinks, that they don't need a urinating organ and don't urinate.
+
+In building their houses, men are no less skillful than birds, but less aesthetic. A few nests are simply masterpieces. Some of them build their nests on water on the surface of lakes, anchoring them to weeds. And no leaks. Some engineering!
+
+Some of them build nests as high as 4 feet. In some species a few hundreds of them join together to build an enormous community complex, with an apartment for every pair. One wouldn't be surprised if research should reveal Real Estate Agents among them. After all the Qur'an said (6: 38), *"There is no creature on the earth or bird that flies with its wings except that they are communities like you."* One feels sorry for the ornithologists spending their lifetime without the knowledge of some basic facts.
+
+Of their flights there are kinds. One of them is known as soaring. This kind of flight is powered entirely by energy taken from the air through which the bird is flying. It requires no expenditure of muscular energy. There are two forms of soaring flights. In static soaring the animal uses the energy in rising air, as in a thermal convection. Since the air is moving upward, it has vertical momentum and energy. In generating lift and thrust, the soaring bird reduces the momentum of the air and uses the energy it contains to overcome its own body drag.
+
+In dynamic soaring, on the other hand, the animal uses the changes that occur, with time or altitude, in horizontal wind speed to extract the energy of the horizontally moving air. The practical use of dynamic soaring is restricted to large ocean birds, such as the albatrosses. Over the seas, there are layers of air, about 150 feet (45 meters) thick, in which the wind speed increases from nearly zero at the surface to full speed at an altitude of 150 feet.
+
+Using its horizontal momentum to drive itself into the wind, the albatross rises to the top of the shear layer where it subsequently turns downwind. In this turn, it picks up a great deal of speed and energy from the wind. The bird then dives at high speed down to a height near the surface. Here in the relatively calm and slowly moving air, it can use its momentum to glide long distances over the surface in any direction.
+
+When its momentum has decreased appreciably, it heads into the wind and again rises to the top of the layer of wind to repeat the energy extraction process. By this technique, albatrosses can fly for thousands of miles over the ocean without any need for flapping their wings.
+
+The wonders of Allah's creation are many.
+
+Come. We can't deny. Just to hear the flight described is exciting. What if we were there, soaring on the back of the winds, for hours, without having to flap our wings! The Qur'an said (67: 19), *"Have they not observed the birds above them, spreading out (their wings), and folding (them)?"*
+
+Impressed by their aerial locomotion, man has been, since known times, trying to fly. He tried artificial wings, with feathers from the birds. But the intricate force-and-motion patterns associated with flight and feathers are far too complex for imitation. All attempts ended in failure. (Let alone other things, could he match 1000-25,000 feathers of a bird)?
+
+Eventually, he succeeded. Yah, I am sorry. We need a correction. He did not succeed in flying. He succeeded in making something fly. He flies a machine and takes a ride in it, sitting tightly, snugly, fearfully. Obviously, he misses the sight on the ground -- the bird's eye-view.
+
+To be able to fly at tree top level is perhaps a joy reserved only for birds. Another great achievement concerning the machine of human creation is that not every man can fly it. (The one who boasts "we can fly", has never flown an aircraft. Indeed, the one who makes them, does never have the pleasure of flying it)!
+
+Further, a man cannot fly all by himself, unaided, at will, from anywhere, to everywhere. He needs ground control, airports, and, not to forget, a 100 million dollar bill. So, the flying machine is pretty useless for the common man. He still looks at birds with envy.
+
+In respect to maneuverability, no flying machine can equal the capabilities of a bird. A bird, for e.g., can take off vertically. A bird might chirp in, "Copters can also do it." Let us ignore imbeciles. A bird does not need a pad. It can fly off a twig. It does not need a "start off" time. It can do it in a moment. It can abort flight after a few feet of upward rise, and perch back again on the same spot, and will not break into pieces.
+
+The vertical take-off need not necessarily be upwards. It can be sidewards too. Why, it can take off in the backward direction, and after a few moments, change direction, left or right to avoid your catapult.
+
+No machine can achieve these acts without going split. Modern aircrafts need several minutes to take a U-turn. F-16 fighter plane is famous for its ability to take a sharp U-turn, within a minute or so.
+
+But birds don't have patience for U-turns. They just turn around a hundred and eighty degrees.
+
+Allow them a second please. Why turn at all?
+
+Some birds can fly backwards!

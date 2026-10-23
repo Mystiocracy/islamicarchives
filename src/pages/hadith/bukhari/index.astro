@@ -63,7 +63,7 @@ const fmt = (n: number) => n.toLocaleString('en-GB');
       try { history.replaceState(null, '', term ? '?q=' + encodeURIComponent(term) + (bk.value ? '&book=' + encodeURIComponent(bk.value) : '') + '#search' : location.pathname + '#search'); } catch (x) {}
       out.innerHTML = ''; out.hidden = true; more.hidden = true; shown = 0;
       if (!term) { stat.textContent = 'Type a word or phrase to search.'; return; }
-      if (/^\d{1,4}[a-z]?$/i.test(term)) { location.href = '/hadith/bukhari/' + term.toLowerCase() + '/'; return; }
+      if (/^\d{1,4}[a-z]?$/i.test(term)) { location.href = '/hadith/bukhari/go/?n=' + term.toLowerCase(); return; }
       stat.textContent = 'Searching…';
       load().then(function (m) {
         var filters = { collection: 'Ṣaḥīḥ al-Bukhārī' }; if (bk.value) filters.book = bk.value;

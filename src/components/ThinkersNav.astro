@@ -1,0 +1,16 @@
+---
+const { current = '' } = Astro.props;
+const items = [
+  { key: 'timeline', href: '/timeline/', label: 'Timeline' },
+  { key: 'connections', href: '/connections/', label: 'Connections' },
+];
+---
+<nav class="tsub" aria-label="Thinkers section">
+  {items.map((i) => <a href={i.href} aria-current={current === i.key ? 'page' : undefined}>{i.label}</a>)}
+</nav>
+<style>
+  .tsub { display: flex; gap: 8px; flex-wrap: wrap; margin: 0; font-family: var(--sans); }
+  .tsub a { padding: 7px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--ink-2); font-size: 15px; background: var(--surface); }
+  .tsub a[aria-current] { background: var(--green); color: #fff; border-color: var(--green); }
+  .tsub a:hover:not([aria-current]) { border-color: var(--green); color: var(--green); }
+</style>

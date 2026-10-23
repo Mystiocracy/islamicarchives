@@ -1,0 +1,27 @@
+---
+// Old and typed links of the form /hadith/muslim/123/ land here and are sent to the right book page.
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/hadith.css';
+import { muslim } from '../../../lib/hadith';
+const { hadiths } = muslim();
+const PER = 100;
+const seen: Record<number, number> = {};
+// "number:book:part" for every ḥadīth, compact enough to inline
+const map = hadiths.map((h) => { const i = (seen[h.book] = (seen[h.book] ?? -1) + 1); return `${h.n}:${h.book}:${Math.floor(i / PER) + 1}`; }).join(',');
+---
+<Base title="Find a ḥadīth by number" description="Opens a ḥadīth of Ṣaḥīḥ Muslim by its number." current="hadith">
+  <div class="hd">
+    <h1>Opening the ḥadīth…</h1>
+    <p id="gomsg" class="hd-note">If nothing happens, <a href="/hadith/muslim/">choose a book</a>.</p>
+  </div>
+  <script is:inline define:vars={{ map }}>
+  (function () {
+    var n = (new URLSearchParams(location.search).get('n') || '').toLowerCase().replace(/[^0-9a-z]/g, '');
+    var hit = null;
+    map.split(',').forEach(function (s) { var p = s.split(':'); if (p[0] === n) hit = p; });
+    if (!hit && /^\d+/.test(n)) { var base = n.match(/^\d+/)[0]; map.split(',').forEach(function (s) { var p = s.split(':'); if (!hit && p[0].indexOf(base) === 0 && p[0].replace(/[a-z]+$/, '') === base) hit = p; }); }
+    if (hit) location.replace('/hadith/muslim/book/' + hit[1] + '/' + (hit[2] > 1 ? 'p' + hit[2] + '/' : '') + '#h' + hit[0]);
+    else document.getElementById('gomsg').innerHTML = 'There is no ḥadīth numbered “' + n.replace(/[<>&"]/g, '') + '”. <a href="/hadith/muslim/">Choose a book</a>.';
+  })();
+  </script>
+</Base>
