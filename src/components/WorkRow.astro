@@ -48,7 +48,7 @@ const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${!isH
     {archive && <p class="cite-line">{<span>{archivedOn ? `Archived ${longDate(archivedOn)}` : 'Archive date not recorded'} · Source: {prov.href ? <a href={prov.href} rel="noopener" target="_blank">{prov.label}</a> : (prov.label || 'not yet recorded')}. </span>}<span><strong>How to cite:</strong> {cite}</span></p>}
   </div>
   <div class="side">
-    {isHosted ? FORMATS.map((f) => (
+    {isHosted ? (d.rights === 'archival' ? [] : FORMATS).map((f) => (
       <a class="fmt" href={`/downloads/${work.id}.${f.ext}`} download aria-label={`Download ${d.title} as ${f.label}`}>
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>{f.label.toUpperCase()}
       </a>

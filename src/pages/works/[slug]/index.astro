@@ -103,17 +103,17 @@ const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id })
                 <h2 id="dl-h" style="font-size:24px">Read or download</h2>
                 {chapters.length > 0 ? <a href={`/works/${work.id}/${chapters[0].data.slug}/`} style="font-weight:600; padding:10px 0">Read online →</a> : <a href="#text" style="font-weight:600; padding:10px 0">Read online ↓</a>}
               </div>
-              <div class="grid-auto" style="--min:200px; gap:10px">
+              {d.rights !== 'archival' && <div class="grid-auto" style="--min:200px; gap:10px">
                 {FORMATS.map((f) => (
                   <a href={`/downloads/${work.id}.${f.ext}`} download style="text-decoration:none; color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:12px 14px; display:flex; align-items:center; gap:12px">
                     <span style="width:44px; height:44px; flex:none; border-radius:6px; background:var(--green-tint); color:var(--green); display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700">{f.ext.toUpperCase()}</span>
                     <span style="display:flex; flex-direction:column"><span style="font-weight:600">{f.label}</span><span class="muted" style="font-size:13px">{f.note}</span></span>
                   </a>
                 ))}
-              </div>
+              </div>}
               <div style="display:flex; flex-wrap:wrap; gap:10px; border-top:1px solid var(--line-2); padding-top:18px">
-                <button type="button" class="btn btn-primary" data-send="kindle" data-slug={work.id} data-title={d.title}>Send to Kindle</button>
-                <button type="button" class="btn btn-outline" data-send="email" data-slug={work.id} data-title={d.title}>Email it to me</button>
+                {d.rights !== 'archival' && <button type="button" class="btn btn-primary" data-send="kindle" data-slug={work.id} data-title={d.title}>Send to Kindle</button>}
+                {d.rights !== 'archival' && <button type="button" class="btn btn-outline" data-send="email" data-slug={work.id} data-title={d.title}>Email it to me</button>}
                 {d.sourceUrl && <a class="btn btn-quiet" href={d.sourceUrl} rel="noopener" target="_blank">Read at source ↗</a>}
               </div>
               {d.sourceUrl && d.sourceLabel && <p class="muted" style="margin:0; font-size:14px">Source: {d.sourceLabel}</p>}

@@ -1,0 +1,68 @@
+---
+title: "How the Muslims Killed Dracula"
+author: young-muslim-digest
+year: 2015
+language: "English"
+type: "Article"
+subjects:
+  - sira-and-history
+keywords:
+  - "History"
+venue: "Young Muslim Digest, October 2015"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2015/10/history/how-the-muslims-killed-dracula/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+***The character of Professor Abraham Van Helsing was no more than a figment of the Dracula legend creator, Bram Stoker's terrifying imagination, but Sultan Mehmet II and Radu cel Frumos were perhaps the first and only true vampire hunters in history, writes SHIBLI ZAMAN.***
+
+*"I have killed men and women, old and young... We killed 23,884 Turks and Bulgarians without counting those whom we burned in their homes or whose heads were not cut by our soldiers...." (Vlad III, also known as Dracula, in a letter to Matthias Corvinus bragging of his tyranny))*
+
+Born in the Ottoman Principality of Wallachia, Romania in 1435 AD, he was known as Radu al III-lea cel Frumos to his Romanian countrymen,Yakışıklı Radu Bey to the Turks, Radu al-Wasim to the Arabs, and Radu, the Handsome, in English. This ally and childhood friend of Sultan Mehmet II was instrumental in the conquest of Constantinople for Islam. Radu's participation in that conquest ensured that Mehmet II would go down in history as "Fatih," or "Conqueror." Radu was the Ottomans' secret weapon against the Safavids to the East and the Serbs, Romanians and Hungarians to the West. The Muslim world owes much to this hero of [Islam,](http://www.worldbulletin.net/arama.php?query=Islam%2C) yet they recorded little other than cursory references to him, perhaps for fear of taking away from Fatih Sultan Mehmet's limelight. The Byzantines recorded Radu as a reviled despot due to their hatred for his conversion to Islam and instrumental role in ending the Byzantine Empire.
+
+Yet, this Ottoman general had a greater war, a war against darkness. He hunted the very progenitor of the vampire legend who impaled his enemies and drank their blood -- Vlad al III-lea Ţepeş, also known as Vlad Drăculea, who would go down in infamy as, simply, Dracula. The character of Professor Abraham Van Helsing was no more than a figment of Bram Stoker's terrifying imagination, but Sultan Mehmet II and Radu cel Frumos were perhaps the first and only true vampire hunters in history.
+
+**The Blood Brothers**
+
+Looking back, Radu's devotion to Islam and to Sultan Mehmet II could be traced to the political alliance of their respective fathers before them. Vlad II from the House of Drăculeşti ("House of the Dragon") was an ally and vassal of Sultan Mehmet's father, Sultan Murad II. Vlad II had 4 sons: Mircea II, Vlad IV Călugărul ("The Monk"), Vlad III who would come to be known as [Dracula,](http://www.worldbulletin.net/arama.php?query=Dracula%2C) and Radu III cel Frumos ("The Handsome"). As a gesture of unity with the Sultan, Vlad II offered his sons, Dracula and [Radu,](http://www.worldbulletin.net/arama.php?query=Radu%2C) to serve the Ottoman Sultan. Under the Janissaries they studied the Qur'an, Arabic, Turkish, Persian, Islamic Theology and Jurisprudence, and, coveted above all, Turkish military strategy and tactics of war.
+
+The Ottoman special forces who held a higher status both militarily as well as socially than the rank and file were the Janissaries and the Sipahis. The Janissaries were the elite infantry of the Ottoman military as well as the personal bodyguards of the Sultan and his family. The Sipahis were the elite cavalry who surrounded the Sultan in battle and would be sent to deal with the most stubborn of adversaries. They were the commandos and special forces of their day. Though the Sipahis were almost exclusively Turkic in origin as demanded by Sultan Mehmet II himself in his treatise of law entitled, *Kanun Nameh-e-Sipahi* ("Law Book of the Sipahis"), the Janissaries, within whose ranks Dracula and Radu found themselves, were conversely converts to Islam.
+
+The young Dracula continually abused and rebelled against his hosts earning himself imprisonment and castigation. Due to the heavy handedness of the Turks in response to his insolence, he developed a compounded and complex series of grudges. He hated his father for allying with the Turks, which he saw as a betrayal of the Order of the Dragon to which his father had sworn an oath. The Order of the Dragon was a Christian fraternity whose sole aim was to wipe out Islam from the Balkans forever. Dracula hated Radu for his successes and the favor the Turks bestowed upon him. He was filled with jealousy for the then young Mehmet II who, like him, was a prince, but, very unlike him, lived in splendor. He was also jealous of his brothers Mircea and Vlad the Monk due to what he perceived as his father's preference for them. His sentiments for Mircea however, would teeter between jealousy and awe. It is from him that the young Dracula learned the terror tactic of impaling thousands to create forests of the dead.
+
+Radu remained faithful to Islam and the Sultan and spent his entire life in battle on the frontiers of the Ottoman Empire, vanquishing the most difficult adversaries of the Empire. His natural knack for battle was unparalleled even amongst the Janissaries and elite Sipahis of the Ottoman military, and he would be called upon frequently to subdue any foe that seemed insurmountable. It is reported that he turned the very course of Near Eastern history when he stopped the mighty Ak Koyunlu from overrunning the Ottomans, an event that, if not stopped, would have definitely changed the faces of both the Middle East and Europe today. For this very reason, he was called upon to face the threat from his homeland of Wallachia that neither the elite Janissaries nor the Sipahis could route.
+
+**The Conquest of Constantinople**
+
+"On the third day after the fall of our city, the Sultan celebrated his victory with a great, joyful triumph. He issued a proclamation: the citizens of all ages who had managed to escape detection were to leave their hiding places throughout the city and come out into the open, as they were to remain free and no question would be asked. He further declared the restoration of houses and property to those who had abandoned our city before the siege, if they returned home, they would be treated according to their rank and religion, as if nothing had changed." (George Sphrantzes, 1401-1478, Byzantine Christian chronicler and witness of the fall of Constantinople)
+
+It was a time of relief and rejoicing. It was a relief for the inhabitants of Constantinople who expected a prompt culling following the fall of their city. It was a time of celebration for the entire Muslim world for this historical conquest of a city that has remained, to this very day, the capital of the Turks. Yet as Sultan Mehmet II rode into the city victorious, a glance over to his childhood friend and chief of the Janissaries, Radu cel Frumos, son of Vlad II Duke of Wallachia, may have served as a sobering reminder that to the North, beyond the spoils of Byzantium, their fiercest enemies lay in wait. Among those enemies was the most feared of them all, [Dracula,](http://www.worldbulletin.net/arama.php?query=Dracula%2C) who just so happened to be Radu's own brother.
+
+**The Rise of Dracula**
+
+Opportunistic betrayal was the way of Wallachia's rulers and in one such brief betrayal, Vlad II silently allowed his older sons, Mircea and Vlad IV, to launch an insurrection after which Mircea impaled all his prisoners upon stakes. The young Dracula loved the sight of this and later joined Mircea in further insurrections against the Ottomans as well as the rival Dăneşti clan supported by the Hungarian warlord, John Hunyadi. Ultimately, Hunyadi overran Dracula's father, slew him in the marshes of Bălteni and blinded and buried Mircea alive at Târgovişte. Hunyadi installed a Dăneşti prince, Vladislav II, over Wallachia. In his ambition and lust for power, Dracula put aside any vengeful sentiments for his slaughtered father and brother and allied with Hunyadi and served him as an adviser. As John Hunyadi went to face the Turks at Belgrade in modern day Serbia, Dracula attacked and slew Vladislav and took the throne for himself. As fortune would have it, a plague broke out amongst Hunyadi's camp, infecting him which lead to his death. Sultan Mehmet was severely wounded in the battle. These events left Dracula to rule Wallachia uninterrupted for six years. It was the only time he ruled his home for so long.
+
+**The Impaler**
+
+As Sultan Mehmet approached what appeared to be a fetid balding forest of rotting trees in the distance, he soon realized the horror of what he approached. They were so close to their destination -- the Wallachian capital of Târgoviște -- that he was in no mood for this puzzling sight. But the figures became more clear as the steeds in the cavalry grew unruly and the infantry felt ill. Before him stood 20,000 impaled bodies of innocent men, women and children, all victims of Dracula in that winter of 1462.
+
+Dracula's Muslim upbringing, albeit abandoned in deference to opportunity, and fluency in Turkish enabled him to move about the Ottomans' most secured camps freely as a Turk without being noticed. This had deadly consequences for the Muslims. Dracula had entered Serbia with his men all dressed as Turkish Sipahis and slaughtered all the Muslim villagers, and those non-Muslims friendly to them that they could find. The intent was to leave a horrifying memento for Sultan Mehmet whom they knew to be soon taking their capital city. They erected this unholy monument in a bid to alarm the Sultan and terrorize his troops in hopes that they might turn around and retreat home.
+
+What is remarkable is that there are no records of mass desertion of Ottoman troops after witnessing this. They pressed on unflinchingly. However, some historians have suggested that Sultan Mehmet II lost his taste for hunting down the 'vampire' following this invasion of Wallachia and left the task up to the only one who was capable of hunting down Dracula and killing him. After taking the Wallachian capital of Târgoviște, Mehmet returned home, leaving the hunt to Radu. After all, it would take someone who knew the mind of Dracula to defeat him, and none fit this bill better than his own brother.
+
+This event earned Dracula the name of Vlad Ţepeş, the Romanian word "Ţepeş" meaning "Impaler". Legend has it that if you look closely at the word you can see Dracula's fangs dangling beneath as a hidden warning to the vampire's terrible lust for blood.
+
+**Radu vs. Dracula: Brothers in Blood**
+
+As Târgoviște was taken, Dracula fled towards Transylvania in hopes of finding refuge with John Hunyadi's son Matthias Corvinus. As was typical of Dracula's opportunism and lack of reverence for religion, he offered to become Catholic in order to win Corvinus' favor. He scorched the earth and slaughtered all the living in his path leaving a wake of desolation and writhing impaled bodies. He would not give up his homeland to the Muslims that easily. He began a beleaguering campaign of guerilla warfare that the elite Ottoman Sipahis could not endure. It is said he slaughtered 15,000 of the Ottoman soldiers in one single night. Still, as the mightiest of the Ottomans fled, Radu was undeterred seemingly driven by what can only be interpreted as an austere piety, to end the bloody reign of his haplessly misguided brother. None remained to fight Dracula save Radu and his fellow Romanian Muslim Janissaries.
+
+The brothers fought lingering battles for the throne of Wallachia and Radu's control of the region increased staggeringly with Dracula receiving less and less support from Matthias Corvinus in Hungary. In a strange twist of fate, Corvinus, the one to whom Dracula retreated, had him imprisoned for 12 years on charges of high treason. The people of Wallachia and their Christian nobles had enough of Dracula's terror and put their support behind Radu who was pronounced Voivod, Prince and Ruler of Wallachia in 1462. Radu ruled the land prosperously for 11 years until his death while Dracula wasted away in a Budapest prison patiently waiting to rise again from the darkness.
+
+**Dracula's Release and Final Battle**
+
+After Radu's death in 1473, Dracula was released from prison. He immediately assembled an army and invaded Bosnia, slaughtering its Muslim population and impaling 8,000 on stakes in a forest of human bodies. Once again, Dracula had arisen from the darkness with the objective of eliminating Islam from the Balkans forever. He finally acquired the throne of Wallachia after his departed brother, but only for a month. Sultan Mehmet invaded Wallachia to remove this profanity from the throne his dear friend Radu had vacated in death. In 1476 the forces of Sultan Mehmet faced the forces of Dracula in Bucharest, Romania. Dracula's army was overrun in a blitz and all were killed, including Dracula himself. The vampire had been slain. News of this did not suffice. His head was cut off and preserved in a jar of honey and sent to Constantinople. There, in a fitting end, Dracula's head was impaled upon a stake in the center of Constantinople for all to see. There was to be no doubt or mystery.
+
+The Muslims had finally, at last, killed Dracula.
+
+--          *November 2010 --  [suhaibwebb.com](http://www.suhaibwebb.com/islam-studies/history/how-the-muslims-killed-dracula/)*

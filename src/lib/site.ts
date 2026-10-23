@@ -97,6 +97,7 @@ export const FORMATS = [
 export const RIGHTS_LABEL: Record<string, string> = {
   'public-domain': 'Public domain',
   permission: 'Published with permission',
+  archival: 'Archival copy',
   'link-only': 'Link to free copy',
 };
 

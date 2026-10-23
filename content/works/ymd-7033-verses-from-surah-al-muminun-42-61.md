@@ -1,0 +1,96 @@
+---
+title: "Verses from Surah al-Mu’minun (42 – 61)"
+author: young-muslim-digest
+year: 2015
+language: "English"
+type: "Article"
+subjects:
+  - quranic-studies
+keywords:
+  - "The Qur’an"
+venue: "Young Muslim Digest, November 2015"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2015/11/quran/surah-al-muminun-42-61/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+*\[42\] Then, We brought forth after them other generations.44*44. "*Qarn*" is literally an epoch or a phase in the history of a people (Au.).*\[43\] No nation can hasten its term, nor delay (it).*
+
+*\[44\] Thereafter We sent Our Messengers in succession. Every time its Messenger came to a nation, they cried him lies. So, we made some of them follow others,45 and made them as but tales.46 So away with a people who would not believe.47*45. That is, We made some of them succeed others in destruction (Tabari).
+
+46\. Another possible connotation is that they became subjects of talk (Tabari) or topics that evoked wonder (Razi). Yusuf Ali comments: "Their habitations and their organizations have been wiped out. What remains is merely a vague story of their existence, a tale that is told. Where their name remains, which is not always the case, it is only a by-word, suggesting all that is unstable and ephemeral,- 'to point a moral and adorn a tale.'"
+
+47. It was our Lord's kindness that He did away with the unbelieving, corrupt, and incorrigible nations of the past. Even without there being any trace of that scum today, life is almost unlivable because of the overwhelming filth of unbelief and moral depravity prevalent among those who followed them. One can imagine what today's life would be like if Allah had allowed every new generation inherit collective perversions of the past (Au.).*\[45\] Then We sent Musa and his brother Harun with Our signs and a manifest Authority.48 *48. "*Sultan*" of the text is difficult to render in English. Primarily it denotes might, force, power, authority, etc. No interpretation of the word is reported of the Salaf at this point. The one nearest to being satisfactory has been advanced by Zamakhshari who said that the allusion is perhaps to Musa's staff, which was the greatest and most manifest of signs. It turned into a snake on command and swallowed all the snakes of the charmers. It was the same staff that was used to strike a rock that gave out water in the form of gushing springs. It was the same staff that Musa had used to part the sea.*\[46\] To Fir\`awn and his chiefs. But they waxed proud. In fact, they were a people high-and-mighty.*
+
+*\[47\] So they said, 'Should we believe in two men like ourselves, while their people are subject to us?'49*49. "I.e., how can we acknowledge their spiritual greatness when they belong to a subject nation of which we are the rulers" (Majid).*\[48\] Thus they rejected the two, and thus were of those who were destroyed.*
+
+*\[49\] Indeed, We gave Musa the Book haply that they would be guided.50 *50. The obvious reference is to the Israelites, who received their two most important Messengers in half belief, half rejection. And hence too, the mention of \`Isa ibn Maryam later in the passage (Au.).
+
+In Yusuf Ali's words: "Moses and Aaron had a twofold mission: (1) to Pharaoh and his Court, which failed because of Egyptian arrogance; (2) to the Israelites, for whom the Law was received on Mount Sinai, but they repeatedly rebelled against Allah. In both cases there were miracles ('clear signs') and other proofs which showed that they came at Allah's command, and were inspired by His Authority."*\[50\] And We made Maryam's son and his mother a sign51 and We sheltered the two on high ground:52 a place of rest and furnished with a flowing spring.53*51. Maryam was born to a barren mother and a father far past child producing age, while Jesus Christ was created entirely without a father. Thus both were great signs of Allah (Au.).
+
+52\. Some of the classical interpreters, such as Abu Hurayrah, have said that the textual "*rabwah*" alludes to the whole of Palestine. Egypt, Dimashq, are other explanations (Tabari). But Ibn \`Abbas thought it meant "a high ground" (Ibn Kathir).
+
+A few modern commentators are inclined to believe that the allusion is to Egypt to which Maryam fled with her child to escape from Herod, "an oppressive and despotic tetrarch of Palestine." Majid quotes, "Egypt was the only place of refuge easily reached from Bethlehem. It was outside the dominion of Herod, under Roman government, and contained a population of at least a million Jews, who were more wealthy and enlightened than those of Palestine."
+
+Alusi and Thanwi are also inclined to this opinion. But Yusuf Ali thinks we do not need to look far. It has already been mentioned (in 19: 22-24):
+
+*"So she conceived him and retired with him to a remote place. And the birth pangs drove her to the trunk of (date) palm-tree. She cried, 'O that I had died before this and become forgotten, lost in oblivion.' He called her from below her, 'Grieve not. Your Lord has set below thee a rivulet."*
+
+However, this does not seem to be the most plausible explanation because of the usage of the word "*aawayna-huma*" in this present verse, which suggests providing a shelter to a mother afraid on account of her child. The two, who according to historical accounts, mysteriously disappeared from Palestine, were once again reported seen in Jerusalem only when Jesus Christ was twelve. A fair guess is that they had gone to Egypt. The present day Gospels also supports this. Ref. Matt. 2: 13-15 (Au.).
+
+53\. The translation of "*ma\`een*" reflects the understanding of Ibn \`Abbas as in Tabari.*\[51\] 'O Messengers.54 Eat of the good (and pure) things55 and work righteousness;56 surely I am Knowing of what you do.57*54. Mawdudi explains: "Quite obviously this does not mean that all Messengers were assembled together at one particular place and addressed collectively. Rather, this manner of address simply signifies that the same directive was given to all Messengers who were raised at different times and in different places. In this sense, the Messengers represent a single group that had been entrusted with an identical Message."
+
+Although *rusul* is in plural, the intended meaning is that individual Messengers were addressed at their own times to this effect (Alusi and others).
+
+55\. That is, eat of the lawful things. Hence all Prophets were very specific about consuming only the lawful. Once Umm \`Abdullah b. Shaddad sent across a bowl of milk to the Prophet. He returned it with a question, "Where did you get a goat from?" It is only when she explained that she had bought one, that he drank from it. He remarked at that time, "Messengers have been instructed to partake of only the lawful" (Razi). The report is in Ibn Abi Hatim (Ibn Kathir).
+
+Zamakhshari adds: It is said that the "good and the pure" things should have three qualities: lawful, clean, and invigorating. Lawful is that by which Allah has not been disobeyed; pure, that which does not lead to man's forgetfulness of Allah; and strength-giving that which holds together the body and safeguards the mind.
+
+Majid writes: "God's apostleship is not at all identical with asceticism. The passage may well imply the condemnation of the abstemious practices of the Christian monks."
+
+Muhammad Asad has another line of approach. He writes: "This rhetorical apostrophe to all of God's apostles is meant to stress their humanness and mortality, and thus to refute the argument of the unbelievers that God could not have chosen 'a mortal like ourselves' to be His message-bearer: an argument which overlooks the fact that only human beings who themselves 'partake of the good things of life' are able to understand the needs and motives of their fellow-men and, thus, to guide them in their spiritual and social concerns."
+
+56\. This implies that pure and lawful food helps generate righteous deeds (Razi, Ibn Kathir).
+
+Mawdudi strikes another note: "The word *at-tayyibat* used in the Qur'an signifies things that are at once clean in themselves and which are obtained through clean and lawful means.
+
+"The directive to partake clean things strikes at the two extremes of monasticism and Epicureanism and brings into relief the moderate and balanced approach which characterizes Islam. A Muslim should neither deny himself lawful things, nor should he hanker after everything of the world without distinguishing between that which is lawful and that which is not.
+
+"It is also significant that the directive to partake of the clean things precedes the directive to act righteously. This suggests that righteous behavior becomes absolutely meaningless if it is not accompanied with the lawfulness of what one eats and the lawfulness of the earning that enables that eating. The very first condition of being righteous is that man should subsist on what is lawful."
+
+According to a *hadith*, the Prophet said,"People! Allah is pure and likes pure things." He followed this statement by reciting the above verse and then added: "A person undertakes a long journey. His clothes are soiled and his hair is disheveled. But the food that he eats is unlawful, the drink that he drinks is unlawful, the dress that he wears is unlawful, and his body has been nourished on what is unlawful. He raises his hands to the sky and prays: 'O my Lord! O My Lord!' How can his prayer be answered?"(Ibn Kathir, Mawdudi).
+
+57\. This verse could be linked to the previous one where Jesus and Maryam were mentioned. This particular one seems to be saying, "(We informed the two that Our command to previous Messengers was of the same nature viz., "*O Messenger! Eat of the good and pure things and work righteous deeds*."*\[52\] And surely this Ummah of yours is one Ummah,58 and I am your Lord; so fear Me.'59 *58. The textual *Ummah* of both the occurrences has been interpreted as "religion" by Ibn Jurayj as in Ibn Jarir.
+
+However, the possibility remains that it is "nation" that is meant. That is, "O Messengers, these your nations were one nation which believed in Allah's Oneness and worshipped Him alone."
+
+59\. Asad comments: "As in 21: 92, the above verse is addressed to all who truly believe in God, whatever their historical denomination. By the preceding reference to *all* of God's apostles the Qur'an clearly implies that all of them were inspired by, and preached, the same fundamental truths, notwithstanding all the differences of the time and the social development of their followers."*\[53\] But their ( followers) split up their affair between themselves into segments60: every faction rejoicing in what was with them.61*60. The textual word "*zubur*" (sing. *zabarah*) is for pieces, or, as done above, segments (Alusi); or perhaps sects (Au.).
+
+Mujahid and Qatadah are reported to have said that the textual word "*zubur*" is to be understood as books or scriptures. That is, each group had a book of its own (cut out of the original: Au.), relied on it, used it as a source of doctrine and Law, in place of the original text, believing not (adds Ibn Jarir), that the Truth is one, even if (add other commentators), laws, especially the derived ones, were different.
+
+61\. Qurtubi cautions that the verse applies to the principal matters of faith and not to derivatives or details of Law. (That is, it is disagreement over fundamental issues which leads to the formation of sects. As for details, either those related to doctrines, or to the Law, there have been differences, but such differences do not make sects). Allah Himself said (5: 48), "*For every one of you We have prescribed a Law and a Way*."
+
+Asad expounds: "In the first instance, this verse refers to the various religious groups as such: that is to say, to the followers of one or another of the earlier revelations who, in their course of time, consolidated themselves within different 'denominations', each of them jealously guarding its own set of tenets, dogmas and rituals and intensely intolerant to all other ways of worship (*manasik*, see 22: 67). In the second instance, however, the above condemnation applies to the breach of unity *within* each of the established religious group; and since it applies to the followers of *all* the prophets, it includes the latter-day followers of Muhammad as well, and thus constitutes a prediction and condemnation of the doctrinal disunity prevailing in the world of Islam in our times -- cf. the well-authenticated saying of the Prophet quoted by Ibn Hanbal, Abu Da'ud, Tirmidhi and Darimi: "The Jews have been split up into seventy-one sects, the Christians into seventy-two sects, whereas my community will be split up into seventy-three sects." (It should be remembered that in classical Arabic usage the umber 'seventy' often stands for 'many' -- just as 'seven' stands for 'several' or 'various' -- and does not necessarily denote an actual figure; hence what the Prophet meant to say was that the sects and divisions among the Muslims of later days would become many, and even more numerous than those among the Jews and the Christians."*\[54\] So leave them in their bewilderment62 for a while. *62. (The textual term "*ghamrah*" is a bit difficult to translate). Literally, it is for water of such depth as sufficient to drown a man (Shafi and others). Thus the word is used for what covers. Here it means bewilderment, confusion, heedlessness, and misguidance all put together (Qurtubi).*\[55\] Do they think that by the wealth and offspring,63 with which We extend them, *63. Note the order: "wealth" and then "offspring." That is the order of preference by the people in general. They first vie for wealth. Satisfied on that, they go for children. However, if they fear that the children will come in the way of gathering wealth, then, they postpone having children, or cut down their number (Au.).*\[56\] We are hastening to them the good things? Nay, they perceive not.64 *64. To paraphrase the last few verses, "Do those people who have split their religion into sects (each fundamentally different from another), imagine that it is because of this that the good things are being hastened to them? Rather not. They are being tried, and are led to further intransigence and heedlessness thereby, but they do not perceive the plan" (Au.).
+
+Allah said elsewhere (6: 178): "*We give them respite so that they may increase in sinfulness*."
+
+And (68: 44): "*So, leave Me alone with such as deny this speech. We shall gradually lead them (to their destruction) in a manner they will not know*."
+
+We also have a report in Ahmad in this context. The Prophet said, "Allah has distributed between you good conduct as He has distributed among you provision. Indeed Allah bestows this world upon him He loves and Him He does not. But He does not bestow faith and practice except upon him He loves. So, whomsoever He led to religion, loved him. And, by Him in whose hands is Muhammad's life, a man does not become a Muslim until his heart and tongue become Muslim. And, that person has not believed from whose harm his neighbors are not at peace." They asked him, "What do you mean by the harm?" He answered, "His wrongdoing and misbehavior." Then he continued, "And, a man does not earn wealth by unlawful means, and then spends it, to be blessed in it. Nor is his charity accepted if he offered it; and he does not leave it behind him but is his provision for (the journey) to the Fire. Verily, Allah does not wipe out evil with evil, but rather, wipes out evil with the good. Surely, the impure does not wipe out the impure" (Ibn Kathir).
+
+Asad remarks: "(the verse) implies, firstly, that worldly prosperity is *not* the ultimate good, and secondly, that the breach of the unity spoken of in the preceding passage was, more often than not, an outcome of mere worldly greed and of factional striving after power."
+
+In simpler lines of Mawdudi, "..it needs to be emphasized that the present life is meant essentially to test man rather than to recompense him for his works. As far as man's moral acts are concerned, even if there is a recompense for them during this worldly life, the recompense is on a very limited scale and is highly imperfect. Additionally, in the recompense itself there is an ingrained element of test and trial. It would be a misconception of the highest magnitude, rather a folly, if we were to disregard the above and believe that whatever good a person receives here is in reward for his goodness, and that receiving such a reward is an index of the recipient being right, righteous, loved and favored by God. Likewise, the disposition to regard anyone who is hit by misfortunes as one who is necessarily under 'punishment', is in the wrong, unrighteous, and among those who are disapproved of by God is quite unjustified."*\[57\] Verily those who for fear of their Lord are in awe.*
+
+*\[58\] And those who believe in the revelations of their Lord.65 *65. Mention of "belief in Allah's revelations," comes after the mention of fear of the Lord. We have to look for a meaning, then, other than the apparent. And that possibly is, 'these people ponder over the revelations even now, and then and freshly believe in them as the Truth from their Lord.' That implies new understanding and newest application (based on Alusi).*\[59\] And those who associate not (aught) with their Lord.66*66. It should be obvious that since the passage is speaking of believers, this verse is talking not of open association, such as of belief in pagan deities, but rather, of hidden and subtle association such as, e.g., showing off (*riyaa'*) or dependence on other than Allah (based on Alusi).*\[60\] And those who give whatsoever they give while their hearts are in fear, that to their Lord they are to return.67 *67. Hasan has said: That is, although they are constant in performing deeds of charity, they are not sure such deeds will be enough to rescue them from the punishment of the Hereafter. Others of the *Salaf*are close to this meaning. \`A'isha in fact asked the Prophet in reference to this verse, "Is it those who commit wrong and so are in fear?" He replied, "Rather not. But a man fasts, prays, and gives in charity but is fearful that it might not be accepted" (Ibn Jarir, Razi, Qurtubi).
+
+That is because they fear they might be short on the requirements or on purity of intention (Au.).
+
+\`A'isha's report has been declared trustworthy by Albani also (S. Ibrahim).
+
+Hasan al-Busri also said, "A believer gathers together *ihsaan* (good deeds and intentions) and apprehensions, while the hypocrite gathers together evil (deeds) and false hopes (Ibn Jarir, Shabbir and others). Hasan is also reported to have said, "We have met people (i.e., the Companions) who were more fearful on the score of their good deeds than you are on the score of your evil deeds (Qurtubi).*\[61\] They (are the ones) who are hastening on to good, and they are outracing to them.68*68. That is, they hasten to the good deeds (Se\`di).
+
+Another affordable interpretation is that of Ibn \`Abbas who said, 'good luck has preceded them' (Ibn Jarir).
+
+*(To be continued)*

@@ -1,0 +1,67 @@
+---
+title: "A Civilization We Do Not Belong To"
+author: young-muslim-digest
+year: 2015
+language: "English"
+type: "Essay"
+subjects:
+  - islam-and-modernity
+keywords:
+  - "Editorial"
+venue: "Young Muslim Digest, February 2015"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2015/02/editorial/civilization-not-belong/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+The Abbasid Caliphate created a civilization to which we do not seem to belong. Except for morals and well-spread piety, its spirit was more in consonance with the Western civilization, at least so far as knowledge and learning are concerned,than with the Muslims of today's world. Indeed, today's Muslims seem to be at an irreconcilable hostile confrontation with the civilization of the Abbasids.To be sure, if it is said that today's Muslims stand apart in complete contradiction with -- not only the Abbasid -- but their entire past, root and branch, then, it would be no overstatement.Consider a few facts concerning books and libraries alone, not to touch on the more important, the educational and knowledge aspects.
+
+Libraries then were an integral part of the life of the majority of people. They crowded into them as their counterparts crowd into shopping malls today. The buildings -- the houses of learning -- they loved were built lavishly and maintained lavishly, while their own homes were decorated with thatched roofs. Those massive buildings were topped by domes supported on monumental columns. With rooms large and roofs tall, every class of books had its own housing area: history, economics, social sciences, geography, religion, science, etc. Every subject had it collections in thousands. Windows tall, that would allow in luxurious swash of fresh air, had to pass over trees and lakes that surrounded the building, describe the luxury.
+
+Those libraries were not an uncommon sight. Baghdad at one point of time had some three dozen libraries. Their rackswere filled by the supplies from hundreds of book dealers. In Morocco, not as great a city of learning -- and the learned -- as Baghdad, one particular street had one hundred libraries and bookshops. It looked as if books were the main business of the people of the town, as if they ate and drank them.
+
+Zaytuna Mosque library in Tunisia stocked 100,000 books. But it was not an exceptional case. Every mosque in the Islamic world, particularly in the northern Arab provinces from Marrakash to Bukhara to Ray to Andalus, had libraries attached to them. The books were donated to the mosques as *waqf* property. Khateeb al-Baghdadi had given away his personal library as *waqf* -- for the delight of voracious readers. In addition, knowledge-hungry men borrowed books from personal libraries or read them on the spot. Scholars spent years searching material through libraries spread as far wide as a thousand miles. Late in the years, Zarkashi, the writer of 4-volume "*Al-Burhan fi \`Ulum al-Qur'an*," whose book is still extent, cites hundreds of books from which he took his material.
+
+Bookshops too were not to be left behind by the librariesfor their luxurious atmosphere. People came in not merely looking for titles, but also to meet with other like-minded scholars, to discuss what was there within two hard covers of the books, over tea and refreshments in no short supply within the bookstores. The bookstore owners themselves were bookworms, knew the author's level of learning, quality of material the author had presented, and could easily advise the novices or the specialists, on the contents of a book.
+
+Bookstores and libraries were, however, not the only place where you saw piles upon piles of books, new and old. Every second man's home had its own library. Imam Muslim had to forage through a whole night amongst his books, to find a particular *hadith* he wished to double check. Jahez had such a tall library in his house, that when the books fell on him they buried him to bestow martyrdom on him. When scholars moved, they carried their books on a dozen camels and when libraries were moved, they needed hundreds of camels. Khateeb wrote a history of Syria, never like its kind has been written since then in any language. The 30-volume books of the east or west, past or present, pale before it. Translated into English, its 80 Arabic volumes would need 150 fat volumes today. In the Bhatkal library, arranged on tables, they run into four meter length. It was in this tradition, that as late as the 19^(th) Islamic century, Shah Abdul Aziz had some 15-20,000 books in his private library, of which, he had not missed to ready any.
+
+Referring to the intellectual activities of the Abbasid period, Phillip K. Hitti wrote,
+
+"When, therefore, we speak of Arab medicine or philosophy or mathematics, what we mean is the learning that was enshrined in Arabic books written by men who were themselves Syrians, Persians, Iraqis, Egyptians or Arabians Christians, Jews or Moslems and who drew their material from Greek, Aramaic, Persian and other sources." (*Syria, a Short History*, Macmillan, New York, 1959, p. 141, pdf)
+
+Imagine the influence of the *lingua franca* of Islam -- Arabic -- that the all-time most influential Rabbi Maimonides, wrote his famous commentary on *Mishna*, apart from several others such as "*Dalaat al-Haa'ireen*" -- books of Jewish interest -- in Arabic.
+
+Compare that situation with that prevalent in any country of today's Muslim world. It is, at best, only large cities that can be proud of a library. While in the USA every village has a library, many towns of the Islamic world, especially Asian, miss them altogether. An acquaintance who peeped into a village library in USA, found a few books on Islam too, including one on the life of Bilal. Not many Muslim libraries will boast of the life of this, their perennial hero, and a constant and un-drying theme of their preachers.
+
+Muslim libraries of today are housed in decrepit buildings, dimly lit, with plaster falling off from every wall. They are poorly furnished, stink from inside, and are surrounded by filth and squalor generously left to rot all over around the building. Furniture creaks. Books are old, torn, and some incomplete. Volumes are missing, good books have disappeared, and the unwanted works -- worthy of waste baskets -- are lined up in racks in disorderly manner. No catalogue will lead to a book of demand -- if the book is still there in stock. Many entries of the catalogues are missing, about which no one knows how they were lost. The librarian and attendants hardly know what they have, and are, invariably, clerks and officials who deal with books as vegetable merchants deal with potatoes and cucumber. They are, so to say, unlettered, and completely disinterested in their jobs.
+
+The visitors to the libraries of today's Muslim world come in to pass time, to browse through colorful magazines, where it is illustrations and photographs that catch their eye. If they read an article, it will be either on a sportsman, a celebrity or a film hero. Hardly ever will they borrow any book. The old religious manuscript-type of priceless volumes, which could be sold to the Western libraries at good price, are of no use to them.
+
+In consequence, good authors and their knowledge-bearing books have disappeared from bookstores, from printing presses. Not a single readable title has appeared in Indiain any language since about 30 years. For the non-Arab world, Arabic has become a language of the Martians. After the standards of learning were lowered when books began being written in Urdu, Malay, and other vernaculars, which were a mere shadow of Arabic books, now it is the turn of books in English, which are shadows of shadows. The language of these English books seems to be in an English which has been invented anew. The language is poor, diction defective, expressions vague, sentences enigmatic, and the text most boring.
+
+Such is also the quality of religious literature available on the fantastic,the beloved, authoritative, modern source of deep knowledge and profound learning: the Net. To sink anyone into an ocean of ignorance and stupidity, a man may be advised to obtain his knowledge of Islamic disciplines from the literature on the Net -- a *Sanctum Santorum* of the disputants in support of their deviant opinions.
+
+At the international level, but, once again, specifically in the non-Arab world, the graph indicating the level of Muslim ignorance has been rising up, and up, steadily, and it seems it will soon become completely vertical.
+
+No *Jama\`ah*, group, or study-circle pays any attention to qualitative learning. At best they indulge in, as a Western writer aptly described, "ever more perfect re-statement of the stated." The *halaqas* are a good place for a little nap. The speeches are what you would have heard in your childhood. When they speak of knowledge, they mean acquaintance with what their founding fathers wrote. Their's is the final authority, and their books the Bible. To differ with them is to commit *Kufr*. To criticize a *Jama\`ah* is to ask for an exit ticket. To talk of Arabic, is like talking of Sanskrit. Qur'an  and *Sunnah* are slogans to help netfresh adherents.The latest victim of the carrion call is handed over pamphlets, instead of the promised Qur'an and *Sunnah*. To differ with the statements, guidelines and *fatwas* of the minor contemporary scholars of those pamphlets, who are not known outside their countries, but because of the propagandists, is a *bid\`ah*. To criticize the renowned scholars of the past, of outstanding repute, is the Sunnah faithfully followed by members of the *Jama\`ah*. The Lilliputian who most loudly criticizes the most learned of the past, is the winner of the hotly contested leadership in his group.
+
+Hardly are the Muslims of today aware that scholars of the West having lost hope in their own life, culture and society, that they will ever recover from the on-going decline, are now reading more and more of those books whose titles are unknown to the modern-day Muslims. Most new biographies of the Prophet are being written by Western intellectuals. Thorough going, well researched articles on Islamic topics are being produced by Western writers. The best civil, economic, political and even religious aspects of Islam and Muslims of the past and present, are being explored by Westerners. As an example, a single academic Western site offers as its weekly contribution 10 books and articles concerned with Islam. Leave alone the contents, many titles are beyond the comprehension of today'sargumentative protagonist of Islam:
+
+1.  *The Identity of the Sabians: Some Insights*, Dov Schwartz and Raphael Jospe (eds.),
+2.  *\[Toward\] Abstract Models for Islamic History* (working paper), by Maxim Romanov \| Bookmarked by Fatma KIZIL
+3.  *Tafsir and Islamic Intellectual History: Exploring the Boundaries of a Genre,* by Andreas Goerke \| Bookmarked by Fatma KIZIL
+4.  *Violence in Islam,* by Michael Schmidt
+5.  *Trying Islam: Muslims before the European Court of Human Rights,* by TuranKayaoglu
+6.  *Three Takes on Islamophobia,* by TuranKayaoglu*.* International Sociology. 27(5): 509-515,
+7.  *Structural changes in the settlement geography of Medina,* by Mehran Esmaeili
+8.  *"What's there under your hijab?"* What do International Muslim Graduate Students in the U.S. report about...? by Methal Marzouk
+9.  *The Education of Islamic Boarding Schools*; Religious Humanism Perspective Study by Mukodi Dr
+10. *Auto-Bio/Ethnography as a Curriculum in Cross-Culture Communication*: A Voice from the Other Shore by MethalMarzouk
+
+( GiVQAjfeM0hg2&fid=flinbox)
+
+Leslie Hazleton -- a British Jewess -- delivered a speech at TED, on the Qur'an, in the 20 allotted minutes, without referring to any note carried in the hand, that astonished many a Muslim. Describing the beauty and power of the Qur'an, in such exemplary rhetoric, she did what no Muslim scholar of Arab or non-Arab world is capable of delivering today. Rumi's mystical poetry rendered into English, are the best-selling titles in the West. Shah Waliyullah's difficult classic, "*Hujjatullah al-Baligha,*" is now of such interest that it sees a translation -- for the first time -- into English by the learned society inBrill, Holland. Books of other similar renowned Muslim scholars of the past are in the pipeline. The texts of such books are, for today's Muslims, filled with such riddles as to tire them out by the third line -- but they are of interest to those who are looking at how they could benefit from them.
+
+There isn't any quick-fix solution to the problem of rising ignorance, not among the common people, but among those who think they are educated. Scholars, *Da\`wah* workers, *Jamaa\`aats* and anyone concerned, need to shove back their differences and courageously take up the task of educating the *Ummah's* educated class. A hundred thousand mosques conducting classes in basic Arabic language and delivering *Dars* on Hadith on weekly basis, for next ten years, will turn the tides; (yes, *dars al-hadith* and not the Qur'an, because once a man learns a bit of Arabic, his attachment to the Qur'an grows). It might sound a stupendous task, but Muslims of the past have demonstrated their penchant for stupendous tasks.

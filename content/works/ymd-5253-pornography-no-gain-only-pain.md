@@ -1,0 +1,49 @@
+---
+title: "Pornography: No Gain, Only Pain"
+author: young-muslim-digest
+year: 2013
+language: "English"
+type: "Article"
+subjects:
+  - islam-and-modernity
+  - family-and-society
+keywords:
+  - "Society"
+venue: "Young Muslim Digest, December 2013"
+rights: archival
+rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."
+sourceUrl: "https://www.youngmuslimdigest.com/2013/12/society/pornography-no-gain-only-pain/"
+sourceLabel: "Young Muslim Digest"
+added: 2026-10-23
+---
+While the world continuous to progress technologically, faster than its growth in technology, it is worsening morally and spiritually. For some, pornography is a business, entertainment and pleasure and for others it is filth and a grave sin. But it goes without saying that pornography is one of the biggest immoral and indecent act on the face of the earth. Watching pornography has become so very popular that our politicians watch them during the assembly sessions. Pornography addicts have a more difficult time recovering from their addiction than cocaine addicts, since drug users can get the drug out of their system, but pornographic images stay in the brain for a very long time.
+
+Pornography is a problem. It's a personal problem for many and a cultural problem for all. The shocking size of the pornography industry, its influence on the media and the acceleration of technology, paired with the accessibility and affordability of pornography all contribute to its [increasing impact](http://bjstockman.wordpress.com/2010/06/04/pornography-stats/) upon the culture.
+
+Before social networking became popular, pornography was the number one activity on the web. Many people start watching porn before marriage to fulfil their sexual desires with an intention to stop it after marriage but they fail to do as they get highly addicted to it. The fantasy of porn has triggered an explosion of interesting pornography, especially on the internet. A study shows that 90% of pornography is viewed through the Internet.Today pornography has become a part of the popular culture. Thanks to various forms of vulgar and indecent media who has played a significant role to promote it.
+
+The entry of smartphone into the market has drastically contributed for the growth of pornography, where porn has become just a touch away. Pavan Duggal, a Supreme Court lawyer and cyber law expert, says smart technology devices are giving quicker and secretive access to pornography. The very private nature of the mobile phone, combined now with good bandwidth, allows people to surf the net far more than what PCs allowed, given that PCs tend to be family devices. No wonder that, according to some estimates, the consumption of pornographic videos and adult content has gone up by 30% in the last one year. Though no agency tracks the volume of porn consumption in [India](http://timesofindia.indiatimes.com/topic/India), cyber experts say it is seeing a phenomenal increase and that most porn sites are hit between 10 pm and 12 midnight.
+
+In the recent Mumbai gang rape, the cops said that three accused used to watch porn regularly. After this incident, one of the officer's said, "Such movies are to a large extent responsible for these youngsters indulging in crime." It is a normal tendency of a human being to do what he sees.
+
+Assam police chief J N Choudhury said that easy accessibility of pornography is one of the reasons for increasing number of teenaged boyscommitting sexual crimes like rape. Reacting to a gang rape case in Guwahati, in which the accused are five minor boys, the DGP said, "The accessibility of pornography has changed the mind-set of many young boys. Earlier, there were more instances of women being raped by strangers but nowadays such crimes are often committed by a person or persons known to the victim."
+
+The threat of pornography addiction is rising throughout the world. According to'Family Safe Media', every second -- \$3,075.64 is being spent on pornography, every second -- 28,258 Internet users are viewing pornography, every second -- 372 Internet users are typing adult search terms into search engines and every 39 minutes, a new pornographic video is being created in the United States. 4.2 million (12% of total websites) deal with pornography. The daily pornographic search requests is 68 million (25% of total search engine requests). Another study claimed that the porn industry generates \$13 million each year. 90% of 8 -- 16 years olds have viewed pornography online and American children begin consuming hardcore pornography at an average age of 11. And the numbers are only increasing.
+
+Peer pressure, easy availability through smart phones, explicit vulgar environment through movies and ads, high level of promotion and lack of moral sexual education from parents are a few important causes for the growth of pornography.
+
+An individual gets into a lot of problems when he starts watching pornography. He gets addicted to it and wants to watch more and more each time, loses money, time, memory, intelligence, reasoning, analyzing and thinking capacity, has an impact on the marital life as it demands unnatural sex from the partner, leads him to stress,sadness, depression, and loss of self-esteem, leads to bad relationship with the close relatives,makes the individual enter into the state of loneliness and boredom, takes him away from his ambitions and goals in life and the addiction, taken the individual to a state of tension that lead to the destruction of the soul, indulges into masturbation and perversion to sex leads the individual to commit sexual crime.
+
+Pamela Paul, in her book [Pornified](http://www.amazon.com/Pornified-Pornography-Damaging-Relationships-Families/dp/0805081321/ref=sr_1_1?s=books&ie=UTF8&qid=1319432951&sr=1-1), quoting the research of one psychologist who has researched pornography at Texas A&M that, "Softcore pornography has a very negative effect on men as well. The problem with softcore pornography is that its voyeurism teaches men to view women as objects rather than to be in relationships with women as human beings." Teaching which hampers the happy and peaceful living.
+
+There exist a huge mafia behind the pornography industry. People indulge in this business for acting, marketing and selling because of the easy money it offers. Many students in UK indulge themselves in porn movies in order to pay their school/college fees. Promoting playboy T-shirts and stickers, promoting Sunny Leone in Big Boss are some of the contributing factors to the growth of pornography in India. Many organisations launch huge campaigns against smoking, gutka, female feticide and alcohol but the number of organisation who have raised their voice against pornography is very few. It is an act which is committed in private thus many people do not reflect on the negative impact it is creating on the current generation.
+
+In order to overcome the addiction of pornography and to avoid such unhealthy habits one should, 1. Have a good company, 2. Keep himself busy in healthy activities, 3. Get involved in social welfare activities, 4. Make productive use of the internet, 5. Try to get married as early as possible and 6. Last but not the least, increasing spirituality through becoming God conscious; remember the accountability in the hereafter.  The Quran addresses this issue by instructing the men and women to lower their gaze and guard their private parts.
+
+The Government should realize the damage which pornography is causing to the individuals and to the society at large and take steps to curb the act as it is killing the nation slowly and steadily. The Supreme Court recently said it wanted immediate steps to block websites with pornographic content, especially those featuring children. India has of late witnessed a rise in cybercrime but the government, despite having the new IT Act in place, has largely been ineffective in tackling the problem. The Information Technology ministry, which safeguards India's cyber space, has done little to take action against porn sites.
+
+A petition filed by advocate Kamlesh Vaswani who pleaded that although watching obscene videos was not an offence, pornographic sites should be banned as they were one of the major causes behind crimes against women. "The absence of Internet laws encourages people to watch porn videos and over 20 crore videos or clippings are freely available in the market, which have been directly downloaded from the Internet or copied from video CDs," the petition stated.
+
+Some countries have already taken steps to curb this grave problem. More than 60,000 pornographic websites have been shut in [China](http://timesofindia.indiatimes.com/topic/China) following a massive crackdown. National Office Against Pornographic and Illegal Publications said, nearly 1.785 million websites have been checked since the launch of the campaign in December 2009 and some 2,197 cases of dissemination of online pornography have been dealt with during the crackdown. Now it's high time, the Government of India takes step to stop this business which is spreading and growing rapidly in leaps and bounds.
+
+The million dollar question which we need to ask our self is that, "We would not like to see our loved ones in a Porn film, then how can we see others?" Pornography is seen as a fundamentally destructive force to eradicate from one's life and society. The parents should take up this issue seriously and counsel their children on this aspect. The youth should understand this grave problems and dangers of addiction to pornography and abstain from it. As responsible citizens of the country, we need to address this issue at all levels and try our best to eradicate pornography from minds and our society which is only causing harm and doing no good.Men, who respect women, don't watch Porn.
