@@ -1,0 +1,268 @@
+{
+  "title": "Connections",
+  "intro": "Who taught whom, who was shaped by whom, and where authors in the archive argued with each other. Each link carries a short note on what it rests on. This is a first, partial map: it only joins authors who both have pages here.",
+  "archived": "2026-10-23",
+  "source_note": "compiled by the archive from the authors' biographies and standard reference works; corrections welcome at contact@islamicarchives.org",
+  "kinds": {
+    "teacher": {
+      "label": "Teacher and student",
+      "out": "Taught",
+      "in": "Studied with"
+    },
+    "influence": {
+      "label": "Influence",
+      "out": "Shaped the thinking of",
+      "in": "Influenced by"
+    },
+    "family": {
+      "label": "Family",
+      "out": "Related to",
+      "in": "Related to"
+    },
+    "colleague": {
+      "label": "Worked together",
+      "out": "Worked with",
+      "in": "Worked with"
+    },
+    "debate": {
+      "label": "Argued with",
+      "out": "In disagreement with",
+      "in": "In disagreement with"
+    },
+    "parallel": {
+      "label": "Parallel projects",
+      "out": "Parallel project to",
+      "in": "Parallel project to"
+    }
+  },
+  "edges": [
+    {
+      "from": "afghani",
+      "to": "abduh",
+      "kind": "teacher",
+      "note": "Abduh was Afghani's closest disciple; they edited al-ʿUrwa al-wuthqā together in Paris in 1884."
+    },
+    {
+      "from": "abduh",
+      "to": "rashid-rida",
+      "kind": "teacher",
+      "note": "Rida became Abduh's student and biographer, and put Abduh's Qurʾān lessons into Tafsīr al-Manār."
+    },
+    {
+      "from": "abduh",
+      "to": "hamka",
+      "kind": "influence",
+      "note": "Hamka read the Cairo reformists through al-Manār; his Tafsīr al-Azhar draws on it."
+    },
+    {
+      "from": "rashid-rida",
+      "to": "hasan-al-banna",
+      "kind": "influence",
+      "note": "Al-Banna read Rida's journal al-Manār as a young man and took its reformist programme into the Muslim Brotherhood."
+    },
+    {
+      "from": "hasan-al-banna",
+      "to": "yusuf-al-qaradawi",
+      "kind": "influence",
+      "note": "Al-Qaradawi joined the Brotherhood as a student and counted al-Banna among his formative influences."
+    },
+    {
+      "from": "hasan-al-banna",
+      "to": "tariq-ramadan",
+      "kind": "family",
+      "note": "Tariq Ramadan is al-Banna's grandson and has written on his legacy."
+    },
+    {
+      "from": "sayyid-ahmad-khan",
+      "to": "shibli-nomani",
+      "kind": "colleague",
+      "note": "Shibli taught at Sir Syed's Aligarh college, then broke with its modernist line and helped build the Nadwa alternative."
+    },
+    {
+      "from": "iqbal",
+      "to": "maududi",
+      "kind": "influence",
+      "note": "Iqbal's invitation brought Maududi to the Punjab in 1938, where he began building Jamaat-e-Islami."
+    },
+    {
+      "from": "maududi",
+      "to": "sayyid-qutb",
+      "kind": "influence",
+      "note": "Qutb took the language of divine sovereignty (ḥākimiyya) and jāhiliyya from Maududi's writings."
+    },
+    {
+      "from": "maududi",
+      "to": "amin-ahsan-islahi",
+      "kind": "colleague",
+      "note": "Islahi was among the founders of Jamaat-e-Islami and left it in 1958 over its direction."
+    },
+    {
+      "from": "amin-ahsan-islahi",
+      "to": "javed-ahmad-ghamidi",
+      "kind": "teacher",
+      "note": "Ghamidi studied under Islahi and carried his Qurʾānic-coherence method into his own work."
+    },
+    {
+      "from": "maududi",
+      "to": "javed-ahmad-ghamidi",
+      "kind": "colleague",
+      "note": "Ghamidi was a member of Jamaat-e-Islami until he left in the late 1970s."
+    },
+    {
+      "from": "maududi",
+      "to": "wahiduddin-khan",
+      "kind": "debate",
+      "note": "Wahiduddin Khan was in the Jamaat and later wrote against Maududi's political reading of Islam."
+    },
+    {
+      "from": "maududi",
+      "to": "khurshid-ahmad",
+      "kind": "colleague",
+      "note": "Khurshid Ahmad worked with Maududi in Jamaat-e-Islami and later published his writings in English through the Islamic Foundation."
+    },
+    {
+      "from": "sayyid-qutb",
+      "to": "muhammad-qutb",
+      "kind": "family",
+      "note": "Brothers. Muhammad Qutb edited, defended and republished Sayyid's writings."
+    },
+    {
+      "from": "muhammad-qutb",
+      "to": "safar-al-hawali",
+      "kind": "teacher",
+      "note": "Al-Hawali wrote his Umm al-Qurā thesis under Muhammad Qutb's supervision."
+    },
+    {
+      "from": "guenon",
+      "to": "frithjof-schuon",
+      "kind": "influence",
+      "note": "Schuon corresponded with Guénon and began from his Traditionalist perspective, later founding his own order."
+    },
+    {
+      "from": "guenon",
+      "to": "martin-lings",
+      "kind": "teacher",
+      "note": "Lings went to Cairo in 1939, met Guénon, and worked as his secretary before following Schuon."
+    },
+    {
+      "from": "frithjof-schuon",
+      "to": "martin-lings",
+      "kind": "teacher",
+      "note": "After Guénon's death in 1951 Lings became a close follower of Schuon."
+    },
+    {
+      "from": "frithjof-schuon",
+      "to": "nasr",
+      "kind": "influence",
+      "note": "Nasr's Traditionalism comes chiefly from Schuon, whose work he read as a student."
+    },
+    {
+      "from": "nasr",
+      "to": "caner-dagli",
+      "kind": "teacher",
+      "note": "Dagli did his doctorate at George Washington University under Nasr."
+    },
+    {
+      "from": "ruhollah-khomeini",
+      "to": "mutahhari",
+      "kind": "teacher",
+      "note": "Mutahhari studied under Khomeini in Qom and was among his closest allies."
+    },
+    {
+      "from": "muhammad-husayn-tabatabai",
+      "to": "mutahhari",
+      "kind": "teacher",
+      "note": "Mutahhari attended Tabatabai's philosophy lessons in Qom."
+    },
+    {
+      "from": "muhammad-husayn-tabatabai",
+      "to": "abdollah-javadi-amoli",
+      "kind": "teacher",
+      "note": "Javadi Amoli studied philosophy and exegesis with Tabatabai."
+    },
+    {
+      "from": "ruhollah-khomeini",
+      "to": "hussein-ali-montazeri",
+      "kind": "teacher",
+      "note": "Montazeri was Khomeini's student, and was later his designated successor until their break in 1989."
+    },
+    {
+      "from": "ruhollah-khomeini",
+      "to": "mohammad-taqi-mesbah-yazdi",
+      "kind": "teacher",
+      "note": "Mesbah Yazdi studied with Khomeini in Qom."
+    },
+    {
+      "from": "mutahhari",
+      "to": "shariati",
+      "kind": "debate",
+      "note": "Mutahhari criticised Shariati's approach to religion and sociology in the early 1970s."
+    },
+    {
+      "from": "said-nursi",
+      "to": "fethullah-gulen",
+      "kind": "influence",
+      "note": "Gülen's movement grew out of the Nurcu circles that followed Nursi's Risale-i Nur."
+    },
+    {
+      "from": "abdallah-bin-bayyah",
+      "to": "hamza-yusuf",
+      "kind": "teacher",
+      "note": "Hamza Yusuf studied with Bin Bayyah and works with him on the Forum for Promoting Peace in Muslim Societies."
+    },
+    {
+      "from": "hamza-yusuf",
+      "to": "zaid-shakir",
+      "kind": "colleague",
+      "note": "Co-founders of Zaytuna College in California."
+    },
+    {
+      "from": "abd-al-fattah-abu-ghudda",
+      "to": "taqi-usmani",
+      "kind": "teacher",
+      "note": "Taqi Usmani called Abu Ghudda his teacher and wrote his obituary."
+    },
+    {
+      "from": "abd-al-fattah-abu-ghudda",
+      "to": "albani",
+      "kind": "debate",
+      "note": "Abu Ghudda was a leading critic of al-Albani's independent hadith grading and his attitude to the madhhabs."
+    },
+    {
+      "from": "rafi-usmani",
+      "to": "taqi-usmani",
+      "kind": "family",
+      "note": "Brothers; both are sons of Mufti Muhammad Shafi."
+    },
+    {
+      "from": "fazlur-rahman",
+      "to": "amina-wadud",
+      "kind": "influence",
+      "note": "Wadud's Qur'an and Woman builds on Rahman's method of reading the Qurʾān as a coherent ethical whole."
+    },
+    {
+      "from": "al-attas",
+      "to": "al-faruqi",
+      "kind": "parallel",
+      "note": "Both launched an 'Islamisation of knowledge' in the late 1970s: al-Attas through language and metaphysics, al-Faruqi through the IIIT's methods."
+    },
+    {
+      "from": "ahmed-deedat",
+      "to": "shabir-ally",
+      "kind": "influence",
+      "note": "Ally has said that Deedat's lectures led him into the study of the Bible and comparative religion."
+    },
+    {
+      "from": "muhammad-mustafa-al-azami",
+      "to": "jonathan-brown",
+      "kind": "debate",
+      "note": "Brown's writing on hadith engages Azami's replies to Western scholarship on early hadith."
+    }
+  ],
+  "sortYear": {
+    "ruhollah-khomeini": 1902,
+    "zaid-shakir": 1956,
+    "shabir-ally": 1955,
+    "caner-dagli": 1976
+  }
+}

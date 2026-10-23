@@ -1,0 +1,160 @@
+---
+import Base from '../../layouts/Base.astro';
+import ThinkersNav from '../../components/ThinkersNav.astro';
+import { allAuthors, allWorks, allEras, years } from '../../lib/site';
+import { entries, entryId } from '../../lib/history';
+
+const THIS_YEAR = 2026;
+const authors = await allAuthors();
+const works = await allWorks();
+const eras = await allEras();
+
+// works per author per year
+const byAuthor = new Map<string, Map<number, number>>();
+const totals = new Map<string, number>();
+for (const w of works) {
+  const id = w.data.author.id;
+  totals.set(id, (totals.get(id) || 0) + 1);
+  if (w.data.year == null) continue;
+  const m = byAuthor.get(id) || new Map<number, number>();
+  m.set(w.data.year, (m.get(w.data.year) || 0) + 1);
+  byAuthor.set(id, m);
+}
+
+const placed = authors.filter((a) => a.data.born).sort((a, b) => a.data.born! - b.data.born! || (a.data.died ?? 9999) - (b.data.died ?? 9999));
+const unplaced = authors.filter((a) => !a.data.born);
+const MIN = Math.floor(Math.min(...placed.map((a) => a.data.born!)) / 10) * 10 - 10;
+const MAX = 2030;
+const pct = (y: number) => ((Math.min(Math.max(y, MIN), MAX) - MIN) / (MAX - MIN)) * 100;
+
+// the powers of the History Hub that run through this window, packed into lanes
+const powers = entries.filter((e) => e.to >= MIN && e.from <= MAX && e.to >= 1750);
+const laneEnd: number[] = [];
+const lanes = powers.map((e) => {
+  let l = laneEnd.findIndex((end) => end <= e.from);
+  if (l === -1) { l = laneEnd.length; laneEnd.push(0); }
+  laneEnd[l] = Math.min(e.to, MAX);
+  return { e, lane: l };
+});
+const nLanes = laneEnd.length;
+
+const gridYears: number[] = [];
+for (let y = Math.ceil(MIN / 25) * 25; y <= MAX; y += 25) gridYears.push(y);
+const showEras = eras.filter((e) => e.data.to >= MIN);
+---
+<Base title="Thinkers Timeline" description="When the authors in the archive lived, and when their works first appeared, set against the empires and states of their time." current="thinkers">
+  <div class="wrap" style="padding-top:36px; padding-bottom:56px; display:flex; flex-direction:column; gap:20px">
+    <ThinkersNav current="timeline" />
+    <div>
+      <h1 style="font-size:40px; margin:0 0 0.3em">Thinkers Timeline</h1>
+      <p class="muted" style="margin:0; font-size:17px; max-width:780px">Each bar is a lifetime. The marks on it are the years in which works in this archive were first published, so a long career shows as a spread of marks and a single book as one. The top lanes show the empires and states of the History Hub. Select a name to open the author's page.</p>
+    </div>
+    <div class="tl-tools">
+      <label class="sr-only" for="tl-q">Find an author</label>
+      <input id="tl-q" type="search" placeholder="Find an author…" autocomplete="off">
+      <label class="tl-check"><input type="checkbox" id="tl-marks" checked> Show publication years</label>
+      <span class="muted" id="tl-count" style="font-size:14px">{placed.length} authors with recorded dates</span>
+    </div>
+
+    <div class="tl-scroll" role="region" aria-label="Timeline of authors" tabindex="0">
+      <div class="tl">
+        <div class="tl-axis">
+          <div class="tl-lab tl-lab-h"></div>
+          <div class="tl-track tl-axis-track">
+            {showEras.map((e) => (
+              <span class="tl-era" style={`left:${pct(Math.max(e.data.from, MIN))}%; width:${pct(Math.min(e.data.to + 1, MAX)) - pct(Math.max(e.data.from, MIN))}%`}><b>{e.data.name}</b></span>
+            ))}
+            {gridYears.map((y) => <span class="tl-year" style={`left:${pct(y)}%`}>{y}</span>)}
+          </div>
+        </div>
+        <div class="tl-powers" style={`--lanes:${nLanes}`}>
+          <div class="tl-lab tl-lab-h"><span>Powers</span></div>
+          <div class="tl-track tl-powers-track">
+            {lanes.map(({ e, lane }) => (
+              <a class={`tl-power g-${e.group}`} href={`/history/#${entryId(e.name)}`} style={`left:${pct(e.from)}%; width:${pct(Math.min(e.to, MAX)) - pct(e.from)}%; top:${lane * 24}px`} title={`${e.name}, ${e.when}`}><span>{e.name}</span></a>
+            ))}
+          </div>
+        </div>
+        <div class="tl-rows">
+          <div class="tl-grid" aria-hidden="true"><div class="tl-gridin">
+            {gridYears.map((y) => <i style={`left:${pct(y)}%`}></i>)}
+          </div></div>
+          {placed.map((a) => {
+            const born = a.data.born!;
+            const end = a.data.died ?? THIS_YEAR;
+            const living = !a.data.died;
+            const ys = [...(byAuthor.get(a.id) || new Map()).entries()].sort((x, y) => x[0] - y[0]);
+            const n = totals.get(a.id) || 0;
+            return (
+              <div class="tl-row" data-name={a.data.name.toLowerCase()}>
+                <a class="tl-lab" href={`/authors/${a.id}/`}>{a.data.name}</a>
+                <div class="tl-track">
+                  <a class={`tl-bar${living ? ' live' : ''}`} href={`/authors/${a.id}/`} tabindex="-1" aria-hidden="true" style={`left:${pct(born)}%; width:${Math.max(pct(end) - pct(born), 0.4)}%`} title={`${a.data.name} (${years(a.data)}) · ${n} ${n === 1 ? 'work' : 'works'} in the archive`}></a>
+                  {ys.map(([y, c]) => <i class="tl-mark" style={`left:${pct(y)}%`} title={`${y}: ${c} ${c === 1 ? 'work' : 'works'}`}></i>)}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+    <p class="muted" style="margin:0; font-size:14px">The first mark can fall before an author's birth year when an archive entry is an edition of an older text, and some works have no recorded year and are not marked.</p>
+    {unplaced.length > 0 && (
+      <section class="card" style="padding:18px 22px">
+        <h2 style="font-size:20px; margin:0 0 8px">Not placed on the timeline</h2>
+        <p class="muted" style="margin:0 0 10px; font-size:14px">Authors whose dates are not yet recorded, and institutions.</p>
+        <p style="margin:0; font-size:15px; line-height:1.9">{unplaced.map((a, i) => <>{i > 0 && ' · '}<a href={`/authors/${a.id}/`}>{a.data.name}</a></>)}</p>
+      </section>
+    )}
+    <p class="cite-line"><span>Archived 23 October 2026 · Source: author dates from each author's page; publication years from each work's record.</span></p>
+  </div>
+  <script is:inline>
+    (function () {
+      var q = document.getElementById('tl-q'), rows = Array.prototype.slice.call(document.querySelectorAll('.tl-row')), count = document.getElementById('tl-count');
+      var total = rows.length;
+      q.addEventListener('input', function () {
+        var v = q.value.trim().toLowerCase(), n = 0;
+        rows.forEach(function (r) { var ok = !v || r.dataset.name.indexOf(v) !== -1; r.hidden = !ok; if (ok) n++; });
+        count.textContent = v ? n + ' of ' + total + ' authors' : total + ' authors with recorded dates';
+      });
+      document.getElementById('tl-marks').addEventListener('change', function (e) {
+        document.querySelector('.tl').classList.toggle('no-marks', !e.target.checked);
+      });
+    })();
+  </script>
+</Base>
+<style is:global>
+  .tl-tools { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; }
+  .tl-tools input[type=search] { min-height: 42px; flex: 0 1 280px; }
+  .tl-check { font-size: 14px; display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  .tl-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+  .tl { --lab: 190px; min-width: 980px; position: relative; font-family: var(--sans); }
+  .tl-axis, .tl-powers, .tl-row { display: grid; grid-template-columns: var(--lab) 1fr; }
+  .tl-lab { position: sticky; left: 0; z-index: 3; background: var(--surface); padding: 0 10px 0 14px; font-size: 13.5px; line-height: 26px; height: 26px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink); text-decoration: none; border-right: 1px solid var(--line); }
+  a.tl-lab:hover { color: var(--green); text-decoration: underline; }
+  .tl-lab-h { height: auto; font-size: 12px; color: var(--muted); letter-spacing: .05em; text-transform: uppercase; display: flex; align-items: center; }
+  .tl-track { position: relative; height: 26px; }
+  .tl-axis { border-bottom: 1px solid var(--line); background: var(--green-tint); }
+  .tl-axis-track { height: 54px; }
+  .tl-era { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--green-line); padding: 4px 6px; font-size: 11.5px; color: var(--green-dark); overflow: hidden; }
+  .tl-era b { font-weight: 600; }
+  .tl-year { position: absolute; bottom: 4px; transform: translateX(-50%); font-size: 11px; color: var(--muted); }
+  .tl-powers { border-bottom: 1px solid var(--line); background: #FBFAF6; }
+  .tl-powers-track { height: calc(var(--lanes) * 24px + 6px); }
+  .tl-powers .tl-lab-h { align-items: flex-start; padding-top: 6px; }
+  .tl-power { position: absolute; height: 20px; margin-top: 3px; border-radius: 4px; background: var(--c, #8A9A95); border: 1px solid rgba(0,0,0,.12); color: #fff; font-size: 11.5px; line-height: 18px; padding: 0 6px; overflow: hidden; white-space: nowrap; text-decoration: none; opacity: .92; }
+  .tl-power:hover { opacity: 1; color: #fff; }
+  .tl-power.g-e { --c: #7B5E2E; } .tl-power.g-m { --c: #55696F; } .tl-power.g-d { --c: #6B7F5A; } .tl-power.g-c { --c: #3F6F62; } .tl-power.g-p { --c: #8A5A12; }
+  .tl-rows { position: relative; padding: 4px 0 8px; }
+  .tl-row { align-items: center; }
+  .tl-row[hidden] { display: none; }
+  .tl-row:hover .tl-lab, .tl-row:hover .tl-track { background: var(--green-tint); }
+  .tl-grid { position: absolute; inset: 0 0 0 var(--lab); pointer-events: none; }
+  .tl-gridin { position: absolute; inset: 0; }
+  .tl-gridin i { position: absolute; top: 0; bottom: 0; width: 1px; background: #ECEAE2; }
+  .tl-bar { position: absolute; top: 9px; height: 8px; border-radius: 4px; background: var(--green); opacity: .85; }
+  .tl-bar.live { background: linear-gradient(90deg, var(--green) 70%, rgba(30,90,76,.25)); }
+  .tl-mark { position: absolute; top: 4px; width: 3px; height: 18px; margin-left: -1px; border-radius: 1px; background: var(--saffron); box-shadow: 0 0 0 1px rgba(255,255,255,.7); }
+  .tl.no-marks .tl-mark { display: none; }
+  @media (max-width: 700px) { .tl { --lab: 140px; } }
+</style>

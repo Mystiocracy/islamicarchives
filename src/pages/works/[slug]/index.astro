@@ -3,7 +3,8 @@ import { getEntry, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import SendDialog from '../../../components/SendDialog.astro';
 import { longDate } from '../../../lib/quran';
-import { allWorks, provenance, FORMATS, hosted, RIGHTS_LABEL, eraOf, eraSpan, allEras, subjectNames, chaptersOf, type Work } from '../../../lib/site';
+import { creative, breadcrumbs } from '../../../lib/schema';
+import { categoryOf, allWorks, provenance, FORMATS, hosted, RIGHTS_LABEL, eraOf, eraSpan, allEras, subjectNames, chaptersOf, type Work } from '../../../lib/site';
 
 export async function getStaticPaths() {
   // link-only entries have no page of their own: they are listed on author, subject and library pages with their own Cite button
@@ -21,12 +22,16 @@ const url = new URL(`/works/${work.id}/`, Astro.site).href;
 const lastFirst = author ? (() => { const p = (d.byline || author.data.name).split(' '); return p.length > 1 ? `${p[p.length - 1]}, ${p.slice(0, -1).join(' ')}` : author.data.name; })() : '';
 const prov = provenance(work);
 const cite = `${lastFirst}. ${d.title}.${d.year ? ' ' + d.year + '.' : ''}${prov.archived ? ' Archived ' + longDate(prov.archived) + ' in' : ''} Islamic Internet Archives: Archive of Modern Islamic Thought. ${url}`;
+const ld = author ? [
+  creative(categoryOf(d.type) === 'books' ? 'Book' : 'Article', { title: d.title, url: `/works/${work.id}/`, authorName: d.byline || author.data.name, authorUrl: `/authors/${author.id}/`, year: d.year, language: d.language, summary: d.summary, source: d.sourceUrl }),
+  breadcrumbs([{ name: 'Library', href: '/library/' }, { name: author.data.name, href: `/authors/${author.id}/` }, { name: d.title }]),
+] : undefined;
 const eras = await allEras();
 const era = eraOf(d.year, eras);
 const names = await subjectNames();
 const subj = d.subjects.map((s) => ({ id: s.id, name: names.get(s.id) || s.id }));
 ---
-<Base title={d.title} description={d.summary}>
+<Base title={d.title} description={d.summary} jsonld={ld}>
   <div class="wrap" style="padding-top:24px; display:flex; flex-direction:column; gap:28px" data-pagefind-body>
     <nav data-pagefind-ignore aria-label="Breadcrumb" class="muted" style="font-size:14px; display:flex; flex-wrap:wrap; gap:8px">
       <a href="/library/">Library</a><span aria-hidden="true">/</span>

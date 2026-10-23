@@ -3,6 +3,8 @@ import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import WorkRow from '../../components/WorkRow.astro';
 import { longDate } from '../../lib/quran';
+import { person, breadcrumbs } from '../../lib/schema';
+import { connectionsOf, periodsOf, kinds } from '../../lib/connections';
 import { allAuthors, allWorks, authorProvenance, years, initials, authorPhoto, photoCredit, hosted, categoryOf, CATEGORIES, type Author } from '../../lib/site';
 
 export async function getStaticPaths() {
@@ -19,9 +21,13 @@ const prov = authorProvenance(author, works);
 const hasBio = (author.body || '').trim().length > 0;
 const langs = [...new Set(works.map((w) => w.data.language))];
 const anyHosted = works.some(hosted);
+const allA = new Map((await allAuthors()).map((x) => [x.id, x]));
+const links = connectionsOf(author.id).filter((l) => allA.has(l.other));
+const periods = periodsOf(a.born, a.died);
+const ld = [person(a, `/authors/${author.id}/`, photo), breadcrumbs([{ name: 'Authors', href: '/authors/' }, { name: a.name }])];
 const groups = CATEGORIES.map((c) => ({ ...c, works: works.filter((w) => categoryOf(w.data.type) === c.id) })).filter((g) => g.works.length);
 ---
-<Base title={a.name} current="authors">
+<Base title={a.name} current="authors" jsonld={ld}>
   <section style="background:var(--surface); border-bottom:1px solid var(--line)">
     <div class="wrap author-head" style="padding-top:40px; padding-bottom:40px; display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start">
       {photo ? <img class="author-photo" src={photo} alt={a.name} width="120" height="120" decoding="async" /> : <span class="monogram author-mono" style="width:120px; height:120px; font-size:40px">{initials(a.name)}</span>}
@@ -43,6 +49,22 @@ const groups = CATEGORIES.map((c) => ({ ...c, works: works.filter((w) => categor
       )}
     </div>
   </section>
+  {(links.length > 0 || periods.length > 0) && (
+    <div class="wrap" style="padding-top:28px; display:flex; flex-direction:column; gap:14px">
+      {links.length > 0 && (
+        <section aria-labelledby="conn-h" class="card" style="padding:18px 22px">
+          <h2 id="conn-h" style="font-size:22px; margin:0 0 10px">Connections</h2>
+          <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; font-size:15.5px; line-height:1.5">
+            {links.map((l) => <li><span class="muted">{l.label}</span> <a href={`/authors/${l.other}/`} style="font-weight:500">{allA.get(l.other)!.data.name}</a><br /><span class="muted" style="font-size:14px">{l.note}</span></li>)}
+          </ul>
+          <p class="muted" style="margin:12px 0 0; font-size:13.5px"><a href="/connections/">See the whole network →</a></p>
+        </section>
+      )}
+      {periods.length > 0 && (
+        <p style="margin:0; font-size:14.5px; display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center"><span class="muted">In their lifetime, in the <a href="/history/">History Hub</a>:</span>{periods.map((x) => <a class="chip" style="padding:3px 10px; font-size:13.5px; font-weight:400" href={`/history/#${x.id}`}>{x.name}</a>)} <a href="/timeline/" style="font-size:13.5px">Thinkers Timeline →</a></p>
+      )}
+    </div>
+  )}
   <div class="wrap" style="padding-top:28px; display:flex; flex-direction:column; gap:18px">
     <h2 style="font-size:28px">Works</h2>
     {groups.length > 1 && (

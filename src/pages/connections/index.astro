@@ -1,0 +1,140 @@
+---
+import Base from '../../layouts/Base.astro';
+import ThinkersNav from '../../components/ThinkersNav.astro';
+import infl from '../../data/influences.json';
+import { allAuthors, years } from '../../lib/site';
+import { edges, kinds, meta, connectedIds } from '../../lib/connections';
+import { longDate } from '../../lib/quran';
+
+const authors = await allAuthors();
+const byId = new Map(authors.map((a) => [a.id, a]));
+const sortYear = (infl as any).sortYear as Record<string, number>;
+const ids = connectedIds().filter((i) => byId.has(i));
+const yr = (i: string) => byId.get(i)!.data.born ?? sortYear[i] ?? 1900;
+ids.sort((a, b) => yr(a) - yr(b) || a.localeCompare(b));
+const live = edges.filter((e) => byId.has(e.from) && byId.has(e.to));
+
+const STEP = 24, PADX = 30, BASE = 400, LABEL = 190;
+const W = PADX * 2 + STEP * (ids.length - 1);
+const H = BASE + LABEL;
+const x = (i: string) => PADX + ids.indexOf(i) * STEP;
+const COLORS: Record<string, string> = { teacher: '#1E5A4C', influence: '#C8892B', family: '#7A4E8C', colleague: '#3C6E9A', debate: '#B0432B', parallel: '#6F7A77' };
+const DASH: Record<string, string> = { debate: '6 4', family: '2 4', parallel: '9 4 2 4' };
+const arcs = live.map((e, n) => {
+  const x1 = x(e.from), x2 = x(e.to);
+  const a = Math.min(x1, x2), b = Math.max(x1, x2);
+  const rx = (b - a) / 2;
+  const ry = Math.min(rx * 0.9, BASE - 20);
+  return { e, n, d: `M${a},${BASE} A${rx},${ry} 0 0 1 ${b},${BASE}` };
+});
+const payload = {
+  people: Object.fromEntries(ids.map((i) => [i, { name: byId.get(i)!.data.name, years: years(byId.get(i)!.data) }])),
+  edges: live.map((e) => ({ f: e.from, t: e.to, k: e.kind, n: e.note })),
+  kinds: Object.fromEntries(Object.entries(kinds).map(([k, v]) => [k, { label: v.label, out: v.out, in: v['in'] }])),
+};
+const groups = Object.keys(kinds).map((k) => ({ k, label: kinds[k].label, list: live.filter((e) => e.kind === k) })).filter((g) => g.list.length);
+---
+<Base title={meta.title} description="Teachers, students, family ties and disagreements among the authors in the archive." current="thinkers">
+  <div class="wrap" style="padding-top:36px; padding-bottom:56px; display:flex; flex-direction:column; gap:20px">
+    <ThinkersNav current="connections" />
+    <div>
+      <h1 style="font-size:40px; margin:0 0 0.3em">{meta.title}</h1>
+      <p class="muted" style="margin:0; font-size:17px; max-width:780px">{meta.intro}</p>
+    </div>
+    <div class="cn-legend" aria-label="Key">
+      {Object.keys(kinds).map((k) => (
+        <span><svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke={COLORS[k]} stroke-width="3" stroke-dasharray={DASH[k] || ''} stroke-linecap="round"/></svg>{kinds[k].label}</span>
+      ))}
+    </div>
+    <p class="muted" style="margin:0; font-size:14px">Authors run from the earliest born on the left to the latest on the right. Hover over or select a name to see who they are linked with.</p>
+    <div class="cn-scroll card" role="region" aria-label="Diagram of connections between authors" tabindex="0">
+      <svg id="cn-svg" viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label="Arc diagram of connections between authors">
+        <line x1={PADX - 10} y1={BASE} x2={W - PADX + 10} y2={BASE} stroke="#CFCCC0" stroke-width="1"/>
+        <g class="cn-arcs">
+          {arcs.map(({ e, n, d }) => (
+            <path class="cn-arc" data-i={n} data-f={e.from} data-t={e.to} d={d} fill="none" stroke={COLORS[e.kind]} stroke-width="2.2" stroke-dasharray={DASH[e.kind] || ''} stroke-linecap="round" opacity=".55"><title>{`${byId.get(e.from)!.data.name} → ${byId.get(e.to)!.data.name}: ${kinds[e.kind].label}`}</title></path>
+          ))}
+        </g>
+        <g class="cn-nodes">
+          {ids.map((i) => (
+            <g class="cn-node" data-id={i} tabindex="0" role="button" aria-label={byId.get(i)!.data.name}>
+              <circle cx={x(i)} cy={BASE} r="5.5" fill="#fff" stroke="#1E5A4C" stroke-width="2"/>
+              <text transform={`translate(${x(i) + 4},${BASE + 16}) rotate(60)`} font-size="12.5" fill="#14201E">{byId.get(i)!.data.name}</text>
+            </g>
+          ))}
+        </g>
+      </svg>
+    </div>
+    <section id="cn-panel" class="card cn-panel" aria-live="polite">
+      <p class="muted" style="margin:0">Select a name above to read about each link.</p>
+    </section>
+
+    <h2 style="font-size:28px; margin:12px 0 0">All connections</h2>
+    <div class="cn-groups">
+      {groups.map((g) => (
+        <section class="card" style="padding:18px 22px">
+          <h3 style="font-size:20px; margin:0 0 10px"><span class="cn-dot" style={`background:${COLORS[g.k]}`}></span>{g.label}</h3>
+          <ul class="cn-list">
+            {g.list.map((e) => (
+              <li><a href={`/authors/${e.from}/`}>{byId.get(e.from)!.data.name}</a> <span class="muted" aria-hidden="true">{g.k === 'teacher' || g.k === 'influence' ? '→' : '↔'}</span> <a href={`/authors/${e.to}/`}>{byId.get(e.to)!.data.name}</a><br /><span class="muted" style="font-size:14px">{e.note}</span></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+    <p class="cite-line"><span>Archived {longDate(meta.archived)} · Source: {meta.source_note}.</span></p>
+  </div>
+  <script type="application/json" id="cn-data" set:html={JSON.stringify(payload)} />
+  <script is:inline>
+    (function () {
+      var data = JSON.parse(document.getElementById('cn-data').textContent);
+      var arcs = Array.prototype.slice.call(document.querySelectorAll('.cn-arc'));
+      var nodes = Array.prototype.slice.call(document.querySelectorAll('.cn-node'));
+      var panel = document.getElementById('cn-panel'), sel = null;
+      function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+      function paint(id) {
+        var on = {};
+        arcs.forEach(function (a) {
+          var hit = !id || a.dataset.f === id || a.dataset.t === id;
+          a.style.opacity = hit ? (id ? 1 : .55) : .06;
+          a.style.strokeWidth = hit && id ? 3.2 : 2.2;
+          if (hit && id) { on[a.dataset.f] = 1; on[a.dataset.t] = 1; }
+        });
+        nodes.forEach(function (n) { n.style.opacity = !id || on[n.dataset.id] ? 1 : .25; });
+      }
+      function show(id) {
+        var p = data.people[id], items = [];
+        data.edges.forEach(function (e) {
+          var other = e.f === id ? e.t : e.t === id ? e.f : null;
+          if (!other) return;
+          var k = data.kinds[e.k], label = e.f === id ? k.out : k['in'];
+          items.push('<li><b>' + esc(label) + '</b> <a href="/authors/' + other + '/">' + esc(data.people[other].name) + '</a><br><span class="muted">' + esc(e.n) + '</span></li>');
+        });
+        panel.innerHTML = '<h3 style="margin:0 0 4px; font-size:22px"><a href="/authors/' + id + '/">' + esc(p.name) + '</a></h3>' +
+          (p.years ? '<p class="muted" style="margin:0 0 10px; font-size:14px">' + esc(p.years) + '</p>' : '') + '<ul class="cn-list">' + items.join('') + '</ul>';
+      }
+      nodes.forEach(function (n) {
+        n.addEventListener('mouseenter', function () { if (!sel) paint(n.dataset.id); });
+        n.addEventListener('mouseleave', function () { if (!sel) paint(null); });
+        n.addEventListener('focus', function () { if (!sel) paint(n.dataset.id); });
+        function pick() { sel = sel === n.dataset.id ? null : n.dataset.id; paint(sel); if (sel) show(sel); else panel.innerHTML = '<p class="muted" style="margin:0">Select a name above to read about each link.</p>'; }
+        n.addEventListener('click', pick);
+        n.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); pick(); } });
+      });
+    })();
+  </script>
+</Base>
+<style is:global>
+  .cn-legend { display: flex; flex-wrap: wrap; gap: 8px 22px; font: 14px var(--sans); color: var(--ink-2); }
+  .cn-legend span { display: inline-flex; align-items: center; gap: 8px; }
+  .cn-scroll { overflow-x: auto; padding: 8px 0 0; }
+  .cn-scroll svg { display: block; max-width: none; font-family: var(--sans); }
+  .cn-node { cursor: pointer; outline: none; transition: opacity .15s; }
+  .cn-node:hover circle, .cn-node:focus circle { fill: var(--saffron-tint); }
+  .cn-node:focus text { font-weight: 600; }
+  .cn-arc { transition: opacity .15s; }
+  .cn-panel { padding: 18px 22px; min-height: 72px; }
+  .cn-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 15.5px; line-height: 1.5; }
+  .cn-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 18px; align-items: start; }
+  .cn-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; vertical-align: -1px; }
+</style>

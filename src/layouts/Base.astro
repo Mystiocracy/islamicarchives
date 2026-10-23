@@ -1,13 +1,14 @@
 ---
 import '../styles/global.css';
-interface Props { title?: string; description?: string; current?: string; noindex?: boolean }
-const { title, description = 'Free writings of modern Muslim thinkers, from the 19th century to today: searchable, readable online and downloadable.', current = '', noindex = false } = Astro.props;
+interface Props { title?: string; description?: string; current?: string; noindex?: boolean; jsonld?: object | object[] }
+const { title, description = 'Free writings of modern Muslim thinkers, from the 19th century to today: searchable, readable online and downloadable.', current = '', noindex = false, jsonld } = Astro.props;
 const full = title ? `${title} – Islamic Internet Archives` : 'Islamic Internet Archives – Archive of Modern Islamic Thought';
 const nav = [
   { href: '/library/', label: 'Library', key: 'library' },
   { href: '/authors/', label: 'Authors', key: 'authors' },
   { href: '/subjects/', label: 'Subjects', key: 'subjects' },
   { href: '/history/', label: 'History Hub', key: 'history' },
+  { href: '/timeline/', label: 'Thinkers', key: 'thinkers' },
   { href: '/quran/', label: 'Quran Hub', key: 'quran' },
   { href: '/hadith/', label: 'Hadith Hub', key: 'hadith' },
   { href: '/delivery/', label: 'Share', key: 'delivery' },
@@ -24,12 +25,14 @@ const nav = [
 {noindex && <meta name="robots" content="noindex">}
 <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)}>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Islamic Internet Archives: recently added" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Noto+Naskh+Arabic:wght@500&family=Noto+Nastaliq+Urdu:wght@500&display=swap" rel="stylesheet">
 <meta property="og:title" content={full}>
 <meta property="og:description" content={description}>
 <slot name="head" />
+{jsonld && [jsonld].flat().map((j) => <script type="application/ld+json" set:html={JSON.stringify(j).replace(/</g, '\\u003c')} />)}
   <script is:inline src="/js/suggest.js"></script>
   <!-- Visitor counts: GoatCounter (no cookies, no personal data). Dashboard: https://islamicarchives.goatcounter.com -->
   <script is:inline data-goatcounter="https://islamicarchives.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -87,6 +90,8 @@ const nav = [
       <a href="/about/">Mission and editorial policy</a>
       <a href="/permissions/">Copyright and permissions</a>
       <a href="/about/#cite">How to cite the archive</a>
+      <a href="/new/">Recently added</a>
+      <a href="/feed.xml">RSS feed</a>
       <a href="/help/kindle/">How to send books to your Kindle</a>
     </nav>
     <nav aria-label="Get involved">
