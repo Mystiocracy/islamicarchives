@@ -69,7 +69,6 @@ const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
       <div>
         <span lang="ar" dir="rtl" class="tl-ar">الأعلام</span>
         <h2 id="tl-h">Thinkers through time</h2>
-        <p>All {stops.length} authors in the archive, in order of birth. They surface one at a time as the line moves on.</p>
       </div>
       <div class="tl-links">
         <button type="button" class="tl-play" aria-pressed="false">Pause</button>
@@ -265,6 +264,8 @@ const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
     (function () {
       var sc = document.querySelector('.tl-scroll'); if (!sc) return;
       var band = sc.closest('.tl-band'), items = Array.prototype.slice.call(sc.querySelectorAll('.tl-item'));
+      // open at a random year rather than always at the beginning
+      sc.scrollLeft = Math.floor(Math.random() * Math.max(0, (sc.scrollWidth - sc.clientWidth) * 0.9));
       if (still || !('IntersectionObserver' in window)) { items.forEach(function (i) { i.classList.add('in'); }); }
       else {
         band.classList.add('tl-js');
@@ -287,7 +288,7 @@ const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
             var el = pool[Math.floor(Math.random() * pool.length)];
             waiting.splice(waiting.indexOf(el), 1); el.classList.add('in');
           }
-          setTimeout(pop, 900 + Math.random() * 1700);
+          setTimeout(pop, 280 + Math.random() * 420);
         })();
       }
       function by(dir) { sc.scrollBy({ left: dir * Math.max(240, sc.clientWidth * 0.7), behavior: still ? 'auto' : 'smooth' }); stopDrift(); }
