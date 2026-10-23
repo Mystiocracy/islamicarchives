@@ -1,0 +1,49 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/hadith.css';
+import { muslim, searchArabic, muslimUrl, ARCHIVED, type Hadith } from '../../../lib/hadith';
+import { longDate, SITE } from '../../../lib/quran';
+
+export function getStaticPaths() {
+  const { hadiths } = muslim();
+  return hadiths.map((h, i) => ({ params: { n: h.n }, props: { i } }));
+}
+const { i } = Astro.props as { i: number };
+const { hadiths, books } = muslim();
+const h: Hadith = hadiths[i];
+const prev = hadiths[i - 1], next = hadiths[i + 1];
+const book = books.find((b) => b.k === h.book);
+const here = `${SITE}/hadith/muslim/${h.n}/`;
+const cite = `Muslim, Ṣaḥīḥ Muslim, ḥadīth ${h.n}${book ? ` (Book ${book.k}, ${book.name}, no. ${h.inbook})` : ''}. English translation by Abdul Hamid Siddiqui. In Islamic Internet Archives, archived ${longDate(ARCHIVED)}. ${here}.`;
+const title = `Ṣaḥīḥ Muslim ${h.n}`;
+const lead = h.en.replace(/\s+/g, ' ').slice(0, 150);
+---
+<Base title={title} description={lead || `Ḥadīth ${h.n} of Ṣaḥīḥ Muslim in Arabic and English.`} current="hadith">
+  <article class="hd" data-pagefind-body>
+    <nav class="hd-crumb" aria-label="Breadcrumb" data-pagefind-ignore><a href="/hadith/">Hadith Hub</a> › <a href="/hadith/muslim/">Ṣaḥīḥ Muslim</a> › {book && <a href={`/hadith/muslim/book/${book.k}/`}>Book {book.k}: {book.name}</a>}</nav>
+    <header class="hd-head">
+      <span class="eyebrow" data-pagefind-filter="collection">Ṣaḥīḥ Muslim</span>
+      <h1 data-pagefind-meta="title">{title}</h1>
+      {book && <span class="book">Book {book.k}, <span data-pagefind-filter="book">{book.name}</span> · no. {h.inbook} in the book</span>}
+    </header>
+
+    {h.ar && <p class="hd-ar" lang="ar" dir="rtl">{h.ar}</p>}
+    {h.ar && <p class="hd-plain" lang="ar" aria-hidden="true">{searchArabic(h.ar)}</p>}
+    {h.en && <p class="hd-en">{h.en}</p>}
+    {h.en && <p class="hd-credit" data-pagefind-ignore>English translation by Abdul Hamid Siddiqui.</p>}
+
+    <p class="hd-note" data-pagefind-ignore>The chain of narrators is the opening of the Arabic text. Chains for Ṣaḥīḥ Muslim are not yet in the narrator tree.</p>
+
+    <div class="hd-links" data-pagefind-ignore>
+      <a class="btn btn-quiet" href={muslimUrl(h)} rel="noopener" target="_blank">Read on sunnah.com ↗</a>
+      {book && <a class="btn btn-quiet" href={`/hadith/muslim/book/${book.k}/`}>All of Book {book.k}</a>}
+      <a class="btn btn-quiet" href="/hadith/muslim/#search">Search Ṣaḥīḥ Muslim</a>
+    </div>
+
+    <nav class="hd-nav" aria-label="Neighbouring ḥadīth" data-pagefind-ignore>
+      {prev ? <a href={`/hadith/muslim/${prev.n}/`}>← Ḥadīth {prev.n}</a> : <span></span>}
+      {next ? <a href={`/hadith/muslim/${next.n}/`}>Ḥadīth {next.n} →</a> : <span></span>}
+    </nav>
+    <p class="hd-cite" data-pagefind-ignore><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite} Arabic text and numbering as on sunnah.com, from the open hadith-api collection.</p>
+  </article>
+</Base>

@@ -10,3 +10,8 @@ These scripts made the files the Hadith Hub reads. They are kept for the record 
    lists in `public/hadith/bukhari-narrators.json`, and `public/hadith/bukhari-snips.json` (short lines for the tree's lists).
 
 The paths at the top of each script point to the folder where the downloads were kept; change them before running.
+
+
+## Ṣaḥīḥ Muslim
+
+`build-muslim-data.py` writes `content/hadith/muslim.json` from the hadith-api editions `ara-muslim` and `eng-muslim` (English by Abdul Hamid Siddiqui). Text only: there is no chain data for Muslim yet.

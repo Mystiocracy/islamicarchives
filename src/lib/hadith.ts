@@ -16,6 +16,19 @@ export function bukhari() {
   return cache;
 }
 
+let mcache: { books: Book[]; hadiths: Hadith[] } | null = null;
+
+/** Ṣaḥīḥ Muslim: text only (no narrator chains yet), numbered as on sunnah.com ("8a", "8b", ... share the number 8). */
+export function muslim() {
+  if (!mcache) {
+    const t = JSON.parse(fs.readFileSync('content/hadith/muslim.json', 'utf8'));
+    mcache = { books: t.books, hadiths: t.hadiths.map((h: Omit<Hadith, 'chains'>) => ({ ...h, chains: [] })) };
+  }
+  return mcache;
+}
+/** sunnah.com's own book / ḥadīth-in-book address, the same pair the data carries (the running number alone repeats across books) */
+export const muslimUrl = (h: Hadith) => `https://sunnah.com/muslim/${h.book}/${h.inbook}`;
+
 /** Arabic without vowel marks, so that searches typed without them still match. */
 export const plainArabic = (s: string) =>
   s.replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g, '').replace(/[إأآٱ]/g, 'ا');
