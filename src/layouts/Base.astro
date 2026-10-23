@@ -4,11 +4,11 @@ interface Props { title?: string; description?: string; current?: string; noinde
 const { title, description = 'Free writings of modern Muslim thinkers, from the 19th century to today: searchable, readable online and downloadable.', current = '', noindex = false, jsonld } = Astro.props;
 const full = title ? `${title} – Islamic Internet Archives` : 'Islamic Internet Archives – Archive of Modern Islamic Thought';
 const nav = [
+  { href: '/', label: 'Home', key: 'home' },
   { href: '/library/', label: 'Library', key: 'library' },
   { href: '/authors/', label: 'Authors', key: 'authors' },
   { href: '/subjects/', label: 'Subjects', key: 'subjects' },
   { href: '/history/', label: 'History Hub', key: 'history' },
-  { href: '/timeline/', label: 'Thinkers', key: 'thinkers' },
   { href: '/quran/', label: 'Quran Hub', key: 'quran' },
   { href: '/hadith/', label: 'Hadith Hub', key: 'hadith' },
   { href: '/delivery/', label: 'Share', key: 'delivery' },

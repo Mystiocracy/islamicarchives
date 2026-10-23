@@ -20,11 +20,12 @@ const H = BASE + LABEL;
 const x = (i: string) => PADX + ids.indexOf(i) * STEP;
 const COLORS: Record<string, string> = { teacher: '#1E5A4C', influence: '#C8892B', family: '#7A4E8C', colleague: '#3C6E9A', debate: '#B0432B', parallel: '#6F7A77' };
 const DASH: Record<string, string> = { debate: '6 4', family: '2 4', parallel: '9 4 2 4' };
+const maxRx = (STEP * (ids.length - 1)) / 2;
 const arcs = live.map((e, n) => {
   const x1 = x(e.from), x2 = x(e.to);
   const a = Math.min(x1, x2), b = Math.max(x1, x2);
   const rx = (b - a) / 2;
-  const ry = Math.min(rx * 0.9, BASE - 20);
+  const ry = (BASE - 24) * Math.pow(rx / maxRx, 0.8);
   return { e, n, d: `M${a},${BASE} A${rx},${ry} 0 0 1 ${b},${BASE}` };
 });
 const payload = {
@@ -52,7 +53,7 @@ const groups = Object.keys(kinds).map((k) => ({ k, label: kinds[k].label, list: 
         <line x1={PADX - 10} y1={BASE} x2={W - PADX + 10} y2={BASE} stroke="#CFCCC0" stroke-width="1"/>
         <g class="cn-arcs">
           {arcs.map(({ e, n, d }) => (
-            <path class="cn-arc" data-i={n} data-f={e.from} data-t={e.to} d={d} fill="none" stroke={COLORS[e.kind]} stroke-width="2.2" stroke-dasharray={DASH[e.kind] || ''} stroke-linecap="round" opacity=".55"><title>{`${byId.get(e.from)!.data.name} → ${byId.get(e.to)!.data.name}: ${kinds[e.kind].label}`}</title></path>
+            <path class="cn-arc" data-i={n} data-f={e.from} data-t={e.to} d={d} fill="none" stroke={COLORS[e.kind]} stroke-width="2.2" stroke-dasharray={DASH[e.kind] || ''} stroke-linecap="round" opacity=".42"><title>{`${byId.get(e.from)!.data.name} → ${byId.get(e.to)!.data.name}: ${kinds[e.kind].label}`}</title></path>
           ))}
         </g>
         <g class="cn-nodes">
