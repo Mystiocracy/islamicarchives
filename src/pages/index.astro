@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import { hubOf } from '../lib/hubs';
+import { longDate } from '../lib/quran';
 import { website } from '../lib/schema';
 import influences from '../data/influences.json';
 import { updatesByDay } from '../lib/updates';
@@ -9,7 +11,9 @@ const works = await allWorks();
 const authors = await allAuthors();
 const subjects = await allSubjects();
 const eras = await allEras();
-const recent = (await updatesByDay()).slice(0, 1).flatMap((d) => d.batches.map((b) => ({ ...b, date: d.date }))).slice(0, 6);
+const recent = (await updatesByDay()).slice(0, 4).flatMap((d) => d.batches.map((b) => ({ ...b, date: d.date }))).slice(0, 16);
+const subjectCount = (id: string) => works.filter((w) => w.data.subjects.some((x) => x.id === id)).length;
+const firstSentence = (t = '') => { const m = t.match(/^.*?[.!?](\s|$)/); return (m ? m[0] : t).trim(); };
 const count = new Map<string, number>();
 for (const w of works) count.set(w.data.author.id, (count.get(w.data.author.id) || 0) + 1);
 // Thinkers timeline: every author, in order of birth (those without dates by the year of their first work)
@@ -116,23 +120,70 @@ const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
 
     {recent.length > 0 && (
       <section class="section">
-        <div class="section-head"><h2>Recently added</h2><a href="/new/" style="font-weight:500">All updates →</a></div>
-        <div class="grid-auto" style="--min:260px">
-          {recent.map((b) => (
-            <a href={`/authors/${b.author.id}/`} class="card" style="text-decoration:none; color:var(--ink); padding:16px 18px; display:flex; flex-direction:column; gap:4px">
-              <span style="font-family:var(--serif); font-weight:600; font-size:18px">{b.author.data.name}</span>
-              <span class="muted" style="font-size:14px">{b.newAuthor ? 'New author' : 'Added'}{b.works.length ? ` · ${b.works.length} ${b.works.length === 1 ? 'work' : 'works'}` : ''}</span>
-            </a>
-          ))}
+        <div class="tl-band rl-tile" role="group" aria-labelledby="rl-recent-h">
+          <div class="tl-head">
+            <div>
+              <span lang="ar" dir="rtl" class="tl-ar">الجديد</span>
+              <h2 id="rl-recent-h">Recently added</h2>
+              <p>New authors and works, newest first.</p>
+            </div>
+            <div class="tl-links"><a href="/new/">All updates →</a><a href="/feed.xml">RSS</a></div>
+          </div>
+          <div class="tl-frame">
+            <button type="button" class="tl-btn rl-prev" aria-label="Newer">‹</button>
+            <div class="rl-scroll" tabindex="0" role="region" aria-label="Recently added authors and works">
+              <ol class="rl-track">
+                {recent.map((b, i) => (
+                  <li class={`rl-item ${i % 2 ? 'c2' : 'c1'}`}>
+                    <a class="rl-card" href={`/authors/${b.author.id}/`}>
+                      <span class="tl-medal rl-medal">
+                        <svg class="tl-ring" viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="21" y="21" width="78" height="78"/><rect x="21" y="21" width="78" height="78" transform="rotate(45 60 60)"/></g><circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="1 5.9" opacity=".7"/></svg>
+                        {authorPhoto(b.author) ? <img src={authorPhoto(b.author)} alt="" width="56" height="56" loading="lazy" decoding="async" /> : <span class="tl-mono" aria-hidden="true">{initials(b.author.data.name)}</span>}
+                      </span>
+                      <strong>{shortName(b.author.data.name)}</strong>
+                      <span class="rl-meta">{b.newAuthor ? 'New author' : 'Added'}{b.works.length ? ` · ${b.works.length} ${b.works.length === 1 ? 'work' : 'works'}` : ''}</span>
+                      <span class="rl-date">{longDate(b.date)}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </div>
+            <button type="button" class="tl-btn rl-next" aria-label="Older">›</button>
+          </div>
         </div>
       </section>
     )}
 
     <section class="section">
-      <div class="section-head"><h2>Browse by subject</h2><a href="/subjects/" style="font-weight:500">All subjects →</a></div>
-      <div class="ticker" data-ticker data-speed="32">
-        <div class="ticker-track">
-          {subjects.map((s) => <a class="chip" href={`/subjects/${s.id}/`}>{s.data.name}</a>)}
+      <div class="tl-band rl-tile" role="group" aria-labelledby="rl-subj-h">
+        <div class="tl-head">
+          <div>
+            <span lang="ar" dir="rtl" class="tl-ar">المواضيع</span>
+            <h2 id="rl-subj-h">Browse by subject</h2>
+            <p>{subjects.length} subjects, each with a reading path to begin with.</p>
+          </div>
+          <div class="tl-links"><a href="/subjects/">All subjects →</a></div>
+        </div>
+        <div class="tl-frame">
+          <button type="button" class="tl-btn rl-prev" aria-label="Previous subjects">‹</button>
+          <div class="rl-scroll" tabindex="0" role="region" aria-label="Subjects">
+            <ol class="rl-track">
+              {subjects.map((s, i) => (
+                <li class={`rl-item ${i % 2 ? 'c2' : 'c1'}`}>
+                  <a class="rl-card rl-subject" href={`/subjects/${s.id}/`}>
+                    <span class="tl-medal rl-medal">
+                      <svg class="tl-ring" viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="21" y="21" width="78" height="78"/><rect x="21" y="21" width="78" height="78" transform="rotate(45 60 60)"/></g><circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="1 5.9" opacity=".7"/></svg>
+                      <span class="tl-mono rl-count" aria-hidden="true">{subjectCount(s.id)}</span>
+                    </span>
+                    <strong>{s.data.name}</strong>
+                    <span class="rl-blurb">{firstSentence(hubOf(s.id)?.intro?.[0])}</span>
+                    <span class="rl-meta">{subjectCount(s.id)} {subjectCount(s.id) === 1 ? 'work' : 'works'}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </div>
+          <button type="button" class="tl-btn rl-next" aria-label="Next subjects">›</button>
         </div>
       </div>
     </section>
@@ -159,6 +210,55 @@ const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
   (function () {
     function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
     var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Recently added and Browse by subject: cards rise one at a time as they come into view; arrows, drag and a slow drift like the timeline.
+    document.querySelectorAll('.rl-tile').forEach(function (tile) {
+      var sc = tile.querySelector('.rl-scroll'), items = Array.prototype.slice.call(sc.querySelectorAll('.rl-item'));
+      if (still || !('IntersectionObserver' in window)) { items.forEach(function (i) { i.classList.add('in'); }); }
+      else {
+        tile.classList.add('rl-js');
+        var waiting = [], on = false;
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) {
+            var el = e.target, k = waiting.indexOf(el);
+            if (e.isIntersecting) { if (!el.classList.contains('in') && k < 0) waiting.push(el); }
+            else { if (k >= 0) waiting.splice(k, 1); el.classList.remove('in'); }
+          });
+        }, { root: sc, rootMargin: '0px 120px 0px 120px', threshold: 0 });
+        items.forEach(function (i) { io.observe(i); });
+        new IntersectionObserver(function (es) { on = es[0].isIntersecting; }, { threshold: 0.3 }).observe(sc);
+        (function pop() {
+          if (on && !document.hidden && waiting.length) {
+            var el = waiting.splice(Math.floor(Math.random() * waiting.length), 1)[0]; el.classList.add('in');
+          }
+          setTimeout(pop, 450 + Math.random() * 900);
+        })();
+      }
+      var held = false, idle = 0, pos = 0, last = 0, visible = false, wait = 2.5, pause = 0;
+      function by(d) { sc.scrollBy({ left: d * Math.max(240, sc.clientWidth * 0.7), behavior: still ? 'auto' : 'smooth' }); idle = 4; }
+      tile.querySelector('.rl-prev').addEventListener('click', function () { by(-1); });
+      tile.querySelector('.rl-next').addEventListener('click', function () { by(1); });
+      var down = false, sx = 0, sl = 0, moved = false;
+      sc.addEventListener('mousedown', function (e) { down = true; moved = false; sx = e.pageX; sl = sc.scrollLeft; idle = 4; });
+      window.addEventListener('mouseup', function () { down = false; sc.classList.remove('drag'); });
+      window.addEventListener('mousemove', function (e) { if (!down) return; var dx = e.pageX - sx; if (Math.abs(dx) > 4) { moved = true; sc.classList.add('drag'); } sc.scrollLeft = sl - dx; });
+      sc.addEventListener('click', function (e) { if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; } }, true);
+      sc.addEventListener('mouseenter', function () { held = true; }); sc.addEventListener('mouseleave', function () { held = false; idle = 2; });
+      sc.addEventListener('focusin', function () { held = true; }); sc.addEventListener('focusout', function () { held = false; idle = 2; });
+      ['wheel', 'touchstart'].forEach(function (ev) { sc.addEventListener(ev, function () { idle = 5; }, { passive: true }); });
+      new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }).observe(sc);
+      (function tick(t) {
+        var dt = last ? Math.min(t - last, 100) / 1000 : 0; last = t;
+        if (idle > 0) idle -= dt;
+        if (!still && !held && idle <= 0 && visible && !document.hidden && (wait -= dt) < 0) {
+          var max = sc.scrollWidth - sc.clientWidth;
+          if (Math.abs(sc.scrollLeft - pos) > 2) pos = sc.scrollLeft;
+          if (pos >= max - 1) { if ((pause += dt) > 4) { pause = 0; pos = 0; sc.scrollLeft = 0; } }
+          else { pos = Math.min(pos + 30 * dt, max); sc.scrollLeft = pos; }
+        }
+        requestAnimationFrame(tick);
+      })(0);
+    });
 
     // Thinkers timeline: the line carries on from left to right; of the authors on screen, one at a time rises out of it every so often.
     // An author who has scrolled well out of view sinks back, so they surface again on the next pass.
@@ -350,6 +450,31 @@ const shortName = (n: string) => n.replace(/\s*\(.*?\)/g, '').trim();
   .tl-btn { position: absolute; top: 150px; z-index: 2; width: 44px; height: 44px; margin-top: -22px; border-radius: 50%; border: 1px solid rgba(255,255,255,.35); background: rgba(20,63,53,.9); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0 0 3px; }
   .tl-btn:hover { background: var(--saffron); border-color: var(--saffron); }
   .tl-prev { left: 10px; } .tl-next { right: 10px; }
+  /* rails: Recently added, Browse by subject (same tile as the timeline) */
+  .rl-tile { padding-bottom: 22px; }
+  .rl-scroll { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; padding: 14px 26px 6px; cursor: grab; outline-offset: -3px; }
+  .rl-scroll::-webkit-scrollbar { display: none; }
+  .rl-scroll.drag { cursor: grabbing; user-select: none; }
+  .rl-track { list-style: none; margin: 0; padding: 0; display: flex; gap: 14px; width: max-content; }
+  .rl-item { --c: #E9C78D; width: 236px; flex: none; }
+  .rl-item.c2 { --c: #7FC0AE; }
+  .rl-card, .rl-card:hover, .rl-card:focus { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; height: 100%; padding: 14px 16px 16px; color: #fff; text-decoration: none; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.16); border-top: 3px solid var(--c); border-radius: 12px; transition: background .2s, transform .2s, opacity .5s, box-shadow .2s; }
+  .rl-card:hover { background: rgba(255,255,255,.11); box-shadow: 0 0 18px color-mix(in srgb, var(--c) 30%, transparent); }
+  .rl-card:focus-visible { outline: 2px solid #E9C78D; outline-offset: 2px; }
+  .rl-medal.tl-medal { position: relative; left: auto; margin: 0 0 4px; width: 64px; height: 64px; transform: none; opacity: 1; transition: none; }
+  .rl-medal img { inset: 11px; width: 42px; height: 42px; border-width: 2px; }
+  .rl-medal .tl-mono { inset: 11px; border-width: 2px; font-size: 14px; }
+  .rl-medal .tl-ring { animation: tlspin 80s linear infinite; }
+  .rl-card strong, .rl-card:hover strong { font: 600 18px/1.2 var(--serif); color: #fff; }
+  .rl-card:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+  .rl-meta { font-size: 13.5px; color: var(--c); font-weight: 500; }
+  .rl-date { font-size: 12.5px; color: #C9DAD4; }
+  .rl-blurb { font-size: 13.5px; line-height: 1.45; color: #C9DAD4; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .rl-count { font-size: 15px; }
+  .rl-js .rl-item:not(.in) .rl-card { opacity: 0; transform: translateY(18px) scale(.94); }
+  .rl-tile .tl-btn { top: 50%; }
+  .rl-prev { left: 10px; } .rl-next { right: 10px; }
+  @media (max-width: 700px) { .rl-scroll { padding-left: 16px; padding-right: 16px; } .rl-item { width: 210px; } }
   @keyframes tlspin { to { transform: rotate(360deg); } }
   @media (max-width: 700px) {
     .tl-band { padding-top: 20px; }

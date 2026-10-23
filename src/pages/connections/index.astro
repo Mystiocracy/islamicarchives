@@ -33,7 +33,6 @@ const payload = {
   edges: live.map((e) => ({ f: e.from, t: e.to, k: e.kind, n: e.note })),
   kinds: Object.fromEntries(Object.entries(kinds).map(([k, v]) => [k, { label: v.label, out: v.out, in: v['in'] }])),
 };
-const groups = Object.keys(kinds).map((k) => ({ k, label: kinds[k].label, list: live.filter((e) => e.kind === k) })).filter((g) => g.list.length);
 ---
 <Base title={meta.title} description="Teachers, students, family ties and disagreements among the authors in the archive." current="thinkers">
   <div class="wrap" style="padding-top:36px; padding-bottom:56px; display:flex; flex-direction:column; gap:20px">
@@ -70,19 +69,6 @@ const groups = Object.keys(kinds).map((k) => ({ k, label: kinds[k].label, list: 
       <p class="muted" style="margin:0">Select a name above to read about each link.</p>
     </section>
 
-    <h2 style="font-size:28px; margin:12px 0 0">All connections</h2>
-    <div class="cn-groups">
-      {groups.map((g) => (
-        <section class="card" style="padding:18px 22px">
-          <h3 style="font-size:20px; margin:0 0 10px"><span class="cn-dot" style={`background:${COLORS[g.k]}`}></span>{g.label}</h3>
-          <ul class="cn-list">
-            {g.list.map((e) => (
-              <li><a href={`/authors/${e.from}/`}>{byId.get(e.from)!.data.name}</a> <span class="muted" aria-hidden="true">{g.k === 'teacher' || g.k === 'influence' ? '→' : '↔'}</span> <a href={`/authors/${e.to}/`}>{byId.get(e.to)!.data.name}</a><br /><span class="muted" style="font-size:14px">{e.note}</span></li>
-            ))}
-          </ul>
-        </section>
-      ))}
-    </div>
     <p class="cite-line"><span>Archived {longDate(meta.archived)} · Source: {meta.source_note}.</span></p>
   </div>
   <script type="application/json" id="cn-data" set:html={JSON.stringify(payload)} />
