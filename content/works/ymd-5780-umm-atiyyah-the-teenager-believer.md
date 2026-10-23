@@ -1,6 +1,7 @@
 ---
 title: "Umm `Atiyyah, the Teenager Believer"
 author: young-muslim-digest
+byline: "By Adil Salahi"
 year: 2014
 language: "English"
 type: "Article"

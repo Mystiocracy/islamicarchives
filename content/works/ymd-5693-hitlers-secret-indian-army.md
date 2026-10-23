@@ -1,6 +1,7 @@
 ---
 title: "Hitler’s Secret Indian Army"
 author: young-muslim-digest
+byline: "By Mike Thomson | BBC News"
 year: 2014
 language: "English"
 type: "Article"

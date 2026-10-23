@@ -1,6 +1,7 @@
 ---
 title: "‘I Shop, therefore I am!’"
 author: young-muslim-digest
+byline: "By Syed Kazim"
 year: 2014
 language: "English"
 type: "Article"

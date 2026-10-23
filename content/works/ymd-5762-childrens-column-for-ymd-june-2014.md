@@ -1,6 +1,7 @@
 ---
 title: "Children’s Column for YMD June 2014"
 author: young-muslim-digest
+byline: "superadmin"
 year: 2014
 language: "English"
 type: "Article"

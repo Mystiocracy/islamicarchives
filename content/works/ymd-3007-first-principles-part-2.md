@@ -1,6 +1,7 @@
 ---
 title: "First Principles (Part 2)"
 author: young-muslim-digest
+byline: "By Biju Abdul Qadir"
 year: 2007
 language: "English"
 type: "Essay"

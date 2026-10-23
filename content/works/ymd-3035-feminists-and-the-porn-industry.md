@@ -1,6 +1,7 @@
 ---
 title: "Feminists and the Porn Industry"
 author: young-muslim-digest
+byline: "By Yvonne Ridley"
 year: 2007
 language: "English"
 type: "Article"

@@ -1,6 +1,7 @@
 ---
 title: "On Broken Hands and Broken Hearts"
 author: young-muslim-digest
+byline: "By Syed Iqbal Zaheer"
 year: 2014
 language: "English"
 type: "Essay"

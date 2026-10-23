@@ -1,6 +1,7 @@
 ---
 title: "The Splintering Ummah"
 author: young-muslim-digest
+byline: "By Syed Adil"
 year: 2014
 language: "English"
 type: "Essay"

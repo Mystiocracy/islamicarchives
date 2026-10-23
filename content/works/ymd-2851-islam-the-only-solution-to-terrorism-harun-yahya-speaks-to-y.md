@@ -1,6 +1,7 @@
 ---
 title: "‘Islam: The Only Solution to Terrorism’ – Harun Yahya Speaks to Young Muslim Digest (Part-I)"
 author: young-muslim-digest
+byline: "By Biju Abdul Qadir"
 year: 2007
 language: "English"
 type: "Interview"

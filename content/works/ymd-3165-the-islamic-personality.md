@@ -1,6 +1,7 @@
 ---
 title: "The Islamic Personality"
 author: young-muslim-digest
+byline: "By Syed Adil"
 year: 2007
 language: "English"
 type: "Article"

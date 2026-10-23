@@ -1,6 +1,7 @@
 ---
 title: "Verses from Surah Ibrahim (18-23)"
 author: young-muslim-digest
+byline: "From Tafsir Ishraq al-Ma'ani"
 year: 2007
 language: "English"
 type: "Article"

@@ -1,6 +1,7 @@
 ---
 title: "Career Myths and Realities"
 author: young-muslim-digest
+byline: "By Ameen-e-Mudassar"
 year: 2007
 language: "English"
 type: "Article"

@@ -1,6 +1,7 @@
 ---
 title: "‘Organizational Slavery: The Bane of Modern Muslim Movements’ (Part II)"
 author: young-muslim-digest
+byline: "By CNRS, France"
 year: 2007
 language: "English"
 type: "Interview"

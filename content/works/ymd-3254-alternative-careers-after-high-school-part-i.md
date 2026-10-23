@@ -1,6 +1,7 @@
 ---
 title: "Alternative Careers after High School – (Part I)"
 author: young-muslim-digest
+byline: "By Ameen-e-Mudassiar"
 year: 2007
 language: "English"
 type: "Article"

@@ -1,6 +1,7 @@
 ---
 title: "The First War of Indian Independence: Recounting Untold History 150 Years On"
 author: young-muslim-digest
+byline: "By M. Burhanuddin Qasmi"
 year: 2007
 language: "English"
 type: "Essay"

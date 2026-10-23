@@ -1,6 +1,7 @@
 ---
 title: "At the Crossroads"
 author: young-muslim-digest
+byline: "By Talha Chawdhury"
 year: 2007
 language: "English"
 type: "Essay"

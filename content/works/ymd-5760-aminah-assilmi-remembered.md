@@ -1,6 +1,7 @@
 ---
 title: "Aminah Assilmi Remembered"
 author: young-muslim-digest
+byline: "By Mushfiqur Rahman"
 year: 2014
 language: "English"
 type: "Essay"

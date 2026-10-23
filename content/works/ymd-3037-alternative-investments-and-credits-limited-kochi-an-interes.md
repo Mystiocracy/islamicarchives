@@ -1,6 +1,7 @@
 ---
 title: "Alternative Investments and Credits Limited, Kochi: an Interest Free Venture"
 author: young-muslim-digest
+byline: "By K. K. Ali"
 year: 2007
 language: "English"
 type: "Article"

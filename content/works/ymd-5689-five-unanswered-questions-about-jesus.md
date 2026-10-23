@@ -1,6 +1,7 @@
 ---
 title: "Five Unanswered Questions about Jesus"
 author: young-muslim-digest
+byline: "superadmin"
 year: 2014
 language: "English"
 type: "Article"

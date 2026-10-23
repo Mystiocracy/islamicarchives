@@ -1,6 +1,7 @@
 ---
 title: "The Psychological Role of Islam in Economic Development (Part-1)"
 author: young-muslim-digest
+byline: "By Muhammad Baqir Al-Sadr"
 year: 2014
 language: "English"
 type: "Article"

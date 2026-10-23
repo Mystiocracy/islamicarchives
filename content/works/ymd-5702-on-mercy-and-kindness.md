@@ -1,6 +1,7 @@
 ---
 title: "On Mercy and Kindness"
 author: young-muslim-digest
+byline: "superadmin"
 year: 2014
 language: "English"
 type: "Article"

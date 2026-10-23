@@ -5,7 +5,7 @@ year: 2005
 language: "English"
 type: "Article"
 keywords:
-  - "Uncategorized"
+  - "Letters"
 venue: "Young Muslim Digest, March 2005"
 rights: archival
 rightsNote: "Archival copy of an article first published by IQRA Publications; copyright remains with the publisher. Removed on request."

@@ -1,6 +1,7 @@
 ---
 title: "I have a Bee in My Bonnet – or Hijab to be More Precise!"
 author: young-muslim-digest
+byline: "By Yvonne Ridley"
 year: 2007
 language: "English"
 type: "Essay"

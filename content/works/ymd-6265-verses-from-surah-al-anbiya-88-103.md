@@ -1,6 +1,7 @@
 ---
 title: "Verses from Surah al-Anbiya (88-103)"
 author: young-muslim-digest
+byline: "From Tafsir Ishraq al-Ma'ani"
 year: 2014
 language: "English"
 type: "Article"

@@ -1,6 +1,7 @@
 ---
 title: "Mawlana Mawdudi"
 author: young-muslim-digest
+byline: "By Syed Iqbal Zaheer"
 year: 2007
 language: "English"
 type: "Essay"
