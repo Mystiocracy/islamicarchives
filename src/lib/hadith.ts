@@ -16,13 +16,14 @@ export function bukhari() {
   return cache;
 }
 
-let mcache: { books: Book[]; hadiths: Hadith[] } | null = null;
+let mcache: { books: Book[]; hadiths: Hadith[]; people: Record<string, Person> } | null = null;
 
-/** Ṣaḥīḥ Muslim: text only (no narrator chains yet), numbered as on sunnah.com ("8a", "8b", ... share the number 8). */
+/** Ṣaḥīḥ Muslim: texts and chains, numbered as on sunnah.com ("8a", "8b", ... share the number 8). */
 export function muslim() {
   if (!mcache) {
     const t = JSON.parse(fs.readFileSync('content/hadith/muslim.json', 'utf8'));
-    mcache = { books: t.books, hadiths: t.hadiths.map((h: Omit<Hadith, 'chains'>) => ({ ...h, chains: [] })) };
+    const n = JSON.parse(fs.readFileSync('public/hadith/muslim-narrators.json', 'utf8'));
+    mcache = { books: t.books, hadiths: t.hadiths, people: n.p };
   }
   return mcache;
 }
@@ -53,3 +54,4 @@ export function searchArabic(s: string) {
 export const sunnahUrl = (h: Hadith) => `https://sunnah.com/bukhari:${String(h.num).split('.')[0]}`;
 
 export const ARCHIVED = '2026-10-20';
+export const MUSLIM_ARCHIVED = '2026-10-24';

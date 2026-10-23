@@ -1,10 +1,11 @@
 {
   "title": "Hadith Hub",
-  "description": "The hadith section of Islamic Internet Archives: the full text of Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim, a tree of its narrators and the library's writings on hadith.",
+  "description": "The hadith section of Islamic Internet Archives: the full text of Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim, trees of their narrators and the library's writings on hadith.",
   "intro": "Tools and references for studying the Prophet's sayings and the chains that carried them. Everything here is searchable from the search box at the top of any page, and each chart carries an archived date and a note on how to cite it.",
   "tiles": [
     { "href": "/hadith/bukhari-narrators/", "ar": "رجال البخاري", "heading": "Narrators of Ṣaḥīḥ al-Bukhārī", "text": "Every narrator in al-Bukhārī's chains as a tree you can open branch by branch, from the Prophet ﷺ to al-Bukhārī, with dates, generations and Ibn Ḥajar's grades.", "note": "{n} narrators" },
     { "href": "/hadith/bukhari/", "ar": "صحيح البخاري", "heading": "Ṣaḥīḥ al-Bukhārī", "text": "The whole collection in Arabic and English, book by book, searchable in either language. Every chain of narrators links to the narrator tree.", "note": "{n} ḥadīth" },
+    { "href": "/hadith/muslim-narrators/", "ar": "رجال مسلم", "heading": "Narrators of Ṣaḥīḥ Muslim", "text": "Every narrator in Muslim's chains as a tree you can open branch by branch, from the Prophet ﷺ to Muslim, with dates, generations and Ibn Ḥajar's grades.", "note": "{n} narrators" },
     { "href": "/hadith/muslim/", "ar": "صحيح مسلم", "heading": "Ṣaḥīḥ Muslim", "text": "The whole collection in Arabic and English, book by book, searchable in either language and numbered as on sunnah.com.", "note": "{n} ḥadīth" },
     { "href": "/subjects/hadith-studies/", "ar": "علوم الحديث", "heading": "Hadith studies in the library", "text": "Books, papers and essays on the transmission, criticism and authority of hadith, from the library.", "note": "{n} works" }
   ]

@@ -1,7 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/hadith.css';
-import { muslim, ARCHIVED } from '../../../lib/hadith';
+import { muslim, MUSLIM_ARCHIVED as ARCHIVED } from '../../../lib/hadith';
 import { longDate } from '../../../lib/quran';
 
 const { books, hadiths } = muslim();
@@ -17,7 +17,7 @@ const plainNo = new Set(hadiths.map((h) => h.n));
     <header class="hd-head" data-pagefind-body>
       <span class="eyebrow">al-Musnad al-Ṣaḥīḥ · <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic',serif; text-transform:none">صحيح مسلم</span></span>
       <h1 data-pagefind-meta="title">Ṣaḥīḥ Muslim</h1>
-      <p class="muted" style="margin:0; font-size:17px; max-width:760px">The collection of Muslim b. al-Ḥajjāj al-Naysābūrī (d. 261 AH): {fmt(hadiths.length)} ḥadīth in {books.length} books, in Arabic and in Abdul Hamid Siddiqui's English translation, numbered as on sunnah.com. The Introduction (muqaddima) is not included. Numbering follows sunnah.com (8a, 8b … share the number 8), so it does not always run in order. Chains of narrators are not yet in the narrator tree.</p>
+      <p class="muted" style="margin:0; font-size:17px; max-width:760px">The collection of Muslim b. al-Ḥajjāj al-Naysābūrī (d. 261 AH): {fmt(hadiths.length)} ḥadīth in {books.length} books, in Arabic and in Abdul Hamid Siddiqui's English translation, numbered as on sunnah.com. The Introduction (muqaddima) is not included. Numbering follows sunnah.com (8a, 8b … share the number 8), so it does not always run in order. Every chain of narrators links to the <a href="/hadith/muslim-narrators/">narrator tree</a>.</p>
     </header>
 
     <section id="search" aria-labelledby="sh" style="display:flex; flex-direction:column; gap:12px">

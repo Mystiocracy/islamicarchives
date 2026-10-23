@@ -1,0 +1,238 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { longDate, SITE } from '../../../lib/quran';
+import fs from 'node:fs';
+
+const ARCHIVED = '2026-10-24';
+const TITLE = 'Narrators of Ṣaḥīḥ Muslim';
+const HERE = `${SITE}/hadith/muslim-narrators/`;
+const D = JSON.parse(fs.readFileSync('public/hadith/muslim-narrators.json', 'utf8'));
+const N = Object.keys(D.p).filter((k) => +k > 0).length;
+const fmt = (n: number) => n.toLocaleString('en-GB');
+const people = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0);
+const noGen = people.filter(([, p]) => p.g == null).length;
+const noDeath = people.filter(([, p]) => p.d == null).length;
+const cite = `Islamic Internet Archives. “${TITLE}: A Tree of the Chains of Transmission.” Interactive chart compiled from the Hadith Narrators dataset and muslimscholars.info. Archived ${longDate(ARCHIVED)}. ${HERE}.`;
+
+// the busiest narrators, for the printed summary below the tree (also what search engines read)
+const top = Object.entries(D.p as Record<string, any>).filter(([k]) => +k > 0).sort((a, b) => b[1].h - a[1].h).slice(0, 25);
+---
+<Base title={TITLE} description={`All ${fmt(N)} narrators in the chains of Ṣaḥīḥ Muslim as an interactive tree, from the Prophet ﷺ to Muslim, with death dates, generations (ṭabaqāt) and Ibn Ḥajar's grades.`} current="hadith">
+  <div class="wrap" style="padding-top:28px; padding-bottom:0">
+    <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 14px"><a href="/hadith/">Hadith Hub</a> › Narrators of Ṣaḥīḥ Muslim</nav>
+  </div>
+  <div class="ap-band" data-pagefind-body>
+    <div class="ap">
+      <p class="sub">Rijāl Muslim</p>
+      <h1 data-pagefind-meta="title">Narrators of Ṣaḥīḥ Muslim</h1>
+      <p class="sub">{fmt(N)} narrators in the chains of {fmt(D.nh)} ḥadīth, from the Prophet ﷺ to Muslim. Archived {longDate(ARCHIVED)}.</p>
+
+      <div class="iq-warn" role="note">
+        <p><strong>Compiled automatically: it may contain mistakes.</strong> The chains and names were put together with an AI assistant (Claude, by Anthropic) from two public databases, listed at the foot of the page, and were not checked chain by chain against the printed Ṣaḥīḥ. Treat it as a map for finding your way, and check anything you rely on against Muslim's text and the books of rijāl.</p>
+      </div>
+
+      <p>Start from the Prophet ﷺ and follow each narrator to the people who took ḥadīth from him, or start from Muslim and go back through his teachers. Tap a name to open the next generation and to see that narrator's details: his dates, where he lived and died, his grade, and everyone he narrates from and to in the Ṣaḥīḥ. Any narrator can become the start of a new tree. The green count beside each teacher or student lists the ḥadīth that passed between them. Tap a ḥadīth in a list to light up its whole chain in the tree, or tap <em>Read</em> to open it in Arabic and English in <a href="/hadith/muslim/">the full text of the Ṣaḥīḥ</a>.</p>
+    </div>
+  </div>
+
+  <section class="bt" aria-label="Narrator tree">
+    <div class="bt-bar">
+      <div class="bt-seg" role="group" aria-label="View">
+        <button type="button" id="vTree" aria-pressed="true">Tree</button>
+        <button type="button" id="vIndex" aria-pressed="false">All narrators</button>
+      </div>
+      <div class="bt-seg" role="group" aria-label="Where the tree starts" id="dirSeg">
+        <button type="button" id="dDown" aria-pressed="true">From the Prophet ﷺ</button>
+        <button type="button" id="dUp" aria-pressed="false">From Muslim</button>
+      </div>
+      <div class="bt-search">
+        <label for="btq" class="sr-only">Find a narrator</label>
+        <input id="btq" type="search" placeholder="Find a narrator: Zuhri, Malik, Aisha…" autocomplete="off">
+        <div class="bt-res" id="btres" hidden></div>
+      </div>
+    </div>
+    <div class="bt-body">
+      <div id="treeView" class="bt-view">
+        <svg id="btsvg" role="img" aria-label="Tree of narrators"><g id="btvp"><g class="links"></g><g class="nodes"></g></g></svg>
+        <div class="bt-crumb" id="btcrumb"></div>
+        <p class="bt-loading" id="btload">Loading the narrators…</p>
+        <div class="bt-legend" id="btlegend"></div>
+      </div>
+      <div id="indexView" class="bt-view bt-index" hidden>
+        <div class="bt-ixtools">
+          <label for="ixq" class="sr-only">Filter narrators</label>
+          <input id="ixq" type="search" placeholder="Filter by name or place">
+          <label for="ixg" class="sr-only">Generation</label>
+          <select id="ixg"><option value="">All generations</option></select>
+          <span id="ixn" class="muted"></span>
+        </div>
+        <div class="bt-tablewrap"><table>
+          <thead><tr><th data-k="n">Narrator</th><th data-k="g">Generation</th><th data-k="d" class="r">Died (AH)</th><th data-k="dp">Died in</th><th data-k="gr">Grade</th><th data-k="h" class="r" aria-sort="descending">Ḥadīth</th></tr></thead>
+          <tbody id="ixb"></tbody>
+        </table></div>
+      </div>
+      <aside id="btcard" class="bt-card" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <div class="ap-band" style="border-bottom:0">
+    <div class="ap">
+      <h2>Reading the tree</h2>
+      <ul>
+        <li><strong>Colours</strong> show the generation (ṭabaqa) in Ibn Ḥajar's scheme in <em>Taqrīb al-Tahdhīb</em>: 1 for the Companions, 2 to 6 for the Successors from senior to junior, 7 to 9 for their followers, and 10 to 12 for the generations Muslim studied with.</li>
+        <li><strong>The number</strong> after a name is how many of Muslim's ḥadīth pass along that link. Thicker lines carry more ḥadīth. Tap the name and the card lists those ḥadīth; tap one of them to light up its full chain in gold.</li>
+        <li><strong>A dashed ring</strong> means the name has a further generation to open. Long lists open twelve at a time; tap “more” for the rest.</li>
+        <li><strong>Dates</strong> are death years in hijri; the narrator card adds the Common Era year.</li>
+        <li><strong>Grades</strong> follow muslimscholars.info's summary of Ibn Ḥajar's verdicts: <em>thiqa</em> (trustworthy), <em>thiqa thiqa</em> (doubly so), <em>ṣadūq</em> (truthful), <em>maqbūl</em> (acceptable when supported) and so on.</li>
+      </ul>
+
+      <h2>About the data</h2>
+      <p>The chains come from the Hadith Narrators dataset, which gives the narrators of each ḥadīth in the Six Books as numbered entries from muslimscholars.info. For Muslim it gives chains for {fmt(D.nh)} of the {fmt(D.nt)} ḥadīth here (the Introduction is left out), which were matched to the sunnah.com numbering by comparing their Arabic text. The names, dates, generations and grades were then taken from each narrator's page on muslimscholars.info. A link between two people means one received a ḥadīth from the other in at least one of Muslim's chains.</p>
+      <p>Some limits follow from this. Muslim often gives one text through several chains, joined by <em>taḥwīl</em> (ح). The dataset lists the names of all of them in one run, so they were separated here by starting a new chain wherever a name comes back; this works for the common patterns, but some secondary chains are cut short and a few may be joined wrongly. Muslim also repeats ḥadīth, and the counts include the repeats. Names in the chains were matched to people automatically, and a few links look doubtful (a Companion shown narrating from a later figure, for instance). Chains that end at a Companion are joined to the Prophet ﷺ; those that end at a later narrator are left as they are. {fmt(noGen)} narrators have no generation recorded and {fmt(noDeath)} have no death date.</p>
+
+      <h2>The most-cited narrators</h2>
+      <div class="a-scroll"><table>
+        <thead><tr><th>Narrator</th><th>Generation</th><th>Died (AH)</th><th>Ḥadīth through him</th></tr></thead>
+        <tbody>
+          {top.map(([, p]) => <tr><td>{p.n}</td><td>{p.g ?? '–'}</td><td>{p.d ?? '–'}</td><td>{fmt(p.h)}</td></tr>)}
+        </tbody>
+      </table></div>
+
+      <h2>Sources and further reading</h2>
+      <ul>
+        <li>Hadith Narrators dataset (Kaggle), mirrored on Hugging Face as <a href="https://huggingface.co/datasets/Almoooo/dataset_hadith" rel="noopener" target="_blank">Almoooo/dataset_hadith</a>: the chains</li>
+        <li><a href="https://muslimscholars.info/" rel="noopener" target="_blank">muslimscholars.info</a>: names, dates, generations, places and grades; each narrator card links to the full entry</li>
+        <li>Ibn Ḥajar al-ʿAsqalānī, <em>Taqrīb al-Tahdhīb</em> and <em>Tahdhīb al-Tahdhīb</em>; al-Mizzī, <em>Tahdhīb al-Kamāl</em> (the printed sources for the generations and grades)</li>
+        <li><a href="/hadith/muslim/">Ṣaḥīḥ Muslim</a> on this site, searchable in Arabic and English (text from the open <a href="https://github.com/fawazahmed0/hadith-api" rel="noopener" target="_blank">hadith-api</a> collection), and on <a href="https://sunnah.com/muslim" rel="noopener" target="_blank">sunnah.com</a></li>
+        <li><a href="/subjects/hadith-studies/">Hadith studies</a> in this library</li>
+      </ul>
+
+      <footer class="ap-foot">
+        <p><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>How to cite:</strong> {cite}</p>
+        <p>Compiled with AI assistance from the sources above; it may contain mistakes in names, dates or links. Corrections are welcome.</p>
+      </footer>
+    </div>
+  </div>
+  <script is:inline src="/js/d3.v7.8.5.min.js"></script>
+  <script is:inline>window.BT_CFG = { data: '/hadith/muslim-narrators.json', snips: '/hadith/muslim-snips.json', text: '/hadith/muslim/', who: 'Muslim' };</script>
+  <script is:inline src="/js/hadith-tree.js" defer></script>
+</Base>
+<style is:global>
+  .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .ap { max-width: 880px; margin: 0 auto; padding: 24px 18px 30px; color: #222; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
+  .ap h1 { font: 700 1.9rem/1.25 Georgia, 'Times New Roman', serif; margin: 0.3em 0 0.2em; color: #222; }
+  .ap .sub { color: #666; font-style: italic; margin: 0 0 1em; }
+  .ap h2 { font: 700 1.3rem/1.3 Georgia, 'Times New Roman', serif; margin: 2em 0 0.5em; border-bottom: 1px solid #d8d2c2; padding-bottom: 0.2em; color: #1d5c4a; }
+  .ap p { margin: 1em 0; }
+  .ap a { color: #1d5c4a; }
+  .ap ul { padding-left: 1.2em; }
+  .ap li { margin: 0.4em 0; }
+  .ap .a-scroll { overflow-x: auto; }
+  .ap table { border-collapse: collapse; width: 100%; font-size: 0.88rem; background: #fff; }
+  .ap th, .ap td { border: 1px solid #d8d2c2; padding: 6px 8px; vertical-align: top; text-align: left; }
+  .ap th { background: rgba(29, 92, 74, 0.12); }
+  .ap-foot { margin-top: 3em; font-size: 0.88rem; color: #666; border-top: 1px solid #d8d2c2; padding-top: 1em; overflow-wrap: anywhere; }
+  .ap-foot strong { color: #222; }
+  .iq-warn { background: #fff4e5; border: 1px solid #e3b977; padding: 12px 16px; margin: 18px 0; font-size: 0.95rem; }
+  .iq-warn p { margin: 0; }
+
+  /* the tool */
+  .bt { --g1: #a8730f; --g2: #8b861c; --g3: #5c8838; --g4: #2e8364; --g5: #1d7c84; --g6: #226f98; --g7: #3961a6; --g8: #5357ab; --g9: #6b4ea4; --g10: #824896; --g11: #93457d; --g12: #994864; --gnone: #8b948f; --prophet: #1E5A4C; --compiler: #14201E;
+    max-width: min(1600px, 100%); margin: 0 auto; padding: 18px clamp(12px, 2vw, 32px) 30px; font-family: var(--sans); }
+  .bt-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 12px; }
+  .bt-seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
+  .bt-seg button { font: 500 14px/1.2 var(--sans); border: 0; background: transparent; padding: 9px 16px; cursor: pointer; color: var(--ink-2); }
+  .bt-seg button + button { border-left: 1px solid var(--line); }
+  .bt-seg button[aria-pressed="true"] { background: var(--green); color: #fff; }
+  .bt-search { position: relative; flex: 1 1 260px; max-width: 420px; margin-left: auto; }
+  .bt-search input { width: 100%; padding: 9px 12px; font-size: 15px; }
+  .bt-res { position: absolute; z-index: 40; top: calc(100% + 4px); left: 0; right: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; max-height: 55vh; overflow: auto; box-shadow: 0 10px 28px rgba(20,32,30,.14); }
+  .bt-res button { display: flex; width: 100%; justify-content: space-between; gap: 8px; text-align: left; border: 0; background: transparent; padding: 8px 12px; cursor: pointer; font: 15px/1.3 var(--sans); color: var(--ink); }
+  .bt-res button:hover, .bt-res button.on { background: var(--green-tint); }
+  .bt-res small { color: var(--muted); font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .bt-body { display: flex; height: min(78vh, 820px); min-height: 460px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); overflow: hidden; position: relative; }
+  .bt-view { flex: 1; min-width: 0; position: relative; }
+  #btsvg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; background: #fdfcf9; }
+  .bt-crumb { position: absolute; top: 10px; left: 14px; right: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 14px; color: var(--muted); pointer-events: none; }
+  .bt-crumb > * { pointer-events: auto; }
+  .bt-crumb strong { color: var(--ink); font-family: var(--serif); }
+  .bt-tool { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 4px 10px; cursor: pointer; font: 13px var(--sans); color: var(--ink-2); }
+  .bt-loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; margin: 0; color: var(--muted); }
+  .bt-legend { position: absolute; bottom: 10px; left: 12px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; color: var(--muted); max-width: min(620px, calc(100% - 24px)); background: rgba(253,252,249,.9); padding: 6px 8px; border-radius: 6px; }
+  .bt-legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+  .bt .node text { font: 12.5px var(--sans); fill: var(--ink); cursor: pointer; }
+  .bt .node text .yr { fill: var(--muted); font-size: 11px; }
+  .bt .node text .ct { fill: var(--green); font-size: 11px; font-weight: 600; }
+  .bt .node circle { stroke: #fff; stroke-width: 1.5; cursor: pointer; }
+  .bt .node.sel text { font-weight: 600; }
+  .bt .node.sel circle { stroke: var(--saffron); stroke-width: 2.5; }
+  .bt .node.more text { fill: var(--green); font-style: italic; }
+  .bt .node.cyc text { fill: var(--muted); font-style: italic; }
+  .bt .node:focus { outline: none; } .bt .node:focus-visible circle { stroke: var(--saffron); stroke-width: 3; }
+  .bt .links path { fill: none; stroke: #b9c4bf; stroke-opacity: .8; }
+
+  .bt-card { width: 380px; flex: none; border-left: 1px solid var(--line); overflow-y: auto; padding: 18px 20px 26px; font-size: 15px; }
+  .bt-card .eyebrow { text-transform: uppercase; letter-spacing: .07em; font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+  .bt-card .eyebrow i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
+  .bt-card h2 { font: 600 24px/1.2 var(--serif); margin: 6px 0 2px; text-wrap: balance; }
+  .bt-card .kunya { color: var(--muted); font: italic 16px var(--serif); margin: 0 0 8px; }
+  .bt-card .full { font-size: 13.5px; color: var(--muted); margin: 0 0 12px; }
+  .bt-card dl { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; margin: 0 0 14px; font-size: 14.5px; }
+  .bt-card dt { color: var(--muted); } .bt-card dd { margin: 0; min-width: 0; }
+  .bt-card .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+  .bt-card .actions button { font: 600 14px var(--sans); border: 1px solid var(--green); color: var(--green); background: var(--surface); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+  .bt-card .actions button.primary { background: var(--green); color: #fff; }
+  .bt-card h3 { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 16px 0 4px; display: flex; justify-content: space-between; gap: 12px; }
+  .bt-card ul { list-style: none; padding: 0; margin: 0; }
+  .bt-card li { padding: 5px 0; border-bottom: 1px solid var(--line-2); font-size: 14.5px; }
+  .bt-card li .row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .bt-card button.cnt { flex: none; border: 1px solid var(--green-line); background: var(--green-tint); color: var(--green); border-radius: 999px; padding: 1px 8px; font: 600 12px var(--sans); cursor: pointer; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .bt-card button.cnt[aria-expanded="true"] { background: var(--green); color: #fff; border-color: var(--green); }
+  .bt-card .links-here:empty { display: none; }
+  .bt-card .links-here { margin: 6px 0 4px; }
+  .bt-card ol.hlist { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--green-line); }
+  .bt-card li.hl { border: 0; padding: 0; }
+  .bt-card li.hl { display: flex; align-items: flex-start; gap: 4px; }
+  .bt-card li.hl button.hlb { flex: 1; min-width: 0; display: grid; grid-template-columns: 3.4em 1fr; gap: 8px; padding: 5px 8px; border: 0; background: none; text-align: left; cursor: pointer; color: var(--ink-2); font: 13.5px/1.45 var(--sans); border-radius: 6px; }
+  .bt-card li.hl button.hlb:hover { background: var(--green-tint); }
+  .bt-card li.hl.on button.hlb { background: var(--saffron-tint); box-shadow: inset 3px 0 0 var(--saffron); }
+  .bt-card li.hl a.rd { flex: none; font: 600 12px var(--sans); color: var(--green); padding: 6px 6px 0; text-decoration: none; }
+  .bt-card li.hl a.rd:hover { text-decoration: underline; }
+  .bt .links path.hl { stroke: var(--saffron); stroke-opacity: 1; }
+  .bt.hl-on .links path:not(.hl) { stroke-opacity: .3; }
+  .bt.hl-on .node:not(.onpath) text { opacity: .5; }
+  .bt .node.onpath text { font-weight: 600; opacity: 1; }
+  .bt .node.onpath circle { stroke: var(--saffron); stroke-width: 2.5; stroke-dasharray: none; }
+  .bt-hlnote { background: var(--saffron-tint); color: var(--ink); border: 1px solid #E7CFA4; border-radius: 6px; padding: 3px 8px; }
+  .bt-hlnote a { color: var(--green); font-weight: 600; }
+  .bt-hlpath { flex-basis: 100%; font-size: 13px; line-height: 1.6; color: var(--ink-2); background: rgba(253,252,249,.92); border-radius: 6px; padding: 2px 6px; }
+  .bt-hlpath b { font-weight: 600; }
+  .bt-card li.hl b { color: var(--green); font-variant-numeric: tabular-nums; }
+  .bt-card .hl-load { font-size: 13px; color: var(--muted); margin: 4px 0; }
+  .bt-card li .row button[data-id] { border: 0; background: none; padding: 0; cursor: pointer; text-align: left; color: var(--ink); font: inherit; min-width: 0; }
+  .bt-card li .row button[data-id]:hover { color: var(--green); text-decoration: underline; }
+  .bt-card .yr, .bt-card .num { color: var(--muted); font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .bt-card .showall { border: 0; background: none; color: var(--green); cursor: pointer; padding: 6px 0; font: 600 14px var(--sans); }
+  .bt-card .ext { font-size: 13.5px; color: var(--muted); margin: 14px 0 0; }
+  .bt-card .close { display: none; }
+
+  .bt-index { overflow: auto; padding: 14px 16px 24px; }
+  .bt-ixtools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; font-size: 14px; }
+  .bt-ixtools input, .bt-ixtools select { padding: 8px 10px; font-size: 15px; }
+  .bt-tablewrap { overflow-x: auto; }
+  .bt-index table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  .bt-index th { text-align: left; font: 600 12px var(--sans); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; border-bottom: 1px solid var(--line); padding: 8px; cursor: pointer; white-space: nowrap; position: sticky; top: -14px; background: var(--surface); }
+  .bt-index th[aria-sort="ascending"]::after { content: " ↑"; } .bt-index th[aria-sort="descending"]::after { content: " ↓"; }
+  .bt-index td { border-bottom: 1px solid var(--line-2); padding: 6px 8px; vertical-align: top; }
+  .bt-index .r { text-align: right; font-variant-numeric: tabular-nums; }
+  .bt-index tbody tr { cursor: pointer; } .bt-index tbody tr:hover { background: var(--green-tint); }
+  .bt-index .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; }
+
+  @media (max-width: 860px) {
+    .bt-body { height: 74vh; }
+    .bt-search { max-width: none; flex-basis: 100%; margin-left: 0; order: 3; }
+    .bt-card { position: absolute; z-index: 30; left: 0; right: 0; bottom: 0; width: auto; max-height: 64%; border-left: 0; border-top: 1px solid var(--line); background: var(--surface); box-shadow: 0 -10px 28px rgba(20,32,30,.16); border-radius: 14px 14px 0 0; padding-top: 16px; }
+    .bt-card .close { display: block; position: absolute; top: 10px; right: 12px; border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 32px; height: 32px; cursor: pointer; font-size: 18px; line-height: 1; }
+    .bt-legend { display: none; }
+  }
+</style>

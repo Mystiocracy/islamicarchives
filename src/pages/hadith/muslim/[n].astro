@@ -1,7 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/hadith.css';
-import { muslim, searchArabic, muslimUrl, ARCHIVED, type Hadith } from '../../../lib/hadith';
+import { muslim, searchArabic, muslimUrl, MUSLIM_ARCHIVED as ARCHIVED, type Hadith } from '../../../lib/hadith';
 import { longDate, SITE } from '../../../lib/quran';
 
 export function getStaticPaths() {
@@ -9,10 +9,14 @@ export function getStaticPaths() {
   return hadiths.map((h, i) => ({ params: { n: h.n }, props: { i } }));
 }
 const { i } = Astro.props as { i: number };
-const { hadiths, books } = muslim();
+const { hadiths, books, people } = muslim();
 const h: Hadith = hadiths[i];
 const prev = hadiths[i - 1], next = hadiths[i + 1];
 const book = books.find((b) => b.k === h.book);
+const yr = (y?: number) => (y == null ? '' : y < 0 ? `${-y} BH` : `d. ${y}`);
+const person = (id: number) => people[String(id)] || { n: `Narrator #${id}`, h: 0 };
+// each chain runs from Muslim's teacher back to the earliest narrator; show it from the Prophet ﷺ forward
+const chains = h.chains.map((ch) => ({ ids: [...ch].reverse(), toProphet: person(ch[ch.length - 1]).g === 1 }));
 const here = `${SITE}/hadith/muslim/${h.n}/`;
 const cite = `Muslim, Ṣaḥīḥ Muslim, ḥadīth ${h.n}${book ? ` (Book ${book.k}, ${book.name}, no. ${h.inbook})` : ''}. English translation by Abdul Hamid Siddiqui. In Islamic Internet Archives, archived ${longDate(ARCHIVED)}. ${here}.`;
 const title = `Ṣaḥīḥ Muslim ${h.n}`;
@@ -32,9 +36,24 @@ const lead = h.en.replace(/\s+/g, ' ').slice(0, 150);
     {h.en && <p class="hd-en">{h.en}</p>}
     {h.en && <p class="hd-credit" data-pagefind-ignore>English translation by Abdul Hamid Siddiqui.</p>}
 
-    <p class="hd-note" data-pagefind-ignore>The chain of narrators is the opening of the Arabic text. Chains for Ṣaḥīḥ Muslim are not yet in the narrator tree.</p>
+    <section data-pagefind-ignore>
+      <h2>{chains.length > 1 ? 'Chains of narrators' : 'Chain of narrators'}</h2>
+      {chains.length === 0 && <p class="hd-note">The narrator dataset used here has no chain for this ḥadīth. The chain can be read at the start of the Arabic text.</p>}
+      {chains.map((c, k) => (
+        <>
+          {chains.length > 1 && <p class="hd-note" style="margin-top:12px">Chain {k + 1}</p>}
+          <ol class="hd-chain">
+            {c.toProphet && <li><span class="pr">The Prophet ﷺ<small>d. 11</small></span></li>}
+            {c.ids.map((id) => { const p = person(id); return <li><a href={`/hadith/muslim-narrators/#n${id}`}>{p.n}<small>{yr(p.d) || (p.g === 1 ? 'Companion' : '')}</small></a></li>; })}
+            <li><a class="bk" href="/hadith/muslim-narrators/#n0">Muslim<small>d. 261</small></a></li>
+          </ol>
+        </>
+      ))}
+      <p class="hd-note" style="margin-top:10px">Each name opens that narrator in the <a href="/hadith/muslim-narrators/">tree of Muslim's narrators</a>. Chains come from an automatically matched dataset and may contain mistakes; where the ḥadīth has several chains, some may be incomplete.</p>
+    </section>
 
     <div class="hd-links" data-pagefind-ignore>
+      {h.chains.length > 0 && <a class="btn btn-outline" href={`/hadith/muslim-narrators/#h${h.n}`}>Show this chain in the tree</a>}
       <a class="btn btn-quiet" href={muslimUrl(h)} rel="noopener" target="_blank">Read on sunnah.com ↗</a>
       {book && <a class="btn btn-quiet" href={`/hadith/muslim/book/${book.k}/`}>All of Book {book.k}</a>}
       <a class="btn btn-quiet" href="/hadith/muslim/#search">Search Ṣaḥīḥ Muslim</a>

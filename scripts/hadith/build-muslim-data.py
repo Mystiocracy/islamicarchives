@@ -33,7 +33,7 @@ for h in ara['hadiths']:
     assert n not in seen, n
     seen.add(n)
     base = int(str(an).split('.')[0])
-    hadiths.append(dict(n=n, num=base, book=h['reference']['book'], inbook=h['reference']['hadith'], ar=ar, en=en))
+    hadiths.append(dict(n=n, hn=h['hadithnumber'], num=base, book=h['reference']['book'], inbook=h['reference']['hadith'], ar=ar, en=en))
 
 books = []
 for k, name in eng['metadata']['sections'].items():

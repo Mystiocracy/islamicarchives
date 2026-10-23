@@ -14,4 +14,4 @@ The paths at the top of each script point to the folder where the downloads were
 
 ## Ṣaḥīḥ Muslim
 
-`build-muslim-data.py` writes `content/hadith/muslim.json` from the hadith-api editions `ara-muslim` and `eng-muslim` (English by Abdul Hamid Siddiqui). Text only: there is no chain data for Muslim yet.
+`build-muslim-data.py` writes `content/hadith/muslim.json` from the hadith-api editions `ara-muslim` and `eng-muslim` (English by Abdul Hamid Siddiqui). Then `match-muslim.py` matches the dataset's Muslim rows to those numbers by Arabic text, and `build-muslim-chains.py` adds the chains (several isnads in one row are split where a name comes back) and writes `public/hadith/muslim-narrators.json` and `muslim-snips.json`.

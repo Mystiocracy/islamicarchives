@@ -1,9 +1,11 @@
-/* Narrators of Ṣaḥīḥ al-Bukhārī: collapsible tree, narrator card, search and index.
-   Data: /hadith/bukhari-narrators.json  { p: {id: person}, e: [[teacher, student, count]], x: {"t_s": [hadith nos]}, nh }
-   id -1 is the Prophet ﷺ, id 0 is al-Bukhārī; other ids are muslimscholars.info numbers. */
+/* Narrators of a ṣaḥīḥ (al-Bukhārī or Muslim): collapsible tree, narrator card, search and index.
+   Data: CFG.data (default /hadith/bukhari-narrators.json)  { p: {id: person}, e: [[teacher, student, count]], x: {"t_s": [hadith nos]}, nh }
+   id -1 is the Prophet ﷺ, id 0 is the compiler; other ids are muslimscholars.info numbers. */
 (function () {
   'use strict';
   var GEN = { 0: 'The Prophet ﷺ', 1: 'Companions', 2: 'Senior Successors', 3: 'Middle Successors', 4: 'Successors of the fourth generation', 5: 'Junior Successors', 6: 'Contemporaries of the junior Successors', 7: 'Senior followers of the Successors', 8: 'Middle followers of the Successors', 9: 'Junior followers of the Successors', 10: 'Senior students of the followers', 11: 'Middle students of the followers', 12: 'Junior students of the followers' };
+  // The page sets window.BT_CFG for other books; the defaults are al-Bukhārī
+  var CFG = Object.assign({ data: '/hadith/bukhari-narrators.json', snips: '/hadith/bukhari-snips.json', text: '/hadith/bukhari/', who: 'al-Bukhārī' }, window.BT_CFG || {});
   var PAGE = 12;
   var $ = function (id) { return document.getElementById(id); };
   var host = document.querySelector('.bt');
@@ -14,7 +16,7 @@
   var short = function (s, n) { n = n || 32; return s.length > n ? s.slice(0, n - 1) + '…' : s; };
   var css = function (v) { return getComputedStyle(host).getPropertyValue(v).trim(); };
 
-  fetch('/hadith/bukhari-narrators.json').then(function (r) { return r.json(); }).then(start).catch(function () {
+  fetch(CFG.data).then(function (r) { return r.json(); }).then(start).catch(function () {
     $('btload').textContent = 'The narrator data could not be loaded. Please reload the page.';
   });
 
@@ -131,28 +133,28 @@
     }
     function drawCrumb() {
       var p = P[rootId] || {};
-      $('btcrumb').innerHTML = '<span>Showing the <strong>' + (mode === 'down' ? 'students' : 'teachers') + '</strong> of <strong>' + esc(p.n) + '</strong> in al-Bukhārī’s chains.</span>' +
+      $('btcrumb').innerHTML = '<span>Showing the <strong>' + (mode === 'down' ? 'students' : 'teachers') + '</strong> of <strong>' + esc(p.n) + '</strong> in ' + CFG.who + '’s chains.</span>' +
         '<button type="button" class="bt-tool" id="btcollapse">Close all branches</button><button type="button" class="bt-tool" id="btfit">Back to the start</button>' +
         (hlNum ? '<span class="bt-hlnote">Chain of ḥadīth <strong>' + esc(hlNum) + '</strong> lit up' + (hlOf > 1 ? ' (chain ' + (hlIdx + 1) + ' of ' + hlOf + ' <button type="button" class="bt-tool" id="btnextchain">Next chain</button>)' : '') +
-          ' · <a href="/hadith/bukhari/' + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
+          ' · <a href="' + CFG.text + esc(hlNum) + '/">Read it</a> <button type="button" class="bt-tool" id="btclearhl">Clear</button></span>' +
           '<span class="bt-hlpath">' + hlSeq.map(function (id) { var q = P[id] || {}; return '<b>' + esc(short(q.n || ('#' + id), 26)) + '</b>'; }).join(' → ') + '</span>' : '');
       $('btcollapse').onclick = function () { clearHl(); setRoot(rootId); };
       if ($('btclearhl')) $('btclearhl').onclick = function () { clearHl(); render(false); };
       if ($('btnextchain')) $('btnextchain').onclick = function () { showChain(hlNum, hlIdx + 1); };
       $('btfit').onclick = function () { render(true); };
     }
-    var leg = [[-1, 'The Prophet ﷺ']].concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map(function (g) { return ['g' + g, g === 1 ? '1 Companions' : String(g)]; })).concat([[0, 'al-Bukhārī']]);
+    var leg = [[-1, 'The Prophet ﷺ']].concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map(function (g) { return ['g' + g, g === 1 ? '1 Companions' : String(g)]; })).concat([[0, CFG.who]]);
     $('btlegend').innerHTML = leg.map(function (k) { return '<span><i style="background:var(' + (typeof k[0] === 'string' ? '--' + k[0] : gvar(k[0])) + ')"></i>' + k[1] + '</span>'; }).join('') +
       '<span>· generation (ṭabaqa) · number = ḥadīth along that link · dashed ring = more to open</span>';
 
     /* ---------- ḥadīth along a link ---------- */
     var snips = null, snipLoad = null;
-    function getSnips() { return snips ? Promise.resolve(snips) : (snipLoad = snipLoad || fetch('/hadith/bukhari-snips.json').then(function (r) { return r.json(); }).then(function (j) { snips = j; return j; })); }
+    function getSnips() { return snips ? Promise.resolve(snips) : (snipLoad = snipLoad || fetch(CFG.snips).then(function (r) { return r.json(); }).then(function (j) { snips = j; return j; })); }
     function hadithItems(key, from, to) {
       var ns = DATA.x[key] || [];
       return ns.slice(from, to).map(function (n) {
         var sn = snips && snips[n];
-        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="/hadith/bukhari/' + n + '/" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
+        return '<li class="hl' + (String(n) === String(hlNum) ? ' on' : '') + '" data-n="' + n + '"><button type="button" class="hlb" data-n="' + n + '" title="Light up this ḥadīth’s chain in the tree"><b>' + n + '</b><span>' + esc(sn ? sn[1] : '') + '</span></button><a class="rd" href="' + CFG.text + n + '/" aria-label="Read ḥadīth ' + n + '">Read</a></li>';
       }).join('');
     }
     function openLink(holder, key) {
@@ -238,7 +240,7 @@
         '<h2>' + esc(p.n) + '</h2>' + (p.k ? '<p class="kunya">' + esc(p.k) + '</p>' : '') + (p.f ? '<p class="full">' + esc(p.f) + '</p>' : '') +
         '<dl>' + (life ? '<dt>Life</dt><dd>' + life + '</dd>' : '') + (p.dp ? '<dt>Died in</dt><dd>' + esc(p.dp) + '</dd>' : '') +
         (p.pl ? '<dt>Lived in</dt><dd>' + esc(p.pl) + '</dd>' : '') + (p.gr && id > 0 ? '<dt>Grade</dt><dd>' + esc(p.gr) + '</dd>' : '') +
-        '<dt>In al-Bukhārī</dt><dd>' + p.h.toLocaleString('en-GB') + ' ' + what + '</dd></dl>' +
+        '<dt>In ' + CFG.who + '</dt><dd>' + p.h.toLocaleString('en-GB') + ' ' + what + '</dd></dl>' +
         '<div class="actions">' + ((teachers[id] || []).length ? '<button type="button" class="primary" data-root="' + id + '" data-dir="up">Tree of his teachers</button>' : '') +
         ((students[id] || []).length ? '<button type="button" data-root="' + id + '" data-dir="down">Tree of his students</button>' : '') + '</div>' +
         (viaKey && DATA.x[viaKey] ? '<h3><span>' + esc(viaName) + '</span><span>' + DATA.x[viaKey].length + '</span></h3><div class="links-here" id="btvia"></div>' : '') +
