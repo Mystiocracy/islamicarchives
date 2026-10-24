@@ -1,5 +1,7 @@
 # Publishing the site from your computer
 
+**Windows, short version:** install Node, Git and Python (one PowerShell line, below), clone the repository, double-click `setup-windows.cmd` once, then double-click `deploy.cmd` whenever you want to publish. pandoc and WeasyPrint are optional: without them the EPUB/Word/PDF files are not regenerated, and the ones already on the server stay as they are.
+
 GitHub only keeps a backup of the code. The live site is published from your computer with one command; no build or deploy runs on GitHub any more.
 
 ## One-time setup (about 20 minutes)
