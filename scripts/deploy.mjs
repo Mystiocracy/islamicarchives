@@ -36,6 +36,8 @@ for (const line of readFileSync(envFile, 'utf8').split(/\r?\n/)) {
   if (m && !line.trim().startsWith('#')) cfg[m[1]] = m[2];
 }
 for (const k of ['FTP_HOST', 'FTP_USER', 'FTP_PASS']) if (!cfg[k]) die(`.deploy.env has no ${k}.`);
+// tolerate a host typed as ftp://host/ or with spaces
+if (cfg.FTP_HOST) cfg.FTP_HOST = cfg.FTP_HOST.trim().replace(/^[a-z]+:\/\//i, '').replace(/\/.*$/, '');
 const BASE = (cfg.FTP_DIR || '.').replace(/\\/g, '/');
 const SECURE = (cfg.FTP_SECURE || 'true') !== 'false';
 
