@@ -11,7 +11,8 @@ const N: any[] = D.n;
 const M = D.meta;
 const fmt = (n: number) => n.toLocaleString('en-GB');
 const withBio = N.filter((n) => n[6]).length;
-const start = Math.max(0, N.findIndex((n) => n[1] === 'al-Zuhri'));
+// the atlas opens on the Prophet ﷺ (entry 0), the root of every chain; his students are the Companions
+const start = 0;
 const top = N.slice(1, 41);
 const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of Transmission.” Interactive chart compiled from Sanadset 650K (Mghari, Bouras and El Hibaoui, 2022) and muslimscholars.info. Archived ${longDate(ARCHIVED)}. ${HERE}.`;
 ---
@@ -120,7 +121,7 @@ const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of 
       </footer>
     </div>
   </div>
-  <script is:inline src="/js/isnad-atlas.js?v=3" defer></script>
+  <script is:inline src="/js/isnad-atlas.js?v=4" defer></script>
 </Base>
 <style is:global>
   .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
