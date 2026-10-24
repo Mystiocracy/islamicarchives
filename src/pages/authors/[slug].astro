@@ -62,7 +62,7 @@ const groups = CATEGORIES.map((c) => ({ ...c, works: works.filter((w) => categor
             <h3>{g.title}</h3>
             {g.items.length > 0 ? (
               <ul>
-                {g.items.map((l) => <li><a href={`/authors/${l.other}/`}>{allA.get(l.other)!.data.name}</a><span class="muted">{l.note}{l.source && /^https?:/.test(l.source) && <> <a class="conn-src" href={l.source} rel="noopener" target="_blank">Wikipedia ↗</a></>}</span></li>)}
+                {g.items.map((l) => <li><a href={`/authors/${l.other}/`}>{allA.get(l.other)!.data.name}</a><span class="muted">{l.note}{l.source && /^https?:/.test(l.source) && <> <a class="conn-src" href={l.source} rel="noopener" target="_blank">{/wikipedia\.org/.test(l.source) ? 'Wikipedia' : 'Source'} ↗</a></>}</span></li>)}
               </ul>
             ) : <p class="muted conn-none">None recorded yet</p>}
           </div>
