@@ -15,5 +15,6 @@ keywords:
 summary: "Based on his doctoral dissertation, a study of how the two Sahih collections came to be treated as canonical in Sunni Islam between the tenth and fourteenth centuries and what functions that canon served."
 rights: link-only
 rightsNote: "In copyright (living author)."
+infoUrl: "https://brill.com/display/title/12924"
 added: 2026-10-14
 ---
