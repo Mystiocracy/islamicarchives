@@ -1,12 +1,11 @@
 name: Build and deploy
 
-# Builds the site and puts the finished files on the `deploy` branch.
-# Hostinger's Git deployment pulls that branch into public_html
-# (and a webhook makes it pull automatically after every build).
+# NO LONGER USED. The site is built and published from the owner's PC with `npm run deploy`
+# (see DEPLOY.md); GitHub is only the backup of the code. This workflow is kept as a manual
+# fallback: it builds without the Sanadset text files, and publishing its `deploy` branch
+# would clear them from the server.
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 concurrency:

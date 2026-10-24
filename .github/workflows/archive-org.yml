@@ -1,19 +1,15 @@
 name: Save to the Internet Archive
 
-# After each successful deploy (and weekly), asks the Wayback Machine to take a fresh copy of the
+# Weekly (and on request), asks the Wayback Machine to take a fresh copy of the
 # main pages. Best effort: a failure here never affects the site.
 
 on:
-  workflow_run:
-    workflows: ["Build and deploy"]
-    types: [completed]
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
 
 jobs:
   save:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
