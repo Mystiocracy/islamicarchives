@@ -6,7 +6,7 @@
     {
       "id": "hadith",
       "ar": "الحديث",
-      "heading": "Hadith",
+      "heading": "Hadith Bouquet",
       "text": "The collections themselves, in Arabic and English, book by book and searchable.",
       "tiles": [
         {
@@ -28,7 +28,7 @@
     {
       "id": "isnad",
       "ar": "الأسانيد",
-      "heading": "Isnad",
+      "heading": "Isnād Atlas",
       "text": "The chains of narrators behind the ḥadīth: an atlas across the books, and a tree for each of the two Ṣaḥīḥ collections that opens branch by branch.",
       "tiles": [
         {
@@ -57,7 +57,7 @@
     {
       "id": "works",
       "ar": "مصنفات الحديث",
-      "heading": "Works on Hadith",
+      "heading": "Hadith Studies",
       "text": "Books, papers and essays in the library on the transmission, criticism and authority of ḥadīth.",
       "tiles": [
         {
