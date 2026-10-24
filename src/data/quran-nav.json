@@ -1,7 +1,37 @@
 [
-  { "key": "home", "href": "/quran/", "label": "Quran Hub" },
-  { "key": "corpus", "href": "/quran/corpus/", "label": "Word Corpus" },
-  { "key": "tafsir", "href": "/quran/tafsir/", "label": "Tafseer" },
-  { "key": "manuscripts", "href": "/quran/manuscripts/", "label": "Manuscript catalogue" },
-  { "key": "scholars", "href": "/quran/scholars/", "label": "Manuscript scholars" }
+  {
+    "key": "home",
+    "href": "/quran/",
+    "label": "Quran Hub"
+  },
+  {
+    "key": "corpus",
+    "href": "/quran/corpus/",
+    "label": "Word Corpus"
+  },
+  {
+    "key": "isnad",
+    "href": "/quran/manuscripts/qiraat-isnad/",
+    "label": "Isnād of the Ten Qirāʾāt"
+  },
+  {
+    "key": "tafsir",
+    "href": "/quran/tafsir/",
+    "label": "Tafseer"
+  },
+  {
+    "key": "works",
+    "href": "/subjects/quranic-studies/",
+    "label": "Works on the Qur'an"
+  },
+  {
+    "key": "manuscripts",
+    "href": "/quran/manuscripts/",
+    "label": "Manuscript catalogue"
+  },
+  {
+    "key": "scholars",
+    "href": "/quran/scholars/",
+    "label": "Manuscript scholars"
+  }
 ]

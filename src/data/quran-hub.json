@@ -1,11 +1,49 @@
 {
   "title": "Quran Hub",
-  "description": "The Quran section of Islamic Internet Archives: tafseer, the word-by-word corpus, a catalogue of early manuscripts and the scholars who study them.",
+  "description": "The Quran section of Islamic Internet Archives: the word-by-word corpus, the isnād of the ten qirāʾāt, tafseer, works on the Qur'an, and a catalogue of early manuscripts with the scholars who study them.",
   "intro": "Tools and references for studying the Qur'an. Everything here is searchable from the search box at the top of any page, and each catalogue entry carries an archived date and a note on how to cite it.",
   "tiles": [
-    { "href": "/quran/corpus/", "ar": "المعجم", "heading": "Quran Word Corpus", "text": "Read the Qur'an word by word, with the grammar and root of every word, a dictionary of roots, a table of verbs and a concordance.", "note": "Word-by-word tool" },
-    { "href": "/quran/tafsir/", "ar": "تفسير", "heading": "Tafseer", "text": "Commentaries on the Qur'an, translations with commentary and writings on interpretation, from the library.", "note": "{n} works" },
-    { "href": "/quran/manuscripts/", "ar": "مخطوطات", "heading": "Manuscript catalogue", "text": "Early Qur'an manuscripts, studies of their script and dating, and the libraries and databases that hold them.", "note": "{n} resources" },
-    { "href": "/quran/scholars/", "ar": "علماء", "heading": "Manuscript scholars", "text": "Scholars and research projects working on early Qur'an manuscripts: palaeography, codicology and textual variants.", "note": "{n} entries" }
+    {
+      "href": "/quran/corpus/",
+      "ar": "المعجم",
+      "heading": "Quran Word Corpus",
+      "text": "Read the Qur'an word by word, with the grammar and root of every word, a dictionary of roots, a table of verbs and a concordance.",
+      "note": "Word-by-word tool"
+    },
+    {
+      "href": "/quran/manuscripts/qiraat-isnad/",
+      "ar": "إسناد القراءات",
+      "heading": "Isnād of the Ten Qirāʾāt",
+      "text": "The ten canonical readings traced from the Prophet ﷺ through the Companions and Successors to the ten Imams and their rāwīs, as a tree, outline, chart and table.",
+      "note": "Ten Imams · 20 rāwīs"
+    },
+    {
+      "href": "/quran/tafsir/",
+      "ar": "تفسير",
+      "heading": "Tafseer",
+      "text": "Commentaries on the Qur'an, translations with commentary and writings on interpretation, from the library.",
+      "note": "{n} works"
+    },
+    {
+      "href": "/subjects/quranic-studies/",
+      "ar": "دراسات",
+      "heading": "Works on the Qur'an",
+      "text": "Books, papers and essays on the Qur'an in the library: interpretation, history of the text, language and the study of revelation.",
+      "note": "{n} works"
+    },
+    {
+      "href": "/quran/manuscripts/",
+      "ar": "مخطوطات",
+      "heading": "Manuscript catalogue",
+      "text": "Early Qur'an manuscripts, studies of their script and dating, and the libraries and databases that hold them.",
+      "note": "{n} resources"
+    },
+    {
+      "href": "/quran/scholars/",
+      "ar": "علماء",
+      "heading": "Manuscript scholars",
+      "text": "Scholars and research projects working on early Qur'an manuscripts: palaeography, codicology and textual variants.",
+      "note": "{n} entries"
+    }
   ]
 }

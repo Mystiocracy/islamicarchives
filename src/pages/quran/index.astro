@@ -10,7 +10,8 @@ const RX = /tafs[iīi]r|tafseer|commentary|exegesis|exegetical|interpretation of
 const tafsir = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies') &&
   (RX.test([w.data.title, w.data.titleOriginal, w.data.summary, w.data.keywords.join(' ')].filter(Boolean).join(' ')) || w.data.type === 'Translation')).length;
 // the page text lives in src/data/quran-hub.json (editable in /admin/ -> Data files); "{n}" in a note becomes the live count
-const counts: Record<string, number> = { '/quran/tafsir/': tafsir, '/quran/manuscripts/': manuscripts.length, '/quran/scholars/': scholars.length };
+const studies = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies')).length;
+const counts: Record<string, number> = { '/quran/tafsir/': tafsir, '/subjects/quranic-studies/': studies, '/quran/manuscripts/': manuscripts.length, '/quran/scholars/': scholars.length };
 const tiles = hub.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', String(counts[t.href] ?? '')) }));
 
 ---
