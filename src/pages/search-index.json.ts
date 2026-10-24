@@ -36,6 +36,7 @@ export async function GET() {
     ['Manuscript catalogue', '/quran/manuscripts/', 'quranic manuscripts codex palimpsest', 'Quran section'],
     ['Manuscripts of the Qur’an Attributable to the First Century of the Hijra', '/quran/manuscripts/first-century-manuscripts/', 'article study guide hijazi kufic radiocarbon dating palaeography islamic awareness first century hijra manuscripts', 'Manuscript catalogue · Article'],
     ['Isnād of the Ten Qirāʾāt', '/quran/manuscripts/qiraat-isnad/', 'qiraat qirat readings isnad tree turuq tariq riwayat rawi hafs warsh qalun nafi asim hamza kisai ibn kathir abu amr ibn amir abu jafar yaqub khalaf ibn al-jazari nashr', 'Manuscript catalogue · Chart'],
+    ['Works on the Qur\'an', '/quran/works/', 'quranic studies works books articles quran sciences', 'Quran section'],
     ['Manuscript scholars', '/quran/scholars/', 'quranic manuscripts researchers palaeography', 'Quran section'],
     ['Hadith Hub', '/hadith/', 'hadith sunnah isnad narrators rijal', 'Hadith section'],
     ['Ṣaḥīḥ al-Bukhārī', '/hadith/bukhari/', 'sahih bukhari hadith text arabic english search books', 'Hadith Hub · Text'],

@@ -1,0 +1,43 @@
+---
+import QuranStudy from '../../../components/QuranStudy.astro';
+import WorkViews from '../../../components/WorkViews.astro';
+import { allWorks } from '../../../lib/site';
+import { longDate, SITE } from '../../../lib/quran';
+
+const ARCHIVED = '2026-10-24';
+const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies'));
+const langs = new Set(works.map((w) => w.data.language)).size;
+const authorsN = new Set(works.map((w) => w.data.author.id)).size;
+const hosted = works.filter((w) => w.data.rights !== 'link-only').length;
+const cite = `Islamic Internet Archives. “Works on the Qur'an.” Archived ${longDate(ARCHIVED)}. ${SITE}/quran/works/.`;
+const views = [{ id: 'list', label: 'Library' }, { id: 'authors', label: 'By author' }, { id: 'timeline', label: 'Timeline' }, { id: 'language', label: 'By language' }, { id: 'table', label: 'Table' }];
+---
+<QuranStudy title="Works on the Qur'an" eyebrow="The Qur'an and its sciences"
+  sub={`${works.length} works by ${authorsN} authors in ${langs} languages, shown five ways. Archived ${longDate(ARCHIVED)}.`}
+  description="Every work in the archive on the Qur'an and its sciences, shown by author, by date, by language and as a searchable table, with an archived date and citation for each."
+  current="works" views={views} archived={ARCHIVED} cite={cite}>
+  <Fragment slot="intro">
+    <p>Everything in the archive filed under Qur'anic studies: commentaries and translations, studies of the Qur'an's language and structure, its history and compilation, and essays and lectures on its meaning. {hosted} of the {works.length} can be read here in full; the rest link to a free copy elsewhere. The commentaries and translations on their own are on the <a href="/quran/tafsir/">Tafseer</a> page.</p>
+    <ul>
+      <li><strong>Library:</strong> search, filter by language and type, with the archived date and citation for each work.</li>
+      <li><strong>By author:</strong> each writer with his or her works, oldest first.</li>
+      <li><strong>Timeline:</strong> the works by year of publication.</li>
+      <li><strong>By language:</strong> the works grouped by language.</li>
+      <li><strong>Table:</strong> everything in one list that you can search and sort.</li>
+    </ul>
+  </Fragment>
+  <Fragment slot="panels">
+    <WorkViews works={works} noun="works" placeholder="Search works on the Qur'an by title, author, language or topic" />
+  </Fragment>
+  <Fragment slot="after">
+    <h2>Related in the Quran Hub</h2>
+    <ul>
+      <li><a href="/quran/tafsir/">Tafseer</a>: commentaries and translations</li>
+      <li><a href="/quran/corpus/">Quran Word Corpus</a>: read the Qur'an word by word with grammar and roots</li>
+      <li><a href="/quran/manuscripts/qiraat-isnad/">Isnād of the Ten Qirāʾāt</a>: how the readings were transmitted</li>
+      <li><a href="/quran/manuscripts/">Manuscript catalogue</a> and <a href="/quran/scholars/">manuscript scholars</a></li>
+      <li>The same works in the general library: <a href="/subjects/quranic-studies/">Subjects → Qurʾānic studies</a></li>
+    </ul>
+  </Fragment>
+  <p slot="foot">Each work carries its own archived date and citation in the Library view.</p>
+</QuranStudy>

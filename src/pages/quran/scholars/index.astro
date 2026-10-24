@@ -1,12 +1,12 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import QuranSubnav from '../../../components/QuranSubnav.astro';
+import QuranStudy from '../../../components/QuranStudy.astro';
 import QList from '../../../components/QList.astro';
 import QEntry from '../../../components/QEntry.astro';
 import items from '../../../data/scholars.json';
-import { citeScholar, longDate } from '../../../lib/quran';
+import { citeScholar, longDate, SITE } from '../../../lib/quran';
 import { getCollection } from 'astro:content';
 
+const ARCHIVED = '2026-10-24';
 const AUTHOR: Record<string, string> = { 's-francois-deroche': 'francois-deroche', 's-alba-fedeli': 'alba-fedeli', 's-behnam-sadeghi': 'behnam-sadeghi', 's-mohsen-goudarzi': 'mohsen-goudarzi', 's-asma-hilali': 'asma-hilali', 's-marijn-van-putten': 'marijn-van-putten', 's-hythem-sidky': 'hythem-sidky', 's-michael-marx': 'michael-marx', 's-gerd-rudiger-puin': 'gerd-ruediger-puin', 's-keith-small': 'keith-small', 's-alain-george': 'alain-george', 's-yasin-dutton': 'yasin-dutton', 's-muhammad-mustafa-al-azami': 'muhammad-mustafa-al-azami', 's-shady-nasser': 'shady-nasser' };
 const works = await getCollection('works');
 const nWorks = (id: string) => works.filter((w) => w.data.author.id === id && !w.data.draft).length;
@@ -15,18 +15,110 @@ const kindM = new Map<string, number>();
 for (const x of items) kindM.set(x.kind, (kindM.get(x.kind) || 0) + 1);
 const groups = [{ key: 'kind', label: 'Kind', values: ['Scholar', 'Project or centre'].filter((k) => kindM.get(k)).map((k) => [k, kindM.get(k)!] as [string, number]) }];
 const archivedDates = [...new Set(items.map((x: any) => x.archived))].sort();
+
+// country of the current or last affiliation, read from the affiliation text
+const COUNTRY: [RegExp, string][] = [
+  [/collège de france|paris/i, 'France'], [/hamburg|berlin|bbaw|saarland|corpus coranicum/i, 'Germany'], [/leiden/i, 'Netherlands'],
+  [/oxford|london|edinburgh|cambridge/i, 'United Kingdom'], [/stanford|harvard|international qur'anic studies/i, 'United States'],
+  [/king saud|riyadh/i, 'Saudi Arabia'],
+];
+const countryOf = (x: any) => { for (const [rx, c] of COUNTRY) if (rx.test(x.affiliation || '')) return c; return 'Not recorded'; };
+const byCountry = new Map<string, any[]>();
+for (const x of items) { const c = countryOf(x); byCountry.set(c, [...(byCountry.get(c) || []), x]); }
+const countryList = [...byCountry.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+const page = (x: any) => AUTHOR[x.id] ? `/authors/${AUTHOR[x.id]}/` : `#${x.id}`;
+const cite = `Islamic Internet Archives. “Scholars of Quranic Manuscripts.” Archived ${longDate(ARCHIVED)}. ${SITE}/quran/scholars/.`;
+const views = [{ id: 'list', label: 'Directory' }, { id: 'cards', label: 'At a glance' }, { id: 'country', label: 'By country' }, { id: 'table', label: 'Table' }];
+const scholars = items.filter((x: any) => x.kind === 'Scholar'), projects = items.filter((x: any) => x.kind !== 'Scholar');
 ---
-<Base title="Scholars of Quranic manuscripts" description="Scholars and research projects that study early Qur'an manuscripts: searchable, with an archived date and citation for every entry." current="quran">
-  <div class="wrap" style="padding-top:40px; padding-bottom:40px" data-pagefind-body>
-    <QuranSubnav current="scholars" />
-    <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Scholars of Quranic manuscripts</h1>
-    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
-      <p>Researchers and projects working on early Qur'an manuscripts: palaeography, codicology, palimpsests, dating and textual variants. The list is in no order of importance, mixes Muslim and non-Muslim scholarship, and does not imply agreement with anyone’s conclusions. Affiliations may have changed; each link goes to a profile or project page.</p>
-      <p><strong>Archived</strong> is the date this archive recorded the entry ({archivedDates.map((d) => longDate(d as string)).join(', ')}). Each entry also says how to cite it. Scholars have their own pages under Authors, with a biography and a list of their works. The manuscripts these scholars study are in the <a href="/quran/manuscripts/">manuscript catalogue</a>.</p>
-    </div>
-    <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, institution or subject" page={40}
-      sorts={[['curated', 'Curated order'], ['az', 'Name A–Z'], ['za', 'Name Z–A']]}>
-      {items.map((x: any) => <QEntry e={x} cite={citeScholar(x)} linkLabel={x.kind === 'Scholar' ? 'PROFILE ↗' : 'PROJECT ↗'} authorHref={AUTHOR[x.id] ? `/authors/${AUTHOR[x.id]}/` : undefined} works={AUTHOR[x.id] ? nWorks(AUTHOR[x.id]) : 0} />)}
-    </QList>
-  </div>
-</Base>
+<QuranStudy title="Scholars of Quranic manuscripts" eyebrow="Qur'anic manuscripts"
+  sub={`${scholars.length} scholars and ${projects.length} research projects, shown four ways. Entries archived ${archivedDates.map((d) => longDate(d as string)).join(', ')}.`}
+  description="Scholars and research projects that study early Qur'an manuscripts, shown as a directory, at a glance, by country and as a table, with an archived date and citation for every entry."
+  current="scholars" views={views} archived={ARCHIVED} cite={cite}>
+  <Fragment slot="intro">
+    <p>Researchers and projects working on early Qur'an manuscripts: palaeography, codicology, palimpsests, dating and textual variants. The list is in no order of importance, mixes Muslim and non-Muslim scholarship, and does not imply agreement with anyone's conclusions. Affiliations may have changed; each entry links to a profile or project page, and the scholars who have their own page in the archive link to it, with a biography and a list of their works.</p>
+  </Fragment>
+
+  <Fragment slot="panels">
+    <section id="v-list" role="tabpanel" aria-labelledby="t-list" class="iq-panel">
+      <div class="iq-panel-head"><p>The full entries, searchable, with the archived date and citation for each.</p></div>
+      <div class="qs-panel-list">
+        <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, institution or subject" page={40}
+          sorts={[['curated', 'Curated order'], ['az', 'Name A–Z'], ['za', 'Name Z–A']]}>
+          {items.map((x: any) => <QEntry e={x} cite={citeScholar(x)} linkLabel={x.kind === 'Scholar' ? 'PROFILE ↗' : 'PROJECT ↗'} authorHref={AUTHOR[x.id] ? `/authors/${AUTHOR[x.id]}/` : undefined} works={AUTHOR[x.id] ? nWorks(AUTHOR[x.id]) : 0} />)}
+        </QList>
+      </div>
+    </section>
+
+    <section id="v-cards" role="tabpanel" aria-labelledby="t-cards" class="iq-panel">
+      <div class="iq-panel-head"><p>Every scholar and project on one screen. Tap a name to open the scholar's page in the archive, or the entry in the directory.</p></div>
+      <div class="qs-wide">
+        <h3 class="sc-h">Scholars</h3>
+        <div class="sc-grid">{scholars.map((x: any) => (
+          <a class="sc-card" href={page(x)} data-goto={AUTHOR[x.id] ? undefined : x.id}>
+            <b>{x.name}</b>{x.nameNative && <span lang="ar" dir="rtl" class="sc-ar">{x.nameNative}</span>}
+            <span class="sc-aff">{x.affiliation}</span>
+            {AUTHOR[x.id] && nWorks(AUTHOR[x.id]) > 0 && <span class="sc-n">{nWorks(AUTHOR[x.id])} {nWorks(AUTHOR[x.id]) === 1 ? 'work' : 'works'} in the archive</span>}
+          </a>))}</div>
+        <h3 class="sc-h">Research projects and centres</h3>
+        <div class="sc-grid">{projects.map((x: any) => (
+          <a class="sc-card sc-proj" href={`#${x.id}`} data-goto={x.id}><b>{x.name}</b><span class="sc-aff">{x.affiliation}</span></a>))}</div>
+      </div>
+    </section>
+
+    <section id="v-country" role="tabpanel" aria-labelledby="t-country" class="iq-panel" data-qs-groups>
+      <div class="iq-panel-head"><p>By the country of each scholar's current or last affiliation, as recorded in the entry.</p></div>
+      <div class="qs-wide"><div class="qs-groups">
+        {countryList.map(([c, xs]) => (
+          <details class="qs-group" open>
+            <summary><b>{c}</b><span class="n">{xs.length}</span></summary>
+            <ul>{xs.map((x) => <li><a href={page(x)} data-goto={AUTHOR[x.id] ? undefined : x.id}>{x.name}</a><span class="qs-meta">{x.kind === 'Scholar' ? '' : 'Project · '}{x.affiliation}</span></li>)}</ul>
+          </details>
+        ))}
+      </div></div>
+    </section>
+
+    <section id="v-table" role="tabpanel" aria-labelledby="t-table" class="iq-panel" data-qs-table>
+      <div class="iq-panel-head">
+        <label for="tb-q" style="display:block; font-weight:600; margin:6px 0 4px">Search the table</label>
+        <input id="tb-q" class="qs-search" type="search" placeholder="Type a name, university or country" autocomplete="off" />
+        <p class="qs-count" data-noun="entries" aria-live="polite">{items.length} entries</p>
+      </div>
+      <div class="qs-wide"><div class="a-scroll"><table class="qs-table">
+        <thead><tr><th><button type="button">Name</button></th><th><button type="button">Kind</button></th><th><button type="button">Affiliation</button></th><th><button type="button">Country</button></th><th>Links</th></tr></thead>
+        <tbody>{items.map((x: any) => <tr><td><a href={page(x)} data-goto={AUTHOR[x.id] ? undefined : x.id}>{x.name}</a></td><td>{x.kind}</td><td>{x.affiliation}</td><td>{countryOf(x)}</td><td><a href={x.url} rel="noopener" target="_blank">{x.kind === 'Scholar' ? 'Profile' : 'Project'} ↗</a></td></tr>)}</tbody>
+      </table></div></div>
+    </section>
+  </Fragment>
+
+  <Fragment slot="after">
+    <h2>Related in the Quran Hub</h2>
+    <ul>
+      <li><a href="/quran/manuscripts/">Manuscript catalogue</a>: the manuscripts and collections these scholars study</li>
+      <li><a href="/quran/manuscripts/first-century-manuscripts/">Manuscripts of the First Century of the Hijra</a>, study notes</li>
+      <li><a href="/quran/manuscripts/qiraat-isnad/">Isnād of the Ten Qirāʾāt</a></li>
+      <li><a href="/quran/works/">Works on the Qur'an</a></li>
+    </ul>
+  </Fragment>
+  <p slot="foot">Each entry carries its own archived date and citation in the Directory view.</p>
+</QuranStudy>
+<style>
+  .sc-h { font: 700 15px/1.3 var(--sans, system-ui), sans-serif; color: #1d5c4a; margin: 6px 0 10px; letter-spacing: .02em; }
+  .sc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-bottom: 22px; }
+  .sc-card { display: flex; flex-direction: column; gap: 4px; background: #fff; border: 1px solid #d8d2c2; border-radius: 10px; padding: 14px 16px; text-decoration: none; color: #222; min-width: 0; }
+  .sc-card:hover { border-color: #1d5c4a; }
+  .sc-card b { font: 600 16px/1.3 Georgia, serif; color: #1d5c4a; }
+  .sc-ar { font-family: 'Noto Naskh Arabic', serif; color: #8a5a12; font-size: 17px; }
+  .sc-aff { font-size: 13px; line-height: 1.45; color: #555; }
+  .sc-n { font-size: 12.5px; color: #1d5c4a; font-weight: 600; margin-top: 2px; }
+  .sc-proj { border-style: dashed; }
+</style>
+<script is:inline>
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('[data-goto]'); if (!a || !a.dataset.goto) return;
+  e.preventDefault();
+  const t = document.getElementById('t-list'); if (t) t.click();
+  const id = a.dataset.goto;
+  if (location.hash === '#' + id) window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = id;
+});
+</script>

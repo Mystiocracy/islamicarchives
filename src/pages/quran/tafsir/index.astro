@@ -1,29 +1,45 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import QuranSubnav from '../../../components/QuranSubnav.astro';
-import QList from '../../../components/QList.astro';
-import WorkRow from '../../../components/WorkRow.astro';
+import QuranStudy from '../../../components/QuranStudy.astro';
+import WorkViews from '../../../components/WorkViews.astro';
 import { allWorks } from '../../../lib/site';
+import { longDate, SITE } from '../../../lib/quran';
 
+const ARCHIVED = '2026-10-24';
 const RX = /tafs[iīi]r|tafseer|commentary|exegesis|exegetical|interpretation of the (qur|kor)|message of the qur|towards understanding the qur|zilal|ẓilāl|translation of the (meanings|qur)/i;
 const works = (await allWorks()).filter((w) => w.data.subjects.some((s) => s.id === 'quranic-studies') &&
   (RX.test([w.data.title, w.data.titleOriginal, w.data.summary, w.data.keywords.join(' ')].filter(Boolean).join(' ')) || w.data.type === 'Translation'));
-const count = (fn: (w: any) => string) => { const m = new Map<string, number>(); for (const w of works) m.set(fn(w), (m.get(fn(w)) || 0) + 1); return [...m.entries()].sort((a, b) => b[1] - a[1]); };
-const groups = [
-  { key: 'lang', label: 'Language', values: count((w) => w.data.language) },
-  { key: 'type', label: 'Type', values: count((w) => w.data.type) },
-];
+const langs = new Set(works.map((w) => w.data.language)).size;
+const hosted = works.filter((w) => w.data.rights !== 'link-only').length;
+const cite = `Islamic Internet Archives. “Tafseer: Commentaries and Translations of the Qur'an.” Archived ${longDate(ARCHIVED)}. ${SITE}/quran/tafsir/.`;
+const views = [{ id: 'list', label: 'Library' }, { id: 'authors', label: 'By author' }, { id: 'timeline', label: 'Timeline' }, { id: 'language', label: 'By language' }, { id: 'table', label: 'Table' }];
 ---
-<Base title="Tafseer: Qur'an commentaries and translations" description="Commentaries, translations and studies of Qur'anic interpretation in the archive, searchable, with an archived date and citation for each." current="quran">
-  <div class="wrap" style="padding-top:40px; padding-bottom:40px" data-pagefind-body>
-    <QuranSubnav current="tafsir" />
-    <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Tafseer</h1>
-    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
-      <p>Commentaries on the Qur'an, translations with commentary, and writings on how the Qur'an is interpreted, drawn from the library. <strong>Archived</strong> is the date each work was added to this archive; each entry also says how to cite it. The full library, with every subject filter, is at <a href="/library/?subject=quranic-studies">Library → Quranic studies</a>.</p>
-    </div>
-    <QList groups={groups} total={works.length} noun="works" placeholder="Search tafseer by title, author, language or topic" page={30}
-      sorts={[['curated', 'Oldest first'], ['az', 'Title A–Z'], ['za', 'Title Z–A']]}>
-      {works.map((w) => <WorkRow work={w} archive />)}
-    </QList>
-  </div>
-</Base>
+<QuranStudy title="Tafseer" pageTitle="Tafseer: Qur'an commentaries and translations" eyebrow="Interpretation of the Qur'an"
+  sub={`${works.length} commentaries and translations in ${langs} languages, shown five ways. Archived ${longDate(ARCHIVED)}.`}
+  description="Commentaries on the Qur'an and translations with commentary in the archive, shown by author, by date, by language and as a searchable table, with an archived date and citation for each."
+  current="tafsir" views={views} archived={ARCHIVED} cite={cite}>
+  <Fragment slot="intro">
+    <p>This page gathers the commentaries on the Qur'an in the archive, together with translations that carry their own notes or commentary and writings on how the Qur'an is interpreted. {hosted} of them can be read here in full; the rest link to a free copy elsewhere. Every view shows the same works:</p>
+    <ul>
+      <li><strong>Library:</strong> search, filter by language and type, with the archived date and citation for each work.</li>
+      <li><strong>By author:</strong> each commentator or translator with his works, oldest first.</li>
+      <li><strong>Timeline:</strong> the works by year of publication.</li>
+      <li><strong>By language:</strong> the works grouped by the language they are written in.</li>
+      <li><strong>Table:</strong> everything in one list that you can search and sort.</li>
+    </ul>
+  </Fragment>
+  <Fragment slot="panels">
+    <WorkViews works={works} noun="works" placeholder="Search tafseer by title, author, language or topic" />
+  </Fragment>
+  <Fragment slot="after">
+    <h2>How this list is made</h2>
+    <p>A work appears here when it is filed under Qur'anic studies in the library and its title, original title, summary or keywords name it as a tafsīr, commentary, exegesis or translation of the Qur'an, or when it is catalogued as a translation. A commentary filed under another subject, or described in other words, may be missing; the complete subject list is under <a href="/quran/works/">Works on the Qur'an</a>, and every work can be found from the <a href="/library/?subject=quranic-studies">library</a>.</p>
+    <h2>Related in the Quran Hub</h2>
+    <ul>
+      <li><a href="/quran/corpus/">Quran Word Corpus</a>: read the Qur'an word by word with grammar and roots</li>
+      <li><a href="/quran/manuscripts/qiraat-isnad/">Isnād of the Ten Qirāʾāt</a>: how the readings were transmitted</li>
+      <li><a href="/quran/works/">Works on the Qur'an</a>: every work in the archive on the Qur'an and its sciences</li>
+      <li><a href="/quran/manuscripts/">Manuscript catalogue</a> and <a href="/quran/scholars/">manuscript scholars</a></li>
+    </ul>
+  </Fragment>
+  <p slot="foot">Each work carries its own archived date and citation in the Library view. Dates of publication are those recorded for the edition held or linked.</p>
+</QuranStudy>

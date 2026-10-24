@@ -1,0 +1,106 @@
+---
+// The view panels for a list of works (Tafseer, Works on the Qur'an): library list, by author, timeline, by language, table.
+// Used inside <QuranStudy> as slot="panels"; ids follow the views list there: v-list, v-authors, v-timeline, v-language, v-table.
+import QList from './QList.astro';
+import WorkRow from './WorkRow.astro';
+import { allAuthors, type Work } from '../lib/site';
+interface Props { works: Work[]; noun: string; placeholder: string }
+const { works, noun, placeholder } = Astro.props;
+
+const authors = new Map((await allAuthors()).map((a) => [a.id, a]));
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const href = (w: Work) => w.data.rights === 'link-only' ? `/authors/${w.data.author.id}/#${w.id}` : `/works/${w.id}/`;
+const aName = (w: Work) => w.data.byline || authors.get(w.data.author.id)?.data.name || w.data.author.id;
+
+const count = (fn: (w: Work) => string) => { const m = new Map<string, number>(); for (const w of works) m.set(fn(w), (m.get(fn(w)) || 0) + 1); return [...m.entries()].sort((a, b) => b[1] - a[1]); };
+const groups = [
+  { key: 'lang', label: 'Language', values: count((w) => w.data.language) },
+  { key: 'type', label: 'Type', values: count((w) => w.data.type) },
+];
+
+// by author: authors ordered by death (or birth) year, undated last
+const byAuthor = new Map<string, Work[]>();
+for (const w of works) { const k = w.data.author.id; byAuthor.set(k, [...(byAuthor.get(k) || []), w]); }
+const aYear = (id: string) => { const a = authors.get(id)?.data; return a?.died ?? (a?.born ? a.born + 60 : 9999); };
+const authorList = [...byAuthor.entries()].sort((a, b) => aYear(a[0]) - aYear(b[0]) || (authors.get(a[0])?.data.name || '').localeCompare(authors.get(b[0])?.data.name || ''));
+const life = (id: string) => { const a = authors.get(id)?.data; if (!a) return ''; return a.born && a.died ? `${a.born}–${a.died}` : a.died ? `d. ${a.died}` : a.born ? `b. ${a.born}` : ''; };
+
+// timeline: by decade of publication (CE), undated last
+const dated = works.filter((w) => w.data.year).sort((a, b) => a.data.year! - b.data.year!);
+const bands = new Map<string, Work[]>();
+for (const w of dated) { const y = w.data.year!; const k = y < 1900 ? `${Math.floor(y / 100) * 100}s` : `${Math.floor(y / 10) * 10}s`; bands.set(k, [...(bands.get(k) || []), w]); }
+const undated = works.filter((w) => !w.data.year);
+
+// by language
+const byLang = new Map<string, Work[]>();
+for (const w of works) byLang.set(w.data.language, [...(byLang.get(w.data.language) || []), w]);
+const langList = [...byLang.entries()].sort((a, b) => b[1].length - a[1].length);
+---
+<section id="v-list" role="tabpanel" aria-labelledby="t-list" class="iq-panel">
+  <div class="iq-panel-head"><p>The library view: search, filter by language and type, and sort. Each entry shows when it was archived and how to cite it.</p></div>
+  <div class="qs-panel-list">
+    <QList groups={groups} total={works.length} noun={noun} placeholder={placeholder} page={30}
+      sorts={[['curated', 'Oldest first'], ['az', 'Title A–Z'], ['za', 'Title Z–A']]}>
+      {works.map((w) => <WorkRow work={w} archive />)}
+    </QList>
+  </div>
+</section>
+
+<section id="v-authors" role="tabpanel" aria-labelledby="t-authors" class="iq-panel" data-qs-groups>
+  <div class="iq-panel-head">
+    <p>{byAuthor.size} authors and translators, oldest first by date of death. Open a name to see their works here; the name links to their page in the archive.</p>
+    <div class="qs-bar"><button type="button" data-open="1">Open all</button><button type="button" data-open="0">Close all</button></div>
+  </div>
+  <div class="qs-wide"><div class="qs-groups">
+    {authorList.map(([id, ws]) => (
+      <details class="qs-group" open={ws.length <= 3}>
+        <summary><b>{authors.get(id)?.data.name || id}</b><span class="n">{life(id) && <>{life(id)} · </>}{ws.length} {ws.length === 1 ? 'work' : 'works'}</span></summary>
+        <ul>
+          <li><a href={`/authors/${id}/`} style="font-weight:600">Author page →</a></li>
+          {ws.sort((a, b) => (a.data.year || 9999) - (b.data.year || 9999)).map((w) => <li><a href={href(w)}>{w.data.title}</a><span class="qs-meta">{[w.data.year, w.data.language, w.data.type].filter(Boolean).join(' · ')}</span></li>)}
+        </ul>
+      </details>
+    ))}
+  </div></div>
+</section>
+
+<section id="v-timeline" role="tabpanel" aria-labelledby="t-timeline" class="iq-panel">
+  <div class="iq-panel-head"><p>Works by year of publication (CE), grouped by century before 1900 and by decade after. {undated.length > 0 && <>{undated.length} works without a recorded year are listed at the end.</>}</p></div>
+  <div class="qs-wide"><div class="qs-tl">
+    {[...bands.entries()].map(([k, ws]) => (
+      <div class="qs-tl-band"><h3>{k} <span class="qs-d">· {ws.length}</span></h3>
+        <ul>{ws.map((w) => <li><span class="qs-d">{w.data.year}</span> <a href={href(w)}>{w.data.title}</a><span class="qs-meta">{aName(w)} · {w.data.language}</span></li>)}</ul>
+      </div>
+    ))}
+    {undated.length > 0 && <div class="qs-tl-band"><h3>Year not recorded <span class="qs-d">· {undated.length}</span></h3>
+      <ul>{undated.map((w) => <li><a href={href(w)}>{w.data.title}</a><span class="qs-meta">{aName(w)} · {w.data.language}</span></li>)}</ul></div>}
+  </div></div>
+</section>
+
+<section id="v-language" role="tabpanel" aria-labelledby="t-language" class="iq-panel" data-qs-groups>
+  <div class="iq-panel-head">
+    <p>{langList.length} languages. Open a language to see its works, oldest first.</p>
+    <div class="qs-bar"><button type="button" data-open="1">Open all</button><button type="button" data-open="0">Close all</button></div>
+  </div>
+  <div class="qs-wide"><div class="qs-groups">
+    {langList.map(([l, ws]) => (
+      <details class="qs-group">
+        <summary><b>{l}</b><span class="n">{ws.length} {ws.length === 1 ? 'work' : 'works'}</span></summary>
+        <ul>{ws.sort((a, b) => (a.data.year || 9999) - (b.data.year || 9999)).map((w) => <li><a href={href(w)}>{w.data.title}</a><span class="qs-meta">{[aName(w), w.data.year, w.data.type].filter(Boolean).join(' · ')}</span></li>)}</ul>
+      </details>
+    ))}
+  </div></div>
+</section>
+
+<section id="v-table" role="tabpanel" aria-labelledby="t-table" class="iq-panel" data-qs-table>
+  <div class="iq-panel-head">
+    <label for="tb-q" style="display:block; font-weight:600; margin:6px 0 4px">Search the table</label>
+    <input id="tb-q" class="qs-search" type="search" placeholder="Type a title, author, language or year" autocomplete="off" />
+    <p class="qs-count" data-noun={noun} aria-live="polite">{works.length} {noun}</p>
+    <p style="font-size:13px; color:#666; margin:2px 0 0">Click a column heading to sort.</p>
+  </div>
+  <div class="qs-wide"><div class="a-scroll"><table class="qs-table">
+    <thead><tr><th><button type="button">Title</button></th><th><button type="button">Author</button></th><th><button type="button">Year</button></th><th><button type="button">Language</button></th><th><button type="button">Type</button></th></tr></thead>
+    <tbody>{works.map((w) => <tr><td><a href={href(w)}>{w.data.title}</a></td><td>{aName(w)}</td><td data-sort={w.data.year ? String(w.data.year) : ''}>{w.data.year || '—'}</td><td>{w.data.language}</td><td>{w.data.type}</td></tr>)}</tbody>
+  </table></div></div>
+</section>

@@ -1,12 +1,12 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import QuranSubnav from '../../../components/QuranSubnav.astro';
+import QuranStudy from '../../../components/QuranStudy.astro';
 import QList from '../../../components/QList.astro';
 import QEntry from '../../../components/QEntry.astro';
 import items from '../../../data/manuscripts.json';
 import intro from '../../../data/manuscripts-intro.json';
-import { citeManuscript, longDate, PERIODS } from '../../../lib/quran';
+import { citeManuscript, longDate, PERIODS, SITE } from '../../../lib/quran';
 
+const ARCHIVED = '2026-10-24';
 const count = (fn: (x: any) => string) => { const m = new Map<string, number>(); for (const x of items) m.set(fn(x), (m.get(fn(x)) || 0) + 1); return m; };
 const kinds = ['Manuscript', 'Study or article', 'Collection or database'];
 const kindM = count((x) => x.kind);
@@ -18,33 +18,141 @@ const groups = [
   { key: 'source', label: 'Source', values: [['Islamic Awareness', srcM.get('Islamic Awareness') || 0], ['Other', srcM.get('Other') || 0]] as [string, number][] },
 ];
 const archivedDates = [...new Set(items.map((x: any) => x.archived))].sort();
+
+// where each resource is held, read from its institution, location and name
+const PLACES: [RegExp, string][] = [
+  [/san[ʿ']?a|ṣanʿāʾ|sanaa/i, 'Ṣanʿāʾ, Yemen'], [/birmingham|mingana|cadbury/i, 'Birmingham, UK'], [/topkap|istanbul|türk ve|turk ve/i, 'Istanbul, Turkey'],
+  [/tashkent|samar[qk]and|katta langar|bukh/i, 'Tashkent and Samarqand, Uzbekistan'], [/st\.? ?petersburg|national library of russia/i, 'St Petersburg, Russia'],
+  [/paris|nationale de france/i, 'Paris, France'], [/british library|london|khalili/i, 'London, UK'], [/chester beatty|dublin/i, 'Dublin, Ireland'],
+  [/berlin|bbaw|staatsbibliothek/i, 'Berlin, Germany'], [/vienna|austrian national/i, 'Vienna, Austria'], [/cairo|egypt|al-hussein|dār al-kutub|dar al-kutub/i, 'Cairo, Egypt'],
+  [/t[uü]bingen/i, 'Tübingen, Germany'], [/leiden/i, 'Leiden, Netherlands'], [/oxford|bodleian/i, 'Oxford, UK'], [/cambridge/i, 'Cambridge, UK'],
+  [/mashhad/i, 'Mashhad, Iran'], [/walters|baltimore/i, 'Baltimore, USA'], [/aga khan|toronto/i, 'Toronto, Canada'], [/library of congress|washington/i, 'Washington, USA'],
+  [/fribourg/i, 'Fribourg, Switzerland'], [/qatar|doha/i, 'Doha, Qatar'], [/manama|bahrain|beit al-qur/i, 'Manama, Bahrain'], [/online|islamic awareness \(independent/i, 'Online only'],
+];
+const placeOf = (x: any) => { const s = [x.institution, x.location].filter(Boolean).join(' ') || x.name; for (const [rx, p] of PLACES) if (rx.test(s)) return p; return 'Place not recorded'; };
+const byPlace = new Map<string, any[]>();
+for (const x of items) { const p = placeOf(x); byPlace.set(p, [...(byPlace.get(p) || []), x]); }
+const placeList = [...byPlace.entries()].sort((a, b) => (a[0] === 'Place not recorded' ? 1 : 0) - (b[0] === 'Place not recorded' ? 1 : 0) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+const bySection = new Map<string, any[]>();
+for (const x of items) bySection.set(x.group, [...(bySection.get(x.group) || []), x]);
+const byPeriod = PERIODS.map((p) => [p, items.filter((x: any) => (x.period || 'Not dated or not applicable') === p)] as [string, any[]]).filter(([, xs]) => xs.length);
+const anchor = (x: any) => `#${x.id}`;
+const cite = `Islamic Internet Archives. “Quranic Manuscript Catalogue.” Archived ${longDate(ARCHIVED)}. ${SITE}/quran/manuscripts/.`;
+const views = [{ id: 'list', label: 'Catalogue' }, { id: 'period', label: 'By date' }, { id: 'place', label: 'By place' }, { id: 'section', label: 'By section' }, { id: 'table', label: 'Table' }];
 ---
-<Base title="Quranic manuscript catalogue" description="A searchable catalogue of early Qur'an manuscripts, studies and the collections that hold them, with an archived date and citation for every entry." current="quran">
-  <div class="wrap" style="padding-top:40px; padding-bottom:40px" data-pagefind-body>
-    <QuranSubnav current="manuscripts" />
-    <h1 style="font-size:40px; margin:0 0 0.4em" data-pagefind-meta="title">Quranic manuscript catalogue</h1>
-    <div class="grid-auto" style="--min:260px; margin:0 0 28px">
-      <a href="/quran/manuscripts/first-century-manuscripts/" class="card" style="text-decoration:none; color:var(--ink); padding:26px 26px 22px; display:flex; flex-direction:column; gap:10px; min-height:230px">
-        <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">القرن الأول</span>
-        <span style="font-family:var(--serif); font-weight:600; font-size:24px; line-height:1.3">Manuscripts of the First Century of the Hijra</span>
-        <span class="muted" style="font-size:15px; line-height:1.55; flex:1">A study guide to the Islamic Awareness article: how early manuscripts are dated, radiocarbon results, the Damascus and Ṣanʿāʾ discoveries, an annotated index of key manuscripts and a reading list.</span>
-        <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:14px"><span class="tag tag-green">Article · archived 16 Oct 2026</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
+<QuranStudy title="Quranic manuscript catalogue" eyebrow="Qur'anic manuscripts"
+  sub={`${items.length} manuscripts, studies and collections, shown five ways. Entries archived ${archivedDates.map((d) => longDate(d as string)).join(', ')}.`}
+  description="A searchable catalogue of early Qur'an manuscripts, studies and the collections that hold them, shown by date, by place, by section and as a table, with an archived date and citation for every entry."
+  current="manuscripts" views={views} archived={ARCHIVED} cite={cite}>
+  <Fragment slot="intro">
+    <div class="grid-auto" style="--min:260px; margin:18px 0 22px; font-family:var(--sans)">
+      <a href="/quran/manuscripts/first-century-manuscripts/" class="card" style="text-decoration:none; color:var(--ink); padding:22px 22px 18px; display:flex; flex-direction:column; gap:8px">
+        <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:30px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">القرن الأول</span>
+        <span style="font-family:var(--serif); font-weight:600; font-size:21px; line-height:1.3">Manuscripts of the First Century of the Hijra</span>
+        <span class="muted" style="font-size:14.5px; line-height:1.5; flex:1">A study guide to the Islamic Awareness article: dating methods, radiocarbon results, the Damascus and Ṣanʿāʾ discoveries and an index of key manuscripts.</span>
+        <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:13.5px"><span class="tag tag-green">Article · archived 16 Oct 2026</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
       </a>
-      <a href="/quran/manuscripts/qiraat-isnad/" class="card" style="text-decoration:none; color:var(--ink); padding:26px 26px 22px; display:flex; flex-direction:column; gap:10px; min-height:230px">
-        <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">أسانيد القراءات العشر</span>
-        <span style="font-family:var(--serif); font-weight:600; font-size:24px; line-height:1.3">Isnād of the Ten Qirāʾāt</span>
-        <span class="muted" style="font-size:15px; line-height:1.55; flex:1">From the Prophet ﷺ through the Companions and Successors to the ten Imams, their twenty rāwīs and the rāwīs' ṭuruq, shown five ways: inverted tree, outline, radial chart, Imam by Imam and a table. AI-generated; may contain mistakes.</span>
-        <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:14px"><span class="tag tag-green">5 views · archived 19 Oct 2026</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
+      <a href="/quran/manuscripts/qiraat-isnad/" class="card" style="text-decoration:none; color:var(--ink); padding:22px 22px 18px; display:flex; flex-direction:column; gap:8px">
+        <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:30px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">أسانيد القراءات العشر</span>
+        <span style="font-family:var(--serif); font-weight:600; font-size:21px; line-height:1.3">Isnād of the Ten Qirāʾāt</span>
+        <span class="muted" style="font-size:14.5px; line-height:1.5; flex:1">From the Prophet ﷺ to the ten Imams, their twenty rāwīs and their ṭuruq, checked against al-Nashr and Ghāyat al-nihāya. AI-generated; may contain mistakes.</span>
+        <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:13.5px"><span class="tag tag-green">5 views · archived 19 Oct 2026</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
       </a>
     </div>
-    <div class="prose" style="font-family:var(--sans); font-size:17px; max-width:760px; margin-bottom:24px">
-      {intro.map((p) => <p>{p}</p>)}
-      <p>The catalogue lists <strong>{items.length}</strong> resources: manuscripts, studies about their script and dating, and the libraries and databases that publish images or catalogue records. Entries are resources, not unique manuscripts, so one manuscript can appear more than once (a library page and a study of it). It includes every manuscript resource listed on the <a href="https://www.islamic-awareness.org/quran/text/mss/" rel="noopener">Islamic Awareness manuscripts page</a>. That site is an apologetic one; its dates and attributions are given here as it states them and are marked as such. Where the entry comes from elsewhere, the holder’s own date is quoted.</p>
-      <p><strong>Archived</strong> is the date this archive recorded the entry and its link ({archivedDates.map((d) => longDate(d as string)).join(', ')}). Each entry gives its citation (the original page, that date and the entry’s address here) under “How to cite”. Some library sites block automated checks, so a link may need a browser. Scholars who work in this field are on the <a href="/quran/scholars/">scholars page</a>.</p>
-    </div>
-    <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, shelfmark, library, place or period" page={40}
-      sorts={[['curated', 'Curated order'], ['period', 'Date: earliest first'], ['az', 'Title A–Z'], ['za', 'Title Z–A']]}>
-      {items.map((x: any) => <QEntry e={x} cite={citeManuscript(x)} pidx={Math.max(0, PERIODS.indexOf(x.period || 'Not dated or not applicable'))} />)}
-    </QList>
-  </div>
-</Base>
+    {intro.map((p) => <p>{p}</p>)}
+    <p>The catalogue lists {items.length} resources: manuscripts, studies of their script and dating, and the libraries and databases that publish images or catalogue records. Entries are resources, not unique manuscripts, so one manuscript can appear more than once (a library page and a study of it). It includes every manuscript resource listed on the <a href="https://www.islamic-awareness.org/quran/text/mss/" rel="noopener">Islamic Awareness manuscripts page</a>. That site is an apologetic one; its dates and attributions are given as it states them. Where an entry comes from elsewhere, the holder's own date is quoted.</p>
+  </Fragment>
+
+  <Fragment slot="panels">
+    <section id="v-list" role="tabpanel" aria-labelledby="t-list" class="iq-panel">
+      <div class="iq-panel-head"><p>Search by name, shelfmark, library, place or period; filter by kind, date and source. <strong>Archived</strong> is the date this archive recorded the entry and its link, and each entry says how to cite it. Some library sites block automated checks, so a link may need a browser.</p></div>
+      <div class="qs-panel-list">
+        <QList groups={groups} total={items.length} noun="entries" placeholder="Search by name, shelfmark, library, place or period" page={40}
+          sorts={[['curated', 'Curated order'], ['period', 'Date: earliest first'], ['az', 'Title A–Z'], ['za', 'Title Z–A']]}>
+          {items.map((x: any) => <QEntry e={x} cite={citeManuscript(x)} pidx={Math.max(0, PERIODS.indexOf(x.period || 'Not dated or not applicable'))} />)}
+        </QList>
+      </div>
+    </section>
+
+    <section id="v-period" role="tabpanel" aria-labelledby="t-period" class="iq-panel">
+      <div class="iq-panel-head"><p>The resources by the date their source gives for the manuscript, earliest first. These are the sources' own datings (palaeographic or radiocarbon), not this archive's judgement; databases and general studies are grouped at the end.</p></div>
+      <div class="qs-wide"><div class="qs-tl">
+        {byPeriod.map(([p, xs]) => (
+          <div class="qs-tl-band"><h3>{p} <span class="qs-d">· {xs.length}</span></h3>
+            <ul>{xs.map((x) => <li><a href={anchor(x)} data-goto={x.id}>{x.name}</a><span class="qs-meta">{[x.kind, x.institution || x.location, x.dateNote].filter(Boolean).join(' · ')}</span></li>)}</ul>
+          </div>
+        ))}
+      </div></div>
+    </section>
+
+    <section id="v-place" role="tabpanel" aria-labelledby="t-place" class="iq-panel" data-qs-groups>
+      <div class="iq-panel-head">
+        <p>The resources by the city of the library or museum that holds the manuscript, read from each entry's holder and location. Leaves of one codex are often split between several cities; an entry is filed under the first holder it names.</p>
+        <div class="qs-bar"><button type="button" data-open="1">Open all</button><button type="button" data-open="0">Close all</button></div>
+      </div>
+      <div class="qs-wide"><div class="qs-groups">
+        {placeList.map(([p, xs]) => (
+          <details class="qs-group" open={xs.length <= 4}>
+            <summary><b>{p}</b><span class="n">{xs.length} {xs.length === 1 ? 'entry' : 'entries'}</span></summary>
+            <ul>{xs.map((x) => <li><a href={anchor(x)} data-goto={x.id}>{x.name}</a><span class="qs-meta">{[x.kind, x.period && x.period !== 'Not dated or not applicable' ? x.period : '', x.institution].filter(Boolean).join(' · ')}</span></li>)}</ul>
+          </details>
+        ))}
+      </div></div>
+    </section>
+
+    <section id="v-section" role="tabpanel" aria-labelledby="t-section" class="iq-panel" data-qs-groups>
+      <div class="iq-panel-head">
+        <p>The catalogue's own sections: the earliest and best-known codices, palimpsests and fragments, the Islamic Awareness manuscript studies and holding institutions, and the online collections and databases.</p>
+        <div class="qs-bar"><button type="button" data-open="1">Open all</button><button type="button" data-open="0">Close all</button></div>
+      </div>
+      <div class="qs-wide"><div class="qs-groups">
+        {[...bySection.entries()].map(([g, xs]) => (
+          <details class="qs-group" open={xs.length <= 13}>
+            <summary><b>{g}</b><span class="n">{xs.length}</span></summary>
+            <ul>{xs.map((x) => <li><a href={anchor(x)} data-goto={x.id}>{x.name}</a><span class="qs-meta">{[x.kind, x.period && x.period !== 'Not dated or not applicable' ? x.period : ''].filter(Boolean).join(' · ')}</span></li>)}</ul>
+          </details>
+        ))}
+      </div></div>
+    </section>
+
+    <section id="v-table" role="tabpanel" aria-labelledby="t-table" class="iq-panel" data-qs-table>
+      <div class="iq-panel-head">
+        <label for="tb-q" style="display:block; font-weight:600; margin:6px 0 4px">Search the table</label>
+        <input id="tb-q" class="qs-search" type="search" placeholder="Type a name, library, city or century" autocomplete="off" />
+        <p class="qs-count" data-noun="entries" aria-live="polite">{items.length} entries</p>
+        <p style="font-size:13px; color:#666; margin:2px 0 0">Click a column heading to sort.</p>
+      </div>
+      <div class="qs-wide"><div class="a-scroll"><table class="qs-table">
+        <thead><tr><th><button type="button">Name</button></th><th><button type="button">Kind</button></th><th><button type="button">Date (source)</button></th><th><button type="button">Held at</button></th><th><button type="button">Source</button></th><th>Link</th></tr></thead>
+        <tbody>{items.map((x: any) => <tr><td><a href={anchor(x)} data-goto={x.id}>{x.name}</a></td><td>{x.kind}</td><td data-sort={String(PERIODS.indexOf(x.period || 'Not dated or not applicable'))}>{x.period || '—'}</td><td>{x.institution || x.location || '—'}</td><td>{x.source}</td><td><a href={x.url} rel="noopener" target="_blank">Open ↗</a></td></tr>)}</tbody>
+      </table></div></div>
+    </section>
+  </Fragment>
+
+  <Fragment slot="after">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.islamic-awareness.org/quran/text/mss/" rel="noopener" target="_blank">Islamic Awareness: Qur'anic manuscripts</a>, the source of most entries; its datings are given as it states them</li>
+      <li>The holding libraries' and museums' own catalogue pages, linked from each entry</li>
+      <li><a href="https://corpuscoranicum.de/en/manuscripts" rel="noopener" target="_blank">Corpus Coranicum: Manuscripta Coranica</a>, for images and radiocarbon results</li>
+    </ul>
+    <h2>Related in the Quran Hub</h2>
+    <ul>
+      <li><a href="/quran/scholars/">Manuscript scholars</a>: the researchers and projects who study these manuscripts</li>
+      <li><a href="/quran/manuscripts/first-century-manuscripts/">Manuscripts of the First Century of the Hijra</a>, study notes</li>
+      <li><a href="/quran/manuscripts/qiraat-isnad/">Isnād of the Ten Qirāʾāt</a></li>
+      <li><a href="/quran/works/">Works on the Qur'an</a> and <a href="/quran/tafsir/">Tafseer</a></li>
+    </ul>
+  </Fragment>
+  <p slot="foot">Each entry carries its own archived date and citation in the Catalogue view.</p>
+</QuranStudy>
+<script is:inline>
+// links in the grouped views and table jump to the entry in the Catalogue view
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('[data-goto]'); if (!a) return;
+  e.preventDefault();
+  const t = document.getElementById('t-list'); if (t) t.click();
+  const id = a.dataset.goto;
+  if (location.hash === '#' + id) window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = id;
+});
+</script>
