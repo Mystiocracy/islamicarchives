@@ -1022,6 +1022,20 @@
    "kind": "influence",
    "note": "Rida's infobox lists Yasir Qadhi among those he influenced.",
    "source": "https://en.wikipedia.org/wiki/Rashid_Rida"
+  },
+  {
+   "from": "taha-abdurrahman",
+   "to": "talal-asad",
+   "kind": "debate",
+   "note": "Taha engages with Talal Asad's idea of the discursive tradition: he accepts that the tradition matters but argues that it is incomplete.",
+   "source": "https://en.islamonweb.net/reclaiming-ethics-taha-abdurrahman-and-the-islamic-critique-of-western-modernity"
+  },
+  {
+   "from": "jonathan-brown",
+   "to": "yaqeen-institute",
+   "kind": "colleague",
+   "note": "Brown has been an adviser to the Yaqeen Institute for Islamic Research, where he was earlier Director of Research, and has published papers there.",
+   "source": "https://en.wikipedia.org/wiki/Jonathan_A._C._Brown"
   }
  ],
  "sortYear": {
