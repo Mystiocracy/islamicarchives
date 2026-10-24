@@ -35,8 +35,8 @@
           "href": "/hadith/narrators/",
           "ar": "أطلس الأسانيد",
           "heading": "Narrators of the Ḥadīth",
-          "text": "An atlas of the chains in 953 books of ḥadīth: every narrator's teachers and students, the books they appear in, and the busiest route back to the Prophet ﷺ.",
-          "note": "{n} narrators"
+          "text": "The Sanadset 650K dataset as a chart: the chains of 953 books of ḥadīth, every written narrator's teachers and students, filters by book and by narrator, and the ḥadīth themselves.",
+          "note": "{n} written names"
         },
         {
           "href": "/hadith/bukhari-narrators/",
