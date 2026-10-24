@@ -131,7 +131,7 @@
     var isAr = /[؀-ۿ]/.test(q), qk = isAr ? arKey(q) : enKey(q);
     if (!qk) return [];
     var words = qk.split(' '), keys = isAr ? KA : KE, out = [];
-    for (var i = 0; i < NN && out.length < 800; i++) {
+    for (var i = 1; i < NN && out.length < 800; i++) {
       if (onlyIn && !fcnt[i]) continue;
       var k = keys[i], ok = true;
       for (var w = 0; w < words.length; w++) if (k.indexOf(words[w]) < 0) { ok = false; break; }
@@ -175,6 +175,7 @@
   var showAll = { t: false, s: false };
   function item(x, side, max) {
     var i = x[0], w = Math.max(6, Math.round(100 * Math.sqrt(x[1] / max)));
+    if (i === 0) return '<li><div class="ia-row"><button type="button" class="ia-p ia-end" disabled><span class="nm"><span class="en">Chain ends here</span></span><span class="bar" style="--w:' + w + '%"><b>' + fmt(x[1]) + '</b></span></button><span class="tools"><button type="button" class="ia-tb" data-link="t:0" title="Show the ḥadīth whose chain ends here" aria-label="Show the ḥadīth whose chain ends here">ḥ</button></span></div></li>';
     return '<li><div class="ia-row"><button type="button" class="ia-p" data-i="' + i + '"><span class="nm">' + nm(i) + mark(i) + '<span class="en">' + esc(EN[i]) + '</span></span><span class="bar" style="--w:' + w + '%"><b>' + fmt(x[1]) + '</b></span></button>' +
       '<span class="tools">' + (i ? '<button type="button" class="ia-tb" data-add="' + i + '" title="Only chains that contain this name" aria-label="Add to the chain filter">+</button>' : '') +
       '<button type="button" class="ia-tb" data-link="' + side + ':' + i + '" title="Show the ḥadīth along this link" aria-label="Show the ḥadīth along this link">ḥ</button></span></div></li>';
@@ -189,11 +190,11 @@
         (list.length > pageMax && showAll[side] ? '<p class="ia-note">The ' + pageMax + ' most frequent are shown, of ' + fmt(list.length) + '.</p>' : '') + '</div>';
     };
     var mx = Math.max(d.T.length ? d.T[0][1] : 1, d.S.length ? d.S[0][1] : 1);
-    var gt = col(d.T, 't', focus === 0 ? 'Receives from' : 'Narrates from', focus === 0 ? 'The source of the ḥadīth.' : 'No teacher in these chains.');
+    var gt = col(d.T, 't', focus === 0 ? 'Start of the chart' : 'Narrates from', focus === 0 ? 'Sanadset records nothing before the last name of a chain.' : 'No teacher in these chains.');
     // keep both columns on one scale
     $('#iaflow').innerHTML = '<svg class="ia-svg" aria-hidden="true"></svg>' + gt +
-      '<div class="ia-mid"><div class="ia-me">' + nm(focus) + '<span class="en">' + esc(EN[focus]) + '</span><span class="h">' + fmt(d.n) + ' chains</span></div></div>' +
-      col(d.S, 's', focus === 0 ? 'Heard by' : 'Narrated to', 'No student in these chains.');
+      '<div class="ia-mid"><div class="ia-me">' + (focus === 0 ? '<span class="en" style="font-size:20px">Start</span>' : nm(focus) + '<span class="en">' + esc(EN[focus]) + '</span>') + '<span class="h">' + fmt(d.n) + ' chains</span></div></div>' +
+      col(d.S, 's', focus === 0 ? 'Last name in the chain' : 'Narrated to', 'No student in these chains.');
     requestAnimationFrame(curves);
   }
   function curves() {
@@ -214,25 +215,29 @@
   }
   function drawRoute() {
     var el = $('#iaroute');
-    if (focus === 0 || !A.n) { el.innerHTML = focus === 0 ? '<span class="lab">The Prophet ﷺ is the end of every chain in Sanadset</span>' : '<span class="muted">This name is not in any chain that matches the filters.</span>'; return; }
-    var path = route(focus).reverse();
-    el.innerHTML = '<span class="lab">Busiest route to the Prophet ﷺ</span><ol>' + path.map(function (j) {
-      return '<li><button type="button" class="ia-p' + (j === focus ? ' here' : '') + '" data-i="' + j + '">' + nm(j) + (j ? '<span class="en">' + esc(EN[j]) + '</span>' : '') + '</button></li>';
+    if (focus === 0 || !A.n) { el.innerHTML = focus === 0 ? '<span class="lab">Start: the last name recorded in each chain. Sanadset lists no one beyond it.</span>' : '<span class="muted">This name is not in any chain that matches the filters.</span>'; return; }
+    var path = route(focus).filter(function (j) { return j !== 0; }).reverse();
+    el.innerHTML = '<span class="lab">Busiest route to the end of the chain</span><ol>' + path.map(function (j) {
+      return '<li><button type="button" class="ia-p' + (j === focus ? ' here' : '') + '" data-i="' + j + '">' + nm(j) + '<span class="en">' + esc(EN[j]) + '</span></button></li>';
     }).join('') + '</ol>';
   }
   function ord(n) { var s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
   function drawCard() {
     var i = focus, d = A, h = '';
-    h += '<p class="eyebrow">' + (i === 0 ? 'The end of every chain' : 'Name as written in the chains') + '</p>';
-    h += '<h2 lang="ar" dir="rtl" class="ar">' + esc(AR[i]) + '</h2>';
-    h += '<p class="en-name">' + esc(EN[i]) + ' <span class="muted" style="font:400 12px var(--sans)">(machine transliteration)</span></p>';
-    if (i === 0) h += '<p class="note">Sanadset does not list the Prophet ﷺ as a narrator. Chains end at the last person named, usually a Companion reporting from him; the dataset does not say which reports stop short of him.</p>';
+    h += '<p class="eyebrow">' + (i === 0 ? 'Start of the chart' : 'Name as written in the chains') + '</p>';
+    if (i === 0) h += '<h2>All chains</h2>';
+    else {
+      h += '<h2 lang="ar" dir="rtl" class="ar">' + esc(AR[i]) + '</h2>';
+      h += '<p class="en-name">' + esc(EN[i]) + ' <span class="muted" style="font:400 12px var(--sans)">(machine transliteration)</span></p>';
+    }
+    if (i === 0) h += '<p class="note">Every chain starts here at the last name Sanadset records for it. Sanadset does not say whether the report goes back to the Prophet ﷺ, to a Companion speaking for himself, or to someone later; the text has to be read to know. The right-hand list shows who those last names are.</p>';
     if (isRel[i]) h += '<p class="warn">An expression such as “his father” or “his grandfather”. It stands for a different person in each chain.</p>';
     else if (isAmb[i]) h += '<p class="warn">A short name that may stand for several different people (see below). Its links can mix them.</p>';
     h += '<dl>';
     h += '<dt>Chains</dt><dd>' + fmt(d.n) + (bookSet || req.length ? ' in the filter' : '') + (i && (bookSet || req.length) ? ' · ' + fmt(cnt[i]) + ' in all' : '') + '</dd>';
     if (i) h += '<dt>Typical link</dt><dd>' + (d.n ? (d.dist).toFixed(1) : '–') + ' from the end of the chain</dd>';
-    h += '<dt>Teachers</dt><dd>' + fmt(d.T.length) + ' different</dd><dt>Students</dt><dd>' + fmt(d.S.length) + ' different</dd><dt>Books</dt><dd>' + fmt(d.books.length) + '</dd></dl>';
+    if (i) h += '<dt>Teachers</dt><dd>' + fmt(d.T.length) + ' different</dd>';
+    h += '<dt>' + (i ? 'Students' : 'Last names') + '</dt><dd>' + fmt(d.S.length) + ' different</dd><dt>Books</dt><dd>' + fmt(d.books.length) + '</dd></dl>';
     h += '<div class="acts">' + (i ? '<button type="button" data-add="' + i + '">Only chains with this name</button>' : '') + '<button type="button" data-hadith="1">Show the ḥadīth</button></div>';
     if (d.books.length) {
       var mb = d.books[0][1];
@@ -274,7 +279,7 @@
     var b = BOOKS[bk[c]], ch = [], j;
     for (j = off[c]; j < off[c + 1]; j++) { var id = ids[j]; ch.push('<button type="button" class="ia-l' + (id === focus ? ' f' : '') + '" data-i="' + id + '">' + nm(id) + '</button>'); }
     return '<article class="hd-i" id="hi' + k + '"><p class="bk"><span>' + esc(b[1] || b[0]) + '</span><span class="n">no. ' + hn[c] + '</span><span class="n" lang="ar" dir="rtl">' + esc(b[0]) + '</span></p>' +
-      '<p class="ch">' + ch.join('<span class="sep">›</span>') + '<span class="sep">› ' + 'النبي ﷺ</span></p><p class="tx" lang="ar" dir="rtl">…</p></article>';
+      '<p class="ch">' + ch.join('<span class="sep">›</span>') + '</p><p class="tx" lang="ar" dir="rtl">…</p></article>';
   }
   function fill(c, k) {
     shard(Math.floor(c / SH)).then(function (a) {

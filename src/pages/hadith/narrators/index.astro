@@ -25,7 +25,7 @@ const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of 
         <p><strong>This page shows Sanadset 650K and nothing else.</strong> The chains were extracted from the books by the dataset's authors, by program, and may contain mistakes. Names are shown as written in the chains, so one person can appear under several spellings; where a name looks like another's, the page says so but never joins them. English spellings are machine transliterations and the Arabic is the reference.</p>
       </div>
 
-      <p>The chart starts at the Prophet ﷺ. Each narrator has teachers on the left and students on the right; the bars are as wide as the number of chains. Click a name to move to that narrator. You can limit the chart to chosen <strong>books</strong> (any number), and to chains that <strong>contain</strong> chosen narrators, in any order or in a set order, then open the ḥadīth behind any narrator or link.</p>
+      <p>The chart starts with the last name Sanadset records in each chain. Each narrator has teachers on the left and students on the right; the bars are as wide as the number of chains. Click a name to move to that narrator. You can limit the chart to chosen <strong>books</strong> (any number), and to chains that <strong>contain</strong> chosen narrators, in any order or in a set order, then open the ḥadīth behind any narrator or link.</p>
     </div>
   </div>
 
@@ -35,7 +35,7 @@ const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of 
         <button type="button" id="vFlow" aria-pressed="true">Narrator</button>
         <button type="button" id="vIndex" aria-pressed="false">All narrators</button>
       </div>
-      <button type="button" id="iaprophet" class="ia-back">Start from the Prophet ﷺ</button>
+      <button type="button" id="iaprophet" class="ia-back">Back to the start</button>
       <button type="button" id="iaback" class="ia-back" disabled>‹ Back</button>
       <div class="ia-search">
         <label for="iaq" class="sr-only">Find a narrator</label>
@@ -57,7 +57,7 @@ const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of 
         <span class="lab">Chains must contain</span>
         <ol id="reqChips"></ol>
         <div class="ia-search sm"><label for="reqq" class="sr-only">Add a narrator to the filter</label><input id="reqq" type="search" placeholder="Add narrator…" autocomplete="off"><div class="ia-res" id="reqres" hidden></div></div>
-        <label class="ia-chk"><input type="checkbox" id="reqOrd"> in this order (first name = nearest the Prophet ﷺ)</label>
+        <label class="ia-chk"><input type="checkbox" id="reqOrd"> in this order (first name = nearest the end of the chain)</label>
       </div>
       <label class="ia-chk"><input type="checkbox" id="sameOn"> Mark names that may be the same person</label>
       <span id="iaMatch" class="muted" aria-live="polite"></span>
@@ -94,13 +94,13 @@ const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of 
     <div class="ap">
       <h2>Reading the atlas</h2>
       <ul>
-        <li><strong>A chain</strong> is the list of narrators Sanadset records for one report, from the one nearest the compiler of the book back to the one nearest the Prophet ﷺ. Sanadset does not list the Prophet ﷺ as a narrator, so the chart shows him as the end of every chain. Some reports stop at a Companion or a later person; the dataset does not mark which.</li>
-        <li><strong>Teachers and students.</strong> The teacher of a narrator is the next name toward the Prophet ﷺ in the chain; the student is the previous one. Every link seen in a chain is counted, even once. There is no minimum.</li>
+        <li><strong>A chain</strong> is the list of narrators Sanadset records for one report, from the one nearest the compiler of the book back to the last name recorded. Sanadset does not list the Prophet ﷺ as a narrator and does not say whether a report goes back to him, to a Companion speaking for himself, or to someone later, so the chart shows only what the dataset records and stops at that last name.</li>
+        <li><strong>Teachers and students.</strong> The teacher of a narrator is the next name toward the end of the chain; the student is the previous one. Every link seen in a chain is counted, even once. There is no minimum.</li>
         <li><strong>Counting.</strong> A chain counts once for a name even if the name is repeated in it. A ḥadīth that appears in several books is counted in each book.</li>
         <li><strong>Names.</strong> Names are exactly as written in the chains. To count them, vowel marks and tatweel are ignored and the alif forms (أ إ آ ٱ) are treated as one letter; nothing else is changed. Expressions such as “his father” (<span lang="ar" dir="rtl">أبيه</span>) are kept as written; they stand for different people in different chains.</li>
         <li><strong>Books</strong> are chosen with any number of ticks. A chain is kept if it is from any of the chosen books. The Six Books button chooses Ṣaḥīḥ al-Bukhārī, Ṣaḥīḥ Muslim, Sunan Abī Dāwūd, Jāmiʿ al-Tirmidhī, Sunan al-Nasāʾī (al-Ṣughrā) and Sunan Ibn Māja.</li>
-        <li><strong>Narrators.</strong> Chains must contain all the narrators you add. With “in this order”, the first name added is the one nearest the Prophet ﷺ and each later name must come after it, nearer the compiler.</li>
-        <li><strong>Typical link from the end</strong> is the average distance of the name from the end of its chains (1 is the last name before the Prophet ﷺ). It is worked out from the chains and is not a ṭabaqa.</li>
+        <li><strong>Narrators.</strong> Chains must contain all the narrators you add. With “in this order”, the first name added is the one nearest the end of the chain and each later name must come after it, nearer the compiler.</li>
+        <li><strong>Typical link from the end</strong> is the average distance of the name from the end of its chains (1 is the last name in the chain). It is worked out from the chains and is not a ṭabaqa.</li>
         <li><strong>“May be the same person”</strong> is a hint, not data. Two written names are linked when they are the same once case endings, hamza and ya forms, Abū/Abī/Abā, ibn/bin and the article are ignored, or when one is a run of words inside the other (<span lang="ar" dir="rtl">الزهري</span> inside <span lang="ar" dir="rtl">محمد بن مسلم بن شهاب الزهري</span>) and the two have teachers and students in common. The score is how much they overlap, from 0 to 1. Names are never merged and their counts stay apart. A short name linked to several different longer names is marked as possibly several people.</li>
         <li><strong>English spellings</strong> are made by rules from the Arabic. Each word is spelled from its most common vowelled form found in Sanadset; a word that never appears vowelled gets a rough guess. Treat them as an aid for reading and searching; the Arabic is the reference.</li>
         <li><strong>Reports without a chain.</strong> {fmt(M.nosanad)} of the {fmt(M.reports)} reports in Sanadset are marked as having no chain and are not shown.</li>
@@ -126,7 +126,7 @@ const cite = `Islamic Internet Archives. “${TITLE}: An Atlas of the Chains of 
       </footer>
     </div>
   </div>
-  <script is:inline src="/js/isnad-atlas.js?v=5" defer></script>
+  <script is:inline src="/js/isnad-atlas.js?v=6" defer></script>
 </Base>
 <style is:global>
   .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
