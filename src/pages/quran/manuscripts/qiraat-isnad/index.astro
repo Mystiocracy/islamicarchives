@@ -7,6 +7,7 @@ import chains from '../../../../data/qiraat-chains.json';
 
 const ARCHIVED = '2026-10-19';
 const REVISED = '2026-10-20';
+const RECHECKED = '2026-10-24';
 const TITLE = 'Isnād of the Ten Qirāʾāt';
 const HERE = `${SITE}/quran/manuscripts/qiraat-isnad/`;
 const NASHR = 'https://www.islamweb.net/ar/library/content/70/31/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%AE%D9%84%D9%81';
@@ -87,10 +88,10 @@ const data = JSON.stringify({ tree: T, chains });
     <main class="ap">
       <p class="sub">Qirāʾāt and their transmission</p>
       <h1 data-pagefind-meta="title">Isnād of the Ten Qirāʾāt</h1>
-      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards, shown five ways. Archived {longDate(ARCHIVED)}; checked against the sources and revised {longDate(REVISED)}.</p>
+      <p class="sub">The ten readings, their twenty rāwīs and the rāwīs' ṭuruq, from the Prophet ﷺ downwards, shown five ways. Archived {longDate(ARCHIVED)}; checked against the sources and revised {longDate(REVISED)}; checked a second time {longDate(RECHECKED)}.</p>
 
       <div class="iq-warn" role="note">
-        <p><strong>AI-generated chart: it may contain mistakes.</strong> This chart was compiled with an AI assistant (Claude, by Anthropic). On {longDate(REVISED)} every person, link, ṭarīq and date was checked by the same assistant against Ibn al-Jazarī's <em>al-Nashr fī al-qirāʾāt al-ʿashr</em> (vol. 1) and <em>Ghāyat al-nihāya fī ṭabaqāt al-qurrāʾ</em>, and the errors found were corrected; the page references are listed under “How this chart was checked”. Entries marked ◇ could not be confirmed in those sources. Please verify anything you rely on against the books themselves or a qualified teacher with ijāza.</p>
+        <p><strong>AI-generated chart: it may contain mistakes.</strong> This chart was compiled with an AI assistant (Claude, by Anthropic). On {longDate(REVISED)}, and again independently on {longDate(RECHECKED)}, every person, link, ṭarīq and date was checked by the same assistant against Ibn al-Jazarī's <em>al-Nashr fī al-qirāʾāt al-ʿashr</em> (vol. 1) and <em>Ghāyat al-nihāya fī ṭabaqāt al-qurrāʾ</em>, and the errors found were corrected; the page references are listed under “How this chart was checked”. Entries marked ◇ could not be confirmed in those sources. Please verify anything you rely on against the books themselves or a qualified teacher with ijāza.</p>
       </div>
 
       <p>Every view below shows the same people, down to the ṭuruq of each rāwī. Dates are death dates in hijri years; “c.” marks an approximate date. Choose the view that suits the question you have:</p>
@@ -208,10 +209,12 @@ const data = JSON.stringify({ tree: T, chains });
           <tr><td>8. Abū Jaʿfar: Ibn Wardān, Ibn Jammāz</td><td>pp. 174–180</td></tr>
           <tr><td>9. Yaʿqūb: Ruways, Rawḥ</td><td>pp. 180–188</td></tr>
           <tr><td>10. Khalaf al-ʿĀshir: Isḥāq, Idrīs</td><td>pp. 188–192</td></tr>
-          <tr><td>The Companions</td><td>GN: Ubayy 1/31, Zayd 1/296, ʿUmar 1/591, ʿUthmān 1/507, Abū al-Dardāʾ 1/606, Abū Mūsā 1/442, Ibn ʿAbbās 1/425, Abū Hurayra 1/370, Ibn al-Sāʾib 1/419, Ibn ʿAyyāsh 1/439</td></tr>
+          <tr><td>The Companions</td><td>GN: Ubayy 1/31, Zayd 1/296, ʿUmar 1/591, ʿUthmān 1/507, Abū al-Dardāʾ 1/606, Abū Mūsā 1/442, Ibn ʿAbbās 1/425, Abū Hurayra 1/370, Ibn al-Sāʾib 1/419; ʿAbdallāh b. ʿAyyāsh, whom Ibn al-Jazarī counts a Successor, 1/439</td></tr>
         </tbody>
       </table></div>
       <p>The check changed the chart in these ways: corrected death dates for ʿUbayd b. al-Ṣabbāḥ (235), al-Ṭalḥī (252), the younger Ibn Miqsam under Ruways (380), Ibn Abī ʿUmar (352), Abū Hurayra (57/58), Abū al-ʿĀliya (90) and al-Qawwās (240, or 245); restored intermediaries that had been left out (Ismāʿīl b. Jaʿfar between Ibn Jammāz and his ṭuruq; Qālūn and al-Ḥulwānī behind Ibn Wardān's; the order Ibn Kathīr → Ismāʿīl al-Qisṭ → ʿIkrima, Wahb and others → al-Bazzī); gave Isḥāq al-Warrāq his three ṭuruq; added principal teachers the first version lacked (Ṭalḥa b. Muṣarrif for Ḥamza, ʿĪsā b. ʿUmar for al-Kisāʾī, Abū Zayd Saʿīd b. Aws for Khalaf, Abū al-Ashhab for Yaʿqūb, Naṣr b. ʿĀṣim for Abū ʿAmr, Abū Hurayra among Zayd's students); removed two links al-Nashr does not support (al-Sulamī as a teacher of Yaḥyā b. Waththāb, and ʿAlī as Ibn ʿAbbās's teacher, which is Ubayy and Zayd); marked Khalaf's link to al-Kisāʾī as the variants only; and dropped “disputed” from Ibn ʿĀmir's reading with Abū al-Dardāʾ, which Ibn al-Jazarī accepts.</p>
+
+      <p>A second, independent check on {longDate(RECHECKED)} read the whole chart again against the same two books and made these further changes: ʿAbdallāh b. ʿAyyāsh is shown as a Successor, not a Companion (GN 1/439); the link from Abū Hurayra straight to Nāfiʿ was removed, since Nāfiʿ took that reading through al-Aʿraj (al-Nashr 1/112); Zirr b. Ḥubaysh's reading with ʿAlī was added (al-Nashr 1/155); al-Bazzī's extra teachers (Wahb b. Wāḍiḥ, ʿAbdallāh b. Ziyād) were moved to his own box; the report that Shayba heard ʿUmar was moved to his teacher Ibn ʿAyyāsh, following GN 1/329 and 1/439; al-Kisāʾī's sources for the variants now include Ismāʿīl b. Jaʿfar and Zāʾida; and dates were corrected for Abū Isḥāq al-Sabīʿī (132), Muḥammad al-Bāqir (118), Mujāhid (103) and Shibl b. ʿAbbād (c. 160), with “after” or “c.” restored where the sources give no exact year. The dates still marked ◇ in the first version were all found in <em>Ghāyat al-nihāya</em>; al-Minhāl b. ʿAmr's death date is given in neither book and is shown as unknown.</p>
 
       <h2>People in the chart</h2>
       <p>Each link opens a Wikipedia search for the name, since these names are spelled differently from one article to the next.</p>

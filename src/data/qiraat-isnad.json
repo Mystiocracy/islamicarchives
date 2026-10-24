@@ -13,7 +13,7 @@
     {
      "n": "ʿAbdallāh b. ʿAyyāsh",
      "d": "after 70",
-     "k": "s",
+     "k": "t",
      "q": "Abd Allah ibn Ayyash ibn Abi Rabi'a",
      "c": [
       {
@@ -73,7 +73,7 @@
          "d": "169 · Medina",
          "k": "i",
          "q": "Nafi' al-Madani",
-         "also": "also: Shayba b. Niṣāḥ (130; also heard ʿUmar), al-Aʿraj (117), Muslim b. Jundab, Yazīd b. Rūmān",
+         "also": "also: Shayba b. Niṣāḥ (130), al-Aʿraj (117), Muslim b. Jundab, Yazīd b. Rūmān, Ṣāliḥ b. Khawwāt",
          "c": [
           {
            "n": "Qālūn",
@@ -116,7 +116,8 @@
         }
        ]
       }
-     ]
+     ],
+     "also": "a senior Successor; also heard ʿUmar"
     },
     {
      "n": "ʿAbdallāh b. al-Sāʾib",
@@ -139,9 +140,9 @@
          "c": [
           {
            "n": "ʿIkrima b. Sulaymān",
-           "d": "c. 200 ◇",
+           "d": "shortly before 200",
            "k": "t",
-           "also": "also: Wahb b. Wāḍiḥ, ʿAbdallāh b. Ziyād",
+           "also": "also: Shibl b. ʿAbbād",
            "c": [
             {
              "n": "al-Bazzī",
@@ -160,7 +161,7 @@
                "k": "q"
               }
              ],
-             "also": "also read with al-Qawwās"
+             "also": "also read with al-Qawwās, Wahb b. Wāḍiḥ and ʿAbdallāh b. Ziyād"
             }
            ]
           },
@@ -204,7 +205,7 @@
            ]
           }
          ],
-         "also": "also through Shibl b. ʿAbbād (150s ◇) and Maʿrūf b. Mishkān"
+         "also": "also through Shibl b. ʿAbbād (c. 160) and Maʿrūf b. Mishkān"
         }
        ]
       }
@@ -215,17 +216,12 @@
      "d": "57/58",
      "k": "s",
      "q": "Abu Hurayra",
-     "also": "also read with Zayd b. Thābit",
+     "also": "also read with Zayd b. Thābit; reaches Nāfiʿ through al-Aʿraj",
      "c": [
       {
        "n": "→ 8 · Abū Jaʿfar",
        "k": "x",
        "ref": "8 · Abū Jaʿfar"
-      },
-      {
-       "n": "→ 1 · Nāfiʿ",
-       "k": "x",
-       "ref": "1 · Nāfiʿ"
       }
      ]
     },
@@ -238,7 +234,7 @@
      "c": [
       {
        "n": "Mujāhid b. Jabr",
-       "d": "104",
+       "d": "103 (or 102/104)",
        "k": "t",
        "q": "Mujahid ibn Jabr",
        "c": [
@@ -368,8 +364,19 @@
        ]
       }
      ]
+    },
+    {
+     "n": "→ Abū ʿAbd al-Raḥmān al-Sulamī",
+     "k": "x",
+     "ref": "Abū ʿAbd al-Raḥmān al-Sulamī"
+    },
+    {
+     "n": "→ Abū al-ʿĀliya al-Riyāḥī",
+     "k": "x",
+     "ref": "Abū al-ʿĀliya al-Riyāḥī"
     }
-   ]
+   ],
+   "also": "death also given as 19–23; Ibn al-Jazarī prefers the week before ʿUthmān’s death"
   },
   {
    "n": "Zayd b. Thābit",
@@ -473,7 +480,7 @@
              "d": "245",
              "k": "r",
              "q": "Hisham ibn Ammar",
-             "also": "also: ʿIrāk al-Murrī (c. 200 ◇), Suwayd b. ʿAbd al-ʿAzīz, Ṣadaqa b. Khālid",
+             "also": "also: ʿIrāk al-Murrī (d. shortly before 200), Suwayd b. ʿAbd al-ʿAzīz, Ṣadaqa b. Khālid",
              "c": [
               {
                "n": "Aḥmad al-Ḥulwānī",
@@ -513,6 +520,11 @@
        ]
       }
      ]
+    },
+    {
+     "n": "→ Abū ʿAbd al-Raḥmān al-Sulamī",
+     "k": "x",
+     "ref": "Abū ʿAbd al-Raḥmān al-Sulamī"
     }
    ]
   },
@@ -608,7 +620,7 @@
            "d": "156 · Kufa",
            "k": "i",
            "q": "Hamzah az-Zayyat",
-           "also": "also: Ṭalḥa b. Muṣarrif, Ḥumrān b. Aʿyan, Abū Isḥāq al-Sabīʿī, Ibn Abī Laylā, Jaʿfar al-Ṣādiq (148)",
+           "also": "also: Ṭalḥa b. Muṣarrif (112), Ḥumrān b. Aʿyan, Abū Isḥāq al-Sabīʿī (132), Ibn Abī Laylā, Jaʿfar al-Ṣādiq (148)",
            "c": [
             {
              "n": "Sulaym b. ʿĪsā",
@@ -737,7 +749,7 @@
                 },
                 {
                  "n": "al-Wazzān",
-                 "d": "250",
+                 "d": "c. 250",
                  "k": "q"
                 },
                 {
@@ -754,7 +766,7 @@
              "d": "189 · Kufa",
              "k": "i",
              "q": "Al-Kisa'i",
-             "also": "also: ʿĪsā b. ʿUmar al-Hamdānī, Ibn Abī Laylā (148); the variants only from Shuʿba",
+             "also": "also: ʿĪsā b. ʿUmar al-Hamdānī (156), Ibn Abī Laylā (148); the variants only from Shuʿba, Ismāʿīl b. Jaʿfar and Zāʾida b. Qudāma",
              "c": [
               {
                "n": "Abū al-Ḥārith",
@@ -769,7 +781,7 @@
                 },
                 {
                  "n": "Salama b. ʿĀṣim",
-                 "d": "c. 270 ◇",
+                 "d": "after 270 (?)",
                  "k": "q"
                 }
                ]
@@ -782,12 +794,12 @@
                "c": [
                 {
                  "n": "Jaʿfar al-Naṣībī",
-                 "d": "c. 307",
+                 "d": "after 307",
                  "k": "q"
                 },
                 {
                  "n": "Abū ʿUthmān al-Ḍarīr",
-                 "d": "c. 310",
+                 "d": "after 310",
                  "k": "q"
                 }
                ]
@@ -801,6 +813,11 @@
        ]
       }
      ]
+    },
+    {
+     "n": "→ Abū ʿAbd al-Raḥmān al-Sulamī",
+     "k": "x",
+     "ref": "Abū ʿAbd al-Raḥmān al-Sulamī"
     }
    ]
   },
@@ -837,12 +854,12 @@
     },
     {
      "n": "Abū Rajāʾ al-ʿUṭāridī",
-     "d": "c. 105 ◇",
+     "d": "105",
      "k": "t",
      "c": [
       {
        "n": "Abū al-Ashhab al-ʿUṭāridī",
-       "d": "165 ◇",
+       "d": "165 (or 162)",
        "k": "t",
        "also": "Ibn al-Jazarī calls this chain very sound and very short",
        "c": [

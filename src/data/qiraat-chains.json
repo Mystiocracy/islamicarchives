@@ -58,7 +58,7 @@
   "IAY": [
    "ʿAbdallāh b. ʿAyyāsh",
    "after 70",
-   "s"
+   "t"
   ],
   "ISB": [
    "ʿAbdallāh b. al-Sāʾib",
@@ -82,7 +82,7 @@
   ],
   "MJ": [
    "Mujāhid b. Jabr",
-   "104",
+   "103",
    "t"
   ],
   "DB": [
@@ -122,7 +122,7 @@
   ],
   "ZR": [
    "Zirr b. Ḥubaysh",
-   "81–83",
+   "82",
    "t"
   ],
   "ASH": [
@@ -157,12 +157,12 @@
   ],
   "AIS": [
    "Abū Isḥāq al-Sabīʿī",
-   "127",
+   "132",
    "t"
   ],
   "MNH": [
    "al-Minhāl b. ʿAmr",
-   "c. 110 ◇",
+   "unknown",
    "t"
   ],
   "ILL": [
@@ -172,12 +172,12 @@
   ],
   "ZAB": [
    "Zayn al-ʿĀbidīn",
-   "94",
+   "94 ◇",
    "t"
   ],
   "BQR": [
    "Muḥammad al-Bāqir",
-   "114",
+   "118",
    "t"
   ],
   "JS": [
@@ -257,37 +257,52 @@
   ],
   "TLH": [
    "Ṭalḥa b. Muṣarrif",
-   "112 ◇",
+   "112",
    "t"
   ],
   "ISU": [
    "ʿĪsā b. ʿUmar al-Hamdānī",
-   "156 ◇",
+   "156",
    "t"
   ],
   "NSR": [
    "Naṣr b. ʿĀṣim",
-   "c. 90 ◇",
+   "c. 90",
    "t"
   ],
   "ARJ": [
    "Abū Rajāʾ al-ʿUṭāridī",
-   "c. 105 ◇",
+   "105",
    "t"
   ],
   "AAS": [
    "Abū al-Ashhab al-ʿUṭāridī",
-   "165 ◇",
+   "165",
    "t"
   ],
   "MUF": [
    "al-Mufaḍḍal al-Ḍabbī",
-   "168 ◇",
+   "168",
    "t"
   ],
   "ABZ": [
    "Abū Zayd Saʿīd b. Aws",
-   "215 ◇",
+   "215",
+   "t"
+  ],
+  "MSJ": [
+   "Muslim b. Jundab",
+   "after 110",
+   "t"
+  ],
+  "YRM": [
+   "Yazīd b. Rūmān",
+   "120",
+   "t"
+  ],
+  "YYM": [
+   "Yaḥyā b. Yaʿmar",
+   "before 90",
    "t"
   ]
  },
@@ -333,8 +348,14 @@
      "AR"
     ],
     [
-     "UM",
-     "SH"
+     "UB",
+     "IAY",
+     "MSJ"
+    ],
+    [
+     "UB",
+     "IAY",
+     "YRM"
     ]
    ]
   },
@@ -449,6 +470,16 @@
      "AL",
      "ADU",
      "NSR"
+    ],
+    [
+     "UT",
+     "ADU",
+     "YYM"
+    ],
+    [
+     "AL",
+     "ADU",
+     "YYM"
     ]
    ]
   },
@@ -508,6 +539,10 @@
     [
      "IM",
      "ASH"
+    ],
+    [
+     "AL",
+     "ZR"
     ]
    ]
   },
@@ -574,6 +609,17 @@
      "AQ",
      "YW",
      "TLH"
+    ],
+    [
+     "AL",
+     "ZR",
+     "YW",
+     "AMS"
+    ],
+    [
+     "AL",
+     "ZR",
+     "AIS"
     ]
    ]
   },
@@ -618,7 +664,21 @@
       "SHU"
      ],
      "tag": "variants only"
-    }
+    },
+    [
+     "IM",
+     "AQ",
+     "YW",
+     "TLH",
+     "ISU"
+    ],
+    [
+     "IM",
+     "AQ",
+     "YW",
+     "AMS",
+     "ISU"
+    ]
    ]
   },
   {
