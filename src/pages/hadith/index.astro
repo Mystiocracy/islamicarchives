@@ -12,7 +12,7 @@ const texts = JSON.parse(fs.readFileSync('content/hadith/bukhari.json', 'utf8'))
 const mnarr = JSON.parse(fs.readFileSync('public/hadith/muslim-narrators.json', 'utf8'));
 const muslimNarrators = Object.keys(mnarr.p).filter((k) => +k > 0).length;
 const muslimTexts = JSON.parse(fs.readFileSync('content/hadith/muslim.json', 'utf8')).hadiths.length;
-const atlas = JSON.parse(fs.readFileSync('public/hadith/narrators/index.json', 'utf8')).n.length;
+const atlas = JSON.parse(fs.readFileSync('public/hadith/narrators/meta.json', 'utf8')).names;
 const counts: Record<string, string> = { '/hadith/narrators/': atlas.toLocaleString('en-GB'), '/subjects/hadith-studies/': String(works), '/hadith/bukhari-narrators/': narrators.toLocaleString('en-GB'), '/hadith/bukhari/': texts.toLocaleString('en-GB'), '/hadith/muslim/': muslimTexts.toLocaleString('en-GB'), '/hadith/muslim-narrators/': muslimNarrators.toLocaleString('en-GB') };
 const sections = hub.sections.map((s) => ({ ...s, tiles: s.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', counts[t.href] ?? '') })) }));
 ---
