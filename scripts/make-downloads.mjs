@@ -12,7 +12,7 @@ const TMP = join(tmpdir(), 'ia-downloads');
 mkdirSync(OUT, { recursive: true });
 mkdirSync(TMP, { recursive: true });
 
-const has = (cmd) => { try { execFileSync('which', [cmd], { stdio: 'ignore' }); return true; } catch { return false; } };
+const has = (cmd) => { try { execFileSync(process.platform === 'win32' ? 'where' : 'which', [cmd], { stdio: 'ignore' }); return true; } catch { return false; } };
 if (!has('pandoc')) { console.warn('make-downloads: pandoc not found, skipping downloads'); process.exit(0); }
 const canPdf = has('weasyprint');
 if (!canPdf) console.warn('make-downloads: weasyprint not found, PDFs will be skipped');
