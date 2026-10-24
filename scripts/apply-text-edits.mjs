@@ -3,11 +3,12 @@
 // `i` is the position of a text node among the page's visible body text (the admin and this script count the same way);
 // `find` is the text as the code produces it, and is checked before replacing, so an edit never lands on the wrong text.
 // Runs after `astro build`, before the search index is made.
+import { fileURLToPath } from 'node:url';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { bodyTextNodes } from './text-nodes.mjs';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const DIST = join(ROOT, 'dist');
 const FILE = join(ROOT, 'src/data/text-edits.json');
 if (!existsSync(FILE)) process.exit(0);

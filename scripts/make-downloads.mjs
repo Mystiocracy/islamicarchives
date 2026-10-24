@@ -1,12 +1,13 @@
 // Builds EPUB, PDF, Word and plain-text downloads for every hosted work, plus one EPUB per author.
 // Runs after `astro build`; writes into dist/downloads/. Needs pandoc (and weasyprint for PDF).
+import { fileURLToPath } from 'node:url';
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import YAML from 'yaml';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const OUT = join(ROOT, 'dist', 'downloads');
 const TMP = join(tmpdir(), 'ia-downloads');
 mkdirSync(OUT, { recursive: true });
