@@ -14,7 +14,7 @@ const muslimNarrators = Object.keys(mnarr.p).filter((k) => +k > 0).length;
 const muslimTexts = JSON.parse(fs.readFileSync('content/hadith/muslim.json', 'utf8')).hadiths.length;
 const atlas = JSON.parse(fs.readFileSync('public/hadith/narrators/index.json', 'utf8')).n.length;
 const counts: Record<string, string> = { '/hadith/narrators/': atlas.toLocaleString('en-GB'), '/subjects/hadith-studies/': String(works), '/hadith/bukhari-narrators/': narrators.toLocaleString('en-GB'), '/hadith/bukhari/': texts.toLocaleString('en-GB'), '/hadith/muslim/': muslimTexts.toLocaleString('en-GB'), '/hadith/muslim-narrators/': muslimNarrators.toLocaleString('en-GB') };
-const tiles = hub.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', counts[t.href] ?? '') }));
+const sections = hub.sections.map((s) => ({ ...s, tiles: s.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t.text, n: t.note.replace('{n}', counts[t.href] ?? '') })) }));
 ---
 <Base title={hub.title} description={hub.description} current="hadith">
   <div class="wrap" style="padding-top:40px; padding-bottom:48px; display:flex; flex-direction:column; gap:28px" data-pagefind-body>
@@ -22,15 +22,29 @@ const tiles = hub.tiles.map((t) => ({ href: t.href, ar: t.ar, h: t.heading, p: t
       <h1 style="font-size:40px; margin:0 0 0.3em">{hub.title}</h1>
       <p class="muted" style="margin:0; font-size:17px; max-width:760px">{hub.intro}</p>
     </div>
-    <div class="grid-auto" style="--min:250px">
-      {tiles.map((t) => (
-        <a href={t.href} class="card" style="text-decoration:none; color:var(--ink); padding:26px 26px 22px; display:flex; flex-direction:column; gap:10px; min-height:230px">
-          <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">{t.ar}</span>
-          <span style="font-family:var(--serif); font-weight:600; font-size:24px">{t.h}</span>
-          <span class="muted" style="font-size:15px; line-height:1.55; flex:1">{t.p}</span>
-          <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:14px"><span class="tag tag-green">{t.n}</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
-        </a>
-      ))}
-    </div>
+    <nav aria-label="Sections of the Hadith Hub" style="display:flex; flex-wrap:wrap; gap:8px">
+      {sections.map((s) => <a href={`#${s.id}`} class="btn btn-quiet">{s.heading}</a>)}
+    </nav>
+    {sections.map((s) => (
+      <section id={s.id} aria-labelledby={`${s.id}-h`} style="display:flex; flex-direction:column; gap:14px; scroll-margin-top:80px">
+        <div style="border-bottom:1px solid var(--line); padding-bottom:10px">
+          <div style="display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:6px 16px">
+            <h2 id={`${s.id}-h`} style="margin:0; font-size:28px">{s.heading}</h2>
+            <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:26px; color:var(--saffron-text)">{s.ar}</span>
+          </div>
+          <p class="muted" style="margin:6px 0 0; font-size:16px; max-width:760px">{s.text}</p>
+        </div>
+        <div class="grid-auto" style="--min:250px">
+          {s.tiles.map((t) => (
+            <a href={t.href} class="card" style="text-decoration:none; color:var(--ink); padding:26px 26px 22px; display:flex; flex-direction:column; gap:10px; min-height:230px">
+              <span lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic', serif; font-size:34px; color:var(--saffron-text); align-self:flex-start; line-height:1.3">{t.ar}</span>
+              <span style="font-family:var(--serif); font-weight:600; font-size:24px">{t.h}</span>
+              <span class="muted" style="font-size:15px; line-height:1.55; flex:1">{t.p}</span>
+              <span style="display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:14px"><span class="tag tag-green">{t.n}</span><span style="font-weight:600; color:var(--green)">Open →</span></span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
   </div>
 </Base>
