@@ -291,6 +291,19 @@ const data = JSON.stringify({ tree: T, chains });
   .iq-dot.iq-i { background: #1d5c4a; } .iq-dot.iq-r { background: #a07a22; } .iq-dot.iq-q { background: #3d6f99; }
   .iq-frame { margin: 0 auto; max-width: min(1400px, calc(100% - 24px)); overflow: auto; max-height: 85vh; border: 1px solid #d8d2c2; border-radius: 12px; background: #fff; cursor: grab; }
   .iq-frame.drag { cursor: grabbing; user-select: none; }
+  .iq-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 4px 0 8px; font: 13px/1.3 var(--sans, system-ui), sans-serif; }
+  .iq-tools button { font: 13px/1.2 var(--sans, system-ui), sans-serif; min-width: 34px; padding: 6px 11px; border-radius: 999px; border: 1px solid #d8d2c2; background: #fff; color: #222; cursor: pointer; }
+  .iq-tools button:hover { border-color: #1d5c4a; color: #1d5c4a; }
+  .iq-tools button:focus-visible { outline: 2px solid #b86b00; outline-offset: 2px; }
+  .iq-tools .iq-pct { min-width: 46px; text-align: center; color: #1d5c4a; font-variant-numeric: tabular-nums; }
+  .iq-tools .iq-full-btn { margin-left: auto; background: #1d5c4a; color: #fff; border-color: #1d5c4a; }
+  .iq-tools .iq-full-btn:hover { color: #fff; background: #174a3d; }
+  .iq-tools .iq-hint { color: #777; }
+  .iq-panel.iq-full { position: fixed; inset: 0; z-index: 1000; margin: 0; overflow: auto; background: #faf7f0; padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(12px, env(safe-area-inset-left, 0px)); }
+  .iq-panel.iq-full .iq-panel-head { max-width: none; position: sticky; top: 0; z-index: 2; background: #faf7f0; border-bottom: 1px solid #e3ddcf; padding-top: 10px; }
+  .iq-panel.iq-full .iq-frame { max-width: none; height: calc(100vh - var(--iq-head, 150px) - 16px); max-height: none; margin-top: 8px; }
+  .iq-panel.iq-full .ap, .iq-panel.iq-full .ol-wrap { max-width: none; }
+  body.iq-noscroll { overflow: hidden; }
   .iq-org { display: inline-block; min-width: 100%; padding: 20px 24px 32px; box-sizing: border-box; font-family: var(--sans, system-ui), sans-serif; }
   .iq-org ul { display: flex; justify-content: center; align-items: flex-start; margin: 0; padding: 18px 0 0; position: relative; }
   .iq-org > ul { padding-top: 0; }
@@ -495,6 +508,15 @@ const data = JSON.stringify({ tree: T, chains });
     document.getElementById('rd-in').addEventListener('click', () => { const cxp = (frame.scrollLeft + frame.clientWidth / 2) / (rdSize * rdScale), cyp = (frame.scrollTop + frame.clientHeight / 2) / (rdSize * rdScale); rdScale = Math.min(2, rdScale * 1.4); apply(); frame.scrollLeft = cxp * rdSize * rdScale - frame.clientWidth / 2; frame.scrollTop = cyp * rdSize * rdScale - frame.clientHeight / 2; });
     document.getElementById('rd-out').addEventListener('click', () => { rdScale = Math.max(0.2, rdScale / 1.4); apply(); });
     document.getElementById('rd-fit').addEventListener('click', fit);
+    frame.addEventListener('wheel', (e) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      const r = frame.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+      const cx = (frame.scrollLeft + mx) / rdScale, cy = (frame.scrollTop + my) / rdScale;
+      rdScale = Math.min(3, Math.max(0.15, rdScale * Math.exp(-e.deltaY * 0.0015)));
+      apply(); frame.scrollLeft = cx * rdScale - mx; frame.scrollTop = cy * rdScale - my;
+    }, { passive: false });
+    frame.addEventListener('iq-refit', fit);
     fit();
   }
 
@@ -572,5 +594,67 @@ const data = JSON.stringify({ tree: T, chains });
   });
   const h = location.hash.slice(1);
   if (tabs.some((t) => t.dataset.v === h)) show(h);
+})();
+</script>
+<script is:inline>
+/* zoom (buttons and Ctrl + mouse wheel) for the tree charts, and full-page mode for every view */
+(() => {
+  const ZMIN = 0.2, ZMAX = 3;
+  function zoomable(frame) {
+    const org = frame.querySelector('.iq-org');
+    let z = 1, pct;
+    const set = (nz, mx, my) => {
+      nz = Math.min(ZMAX, Math.max(ZMIN, nz));
+      if (mx == null) { mx = frame.clientWidth / 2; my = frame.clientHeight / 2; }
+      const cx = (frame.scrollLeft + mx) / z, cy = (frame.scrollTop + my) / z;
+      z = nz; org.style.zoom = String(z);
+      frame.scrollLeft = cx * z - mx; frame.scrollTop = cy * z - my;
+      if (pct) pct.textContent = Math.round(z * 100) + '%';
+    };
+    const fit = () => { org.style.zoom = '1'; const w = org.scrollWidth; z = 1; set(Math.min(1, (frame.clientWidth - 8) / w)); frame.scrollLeft = (frame.scrollWidth - frame.clientWidth) / 2; frame.scrollTop = 0; };
+    frame.addEventListener('wheel', (e) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      const r = frame.getBoundingClientRect();
+      set(z * Math.exp(-e.deltaY * 0.0015), e.clientX - r.left, e.clientY - r.top);
+    }, { passive: false });
+    return { tools(bar) {
+      const mk = (t, label, fn) => { const b = document.createElement('button'); b.type = 'button'; b.textContent = t; b.setAttribute('aria-label', label); b.addEventListener('click', fn); bar.appendChild(b); return b; };
+      mk('−', 'Zoom out', () => set(z / 1.25));
+      pct = document.createElement('span'); pct.className = 'iq-pct'; pct.textContent = '100%'; bar.appendChild(pct);
+      mk('+', 'Zoom in', () => set(z * 1.25));
+      mk('100%', 'Actual size', () => set(1));
+      mk('Fit', 'Fit to width', fit);
+    }, fit };
+  }
+  function fullPage(panel, bar) {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'iq-full-btn'; b.textContent = '⤢ Full page';
+    const frame = panel.querySelector('.iq-frame');
+    const toggle = (on) => {
+      panel.classList.toggle('iq-full', on); document.body.classList.toggle('iq-noscroll', on);
+      b.textContent = on ? '✕ Exit full page' : '⤢ Full page';
+      const head = panel.querySelector('.iq-panel-head');
+      panel.style.setProperty('--iq-head', head ? head.offsetHeight + 'px' : '150px');
+      if (frame && panel.id === 'v-radial') requestAnimationFrame(() => frame.dispatchEvent(new Event('iq-refit')));
+      if (!on) panel.scrollIntoView({ block: 'start' });
+    };
+    b.addEventListener('click', () => toggle(!panel.classList.contains('iq-full')));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && panel.classList.contains('iq-full')) toggle(false); });
+    bar.appendChild(b);
+  }
+  document.querySelectorAll('.iq-panel').forEach((panel) => {
+    const head = panel.querySelector('.iq-panel-head'); if (!head) return;
+    const bar = document.createElement('div'); bar.className = 'iq-tools'; bar.setAttribute('role', 'group'); bar.setAttribute('aria-label', 'View controls');
+    const frame = panel.querySelector('.iq-frame');
+    if (frame && frame.querySelector('.iq-org')) {
+      const zz = zoomable(frame); zz.tools(bar);
+      frame.addEventListener('iq-refit', zz.fit);
+      const h = document.createElement('span'); h.className = 'iq-hint'; h.textContent = 'or hold Ctrl and scroll'; bar.appendChild(h);
+    } else if (panel.id === 'v-radial') {
+      const h = document.createElement('span'); h.className = 'iq-hint'; h.textContent = 'Zoom with the buttons above, or hold Ctrl and scroll'; bar.appendChild(h);
+    }
+    fullPage(panel, bar);
+    head.appendChild(bar);
+  });
 })();
 </script>
