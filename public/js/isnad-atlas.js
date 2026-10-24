@@ -58,7 +58,7 @@
   // ---------- the flow chart
   function go(i, push) {
     if (cur != null && push !== false && cur !== i) hist.push(cur);
-    cur = i; showAll = { t: false, s: false };
+    cur = i; showAll = { t: false, s: false }; profAll = { f: false, t: false };
     try { history.replaceState(null, '', '#n=' + i); } catch (e) {}
     render();
   }
@@ -67,7 +67,7 @@
     $('#iaflow').classList.add('busy');
     shard(i).then(function (d) {
       $('#iaflow').classList.remove('busy');
-      drawFlow(i, d); drawCard(i, d); drawRoute(i, d);
+      drawFlow(i, d); drawCard(i, d); drawRoute(i, d); drawProfile(i, d);
       $('#iaback').disabled = !hist.length;
     });
   }
@@ -157,6 +157,33 @@
     if (d.ms) h += '<p class="src"><a href="https://muslimscholars.info/manage.php?submit=scholar&amp;ID=' + d.ms + '" target="_blank" rel="noopener">Full entry on muslimscholars.info ↗</a></p>';
     $('#iacard').innerHTML = h;
   }
+
+  // ---------- profile tile from the Muslim Scholars Database
+  var profAll = { f: false, t: false };
+  function drawProfile(i, d) {
+    var el = $('#iaprof'), p = d.p;
+    if (!p) { el.hidden = true; el.innerHTML = ''; return; }
+    var list = function (arr, key) {
+      var lim = profAll[key] ? arr.length : 10;
+      return '<ol>' + arr.slice(0, lim).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ol>' +
+        (arr.length > 10 ? '<button type="button" class="more" data-pk="' + key + '">' + (profAll[key] ? 'Show fewer' : 'Show all ' + arr.length) + '</button>' : '');
+    };
+    var h = '<div class="ph"><div><p class="k">Profile · Muslim Scholars Database</p><h3 lang="ar" dir="rtl">' + esc(p.ar || N[i][0]) + '</h3></div>' +
+      (p.v ? '<div class="verd" lang="ar" dir="rtl" title="Ibn Ḥajar, Taqrīb al-Tahdhīb">' + esc(p.v) + '</div>' : '') + '</div><div class="pb">';
+    if (p.bio) h += '<p class="bio">' + esc(p.bio) + '</p>';
+    if (p.tf || p.tt) {
+      h += '<div><h4>Narrates from <span>Tahdhīb al-Kamāl</span></h4>' + (p.tf ? list(p.tf, 'f') : '<p class="muted">Not listed.</p>') + '</div>';
+      h += '<div><h4>Narrated to <span>Tahdhīb al-Kamāl</span></h4>' + (p.tt ? list(p.tt, 't') : '<p class="muted">Not listed.</p>') + '</div>';
+    }
+    if (p.nf || p.tags) h += '<div class="chips">' + (p.nf || []).map(function (x) { return '<span class="ar" lang="ar" dir="rtl">' + esc(x) + '</span>'; }).join('') + (p.tags || []).map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('') + '</div>';
+    h += '<p class="pf">' + (p.refs ? 'References: ' + p.refs.map(function (r) { return esc(r[0]) + (r[1] ? ' [' + esc(r[1]) + ']' : ''); }).join(' · ') + '. ' : '') +
+      'From the <a href="https://muslimscholars.info/manage.php?submit=scholar&amp;ID=' + d.ms + '" target="_blank" rel="noopener">Muslim Scholars Database</a> (Arees Institute)' + (p.up ? ', entry updated ' + esc(p.up) : '') + '.</p></div>';
+    el.innerHTML = h; el.hidden = false;
+  }
+  root.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-pk]'); if (!b) return;
+    profAll[b.dataset.pk] = !profAll[b.dataset.pk]; shard(cur).then(function (d) { drawProfile(cur, d); });
+  });
 
   // ---------- index table
   var ixSort = 'h', ixPage = 0, ixList = null;

@@ -1,5 +1,32 @@
 import pickle,collections,json,os,re,statistics,sys
 DISP=pickle.load(open('disp.pkl','rb'))
+MS={}
+for _l in open('/tmp/claude-0/-home-claude/0253878c-fd04-5653-adb5-57c0ff1ac641/scratchpad/msdump/scholars.jsonl'):
+    _d=json.loads(_l); MS[_d['id']]=_d
+from util import norm as _n
+TID={i:{t['id'] for t in d['teachers'] if t['id']} for i,d in MS.items()}
+SID={i:{t['id'] for t in d['students'] if t['id']} for i,d in MS.items()}
+KF={i:[_n(x) for x in d.get('kamalFrom') or []] for i,d in MS.items()}
+KT={i:[_n(x) for x in d.get('kamalTo') or []] for i,d in MS.items()}
+def forms(i):
+    d=MS.get(i) or {}
+    fs={_n(x) for x in (d.get('nameForms') or [])+[d.get('arabicName') or '']}
+    return [f for f in fs if len(f.split())>=2 and f not in ('عبد الله','عبد الرحمن','عبد الملك','عبد العزيز')]
+FORMS={}
+def conf(student,teacher):
+    # student, teacher: muslimscholars ids
+    if teacher in TID.get(student,()) or student in SID.get(teacher,()): return 1
+    ft=FORMS.setdefault(teacher,forms(teacher)); fs=FORMS.setdefault(student,forms(student))
+    if any(f in e for e in KF.get(student,[]) for f in ft): return 1
+    if any(f in e for e in KT.get(teacher,[]) for f in fs): return 1
+    return 0
+def msprof(i):
+    d=MS.get(i)
+    if not d: return None
+    p={'ar':d.get('arabicName'),'v':' – '.join(x for x in [d.get('taqribSigla'),d.get('taqribVerdict')] if x) or None,'bio':d.get('bio'),
+       'tf':d.get('kamalFrom') or [],'tt':d.get('kamalTo') or [],'nf':d.get('nameForms') or [],'tags':d.get('tags') or [],
+       'refs':[[r['source'],r['page']] for r in d.get('references') or []],'up':d.get('lastUpdated')}
+    return {k:v for k,v in p.items() if v not in (None,[],'')}
 from util import norm
 from bookname import EN,SIX
 sys.path.insert(0,'/home/claude/mystiocracy/islamicarchives/scripts/hadith')
@@ -120,11 +147,17 @@ def route(k):
     return out
 shard={}
 for i,k in enumerate(nodes):
-    d={'t':[[idx[t],c,T6[k][t]] for t,c in T[k].most_common(60)],'s':[[idx[s],c,S6[k][s]] for s,c in S[k].most_common(60)],
+    def cf(st,te):
+        if st[0]=='i' and te[0]=='i': return conf(st[1],te[1])
+        if te==PROPHET and st[0]=='i': return 1 if ((bio(st[1]) or {}).get('gr')=='Companion' or (MS.get(st[1]) or {}).get('rank')=='Comp.(RA)') else 0
+        return 0
+    d={'t':[[idx[t],c,T6[k][t],cf(k,t)] for t,c in T[k].most_common(60)],'s':[[idx[s],c,S6[k][s],cf(s,k)] for s,c in S[k].most_common(60)],
        'nt':len(T[k]),'ns':len(S[k]),'nt2':sum(1 for c in T[k].values() if c>=2),'ns2':sum(1 for c in S[k].values() if c>=2),'b':[[bidx[b],c] for b,c in BK[k].most_common(8)],'nb':len(BK[k]),'r':route(k)}
     if k[0]=='i':
         bb=bio(k[1])
         if bb: d['bio']=bb; d['ms']=k[1]
+        mp=msprof(k[1])
+        if mp: d['p']=mp
         tot=sum(form[k[1]].values()); seen=[]
         for n,c in form[k[1]].most_common(12):
             if c>=max(3,tot*0.02):

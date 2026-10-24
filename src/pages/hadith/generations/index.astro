@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { longDate } from '../../../lib/quran';
+const ARCHIVED = '2026-10-24';
+const TITLE = 'The Generations of Narrators';
+---
+<Base title={TITLE} description="Hadith narrators arranged in Ibn Ḥajar's twelve generations (ṭabaqāt), city by city, from the Companions to the teachers of the compilers." current="hadith">
+  <div class="wrap" style="padding-top:28px; padding-bottom:0">
+    <nav aria-label="Breadcrumb" class="muted" style="font-size:14px; margin:0 0 14px"><a href="/hadith/">Hadith Hub</a> › <a href="/hadith/narrators/">Narrators of the Ḥadīth</a> › Generations</nav>
+  </div>
+  <div class="ap-band" data-pagefind-body>
+    <div class="ap">
+      <p class="sub">Ṭabaqāt al-ruwāt · <span lang="ar" dir="rtl">طبقات الرواة</span></p>
+      <h1>The Generations of Narrators</h1>
+      <p class="sub">Ibn Ḥajar's twelve generations, from the Companions to the teachers of the compilers of the Six Books. Archived {longDate(ARCHIVED)}.</p>
+      <p>In <em>Taqrīb al-Tahdhīb</em>, Ibn Ḥajar placed every narrator of the Six Books in one of twelve generations (ṭabaqāt): people of about the same age who heard from the same people before them. The grid shows how many narrators of each generation are linked to each city. Tap a city to follow its scholars down the generations, or a number to jump to that generation. Larger names are those who carry more chains in the <a href="/hadith/narrators/">isnad atlas</a>; every name opens its entry in the <a href="/hadith/scholars/">Directory of Muslim Scholars</a>.</p>
+    </div>
+  </div>
+  <section class="tq" id="tq" aria-label="Generations chart">
+    <p id="tqload" class="muted" style="text-align:center; padding:30px 0">Loading…</p>
+    <div class="tq-gridwrap" id="tqgrid"></div>
+    <p class="tq-now">Showing <strong id="tqcity">all cities</strong> <button type="button" id="tqall" hidden>Show all cities</button></p>
+    <div id="tqbands"></div>
+  </section>
+  <div class="ap-band" style="border-bottom:0">
+    <div class="ap">
+      <h2>About the data</h2>
+      <p>Generations and cities come from the Muslim Scholars Database (Arees Institute), which follows Ibn Ḥajar for the narrators of the Six Books. A generation is recorded for about 8,500 people; Companions without one are placed in the first. A narrator's city is taken from the database's tags and places of residence, so someone who lived in several cities appears under the first that matched, and about half the people have no city recorded. Treat the counts as a picture of the sources, not a census.</p>
+      <footer class="ap-foot"><p><strong>Archived</strong> {longDate(ARCHIVED)}. <strong>Source:</strong> Muslim Scholars Database, Arees Institute, <a href="https://muslimscholars.info/">muslimscholars.info</a>; Ibn Ḥajar, <em>Taqrīb al-Tahdhīb</em>.</p></footer>
+    </div>
+  </div>
+  <script is:inline src="/js/tabaqat.js?v=1" defer></script>
+</Base>
+<style is:global>
+  .ap-band { background: #faf7f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .ap { max-width: 880px; margin: 0 auto; padding: 24px 18px 30px; color: #222; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
+  .ap h1 { font: 700 1.9rem/1.25 Georgia, 'Times New Roman', serif; margin: 0.3em 0 0.2em; color: #222; }
+  .ap .sub { color: #666; font-style: italic; margin: 0 0 1em; }
+  .ap h2 { font: 700 1.3rem/1.3 Georgia, 'Times New Roman', serif; margin: 1.4em 0 0.5em; border-bottom: 1px solid #d8d2c2; padding-bottom: 0.2em; color: #1d5c4a; }
+  .ap a { color: #1d5c4a; }
+  .ap-foot { margin-top: 2em; font-size: 0.88rem; color: #666; border-top: 1px solid #d8d2c2; padding-top: 1em; }
+  .tq { max-width: min(1400px, 100%); margin: 0 auto; padding: 20px clamp(12px, 2vw, 32px) 34px; font-family: var(--sans); }
+  .tq-gridwrap { overflow-x: auto; background: var(--green-dark); border-radius: 14px; padding: 14px 16px; }
+  .tq-grid { border-collapse: separate; border-spacing: 3px; color: #fff; margin: 0 auto; }
+  .tq-grid th { font: 600 12px var(--sans); color: #C9DAD4; padding: 2px 4px; text-align: center; }
+  .tq-grid thead button { font: 600 12.5px var(--sans); color: #E9C78D; background: none; border: 1px solid transparent; border-radius: 999px; padding: 4px 9px; cursor: pointer; white-space: nowrap; }
+  .tq-grid thead button.on { border-color: #E9C78D; background: rgba(233,199,141,.15); }
+  .tq-grid tbody th { color: #E9C78D; font-size: 13px; }
+  .tq-grid td { width: 64px; height: 30px; padding: 0; border-radius: 6px; background: rgba(233,199,141,var(--a)); }
+  .tq-grid td button { width: 100%; height: 100%; border: 0; background: none; color: #fff; font: 600 12px var(--sans); cursor: pointer; font-variant-numeric: tabular-nums; }
+  .tq-grid td:hover { outline: 2px solid #E9C78D; }
+  .tq-now { margin: 16px 0 6px; color: var(--muted); font-size: 15px; }
+  .tq-now button { margin-left: 8px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 3px 12px; cursor: pointer; color: var(--green); }
+  .tq-band { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); margin: 12px 0; padding: 14px 16px; scroll-margin-top: 90px; }
+  .tq-h { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+  .tq-n { flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--green-dark); color: #E9C78D; display: flex; align-items: center; justify-content: center; font: 700 18px var(--serif); }
+  .tq-h h3 { font: 600 19px/1.2 var(--serif); margin: 0; }
+  .tq-h p { margin: 2px 0 0; font-size: 13.5px; color: var(--muted); }
+  .tq-c { margin-left: auto; font: 600 14px var(--sans); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tq-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: flex-end; }
+  .tq-chips a { display: inline-flex; flex-direction: column; align-items: center; text-decoration: none; border: 1px solid var(--line); border-radius: 10px; padding: 3px 10px 4px; background: #faf7f0; color: var(--ink); line-height: 1.25; }
+  .tq-chips a span { font: calc(15px * var(--s)) 'Noto Naskh Arabic', serif; }
+  .tq-chips a small { font-size: 11px; color: var(--muted); max-width: 16em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tq-chips a.atl { border-color: var(--green-line); background: var(--green-tint); }
+  .tq-chips a:hover { border-color: var(--green); }
+  .tq-more { border: 1px dashed var(--line); background: none; border-radius: 10px; padding: 8px 12px; cursor: pointer; color: var(--green); font: 500 13px var(--sans); }
+</style>
