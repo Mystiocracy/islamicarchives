@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Biography Sidebar Options</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: short brief on top, a grid of 360px phone frames (one per option), then a desktop frame for the recommended combination */
+:root{
+  --page:#ebe9e1; --paper:#f5f3ec; --card:#fbfaf6; --ink:#1b2622; --muted:#5b6660; --line:#d8d5ca;
+  --green:#2b5b47; --green-soft:#e1eae4; --bad:#a3402e; --bad-soft:#f4e2dc;
+  --serif:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --page:#121513; --paper:#1a1e1c; --card:#202523; --ink:#e7e5de; --muted:#9ba49e; --line:#343b37;
+  --green:#8fc6ab; --green-soft:#24342c; --bad:#e59580; --bad-soft:#3a2520; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --page:#121513; --paper:#1a1e1c; --card:#202523; --ink:#e7e5de; --muted:#9ba49e; --line:#343b37;
+  --green:#8fc6ab; --green-soft:#24342c; --bad:#e59580; --bad-soft:#3a2520; color-scheme:dark}
+
+body{background:var(--page);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 72px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
+.brief{max-width:68ch;display:flex;flex-direction:column;gap:10px}
+.brief h1{font:600 clamp(26px,4vw,34px)/1.15 var(--serif);margin:0;text-wrap:balance}
+.brief p{margin:0;color:var(--muted)}
+.rec{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;color:var(--ink)}
+.rec b{color:var(--green)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:40px 28px}
+.opt{display:flex;flex-direction:column;gap:12px;min-width:0}
+.opt-h{display:flex;align-items:baseline;gap:10px}
+.chip{font:600 12px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:5px;background:var(--green-soft);color:var(--green);flex:none}
+.chip.bad{background:var(--bad-soft);color:var(--bad)}
+.opt-h h2{font:600 19px/1.25 var(--serif);margin:0;text-wrap:balance}
+.opt > p{margin:0;color:var(--muted);font-size:14px;max-width:46ch}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13.5px;margin:0;max-width:360px}
+.facts dt{color:var(--muted)} .facts dd{margin:0}
+.issues{margin:0;padding-left:20px;font-size:13.5px;color:var(--ink);max-width:360px;display:flex;flex-direction:column;gap:4px}
+.issues li::marker{color:var(--bad);font-weight:600}
+
+.phone{width:100%;max-width:360px;height:640px;overflow-y:auto;overflow-x:hidden;background:var(--paper);
+  border:1px solid var(--line);border-radius:22px;position:relative;box-shadow:0 1px 0 var(--line),0 12px 30px -18px rgba(0,0,0,.35)}
+
+/* ---- mock page (shared) ---- */
+.m{padding:18px 16px 48px;color:var(--ink)}
+.m a{color:var(--green);cursor:pointer}
+.m .crumb{font:13px var(--sans);color:var(--muted)} .m .crumb a{text-decoration:underline}
+.m .t{font:600 34px/1.08 var(--serif);margin:6px 0 8px;letter-spacing:-.01em;overflow-wrap:anywhere}
+.m .sub{font:15px/1.45 var(--sans);color:var(--muted);margin:0 0 12px}
+.m .meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
+.badge{display:inline-block;font:12.5px/1.3 var(--sans);background:var(--green-soft);color:var(--green);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.tabs{display:flex;gap:22px;border-bottom:1px solid var(--line);margin-top:18px;overflow-x:auto;scrollbar-width:none;font:600 14.5px var(--sans)}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{padding:10px 0 9px;white-space:nowrap;color:var(--muted)!important;text-decoration:none;border-bottom:2px solid transparent}
+.tabs a.on{color:var(--ink)!important;border-color:var(--ink)}
+.tabs .n{font-weight:400;margin-left:5px}
+.art p{font:16.5px/1.65 var(--serif);margin:0 0 14px}
+.art h3{font:600 22px/1.25 var(--serif);margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line);text-wrap:balance}
+.ico{width:16px;height:16px;flex:none}
+:focus-visible{outline:2px solid var(--green);outline-offset:2px;border-radius:4px}
+
+/* ---- Now (broken) ---- */
+.broken .t,.broken .meta{white-space:nowrap;flex-wrap:nowrap}
+.broken .tabs{overflow:visible;width:520px}
+.broken .cols{display:grid;grid-template-columns:200px 520px;gap:18px;margin-top:20px}
+.oldbtn{display:block;text-align:center;border:1px solid var(--green);border-radius:8px;padding:9px 12px;font:600 15px/1.35 var(--sans);color:var(--green);margin-bottom:12px}
+.oldtoc{border:1px solid var(--line);border-top:3px solid var(--green);padding:12px 14px;font:14px/1.5 var(--sans)}
+.oldtoc .h{font:600 12px var(--sans);letter-spacing:.08em;color:var(--muted);margin-bottom:8px}
+.oldtoc a{display:block;text-decoration:underline;margin-bottom:6px}
+.oldtoc hr{border:0;border-top:1px solid var(--line);margin:10px 0}
+
+/* ---- collapsible contents (A, B) ---- */
+details.toc summary{list-style:none;display:flex;align-items:center;gap:8px;cursor:pointer;font:600 12px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+details.toc summary::-webkit-details-marker{display:none}
+details.toc summary .cnt{font-weight:400;letter-spacing:0;text-transform:none;font-size:13px}
+details.toc summary .chev{margin-left:auto;transition:transform .15s}
+details.toc[open] summary .chev{transform:rotate(180deg)}
+.toclist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;font:14.5px/1.4 var(--sans)}
+.toclist a{display:block;padding:7px 8px;border-radius:6px;color:var(--ink)!important;text-decoration:none}
+.toclist a:hover{background:var(--green-soft)}
+.toclist a.on{background:var(--green-soft);color:var(--green)!important;font-weight:500}
+
+/* A */
+.a-stack{display:flex;flex-direction:column;gap:10px;margin:18px 0 22px}
+.a-btn{display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--green);border-radius:8px;padding:10px 12px;font:600 14.5px var(--sans);text-decoration:none}
+.a-stack details.toc{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:11px 2px}
+.a-stack details.toc[open] .toclist{margin-top:8px}
+
+/* B */
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;font-family:var(--sans);overflow:hidden}
+.card details.toc summary{padding:13px 16px}
+.card .toclist{padding:0 8px 10px}
+.card-h{font:600 12px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:14px 16px 6px}
+.card-f{display:flex;align-items:center;gap:8px;padding:12px 16px;border-top:1px solid var(--line);font:600 14px var(--sans);text-decoration:none;background:var(--paper)}
+.card-f .arr{margin-left:auto}
+.b-wrap{margin:18px 0 22px}
+
+/* C */
+.c-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 12px 4px 10px;font:500 12.5px/1.3 var(--sans);text-decoration:none}
+.c-toc{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;font:14px/1.5 var(--sans);margin:14px 0 20px;color:var(--muted)}
+.c-toc .lab{font:600 11.5px var(--sans);letter-spacing:.08em;text-transform:uppercase;margin-right:2px}
+.c-toc a{text-decoration:underline;text-underline-offset:2px}
+
+/* D */
+.otp{position:sticky;top:0;z-index:3;background:var(--paper);margin:0 -16px 18px;padding:0 16px;border-bottom:1px solid var(--line);font-family:var(--sans)}
+.otp-row{display:flex;align-items:center;gap:8px;min-height:46px}
+.otp-btn{display:flex;align-items:center;gap:8px;flex:1;min-width:0;background:none;border:0;padding:8px 0;font:14px var(--sans);color:var(--ink);cursor:pointer;text-align:left}
+.otp-btn .lab{font-weight:600;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);flex:none}
+.otp-btn .cur{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--green);font-weight:500}
+.otp-btn .chev{flex:none;transition:transform .15s}
+.otp-btn[aria-expanded="true"] .chev{transform:rotate(180deg)}
+.otp-read{display:grid;place-items:center;width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--green);flex:none}
+.otp-sheet{padding:4px 0 12px}
+.d-hint{font:12.5px var(--sans);color:var(--muted);text-align:center;margin:-8px 0 16px}
+
+/* E */
+.e-row{display:flex;justify-content:space-between;align-items:center;gap:12px;font:13.5px var(--sans);color:var(--muted);margin:14px 0 18px}
+.e-row a{display:inline-flex;align-items:center;gap:6px;font-weight:600;text-decoration:none}
+
+/* desktop */
+.desk-sec{display:flex;flex-direction:column;gap:12px}
+.desk{height:600px;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px -18px rgba(0,0,0,.35)}
+.desk .m{width:1040px;padding:28px 44px 60px}
+.desk .t{font-size:46px}
+.desk .cols{display:grid;grid-template-columns:250px minmax(0,1fr);gap:44px;margin-top:26px}
+.desk aside{position:sticky;top:24px;align-self:start}
+.desk .art{max-width:66ch}
+.desk .art p{font-size:17.5px}
+/* B card: larger, typography matched to the article column */
+.card{font-family:var(--serif);border-radius:8px}
+.card details.toc summary,.card-h{font:600 20px/1.25 var(--serif);letter-spacing:0;text-transform:none;color:var(--ink);padding:16px 18px 10px;margin:0 18px 0 0}
+.card details.toc summary{padding:16px 18px 14px;margin:0}
+.card details.toc[open] summary{border-bottom:1px solid var(--line);margin:0 18px;padding:16px 0 10px}
+.card details.toc summary .cnt{font:400 15px var(--serif);color:var(--muted)}
+.card-h{border-bottom:1px solid var(--line);margin:0 18px;padding:16px 0 10px}
+.card .toclist{padding:8px 8px 12px;font:16.5px/1.45 var(--serif)}
+.card .toclist a{padding:9px 10px}
+.card-f{font:600 16px/1.35 var(--serif);padding:14px 18px;gap:10px}
+.card-f .ico{width:18px;height:18px}
+.desk .cols{grid-template-columns:300px minmax(0,1fr)}
+.desk .card .toclist{font-size:17px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="brief">
+    <h1>Biography sidebar: five ways to fix it</h1>
+    <p>Each phone below is 360px wide and scrolls on its own. The text is sample copy, and the styling copies your site's cream, green and serif look so the options are easy to compare. Tap the Contents rows and the bar in option D to try them.</p>
+    <div class="rec"><b>Recommended:</b> B on phones, the same card as a sticky left column on desktop (shown at the bottom), plus the E rule: hide the contents list when a biography has fewer than 4 sections.</div>
+  </header>
+
+  <div class="grid">
+    <section class="opt">
+      <div class="opt-h"><span class="chip bad">Now</span><h2>Current layout</h2></div>
+      <div class="phone"><div class="m broken" data-mock="now"></div></div>
+      <ol class="issues">
+        <li>The two-column layout doesn't stack, so the article is clipped to a sliver.</li>
+        <li>The title, badge and tabs run off the right edge.</li>
+        <li>The reader button wraps to two lines and sits apart from the contents card.</li>
+        <li>The card has a heavy top border and faint borders on the other sides.</li>
+        <li>Connections, Works and See also repeat the tabs.</li>
+      </ol>
+    </section>
+
+    <section class="opt">
+      <div class="opt-h"><span class="chip">A</span><h2>Stack and collapse</h2></div>
+      <p>The sidebar moves above the article. The reader button fits on one line and the contents list is collapsed by default.</p>
+      <div class="phone"><div class="m" data-mock="a"></div></div>
+      <dl class="facts"><dt>Effort</dt><dd>CSS media query plus a &lt;details&gt; tag</dd><dt>Trade-off</dt><dd>Two separate elements still push the article down</dd></dl>
+    </section>
+
+    <section class="opt">
+      <div class="opt-h"><span class="chip">B</span><h2>One combined card</h2></div>
+      <p>The contents list and the reader link share one card with even borders. Links that repeat the tabs are removed.</p>
+      <div class="phone"><div class="m" data-mock="b"></div></div>
+      <dl class="facts"><dt>Effort</dt><dd>CSS plus a small template change</dd><dt>Trade-off</dt><dd>The reader link is less prominent than a button</dd></dl>
+    </section>
+
+    <section class="opt">
+      <div class="opt-h"><span class="chip">C</span><h2>Reader in the header</h2></div>
+      <p>"Read in reader" becomes a small pill beside the period badge. The contents list shrinks to one line of links.</p>
+      <div class="phone"><div class="m" data-mock="c"></div></div>
+      <dl class="facts"><dt>Effort</dt><dd>Template change, no JavaScript</dd><dt>Trade-off</dt><dd>A one-line list gets long when a biography has many sections</dd></dl>
+    </section>
+
+    <section class="opt">
+      <div class="opt-h"><span class="chip">D</span><h2>Sticky "On this page" bar</h2></div>
+      <p>A thin bar stays pinned under the tabs and shows the section you are reading. Tap it to jump to another section. The book icon opens the reader.</p>
+      <div class="phone" id="phone-d"><div class="m" data-mock="d"></div></div>
+      <dl class="facts"><dt>Effort</dt><dd>About 30 lines of JavaScript for tracking the current section</dd><dt>Trade-off</dt><dd>Most work; pays off on long biographies</dd></dl>
+    </section>
+
+    <section class="opt">
+      <div class="opt-h"><span class="chip">E</span><h2>No contents on short pages</h2></div>
+      <p>With only two sections, the list is skipped. One quiet row keeps the reader link and the article starts right away.</p>
+      <div class="phone"><div class="m" data-mock="e"></div></div>
+      <dl class="facts"><dt>Effort</dt><dd>One condition in the template: count headings &ge; 4</dd><dt>Trade-off</dt><dd>Works as a rule alongside A–D, not as a design on its own</dd></dl>
+    </section>
+  </div>
+
+  <section class="desk-sec">
+    <div class="opt-h"><span class="chip">B</span><h2>Recommended card on desktop</h2></div>
+    <p style="margin:0;color:var(--muted);font-size:14px;max-width:70ch">The same card becomes a sticky left column. Scroll inside the frame; the card stays in view and highlights the current section. On narrow screens, scroll the frame sideways.</p>
+    <div class="desk" id="desk"><div class="m" data-mock="desk"></div></div>
+  </section>
+</div>
+
+<script>
+const book='<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>';
+const chev='<svg class="ico chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+const arrow='<svg class="ico arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+
+const head=(extra='')=>`
+<div class="crumb"><a>Authors</a> › Imran N. Hosein</div>
+<h2 class="t">Imran N. Hosein</h2>
+<p class="sub">Islamic scholar and author on eschatology and the modern world</p>
+<div class="meta"><span class="badge">1947–1979 · Revival &amp; Independence</span>${extra}</div>`;
+const tabs=`<nav class="tabs"><a class="on">Biography</a><a>Connections<span class="n">2</span></a><a>Works<span class="n">9</span></a><a>See also</a></nav>`;
+const secs=[['intro','Introduction'],['thought','Thought and ideas'],['contro','Controversies and criticism']];
+const list=(skipIntro=true)=>`<ul class="toclist">${secs.filter(s=>!skipIntro||s[0]!=='intro').map(([k,l])=>`<li><a data-go="${k}">${l}</a></li>`).join('')}</ul>`;
+const art=`<div class="art">
+<p data-sec="intro">Imran N. Hosein is an Islamic scholar and author whose work centres on eschatology: the signs of the end times described in the Qur'an and hadith, read against modern politics, money and world affairs. Born in Trinidad and Tobago, he trained in Islamic studies and international relations, and has lectured widely across the Muslim world and its diaspora.</p>
+<p>His lectures circulate widely online, and his books have been translated into several languages.</p>
+<h3 data-sec="thought">Thought and ideas</h3>
+<p>His best-known book, <i>Jerusalem in the Qur'an</i> (2002), sets out his reading of the Holy Land's place in Islamic eschatology and links it to events of the twentieth century.</p>
+<p>He has also written on money and economics, arguing against interest-based banking and paper currency and for a return to gold and silver coinage.</p>
+<p>A recurring theme is advice that Muslims build small, self-sufficient communities away from large cities.</p>
+<h3 data-sec="contro">Controversies and criticism</h3>
+<p>Critics, including other Muslim scholars, question his method of matching scriptural prophecies to specific modern states and events, and some of his political positions have drawn public criticism.</p>
+<p>Supporters credit him with bringing classical eschatology to a wide modern audience.</p>
+</div>`;
+
+const mocks={
+  now:`${head()}${tabs}
+    <div class="cols">
+      <aside><a class="oldbtn">📖 Read biography in the reader</a>
+        <div class="oldtoc"><div class="h">▾ CONTENTS</div><a>1 Thought and ideas</a><a>2 Controversies and criticism</a><hr><a>Connections</a><a>Works (9)</a><a>See also</a></div></aside>
+      ${art}
+    </div>`,
+  a:`${head()}${tabs}
+    <div class="a-stack">
+      <a class="a-btn">${book}Read in the reader</a>
+      <details class="toc"><summary>Contents <span class="cnt">· 2 sections</span>${chev}</summary>${list()}</details>
+    </div>${art}`,
+  b:`${head()}${tabs}
+    <div class="b-wrap"><div class="card">
+      <details class="toc"><summary>Contents <span class="cnt">· 2 sections</span>${chev}</summary>${list()}</details>
+      <a class="card-f">${book}Read the full biography in the reader${arrow}</a>
+    </div></div>${art}`,
+  c:`${head(`<a class="c-btn">${book}Read in reader</a>`)}${tabs}
+    <div class="c-toc"><span class="lab">Contents</span><a data-go="thought">Thought and ideas</a>·<a data-go="contro">Controversies and criticism</a></div>${art}`,
+  d:`${head()}${tabs}
+    <div class="otp">
+      <div class="otp-row">
+        <button class="otp-btn" type="button" aria-expanded="false" id="otp-toggle"><span class="lab">On this page</span><span class="cur">Introduction</span>${chev}</button>
+        <a class="otp-read" title="Read in the reader" aria-label="Read in the reader">${book}</a>
+      </div>
+      <div class="otp-sheet" hidden>${list(false)}</div>
+    </div>
+    <p class="d-hint">Scroll this frame: the bar stays pinned and updates.</p>${art}`,
+  e:`${head()}${tabs}
+    <div class="e-row"><span>2 min read</span><a>${book}Open in reader</a></div>${art}`,
+  desk:`${head()}${tabs}
+    <div class="cols">
+      <aside><div class="card"><div class="card-h">On this page</div>${list(false)}<a class="card-f">${book}Read in the reader${arrow}</a></div></aside>
+      ${art}
+    </div>`
+};
+document.querySelectorAll('[data-mock]').forEach(el=>{el.innerHTML=mocks[el.dataset.mock]});
+
+const smooth=matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+function wire(scroller, offset, onChange){
+  const targets=[...scroller.querySelectorAll('[data-sec]')];
+  scroller.querySelectorAll('[data-go]').forEach(a=>{
+    a.tabIndex=0;
+    const go=()=>{const t=scroller.querySelector(`[data-sec="${a.dataset.go}"]`);if(!t)return;
+      const top=t.getBoundingClientRect().top-scroller.getBoundingClientRect().top+scroller.scrollTop-offset;
+      scroller.scrollTo({top,behavior:smooth});};
+    a.addEventListener('click',go);a.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();go();}});
+  });
+  if(!onChange)return;
+  const update=()=>{const base=scroller.getBoundingClientRect().top+offset+8;let cur=targets[0];
+    targets.forEach(t=>{if(t.getBoundingClientRect().top<=base)cur=t});onChange(cur.dataset.sec);};
+  scroller.addEventListener('scroll',update,{passive:true});update();
+}
+document.querySelectorAll('.phone').forEach(p=>{if(p.id!=='phone-d')wire(p,12)});
+
+const pd=document.getElementById('phone-d');
+const tog=document.getElementById('otp-toggle'), sheet=pd.querySelector('.otp-sheet'), cur=pd.querySelector('.cur');
+tog.addEventListener('click',()=>{const open=tog.getAttribute('aria-expanded')!=='true';tog.setAttribute('aria-expanded',open);sheet.hidden=!open;});
+const labels=Object.fromEntries(secs);
+wire(pd,56,k=>{cur.textContent=labels[k];pd.querySelectorAll('.toclist a').forEach(a=>a.classList.toggle('on',a.dataset.go===k));});
+pd.querySelectorAll('.otp-sheet [data-go]').forEach(a=>a.addEventListener('click',()=>{tog.setAttribute('aria-expanded','false');sheet.hidden=true;}));
+
+const dk=document.getElementById('desk');
+wire(dk,24,k=>dk.querySelectorAll('.toclist a').forEach(a=>a.classList.toggle('on',a.dataset.go===k)));
+</script>
+</body>
+</html>
